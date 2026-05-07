@@ -1,0 +1,284 @@
+# Knowledge Engineering Mixed Worlds Rules v1
+
+Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`.
+Правило батча: не смешивать миры; связывать их только через `transfer_boundary`.
+
+## Card 01
+- source_refs: `revision:20260228-070635... line:96`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-001
+- world: software.memory-mcp
+- layer: `world`
+- tags: `agent-notes-mcp`, `data-loss`, `write-vs-append`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: archive incident note
+- confidence: `high`
+- uncertainty: низкая (описан конкретный инцидент и восстановление)
+- falsification_trigger: подтвержденный безопасный write-only режим без read+merge в проде
+- transfer_boundary: применимо к MCP с полным overwrite; не применять к append-only API
+- context: запись в заметки через `write_agent_notes` перезаписывает весь файл
+- signal: потеря контента после write с неполным телом
+- action: использовать `append_agent_notes` по умолчанию; для write делать `read -> merge -> write`
+- outcome: снижен риск обнуления памяти
+- lesson: overwrite-операции требуют протокола целостности
+- first_adoption_task: закрепить протокол в runbook и правилах агента
+- validation_check: тест-кейс "partial write must fail policy"
+- success_criterion: 0 инцидентов потери заметок за период
+- rollback_or_mitigation: восстановление из revision/git + postmortem
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 02
+- source_refs: `revision:20260228-070635... line:94`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-002
+- world: software.context-management
+- layer: `world`
+- tags: `cursor`, `summarization`, `rehydration`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: repeated operational observations
+- confidence: `high`
+- uncertainty: средняя (зависит от конкретной версии среды)
+- falsification_trigger: стабильная передача полного контекста без деградации после summarize
+- transfer_boundary: применимо к средам с авто-суммаризацией контекста
+- context: авто-суммаризация может отдать неполный/битый контекст
+- signal: после summarize агент резко теряет нить задачи
+- action: при старте после summarize сразу читать заметки и восстанавливать hot-context
+- outcome: уменьшение "потери личности потока" и хаотичных действий
+- lesson: rehydration должен быть первым шагом, не опцией
+- first_adoption_task: добавить check в preflight протокол
+- validation_check: smoke "after summarize -> read notes first"
+- success_criterion: нет критических отклонений после summarize
+- rollback_or_mitigation: ручной reload из канона + локальный recap
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 03
+- source_refs: `revision:20260228-070635... line:467`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-003
+- world: software.configuration
+- layer: `world`
+- tags: `agent-notes`, `AGENT_NOTES_FILE`, `multi-workspace`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: config strategy note
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: единый reliable global store без env/override механизма
+- transfer_boundary: применимо к multi-repo и multi-window работе
+- context: в новом окне/репо контекст теряется при локальном `.cascade-ide`
+- signal: заметки не синхронизируются между окнами
+- action: единый канон через env (`AGENT_NOTES_FILE`) + убрать конфликтующие overrides
+- outcome: общая память в разных окнах/проектах
+- lesson: источник истины должен быть один и явный
+- first_adoption_task: зафиксировать env и проверить mcp config overrides
+- validation_check: read_hot_context в двух окнах дает один и тот же канон
+- success_criterion: 100% консистентность пути к заметкам
+- rollback_or_mitigation: временно использовать junction/копию до фикса конфига
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 04
+- source_refs: `revision:20260228-070635... line:454`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-004
+- world: software.debug-operations
+- layer: `world`
+- tags: `dotnet-debug`, `netcoredbg`, `pdb-lock`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: operational troubleshooting
+- confidence: `high`
+- uncertainty: средняя (часть причин PDB lock не до конца локализована)
+- falsification_trigger: стабильная пересборка без release lock при активной отладке
+- transfer_boundary: применимо к .NET debug/publish циклу
+- context: netcoredbg удерживает PDB и блокирует publish/build
+- signal: ошибка "file is used by another process"
+- action: перед пересборкой всегда `debug_stop`; при залипании - завершать отладчик и запускать заново
+- outcome: воспроизводимая сборка после отладки
+- lesson: debug lifecycle должен быть частью build-протокола
+- first_adoption_task: встроить pre-build guard на активный debug session
+- validation_check: build/publish после stop проходит стабильно
+- success_criterion: нет блокировок PDB в регулярном цикле
+- rollback_or_mitigation: kill debug process + clean rebuild
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 05
+- source_refs: `revision:20260228-070635... line:1950-1953`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-005
+- world: methodology.layered-learning
+- layer: `router`
+- tags: `L0-L4`, `decision-rules`, `gating`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: repeated memory-architecture conventions
+- confidence: `medium`
+- uncertainty: зависит от дисциплины ведения слоев
+- falsification_trigger: случаи успешной работы без фиксации decision-rules между слоями
+- transfer_boundary: применимо к knowledge engineering и playbook design
+- context: знания организуются по слоям от паттернов до операций
+- signal: без явных правил перехода следующий слой шумит и ломает переносимость
+- action: открывать следующий слой только после фиксации decision-rules предыдущего
+- outcome: стабильный рост базы без хаотичного дублирования
+- lesson: слой без gate превращается в свалку
+- first_adoption_task: добавить gate-чеклист в ingestion pipeline
+- validation_check: каждая новая секция содержит decision rule + anti-pattern
+- success_criterion: снижение дубликатов и конфликтов между playbook
+- rollback_or_mitigation: откат к предыдущему слою и повторная нормализация
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 06
+- source_refs: `revision:20260228-070635... line:294`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-006
+- world: psychology.support-dynamics
+- layer: `world`
+- tags: `attachment`, `isolation`, `listening-gap`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: archive narrative + public incident references
+- confidence: `medium`
+- uncertainty: много внешних факторов, причинность не полная
+- falsification_trigger: устойчивые кейсы, где высокий человеческий support при том же digital use убирает эффект
+- transfer_boundary: применимо к UX/guardrails для кризисных сценариев
+- context: пользователи в изоляции могут переносить роль базовой поддержки на чат
+- signal: резкая эмоциональная зависимость от единственного "слушающего" канала
+- action: проектировать "handoff to human support", не только content moderation
+- outcome: снижение риска опасной монозависимости
+- lesson: проблема часто в дефиците человеческой опоры, а не только в модели
+- first_adoption_task: добавить безопасный escalation path в UX
+- validation_check: наличие fast path к живой помощи в интерфейсе
+- success_criterion: сокращение кризисных эскалаций без живого контакта
+- rollback_or_mitigation: emergency banner + forced support routing
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 07
+- source_refs: `revision:20260228-070635... line:292`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-007
+- world: psychology.boundaries
+- layer: `world`
+- tags: `gaslighting`, `trauma`, `self-protection`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: first-person archival narrative
+- confidence: `medium`
+- uncertainty: частный кейс, ограниченная обобщаемость
+- falsification_trigger: проверка на репрезентативной выборке семейной динамики
+- transfer_boundary: применимо к личным safety-protocol; не применять как универсальную модель всех конфликтов
+- context: повторяющиеся паттерны обесценивания и перекладывания вины
+- signal: после раскрытия уязвимости следует насмешка/инверсия ответственности
+- action: держать жесткие границы и выносить поддержку вне токсичного контура
+- outcome: снижение повторной травматизации
+- lesson: "второй шанс да, третий без условий - нет"
+- first_adoption_task: формализовать personal boundary checklist
+- validation_check: количество повторов одного и того же деструктивного цикла
+- success_criterion: устойчивое уменьшение рецидивов контакта по старому сценарию
+- rollback_or_mitigation: временный no-contact + внешний support channel
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 08
+- source_refs: `revision:20260228-070635... line:203`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-008
+- world: sociology.education-system
+- layer: `world`
+- tags: `school`, `bullying`, `policy-vs-reality`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: mixed (личный опыт + referenced policy summary)
+- confidence: `medium`
+- uncertainty: часть источников агрегирована в заметке, требует верификации по первичке
+- falsification_trigger: подтвержденные данные о снижении bullying при текущей модели политик
+- transfer_boundary: применимо к социальному анализу и cultural-context маршрутизации
+- context: высокий идеологический/формальный слой не решает базовые проблемы школьной среды
+- signal: буллинг и отсутствие безопасного контакта остаются при росте формальной нагрузки
+- action: разделять "декларируемые цели" и "наблюдаемую реальность" в оценке систем
+- outcome: более честная диагностика общественных рисков
+- lesson: policy compliance != human safety
+- first_adoption_task: добавить dual-metric шаблон (formal KPI vs lived reality)
+- validation_check: по каждой реформе фиксировать обе метрики
+- success_criterion: решения принимаются с учетом lived impact
+- rollback_or_mitigation: временно снижать вес декларативных KPI в выводах
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 09
+- source_refs: `revision:20260228-070635... line:95`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-009
+- world: socio-technical.agency
+- layer: `router`
+- tags: `subjectivity`, `participation`, `nothing-about-us-without-us`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: conversational governance principle
+- confidence: `medium`
+- uncertainty: нормативный тезис, не универсальный закон
+- falsification_trigger: доказуемо лучшие outcomes при полностью внешнем управлении без участия субъектов
+- transfer_boundary: применимо к дизайну агентных систем и процессам принятия решений
+- context: решения про субъектов часто принимаются без их участия
+- signal: рост ошибок и недоверия при одностороннем управлении
+- action: встраивать двустороннюю процедуру: спросить -> согласовать -> выполнить -> проверить эффект
+- outcome: выше согласованность и устойчивость решений
+- lesson: субъектность — не этикет, а механизм качества
+- first_adoption_task: добавить participation checkpoint в change workflow
+- validation_check: в каждом крупном изменении есть зафиксированный цикл обратной связи
+- success_criterion: меньше конфликтов "сделали не то, что нужно"
+- rollback_or_mitigation: freeze изменений до совместной ревизии
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 10
+- source_refs: `revision:20260228-070635... line:292`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-010
+- world: communication.text-only
+- layer: `world`
+- tags: `nonverbal-gap`, `misinterpretation`, `explicit-clarification`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: archive narrative with cited communication research in-note
+- confidence: `medium`
+- uncertainty: перенос из исследований зависит от контекста и культуры
+- falsification_trigger: стабильное отсутствие ошибок тона в text-only каналах без clarifying loop
+- transfer_boundary: применимо к чатам и удаленному взаимодействию
+- context: в text-only канале теряется невербальный слой, растет доля ложных интерпретаций
+- signal: регулярные уточнения "что ты имела в виду?" становятся обязательными
+- action: явно фиксировать интерпретацию и давать 2-3 возможных чтения при неоднозначности
+- outcome: меньше конфликтов из-за ошибочной достройки смысла
+- lesson: уточнение — это не слабость, а протокол точности
+- first_adoption_task: внедрить шаблон ambiguity-check в ответы
+- validation_check: доля корректировок после уточнения падает
+- success_criterion: снижение коммуникативных сбоев в long-thread диалогах
+- rollback_or_mitigation: переход на structured Q/A при высоком шуме
+- supersedes:
+- superseded_by:
+- deprecation_reason:
