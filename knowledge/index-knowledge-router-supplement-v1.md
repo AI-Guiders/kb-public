@@ -137,6 +137,26 @@
 - **Цепочки миров:** `software.php` ↔ `software.laravel` / `software.web-backend`; отдельно `software.wordpress`, `software.drupal`, `software.symfony` — подменять друг друга нельзя.
 <!-- /section:router-php-laravel -->
 
+<!-- section:router-javascript -->
+
+
+## JavaScript / ECMAScript language core
+
+- **Порядок загрузки:** `status -> playbook -> kb` (см. Domain Entry Map — домен **JavaScript (ECMAScript)**). Playbook операционного слоя: **`playbook-javascript-operational-v1.md`** (мост **fundamentals → operational** и контракты CI/репо).
+- **Структура:** **fundamentals** — четыре карточки языка по `knowledge/index-knowledge-javascript-cluster-v1.md` § fundamentals; **operational** — `knowledge/kb-javascript-operational-ecosystem-v1.md` § operational (или сразу при чисто npm/CSP/tooling вопросе).
+- **Полный проход по миру `software.javascript`:** index § фаза A → фаза B + `playbook-javascript-operational-v1.md` § Full pass — **не грузить все kb одновременно**.
+- **Точечные запросы (fundamentals):**
+  - редакции ECMA-262, ESM/CommonJS/`import.meta`, транспилятор vs полифилл; **движки и хосты** → `knowledge/kb-javascript-ecmascript-and-modules-v1.md`;
+  - принуждения типов, `===`, UTF-16, TDZ, замыкания, функции/стрелки/`this` → `knowledge/kb-javascript-types-coercion-and-scope-v1.md`;
+  - прототипы, `class`/private `#`, итерируемость → `knowledge/kb-javascript-objects-prototypes-and-classes-v1.md`;
+  - Promises, async/await, микро/макрозадачи, AbortSignal → `knowledge/kb-javascript-async-and-event-loop-v1.md`.
+- **Operational:** lockfile/npm/semver, ESLint/бандлеры, тест‑раннеры, CSP/XSS/`eval`, audit → **`knowledge/kb-javascript-operational-ecosystem-v1.md`**. Старый путь `kb-javascript-runtime-tooling-and-security-baseline-v1.md` — только stub с перенаправлением.
+- **Перед углублением:** `knowledge/status-javascript-v1.md` + `knowledge/playbook-javascript-operational-v1.md`.
+- **TypeScript** — отдельная линия; **не смешивать** с этим кластером без явного указания.
+- **RegExp (flavor JS):** `regex-playbook.md` → `kb-regex-flavors-practice-v1.md` § JavaScript.
+- **Связь:** `kb-engineering-evidence-v1.md`; DOM/Web API — MDN/платформа, не этот кластер.
+<!-- /section:router-javascript -->
+
 <!-- section:router-avalonia-ui -->
 
 

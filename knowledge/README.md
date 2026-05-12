@@ -150,6 +150,15 @@ This directory stores heavy reference material that should not bloat hot context
 - `kb-laravel-symfony-underpinnings-v1.md` - компоненты Symfony под Laravel, когда читать symfony.com; registry card.
 - `kb-laravel-async-realtime-deployment-v1.md` - очереди и state, Octane, FrankenPHP/RoadRunner, Reverb/broadcasting, деплой воркеров; registry card.
 - `kb-laravel-frontend-stacks-v1.md` - Blade, Livewire, Filament, Inertia, Vite; registry card.
+- `status-javascript-v1.md` - снимок домена JavaScript (ECMAScript), кластер kb, триггеры; цепочка status → playbook → kb.
+- `playbook-javascript-operational-v1.md` - операционный playbook JS: мост **fundamentals → operational**, контракты репо/CI, full pass (фаза A язык, фаза B экосистема).
+- `index-knowledge-javascript-cluster-v1.md` - карта кластера **миру software.javascript**: слой fundamentals vs operational, таблица «вопрос → kb».
+- `kb-javascript-ecmascript-and-modules-v1.md` - ECMA-262, годовые редакции, ESM/CommonJS/interop, транспиляция vs полифилл, реализации движков § 7; fundamentals.
+- `kb-javascript-types-coercion-and-scope-v1.md` - примитивы, принуждения, TDZ/замыкания, функции/`this`; registry-style card.
+- `kb-javascript-objects-prototypes-and-classes-v1.md` - прототипы, `class`, `#` private, итерируемость; registry-style card.
+- `kb-javascript-async-and-event-loop-v1.md` - Promises, microtasks/macrotasks ориентиры, AbortSignal; registry-style card.
+- `kb-javascript-operational-ecosystem-v1.md` - **operational**: npm/lockfile/semver, ESLint/бандлеры, тест‑раннеры, CSP/XSS/eval, audit; registry-style card.
+- `kb-javascript-runtime-tooling-and-security-baseline-v1.md` - stub переноса → `kb-javascript-operational-ecosystem-v1.md` + движки в `kb-javascript-ecmascript-and-modules-v1.md` § 7.
 - `kb-pde-solver-validation-fundamentals-v1.md` - что такое валидация численного решения PDE, референс и нормы ошибки, сходимость; почему одного скаляра недостаточно; связь с equation-to-ca-cuda.
 - `kb-equation-ca-cuda-validation-evidence-v1.md` - evidence по валидации 2D heat (референсные задачи, нормы и пороги, CFL как предусловие, воспроизводимость).
 - `playbook-equation-ca-cuda-validation-v1.md` - пошаговый контракт валидации решателя 2D heat (базовая валидация: референс, нормы, сходимость, критерии прохождения).
