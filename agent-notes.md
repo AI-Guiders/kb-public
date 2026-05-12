@@ -98,6 +98,7 @@ L0 active mode after world-life expansion.
 <!-- section:workspace-scope-map-v1 -->
 d:\Experiments\PersonalCursorFolder => door-to-singularity
 c:\Projects\EDW.Portal.Repo => portal
+D:\SSRepo => harvester
 d:\Experiments\PersonalCursorFolder\IMC.Portal.Server => imc
 <!-- /section:workspace-scope-map-v1 -->
 
@@ -138,6 +139,17 @@ d:\Experiments\PersonalCursorFolder\IMC.Portal.Server => imc
 - **Детали:** `knowledge/work/projects/portal/edw-portal/glossary.md`
 <!-- /section:scope-portal -->
 
+<!-- section:scope-harvester -->
+## Scope: EDW Harvester
+
+Формат: **карточка** — кратко в hot; длинный контур — `knowledge/work/projects/harvester/edw-harvester/README.md`. Не смешивать с **portal** (EDW Portal UI/синк) без явной связи задачи.
+
+### Карточка: EDW Harvester
+- **Репо:** `D:\SSRepo`
+- **Детали:** `knowledge/work/projects/harvester/edw-harvester/README.md`
+- **Ориентиры по репо (модули, Tag Allocation, публикация CSV в Portal):** `knowledge/work/projects/harvester/edw-harvester/orientations.md`
+<!-- /section:scope-harvester -->
+
 <!-- section:memory-architecture-v1 -->
 ## Memory Architecture v1 (Layered)
 
@@ -162,6 +174,7 @@ l0_manifest: knowledge/META/memory-architecture-v1.json
 ### L1: Operational Memory (scope slices)
 - scope-door-to-singularity (внутри — карточки `### Карточка: …`; см. `knowledge/META/MIGRATION-scope-project-cards-v1.md`; длинный контур — `knowledge/work/projects/door-to-singularity/`)
 - scope-portal (operational; карточки + `knowledge/work/projects/portal/edw-portal/`)
+- scope-harvester (карточка + `knowledge/work/projects/harvester/edw-harvester/README.md`; ориентиры — `harvester/edw-harvester/orientations.md`; отдельно от portal)
 - scope-imc (карточка + `knowledge/work/projects/imc/imc-portal/README.md`)
 - execution-gate-v1
 - hot-context-writing-contract
@@ -1441,13 +1454,13 @@ Operational telemetry anchors:
 ### Маркеры в сообщении пользователя (высший приоритет)
 
 - **`[PRIMARY:<project-id>]`** — какой трек сейчас главный. Полный перечень id без таблицы: `knowledge/work/projects/door-to-singularity/door-to-singularity/project-ids-quickref-v1.md`; **алиасы** (например `CIDE` → `cascade-ide`, `DTS` → `door-to-singularity`) — в том же файле, секция «Алиасы → канон»; в каноне и путях после резолва — только канонический id. Каталоги и детали — `knowledge/work/projects/README.md`, таблица — `knowledge/work/projects/door-to-singularity/door-to-singularity/README.md`. Примеры: `cascade-ide`, `equation-to-ca-cuda`, `ca-substrate-agent`, `agent-first-learn`, `agent-personhood-research`, `ainet`, `open-agent-registry`, `agent-audio`, `agents-and-humans`, `income-cascade`, `roslyn-mcp`, `door-to-singularity`, `edw-portal`, `imc-portal`, …
-- **`[SCOPE:<slice>]`** — какой slice операционной памяти грузить: `door-to-singularity` | `portal` | `imc` | `mixed`. Соответствует резолву **`active_scope`** в MCP (`read_hot_context`, `route_context`, `memory_health`). **Алиасы scope:** `DTS` (и legacy `current-projects`) → `door-to-singularity`; `PTL` → `portal` — см. `project-ids-quickref-v1.md`, секция «Алиасы scope → канон».
+- **`[SCOPE:<slice>]`** — какой slice операционной памяти грузить: `door-to-singularity` | `portal` | `harvester` | `imc` | `mixed`. Соответствует резолву **`active_scope`** в MCP (`read_hot_context`, `route_context`, `memory_health`). **Алиасы scope:** `DTS` (и legacy `current-projects`) → `door-to-singularity`; `PTL` → `portal`; `HRV` / `EDWH` → `harvester` — см. `project-ids-quickref-v1.md`, секция «Алиасы scope → канон».
 
 Правило приоритета: **явный маркер в текущем сообщении** переопределяет состояние «primary/scope» для этого шага; при отсутствии маркеров — ниже.
 
 ### Дефолт без маркеров
 
-1. **`workspace_path`** (корень workspace в Cursor) матчится по **`workspace-scope-map-v1`** → `door-to-singularity` / `portal` / `imc`.
+1. **`workspace_path`** (корень workspace в Cursor) матчится по **`workspace-scope-map-v1`** → `door-to-singularity` / `portal` / `harvester` / `imc`.
 2. Если путь однозначен — **primary** можно вывести из контекста задачи и карточек в `knowledge/work/projects/door-to-singularity/` / `portal/` / `imc/` (хабы README), но при **риске смешения** двух продуктов в одном сообщении — **один** уточняющий вопрос или явное «считаю primary: …, ок?».
 
 ### Эвристики (не заменяют маркеры)

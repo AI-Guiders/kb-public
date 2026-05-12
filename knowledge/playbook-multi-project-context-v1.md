@@ -64,7 +64,7 @@
 
 Короткие фразы улучшают сходимость: «сейчас primary: `cascade-ide`»; «остальные MCP в реестре не трогаю, если не скажешь».
 
-**Маркеры в чате (как WORK/HUMAN):** см. секцию **`project-switch-protocol-v1`** в `agent-notes.md` — `[PRIMARY:<project-id>]`, `[SCOPE:door-to-singularity|portal|imc|mixed]`; дефолт из `workspace-scope-map-v1`, явный маркер в сообщении важнее. Для scope допустимы алиасы **`DTS`** и legacy **`current-projects`** → `door-to-singularity`; **`PTL`** → `portal` (`project-ids-quickref-v1.md`, «Алиасы scope»).
+**Маркеры в чате (как WORK/HUMAN):** см. секцию **`project-switch-protocol-v1`** в `agent-notes.md` — `[PRIMARY:<project-id>]`, `[SCOPE:door-to-singularity|portal|harvester|imc|mixed]`; дефолт из `workspace-scope-map-v1`, явный маркер в сообщении важнее. Для scope допустимы алиасы **`DTS`** и legacy **`current-projects`** → `door-to-singularity`; **`PTL`** → `portal`; **`HRV`** / **`EDWH`** → `harvester` (`project-ids-quickref-v1.md`, «Алиасы scope»).
 
 **Алиасы `project-id`:** необязательные сокращения (`CIDE`, `AFL`, …) — таблица «Алиасы → канон» в `knowledge/work/projects/door-to-singularity/door-to-singularity/project-ids-quickref-v1.md`. Агент **нормализует** алиас к канону перед выбором карточки и путей; в долговечные записи в `knowledge/` писать только канонический id.
 

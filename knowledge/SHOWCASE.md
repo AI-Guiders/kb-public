@@ -47,8 +47,11 @@
 
 ## Куда идти дальше
 
+Если у тебя **только публичная сборка kb-public** (нет полного репозитория agent-notes): деревьев **`knowledge/work/`** и **`knowledge/personal/`** в архиве **нет** по дизайну, а внутренний **`PUBLISHING.md`** туда тоже **не входит**. Чтобы всё равно понять, **что это за слои и зачем**, открой **`kb-one-pager-structure-and-protocols-v1.md`** — он **намеренно включён в kb-public** именно для таких потребителей.
+
 | Цель | Файл |
 |------|------|
+| **One-pager:** устройство KB, зачем, как работать, `[HUMAN]`/`[WORK]`, `[PRIMARY]`/`[SCOPE]` | `kb-one-pager-structure-and-protocols-v1.md` |
 | Навигация, порядок загрузки, baseline | `index-knowledge-router-v1.md` |
 | Доменные маршруты (секции `router-*`, learn-basics-when-stuck) | `index-knowledge-router-supplement-v1.md` |
 | Доступ к KB через MCP: handshake, деградация, типовые сбои | `runbook-kb-mcp-access-v1.md` |
@@ -69,4 +72,4 @@
 
 **Для внешней аудитории:** TPM / федерация / манифест (`META/tpm-node-manifest-draft-v1.md`) — **черновик, не прод.** Режим до запуска TPM-узла — Transition Mode (см. `integrity-post-spec-v1.md` §7). Наличие файлов в репо **не означает** TPM-совместимость; не считать текущую реализацию production-ready.
 
-Версия: v1.6. 2026-04-11.
+Версия: v1.8. 2026-05-11. Абзац для читателя только kb-public: `work/`/`personal` отсутствуют ожидаемо; one-pager входит в публичный бандл намеренно.
