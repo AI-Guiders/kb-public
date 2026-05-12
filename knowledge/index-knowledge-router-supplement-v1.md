@@ -253,7 +253,7 @@
 
 ## Multi-project workspace / rational context
 
-- **При запросах о множестве репозиториев, выборе проекта, смешении контекстов между MCP и IDE, рациональном использовании памяти между проектами, «куда смотреть» в домашнем workspace:** загружать `knowledge/playbook-multi-project-context-v1.md` — первичный `project-id`, порядок навигации (хаб → карточка `door-to-singularity` → README репо), что не подмешивать без зависимости, кластеры связанных репо, граница hot-context и длинного KB. Не перечислять все проекты «на всякий случай». Явное переключение primary/scope в чате — секция **`project-switch-protocol-v1`** в `agent-notes.md` (маркеры `[PRIMARY:…]`, `[SCOPE:…]`).
+- **При запросах о множестве репозиториев, выборе проекта, смешении контекстов между MCP и IDE, рациональном использовании памяти между проектами, «куда смотреть» в домашнем workspace, заведении нового workspace `scope`:** загружать `knowledge/playbook-multi-project-context-v1.md` — первичный `project-id`, порядок навигации (хаб → карточка `door-to-singularity` → README репо), §6c (жизненный цикл `scope`), что не подмешивать без зависимости, кластеры связанных репо, граница hot-context и длинного KB. Не перечислять все проекты «на всякий случай». Явное переключение primary/scope в чате — маркеры `[PRIMARY:…]`, `[SCOPE:…]`; полный текст протокола у автора канона может быть только в hot `agent-notes.md` ниже `<!-- public-cut -->` — тогда опираться на этот плейбук и `kb-one-pager-structure-and-protocols-v1.md`.
 <!-- /section:router-multi-project-context -->
 
 <!-- section:router-session-summary -->
@@ -269,7 +269,7 @@
 
 ## KB: доступ через MCP (agent-notes)
 
-- **При сбоях чтения `knowledge/` через agent-notes MCP, вопросах про `AGENT_NOTES_CANON_PATH`, после Reload Window, рассинхроне «MCP подключён» vs «агент не видит тулы», или когда нужно явно зафиксировать поведение «контур чтения канона недоступен»:** загружать `knowledge/runbook-kb-mcp-access-v1.md`. Не дублирует L0 baseline; только операционный слой чтения файлов канона. Связь: `SHOWCASE.md`, `agent-memory-and-operating-principles-v1.md` §7a, `playbook-multi-project-context-v1.md` §6.
+- **При сбоях чтения `knowledge/` через agent-notes MCP, вопросах про `AGENT_NOTES_CANON_PATH`, после Reload Window, рассинхроне «MCP подключён» vs «агент не видит тулы», или когда нужно явно зафиксировать поведение «контур чтения канона недоступен»:** загружать `knowledge/runbook-kb-mcp-access-v1.md`. Не дублирует L0 baseline; только операционный слой чтения файлов канона. Связь: `SHOWCASE.md`, `agent-memory-and-operating-principles-v1.md` §7a, `playbook-multi-project-context-v1.md` §6–§6c.
 <!-- /section:router-kb-mcp-access -->
 
 <!-- section:router-captain-parallel-agents -->

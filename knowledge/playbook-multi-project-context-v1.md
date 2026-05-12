@@ -10,6 +10,7 @@
 - `knowledge/agent-memory-and-operating-principles-v1.md` — route_context, нечёткий поиск, один шаг до финала.
 - Хаб workspace: `knowledge/work/projects/door-to-singularity/door-to-singularity/README.md`.
 - Реестр решений: `knowledge/work/projects/door-to-singularity/solutions-registry.md`.
+- **Жизненный цикл `scope` (создание, где хранить, публикация):** §6c ниже.
 
 ---
 
@@ -88,6 +89,28 @@
 
 ---
 
+## 6c. Workspace `scope`: зачем, когда заводить новый, где хранить
+
+**`scope`** (строка **`active_scope`** / маркер **`[SCOPE:…]`**) — это **имя среза** оперативной памяти L1 для **отдельного корня** или семейства репозиториев на машине: чтобы MCP и агент подставляли правильный hot-context и не смешивали, например, домашний монорепо с отдельным корнем портала. Это **не** замена **`project-id`**: `SCOPE` — «в какой вселенной воркспейса», `PRIMARY` — «какой продукт в фокусе».
+
+### Когда заводить **новый** scope (редко)
+
+- Появился **стабильный** второй (третий…) **корень** workspace или отдельная «линия жизни» репозиториев, которую **нельзя** честно отнести к уже существующему slice без путаницы.
+- Не плодить scope «на каждый чих»: если достаточно нового **`project-id`** внутри уже существующего `work/projects/<scope>/`, новый slice не нужен.
+
+### Где фиксировать (полный канон)
+
+1. **Таблица путей → slice** — в hot **`agent-notes.md`**, секция **`workspace-scope-map-v1`** (у автора канона она должна быть **ниже первого `<!-- public-cut -->`**, чтобы **пути к дискам не попадали в kb-public**). Формат строк: один корень workspace на строку, `=>` и каноническое имя slice.
+2. **Дерево карточек** — каталог **`knowledge/work/projects/<scope>/`** и строка в таблице **`knowledge/work/projects/README.md`** (см. соглашение по колонкам «Путь | Scope | Назначение»).
+3. **Нормализация алиасов slice** в MCP (если используешь agent-notes-mcp) — в коде сервера: новый алиас → тот же канонический slice, что и в протоколе в **`agent-notes.md`** (**`project-switch-protocol-v1`**).
+4. **Краткий указатель в hot** — секции **`scope-*`** в `agent-notes.md`: одна-две строки + ссылка на `work/projects/<scope>/…`, без дублирования длинных путей в нескольких местах.
+
+### Публикация
+
+- **`knowledge/work/`** в kb-public **не входит** (`public-kb.ignore`). Карта путей в hot **под public-cut** — тоже не входит. Внешнему читателю достаточно **механики** из **`knowledge/kb-one-pager-structure-and-protocols-v1.md`** и этого §6c без твоих путей.
+
+---
+
 ## 7. Версия
 
-v1.2. 2026-04-11. Источник: практика workspace PersonalCursorFolder + соглашение о scope `door-to-singularity` (бывш. `current-projects`). Обновление 2026-04: ссылка на `project-switch-protocol-v1`. Обновление 2026-04-02: §6b — проактивные заметки и маршрутизация в карточки. **Обновление 2026-04-11:** §6 — алиасы `project-id` и нормализация к канону (`project-ids-quickref-v1.md`).
+v1.3. 2026-05-12. **Обновление 2026-05-12:** §6c — жизненный цикл workspace `scope`, карта путей под public-cut в `agent-notes.md`. Предыдущее: v1.2. 2026-04-11. Источник: практика workspace PersonalCursorFolder + соглашение о scope `door-to-singularity` (бывш. `current-projects`). Обновление 2026-04: ссылка на `project-switch-protocol-v1`. Обновление 2026-04-02: §6b — проактивные заметки и маршрутизация в карточки. **Обновление 2026-04-11:** §6 — алиасы `project-id` и нормализация к канону (`project-ids-quickref-v1.md`).
