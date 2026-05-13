@@ -63,9 +63,10 @@ def theme_of(entry):
 
 def main():
     import os
-    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    digest_path = os.path.join(base, "digest-engineering-reading-v1.md")
-    kb_path = os.path.join(base, "kb-engineering-evidence-v1.md")
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # knowledge/
+    world = os.path.join(base, "worlds", "software-engineering-evidence")
+    digest_path = os.path.join(world, "digest-engineering-reading-v1.md")
+    kb_path = os.path.join(world, "kb-engineering-evidence-v1.md")
 
     entries = parse_digest(digest_path)
     by_theme = {}

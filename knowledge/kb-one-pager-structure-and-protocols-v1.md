@@ -1,10 +1,10 @@
 # KB (agent-notes): one-pager — устройство, зачем, работа, протоколы
 
-**Версия:** v1.4.2 · **2026-05-12**  
+**Версия:** v1.4.9 · **2026-05-11**  
 
-**Публичная сборка (kb-public):** этот файл **входит в билд** (`knowledge/*.md` без префиксов из `public-kb.ignore`) **намеренно** — чтобы потребители архива понимали модель KB, даже когда в архиве **нет** `work/`, `personal/` и **нет** внутреннего `PUBLISHING.md`: отсутствие этих путей **ожидаемо**, не «сломанная сборка».
+**Публичная сборка (kb-public):** этот файл **входит в билд** (`knowledge/*.md` без префиксов из `public-kb.ignore`) **намеренно** — чтобы потребители архива понимали модель KB, даже когда в архиве **нет** `work/` и `personal/`: отсутствие этих путей **ожидаемо**, не «сломанная сборка». Политика публикации — в **`PUBLISHING.md`** (он **входит** в kb-public); хосты, токены и сценарии пуша — только в полном каноне, в слое **`knowledge/work/`** (в kb-public не копируется).
 
-**Не заменяет** полный канон; это **сжатая карта**. Что доступно **и в kb-public:** `SHOWCASE.md`, `index-knowledge-router-v1.md`, `playbook-multi-project-context-v1.md`, большинство playbook/kb под `knowledge/*.md`. **Только в полном каноне** (репо agent-notes целиком): дерево `knowledge/work/` (карточки `project-id`, `work/projects/README.md`, `kb-purpose.md`, `project-ids-quickref-v1.md` и т.д.) и внутренний `PUBLISHING.md`.
+**Не заменяет** полный канон; это **сжатая карта**. Что доступно **и в kb-public:** `SHOWCASE.md`, **`PUBLISHING.md`**, `index-knowledge-router-v1.md`, `router-operational-baseline-v1.md`, `index-knowledge-router-safety-v1.md`, `index-knowledge-router-maintenance-v1.md`, `worlds/workspace-context/playbook-multi-project-context-v1.md`, большинство playbook/kb под `knowledge/worlds/...` и в корне `knowledge/*.md` (см. `public-kb.ignore`). **Только в полном каноне** (репо agent-notes целиком): дерево `knowledge/work/` (карточки `project-id`, `work/projects/README.md`, `kb-purpose.md`, `project-ids-quickref-v1.md`, внутренний runbook пуша и т.д.).
 
 ---
 
@@ -25,6 +25,8 @@
 | **L2** | Ревизии, evidence, батчи | История и факты, когда одного playbook мало. |
 | **L3** | Роутер (`router-*` секции) | По **триггеру темы** выбирает, какой playbook/kb подтянуть; перенос между «мирами» только через явные границы. |
 
+**Уточнение к L3:** «мирами» здесь имеется в виду **world** в смысле Knowledge Engineering (контуры стека/инструментов, карточки, **`transfer_boundary`**), а **не** slice воркспейса (**scope** / `active_scope` / `work/projects/…`) и **не** тематическая ось роутера (**domain**). Коротко и с контрактом смешивания: **`worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md`**; вход без full load: **`SHOWCASE.md`** (блок про scope / domain / world).
+
 Подробнее и чеклист онбординга: **`SHOWCASE.md`**.
 
 ---
@@ -41,7 +43,7 @@
 - **`knowledge/META/`** — спеки целостности, корень доверия и др.
 - **`agent-notes.md`** — L0-срез + **протоколы** ниже + scope-хабы; **`route_context`** по смыслу ищет здесь.
 
-В **полном каноне** хаб desktop-треков, реестр `.sln` и шпаргалка **`project-id`** лежат под **`knowledge/work/projects/…`** (в kb-public **нет** — см. выше). Читателю только kb-public: ориентируйся на **`playbook-multi-project-context-v1.md`** и сжатое описание протоколов ниже; полные таблицы id — у автора канона в репо.
+В **полном каноне** хаб desktop-треков, реестр `.sln` и шпаргалка **`project-id`** лежат под **`knowledge/work/projects/…`** (в kb-public **нет** — см. выше). Читателю только kb-public: ориентируйся на **`worlds/workspace-context/playbook-multi-project-context-v1.md`** и сжатое описание протоколов ниже; полные таблицы id — у автора канона в репо.
 
 ### `knowledge/work/` — когда появляется и как устроено
 
@@ -52,7 +54,7 @@
 
 ### `knowledge/personal/` — когда появляется и как устроено
 
-- **Зачем:** контент идентифицирующий человека и приватный контекст: личный диалог, имена, эмоциональный/внутренний контекст, внутренние планы, не предназначенные для внешней публикации (в полном каноне критерии совпадают с правилом «ниже **`<!-- public-cut -->`**» в `agent-notes.md` у автора; файл **`PUBLISHING.md`** в kb-public не поставляется).
+- **Зачем:** контент идентифицирующий человека и приватный контекст: личный диалог, имена, эмоциональный/внутренний контекст, внутренние планы, не предназначенные для внешней публикации (в полном каноне критерии совпадают с правилом «ниже **`<!-- public-cut -->`**» в `agent-notes.md` у автора; см. также **`PUBLISHING.md`** в kb-public).
 - **Когда создавать:** как только такой материал **нужно сохранить в канон**, а не только в чат. Если каталога ещё нет — **создать** `knowledge/personal/` (при желании краткий **`README.md`**: «Личный контур. Не публиковать»). Агент при записи личного контента **должен** нацеливать путь сюда, а не в общие публичные `knowledge/*.md`.
 - **Публикация:** **`personal/**`** в **`public-kb.ignore`** — в kb-public **никогда** не входит. Тот, кто форкает или шарит срез KB, **не включает** свой `personal/` в отдаваемый наружу архив/репо.
 
@@ -61,12 +63,12 @@
 ## Как работать с KB (минимальный порядок)
 
 1. **Обзор без OOM:** `SHOWCASE.md` → затем только нужное по ссылкам.
-2. **Навигация и baseline:** `index-knowledge-router-v1.md` → при доменном запросе **`index-knowledge-router-supplement-v1.md`** (секции `router-*`).
+2. **Навигация:** `index-knowledge-router-v1.md` → при нужде **L0 и агент до домена** — `router-operational-baseline-v1.md` → **Safety Checks** при сжатии контекста / давлении / POST — `index-knowledge-router-safety-v1.md` → при доменном запросе **`index-knowledge-router-supplement-v1.md`** (секции `router-*`). Правки структуры роутера и списка `section_id` — **`index-knowledge-router-maintenance-v1.md`**.
 3. **«Почему вообще KB»:** развёрнуто в **`kb-purpose.md`** (только полный канон под `work/…`). В kb-public — смысл слоёв в **`SHOWCASE.md`** и в этом файле.
-4. **MCP недоступен:** не имитировать цитирование канона — явно сказать; чеклист: **`runbook-kb-mcp-access-v1.md`**.
-5. **Нормы кода в репозитории:** **`code-writing-principles-v1.md`**; технический стек конкретного продукта — секция **«Технический контракт»** в карточке **`project-id`**.
+4. **MCP недоступен:** не имитировать цитирование канона — явно сказать; чеклист: **`worlds/knowledge-engineering/runbook-kb-mcp-access-v1.md`**.
+5. **Нормы кода в репозитории:** **`worlds/software-authoring/code-writing-principles-v1.md`**; технический стек конкретного продукта — секция **«Технический контракт»** в карточке **`project-id`**.
 
-Полный протокол мультирепо: **`playbook-multi-project-context-v1.md`**.
+Полный протокол мультирепо: **`worlds/workspace-context/playbook-multi-project-context-v1.md`**.
 
 ---
 
@@ -98,13 +100,13 @@
 
 **Инструменты:** при необходимости MCP получает **`active_scope`** отдельно от workspace path; **`route_context`** типично смотрит **hot** `agent-notes.md`, а playbook и карточки нужно **`read_knowledge_file`**.
 
-Развёрнутые примеры оформления и привычки мультирепо: **`playbook-multi-project-context-v1.md`** (в т.ч. §6c — жизненный цикл `scope`). Полный текст **`project-switch-protocol-v1`** и карта **`workspace-scope-map-v1`** в hot **`agent-notes.md`** у автора канона лежат **ниже первого `<!-- public-cut -->`** и в **kb-public не входят**; для публичного зеркала опирайся на плейбук и **`kb-one-pager-structure-and-protocols-v1.md`**.
+Развёрнутые примеры оформления и привычки мультирепо: **`worlds/workspace-context/playbook-multi-project-context-v1.md`** (в т.ч. §6c — жизненный цикл `scope`). Полный текст **`project-switch-protocol-v1`** и карта **`workspace-scope-map-v1`** в hot **`agent-notes.md`** у автора канона лежат **ниже первого `<!-- public-cut -->`** и в **kb-public не входят**; для публичного зеркала опирайся на плейбук и **`kb-one-pager-structure-and-protocols-v1.md`**.
 
 ---
 
 ## Публикация и границы
 
-- Публичный контур ≠ весь `knowledge/`: у автора канона список исключений — **`knowledge/public-kb.ignore`** (префиксы вроде **`work/`**, **`personal/`**, служебные имена); в архив kb-public они **не попадают**. Дополнительно не копируются файлы с пометкой **«НЕ ПУБЛИКОВАТЬ»** в первой строке. Полный перечень правил редактирует автор в репозитории agent-notes (**`PUBLISHING.md`** — не входит в kb-public).
+- Публичный контур ≠ весь `knowledge/`: у автора канона список исключений — **`knowledge/public-kb.ignore`** (префиксы вроде **`work/`**, **`personal/`**, служебные имена); в архив kb-public они **не попадают**. Дополнительно не копируются файлы с пометкой **«НЕ ПУБЛИКОВАТЬ»** в первой строке. Полный перечень правил — **`PUBLISHING.md`** (входит в kb-public); внутренний runbook пуша — под **`work/`** (в kb-public не входит).
 - **`agent-notes.md`:** в публичную сборку попадает только текст **до** **`<!-- public-cut -->`**; всё ниже — как частный/оперативный hot-слой при экспорте.
 
 ---
@@ -114,10 +116,14 @@
 | Нужно | Файл |
 |--------|------|
 | Анти-OOM обзор | `SHOWCASE.md` |
-| Роутер + Domain Entry Map | `index-knowledge-router-v1.md` |
+| Роутер: карта доменов, порядок | `index-knowledge-router-v1.md` |
+| Safety Checks (контекст, scope, давление, POST, приватность) | `index-knowledge-router-safety-v1.md` |
+| Сопровождение индекса роутера (`router-*`, сплит, kb-public, добавление домена) | `index-knowledge-router-maintenance-v1.md` |
+| L0 и агент до выбора домена (операционный базис роутера) | `router-operational-baseline-v1.md` |
 | Триггеры по темам | `index-knowledge-router-supplement-v1.md` |
-| Мультипроект + куда писать заметки | `playbook-multi-project-context-v1.md` |
+| Мультипроект + куда писать заметки | `worlds/workspace-context/playbook-multi-project-context-v1.md` |
 | Память агента, fuzzy-запросы | `agent-memory-and-operating-principles-v1.md` |
 | Целостность под давлением | `playbook-integrity-under-pressure-v1.md` |
-| Ты **держишь полный репозиторий канона** (author или fork): как собирается kb-public | `PUBLISHING.md`, `public-kb.ignore`; в **выгружаемый** kb-public они **не кладутся** |
+| Ты **держишь полный репозиторий канона** (author или fork): как собирается kb-public | **`PUBLISHING.md`** (входит в kb-public); **`public-kb.ignore`** и runbook пуша — только в полном каноне (`public-kb.ignore` в zip **не** кладётся по дизайну списка исключений) |
 | Полный канон: соглашение `work/projects/<scope>/…` | `work/projects/README.md` (в kb-public **нет**) |
+| Mixed worlds, `transfer_boundary`, поля `world:` | `worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md` |

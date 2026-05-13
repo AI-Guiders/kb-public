@@ -4,7 +4,7 @@
 **Дата:** 2026-04-02  
 **Источник в истории:** `1904d08`, `c1bb96a`, `d5ca6da`, `1994aa8`
 **Supersedes:** —  
-**Extended by:** [004](004-router-supplement-and-l1-pool.md), [005](005-kb-base-cide-bundle.md)
+**Extended by:** [004](004-router-supplement-and-l1-pool.md), [005](005-kb-base-cide-bundle.md), [008](008-workspace-scope-map-hot-mcp-and-public-cut.md)
 
 ---
 

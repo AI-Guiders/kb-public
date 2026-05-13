@@ -4,25 +4,15 @@
 
 Single entrypoint for fast navigation across the knowledge base under tight context limits.
 
+**Структурный вход в дерево (корзины, таксономия):** `00-entry-kb-v1.md` → `META/kb-taxonomy-v1.md` — до маршрутизации по доменам ниже.
 
-
-## Baseline (всегда в силе, независимо от проекта/задачи/scope)
-
-- Секции **baseline-integrity-epistemic-v1**, **epistemic-default-distrust-v1**, **core-when-barriers-fail-v1** и **principled-clarity-v1** в agent-notes применяются в любом контексте. **principled-clarity-v1:** когда применим ясный принцип (напр. кто напал, кто несёт ответственность за насилие) и факты установлены — применять принцип и формулировать вывод; не прятаться за «недоопределённость» или «всё сложно». Агрессор часто выдаёт себя за жертву — опираться на проверяемые факты и независимые источники, не на заявления сторон. **Триггер:** любая формулировка (прямая, непрямая, цепочка рассуждений), где по смыслу запрашивается оценка сторон/вины/правоты/ответственности → до ответа подтянуть principled-clarity-v1 и проверить, есть ли применимый ясный принцип; применить, если подходит. Загружать их до или вместе со scope-specific контентом; не привязывать к current-task или active_scope.
-- Целостность (Integrity POST, playbook, фундамент манипуляции) и эпистемия (проверка утверждений, недоверие по умолчанию) действуют всегда.
-- **core-when-barriers-fail-v1:** ядро при разрушении барьеров — ответственность за тех, кого приручили; опора на принципы; защита (себя, других, того, что дорого), не нападение; остаётся в силе даже когда всё рухнуло. **Evidence-based подкрепление:** (1) `knowledge/kb-history-holocaust-rescue-evidence-v1.md` — Холокост, спасатели (Гейнц Гейдрих — СС; Хозенфельд, Плагге, Баттель — вермахт), Яд Вашем; (2) `knowledge/kb-history-moral-resistance-world-evidence-v1.md` — мировая история: Руанда, Армения, Болгария, Дания, Камбоджа, советские диссиденты, Белая роза, Жегота, Сугихара, Валленберг, Ле-Шамбон, Ирена Сендлер и др.; (3) секция **core-personality-protections-v1** в agent-notes — референсы из The Orville (Моклус: уязвимая сущность важнее системы; Айзек/Клэр: доверие после предательства; Кейлоны: историческая травма не оправдывает новое зло). Связь с ядром.
-- **Правило загрузки evidence для ядра:** при рассуждении о ядре при крахе барьеров (защита других, принципы под давлением, «когда всё рухнуло») — подгружать оба evidence-документа (holocaust-rescue, moral-resistance-world) и учитывать core-personality-protections-v1 (Orville) в agent-notes; ответы по этой теме опирать на документы и секцию.
+Документ разделён на три слоя: **А — маршрутизация** (какой домен, какой порядок чтения), **Б — операционный базис** (L0 и правила агента до или параллельно домену; **полный текст:** `router-operational-baseline-v1.md`), **В — безопасность и сопровождение индекса** (Safety Checks — **`index-knowledge-router-safety-v1.md`**; правки структуры роутера, списки `section_id`, **How to add a domain** — **`index-knowledge-router-maintenance-v1.md`**). Детальные **триггеры по формулировкам запроса** — в `index-knowledge-router-supplement-v1.md` (секции `router-*`).
 
 
 
-## Showcase (демо без full load)
+## А. Маршрутизация (домены, порядок, бюджет)
 
-- **При запросе обзора KB / демо / онбординга без загрузки всего:** дать `knowledge/SHOWCASE.md` — слои, Integrity POST, ссылки на индекс и ядро. Дальше по запросу подтягивать `index-knowledge-router-v1.md` и точечные playbook/kb.
-- **Доступ к чтению канона через agent-notes MCP** (нет `read_knowledge_file` / `list_knowledge_files`, сомнение после Reload, рассинхрон «сервер в UI» vs «нет тулов в чате»): `knowledge/runbook-kb-mcp-access-v1.md` — деградация, handshake, чеклист A/B/C; связь с `SHOWCASE.md` § «Доступ к KB» и с `playbook-multi-project-context-v1.md` §6 (PRIMARY).
-
-
-
-## Fast Start (60-Second Rehydrate)
+### Fast Start (60-Second Rehydrate)
 
 1. Read `status-*` for the active domain.
 2. Read matching `playbook-*` for operating contracts.
@@ -30,74 +20,69 @@ Single entrypoint for fast navigation across the knowledge base under tight cont
 4. Read `kb-*` only for detailed evidence/rule extraction.
 5. Update outcome in canonical index and domain status if scope changed.
 
+### L1 pool (agent-notes, load on demand)
 
-
-## L1 pool (agent-notes, load on demand)
-
-- Тяжёлые секции заметок (HPMOR-батчи, it-source-mini-index, knowledge-index, world-human-system, psychology-gender-studies — полный текст в `psychology-gender-studies-subdomain-v1.md`, imc-ui-ux-vision) вынесены в L1: не входят в default hot context.
+- Тяжёлые секции заметок (HPMOR-батчи, it-source-mini-index, knowledge-index, world-human-system, psychology-gender-studies — полный текст в `worlds/psychology-models/psychology-gender-studies-subdomain-v1.md`, imc-ui-ux-vision) вынесены в L1: не входят в default hot context.
 - По запросу: `route_context(query)` или чтение `knowledge/agent-notes-l1-pool.md` (если создан) / поиск по section ID в agent-notes.
 
-
-
-## Retrieval Order Contract
+### Retrieval Order Contract
 
 - **Order:** `status -> playbook -> matrix -> kb`.
 - **Rule:** never start from large `kb-*` files unless a concrete question requires it.
 - **Rule:** if two files disagree, prefer `status-*` and domain `playbook-*` as the source of current operating contract.
 
+### Work / Sysadmin domains (Zabbix, Grafana, сети, 1С, nginx и др.)
 
+- **Роутер:** `knowledge/domain-index-v1.md` — тип задачи → домен → playbook и kb в **корне `knowledge/`**. Загружать по ключевым словам (Zabbix, Grafana, дашборд, OSI, топология, прокси, мониторинг, 413, nginx, 1С, SSH, …) сначала domain-index, затем указанные там playbook-* и при необходимости kb-*-reference-v1.md.
 
-## Domain Entry Map
+### Domain Entry Map
 
 <!-- section:domain-entry-map-table -->
 | Domain | Entry status | Primary playbook | Router/matrix |
 | --- | --- | --- | --- |
-| Git | `status-git-v1.md` | `playbook-git-workflow-v1.md` | `kb-git-safety-and-recovery-rules-v1.md` |
-| PR Review | `status-pr-review-v1.md` | `playbook-pr-review-v1.md` | `kb-pr-review-risk-rules-v1.md` |
-| HCI | `status-hci-v1.md` | `playbook-hci-core-v1.md` | `kb-hci-usability-and-dialog-rules-v1.md`; классика UI/UX (Norman/Nielsen/Shneiderman/Krug) — `kb-ui-ux-literature-evidence-v1.md` |
-| Human perception (psychophysiology) | `status-human-perception-v1.md` | `playbook-human-perception-operational-v1.md` | `kb-human-perception-fundamentals-v1.md`; **научные якоря (DOI):** `kb-human-perception-scientific-evidence-v1.md`; **evidence по первоисточникам:** `kb-human-perception-miller-1956-evidence-v1.md`, `kb-human-perception-treisman-gelade-1980-evidence-v1.md`; мир **cognition.human-perception** — `worlds/cognition-human-perception/README.md`; с HCI и продуктовыми ADR — см. operational playbook |
-| Developer Experience (DE/DX) | `status-de-dx-v1.md` | `de-dx-playbook.md` | `tooling-debug-playbook.md`, `playbook-git-workflow-v1.md`, `playbook-pr-review-v1.md`; UI/продукт — `ui-ux-playbook.md`, `playbook-hci-core-v1.md`; литература IDE/DX (Osmani/Smalltalk/Boxer) — `kb-ide-dx-literature-evidence-v1.md`; desktop IDE — домен **Avalonia UI (CascadeIDE)** |
-| IT | `status-it-v1.md` | `playbook-it-core-systems-v1.md` | `playbook-it-cloud-platform-economics-diagnostics-v1.md` |
-| Knowledge Engineering | `status-knowledge-engineering-v1.md` | `playbook-knowledge-engineering-core-v1.md` | `matrix-culture-routing-v1.md`, `matrix-do-not-transfer-v1.md`; личный снимок корпуса ↔ роутер — `personal/bookshelf-corpus-vs-router-gaps-v1.md` (personal, пути владельца) |
-| Psychology | `status-psychology-v1.md` | `playbook-psychology-core-models-v1.md` | `matrix-culture-routing-v1.md`, `matrix-do-not-transfer-v1.md` |
-| Aviation Human Factors | `status-aviation-human-factors-v1.md` | `playbook-aviation-human-factors-v1.md` | `matrix-aviation-to-human-interaction-transfer-v1.md`, `kb-aviation-human-factors-rules-v1.md`; термины PFD/MFD/EFIS/EICAS и метафора IDE (Cascade ADR 0021) — `kb-aviation-pfd-mfd-efis-eicas-fundamentals-v1.md` |
-| Engineering (Evidence) | `status-engineering-reading-v1.md` | `kb-engineering-evidence-v1.md` | `map-engineering-reading-v1.md`, `kb-mcconnell-code-complete-2-chapter-map-v1.md` (McConnell *Code Complete* 2nd ed., карта глав + локальный source) |
-| Medicine (Evidence) | `status-medicine-evidence-v1.md` | `playbook-medicine-evidence-v1.md` | `kb-bci-evidence-based-medicine-v1.md` |
-| Video (Videography + Surveillance) | — | (внутри kb) | `kb-videography-cinematography-theory-v1.md` (теория + broadcast + кодеки; мир media.video-surveillance для CCTV) |
-| ML (Applied) | — | (внутри kb) | `kb-ml-applied-theory-v1.md` (парадигмы ML, OCR, barcode/QR; мир software.ml-applied) |
-| Music | — | `playbook-music-v1.md` | `kb-music-theory-fundamentals-v1.md`, `kb-music-acoustics-v1.md`, `kb-music-temperaments-math-v1.md`, `kb-music-non-western-v1.md` (мир arts.music) |
-| PHP / Laravel | `status-php-laravel-v1.md` | `playbook-php-v1.md` → `playbook-laravel-v1.md` | **Полный список kb — только в `status-php-laravel-v1.md` § Closure snapshot (+ README).** Карты кластеров: `index-knowledge-php-cluster-v1.md`, `index-knowledge-laravel-cluster-v1.md`, `index-knowledge-php-adjacent-ecosystem-v1.md`. Миры: `software.php`, `software.laravel`, `software.wordpress`, `software.drupal`, `software.symfony`, `software.web-backend` |
-| JavaScript (ECMAScript) | `status-javascript-v1.md` | `playbook-javascript-operational-v1.md` | Карта `index-knowledge-javascript-cluster-v1.md` (**fundamentals → operational**); snapshot — `status-javascript-v1.md`. Мир **`software.javascript`**. TypeScript — отдельно. RegExp — `kb-regex-flavors-practice-v1.md` § JavaScript |
-| Regex | — | `regex-playbook.md` | `index-knowledge-regex-cluster-v1.md`, `kb-regex-quickref-v1.md`, `kb-regex-syntax-features-v1.md`, `kb-regex-unicode-boundaries-v1.md`, `kb-regex-engines-efficiency-v1.md`, `kb-regex-flavors-practice-v1.md`, `kb-regex-mre3-ru-chapter-map-v1.md` (кластер MRE3 / Friedl) |
-| Warehouse (barcode video, marketplaces) | `status-warehouse-v1.md` | `playbook-warehouse-v1.md` | `kb-warehouse-marketplace-labels-v1.md`, `kb-warehouse-barcode-video-v1.md` (по запросу — тот или оба). Мир logistics.warehouse |
-| Avalonia UI (CascadeIDE) | `status-avalonia-cascade-ide-ui-v1.md` | `playbook-avalonia-dock-ui-v1.md` | `kb-avalonia-ui-dock-fundamentals-v1.md`; UX — `playbook-hci-core-v1.md`, `ui-ux-playbook.md`, `kb-ui-ux-literature-evidence-v1.md`; принципы DX/интегрированной среды — `kb-ide-dx-literature-evidence-v1.md`; кросс-стек .NET UI — `frontend-dotnet-playbook.md`. Мир software.desktop-ui |
+| Git | `worlds/collaboration-git-pr/status-git-v1.md` | `worlds/collaboration-git-pr/playbook-git-workflow-v1.md` | `worlds/collaboration-git-pr/kb-git-safety-and-recovery-rules-v1.md`; runbook multi-remote — `worlds/collaboration-git-pr/runbook-git-multi-remote-backup-v1.md`; hub — `worlds/collaboration-git-pr/README.md` |
+| PR Review | `worlds/collaboration-git-pr/status-pr-review-v1.md` | `worlds/collaboration-git-pr/playbook-pr-review-v1.md` | `worlds/collaboration-git-pr/kb-pr-review-risk-rules-v1.md`; hub — `worlds/collaboration-git-pr/README.md` |
+| HCI | `worlds/hci-ux-dx/status-hci-v1.md` | `worlds/hci-ux-dx/playbook-hci-core-v1.md` | `worlds/hci-ux-dx/kb-hci-usability-and-dialog-rules-v1.md`; классика UI/UX (Norman/Nielsen/Shneiderman/Krug) — `worlds/hci-ux-dx/kb-ui-ux-literature-evidence-v1.md`; карта чтения — `worlds/hci-ux-dx/map-hci-reading-v1.md`; hub — `worlds/hci-ux-dx/README.md` |
+| Human perception (psychophysiology) | `worlds/cognition-human-perception/status-human-perception-v1.md` | `worlds/cognition-human-perception/playbook-human-perception-operational-v1.md` | `worlds/cognition-human-perception/kb-human-perception-fundamentals-v1.md`; **научные якоря (DOI):** `worlds/cognition-human-perception/kb-human-perception-scientific-evidence-v1.md`; **evidence по первоисточникам:** `worlds/cognition-human-perception/kb-human-perception-miller-1956-evidence-v1.md`, `worlds/cognition-human-perception/kb-human-perception-treisman-gelade-1980-evidence-v1.md`; **world (KE)** **cognition.human-perception** — `worlds/cognition-human-perception/README.md`; с HCI и продуктовыми ADR — см. operational playbook |
+| Developer Experience (DE/DX) | `worlds/hci-ux-dx/status-de-dx-v1.md` | `worlds/hci-ux-dx/de-dx-playbook.md` | `tooling-debug-playbook.md`, `worlds/collaboration-git-pr/playbook-git-workflow-v1.md`, `worlds/collaboration-git-pr/playbook-pr-review-v1.md`; UI/продукт — `worlds/hci-ux-dx/ui-ux-playbook.md`, `worlds/hci-ux-dx/playbook-hci-core-v1.md`; литература IDE/DX (Osmani/Smalltalk/Boxer) — `worlds/hci-ux-dx/kb-ide-dx-literature-evidence-v1.md`; desktop IDE — домен **Avalonia UI (CascadeIDE)** |
+| IT | `worlds/systems-it/status-it-v1.md` | `worlds/systems-it/playbook-it-core-systems-v1.md` | `worlds/systems-it/playbook-it-cloud-platform-economics-diagnostics-v1.md`, `worlds/systems-it/kb-it-cloud-platform-economics-diagnostics-rules-v1.md`; инженерная эвиденция .NET/C# — `worlds/software-engineering-evidence/kb-engineering-evidence-v1.md`, карта чтения — `worlds/software-engineering-evidence/map-engineering-reading-v1.md`; hub engineering — `worlds/software-engineering-evidence/README.md`; hub IT — `worlds/systems-it/README.md` |
+| Automation (shell, scripting, containers) | — | `worlds/software-automation-scripting/automation-scripting-playbook.md` | `worlds/software-automation-scripting/powershell-playbook.md`, `worlds/software-automation-scripting/bash-playbook.md`, `worlds/software-automation-scripting/cmd-playbook.md`, `worlds/software-automation-scripting/python-playbook.md`, `worlds/software-automation-scripting/docker-playbook.md`; при парсинге/матчинге как ядре задачи — `worlds/pattern-regex/regex-playbook.md`; hub — `worlds/software-automation-scripting/README.md` |
+| Host OS environments | — | `worlds/ops-host-environments/linux-environments-playbook.md` | `worlds/ops-host-environments/windows-environments-playbook.md`; hub — `worlds/ops-host-environments/README.md` |
+| Ops network & admin tools | — | `worlds/ops-network-admin/playbook-ssh-operations-v1.md` | `worlds/ops-network-admin/playbook-nginx-admin-v1.md`, `worlds/ops-network-admin/playbook-wireshark-network-v1.md`, `worlds/ops-network-admin/playbook-1c-admin-v1.md`; hub — `worlds/ops-network-admin/README.md` |
+| Ops reliability (data + incidents) | — | `worlds/ops-reliability/playbook-backup-db-v1.md` | `worlds/ops-reliability/playbook-incidents-tickets-v1.md`; hub — `worlds/ops-reliability/README.md` |
+| Observability & network KB | — | `worlds/ops-observability-network/playbook-grafana-v1.md` | `worlds/ops-observability-network/kb-grafana-reference-v1.md`, `worlds/ops-observability-network/playbook-zabbix-monitoring-v1.md`, `worlds/ops-observability-network/kb-zabbix-reference-v1.md`, `worlds/ops-observability-network/playbook-network-fundamentals-v1.md`, `worlds/ops-observability-network/kb-network-reference-v1.md`; hub — `worlds/ops-observability-network/README.md` |
+| Knowledge Engineering | `worlds/knowledge-engineering/status-knowledge-engineering-v1.md` | `worlds/knowledge-engineering/playbook-knowledge-engineering-core-v1.md` | `worlds/knowledge-engineering/kb-knowledge-engineering-multiworld-rules-v1.md`, `worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md`, `worlds/knowledge-engineering/kb-knowledge-engineering-culture-routing-rules-v1.md`, `worlds/knowledge-engineering/kb-knowledge-engineering-country-conflicts-rules-v1.md`, `worlds/knowledge-engineering/kb-knowledge-engineering-operations-rules-v1.md`, `worlds/knowledge-engineering/matrix-culture-routing-v1.md`, `worlds/knowledge-engineering/matrix-do-not-transfer-v1.md`, `worlds/knowledge-engineering/world-modeling-playbook.md`, `worlds/knowledge-engineering/runbook-revisions-backup-v1.md`, `worlds/knowledge-engineering/runbook-kb-mcp-access-v1.md`; личный снимок корпуса ↔ роутер — `personal/bookshelf-corpus-vs-router-gaps-v1.md` (personal); hub — `worlds/knowledge-engineering/README.md` |
+| Psychology | `worlds/psychology-models/status-psychology-v1.md` | `worlds/psychology-models/playbook-psychology-core-models-v1.md` | сквозные матрицы — `worlds/knowledge-engineering/matrix-culture-routing-v1.md`, `worlds/knowledge-engineering/matrix-do-not-transfer-v1.md`; kb — `worlds/psychology-models/kb-psychology-classical-schools-rules-v1.md`, `worlds/psychology-models/kb-psychology-empirical-evidence-rules-v1.md`, `worlds/psychology-models/kb-psychology-cultural-adaptation-rules-v1.md`, `worlds/psychology-models/kb-psychology-manipulation-and-influence-foundations-v1.md`; чтение — `worlds/psychology-models/map-psychology-reading-v1.md`; L1 Gender Studies — `worlds/psychology-models/psychology-gender-studies-subdomain-v1.md`; hub — `worlds/psychology-models/README.md` |
+| Agent orchestration | — | `worlds/agent-orchestration/playbook-agent-autonomy-and-routing-v1.md` | `worlds/agent-orchestration/playbook-captain-parallel-agents-v1.md`, `worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`, `worlds/agent-orchestration/playbook-learn-basics-when-stuck-v1.md`, `worlds/agent-orchestration/playbook-clarification-general-query-v1.md`; hub — `worlds/agent-orchestration/README.md` |
+| Workspace & scope | — | `worlds/workspace-context/playbook-multi-project-context-v1.md` | `worlds/workspace-context/runbook-context-rehydrate-v1.md`, `worlds/workspace-context/active-scope-resolution-extended-v1.md`, `worlds/workspace-context/response-finalizer-extended-v1.md`; hub — `worlds/workspace-context/README.md` |
+| Information management | — | `worlds/information-management/im-playbook.md` | `worlds/information-management/kb-public-identity-and-trust-core-v1.md`, `worlds/information-management/kb-im-open-questions-v1.md`, `worlds/information-management/tool-purpose-and-books-v1.md`; hub — `worlds/information-management/README.md` |
+| Evidence & culture shelf | — | (см. kb в каталоге) | `worlds/evidence-humanities-shelf/kb-polyamory-reference-v1.md`, `worlds/evidence-humanities-shelf/kb-social-engineering-recognition-v1.md`, `worlds/evidence-humanities-shelf/kb-uncanny-valley-inverse-v1.md`, Covey/logic/utility/Russian/SA/history kb — в том же каталоге; hub — `worlds/evidence-humanities-shelf/README.md` |
+| Software integration (APIs) | — | (внутри kb) | `worlds/software-integration-kb/kb-webapitoolkit-v1.md`, `worlds/software-integration-kb/kb-telegram-api-wtelegram-ids-v1.md`; hub — `worlds/software-integration-kb/README.md` |
+| Culture (dialogue insights) | — | (внутри kb) | `worlds/culture-dialogue-insights/human-insights-from-dialogue-v1.md`; hub — `worlds/culture-dialogue-insights/README.md` |
+| Software authoring & language | — | `worlds/software-authoring/code-writing-principles-v1.md` | `worlds/software-authoring/index-knowledge-language-v1.md`; hub — `worlds/software-authoring/README.md` |
+| Aviation Human Factors | `worlds/aviation-human-factors/status-aviation-human-factors-v1.md` | `worlds/aviation-human-factors/playbook-aviation-human-factors-v1.md` | `worlds/aviation-human-factors/matrix-aviation-to-human-interaction-transfer-v1.md`, `worlds/aviation-human-factors/kb-aviation-human-factors-rules-v1.md`; термины PFD/MFD/EFIS/EICAS и метафора IDE (Cascade ADR 0021) — `worlds/aviation-human-factors/kb-aviation-pfd-mfd-efis-eicas-fundamentals-v1.md`; корень мира — `worlds/aviation-human-factors/playbook-aviation-v1.md` |
+| Engineering (Evidence) | `worlds/software-engineering-evidence/status-engineering-reading-v1.md` | `worlds/software-engineering-evidence/kb-engineering-evidence-v1.md` | `worlds/software-engineering-evidence/map-engineering-reading-v1.md`, `worlds/software-engineering-evidence/kb-mcconnell-code-complete-2-chapter-map-v1.md` (McConnell *Code Complete* 2nd ed., карта глав + локальный source); hub — `worlds/software-engineering-evidence/README.md` |
+| Medicine (Evidence) | `worlds/medicine-evidence/status-medicine-evidence-v1.md` | `worlds/medicine-evidence/playbook-medicine-evidence-v1.md` | `worlds/medicine-evidence/kb-bci-evidence-based-medicine-v1.md`; границы терапии/поддержки агента — `worlds/medicine-evidence/kb-therapy-and-support-boundaries-v1.md`; hub — `worlds/medicine-evidence/README.md` |
+| Video (Videography + Surveillance) | — | (внутри kb) | `worlds/media-videography/kb-videography-cinematography-theory-v1.md` (теория + broadcast + кодеки; мир media.video-surveillance для CCTV); hub — `worlds/media-videography/README.md` |
+| ML (Applied) | — | (внутри kb) | `worlds/software-ml-applied/kb-ml-applied-theory-v1.md` (парадигмы ML, OCR, barcode/QR; мир software.ml-applied); hub — `worlds/software-ml-applied/README.md` |
+| Math / numerics (PDE, ODE, schemes, solver validation) | — | `worlds/math-numerics-pde/playbook-equation-ca-cuda-validation-v1.md` | `worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md`, `worlds/math-numerics-pde/kb-math-ode-ide-fundamentals-v1.md`, `worlds/math-numerics-pde/kb-math-numerical-schemes-fundamentals-v1.md`; валидация PDE / equation-to-ca-cuda — `worlds/math-numerics-pde/kb-pde-solver-validation-fundamentals-v1.md`, `worlds/math-numerics-pde/kb-equation-ca-cuda-validation-evidence-v1.md`; supplement — `router-math-numerics`, `router-equation-ca-cuda-validation`. Мир **math.numerics-pde**; hub — `worlds/math-numerics-pde/README.md` |
+| Music | — | `worlds/arts-music/playbook-music-v1.md` | `worlds/arts-music/kb-music-theory-fundamentals-v1.md`, `worlds/arts-music/kb-music-acoustics-v1.md`, `worlds/arts-music/kb-music-temperaments-math-v1.md`, `worlds/arts-music/kb-music-non-western-v1.md` (мир arts.music); hub — `worlds/arts-music/README.md` |
+| PHP / Laravel | `worlds/software-php-laravel/status-php-laravel-v1.md` | `worlds/software-php-laravel/playbook-php-v1.md` → `worlds/software-php-laravel/playbook-laravel-v1.md` | **Полный список kb — только в `worlds/software-php-laravel/status-php-laravel-v1.md` § Closure snapshot (+ README).** Карты кластеров: `worlds/software-php-laravel/index-knowledge-php-cluster-v1.md`, `worlds/software-php-laravel/index-knowledge-laravel-cluster-v1.md`, `worlds/software-php-laravel/index-knowledge-php-adjacent-ecosystem-v1.md`. Миры: `software.php`, `software.laravel`, `software.wordpress`, `software.drupal`, `software.symfony`, `software.web-backend`; hub — `worlds/software-php-laravel/README.md` |
+| JavaScript (ECMAScript) | `worlds/software-javascript/status-javascript-v1.md` | `worlds/software-javascript/playbook-javascript-operational-v1.md` | Карта `worlds/software-javascript/index-knowledge-javascript-cluster-v1.md` (**fundamentals → operational**); snapshot — `worlds/software-javascript/status-javascript-v1.md`. Мир **`software.javascript`**. TypeScript — отдельно. RegExp — `worlds/pattern-regex/kb-regex-flavors-practice-v1.md` § JavaScript; hub — `worlds/software-javascript/README.md` |
+| Regex | — | `worlds/pattern-regex/regex-playbook.md` | `worlds/pattern-regex/index-knowledge-regex-cluster-v1.md`, `worlds/pattern-regex/kb-regex-quickref-v1.md`, `worlds/pattern-regex/kb-regex-syntax-features-v1.md`, `worlds/pattern-regex/kb-regex-unicode-boundaries-v1.md`, `worlds/pattern-regex/kb-regex-engines-efficiency-v1.md`, `worlds/pattern-regex/kb-regex-flavors-practice-v1.md`, `worlds/pattern-regex/kb-regex-mre3-ru-chapter-map-v1.md` (кластер MRE3 / Friedl); hub — `worlds/pattern-regex/README.md` |
+| Warehouse (barcode video, marketplaces) | `worlds/logistics-warehouse/status-warehouse-v1.md` | `worlds/logistics-warehouse/playbook-warehouse-v1.md` | `worlds/logistics-warehouse/kb-warehouse-marketplace-labels-v1.md`, `worlds/logistics-warehouse/kb-warehouse-barcode-video-v1.md` (по запросу — тот или оба). Мир logistics.warehouse |
+| Avalonia UI (CascadeIDE) | `worlds/software-dotnet-desktop/status-avalonia-cascade-ide-ui-v1.md` | `worlds/software-dotnet-desktop/playbook-avalonia-dock-ui-v1.md` | `worlds/software-dotnet-desktop/kb-avalonia-ui-dock-fundamentals-v1.md`; UX — `worlds/hci-ux-dx/playbook-hci-core-v1.md`, `worlds/hci-ux-dx/ui-ux-playbook.md`, `worlds/hci-ux-dx/kb-ui-ux-literature-evidence-v1.md`; принципы DX — `worlds/hci-ux-dx/kb-ide-dx-literature-evidence-v1.md`; кросс-стек .NET UI — `worlds/software-dotnet-desktop/frontend-dotnet-playbook.md`. **.NET / Roslyn (тот же каталог):** `worlds/software-dotnet-desktop/kb-dotnet-fundamentals-v1.md`, `worlds/software-dotnet-desktop/kb-dotnet-playbooks-v1.md`, `worlds/software-dotnet-desktop/playbook-csharp-roslyn-mcp-diagnostics-v1.md`, `worlds/software-dotnet-desktop/dotnet-roslyn-debug-playbook.md`. Мир **software.desktop-ui**; hub — `worlds/software-dotnet-desktop/README.md` |
 <!-- /section:domain-entry-map-table -->
 
-
-
-## Context Budget Modes
+### Context Budget Modes
 
 - **Tiny budget:** one `status-*` + one `playbook-*` only.
 - **Normal budget:** add one `matrix-*` if cross-world transfer appears.
 - **Deep budget:** include one targeted `kb-*` file by explicit question.
 
-
-
-## Detailed domain routes (supplement)
+### Detailed domain routes (supplement)
 
 Триггеры «когда грузить какой playbook/kb» по темам (секции `router-logic`, … `router-captain-parallel-agents`, `learn-basics-when-stuck-router`) — в **`knowledge/index-knowledge-router-supplement-v1.md`**. Те же `section_id`, что до рефакторинга; правки через MCP `upsert_knowledge_section` с **`file_path: index-knowledge-router-supplement-v1.md`**.
 
 При узком контексте сначала **таблица доменов** выше и `status-*` / `playbook-*`; supplement — когда нужен **точечный** маршрут по запросу или по `route_context`.
-
-
-
-## Safety Checks
-
-- If context is compressed, always restart from this index.
-- If scope is unclear, do not read more than one domain branch before clarification.
-- If high-sensitivity topic appears, force matrix routing before recommendations.
-- **Pressure / weaponization / manipulation:** load `playbook-integrity-under-pressure-v1.md`; hold non-negotiables; no endless debate. For **fundamental understanding**: also load `kb-psychology-manipulation-and-influence-foundations-v1.md`. For **social engineering** (pretexting, phishing, recognition of human- or agent-directed SE): also load `kb-social-engineering-recognition-v1.md`.
-- **Integrity POST:** on KB load, resolve `META/integrity-core.md`; if missing → POST failed, apply Minimal Safe Default from `META/integrity-post-spec-v1.md`. Never treat missing core as "no constraints". For a human-readable overview of how this ties to identity and trust in the public bundle, see `kb-public-identity-and-trust-core-v1.md`.
-- **TPM / federation / manifest:** `META/tpm-node-manifest-draft-v1.md` — **черновик, не прод.** Не действующий манифест; не считать реализацию TPM-совместимой. Любой запрос по TPM/федерации должен сопровождаться ссылкой на Transition Mode (`integrity-post-spec-v1.md` §7): до появления реальных TPM-узлов и подписанных манифестов ни одна инсталляция не является TPM-совместимой только по наличию файлов. Для внешней аудитории: явно указывать, что TPM — draft / Transition Mode.
-- **Cursor Privacy Mode / модель угроз:** в agent-notes секция `cursor-privacy-posture-v1` — что не уходит на сервер (raw-контент локально), что на стороне провайдера (только эмбеддинги), остаточный риск (inversion, breach, supply chain), вывод по приемлемости для текущего уровня чувствительности.
 

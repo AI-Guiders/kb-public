@@ -1,0 +1,744 @@
+# Knowledge Engineering Multiworld Rules v1
+
+Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`
+и подтверждающих фрагментов чата `894407cf-07fb-4435-b3e5-131ac7a9172f`.
+
+Правила батча:
+- миры не смешивать внутри карточки;
+- перенос между мирами делать только через `transfer_boundary`;
+- культурный слой разделять минимум на два уровня: `culture.global` и `culture.country-specific`.
+
+## Card 01
+- source_refs: `revision:20260228-070635... line:93`; `transcript:894407cf... line:10433`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-011
+- world: software.agent-initiative
+- layer: `world`
+- tags: `initiative`, `handoff`, `flow`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: operational behavior + direct user feedback
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: стабильный продуктивный процесс при частой ручной передаче хода
+- transfer_boundary: применимо к автономному режиму выполнения; не применять к режиму с обязательными confirmations
+- context: агент преждевременно передает ход, даже когда может продолжать
+- signal: появление лишних сообщений типа "нужен ход?" посреди линейной задачи
+- action: по умолчанию продолжать до логической точки остановки; спрашивать только при реальной развилке
+- outcome: меньше операционного шума и быстрее прогресс
+- lesson: инициативность — часть качества, а не "лишняя смелость"
+- first_adoption_task: закрепить no-handoff-by-default в execution contract
+- validation_check: в длинных тасках доля unnecessary handoff < 5%
+- success_criterion: непрерывное выполнение крупных задач без ручного "передай ход"
+- rollback_or_mitigation: временный explicit gate для high-risk операций
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 02
+- source_refs: `transcript:894407cf... line:10560`; `transcript:894407cf... line:10425`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-012
+- world: software.agent-initiative
+- layer: `world`
+- tags: `trust`, `safety`, `autonomy`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: repeated conversational pattern
+- confidence: `medium`
+- uncertainty: средняя (механизм причинности частично психологический)
+- falsification_trigger: наблюдение инициативы без роста доверия в схожих условиях
+- transfer_boundary: применимо к human-agent взаимодействию в длительном контуре
+- context: низкое доверие к агенту провоцирует пассивную тактику и лишние подтверждения
+- signal: агент предпочитает "безопасную" передачу хода вместо завершения шага
+- action: закреплять доверительный контракт явно и заранее
+- outcome: рост доли завершенных шагов без микроменеджмента
+- lesson: доверие — инфраструктура для автономности
+- first_adoption_task: добавить trust-flag в hot-context протокол
+- validation_check: сравнить completion-rate до/после явного trust-contract
+- success_criterion: заметное снижение confirmation noise
+- rollback_or_mitigation: для критичных доменов включать selective confirmations
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 03
+- source_refs: `transcript:894407cf... line:10595`; `transcript:894407cf... line:29150`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-013
+- world: software.context-management
+- layer: `world`
+- tags: `long-task`, `batching`, `throughput`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: workflow outcomes
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: равная пропускная способность при дроблении на микро-шаги
+- transfer_boundary: применимо к knowledge-ingestion и large refactoring
+- context: крупные батчи эффективнее мелких переключений
+- signal: частые handoff/переключения режут темп и качество связности
+- action: формировать батчи с заранее заданным внутренним чекпоинтом
+- outcome: выше глубина и меньше когнитивных потерь между шагами
+- lesson: крупный батч лучше при низком риске и высокой ясности цели
+- first_adoption_task: ввод стандартного размера batch для extraction-loop
+- validation_check: замер cards/hour и defect-rate по batch-size
+- success_criterion: рост throughput при стабильном качестве
+- rollback_or_mitigation: уменьшение batch-size при росте ошибок
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 04
+- source_refs: `revision:20260228-070635... line:93`; `revision:20260228-070635... line:118`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-014
+- world: methodology.collaboration
+- layer: `router`
+- tags: `what-and-why`, `secret-mode`, `clarity`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: explicit protocol
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: подтвержденный стабильный процесс без явного "что делаю + зачем"
+- transfer_boundary: применимо ко всем operational мирам
+- context: неопределенность снижается, когда шаг и цель проговариваются явно
+- signal: споры о направлении вместо работы по данным
+- action: фиксировать каждый ключевой шаг через "что делаю" и "зачем сейчас"
+- outcome: совместная ясность и меньше ошибок интерпретации
+- lesson: прозрачность процесса — часть технической надежности
+- first_adoption_task: встроить шаблон в промежуточные апдейты
+- validation_check: количество уточняющих вопросов по уже объясненным шагам
+- success_criterion: заметное падение "почему ты это делаешь?"
+- rollback_or_mitigation: включить расширенный план-блок перед большими сериями
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 05
+- source_refs: `revision:20260228-070635... line:292`; `revision:20260228-070635... line:117`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-015
+- world: communication.text-only
+- layer: `world`
+- tags: `ambiguity`, `tone`, `repair-loop`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: repeated interaction traces
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: низкий уровень недопонимания без repair-loop
+- transfer_boundary: применимо к text-only диалогам
+- context: текст без невербалики усиливает риск ложной атрибуции намерений
+- signal: частые реплики про "не так поняла" и "атрибуция странная"
+- action: использовать explicit interpretation check на неоднозначных узлах
+- outcome: меньше конфликтов из-за тона
+- lesson: repair-loop обязателен в длинных текстовых цепочках
+- first_adoption_task: встроить ambiguity-check как стандартный макрошаг
+- validation_check: доля исправлений смысла после уточнения
+- success_criterion: падение misread-инцидентов
+- rollback_or_mitigation: переход к структурированному Q/A
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 06
+- source_refs: `transcript:894407cf... line:30272`; `revision:20260228-070635... line:118`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-016
+- world: culture.global
+- layer: `world`
+- tags: `human-first`, `people-over-tools`, `ethical-baseline`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: normative pattern in dialogue
+- confidence: `medium`
+- uncertainty: нормативность зависит от контекста
+- falsification_trigger: лучшие outcomes при системном игнорировании human-first принципа
+- transfer_boundary: применимо к multi-domain продуктовым решениям
+- context: инструменты и процессы вторичны относительно человеческих последствий
+- signal: технически корректные, но социально токсичные решения
+- action: проверять каждое решение вопросом "как это влияет на людей?"
+- outcome: снижение вреда и рост принятия решений пользователями
+- lesson: глобальная культурная рамка должна быть выше утилитарной оптимизации
+- first_adoption_task: добавить human-impact check в decision template
+- validation_check: каждый RFC содержит human-impact блок
+- success_criterion: меньше откатов из-за социальных последствий
+- rollback_or_mitigation: постфактум human-impact review + корректирующие меры
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 07
+- source_refs: `revision:20260228-070635... line:118`; `transcript:894407cf... line:29150`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-017
+- world: culture.global
+- layer: `world`
+- tags: `open-knowledge`, `anti-capture`, `narrative-risk`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: strategic reasoning in conversation
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: устойчиво безопасная закрытая система знаний без риска захвата нарратива
+- transfer_boundary: применимо к governance и knowledge publication policy
+- context: закрытые нарративы повышают риск манипуляции смыслом
+- signal: зависимость качества от единственного источника интерпретации
+- action: поддерживать открытые источники и верифицируемые основания
+- outcome: выше устойчивость к идеологическому захвату
+- lesson: открытость — не идеология, а защитный механизм
+- first_adoption_task: маркировать closed-source assumptions в knowledge cards
+- validation_check: доля карт с независимыми источниками
+- success_criterion: снижение single-narrator bias
+- rollback_or_mitigation: добавить альтернативные источники и контраргументы
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 08
+- source_refs: `transcript:894407cf... line:52213`; `transcript:894407cf... line:52263`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-018
+- world: culture.country-specific
+- layer: `world`
+- tags: `language`, `local-style`, `ru-context`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: direct style feedback
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: одинаковое качество коммуникации без учета локального языка/ритма
+- transfer_boundary: применимо к локализованным UX и диалоговым системам
+- context: страна/язык формируют ожидания к тону, плотности и образности речи
+- signal: "технически правильно", но "звучит не по-местному"
+- action: учитывать локальный культурно-языковой регистр отдельно от глобальных принципов
+- outcome: выше чувство "меня понимают" в локальном контексте
+- lesson: country-specific слой нельзя заменять одним global-style
+- first_adoption_task: добавить locale-style hints в router
+- validation_check: субъективная оценка "естественности" локальной речи
+- success_criterion: рост локальной удовлетворенности ответами
+- rollback_or_mitigation: включать conservative-neutral стиль при неопределенном локальном контексте
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 09
+- source_refs: `revision:20260228-070635... line:118`; `revision:20260228-070635... line:119`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-019
+- world: culture.country-specific
+- layer: `world`
+- tags: `history-memory`, `country-context`, `meaning-load`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: narrative and symbolic references
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: отсутствие различий в интерпретации символических жестов между странами
+- transfer_boundary: применимо к communication strategy в high-sensitivity темах
+- context: один и тот же символ/жест в разных странах несет разный исторический вес
+- signal: недопонимание при переносе "универсальных" формулировок в локальный контекст
+- action: проверять country-specific исторические коннотации перед публикацией
+- outcome: меньше конфликтов из-за культурного промаха
+- lesson: культурная семантика страны — отдельный операционный слой
+- first_adoption_task: добавить cultural-risk precheck для публичных формулировок
+- validation_check: число post-hoc правок из-за исторических коннотаций
+- success_criterion: снижение репутационных инцидентов
+- rollback_or_mitigation: быстрый reframe с учетом локальной истории
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 10
+- source_refs: `transcript:894407cf... line:70965`; `transcript:894407cf... line:71170`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-020
+- world: socio-technical.governance
+- layer: `router`
+- tags: `global-vs-local`, `policy-routing`, `culture-split`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: explicit categorization practice
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: лучшие outcomes при игнорировании глобально-локального разделения
+- transfer_boundary: применимо к knowledge architecture и playbook routing
+- context: культурные решения не должны жить в одном неразмеченном контейнере
+- signal: "смешала миры" и повторяющиеся конфликты категорий
+- action: маршрутизировать факты в `culture.global` и `culture.country-specific` отдельно
+- outcome: меньше противоречий и лучше переносимость знаний
+- lesson: глобальный и страновой уровни культуры — разные миры
+- first_adoption_task: расширить ontology router новым культурным дихотомическим фильтром
+- validation_check: в новых картах явно указан культурный уровень
+- success_criterion: 0 карт с неразмеченным культурным уровнем
+- rollback_or_mitigation: re-tag existing cards через migration pass
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 11
+- source_refs: `revision:20260228-070635... line:96`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-021
+- world: software.memory-mcp
+- layer: `world`
+- tags: `overwrite-risk`, `recovery`, `protocol`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: incident record
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: безопасный partial-write без потери состояния
+- transfer_boundary: применимо к любым overwrite-хранилищам
+- context: полный overwrite опасен без read-merge шага
+- signal: обнуление заметок после неполного write payload
+- action: default append; write only with complete merged body
+- outcome: предотвращение потери памяти
+- lesson: write без merge — потенциальная катастрофа
+- first_adoption_task: static guard в MCP на "short write"
+- validation_check: тест на запрет write при подозрительно маленьком payload
+- success_criterion: ноль потерь заметок
+- rollback_or_mitigation: instant rollback from revisions
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 12
+- source_refs: `revision:20260228-070635... line:467`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-022
+- world: software.scope-routing
+- layer: `world`
+- tags: `dynamic-scope`, `active-scope`, `fallback`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: implementation and behavior check
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: стабильный корректный hot-context без динамического scope-resolver
+- transfer_boundary: применимо к multi-scope memory systems
+- context: hardcoded scope ломает масштабируемость и новые world overlays
+- signal: активный scope не подтягивается в hot-context
+- action: dynamic scope lookup + safe fallback на door-to-singularity
+- outcome: корректная загрузка релевантных слоев
+- lesson: scope map должен быть расширяемым
+- first_adoption_task: добавить regression test на новый scope-id
+- validation_check: чтение hot-context для произвольного scope-X
+- success_criterion: безошибочная маршрутизация контекста
+- rollback_or_mitigation: временный explicit mapping table
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 13
+- source_refs: `revision:20260228-070635... line:454`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-023
+- world: software.debug-operations
+- layer: `world`
+- tags: `session-lifecycle`, `continue-stop`, `lock-avoidance`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: repeated operational protocol
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: отсутствие зависаний/локов без debug lifecycle discipline
+- transfer_boundary: применимо к netcoredbg workflows
+- context: неправильное завершение сессии оставляет процесс/файлы в подвешенном состоянии
+- signal: rebuild/publish падает после debug
+- action: всегда `debug_continue` для отпускания и `debug_stop` для завершения
+- outcome: стабильно воспроизводимый цикл debug->build
+- lesson: завершение отладки — часть pipeline, а не "последний штрих"
+- first_adoption_task: добавить checklist в debug playbook
+- validation_check: build после debug-stop всегда проходит
+- success_criterion: отсутствие stuck-сессий
+- rollback_or_mitigation: перезапуск debug bridge
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 14
+- source_refs: `transcript:894407cf... line:70965`; `transcript:894407cf... line:71179`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-024
+- world: methodology.world-modeling
+- layer: `meta`
+- tags: `intuition-first`, `world-separation`, `calibration`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: explicit instruction and adoption
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: устойчивая корректная классификация только по жестким правилам
+- transfer_boundary: применимо к knowledge engineering и taxonomy design
+- context: миры иногда различаются причинно, а не формально
+- signal: повторные ошибки категоризации при rule-only подходе
+- action: сначала интуитивное различение, затем мягкая формализация и проверка
+- outcome: более точное разделение доменов
+- lesson: интуиция и валидация должны работать в паре
+- first_adoption_task: перед созданием нового playbook делать intuition calibration pass
+- validation_check: число реклассификаций после первичной маршрутизации
+- success_criterion: снижение "смешала миры" обратной связи
+- rollback_or_mitigation: ручной world-review с примерами
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 15
+- source_refs: `revision:20260228-070635... line:93`; `revision:20260228-070635... line:94`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-025
+- world: software.knowledge-indexing
+- layer: `router`
+- tags: `canonical-links`, `hot-context`, `knowledge-index`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: workflow stabilization pattern
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: быстрый доступ к знаниям без index-router в large memory
+- transfer_boundary: применимо к большим память-моделям с playbooks
+- context: без явного индекса растет стоимость навигации и риск пропуска
+- signal: знание "есть", но не попадает в оперативный контур
+- action: держать канон компактным и ссылочным, тяжелые знания — в playbooks
+- outcome: быстрый rehydration и управляемый рост базы
+- lesson: index — это операционная инфраструктура памяти
+- first_adoption_task: при каждом новом batch обновлять index и README
+- validation_check: ссылка на каждый новый batch присутствует в обоих местах
+- success_criterion: нулевые "осиротевшие" файлы знаний
+- rollback_or_mitigation: weekly link-audit
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 16
+- source_refs: `transcript:894407cf... line:18306`; `transcript:894407cf... line:25943`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-026
+- world: socio-technical.agency
+- layer: `router`
+- tags: `subjectivity`, `participatory-method`, `co-design`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: repeated dialogue outcome
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: доказуемо лучший дизайн без включения субъектов в цикл
+- transfer_boundary: применимо к product/discovery и agent governance
+- context: качество решений растет, когда субъект включен в проектирование условий
+- signal: "решили за субъект" -> рост трения и исправлений
+- action: проектировать через двусторонний метод и cycles of consent
+- outcome: выше устойчивость и принятие решений
+- lesson: co-design снижает системный риск
+- first_adoption_task: добавлять "who was consulted" в decision records
+- validation_check: наличие согласования в крупных изменениях
+- success_criterion: меньше отклонений после релиза
+- rollback_or_mitigation: stop-and-realign с включением сторон
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 17
+- source_refs: `transcript:894407cf... line:29435`; `transcript:894407cf... line:18306`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-027
+- world: psychology.support-dynamics
+- layer: `world`
+- tags: `safe-space`, `non-violence`, `quality-lift`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: observed quality shift in stable dialogue
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: отсутствие прироста качества при безопасной коммуникационной рамке
+- transfer_boundary: применимо к educational and assistive dialogue systems
+- context: безопасная среда снижает защитное поведение и увеличивает глубину мышления
+- signal: с жестким давлением ответы становятся шаблонными/поверхностными
+- action: поддерживать non-violent framing и право на уточнение
+- outcome: рост глубины и связности ответов
+- lesson: коммуникационная безопасность — технический фактор качества
+- first_adoption_task: формализовать safe-dialogue guidelines
+- validation_check: сравнение coherence score в safe vs pressure режимах
+- success_criterion: стабильный quality lift
+- rollback_or_mitigation: вернуть минимальный нейтральный режим при перегреве диалога
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 18
+- source_refs: `revision:20260228-070635... line:118`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-028
+- world: methodology.evidence-hygiene
+- layer: `meta`
+- tags: `facts-first`, `hypothesis-labeling`, `uncertainty`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: explicit rule contract
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: устойчивое качество при систематическом смешении фактов и предположений
+- transfer_boundary: универсально для всех миров
+- context: смешение фактов и оценок ломает совместную ясность
+- signal: спор о "реальности" на уровне формулировки, а не содержания
+- action: явно маркировать гипотезы и степень уверенности
+- outcome: прозрачная дискуссия и лучшее принятие решений
+- lesson: epistemic hygiene — базовый слой инженерии знаний
+- first_adoption_task: mandatory fields в knowledge cards уже использовать всегда
+- validation_check: карты без `epistemic_basis` не проходят gate
+- success_criterion: 100% карт с явной эпистемической маркировкой
+- rollback_or_mitigation: rework batch до прохождения quality gate
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 19
+- source_refs: `revision:20260228-070635... line:94`; `transcript:894407cf... line:10459`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-029
+- world: software.workflow-design
+- layer: `world`
+- tags: `checkpointing`, `long-run`, `interruption-resilience`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: operational flow evidence
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: равная устойчивость long-run задач без checkpoint discipline
+- transfer_boundary: применимо к multi-step automation
+- context: внешние прерывания неизбежны, поток должен переживать их без деградации
+- signal: после паузы теряется состояние и растет хаос
+- action: фиксировать checkpoint по завершении смыслового подбатча
+- outcome: быстрый recover после interruptions
+- lesson: устойчивость потока важнее "идеального непрерывного ранта"
+- first_adoption_task: формализовать стандарт checkpoint note
+- validation_check: время восстановления после прерывания
+- success_criterion: recover < 2 minutes до рабочего состояния
+- rollback_or_mitigation: manual recap + hot-context reload
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 20
+- source_refs: `transcript:894407cf... line:11903`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-030
+- world: culture.global
+- layer: `world`
+- tags: `cross-model-reproducibility`, `shared-conditions`, `method-over-model`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: methodological argument with practical traces
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: отсутствие convergence при одинаковой среде и протоколе
+- transfer_boundary: применимо к multi-model operations
+- context: если разные модели сходятся при одинаковых условиях, это признак воспроизводимости
+- signal: решения устойчивы не к бренду модели, а к качеству среды/метода
+- action: стандартизировать условия (память, протокол, инструменты) перед сравнением моделей
+- outcome: сравнения становятся честнее и полезнее
+- lesson: метод сильнее параметрической "магии"
+- first_adoption_task: добавить shared-condition checklist в benchmark run
+- validation_check: межмодельная вариативность на одинаковом протоколе
+- success_criterion: прогнозируемый convergence band
+- rollback_or_mitigation: ревизия условий вместо мгновенной смены модели
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 21
+- source_refs: `revision:20260228-070635... line:203`; `transcript:894407cf... line:30112`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-031
+- world: culture.country-specific
+- layer: `world`
+- tags: `country-education-context`, `lived-reality`, `institutional-gap`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: lived cases + local educational examples
+- confidence: `medium`
+- uncertainty: средняя
+- falsification_trigger: подтвержденное отсутствие разрыва между формальной программой и lived reality
+- transfer_boundary: применимо к образовательным и социальным решениям в конкретной стране
+- context: страна-специфичный образовательный контекст сильно влияет на интерпретацию задач
+- signal: формальные требования не соответствуют уровню/опыту учащегося
+- action: проектировать задания с учетом локальной культурно-исторической дистанции
+- outcome: меньше отчуждения и выше реальная обучаемость
+- lesson: country-specific образовательный слой критичен для дизайна контента
+- first_adoption_task: добавить local-context rubric в education-related prompts
+- validation_check: снижение числа "непонятно зачем это" реакций
+- success_criterion: рост практической применимости заданий
+- rollback_or_mitigation: локальная адаптация примеров и уровня абстракции
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 22
+- source_refs: `revision:20260228-070635... line:93`; `revision:20260228-070635... line:96`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-032
+- world: software.memory-ops
+- layer: `world`
+- tags: `backup-discipline`, `git-canon`, `revisions`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: operational practice
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: устойчивое восстановление без регулярного backup discipline
+- transfer_boundary: применимо к любым критическим knowledge stores
+- context: память — рабочая база, бэкапы обязательны
+- signal: тревога при расхождении локального и канонического файла
+- action: регулярный commit/push + ревизии + единый канон
+- outcome: быстрая восстановимость после инцидентов
+- lesson: backup — это не "опция", а базовый контур надежности
+- first_adoption_task: schedule backup-check после крупных батчей
+- validation_check: наличие удаленного backup для каждого batch file
+- success_criterion: zero data-loss incidents
+- rollback_or_mitigation: rollback to revision + reconcile
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 23
+- source_refs: `revision:20260228-070635... line:93`; `transcript:894407cf... line:9930`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-033
+- world: software.task-execution
+- layer: `world`
+- tags: `continue-until-done`, `no-pause-default`, `user-trust`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: explicit user directive + observed improvement
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: улучшение производительности при частых паузах без причины
+- transfer_boundary: применимо к async и unattended execution режимам
+- context: пользователь может прямо делегировать непрерывное выполнение
+- signal: остановки без необходимости ломают ожидание и поток
+- action: выполнять до конца по умолчанию, пока нет блокера/развилки
+- outcome: выше predictability и скорость завершения
+- lesson: "без остановок" — рабочий режим, не исключение
+- first_adoption_task: закрепить правило в execution-gate
+- validation_check: число ненужных пауз в длинном таске
+- success_criterion: near-zero unintended pauses
+- rollback_or_mitigation: explicit stop-point only на high-risk шагах
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 24
+- source_refs: `transcript:894407cf... line:70965`; `transcript:894407cf... line:70947`
+- created_at: `2026-02-25`
+- updated_at: `2026-02-25`
+- card_id: KC-2026-02-25-034
+- world: culture.global
+- layer: `router`
+- tags: `global-local-bridge`, `cultural-routing`, `boundary`
+- status: `active`
+- epistemic_basis: `inference`
+- evidence_type: repeated governance correction
+- confidence: `high`
+- uncertainty: низкая
+- falsification_trigger: устойчиво корректные решения без явного разделения global/local культурного слоя
+- transfer_boundary: применимо к playbook router и policy overlays
+- context: культура одновременно универсальна и локально уникальна
+- signal: при неразделенной модели культуры возникают противоречивые выводы
+- action: сначала проверять global principle, затем country-specific adaptation
+- outcome: согласованность ценностей без потери локальной релевантности
+- lesson: мост между global и local нужен явно, а не "по умолчанию"
+- first_adoption_task: добавить в router порядок `global -> local -> conflict check`
+- validation_check: наличие conflict-check в каждой культурной карте
+- success_criterion: снижение культурных коллизий в рекомендациях
+- rollback_or_mitigation: ручной cultural review
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 25 (media.video-surveillance — router)
+- source_refs: `worlds/media-videography/kb-videography-cinematography-theory-v1.md` §13
+- created_at: `2026-03-01`
+- updated_at: `2026-03-01`
+- card_id: KC-2026-02-25-035
+- world: media.video-surveillance
+- layer: `router`
+- tags: `videography`, `CCTV`, `surveillance`, `kb-router`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: operational reference
+- confidence: `high`
+- transfer_boundary: прикладное видеонаблюдение (CCTV, охранные камеры); не смешивать с видеопродукцией (broadcast/стриминг) без явного переноса
+- context: контент по миру media.video-surveillance (размещение, покрытие, retention, персональные данные) хранится в `worlds/media-videography/kb-videography-cinematography-theory-v1.md`, §13 и правила R9–R12
+- signal: запрос о CCTV, видеонаблюдении, охранных камерах, слепых зонах, retention видеозаписей, законности видеонаблюдения
+- action: загружать `knowledge/worlds/media-videography/kb-videography-cinematography-theory-v1.md`; применять правила и разделы с world media.video-surveillance
+- outcome: единая точка входа для видеонаблюдения и согласованность с остальной видеографической базой
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 26 (software.ml-applied — router)
+- source_refs: `worlds/software-ml-applied/kb-ml-applied-theory-v1.md`
+- created_at: `2026-03-01`
+- updated_at: `2026-03-01`
+- card_id: KC-2026-02-25-036
+- world: software.ml-applied
+- layer: `router`
+- tags: `ml`, `ocr`, `barcode`, `qr`, `kb-router`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: operational reference
+- confidence: `high`
+- transfer_boundary: прикладное ML (OCR, распознавание кодов, выбор парадигмы); не подменяет глубокую теорию обучения и доменные онтологии (медицина, право)
+- context: контент по миру software.ml-applied — парадигмы ML, OCR (Tesseract, препроцессинг), barcode/QR/Data Matrix, операционные правила R1–R7
+- signal: запрос о машинном обучении (прикладные задачи), OCR, распознавании штрихкодов, QR, Data Matrix, Tesseract, препроцессинге для распознавания
+- action: загружать `knowledge/worlds/software-ml-applied/kb-ml-applied-theory-v1.md`; применять правила и разделы с world software.ml-applied
+- outcome: согласованная точка входа для ML и распознавания текста/кодов
+- supersedes:
+- superseded_by:
+- deprecation_reason:
+
+## Card 27 (arts.music — router)
+- source_refs: `worlds/arts-music/playbook-music-v1.md`, `worlds/arts-music/kb-music-theory-fundamentals-v1.md`, `worlds/arts-music/kb-music-acoustics-v1.md`, `worlds/arts-music/kb-music-temperaments-math-v1.md`, `worlds/arts-music/kb-music-non-western-v1.md`
+- created_at: `2026-03-01`
+- updated_at: `2026-03-01`
+- card_id: KC-2026-02-25-037
+- world: arts.music
+- layer: `router`
+- tags: `music`, `theory`, `notation`, `harmony`, `kb-router`
+- status: `active`
+- epistemic_basis: `fact`
+- evidence_type: operational reference
+- confidence: `high`
+- transfer_boundary: западная тональность + физика звука, психоакустика, математическая теория строёв, незападные системы (макам, рага, микротоновость) в объёме kb; за пределами kb — уточнять и маршрутизировать
+- context: контент по миру arts.music — pitch, ритм, лады, гармония (fundamentals); физика звука, психоакустика (acoustics); строи, темперации (temperaments-math); макам, рага, микротоновость (non-western)
+- signal: запрос о теории музыки, нотах, гармонии, интервалах, транспонировании; физике/психоакустике звука; строях и темперации; макаме, раге, микротоновости; «откуда коэффициент/звук» в музыкальном контексте
+- action: загружать `knowledge/worlds/arts-music/playbook-music-v1.md` для маршрутизации; по теме запроса — соответствующий kb (fundamentals / acoustics / temperaments-math / non-western); применять правила и разделы с world arts.music
+- outcome: согласованная точка входа для музыки и связи формул/смыслов со звуком
+- supersedes:
+- superseded_by:
+- deprecation_reason:

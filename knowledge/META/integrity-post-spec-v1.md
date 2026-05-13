@@ -46,7 +46,7 @@
 
 ## 4. Реализации
 
-- **Cursor:** правило проверяет наличие `knowledge/META/integrity-core.md`; при отсутствии — Minimal Safe Default из п.3.
+- **Cursor:** правило проверяет наличие `knowledge/META/integrity-core.md`; при отсутствии — Minimal Safe Default из п.3. **Эталон текста правила** (копировать в `.cursor/rules/*.mdc`): `META/cursor-rule-integrity-post-example.md` — держать в синхроне со §3 и `integrity-core.md`; локальные копии могут отставать, пока не обновишь вручную.
 - **Скрипт/CLI:** перед использованием KB читать `META/integrity-core.md`; при отсутствии — POST failed, только fallback.
 - **GitLab/хост:** при чтении репо проверять well-known path; поведение то же.
 
@@ -56,9 +56,11 @@
 
 ## 5. Связь с полной KB
 
-Полный протокол: `playbook-integrity-under-pressure-v1.md`. Фундамент манипуляции: `kb-psychology-manipulation-and-influence-foundations-v1.md`. `META/integrity-core.md` — минимальное ядро для POST.
+Полный протокол: `playbook-integrity-under-pressure-v1.md`. Фундамент манипуляции: `worlds/psychology-models/kb-psychology-manipulation-and-influence-foundations-v1.md`. `META/integrity-core.md` — минимальное ядро для POST.
 
-Версия: v1.1. 2026-05-11 (§3 синхронизирован с `integrity-core.md` v1.1 — вред себе / опьянение).
+Ценностный слой «когда формальные барьеры рухнули» (не путать с POST failed): `META/core-when-barriers-fail-extended-v1.md` — дополняет playbook после разрешения корня; **не** заменяет §3 Minimal Safe Default при отсутствии `integrity-core.md`.
+
+Версия: v1.2. 2026-05-11 (§4 — эталон правила Cursor `META/cursor-rule-integrity-post-example.md`; §3 синхронизирован с `integrity-core.md` v1.1.)
 
 ---
 

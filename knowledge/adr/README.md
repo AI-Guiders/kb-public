@@ -38,3 +38,6 @@
 - `005-kb-base-cide-bundle.md`
 - `006-zettelkasten-overlay-for-kb.md`
 - `007-kb-project-constitution.md`
+- `008-workspace-scope-map-hot-mcp-and-public-cut.md`
+- `009-kb-entry-structure-and-pre-open-onboarding.md` (вход, worlds/domains/templates/routers, таксономия)
+- `010-kb-markdown-fts-index-boundary.md` (опциональный FTS по Markdown KB; граница с внешним MCP HCI; не часть ANKB по умолчанию)

@@ -4,7 +4,7 @@
 **Дата:** 2026-03-04  
 **Источник в истории:** `9c8c00d`, `0cb8a99`, `75164dc`, `9318c91`
 **Supersedes:** —  
-**Extended by:** [005](005-kb-base-cide-bundle.md)
+**Extended by:** [005](005-kb-base-cide-bundle.md), [008](008-workspace-scope-map-hot-mcp-and-public-cut.md)
 
 ---
 

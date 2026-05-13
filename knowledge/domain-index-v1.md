@@ -2,7 +2,7 @@
 
 > **Назначение:** темы для изучения и роутер «тип задачи → домен». В репозитории хранятся только **общие знания** по доменам; персональная инфраструктура (серверы, пути, доступы) не вносится в репозиторий и остаётся в локальном контексте пользователя.
 
-**Где лежат файлы:** этот файл и `tool-purpose-and-books-v1.md`, а также playbook/kb для доменов **zabbix-monitoring**, **grafana**, **network-fundamentals** — в **корне `knowledge/`** (например `knowledge/playbook-zabbix-monitoring-v1.md`). Playbook для доменов **1c-admin**, **ssh-operations**, **wireshark-network**, **nginx-admin**, **backup-db**, **incidents-tickets** — в **`knowledge/work/`** (имена файлов — как в таблице ниже).
+**Где лежат файлы:** этот файл и `tool-purpose-and-books-v1.md` (часто под `knowledge/worlds/information-management/`). Playbook/kb из таблицы ниже — в **`knowledge/worlds/ops-network-admin/`**, **`knowledge/worlds/ops-observability-network/`** и смежных мирах ops.* (не в корне `knowledge/`); короткие имена в таблице — для удобства, полный путь бери из хаба [`worlds/README.md`](worlds/README.md) или через главный роутер. Пример: `knowledge/worlds/ops-observability-network/playbook-zabbix-monitoring-v1.md`, `knowledge/worlds/ops-network-admin/playbook-1c-admin-v1.md`.
 
 ---
 
