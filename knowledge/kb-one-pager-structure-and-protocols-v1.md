@@ -4,7 +4,11 @@
 
 **Публичная сборка (kb-public):** этот файл **входит в билд** (`knowledge/*.md` без префиксов из `public-kb.ignore`) **намеренно** — чтобы потребители архива понимали модель KB, даже когда в архиве **нет** `work/` и `personal/`: отсутствие этих путей **ожидаемо**, не «сломанная сборка». Политика публикации — в **`PUBLISHING.md`** (он **входит** в kb-public); хосты, токены и сценарии пуша — только в полном каноне, в слое **`knowledge/work/`** (в kb-public не копируется).
 
-**Не заменяет** полный канон; это **сжатая карта**. Что доступно **и в kb-public:** `SHOWCASE.md`, **`PUBLISHING.md`**, `index-knowledge-router-v1.md`, `router-operational-baseline-v1.md`, `index-knowledge-router-safety-v1.md`, `index-knowledge-router-maintenance-v1.md`, `worlds/workspace-context/playbook-multi-project-context-v1.md`, большинство playbook/kb под `knowledge/worlds/...` и в корне `knowledge/*.md` (см. `public-kb.ignore`). **Только в полном каноне** (репо agent-notes целиком): дерево `knowledge/work/` (карточки `project-id`, `work/projects/README.md`, `kb-purpose.md`, `project-ids-quickref-v1.md`, внутренний runbook пуша и т.д.).
+**Не заменяет** полный канон; это **сжатая карта**.
+
+**Wiki one-pager (протоколы + сущности):** **`kb-protocols-and-entities-one-pager-v1.md`** — маркеры `[HUMAN]`/`[WORK]`/`[PRIMARY]`/`[SCOPE]`, когда что использовать, схема Scope/Project.
+
+Что доступно **и в kb-public:** `SHOWCASE.md`, **`PUBLISHING.md`**, `index-knowledge-router-v1.md`, `router-operational-baseline-v1.md`, `index-knowledge-router-safety-v1.md`, `index-knowledge-router-maintenance-v1.md`, `worlds/workspace-context/playbook-multi-project-context-v1.md`, большинство playbook/kb под `knowledge/worlds/...` и в корне `knowledge/*.md` (см. `public-kb.ignore`). **Только в полном каноне** (репо agent-notes целиком): дерево `knowledge/work/` (карточки `project-id`, `work/projects/README.md`, `kb-purpose.md`, `project-ids-quickref-v1.md`, внутренний runbook пуша и т.д.).
 
 ---
 
@@ -127,3 +131,4 @@
 | Ты **держишь полный репозиторий канона** (author или fork): как собирается kb-public | **`PUBLISHING.md`** (входит в kb-public); **`public-kb.ignore`** и runbook пуша — только в полном каноне (`public-kb.ignore` в zip **не** кладётся по дизайну списка исключений) |
 | Полный канон: соглашение `work/projects/<scope>/…` | `work/projects/README.md` (в kb-public **нет**) |
 | Mixed worlds, `transfer_boundary`, поля `world:` | `worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md` |
+| Протоколы и сущности (one-pager для wiki) | `kb-protocols-and-entities-one-pager-v1.md` |

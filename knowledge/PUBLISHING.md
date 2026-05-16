@@ -16,7 +16,7 @@
 
 ### Что обычно в публичной kb
 
-По общему правилу п. 2 в публичный срез попадают типичные **`knowledge/*.md`**: плейбуки, индексы, доменные kb, **`knowledge/META/`** (Integrity POST и спеки), **этот `PUBLISHING.md`**, **`kb-one-pager-structure-and-protocols-v1.md`** (онлайн-онбординг: слои, маркеры `[HUMAN]`/`[WORK]`, `[PRIMARY]`/`[SCOPE]`, зачем в полном каноне есть `work/` и `personal/`). Корневые **`README.md`** / **`LICENSE`** для репозитория kb-public — п. 3 «Механики».
+По общему правилу п. 2 в публичный срез попадают типичные **`knowledge/*.md`**: плейбуки, индексы, доменные kb, **`knowledge/META/`** (Integrity POST и спеки), **этот `PUBLISHING.md`**, **`kb-one-pager-structure-and-protocols-v1.md`** (онлайн-онбординг: слои, маркеры, зачем в полном каноне есть `work/` и `personal/`), **`kb-protocols-and-entities-one-pager-v1.md`** (wiki-вход: протоколы и сущности Scope/Primary, схемы). Корневые **`README.md`** / **`LICENSE`** для репозитория kb-public — п. 3 «Механики».
 
 ### `agent-notes.md`: выше или ниже `public-cut`
 

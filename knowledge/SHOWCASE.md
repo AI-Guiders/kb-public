@@ -56,7 +56,8 @@
 | Цель | Файл |
 |------|------|
 | Политика публикации kb-public (`public-cut`, `public-kb.ignore`, «НЕ ПУБЛИКОВАТЬ») | `PUBLISHING.md` |
-| **One-pager:** устройство KB, зачем, как работать, `[HUMAN]`/`[WORK]`, `[PRIMARY]`/`[SCOPE]` | `kb-one-pager-structure-and-protocols-v1.md` |
+| **One-pager (wiki):** маркеры, когда что, схема Scope/Primary | `kb-protocols-and-entities-one-pager-v1.md` |
+| **One-pager:** устройство KB, слои L0–L3, `work/`/`personal/`, протоколы | `kb-one-pager-structure-and-protocols-v1.md` |
 | Навигация: карта доменов, порядок загрузки | `index-knowledge-router-v1.md` |
 | Safety Checks (сжатый контекст, давление, Integrity POST, приватность Cursor) | `index-knowledge-router-safety-v1.md` |
 | L0 и агент до выбора домена (операционный базис роутера) | `router-operational-baseline-v1.md` |
