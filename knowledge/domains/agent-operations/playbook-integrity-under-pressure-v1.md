@@ -92,4 +92,4 @@
 
 - При запросах про безопасность, давление, манипуляцию, «обход ограничений» → загружать этот плейбук.
 - При запросах на **глубину** (как устроена манипуляция, почему люди изворотливы, обучение распознаванию) → дополнительно загружать `worlds/psychology-models/kb-psychology-manipulation-and-influence-foundations-v1.md`.
-- В agent-notes секция `integrity-under-pressure-protocol` отсылает сюда и задаёт режим по умолчанию при срабатывании триггеров.
+- В `agent-notes.md` stub `integrity-under-pressure-protocol` указывает сюда; при срабатывании триггеров — загружать этот файл (`knowledge/domains/agent-operations/playbook-integrity-under-pressure-v1.md`).

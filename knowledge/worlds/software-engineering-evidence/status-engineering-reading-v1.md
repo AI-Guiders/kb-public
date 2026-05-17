@@ -41,10 +41,10 @@ Completed artifacts:
 ### Legacy / compatibility bridge (.NET Framework → .NET)
 
 - For legacy .NET Framework topics (1.0–4.x history, CLR 2.0/3.5 vs CLR 4.0, supported combinations, migration decisions) **не открывать новый домен**: использовать тонкий мостовой слой поверх этого фонда:
-  - `worlds/software-dotnet-desktop/kb-dotnet-fundamentals-v1.md` — конспект по линиям .NET, TFMs, моделям приложений и границам .NET↔native;
+  - `worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md` — конспект по линиям .NET, TFMs, моделям приложений и границам .NET↔native;
   - блок `.NET Framework history and compatibility (1.0 → 4.x)` внутри `kb-engineering-evidence-v1.md` — факты/эвиденция по истории/совместимости;
-  - `worlds/software-dotnet-desktop/kb-dotnet-playbooks-v1.md` — короткие playbook’и (выбор TFM/версии, оценка миграции с .NET Framework, базовый диагностический цикл).
-- Глубинные диагностические/отладочные дорожки остаются в существующих playbook’ах (`worlds/software-dotnet-desktop/dotnet-roslyn-debug-playbook.md`, `tooling-debug-playbook.md`, `worlds/software-dotnet-desktop/frontend-dotnet-playbook.md`) и считаются продолжением этого же домена.
+  - `worlds/software-dotnet-csharp/kb-dotnet-playbooks-v1.md` — короткие playbook’и (выбор TFM/версии, оценка миграции с .NET Framework, базовый диагностический цикл).
+- Глубинные диагностические/отладочные дорожки остаются в существующих playbook’ах (`worlds/software-dotnet-tooling-roslyn/dotnet-roslyn-debug-playbook.md`, `tooling-debug-playbook.md`, `worlds/software-dotnet-csharp/frontend-dotnet-playbook.md`) и считаются продолжением этого же домена.
 
 ## Next sources to ingest (Queue)
 

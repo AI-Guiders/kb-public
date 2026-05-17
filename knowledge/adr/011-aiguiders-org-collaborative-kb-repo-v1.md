@@ -167,7 +167,7 @@ flowchart LR
 2. Initial commit = output `build-public-kb.ps1` (или `git subtree` из текущего `kb-public`).
 3. Добавить `CONTRIBUTING.md`, `CODEOWNERS`, шаблон PR, ссылку на [009](009-kb-entry-structure-and-pre-open-onboarding.md) и `kb-one-pager`.
 4. Зафиксировать в `knowledge/work/` runbook: export в org-kb, import из org-kb (без дублирования в kb-public README).
-5. Обновить `public-kb.push` / CI: целевой remote — `AIGuiders/kb` **или** оставить `KarataevDmitry/kb-public` как release-only — **решение по вопросу 2 ниже**.
+5. Обновить `public-kb.push` / CI: целевой remote GitHub — **`AI-Guiders/kb-public`** (см. `knowledge/public-kb.push`); org `AIGuiders/kb` — отдельный контур совместного канона.
 6. Упоминание в `index-knowledge-router-v1.md` (секция router-org-kb) — после стабилизации имени репо.
 
 ---
@@ -187,7 +187,7 @@ flowchart LR
 ## Рекомендация автора ADR (для обсуждения)
 
 - Репо: **`AIGuiders/kb`**, public внутри org (или public GitHub, если цель — открытые общие линии).
-- **`KarataevDmitry/kb-public`:** оставить как **read-only release** до стабилизации org-kb, затем README «canonical: AIGuiders/kb».
+- **`AI-Guiders/kb-public`:** канонический GitHub remote для публичной сборки kb-public (`public-kb.push`). Старый `KarataevDmitry/kb-public` — редирект GitHub.
 - Governance: **PR в org-kb** + периодический **import** в **личный канон**; export script с тем же `public-kb.ignore`.
 - Не включать в org-kb: `work/`, `personal/`, операционный hot ниже cut.
 

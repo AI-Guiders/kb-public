@@ -4,7 +4,7 @@
 Playbook for build, test, diagnostics, and debugging workflows across .NET projects.
 
 ## Related Specialized Playbook
-- `.NET Roslyn and Debug`: `knowledge/worlds/software-dotnet-desktop/dotnet-roslyn-debug-playbook.md` (symbol-aware diagnostics/refactoring/debug depth).
+- `.NET Roslyn and Debug`: `knowledge/worlds/software-dotnet-tooling-roslyn/dotnet-roslyn-debug-playbook.md` (symbol-aware diagnostics/refactoring/debug depth).
 
 ## Scope
 - Build and test reliability

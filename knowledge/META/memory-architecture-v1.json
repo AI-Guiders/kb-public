@@ -10,11 +10,6 @@
     "response-one-step-before-finish-v1",
     "scope-disambiguation-all-everywhere-v1"
   ],
-  "l0_owner": [
-    "current-task",
-    "next-action",
-    "blockers"
-  ],
   "compact_order_suffix": [
     "workspace-scope-map-v1",
     "scope-door-to-singularity",

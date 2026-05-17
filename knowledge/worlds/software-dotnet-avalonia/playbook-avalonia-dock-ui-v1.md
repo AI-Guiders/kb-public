@@ -70,7 +70,7 @@
 
 ## Integration with other playbooks
 
-- **C# диагностика / рефакторинг:** `dotnet-roslyn-debug-playbook.md`
+- **C# диагностика / рефакторинг:** `../software-dotnet-tooling-roslyn/dotnet-roslyn-debug-playbook.md`
 - **Сборка/тест/отладка общая:** `../../tooling-debug-playbook.md`
 - **DX-поток и среда (не только UI):** `../hci-ux-dx/de-dx-playbook.md`
 - **Общий .NET frontend:** `frontend-dotnet-playbook.md`

@@ -98,7 +98,7 @@
 - **First adoption task:** при обновлении пакетов редактора — smoke: открытие файла, поиск, перенос строки, смена темы приложения, быстрый ввод в большом файле.
 - **Success criterion:** редактор не ломает фокус остального окна, не теряет привязку документа к VM, подсветка стабильна без повторяющихся ошибок в логе.
 - **DX (специфика Avalonia):** полного паритета с классическим **WPF XAML designer** нет; базовый цикл — **AXAML → `dotnet build` → run**; часть проблем (**биндинги**, **DynamicResource**, lifecycle) проявляется только в **runtime**. Для инспекции дерева в dev-сборках используют **DevTools** (включение и жест — по [документации Avalonia](https://docs.avaloniaui.net/) для твоей мажорной версии, не кэшировать в KB конкретную клавишу).
-- **DX (общий поток):** C# и рефакторинг — `dotnet-roslyn-debug-playbook.md`; сборка, блокировки выходных файлов, тесты — `../../tooling-debug-playbook.md`; снижение трения и привычки доставки — `../hci-ux-dx/de-dx-playbook.md`.
+- **DX (общий поток):** C# и рефакторинг — `../software-dotnet-tooling-roslyn/dotnet-roslyn-debug-playbook.md`; сборка, блокировки выходных файлов, тесты — `../../tooling-debug-playbook.md`; снижение трения и привычки доставки — `../hci-ux-dx/de-dx-playbook.md`.
 - **Confidence:** medium (детали API и путей к bundle — в репо; TextMate — повышенный риск версионного дрейфа)
 
 ---

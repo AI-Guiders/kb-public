@@ -127,7 +127,7 @@
 | Триггеры по темам | `index-knowledge-router-supplement-v1.md` |
 | Мультипроект + куда писать заметки | `worlds/workspace-context/playbook-multi-project-context-v1.md` |
 | Память агента, fuzzy-запросы | `agent-memory-and-operating-principles-v1.md` |
-| Целостность под давлением | `playbook-integrity-under-pressure-v1.md` |
+| Целостность под давлением | `domains/agent-operations/playbook-integrity-under-pressure-v1.md` |
 | Ты **держишь полный репозиторий канона** (author или fork): как собирается kb-public | **`PUBLISHING.md`** (входит в kb-public); **`public-kb.ignore`** и runbook пуша — только в полном каноне (`public-kb.ignore` в zip **не** кладётся по дизайну списка исключений) |
 | Полный канон: соглашение `work/projects/<scope>/…` | `work/projects/README.md` (в kb-public **нет**) |
 | Mixed worlds, `transfer_boundary`, поля `world:` | `worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md` |

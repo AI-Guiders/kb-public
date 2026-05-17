@@ -12,6 +12,8 @@
 | **Обучение при ступоре** | [`playbook-learn-basics-when-stuck-v1.md`](playbook-learn-basics-when-stuck-v1.md) |
 | **Уточнение запроса** | [`playbook-clarification-general-query-v1.md`](playbook-clarification-general-query-v1.md) |
 | **Два слоя фундамента агента** | [`kb-agent-foundation-two-layers-orientation-v1.md`](kb-agent-foundation-two-layers-orientation-v1.md) — physical (WFM) vs semantic (KB/MCP); аналогия Cosmos |
+| **Метрики / auto-rotation** | [`playbook-agent-orchestration-operations-v1.md`](playbook-agent-orchestration-operations-v1.md) |
+| **Сквозные протоколы агента** | [`../../domains/agent-operations/README.md`](../../domains/agent-operations/README.md) |
 
 Строка **Agent orchestration** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
 

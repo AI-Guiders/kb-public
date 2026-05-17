@@ -1,18 +1,11 @@
-# Мир **software.desktop-ui** и платформа **.NET** (CascadeIDE, Roslyn)
+# Hub .NET (legacy path) — редирект на split v1.2
 
-**Назначение:** desktop UI на Avalonia/Dock (CascadeIDE), общий .NET frontend (Blazor/XAML), фундамент рантайма .NET (TFM, миграции), Roslyn MCP и отладка C#.
+**2026-05:** содержимое разложено по world tags. Путь `software-dotnet-desktop/` сохранён как **указатель** (старые ссылки в роутере обновляются на новые папки).
 
-## Карта материалов
+| World tag | Папка |
+|-----------|--------|
+| `software.authoring.dotnet.csharp` | [`../software-dotnet-csharp/`](../software-dotnet-csharp/) |
+| `software.authoring.dotnet.tooling.roslyn` | [`../software-dotnet-tooling-roslyn/`](../software-dotnet-tooling-roslyn/) |
+| `software.authoring.dotnet.csharp.desktop-ui.avalonia` | [`../software-dotnet-avalonia/`](../software-dotnet-avalonia/) |
 
-| Слой | Файлы |
-|------|--------|
-| **Avalonia / CascadeIDE** | [`status-avalonia-cascade-ide-ui-v1.md`](status-avalonia-cascade-ide-ui-v1.md), [`playbook-avalonia-dock-ui-v1.md`](playbook-avalonia-dock-ui-v1.md), [`kb-avalonia-ui-dock-fundamentals-v1.md`](kb-avalonia-ui-dock-fundamentals-v1.md) |
-| **.NET frontend (обзор)** | [`frontend-dotnet-playbook.md`](frontend-dotnet-playbook.md) |
-| **.NET платформа** | [`kb-dotnet-fundamentals-v1.md`](kb-dotnet-fundamentals-v1.md), [`kb-dotnet-playbooks-v1.md`](kb-dotnet-playbooks-v1.md) |
-| **Roslyn / отладка** | [`playbook-csharp-roslyn-mcp-diagnostics-v1.md`](playbook-csharp-roslyn-mcp-diagnostics-v1.md), [`dotnet-roslyn-debug-playbook.md`](dotnet-roslyn-debug-playbook.md) |
-
-Пересечение с HCI, DE/DX и инженерным evidence — через Domain Entry Map и supplement (`router-avalonia-ui`, `router-dotnet`, `router-de-dx`).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/software-dotnet-desktop/` (ветка `feature/kb-taxonomy-layout-v1`).
+Кросс-языковое (OOA&D, matrix): [`../software-authoring/`](../software-authoring/).

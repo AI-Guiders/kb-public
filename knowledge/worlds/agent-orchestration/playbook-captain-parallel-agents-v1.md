@@ -78,7 +78,7 @@
 ## 9. Связь с другими playbook
 
 - Мультипроектный контекст и роутинг KB: [`../../workspace-context/playbook-multi-project-context-v1.md`](../../workspace-context/playbook-multi-project-context-v1.md), [`../../index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md) (канон agent-notes).
-- Целостность под давлением: [`../../playbook-integrity-under-pressure-v1.md`](../../playbook-integrity-under-pressure-v1.md).
+- Целостность под давлением: [`../../domains/agent-operations/playbook-integrity-under-pressure-v1.md`](../../domains/agent-operations/playbook-integrity-under-pressure-v1.md).
 
 ## 10. Версионирование
 

@@ -16,7 +16,7 @@
 | Корень | Назначение |
 |--------|------------|
 | **`worlds/`** | Крупные контексты («вселенные»): продуктовые стеки, исследовательские миры, длинные дуги. Примеры: `worlds/cognition-human-perception/` (статус, playbooks и kb этого мира внутри папки); `worlds/arts-music/` (мир **arts.music**); `worlds/software-engineering-evidence/` (**software.engineering-evidence**); `worlds/software-automation-scripting/` (**software.automation-scripting**). Не смешивать со **scope** в `active_scope` / `work/projects/<scope>/` — это оперативные карточки workspace, не мир KB. |
-| **`domains/`** | Сквозные темы (безопасность, инструменты, процессы, …) — по мере появления контента; v1 может быть пустым кроме README. **Имя корзины не финально** — см. **`domains/README.md`**. |
+| **`domains/`** | Сквозные темы (безопасность, инструменты, процессы, …). **v1:** [`domains/agent-operations/`](../domains/agent-operations/) — операционные контракты агента (`playbook-project-switch`, `playbook-mode-switch`, multi-agent write, integrity под давлением). **Имя корзины не финально** для других slug — см. **`domains/README.md`**. |
 | **`templates/`** | Реюзабельные **шаблоны** (каркасы карточек, чеклисты). Экземпляры после копирования живут в согласованном месте (часто `work/projects/...`), не редактируются как «живые» внутри `templates/`. |
 | **`work/`** | Оперативный слой: карточки проектов, локальные runbook’и, то, что **не** входит в kb-public (`public-kb.ignore`). |
 | **`META/`** | Well-known спеки, integrity, provenance; корень доверия. |

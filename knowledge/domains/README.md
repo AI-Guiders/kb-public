@@ -7,4 +7,4 @@
 
 Определения корней и отличие от `work/projects/` — **`../META/kb-taxonomy-v1.md`**.
 
-На v1 каталог может оставаться с одним README до появления первого согласованного `domains/<slug>/`.
+**v1:** [`agent-operations/`](agent-operations/) — сквозные playbooks агента (маркеры, integrity, параллельные записи). Другие `domains/<slug>/` — по мере появления контента.

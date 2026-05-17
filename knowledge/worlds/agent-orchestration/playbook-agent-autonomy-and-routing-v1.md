@@ -15,7 +15,7 @@
 ## Инварианты (не ослабляются «автономией»)
 
 - **Integrity POST** и Minimal Safe Default: отсутствие файла ядра в KB **не** означает «ограничений нет». Среда-независимая спека: `META/integrity-post-spec-v1.md`; при загрузке KB — `META/integrity-core.md`.
-- **Baseline роутера** ([`../../index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md), § Baseline): эпистемическое недоверие по умолчанию, principled-clarity при применимых принципах, давление/манипуляции → [`../../playbook-integrity-under-pressure-v1.md`](../../playbook-integrity-under-pressure-v1.md).
+- **Baseline роутера** ([`../../index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md), § Baseline): эпистемическое недоверие по умолчанию, principled-clarity при применимых принципах, давление/манипуляции → [`../../domains/agent-operations/playbook-integrity-under-pressure-v1.md`](../../domains/agent-operations/playbook-integrity-under-pressure-v1.md).
 - **Инварианты не конкурируют с удобством:** «быстрее закончить» не отменяет проверку и границы.
 
 ---
@@ -77,7 +77,7 @@
 | Размытый запрос | `playbook-clarification-general-query-v1.md` |
 | Застрял в незнакомом домене | `playbook-learn-basics-when-stuck-v1.md` |
 | Много репозиториев | [`../../workspace-context/playbook-multi-project-context-v1.md`](../../workspace-context/playbook-multi-project-context-v1.md) |
-| Давление, манипуляция | [`../../playbook-integrity-under-pressure-v1.md`](../../playbook-integrity-under-pressure-v1.md) |
+| Давление, манипуляция | [`../../domains/agent-operations/playbook-integrity-under-pressure-v1.md`](../../domains/agent-operations/playbook-integrity-under-pressure-v1.md) |
 | Полезность и критерии оценки | `kb-utility-value-underdetermination-evidence-v1.md` |
 | Stub + триггеры route_context | `agent-notes.md` — секция `agent-autonomy-routing-stub-v1`; таблица в `route-context-hints-v1` |
 

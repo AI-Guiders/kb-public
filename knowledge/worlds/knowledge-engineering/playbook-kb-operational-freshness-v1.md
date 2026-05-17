@@ -12,6 +12,7 @@
 - `index-knowledge-router-supplement-v1.md` → `router-kb-operational-freshness`
 - `playbook-learn-basics-when-stuck-v1.md` — если неясна **семантика** предмета, сначала матчасть, потом правка kb
 - `runbook-kb-mcp-access-v1.md` — если **не читается** канон
+- Карта трёх контуров (агент-диспетчер, без PWA): `domains/agent-operations/map-kb-three-contours-v1.md`
 - Идея UI для людей (не обязательна агенту): `work/projects/door-to-singularity/kb-management-center/README.md`
 
 **Версия:** v1.2 · 2026-05-16 — явная связь с **Maintenance Policy** доменов и **Maintenance Rule** роутера (разные сущности). v1.1 — слои fundamentals/operational.
@@ -123,8 +124,8 @@
 
 | Триггер | Файлы (порядок) |
 |---------|------------------|
-| .NET / TFM / SDK / миграция | supplement § `router-dotnet` → `worlds/software-dotnet-desktop/kb-dotnet-fundamentals-v1.md` → при миграции `kb-dotnet-playbooks-v1.md` → при инженерных фактах `worlds/software-engineering-evidence/kb-engineering-evidence-v1.md` |
-| C# / Roslyn / диагностики | `worlds/software-dotnet-desktop/playbook-csharp-roslyn-mcp-diagnostics-v1.md` |
+| .NET / TFM / SDK / миграция | supplement § `router-dotnet` → `worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md` → при миграции `kb-dotnet-playbooks-v1.md` → при инженерных фактах `worlds/software-engineering-evidence/kb-engineering-evidence-v1.md` |
+| C# / Roslyn / диагностики | `worlds/software-dotnet-tooling-roslyn/playbook-csharp-roslyn-mcp-diagnostics-v1.md` |
 | CIDE: runtime vs Learn | `work/projects/door-to-singularity/cascade-ide/kb-dotnet-runtime-reference-stance-v1.md` |
 
 ### `php-laravel` / `javascript-cluster`

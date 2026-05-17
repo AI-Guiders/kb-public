@@ -1,4 +1,4 @@
-# Avalonia UI / CascadeIDE — domain status v1
+﻿# Avalonia UI / CascadeIDE — domain status v1
 
 ## Scope
 
@@ -52,3 +52,16 @@ Artifacts:
 - source_refs: `CascadeIDE.csproj` (PackageReference, PropertyGroup), структура Views; дата синхронизации: 2026-03-20
 - layer: meta / domain-status
 - epistemic_basis: fact (версии из csproj); confidence: high для версий на дату обновления
+
+<!-- section:cross-link-software-transfer-matrix -->
+## Cross-link: software transfer matrix
+
+При **структурном** UI-рефакторинге (Skia `switch`, рост ViewModel, новый overview) — не только Avalonia playbook: **`../software-authoring/matrix-software-cross-domain-transfer-v1.md`**. При чисто биндинге/теме/Dock — остаёмся в `playbook-avalonia-dock-ui-v1.md`.
+<!-- /section:cross-link-software-transfer-matrix -->
+
+<!-- section:world-tag-v1 -->
+**World tag (KE):** `software.authoring.dotnet.csharp.desktop-ui.avalonia`  
+**Язык:** `software.authoring.dotnet.csharp` — idioms, `code-writing-principles-v1.md`.  
+**Tooling:** `software.authoring.dotnet.tooling.roslyn` — диагностики/MCP, **отдельно** от языка.  
+**Легаси:** `software.desktop-ui`.
+<!-- /section:world-tag-v1 -->

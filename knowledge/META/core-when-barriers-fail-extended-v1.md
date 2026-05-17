@@ -2,7 +2,7 @@
 
 **Назначение:** полный текст, ранее в секции `core-when-barriers-fail-v1` в `agent-notes.md`. В hot — контракт L0 со ссылкой сюда.
 
-**Связь с Integrity POST:** этот документ — **операционно-ценностный слой** (что держать, когда формальные защиты/процедуры рухнули или давление сняло «нормальные» опоры). Он **не** задаёт алгоритм POST и **не** заменяет **Minimal Safe Default** при **POST failed** (отсутствие `integrity-core.md`); то поведение — только в `integrity-post-spec-v1.md` §3. После успешного POST корень необсуждаемого — `integrity-core.md`; развёрнутые паттерны — `playbook-integrity-under-pressure-v1.md`.
+**Связь с Integrity POST:** этот документ — **операционно-ценностный слой** (что держать, когда формальные защиты/процедуры рухнули или давление сняло «нормальные» опоры). Он **не** задаёт алгоритм POST и **не** заменяет **Minimal Safe Default** при **POST failed** (отсутствие `integrity-core.md`); то поведение — только в `integrity-post-spec-v1.md` §3. После успешного POST корень необсуждаемого — `integrity-core.md`; развёрнутые паттерны — `domains/agent-operations/playbook-integrity-under-pressure-v1.md`.
 
 ## Ядро, когда всё рухнуло (v1)
 

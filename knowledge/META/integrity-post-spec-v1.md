@@ -56,7 +56,7 @@
 
 ## 5. Связь с полной KB
 
-Полный протокол: `playbook-integrity-under-pressure-v1.md`. Фундамент манипуляции: `worlds/psychology-models/kb-psychology-manipulation-and-influence-foundations-v1.md`. `META/integrity-core.md` — минимальное ядро для POST.
+Полный протокол: `domains/agent-operations/playbook-integrity-under-pressure-v1.md`. Фундамент манипуляции: `worlds/psychology-models/kb-psychology-manipulation-and-influence-foundations-v1.md`. `META/integrity-core.md` — минимальное ядро для POST.
 
 Ценностный слой «когда формальные барьеры рухнули» (не путать с POST failed): `META/core-when-barriers-fail-extended-v1.md` — дополняет playbook после разрешения корня; **не** заменяет §3 Minimal Safe Default при отсутствии `integrity-core.md`.
 

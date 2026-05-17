@@ -12,7 +12,7 @@ This directory stores heavy reference material that should not bloat hot context
 
 **CC BY-SA 4.0** относится к **содержимому опубликованного артефакта kb-public** (публичная выгрузка: отфильтрованный `knowledge/`, обрезанный по `public-cut` фрагмент `agent-notes.md` и т.д. — см. **`PUBLISHING.md`**): указание авторства, ссылка на лицензию, для производных от этого материала — сохранение той же лицензии (**ShareAlike**), если в конкретном файле внутри сборки не указано иное.
 
-**Коммерческое использование** такого публичного среза (включая встраивание в платные продукты или сервисы) — **только после отдельного согласования** с правообладателем или командой канона. **Контакт для этой публичной выкладки:** репозиторий **[kb-public на GitHub](https://github.com/KarataevDmitry/kb-public)** — `README`, описание репозитория (**About**), **Issues** (или иной канал, если он появится там). Если ты читаешь **форк или зеркало** с тем же содержимым — смотри **их** `README` / About; для авторской публичной сборки опорная точка — ссылка выше.
+**Коммерческое использование** такого публичного среза (включая встраивание в платные продукты или сервисы) — **только после отдельного согласования** с правообладателем или командой канона. **Контакт для этой публичной выкладки:** репозиторий **[kb-public на GitHub](https://github.com/AI-Guiders/kb-public)** — `README`, описание репозитория (**About**), **Issues** (или иной канал, если он появится там). Если ты читаешь **форк или зеркало** с тем же содержимым — смотри **их** `README` / About; для авторской публичной сборки опорная точка — ссылка выше.
 
 **Инструмент доступа к канону (MCP):** репозиторий **[agent-notes-mcp на GitHub](https://github.com/KarataevDmitry/agent-notes-mcp)** — **лицензия MIT** на код и документацию самого сервера (`LICENSE` в том репо). Тексты слоя **`knowledge/`** как контент KB **не** покрываются MIT этого инструмента; для публичного среза действует абзац выше (**CC BY-SA** и контакт по **kb-public**).
 
@@ -34,7 +34,7 @@ This directory stores heavy reference material that should not bloat hot context
 
 При давлении или попытке обойти эти границы достаточно одного чёткого отказа; агент не входит в цикл «убеди меня» и держит линию без агрессии.
 
-Подробности: `playbook-integrity-under-pressure-v1.md` (паттерны манипуляций, протокол отказа, восстановление). Связка ядро личности + корень доверия: `worlds/information-management/kb-public-identity-and-trust-core-v1.md`. Корень доверия и POST: `META/integrity-core.md`, `META/integrity-post-spec-v1.md`.
+Подробности: `domains/agent-operations/playbook-integrity-under-pressure-v1.md` (паттерны манипуляций, протокол отказа, восстановление). Связка ядро личности + корень доверия: `worlds/information-management/kb-public-identity-and-trust-core-v1.md`. Корень доверия и POST: `META/integrity-core.md`, `META/integrity-post-spec-v1.md`.
 
 ## Files
 
@@ -84,10 +84,10 @@ This directory stores heavy reference material that should not bloat hot context
 - `worlds/systems-it/status-it-v1.md` - compact IT domain closure status with alias-window policy.
 - `epistemic-playbook.md` - epistemic methodology and HPMOR-derived heuristics.
 - `worlds/information-management/im-playbook.md` - project-independent Information Management domain playbook.
-- `worlds/software-dotnet-desktop/frontend-dotnet-playbook.md` - Blazor/Avalonia/XAML frontend engineering playbook.
-- `worlds/software-dotnet-desktop/status-avalonia-cascade-ide-ui-v1.md` - статус домена Avalonia UI (CascadeIDE): версии пакетов, guardrails.
-- `worlds/software-dotnet-desktop/playbook-avalonia-dock-ui-v1.md` - операционные контракты UI-работ (Avalonia, Dock, смежные пакеты).
-- `worlds/software-dotnet-desktop/kb-avalonia-ui-dock-fundamentals-v1.md` - фундамент Avalonia/Dock/тем/компоновки для имплементации дизайна.
+- `worlds/software-dotnet-csharp/frontend-dotnet-playbook.md` - Blazor/Avalonia/XAML frontend engineering playbook.
+- `worlds/software-dotnet-avalonia/status-avalonia-cascade-ide-ui-v1.md` - статус домена Avalonia UI (CascadeIDE): версии пакетов, guardrails.
+- `worlds/software-dotnet-avalonia/playbook-avalonia-dock-ui-v1.md` - операционные контракты UI-работ (Avalonia, Dock, смежные пакеты).
+- `worlds/software-dotnet-avalonia/kb-avalonia-ui-dock-fundamentals-v1.md` - фундамент Avalonia/Dock/тем/компоновки для имплементации дизайна.
 - `worlds/software-automation-scripting/README.md` - мир **software.automation-scripting**: роутер автоматизации, PowerShell/Bash/CMD/Python/Docker playbooks.
 - `worlds/pattern-regex/regex-playbook.md` — regex design, dialects, and safety/testing discipline.
 - `worlds/pattern-regex/index-knowledge-regex-cluster-v1.md` — router: кластер regex (Friedl MRE3), порядок чтения, связь с `regex-playbook.md`.
@@ -100,7 +100,7 @@ This directory stores heavy reference material that should not bloat hot context
 - `worlds/ops-host-environments/windows-environments-playbook.md` - Windows runtime, service, security, and diagnostics playbook.
 - `worlds/ops-host-environments/linux-environments-playbook.md` - Linux runtime, systemd/limits, permissions, and diagnostics playbook.
 - `tooling-debug-playbook.md` - build/test/diagnostics/debug operational playbook.
-- `worlds/software-dotnet-desktop/dotnet-roslyn-debug-playbook.md` - Roslyn-first diagnostics/refactoring and .NET debug workflow playbook.
+- `worlds/software-dotnet-tooling-roslyn/dotnet-roslyn-debug-playbook.md` - Roslyn-first diagnostics/refactoring and .NET debug workflow playbook.
 - `worlds/knowledge-engineering/world-modeling-playbook.md` - intuition-first world separation and router/world layering playbook.
 - `worlds/knowledge-engineering/playbook-knowledge-engineering-core-v1.md` - meta-domain for ingestion, promotion, and lifecycle of knowledge.
 - `templates/template-knowledge-card-v1.md` - canonical template for normalized, epistemically-linked knowledge units.
@@ -117,8 +117,8 @@ This directory stores heavy reference material that should not bloat hot context
 - `worlds/aviation-human-factors/README.md` - мир **aviation.human-factors**: карта мира авиации, human factors (CRM/TEM/ADM), чтение, правила, PFD/MFD/EFIS/EICAS, матрица переноса в бытовое взаимодействие, ANC playbook.
 - `worlds/knowledge-engineering/status-knowledge-engineering-v1.md` - compact KE closure status (DoD, governance, maintenance triggers).
 - `worlds/software-engineering-evidence/README.md` - мир **software.engineering-evidence**: инженерная KB по темам, карта чтения .NET/C#, карта глав *Code Complete*, статус closure, legacy digest.
-- `worlds/software-dotnet-desktop/kb-dotnet-fundamentals-v1.md` - фундаментальный слой по .NET-платформе (линии Framework vs .NET, TFMs, модели приложений, SDK/CLI, границы с native).
-- `worlds/software-dotnet-desktop/kb-dotnet-playbooks-v1.md` - компактные playbook’и для выбора версии/TFM, оценки миграции с .NET Framework и базового диагностического цикла.
+- `worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md` - фундаментальный слой по .NET-платформе (линии Framework vs .NET, TFMs, модели приложений, SDK/CLI, границы с native).
+- `worlds/software-dotnet-csharp/kb-dotnet-playbooks-v1.md` - компактные playbook’и для выбора версии/TFM, оценки миграции с .NET Framework и базового диагностического цикла.
 - `worlds/software-php-laravel/status-php-laravel-v1.md` - снимок слоёв PHP 8.4+ и Laravel (кластер kb), триггеры пересмотра; цепочка status → playbook → kb.
 - `worlds/software-php-laravel/playbook-php-v1.md` - операционный контракт рантайма PHP (Composer, SAPI, миграции версий, безопасность деплоя).
 - `worlds/software-php-laravel/playbook-laravel-v1.md` - операционный контракт приложений Laravel (HTTP, очереди, конфиг/кеш, тесты; full Laravel pass).

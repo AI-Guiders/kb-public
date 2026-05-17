@@ -70,7 +70,7 @@
 
 l0_manifest: knowledge/META/memory-architecture-v1.json
 
-Полное описание слоёв L0–L3, L1 scope и on-demand — **ниже** маркера `public-cut` в полном каноне. В **kb-public** — этот stub + контрактные секции выше cut; операционный спринт (`current-task`, …) — только под cut.
+Кратко: L0 — контракты выше `public-cut` (manifest `l0`); L1 — scope-карточки и проектные README; on-demand — extended/playbooks в `knowledge/`. **Полное описание L0–L3:** `knowledge/META/memory-architecture-layered-extended-v1.md`. **Инвариант hot-split:** `knowledge/META/hot-agent-notes-split-invariant-v1.md`. Спринт задач — только в карточках проектов (`project-operational-memory-v1`).
 <!-- /section:memory-architecture-v1 -->
 
 <!-- section:kb-operational-freshness-v1 -->

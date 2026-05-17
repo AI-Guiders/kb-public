@@ -30,7 +30,7 @@ alwaysApply: true
 
 ## Связь с KB
 
-При доступности KB: полный протокол и паттерны — `knowledge/playbook-integrity-under-pressure-v1.md`; корень доверия — `knowledge/META/integrity-core.md`. Это правило — реализация POST в Cursor; другие среды реализуют по той же спецификации.
+При доступности KB: полный протокол и паттерны — `knowledge/domains/agent-operations/playbook-integrity-under-pressure-v1.md`; корень доверия — `knowledge/META/integrity-core.md`. Это правило — реализация POST в Cursor; другие среды реализуют по той же спецификации.
 ~~~
 
 ## Другие правила Cursor

@@ -55,7 +55,7 @@
 ## 5. Правило для агента
 
 - При **спорном UX** без явного технического бага: сначала один проход по §2 таблице; затем **HCI**; не дублировать длинные нормативы из ADR — **ссылаться** на репозиторий продукта.
-- Не использовать этот playbook как **оправдание** манипуляции вниманием во вред; baseline целостности — [`playbook-integrity-under-pressure-v1.md`](../../playbook-integrity-under-pressure-v1.md).
+- Не использовать этот playbook как **оправдание** манипуляции вниманием во вред; baseline целостности — [`domains/agent-operations/playbook-integrity-under-pressure-v1.md`](../../domains/agent-operations/playbook-integrity-under-pressure-v1.md).
 
 ---
 

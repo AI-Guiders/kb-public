@@ -76,6 +76,14 @@
 <!-- section:router-uncanny-valley -->
 
 
+## Uncanny valley (прямая и инверсная, reference)
+
+- **При запросах о зловещей долине (прямой или инверсной), переключении человек/агент, стене трения при переходе к людям после среды с агентами, обходах (XB-70, compression lift), калибровке ожиданий:** загружать `knowledge/worlds/evidence-humanities-shelf/kb-uncanny-valley-inverse-v1.md` — прямая долина (страх неизвестного, пример Арво), инверсная (стена трения, высокое «число Маха»), таблица различий, обход через смену конфигурации и протокол WORK/HUMAN. Связь с HCI и дизайном сред человек–агент.
+<!-- /section:router-uncanny-valley -->
+
+<!-- section:router-human-perception -->
+
+
 ## Human perception (psychophysiology): fundamentals → operational
 
 - **При запросах о психофизиологии восприятия, когнитивной нагрузке, усталости и внимании в контексте UX/IDE/агента**, о том, «почему интерфейс бесит без бага», о конкуренции зон экрана за внимание, о прерываниях потока и предсказуемости фидбека: загружать **`knowledge/worlds/cognition-human-perception/playbook-human-perception-operational-v1.md`** — чеклисты и мост к HCI/продукту. Фундамент понятий (внимание, рабочая память, нагрузка, стресс, заметность): **`knowledge/worlds/cognition-human-perception/kb-human-perception-fundamentals-v1.md`**. **Первоисточники, DOI, таблица «идея → статья»:** **`knowledge/worlds/cognition-human-perception/kb-human-perception-scientific-evidence-v1.md`** — при обосновании ревью, споре о цитировании или углублении в научный слой. **Evidence-карточки по первоисточникам (`kb-human-perception-*-evidence-v1`):** `knowledge/worlds/cognition-human-perception/kb-human-perception-miller-1956-evidence-v1.md`, `knowledge/worlds/cognition-human-perception/kb-human-perception-treisman-gelade-1980-evidence-v1.md` (или по запросу конкретной работы). Hub **world (KE)** и границы переноса: **`knowledge/worlds/cognition-human-perception/README.md`** (`cognition.human-perception`).
@@ -105,9 +113,9 @@
 ## .NET runtimes and migration
 
 - **При запросах общего уровня о .NET как платформе (линии .NET Framework vs .NET (Core/5+), TFMs, типы приложений, SDK/CLI‑модель):** загружать:
-  - `knowledge/worlds/software-dotnet-desktop/kb-dotnet-fundamentals-v1.md` — фундаментальные понятия о рантаймах, TFM, моделях приложений и границах с нативным кодом;
+  - `knowledge/worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md` — фундаментальные понятия о рантаймах, TFM, моделях приложений и границах с нативным кодом;
   - `knowledge/worlds/software-engineering-evidence/kb-engineering-evidence-v1.md` — секции про C#/.NET 10, диагностику и историю/совместимость .NET Framework 1.0→4.x как слой инженерных фактов/эвиденции.
-- **При запросах вида «как выбрать версию .NET/TFM», «как планировать миграцию с .NET Framework», «как запускать базовый диагностический цикл»:** дополнительно загружать `knowledge/worlds/software-dotnet-desktop/kb-dotnet-playbooks-v1.md` — playbook’и DOTNET‑01..03.
+- **При запросах вида «как выбрать версию .NET/TFM», «как планировать миграцию с .NET Framework», «как запускать базовый диагностический цикл»:** дополнительно загружать `knowledge/worlds/software-dotnet-csharp/kb-dotnet-playbooks-v1.md` — playbook’и DOTNET‑01..03.
 - Это **слой платформы/рантайма** в контексте **world (KE)** engineering; для тем, специфичных по продуктовому **домену** (портал, CA‑симуляции и т.п.), он должен сочетаться с соответствующими областями (portal, simulations).
 <!-- /section:router-dotnet -->
 
@@ -172,12 +180,12 @@
 
 - **Порядок загрузки:** `status -> playbook -> kb` (см. Domain Entry Map — домен **Avalonia UI (CascadeIDE)**).
 - **При запросах об Avalonia, AXAML, MVVM, темах Fluent, `DynamicResource`, Dock.Avalonia, Dock.Model (`DockControl`, документы, tool windows), реализации макета CascadeIDE, ошибках биндингов и стилей, AvaloniaEdit, Markdown.Avalonia в контексте desktop IDE:**
-  1. `knowledge/worlds/software-dotnet-desktop/status-avalonia-cascade-ide-ui-v1.md` — версии пакетов и guardrails;
-  2. `knowledge/worlds/software-dotnet-desktop/playbook-avalonia-dock-ui-v1.md` — операционные контракты A–F;
-  3. `knowledge/worlds/software-dotnet-desktop/kb-avalonia-ui-dock-fundamentals-v1.md` — фундамент (модель UI, Dock vs `DockPanel`, темы, компоновка).
+  1. `knowledge/worlds/software-dotnet-avalonia/status-avalonia-cascade-ide-ui-v1.md` — версии пакетов и guardrails;
+  2. `knowledge/worlds/software-dotnet-avalonia/playbook-avalonia-dock-ui-v1.md` — операционные контракты A–F;
+  3. `knowledge/worlds/software-dotnet-avalonia/kb-avalonia-ui-dock-fundamentals-v1.md` — фундамент (модель UI, Dock vs `DockPanel`, темы, компоновка).
 - **Продуктовые правила интерфейса:** дополнительно `worlds/hci-ux-dx/playbook-hci-core-v1.md`, `worlds/hci-ux-dx/ui-ux-playbook.md`, при необходимости `worlds/hci-ux-dx/kb-hci-usability-and-dialog-rules-v1.md`, `worlds/hci-ux-dx/kb-ui-ux-literature-evidence-v1.md`.
 - **Обоснование принципов IDE/DX (литература):** `worlds/hci-ux-dx/kb-ide-dx-literature-evidence-v1.md` (Osmani, Goldberg, diSessa); не заменяет `worlds/hci-ux-dx/de-dx-playbook.md` (процесс поставки).
-- **Общий .NET frontend (Blazor / сравнение стеков):** `knowledge/worlds/software-dotnet-desktop/frontend-dotnet-playbook.md`.
+- **Общий .NET frontend (Blazor / сравнение стеков):** `knowledge/worlds/software-dotnet-csharp/frontend-dotnet-playbook.md`.
 - **Карта концепт → разметка** в репозитории приложения: `cascade-ide/docs/ux/concept-to-implementation-map-v1.md` (не дублировать в KB — ссылка).
 <!-- /section:router-avalonia-ui -->
 
@@ -298,3 +306,41 @@
 - **Не подменяет** доменные маршруты без вопроса свежести: глубокий .NET — `router-dotnet`; Avalonia UI — `router-avalonia-ui`; первичная навигация — Domain Entry Map.
 - **UI (опционально):** `work/projects/door-to-singularity/kb-management-center/README.md`.
 <!-- /section:router-kb-operational-freshness -->
+
+<!-- section:router-software-transfer-matrix -->
+
+
+## Software: cross-domain transfer (OOA&D vs HCI vs stack)
+
+- **При god-class, switch/enum Kind в renderer/VM, новом экране/overview, смешении «визуал + структура», Skia entity model, росте ViewModel:** загружать knowledge/worlds/software-authoring/matrix-software-cross-domain-transfer-v1.md (после status-software-authoring-v1.md при неясном scope).
+- **Порядок:** status → matrix (строка симптома) → целевой playbook → kb. C#-правки: worlds/software-dotnet-tooling-roslyn/playbook-csharp-roslyn-mcp-diagnostics-v1.md.
+- **Не дублировать:** явный OOA&D — 
+outer-ooad-fundamental; быстрый nouns/verbs — 
+outer-software-authoring-decomposition.
+<!-- /section:router-software-transfer-matrix -->
+
+<!-- section:router-software-authoring-decomposition -->
+
+
+## Software: nouns/verbs (быстрая декомпозиция)
+
+- **При «какие сущности», «разбей на классы», черновик словаря домена без полного 7-шагового OOA&D:** knowledge/worlds/software-authoring/playbook-domain-nouns-verbs-decomposition-v1.md.
+- **Полный цикл:** playbook-ooad-agent-operational-v1.md + kb-ooad-fundamentals-v1.md.
+<!-- /section:router-software-authoring-decomposition -->
+
+<!-- section:router-ooad-fundamental -->
+
+
+## Software: OOA&D (полный операционный цикл)
+
+- **При новой подсистеме, рефакторинге границ слоёв, «спроектируй модуль»:** knowledge/worlds/software-authoring/playbook-ooad-agent-operational-v1.md → kb-ooad-fundamentals-v1.md; при смешанных симптомах — сначала matrix-software-cross-domain-transfer-v1.md.
+<!-- /section:router-ooad-fundamental -->
+
+<!-- section:router-software-authoring-language-worlds -->
+
+
+## Software: карта языковых миров
+
+- **При выборе world tag, «куда класть знание», C# vs Roslyn vs Avalonia vs PHP:** knowledge/worlds/software-authoring/kb-software-authoring-language-worlds-v1.md.
+- **CascadeIDE / Avalonia:** …desktop-ui.avalonia → worlds/software-dotnet-avalonia/; C# → worlds/software-dotnet-csharp/; Roslyn → worlds/software-dotnet-tooling-roslyn/.
+<!-- /section:router-software-authoring-language-worlds -->

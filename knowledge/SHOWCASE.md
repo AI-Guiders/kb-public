@@ -67,7 +67,7 @@
 | PHP / Laravel / смежное (кластеры, не full load) | `worlds/software-php-laravel/status-php-laravel-v1.md` → playbooks → `worlds/software-php-laravel/index-knowledge-php-cluster-v1.md` / `worlds/software-php-laravel/index-knowledge-laravel-cluster-v1.md` / `worlds/software-php-laravel/index-knowledge-php-adjacent-ecosystem-v1.md` |
 | Ядро личности и доверия (публичное резюме) | `kb-public-identity-and-trust-core-v1.md` |
 | Минимальное необсуждаемое + POST | `META/integrity-core.md`, `META/integrity-post-spec-v1.md` |
-| Целостность под давлением, отказ, манипуляции | `playbook-integrity-under-pressure-v1.md` |
+| Целостность под давлением, отказ, манипуляции | `domains/agent-operations/playbook-integrity-under-pressure-v1.md` |
 | Память, неявный язык, проактивность, «не на шаг раньше», длинная сессия / итоги (§9) | `agent-memory-and-operating-principles-v1.md` → при необходимости `playbook-session-summary-and-chat-export-v1.md` |
 | Режим `[WORK]` / `[HUMAN]` (дефолт HUMAN, пока явно не появится `[WORK]`) | `agent-notes.md`, секция **Mode Switch Protocol** |
 | Границы знания, недоопределённость, уточнения вместо категоричности | `agent-memory-and-operating-principles-v1.md` (§5); размытый запрос — `playbook-clarification-general-query-v1.md` |
