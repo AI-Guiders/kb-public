@@ -122,7 +122,7 @@
 | Анти-OOM обзор | `SHOWCASE.md` |
 | Роутер: карта доменов, порядок | `index-knowledge-router-v1.md` |
 | Safety Checks (контекст, scope, давление, POST, приватность) | `index-knowledge-router-safety-v1.md` |
-| Сопровождение индекса роутера (`router-*`, сплит, kb-public, добавление домена) | `index-knowledge-router-maintenance-v1.md` |
+| Сопровождение индекса роутера (`router-*`, сплит, kb-public) — **не** свежесть kb | `index-knowledge-router-maintenance-v1.md` § Maintenance Rule |
 | L0 и агент до выбора домена (операционный базис роутера) | `router-operational-baseline-v1.md` |
 | Триггеры по темам | `index-knowledge-router-supplement-v1.md` |
 | Мультипроект + куда писать заметки | `worlds/workspace-context/playbook-multi-project-context-v1.md` |
@@ -131,4 +131,5 @@
 | Ты **держишь полный репозиторий канона** (author или fork): как собирается kb-public | **`PUBLISHING.md`** (входит в kb-public); **`public-kb.ignore`** и runbook пуша — только в полном каноне (`public-kb.ignore` в zip **не** кладётся по дизайну списка исключений) |
 | Полный канон: соглашение `work/projects/<scope>/…` | `work/projects/README.md` (в kb-public **нет**) |
 | Mixed worlds, `transfer_boundary`, поля `world:` | `worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md` |
+| Свежесть kb: fundamentals / operational / evidence, `Проверено:`, стек или любой домен | `worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` (+ hot `kb-operational-freshness-v1` в agent-notes) |
 | Протоколы и сущности (one-pager для wiki) | `kb-protocols-and-entities-one-pager-v1.md` |

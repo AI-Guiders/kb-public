@@ -43,3 +43,4 @@
 - `010-kb-markdown-fts-index-boundary.md` (опциональный FTS по Markdown KB; граница с внешним MCP HCI; не часть ANKB по умолчанию)
 - `011-aiguiders-org-collaborative-kb-repo-v1.md` (Proposed: org `AIGuiders/kb` для совместного пополнения KB vs kb-public / **личный канон**)
 - `012-multi-canon-workspace-resolution-v1.md` (Proposed: primary/secondary canon, `.cursor/agent-notes.toml`, без `knowledge/organization/` в личном)
+- `013-agent-notes-mcp-local-settings-toml-v1.md` (Proposed: локальный TOML с MCP **2.0**, `[knowledge]` / `[workspace]` / `[status]`)

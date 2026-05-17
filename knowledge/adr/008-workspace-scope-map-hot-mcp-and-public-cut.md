@@ -4,7 +4,7 @@
 **Дата:** 2026-05-12  
 **Источник в истории:** обсуждение публикации kb-public, вынесение машинных путей из hot, паттерн «scope map отдельным файлом» (Codex).  
 **Supersedes:** —  
-**Extended by:** —  
+**Extended by:** [013](013-agent-notes-mcp-local-settings-toml-v1.md) (часть C: `[workspace].scope_map` / `scope_aliases` в TOML вместо `mcp-resolve-paths-v1.json`)  
 **Связано:** [003](003-multi-project-scope-and-project-cards.md), [001](001-kb-public-publishing-pipeline.md)
 
 ---
@@ -46,12 +46,14 @@
 
 ---
 
-## Решение — часть C (принято): bootstrap путей MCP
+## Решение — часть C (принято, legacy): bootstrap путей MCP
 
-- **Файл:** `knowledge/META/mcp-resolve-paths-v1.json` — JSON с относительными путями внутри `knowledge/`: **`workspace_scope_map`**, **`scope_alias_map`** (опционально поле **`version`** для людей; парсер не обязан его использовать).
-- **Дефолты в сборке:** те же пары путей вшиты в **AgentNotes.Core** как embedded `Resources/mcp-resolve-paths-defaults.json` (как `hot-context-defaults.json`); при отсутствии/ошибке чтения ресурса — резервные строки в коде. Канонический **`knowledge/META/mcp-resolve-paths-v1.json`** остаётся **опциональным переопределением** на диске и может совпадать с дефолтами для наглядности в репо.
+> **Эволюция:** при **`--config`** (KB [013](013-agent-notes-mcp-local-settings-toml-v1.md)) пути к карте и алиасам — ключи **`workspace.scope_map`** / **`workspace.scope_aliases`** в TOML; META JSON **не используется**. Ниже — **исторический** контракт.
 
-Итог части C: реализовано в `McpResolvePathsDefaults` + `NotesStorage.ReadMcpResolvePathsOrDefaults` + юнит-тесты на кастомный путь и на fallback при невалидном JSON.
+- **Файл:** `knowledge/META/mcp-resolve-paths-v1.json` — JSON с относительными путями внутри `knowledge/`: **`workspace_scope_map`**, **`scope_alias_map`**.
+- **Дефолты в сборке:** embedded `mcp-resolve-paths-defaults.json` в AgentNotes.Core.
+
+Итог части C (legacy): `McpResolvePathsDefaults` + `NotesStorage.ReadMcpResolvePathsOrDefaults`.
 
 ---
 

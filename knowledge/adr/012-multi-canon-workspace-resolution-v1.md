@@ -4,7 +4,7 @@
 **Дата:** 2026-05-15  
 **Источник в истории:** один Cursor-workspace (`PersonalCursorFolder`) и много кодовых проектов; появление org-kb ([011](011-aiguiders-org-collaborative-kb-repo-v1.md)); риск дублировать org-знания в личном каноне через `knowledge/organization/`; обсуждение расширения agent-notes-mcp.  
 **Supersedes:** —  
-**Extended by:** —  
+**Extended by:** [013](013-agent-notes-mcp-local-settings-toml-v1.md) (схема TOML, слияние, вывод env)  
 **Связано:** [003](003-multi-project-scope-and-project-cards.md), [008](008-workspace-scope-map-hot-mcp-and-public-cut.md), [011](011-aiguiders-org-collaborative-kb-repo-v1.md), [001](001-kb-public-publishing-pipeline.md)
 
 ---
@@ -93,53 +93,22 @@ workspace_path (Cursor)
 
 ---
 
-## Workspace-конфиг: `.cursor/agent-notes.toml`
+## Workspace-конфиг (TOML по явному пути)
 
-Файл в **корне кодового workspace** (рядом с `.cursor/`), не в каноне. Переопределяет резолв **для этого workspace** (ниже приоритет env процесса — см. таблицу).
+Семантика **primary / read-only** knowledge roots — в этом ADR ([P1–P5](#решение-принципы)); в тексте ниже ещё **«canon»** = то же (исторический термин). **Подключение:** с **agent-notes-mcp 2.0** — TOML по **`--config`** — **[013](013-agent-notes-mcp-local-settings-toml-v1.md)** (`[knowledge]`, major MCP).
 
-### Пример (шаблон)
+### Пример (шаблон содержимого)
 
-См. [`knowledge/work/local/agent-notes.workspace.example.toml`](../work/local/agent-notes.workspace.example.toml).
-
-### Схема (v1)
-
-```toml
-version = 1
-
-[canon]
-# primary: личный канон (запись + hot + scope map)
-primary = "personal"   # ключ из [canon.paths] или абсолютный путь
-
-[canon.paths]
-personal = "D:/Experiments/agent-notes"
-org      = "D:/clones/AI-Guiders/kb"      # опционально; пусто = нет secondary
-# public = "..."                           # обычно не нужен владельцу org
-
-[scope]
-default_active_scope = "mixed"             # если карта не дала match
-# карта путей всегда из primary:
-scope_map_canon = "personal"
-
-[[canon.secondary]]
-id = "org"
-path = "D:/clones/AI-Guiders/kb"
-read_only = true
-# route_overlay = true                     # фаза 2: включать в route_context
-
-[behavior]
-# фаза 2+
-# route_secondary_max_chars = 4000
-# route_secondary_max_sections = 3
-```
+См. [`knowledge/work/local/agent-notes.workspace.example.toml`](../work/local/agent-notes.workspace.example.toml) — копируешь куда удобно (напр. `D:/Experiments/agent-notes-mcp.local.toml`) и указываешь путь в `args`.
 
 ### Цепочка резолва primary (целевая)
 
 1. Аргумент тула `canon_path` (если есть).
-2. **`agent-notes.toml`** в корне `workspace_path` (walk вверх до первого файла — как `.git`).
-3. `AGENT_NOTES_CANON_PATH` / `AGENT_NOTES_FILE`.
+2. TOML из **`--config`** / `AGENT_NOTES_CONFIG` — [013](013-agent-notes-mcp-local-settings-toml-v1.md).
+3. `AGENT_NOTES_CANON_PATH` / `AGENT_NOTES_FILE` (legacy).
 4. Fallback: `workspace_path/.cascade-ide/agent-notes.md`.
 
-`scope_map_canon` **всегда** `personal` (или явный ключ только на primary), даже если `primary` в том же файле указывает на org при работе **внутри** клона org-kb — отдельный профиль workspace (редко).
+`scope_map` **всегда** из **primary** knowledge root, даже если в workspace открыт клон org-kb — отдельный профиль (редко).
 
 ---
 

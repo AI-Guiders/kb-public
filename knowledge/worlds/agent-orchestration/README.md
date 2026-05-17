@@ -11,6 +11,7 @@
 | **Сессия / экспорт** | [`playbook-session-summary-and-chat-export-v1.md`](playbook-session-summary-and-chat-export-v1.md) |
 | **Обучение при ступоре** | [`playbook-learn-basics-when-stuck-v1.md`](playbook-learn-basics-when-stuck-v1.md) |
 | **Уточнение запроса** | [`playbook-clarification-general-query-v1.md`](playbook-clarification-general-query-v1.md) |
+| **Два слоя фундамента агента** | [`kb-agent-foundation-two-layers-orientation-v1.md`](kb-agent-foundation-two-layers-orientation-v1.md) — physical (WFM) vs semantic (KB/MCP); аналогия Cosmos |
 
 Строка **Agent orchestration** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
 

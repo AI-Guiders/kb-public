@@ -1,4 +1,4 @@
-# Knowledge Router — Supplement (detailed domain routes) v1
+﻿# Knowledge Router — Supplement (detailed domain routes) v1
 
 **Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router-v1.md` сразу после Context Budget.
 
@@ -287,3 +287,14 @@
 
 - **При координации нескольких субагентов (Task), параллельной разведке по репозиторию, декомпозиции крупной задачи на воркеров в Cursor:** загружать `knowledge/worlds/agent-orchestration/playbook-captain-parallel-agents-v1.md` — роли капитан/воркер, бриф, антипаттерны; область — любой проект/workspace, не один продукт (в плейбуке есть пример Cascade IDE). Связь: `knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md` (primary/scope), `agent-memory-and-operating-principles-v1.md`.
 <!-- /section:router-captain-parallel-agents -->
+
+<!-- section:router-kb-operational-freshness -->
+
+
+## KB: свежесть знаний / устаревание / перепроверка (любой домен)
+
+- **При запросах об устаревании знаний в каноне, перепроверке слоёв fundamentals vs operational vs evidence, полях `Проверено:` / `updated_at` / provenance, `deprecated` / `supersedes`, плановой «просрочке» kb, смене стека (.NET/SDK, NuGet, PHP, JS, …) или «куда записать обновление»:** загружать **`knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md`** — **единая точка входа**: §2 слои и горизонты перепроверки; тип задачи §4; реестр §5 (домен + частные стеки).
+- **Порядок:** playbook §2 (слой) → §5 по типу → **только** перечисленные файлы; при незнакомой семантике — `playbook-learn-basics-when-stuck-v1.md`; при недоступном MCP — `runbook-kb-mcp-access-v1.md`.
+- **Не подменяет** доменные маршруты без вопроса свежести: глубокий .NET — `router-dotnet`; Avalonia UI — `router-avalonia-ui`; первичная навигация — Domain Entry Map.
+- **UI (опционально):** `work/projects/door-to-singularity/kb-management-center/README.md`.
+<!-- /section:router-kb-operational-freshness -->

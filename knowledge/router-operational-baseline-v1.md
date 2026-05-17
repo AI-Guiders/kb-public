@@ -25,5 +25,6 @@
 
 - **При запросе обзора KB / демо / онбординга без загрузки всего:** дать `knowledge/SHOWCASE.md` — слои, Integrity POST, ссылки на индекс и ядро. Дальше по запросу подтягивать `index-knowledge-router-v1.md` и точечные playbook/kb.
 - **Доступ к чтению канона через agent-notes MCP** (нет `read_knowledge_file` / `list_knowledge_files`, сомнение после Reload, рассинхрон «сервер в UI» vs «нет тулов в чате»): `knowledge/worlds/knowledge-engineering/runbook-kb-mcp-access-v1.md` — деградация, handshake, чеклист A/B/C; связь с `SHOWCASE.md` § «Доступ к KB» и с `knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md` §6 (PRIMARY).
+- **Свежесть знаний в каноне (любой домен):** устаревание, слои **fundamentals / operational / evidence**, `Проверено:` / provenance, `deprecated`, плановая перепроверка; смена стека (.NET, PHP, JS, пакеты) — частный случай в том же playbook — **`knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md`** (§2 слои, §5 реестр); supplement `router-kb-operational-freshness`; hot **`kb-operational-freshness-v1`** (выше public-cut).
 
 Версия: v1.0 · 2026-05-11 — вынесено из `index-knowledge-router-v1.md` (блок **Б**).

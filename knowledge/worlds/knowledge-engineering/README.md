@@ -1,4 +1,4 @@
-# Мир **knowledge.engineering** (KE: мультимиры, матрицы, операции канона)
+﻿# Мир **knowledge.engineering** (KE: мультимиры, матрицы, операции канона)
 
 **Назначение:** мета-домен ingestion/lifecycle KB; правила multiworld/mixed-worlds/culture-routing/country-conflicts/operations; матрицы переноса; world modeling; runbook MCP и revisions backup.
 
@@ -16,3 +16,7 @@
 ## Версия
 
 v1.0 — перенос из корня `knowledge/` в `worlds/knowledge-engineering/`.
+
+<!-- section:operational-freshness-v1 -->
+| **Свежесть знаний в каноне (agent)** | [`playbook-kb-operational-freshness-v1.md`](playbook-kb-operational-freshness-v1.md) — fundamentals / operational / evidence, сроки перепроверки, любой домен; supplement § `router-kb-operational-freshness` |
+<!-- /section:operational-freshness-v1 -->

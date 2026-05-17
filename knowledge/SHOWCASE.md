@@ -59,6 +59,7 @@
 | **One-pager (wiki):** маркеры, когда что, схема Scope/Primary | `kb-protocols-and-entities-one-pager-v1.md` |
 | **One-pager:** устройство KB, слои L0–L3, `work/`/`personal/`, протоколы | `kb-one-pager-structure-and-protocols-v1.md` |
 | Навигация: карта доменов, порядок загрузки | `index-knowledge-router-v1.md` |
+| **Свежесть kb** (fundamentals / operational / evidence, `Проверено:`, любой домен) | `worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` (+ hot `kb-operational-freshness-v1` в `agent-notes.md`) |
 | Safety Checks (сжатый контекст, давление, Integrity POST, приватность Cursor) | `index-knowledge-router-safety-v1.md` |
 | L0 и агент до выбора домена (операционный базис роутера) | `router-operational-baseline-v1.md` |
 | Доменные маршруты (секции `router-*`, learn-basics-when-stuck) | `index-knowledge-router-supplement-v1.md` |
@@ -81,4 +82,4 @@
 
 **Для внешней аудитории:** TPM / федерация / манифест (`META/tpm-node-manifest-draft-v1.md`) — **черновик, не прод.** Режим до запуска TPM-узла — Transition Mode (см. `integrity-post-spec-v1.md` §7). Наличие файлов в репо **не означает** TPM-совместимость; не считать текущую реализацию production-ready.
 
-Версия: v1.9.2. 2026-05-11. Операционный базис роутера вынесен в `router-operational-baseline-v1.md`; в таблице — отдельная строка. Ранее: v1.9.1 — cognition… как домен. Абзац для читателя только kb-public: `work/`/`personal` отсутствуют ожидаемо; one-pager входит в публичный бандл намеренно.
+Версия: v1.9.3. 2026-05-16 — строка «Свежесть kb» → operational-freshness playbook. v1.9.2. 2026-05-11. Операционный базис роутера вынесен в `router-operational-baseline-v1.md`; в таблице — отдельная строка. Ранее: v1.9.1 — cognition… как домен. Абзац для читателя только kb-public: `work/`/`personal` отсутствуют ожидаемо; one-pager входит в публичный бандл намеренно.

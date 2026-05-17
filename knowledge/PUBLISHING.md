@@ -16,7 +16,7 @@
 
 ### Что обычно в публичной kb
 
-По общему правилу п. 2 в публичный срез попадают типичные **`knowledge/*.md`**: плейбуки, индексы, доменные kb, **`knowledge/META/`** (Integrity POST и спеки), **этот `PUBLISHING.md`**, **`kb-one-pager-structure-and-protocols-v1.md`** (онлайн-онбординг: слои, маркеры, зачем в полном каноне есть `work/` и `personal/`), **`kb-protocols-and-entities-one-pager-v1.md`** (wiki-вход: протоколы и сущности Scope/Primary, схемы). Корневые **`README.md`** / **`LICENSE`** для репозитория kb-public — п. 3 «Механики».
+По общему правилу п. 2 в публичный срез попадают типичные **`knowledge/*.md`**: плейбуки, индексы, доменные kb, **`knowledge/META/`** (Integrity POST и спеки), **этот `PUBLISHING.md`**, **`kb-one-pager-structure-and-protocols-v1.md`** (онлайн-онбординг: слои, маркеры, зачем в полном каноне есть `work/` и `personal/`), **`kb-protocols-and-entities-one-pager-v1.md`** (wiki-вход: протоколы и сущности Scope/Primary, схемы), **`worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md`** (свежесть знаний: fundamentals / operational / evidence, перепроверка любого домена; supplement `router-kb-operational-freshness`). В **`agent-notes.md`** в kb-public — секции **выше** `<!-- public-cut -->`, в т.ч. **`kb-operational-freshness-v1`**. Корневые **`README.md`** / **`LICENSE`** для репозитория kb-public — п. 3 «Механики».
 
 ### `agent-notes.md`: выше или ниже `public-cut`
 
