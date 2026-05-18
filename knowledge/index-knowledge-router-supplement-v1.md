@@ -110,18 +110,6 @@
 <!-- section:router-dotnet -->
 
 
-## .NET runtimes and migration
-
-- **При запросах общего уровня о .NET как платформе (линии .NET Framework vs .NET (Core/5+), TFMs, типы приложений, SDK/CLI‑модель):** загружать:
-  - `knowledge/worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md` — фундаментальные понятия о рантаймах, TFM, моделях приложений и границах с нативным кодом;
-  - `knowledge/worlds/software-engineering-evidence/kb-engineering-evidence-v1.md` — секции про C#/.NET 10, диагностику и историю/совместимость .NET Framework 1.0→4.x как слой инженерных фактов/эвиденции.
-- **При запросах вида «как выбрать версию .NET/TFM», «как планировать миграцию с .NET Framework», «как запускать базовый диагностический цикл»:** дополнительно загружать `knowledge/worlds/software-dotnet-csharp/kb-dotnet-playbooks-v1.md` — playbook’и DOTNET‑01..03.
-- Это **слой платформы/рантайма** в контексте **world (KE)** engineering; для тем, специфичных по продуктовому **домену** (портал, CA‑симуляции и т.п.), он должен сочетаться с соответствующими областями (portal, simulations).
-<!-- /section:router-dotnet -->
-
-<!-- section:router-de-dx -->
-
-
 ## Developer Experience (DE/DX)
 
 - **При запросах о developer experience, DX, DE/DX, эргономике доставки, трение в тулинге, онбординге разработчика, «лёгком пути», lead time / cycle time / change failure rate / MTTR (DORA-ориентир), time-to-first-edit / time-to-first-contribution, малых батчах и обратной связи до merge:** загружать `knowledge/worlds/hci-ux-dx/de-dx-playbook.md` — принципы, метрики, формат evidence-based работы.
@@ -174,22 +162,6 @@
 <!-- /section:router-javascript -->
 
 <!-- section:router-avalonia-ui -->
-
-
-## Avalonia UI / Dock (CascadeIDE, desktop .NET)
-
-- **Порядок загрузки:** `status -> playbook -> kb` (см. Domain Entry Map — домен **Avalonia UI (CascadeIDE)**).
-- **При запросах об Avalonia, AXAML, MVVM, темах Fluent, `DynamicResource`, Dock.Avalonia, Dock.Model (`DockControl`, документы, tool windows), реализации макета CascadeIDE, ошибках биндингов и стилей, AvaloniaEdit, Markdown.Avalonia в контексте desktop IDE:**
-  1. `knowledge/worlds/software-dotnet-avalonia/status-avalonia-cascade-ide-ui-v1.md` — версии пакетов и guardrails;
-  2. `knowledge/worlds/software-dotnet-avalonia/playbook-avalonia-dock-ui-v1.md` — операционные контракты A–F;
-  3. `knowledge/worlds/software-dotnet-avalonia/kb-avalonia-ui-dock-fundamentals-v1.md` — фундамент (модель UI, Dock vs `DockPanel`, темы, компоновка).
-- **Продуктовые правила интерфейса:** дополнительно `worlds/hci-ux-dx/playbook-hci-core-v1.md`, `worlds/hci-ux-dx/ui-ux-playbook.md`, при необходимости `worlds/hci-ux-dx/kb-hci-usability-and-dialog-rules-v1.md`, `worlds/hci-ux-dx/kb-ui-ux-literature-evidence-v1.md`.
-- **Обоснование принципов IDE/DX (литература):** `worlds/hci-ux-dx/kb-ide-dx-literature-evidence-v1.md` (Osmani, Goldberg, diSessa); не заменяет `worlds/hci-ux-dx/de-dx-playbook.md` (процесс поставки).
-- **Общий .NET frontend (Blazor / сравнение стеков):** `knowledge/worlds/software-dotnet-csharp/frontend-dotnet-playbook.md`.
-- **Карта концепт → разметка** в репозитории приложения: `cascade-ide/docs/ux/concept-to-implementation-map-v1.md` (не дублировать в KB — ссылка).
-<!-- /section:router-avalonia-ui -->
-
-<!-- section:router-math-numerics -->
 
 
 ## Math / Numerics (PDE/ODE/IDE, schemes)
@@ -296,62 +268,18 @@
 - **При координации нескольких субагентов (Task), параллельной разведке по репозиторию, декомпозиции крупной задачи на воркеров в Cursor:** загружать `knowledge/worlds/agent-orchestration/playbook-captain-parallel-agents-v1.md` — роли капитан/воркер, бриф, антипаттерны; область — любой проект/workspace, не один продукт (в плейбуке есть пример Cascade IDE). Связь: `knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md` (primary/scope), `agent-memory-and-operating-principles-v1.md`.
 <!-- /section:router-captain-parallel-agents -->
 
-<!-- section:router-kb-operational-freshness -->
-
-
-## KB: свежесть знаний / устаревание / перепроверка (любой домен)
-
-- **При запросах об устаревании знаний в каноне, перепроверке слоёв fundamentals vs operational vs evidence, полях `Проверено:` / `updated_at` / provenance, `deprecated` / `supersedes`, плановой «просрочке» kb, смене стека (.NET/SDK, NuGet, PHP, JS, …) или «куда записать обновление»:** загружать **`knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md`** — **единая точка входа**: §2 слои и горизонты перепроверки; тип задачи §4; реестр §5 (домен + частные стеки).
-- **Порядок:** playbook §2 (слой) → §5 по типу → **только** перечисленные файлы; при незнакомой семантике — `playbook-learn-basics-when-stuck-v1.md`; при недоступном MCP — `runbook-kb-mcp-access-v1.md`.
-- **Не подменяет** доменные маршруты без вопроса свежести: глубокий .NET — `router-dotnet`; Avalonia UI — `router-avalonia-ui`; первичная навигация — Domain Entry Map.
-- **UI (опционально):** `work/projects/door-to-singularity/kb-management-center/README.md`.
-<!-- /section:router-kb-operational-freshness -->
-
-<!-- section:router-software-transfer-matrix -->
-
-
-## Software: cross-domain transfer (OOA&D vs HCI vs stack)
-
-- **При god-class, switch/enum Kind в renderer/VM, новом экране/overview, смешении «визуал + структура», Skia entity model, росте ViewModel:** загружать knowledge/worlds/software-authoring/matrix-software-cross-domain-transfer-v1.md (после status-software-authoring-v1.md при неясном scope).
-- **Порядок:** status → matrix (строка симптома) → целевой playbook → kb. C#-правки: worlds/software-dotnet-tooling-roslyn/playbook-csharp-roslyn-mcp-diagnostics-v1.md.
-- **Не дублировать:** явный OOA&D — 
-outer-ooad-fundamental; быстрый nouns/verbs — 
-outer-software-authoring-decomposition.
-<!-- /section:router-software-transfer-matrix -->
-
-<!-- section:router-software-authoring-decomposition -->
-
-
-## Software: nouns/verbs (быстрая декомпозиция)
-
-- **При «какие сущности», «разбей на классы», черновик словаря домена без полного 7-шагового OOA&D:** knowledge/worlds/software-authoring/playbook-domain-nouns-verbs-decomposition-v1.md.
-- **Полный цикл:** playbook-ooad-agent-operational-v1.md + kb-ooad-fundamentals-v1.md.
-<!-- /section:router-software-authoring-decomposition -->
-
-<!-- section:router-ooad-fundamental -->
-
-
-## Software: OOA&D (полный операционный цикл)
-
-- **При новой подсистеме, рефакторинге границ слоёв, «спроектируй модуль»:** knowledge/worlds/software-authoring/playbook-ooad-agent-operational-v1.md → kb-ooad-fundamentals-v1.md; при смешанных симптомах — сначала matrix-software-cross-domain-transfer-v1.md.
-<!-- /section:router-ooad-fundamental -->
-
-<!-- section:router-software-authoring-language-worlds -->
-
-
-## Software: карта языковых миров
-
-- **При выборе world tag, «куда класть знание», C# vs Roslyn vs Avalonia vs PHP:** knowledge/worlds/software-authoring/kb-software-authoring-language-worlds-v1.md.
-- **CascadeIDE / Avalonia:** …desktop-ui.avalonia → worlds/software-dotnet-avalonia/; C# → worlds/software-dotnet-csharp/; Roslyn → worlds/software-dotnet-tooling-roslyn/.
-<!-- /section:router-software-authoring-language-worlds -->
-
 <!-- section:router-clean-setup -->
 
 
-## Clean setup / first install (ANM + kb-public → personal)
+## Чистая установка KB (kb-public → personal)
 
-- **Триггеры:** первая установка, clean setup, kb-public, personal layer, настроить MCP.
-- **Playbook:** `knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md`
-- **Шаблоны:** `knowledge/templates/newcomer/` (оглавление `templates/newcomer/README.md`, индекс `templates/README.md`)
-- **Экземпляры** после копирования — personal `work/local/` (в kb-public нет `work/`)
+- **При первой настройке agent-notes-mcp, скачивании kb-public, заведении personal, «clean setup», онбординге участника:** загружать `knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md` и `knowledge/templates/newcomer/README.md`. Не подставлять чужой org slug — пути и `{ORG_SLUG}` у пользователя.
 <!-- /section:router-clean-setup -->
+
+<!-- section:router-org-kb-white-label -->
+
+
+## Организационный KB (white-label, свой org)
+
+- **При запросе поднять KB для своей GitHub-организации, `{ORG_SLUG}/kb`, group KB, seed org, canon-maintainer, без привязки к конкретному бренду:** загружать `knowledge/domains/agent-operations/playbook-org-kb-white-label-v1.md`, затем `map-kb-three-contours-v1.md`. Участник существующей org — фаза E в white-label + `playbook-knowledge-stack-clean-setup-v1.md` фаза 4.
+<!-- /section:router-org-kb-white-label -->

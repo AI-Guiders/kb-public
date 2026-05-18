@@ -18,7 +18,9 @@
 ## Опциональный полнотекст
 
 Не обязателен для чтения канона: внешний MCP HCI, см. [ADR 010](adr/010-kb-markdown-fts-index-boundary.md) и runbook в `work/.../agent-notes-kb/templates/kb-hci-optional-fts-runbook-v1.md`.
-- **Чистая установка (ANM + kb-public → personal)** — [`domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md`](domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md).
+- **Чистая установка (kb-public → personal)** — [`domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md`](domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md).
+- **Свой org KB (white-label)** — [`domains/agent-operations/playbook-org-kb-white-label-v1.md`](domains/agent-operations/playbook-org-kb-white-label-v1.md).
+- **Три контура (куда писать)** — [`domains/agent-operations/map-kb-three-contours-v1.md`](domains/agent-operations/map-kb-three-contours-v1.md).
 - **Шаблоны KB** — [`templates/README.md`](templates/README.md): `cards/`, `worlds/`, `work/`, `matrices/`, `meta/`, `newcomer/`.
 
 <!-- section:entry-templates-index -->

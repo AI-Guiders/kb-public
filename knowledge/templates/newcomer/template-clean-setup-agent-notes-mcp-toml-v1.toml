@@ -1,5 +1,6 @@
-﻿# Template agent-notes-mcp 2.0 TOML — edit paths, save outside git (e.g. D:/agent-notes-mcp/)
+# Template agent-notes-mcp TOML — edit paths; save outside git (e.g. D:/agent-notes-mcp/)
 # Cursor mcp.json: "args": ["--config", "D:/agent-notes-mcp/agent-notes-mcp.toml"]
+# Replace {ORG_SLUG} with your GitHub org (e.g. acme-corp). Repos: {ORG_SLUG}/kb-public, optional {ORG_SLUG}/kb
 
 version = 1
 
@@ -13,6 +14,11 @@ public = "D:/path/to/kb-public"
 [[knowledge.read_only]]
 id = "public"
 path = "D:/path/to/kb-public"
+
+# Optional: team group KB (chmod g) — only if your org runs {ORG_SLUG}/kb and you have clone access
+# [[knowledge.read_only]]
+# id = "group"
+# path = "D:/path/to/your-org-kb-clone"
 
 [workspace]
 default_scope = "mixed"

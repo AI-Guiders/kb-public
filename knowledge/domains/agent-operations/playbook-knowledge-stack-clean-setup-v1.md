@@ -1,11 +1,13 @@
-﻿# Playbook: чистая установка стека знаний (ANM + kb-public → personal)
+# Playbook: чистая установка стека знаний (ANM + kb-public → personal)
 
-**Статус:** active · v1.0 · 2026-05-18  
-**Назначение:** протокол для **нового пользователя** и **агента** (ANM + kb-public → personal chmod u).
+**Статус:** active · v1.1 · 2026-05-19  
+**Назначение:** протокол для **нового пользователя** и **агента** (agent-notes-mcp + публичный срез kb-public → личный канон chmod **u**).
 
-**Поставка kb-public:** playbook + **`templates/newcomer/`** (см. `templates/README.md`).
+**Поставка kb-public:** этот playbook + **`templates/newcomer/`** (см. `templates/README.md`).
 
 **Триггеры:** «чистая установка», «первый раз», «настроить agent-notes», «скачал kb-public», «завести personal», «clean setup».
+
+**Не путать:** поднять **свою организацию** (`{ORG_SLUG}/kb` + kb-public) — [`playbook-org-kb-white-label-v1.md`](playbook-org-kb-white-label-v1.md). Здесь — **участник**, который читает **чужой или свой** public slice и ведёт **personal**.
 
 ---
 
@@ -14,7 +16,7 @@
 | chmod | Слой | MCP |
 |-------|------|-----|
 | **u** | personal (primary) | без `knowledge_root_id` |
-| **g** | group | `knowledge_root_id=group` |
+| **g** | group (`{ORG_SLUG}/kb`) | `knowledge_root_id=group` |
 | **o** | kb-public | `knowledge_root_id=public` |
 
 ---
@@ -25,21 +27,21 @@
 
 ---
 
-## Фаза 1 — ANM
+## Фаза 1 — agent-notes-mcp (ANM)
 
-1. Клон [agent-notes-mcp](https://github.com/AI-Guiders/agent-notes-mcp), `dotnet publish`.
-2. TOML: `config/` в репо ANM или **`templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml`**.
-3. Cursor `mcp.json`: `"args": ["--config", "<path>"]`.
+1. Собрать MCP из репозитория **agent-notes-mcp** (upstream open source, MIT) — `dotnet publish`.
+2. TOML: пример в репо ANM или **`templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml`** (подставить **свои** пути).
+3. Cursor `mcp.json`: `"args": ["--config", "<path-to-toml>"]`.
 
-До personal: `primary = "public"`.
+До personal: `primary = "public"` (путь к **вашему** clone kb-public).
 
 ---
 
 ## Фаза 2 — personal
 
-1. Репозиторий agent-notes (или минимум `knowledge/work/local/` + `agent-notes.md`).
-2. TOML: `primary = "personal"`, roots personal + public.
-3. Шаблоны: **`templates/newcomer/`** → `templates/newcomer/README.md`.
+1. Репозиторий personal kanon (`agent-notes` или свой fork) — минимум `knowledge/work/local/` + `agent-notes.md`.
+2. TOML: `primary = "personal"`, roots personal + public (пути к **вашим** клонам).
+3. Шаблоны: **`templates/newcomer/`** → см. `templates/newcomer/README.md`.
 4. Перезапуск MCP.
 
 ---
@@ -52,17 +54,26 @@
 | `work/local/knowledge-roots-index-v1.md` | `templates/newcomer/template-clean-setup-knowledge-roots-index-v1.md` |
 | hot-секции | `templates/newcomer/template-clean-setup-hot-*.md` |
 
+Каталог `work/` в **kb-public нет** — шаблоны лежат в `knowledge/templates/newcomer/`.
+
 ---
 
-## Фаза 4 — group (опционально)
+## Фаза 4 — group (опционально, участник существующей org)
 
-`[[knowledge.read_only]]` id = `group`, реестр roots.
+Если команда уже ведёт **`{ORG_SLUG}/kb`** (private):
+
+1. Доступ к clone group + строка в TOML: `[[knowledge.read_only]]` id = `group`.
+2. Заполнить `knowledge-roots-index-v1.md` (какие файлы только в group).
+3. Hot: `template-clean-setup-hot-knowledge-roots-routing-v1.md`.
+4. Smoke: `read_knowledge_file` + `group/smoke-test-v1.md` + `knowledge_root_id=group`.
+
+**Основатель org** (создание `{ORG_SLUG}/kb`, seed, public push) — **не** эта фаза; см. [`playbook-org-kb-white-label-v1.md`](playbook-org-kb-white-label-v1.md).
 
 ---
 
 ## Фаза 5 — готово
 
-MCP, primary=personal, scope-map, public/group read.
+MCP, primary=personal, scope-map, при необходимости public/group read-only.
 
 ---
 
@@ -70,11 +81,11 @@ MCP, primary=personal, scope-map, public/group read.
 
 1. Playbook + `templates/newcomer/README.md`.
 2. Опрос → только оставшиеся фазы.
-3. Не искать шаблоны в `work/local/` в kb-public.
+3. **Не** подставлять в инструкции чужой org slug (например из примеров в исторических ADR) — спросить `{ORG_SLUG}` или пути пользователя.
 4. `memory_health` + `route_context`.
 
 ---
 
 ## Связанные документы
 
-- `templates/README.md`, `map-kb-three-contours-v1.md`, `adr/016-*`
+- `templates/README.md`, `map-kb-three-contours-v1.md`, `playbook-org-kb-white-label-v1.md`, `adr/016-*`

@@ -9,7 +9,7 @@ Copy the fenced block into personal `agent-notes.md` (below `<!-- public-cut -->
 | chmod | Role | MCP |
 |-------|------|-----|
 | **u** (user) | personal primary — hot, writes, scope-map | default (no `knowledge_root_id`) |
-| **g** (group) | team KB `AI-Guiders/kb` (private) | `read_knowledge_file(..., knowledge_root_id=group)` |
+| **g** (group) | team KB `{ORG_SLUG}/kb` (private) | `read_knowledge_file(..., knowledge_root_id=group)` |
 | **o** (other) | kb-public slice | `read_knowledge_file(..., knowledge_root_id=public)` when configured |
 
 If TOML has `[[knowledge.read_only]]` with `id=group` (or `public`):

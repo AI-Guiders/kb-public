@@ -2,8 +2,10 @@
 
 **Назначение:** снять когнитивное трение «что в каком репо и куда писать». Одна страница для **агента** (диспетчер) и для **человека** (approve). Не заменяет `PUBLISHING.md`, `kb-one-pager-structure-and-protocols-v1.md`, `playbook-kb-operational-freshness-v1.md` — **сводит** их в схему действий.
 
-**Статус:** active · v1.0 · 2026-05-16  
-**Идея KBMC (PWA):** отложена; пока достаточно этой карты + агент по протоколам ниже. Карточка: `knowledge/work/projects/door-to-singularity/kb-management-center/README.md`.
+**Статус:** active · v1.1 · 2026-05-19  
+**Именование репозиториев:** ниже **`{ORG_SLUG}/kb`** и **`{ORG_SLUG}/kb-public`** — плейсхолдеры вашей GitHub-организации. Пример инстанса: `AI-Guiders/kb` (не обязателен для читателя kb-public).
+
+**Поднять свой org:** [`playbook-org-kb-white-label-v1.md`](playbook-org-kb-white-label-v1.md).
 
 ---
 
@@ -11,23 +13,23 @@
 
 | # | Контур | Где физически | MCP / chmod | Кто обычно пишет |
 |---|--------|---------------|-------------|------------------|
-| **1** | **Канон** (user) | **agent-notes** | primary / **u** | Держатель канона; git `main` |
-| **2a** | **Group KB** | **`AI-Guiders/kb`** private | `knowledge_root_id=group` / **g** | PR + **org-maintainer** review |
-| **2b** | **Public KB** | **AI-Guiders/kb-public** | `public` / **o** | **Canon-maintainer** — `build-public-kb.ps1` |
-| **3** | **Workspace** | PersonalCursorFolder (и др. корни IDE) | Код продуктов, `.cascade-ide/agent-notes.md`, локальные карты | Код — в product repos; hot-зеркало — **копия** канона (см. §Sync) |
+| **1** | **Канон** (user) | личный **`agent-notes`** (или fork) | primary / **u** | Держатель канона; git `main` |
+| **2a** | **Group KB** | **`{ORG_SLUG}/kb`** private | `knowledge_root_id=group` / **g** | PR + **org-maintainer** review |
+| **2b** | **Public KB** | **`{ORG_SLUG}/kb-public`** | `public` / **o** | **Canon-maintainer** — `build-public-kb.ps1` |
+| **3** | **Workspace** | корни IDE, product repos | код, hot-зеркало | Код в product repos; знания — в **1** |
 
-**Не четвёртый контур:** `knowledge/work/` и `knowledge/personal/` — **внутри канона (1)**, в kb-public **не попадают** по дизайну.
+**Не четвёртый контур:** `knowledge/work/` и `knowledge/personal/` — **внутри канона (1)**; в kb-public **не попадают** по дизайну.
 
 ```text
-[Workspace]     copy/sync              [Канон agent-notes — personal]
+[Workspace]     copy/sync              [Канон personal — agent-notes]
      │              work/local/maps          │  git commit + push
      └──────────────► agent-notes.md ◄───────┘
                            │ export (sanitize)
                            ▼
-                    [AI-Guiders/kb — group KB, work/projects]
+                    [{ORG_SLUG}/kb — group KB]
                            │ build-public-kb.ps1
                            ▼
-                    [kb-public]
+                    [{ORG_SLUG}/kb-public]
 ```
 
 ---
@@ -36,67 +38,46 @@
 
 | Содержание | Контур | Путь / действие |
 |------------|--------|-----------------|
-| Playbook, kb, роутер, META, worlds | **1 Канон** | `knowledge/...` в agent-notes |
-| L0, stub секций, `public-cut` | **1 Канон** | `agent-notes.md` (выше cut = может уйти в публичное) |
-| Карточка проекта, пути к диску, operational спринт | **1 Канон**, слой work | `knowledge/work/projects/<scope>/...` |
-| Черновик «только мне» | **1 Канон**, personal | `knowledge/personal/...` (не в kb-public) |
-| C#, решение, тесты | **3 Workspace** | product repo (cascade-ide, …) |
-| Правка знаний из чата в Cursor | **1** (не только 3) | обновить канон; workspace-hot — зеркало |
-| Показать миру обезличенную KB | **2** | собрать из **1**, push kb-public |
-
-**Правило смешивания:** не переносить `work/` и пути workspace в текст, который должен быть **выше `public-cut`**, без ревью.
+| Playbook, kb, роутер, META, worlds | **1 Канон** | `knowledge/...` в personal |
+| L0, stub секций, `public-cut` | **1 Канон** | `agent-notes.md` (выше cut → может уйти в public) |
+| Карточка проекта, operational | **1**, слой work | `knowledge/work/projects/...` (не в kb-public) |
+| Черновик «только мне» | **1**, personal | `knowledge/personal/...` |
+| C#, решение, тесты | **3 Workspace** | product repo |
+| Правка знаний из чата | **1** | обновить канон; workspace-hot — зеркало |
+| Показать миру обезличенную KB | **2b** | сборка из **1**, push kb-public |
 
 ---
 
 ## Sync: workspace hot ↔ канон
 
-- **Правда** — всегда **контур 1** (git agent-notes).
-- **`.cascade-ide/agent-notes.md`** (или копия в workspace) — рабочая поверхность MCP в IDE; после существенных правок — **скопировать в канон** и `git commit` + `push` (напоминание часто в operational-памяти трека `agent-notes-kb`).
-- Агент **не считает** workspace-файл каноном, если `AGENT_NOTES_CANON_PATH` указывает на клон agent-notes.
+- **Правда** — контур **1** (git personal).
+- Hot в workspace — зеркало; после правок — в канон и commit.
+- Агент не считает workspace-файл каноном, если `AGENT_NOTES_CANON_PATH` указывает на клон personal.
 
 ---
 
-## Устарело / перепроверить (без отдельного UI)
-
-| Шаг | Кто | Что |
-|-----|-----|-----|
-| 1 | Агент | Открыть `playbook-kb-operational-freshness-v1.md` по триггеру «устарело / Проверено / deprecated» |
-| 2 | Агент | Доменный `status-*` § Maintenance Policy → только нужные файлы из §5 реестра |
-| 3 | Агент | Отчёт: список кандидатов + источник правды + **предлагаемая** правка |
-| 4 | Человек | Approve → коммит в **контур 1**; при необходимости сборка **контур 2** |
-
-Опционально позже: скрипт `stale-scan` (отчёт в markdown/JSON) — тот же смысл, что дашборд KBMC.
-
----
-
-## Роли: агент-диспетчер vs человек
+## Роли: агент vs человек
 
 | Действие | Агент | Человек |
 |----------|-------|---------|
-| Навигация «в каком контуре править» | ✅ по этой карте | approve при сомнении |
-| `read_knowledge_file` / `route_context` | ✅ | — |
-| Правка `knowledge/` и коммит в канон | подготовка | **approve**, commit |
-| `build-public-kb`, push kb-public | preview, diff, команды | **canon-maintainer** approve push |
-| Решение «публикуем / не публикуем» строку | предложение | **финал** |
-| Ослабление Integrity / POST | ❌ | ❌ |
-
-Маркеры чата: `playbook-project-switch-v1.md`, `playbook-mode-switch-v1.md` — какой **scope** и режим WORK/HUMAN.
+| «В каком контуре править» | ✅ по этой карте | approve |
+| `build-public-kb`, push kb-public | preview | **canon-maintainer** |
+| PR в group KB | подготовка diff | **org-maintainer** |
 
 ---
 
-## Быстрые ссылки
+## Быстрые ссылки (kb-public)
 
 | Вопрос | Файл |
 |--------|------|
-| Что в kb-public, public-cut | `knowledge/PUBLISHING.md` |
-| Слои L0–L3, обзор | `knowledge/kb-one-pager-structure-and-protocols-v1.md` |
-| Свежесть любого kb | `knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` |
-| Сопровождение репо канона | `knowledge/work/projects/door-to-singularity/agent-notes-kb/README.md` |
-| Пуш kb-public (ops) | `knowledge/work/projects/door-to-singularity/agent-notes-kb/templates/publishing-ops-internal-v1.md` |
+| Что в kb-public | `knowledge/PUBLISHING.md` |
+| Слои L0–L3 | `knowledge/kb-one-pager-structure-and-protocols-v1.md` |
+| Свой org с нуля | `knowledge/domains/agent-operations/playbook-org-kb-white-label-v1.md` |
+| Участник: personal + MCP | `knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md` |
 | Маркеры PRIMARY/SCOPE | `knowledge/domains/agent-operations/playbook-project-switch-v1.md` |
 
 ---
 
 ## Триггер для роутера / агента
 
-Фразы пользователя: «в каком репо», «куда записать», «три репозитория», «kb-public vs agent-notes», «забыл куда класть», «синк заметок» → **сначала этот файл**, затем узкий playbook по задаче.
+«в каком репо», «куда записать», «три репозитория», «kb-public vs agent-notes», «свой org KB», «white-label», «синк заметок» → **сначала этот файл**, затем узкий playbook.

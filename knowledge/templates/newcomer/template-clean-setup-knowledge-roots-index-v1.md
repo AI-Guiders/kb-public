@@ -4,7 +4,7 @@ Machine-local registry: **which file under `knowledge/` lives in which root** (c
 **Not** clone paths — those go in TOML `--config` (`[[knowledge.read_only]]`).
 
 Format: one line per entry — `relative/path/under/knowledge/ => root_id`
-- `group` — team KB (`AI-Guiders/kb`), read via `knowledge_root_id=group`
+- `group` — team KB (`{ORG_SLUG}/kb`), read via `knowledge_root_id=group`
 - `public` — kb-public slice, read via `knowledge_root_id=public`
 - `user` — primary personal canon (or omit line after import into personal)
 

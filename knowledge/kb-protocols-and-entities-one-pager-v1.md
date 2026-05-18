@@ -140,7 +140,9 @@ flowchart TB
 | **`route_context(query)`** | «что грузить по теме» | router-first; не full load KB |
 | **`read_knowledge_file`** | нужен конкретный playbook/kb | путь относительно `knowledge/` |
 | **`active_scope`** | явно задать slice для MCP | альтернатива `[SCOPE:…]` в чате |
-| **`canon_path`** (если есть) | чтение **org-kb** / второго корня | запись — только primary ([ADR 012](adr/012-multi-canon-workspace-resolution-v1.md)) |
+| **`knowledge_root_id=group`** | чтение **`{ORG_SLUG}/kb`** (private) | read-only; см. `playbook-org-kb-white-label-v1.md` |
+| **`knowledge_root_id=public`** | чтение kb-public | read-only |
+| **запись** | только **primary** (personal) | [ADR 012](adr/012-multi-canon-workspace-resolution-v1.md) |
 
 ---
 
@@ -168,14 +170,14 @@ flowchart TD
 
 ---
 
-## Связь с другими контурами org
+## Связь с контурами организации
 
 | Контур | Роль | Этот one-pager |
 |--------|------|----------------|
-| **kb-public** (архив) | публичные playbook, роутер, этот файл | да |
-| **handbook** (org) | миссия, ценности, как работаем | нет маркеров KB |
-| **org-central** (private) | черновики, discussions | может ссылаться сюда |
-| **org-kb** (будущий) | коллаборативный канон org | чтение через `canon_path`, не дублировать в личный `knowledge/organization/` |
+| **kb-public** (`{ORG_SLUG}/kb-public`) | публичные playbook, роутер, этот файл | да |
+| **group KB** (`{ORG_SLUG}/kb`, private) | командный канон | чтение `knowledge_root_id=group`; white-label: `playbook-org-kb-white-label-v1.md` |
+| **handbook** (опционально) | миссия, ценности org | не маркеры KB |
+| **personal** | личный канон участника | маркеры чата, `work/local/` |
 
 ---
 

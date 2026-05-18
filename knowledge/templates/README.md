@@ -1,4 +1,4 @@
-﻿# `knowledge/templates/` — шаблоны (каркасы для копирования)
+# `knowledge/templates/` — шаблоны (каркасы для копирования)
 
 Не живые экземпляры под один workspace. Контракт корзины: **`../META/kb-taxonomy-v1.md`**.
 
@@ -28,6 +28,7 @@
 | Схема контуров / маршрутизация | `meta/template-map-v1.md` |
 | Процедура со скриптами | `meta/template-runbook-v1.md` |
 | Секция в `agent-notes.md` | `meta/template-hot-section-v1.md` или `newcomer/` |
+| Свой org KB (CONTRIBUTING, CODEOWNERS) | `newcomer/template-org-kb-bootstrap-*` + `playbook-org-kb-white-label-v1.md` |
 
 ## Легаси-пути (после v1.2)
 
