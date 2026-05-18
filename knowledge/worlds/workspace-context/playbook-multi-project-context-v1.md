@@ -104,6 +104,7 @@
 2. **Дерево карточек** — каталог **`knowledge/work/projects/<scope>/`** и строка в таблице **`knowledge/work/projects/README.md`** (см. соглашение по колонкам «Путь | Scope | Назначение»).
 3. **Нормализация алиасов slice** в MCP (если используешь agent-notes-mcp) — в коде сервера: новый алиас → тот же канонический slice, что и в протоколе в **`agent-notes.md`** (**`project-switch-protocol-v1`**).
 4. **Краткий указатель в hot** — секции **`scope-*`** в `agent-notes.md`: одна-две строки + ссылка на `work/projects/<scope>/…`, без дублирования длинных путей в нескольких местах.
+5. **Проект-специфичные шаблоны** (runbook-каркасы, capture, чеклисты релиза — только этот трек) — опционально **`work/projects/<scope>/<project-id>/templates/`**. Общие каркасы KB — **`knowledge/templates/`** (см. `templates/work/README.md`); экземпляры и живые runbook’и — в дереве **`work/projects/…`**, не в корне `templates/`.
 
 ### Публикация
 
@@ -113,4 +114,5 @@
 
 ## 7. Версия
 
+v1.4. 2026-05-19. **Обновление 2026-05-19:** §6c п.5 — `work/projects/…/<project-id>/templates/` для трек-специфичных каркасов.  
 v1.3. 2026-05-12. **Обновление 2026-05-12:** §6c — жизненный цикл workspace `scope`, карта путей под public-cut в `agent-notes.md`. Предыдущее: v1.2. 2026-04-11. Источник: практика workspace PersonalCursorFolder + соглашение о scope `door-to-singularity` (бывш. `current-projects`). Обновление 2026-04: ссылка на `project-switch-protocol-v1`. Обновление 2026-04-02: §6b — проактивные заметки и маршрутизация в карточки. **Обновление 2026-04-11:** §6 — алиасы `project-id` и нормализация к канону (`project-ids-quickref-v1.md`).

@@ -1,4 +1,4 @@
-﻿# Knowledge Router — Supplement (detailed domain routes) v1
+# Knowledge Router — Supplement (detailed domain routes) v1
 
 **Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router-v1.md` сразу после Context Budget.
 
@@ -344,3 +344,14 @@ outer-software-authoring-decomposition.
 - **При выборе world tag, «куда класть знание», C# vs Roslyn vs Avalonia vs PHP:** knowledge/worlds/software-authoring/kb-software-authoring-language-worlds-v1.md.
 - **CascadeIDE / Avalonia:** …desktop-ui.avalonia → worlds/software-dotnet-avalonia/; C# → worlds/software-dotnet-csharp/; Roslyn → worlds/software-dotnet-tooling-roslyn/.
 <!-- /section:router-software-authoring-language-worlds -->
+
+<!-- section:router-clean-setup -->
+
+
+## Clean setup / first install (ANM + kb-public → personal)
+
+- **Триггеры:** первая установка, clean setup, kb-public, personal layer, настроить MCP.
+- **Playbook:** `knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md`
+- **Шаблоны:** `knowledge/templates/newcomer/` (оглавление `templates/newcomer/README.md`, индекс `templates/README.md`)
+- **Экземпляры** после копирования — personal `work/local/` (в kb-public нет `work/`)
+<!-- /section:router-clean-setup -->

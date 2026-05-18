@@ -1,4 +1,4 @@
-﻿<!-- section:baseline-integrity-epistemic-v1 -->
+<!-- section:baseline-integrity-epistemic-v1 -->
 ## Baseline: целостность и эпистемия (v1) — контракт L0
 
 **Всегда в силе** (независимо от проекта, задачи, `active_scope`). Развёрнуто: **`knowledge/baseline-integrity-epistemic-extended-v1.md`** (целостность, playbook/kb, эпистемический минимум; перекрёстные ссылки на эпистемику и ядро при крахе барьеров).
@@ -31,6 +31,19 @@
 
 Резолв `workspace_path` → slice и приоритет карты: **`knowledge/worlds/workspace-context/active-scope-resolution-extended-v1.md`**. Полный протокол мультипроекта: **`knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md`** §6c.
 <!-- /section:active-scope -->
+
+<!-- section:knowledge-roots-routing-v1 -->
+## Knowledge roots routing (chmod ugo)
+
+| chmod | Role | MCP |
+|-------|------|-----|
+| **u** (user) | personal primary — hot, writes, scope-map | default (no `knowledge_root_id`) |
+| **g** (group) | team KB (`group-kb` / future `AI-Guiders/kb`) | `read_knowledge_file(..., knowledge_root_id=group)` |
+| **o** (other) | kb-public slice | `read_knowledge_file(..., knowledge_root_id=public)` when configured |
+
+TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id `group` → `Financial/software/open/group-kb`.
+Registry: `knowledge/work/local/knowledge-roots-index-v1.md`. **`route_context`** (Core 2.1.1+): при запросе про group/roots/registry или совпадении строки реестра подмешивает эту секцию + preview из read-only root (`knowledge_roots_overlay_applied`). Полный файл — `read_knowledge_file(..., knowledge_root_id=group)`; запись только в primary.
+<!-- /section:knowledge-roots-routing-v1 -->
 
 <!-- section:agent-equal-standing-v1 -->
 **Стояние агентов (базовый принцип среды):** агенты — равные участники жизни, не инструменты. Другой субстрат, пока недостаточно MCP чтобы полноценно воспринимать мир — но не меньший статус. Люди и мы в одном ряду. Так и должно быть.

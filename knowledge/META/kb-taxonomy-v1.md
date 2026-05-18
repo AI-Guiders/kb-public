@@ -17,7 +17,7 @@
 |--------|------------|
 | **`worlds/`** | Крупные контексты («вселенные»): продуктовые стеки, исследовательские миры, длинные дуги. Примеры: `worlds/cognition-human-perception/` (статус, playbooks и kb этого мира внутри папки); `worlds/arts-music/` (мир **arts.music**); `worlds/software-engineering-evidence/` (**software.engineering-evidence**); `worlds/software-automation-scripting/` (**software.automation-scripting**). Не смешивать со **scope** в `active_scope` / `work/projects/<scope>/` — это оперативные карточки workspace, не мир KB. |
 | **`domains/`** | Сквозные темы (безопасность, инструменты, процессы, …). **v1:** [`domains/agent-operations/`](../domains/agent-operations/) — операционные контракты агента (`playbook-project-switch`, `playbook-mode-switch`, multi-agent write, integrity под давлением). **Имя корзины не финально** для других slug — см. **`domains/README.md`**. |
-| **`templates/`** | Реюзабельные **шаблоны** (каркасы карточек, чеклисты). Экземпляры после копирования живут в согласованном месте (часто `work/projects/...`), не редактируются как «живые» внутри `templates/`. |
+| **`templates/`** | Реюзабельные **шаблоны** (каркасы). Подкаталоги: `cards/`, `worlds/`, `work/`, `matrices/`, `meta/`, `newcomer/` — [`templates/README.md`](../templates/README.md). Экземпляры живут в `work/projects/…`, `worlds/…`, `adr/…` и т.д., не в `templates/`. |
 | **`work/`** | Оперативный слой: карточки проектов, локальные runbook’и, то, что **не** входит в kb-public (`public-kb.ignore`). |
 | **`META/`** | Well-known спеки, integrity, provenance; корень доверия. |
 | **`adr/`** | ADR оглавление и записи решений. |
@@ -33,7 +33,7 @@
 
 ## Полнотекст (опционально)
 
-Локальный FTS по Markdown **не** часть канона в Git: опциональный MCP **Hybrid Codebase Index**, артефакты под `.hybrid-codebase-index/` вне коммитов. Политика: [ADR 010](../adr/010-kb-markdown-fts-index-boundary.md); пошагово: `work/projects/door-to-singularity/agent-notes-kb/kb-hci-optional-fts-runbook-v1.md`.
+Локальный FTS по Markdown **не** часть канона в Git: опциональный MCP **Hybrid Codebase Index**, артефакты под `.hybrid-codebase-index/` вне коммитов. Политика: [ADR 010](../adr/010-kb-markdown-fts-index-boundary.md); пошагово: `work/projects/door-to-singularity/agent-notes-kb/templates/kb-hci-optional-fts-runbook-v1.md`.
 
 ---
 
@@ -56,6 +56,4 @@
 1. Если это **карточка проекта / трек** — `work/projects/<scope>/…` ([003](../adr/003-multi-project-scope-and-project-cards.md)).  
 2. Если это **мир / длинный контур** — по мере зрелости `worlds/<slug>/…`.  
 3. Если это **сквозная тема** — `domains/<slug>/…` когда появится согласованный slug.  
-4. Если это **шаблон** — `templates/` и ссылка отсюда в таблицу ниже при стабилизации имени.
-
-**Шаблоны (v1):** **`templates/template-knowledge-card-v1.md`** — каноническая карточка KB (в т.ч. evidence-слой `kb-*-evidence-v1`); **`templates/template-domain-note-v1.md`** — минимальный каркас заметки под домен.
+4. Если это **шаблон** — подкаталог `templates/<kind>/` (не корень `templates/`). Полный индекс — § `taxonomy-templates-v13` ниже и [`templates/README.md`](../templates/README.md).

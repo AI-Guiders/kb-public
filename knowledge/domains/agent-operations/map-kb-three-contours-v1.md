@@ -7,25 +7,27 @@
 
 ---
 
-## Три контура (не путать)
+## Контуры (не путать; group KB — между personal и public)
 
-| # | Контур | Где физически | Источник правды | Кто обычно пишет |
-|---|--------|---------------|-----------------|------------------|
-| **1** | **Канон KB** | Репозиторий **agent-notes** (`knowledge/`, корневой `agent-notes.md`, `scripts/`) | **Git `main` канона** | Человек approve; агент готовит diff/коммит **по запросу** |
-| **2** | **Публичный срез** | Зеркало **kb-public** / org-kb (артефакт сборки) | Вывод `build-public-kb.ps1` из канона | Только **после** сборки и явного push; агент — preview/diff, не «тихий» push |
+| # | Контур | Где физически | MCP / chmod | Кто обычно пишет |
+|---|--------|---------------|-------------|------------------|
+| **1** | **Канон** (user) | **agent-notes** | primary / **u** | Держатель канона; git `main` |
+| **2a** | **Group KB** | **`AI-Guiders/kb`** private | `knowledge_root_id=group` / **g** | PR + **org-maintainer** review |
+| **2b** | **Public KB** | **AI-Guiders/kb-public** | `public` / **o** | **Canon-maintainer** — `build-public-kb.ps1` |
 | **3** | **Workspace** | PersonalCursorFolder (и др. корни IDE) | Код продуктов, `.cascade-ide/agent-notes.md`, локальные карты | Код — в product repos; hot-зеркало — **копия** канона (см. §Sync) |
 
 **Не четвёртый контур:** `knowledge/work/` и `knowledge/personal/` — **внутри канона (1)**, в kb-public **не попадают** по дизайну.
 
 ```text
-[Workspace]     copy/sync (команда)     [Канон agent-notes]
-     │                                    │
-     │  MCP read/write hot               │  git commit + push
-     └──────────────► agent-notes.md ◄───┘
-                           │
-                    build-public-kb.ps1
+[Workspace]     copy/sync              [Канон agent-notes — personal]
+     │              work/local/maps          │  git commit + push
+     └──────────────► agent-notes.md ◄───────┘
+                           │ export (sanitize)
                            ▼
-                    [kb-public / org mirror]
+                    [AI-Guiders/kb — group KB, work/projects]
+                           │ build-public-kb.ps1
+                           ▼
+                    [kb-public]
 ```
 
 ---
@@ -74,7 +76,7 @@
 | Навигация «в каком контуре править» | ✅ по этой карте | approve при сомнении |
 | `read_knowledge_file` / `route_context` | ✅ | — |
 | Правка `knowledge/` и коммит в канон | подготовка | **approve**, commit |
-| `build-public-kb`, push kb-public | preview, diff, команды | **approve** push |
+| `build-public-kb`, push kb-public | preview, diff, команды | **canon-maintainer** approve push |
 | Решение «публикуем / не публикуем» строку | предложение | **финал** |
 | Ослабление Integrity / POST | ❌ | ❌ |
 
@@ -90,7 +92,7 @@
 | Слои L0–L3, обзор | `knowledge/kb-one-pager-structure-and-protocols-v1.md` |
 | Свежесть любого kb | `knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` |
 | Сопровождение репо канона | `knowledge/work/projects/door-to-singularity/agent-notes-kb/README.md` |
-| Пуш kb-public (ops) | `knowledge/work/projects/door-to-singularity/agent-notes-kb/publishing-ops-internal-v1.md` |
+| Пуш kb-public (ops) | `knowledge/work/projects/door-to-singularity/agent-notes-kb/templates/publishing-ops-internal-v1.md` |
 | Маркеры PRIMARY/SCOPE | `knowledge/domains/agent-operations/playbook-project-switch-v1.md` |
 
 ---

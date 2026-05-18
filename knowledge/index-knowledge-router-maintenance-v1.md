@@ -1,4 +1,4 @@
-﻿# Knowledge Router — Maintenance (index editors) v1
+# Knowledge Router — Maintenance (index editors) v1
 
 **Роль:** правила сопровождения главного индекса роутера, supplement, сплита кластеров, списка секций `router-*`, Domain Entry Map и публичной сборки. **Не** триггеры «какой playbook грузить по теме» — они в **`index-knowledge-router-supplement-v1.md`**.
 

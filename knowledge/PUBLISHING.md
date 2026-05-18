@@ -8,11 +8,13 @@
 
 1. **`agent-notes.md`** — в сборку попадает только текст **до** первого маркера `<!-- public-cut -->`.
 2. **`knowledge/**`** — копируется всё, что **не** отфильтровано шаблонами из **`knowledge/public-kb.ignore`** (по смыслу как `.gitignore`: строка с `/` на конце = целое поддерево от корня `knowledge/`; без `/` = один файл; допускается `*`).
+
+**Group KB (`seed-org-kb.ps1` → репо `AI-Guiders/kb`):** база = public slice; **`knowledge/work/projects/`** добавляется **выборочно** по **`knowledge/group-kb.ignore`** (пути относительно `work/projects/`). Термины: [ADR 011](adr/011-aiguiders-org-collaborative-kb-repo-v1.md) §терминология.
 3. **Корень артефакта kb-public** — в `dist/public-kb/` кладутся **`README.md`** и **`LICENSE`** (CC BY-SA 4.0) из **`scripts/kb-public-root/`** (для репозитория **kb-public** на GitHub и зеркалах).
 4. **Первая строка файла** — если содержит подстроку **«НЕ ПУБЛИКОВАТЬ»**, файл в сборку **не** копируется (можно исключить единичный файл без правки `public-kb.ignore`).
 5. **Индексы роутера** — в копиях `index-knowledge-router-v1.md`, `index-knowledge-router-supplement-v1.md`, `index-knowledge-router-maintenance-v1.md` и `index-knowledge-router-safety-v1.md` под `knowledge/` сборка **удаляет** секции `## …`, которые ссылаются на `knowledge/*.md`, отсутствующие в публичном наборе.
 
-Сборку выполняют из **полного** клона репозитория **agent-notes** (в артефакт kb-public попадают обрезанный **`agent-notes.md`**, отфильтрованный **`knowledge/`**, корневые **`README.md`** и **`LICENSE`** из **`scripts/kb-public-root/`**; каталог **`scripts/`** как исходники и операции **git push** в зеркало kb-public **в zip не входят**). Конкретные команды пуша, URL зеркала и переменные для HTTP — у владельца канона в операционном слое **`knowledge/work/`** (этот префикс в публичную сборку не копируется).
+Сборку выполняют из **полного** клона репозитория **agent-notes** или org-репо **`AIGuiders/kb`** (там тоже есть **`scripts/`** для роли canon-maintainer; см. `scripts/README.md`). В артефакт kb-public попадают обрезанный **`agent-notes.md`**, отфильтрованный **`knowledge/`**, корневые **`README.md`** и **`LICENSE`** из **`scripts/kb-public-root/`**; каталог **`scripts/`** и операции **git push** в зеркало kb-public **в zip не входят**. Список remotes — **`knowledge/public-kb.push`** (в публичную сборку не копируется; шаблон `scripts/public-kb.push.example`).
 
 ### Что обычно в публичной kb
 

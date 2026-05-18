@@ -1,0 +1,20 @@
+﻿# Template agent-notes-mcp 2.0 TOML — edit paths, save outside git (e.g. D:/agent-notes-mcp/)
+# Cursor mcp.json: "args": ["--config", "D:/agent-notes-mcp/agent-notes-mcp.toml"]
+
+version = 1
+
+[knowledge]
+primary = "personal"
+
+[knowledge.roots]
+personal = "D:/path/to/my-agent-notes"
+public = "D:/path/to/kb-public"
+
+[[knowledge.read_only]]
+id = "public"
+path = "D:/path/to/kb-public"
+
+[workspace]
+default_scope = "mixed"
+scope_map = "work/local/workspace-scope-map-v1.md"
+scope_aliases = "work/local/scope-alias-map-v1.md"

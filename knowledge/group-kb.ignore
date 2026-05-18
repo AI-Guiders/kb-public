@@ -1,0 +1,13 @@
+# Paths under knowledge/work/projects/ excluded from group KB seed (scripts/seed-org-kb.ps1).
+# Group KB = chmod g, MCP knowledge_root_id=group, repo AI-Guiders/kb (private).
+# Syntax: same as public-kb.ignore — paths relative to work/projects/ (not knowledge/).
+# Edit when a scope stays personal-only; re-run build-public-kb + seed-org-kb before push.
+
+# EDW Portal (EDWP) — employer-internal; cards say "личный рабочий контур"
+portal/
+
+# EDW Harvester (EDWH) — not shared group KB
+harvester/
+
+# IMC / ModellingCore — employer-internal
+imc/

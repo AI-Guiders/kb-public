@@ -23,7 +23,7 @@
 
 ### 2. Org-kb и «инфа только в орге»
 
-Когда появится живой **`AIGuiders/kb`** ([011](011-aiguiders-org-collaborative-kb-repo-v1.md)), часть playbook/kb будет **принята в org** раньше, чем попадёт в **личный** канон владельца (или никогда — если личное не дублирует всё org).
+Когда появится живой **`AI-Guiders/kb`** ([011](011-aiguiders-org-collaborative-kb-repo-v1.md)), часть playbook/kb будет **принята в org** раньше, чем попадёт в **личный** канон владельца (или никогда — если личное не дублирует всё org).
 
 **Плохой обход:** завести в личном каноне `knowledge/organization/` (или `work/organization/`) и копировать туда org-файлы.
 
@@ -152,7 +152,7 @@ workspace_path (Cursor)
 | **3** | `route_context`: опциональный поиск по `secondary[]` с метками и лимитом chars | код |
 | **4** | (опционально) read-only L0 overlay whitelist | только при сценарии |
 
-Зависимости: [011](011-aiguiders-org-collaborative-kb-repo-v1.md) (репо `AIGuiders/kb`) для реального secondary; до этого secondary может указывать на клон `kb-public`.
+Зависимости: [011](011-aiguiders-org-collaborative-kb-repo-v1.md) (репо `AI-Guiders/kb`) для реального secondary; до этого secondary может указывать на клон `kb-public`.
 
 ---
 
@@ -167,4 +167,4 @@ workspace_path (Cursor)
 ## Ссылки
 
 - Пример workspace-конфига: `knowledge/work/local/agent-notes.workspace.example.toml`
-- Runbook wiki / org: `knowledge/work/runbook-gitlab-wiki-to-github-ai-guiders-v1.md` (контуры kb-public / handbook)
+- Runbook wiki / org: `knowledge/work/projects/door-to-singularity/ai-guiders/templates/runbook-gitlab-wiki-to-github-ai-guiders-v1.md` (контуры kb-public / handbook)
