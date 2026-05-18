@@ -1,15 +1,25 @@
 # kb-public
 
-Публичный срез **Agent Notes KB**: обрезанный по `<!-- public-cut -->` файл **`agent-notes.md`** и каталог **`knowledge/`** после фильтров **`public-kb.ignore`** и заголовка «НЕ ПУБЛИКОВАТЬ» (см. полный канон **agent-notes**).
+Публичный срез **Agent Notes KB**: обрезанный по `<!-- public-cut -->` файл **`agent-notes.md`** и каталог **`knowledge/`** после фильтров **`public-kb.ignore`**.
+
+## Документация (вместо wiki)
+
+**https://ai-guiders.github.io/kb-public/** — MkDocs (RU/EN): онбординг, три контура, white-label, полное дерево `knowledge/` для поиска.
+
+Локальная сборка:
+
+```powershell
+pip install -r requirements-docs.txt
+python tools/sync_knowledge_docs.py
+mkdocs serve
+```
+
+GitHub Pages: Settings → Pages → **GitHub Actions** (workflow `docs-pages`).
 
 ## Лицензия
 
-Тексты в этой выгрузке — **CC BY-SA 4.0** (см. **`LICENSE`** в корне репозитория). Кратко и про коммерцию — в **`knowledge/README.md`**. Это **не** лицензия на весь приватный канон; только на опубликованный артефакт.
+Тексты — **CC BY-SA 4.0** (`LICENSE`). MCP **agent-notes-mcp** — [MIT](https://github.com/KarataevDmitry/agent-notes-mcp).
 
-## Откуда берётся
+## Сборка среза из полного канона
 
-Сборка: **`scripts/build-public-kb.ps1`**, пуш: **`scripts/push-public-kb.ps1`** в репозитории канона. Правила состава: **`knowledge/PUBLISHING.md`** (в полном каноне; в этот срез файл может не входить — смотри актуальный `public-kb.ignore`).
-
-## Инструмент
-
-Чтение/запись полного канона из другого workspace: **[agent-notes-mcp](https://github.com/KarataevDmitry/agent-notes-mcp)** (код под **MIT**; тексты KB в каноне — по правилам канона, не MIT).
+В репозитории maintainer’а с `scripts/`: `build-public-kb.ps1`, `push-public-kb.ps1`. Правила: `knowledge/PUBLISHING.md` в полном каноне.

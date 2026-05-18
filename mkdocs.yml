@@ -1,0 +1,111 @@
+# kb-public documentation (GitHub Pages: /kb-public/)
+# Build: pip install -r requirements-docs.txt && python tools/sync_knowledge_docs.py && mkdocs build
+
+site_name: Agent Notes KB
+site_description: Public knowledge-base slice for agents — onboarding and reference
+site_url: https://ai-guiders.github.io/kb-public/
+repo_url: https://github.com/AI-Guiders/kb-public
+repo_name: AI-Guiders/kb-public
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+hooks:
+  - hooks/i18n_alternate_absolute.py
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: ru
+          name: Русский
+          default: true
+          build: true
+          site_name: Agent Notes KB
+          nav:
+            - Главная: index.md
+            - Онбординг:
+                - Три контура: onboarding/three-contours.md
+                - Чистая установка: onboarding/clean-setup.md
+                - White-label org: onboarding/white-label.md
+                - Протоколы: onboarding/protocols.md
+            - Knowledge (срез):
+                - SHOWCASE: knowledge/SHOWCASE.md
+                - Entry KB: knowledge/00-entry-kb-v1.md
+                - Публикация: knowledge/PUBLISHING.md
+                - Роутер: knowledge/index-knowledge-router-v1.md
+                - Карта контуров (исходник): knowledge/domains/agent-operations/map-kb-three-contours-v1.md
+        - locale: en
+          name: English
+          build: true
+          site_name: Agent Notes KB
+          nav:
+            - Home: en/index.md
+            - Onboarding:
+                - Three contours: en/onboarding/three-contours.md
+                - Clean setup: en/onboarding/clean-setup.md
+                - White-label org: en/onboarding/white-label.md
+                - Protocols: en/onboarding/protocols.md
+            - Knowledge (slice):
+                - SHOWCASE: en/knowledge/SHOWCASE.md
+                - Entry KB: en/knowledge/00-entry-kb-v1.md
+                - Publishing: en/knowledge/PUBLISHING.md
+                - Router: en/knowledge/index-knowledge-router-v1.md
+                - Three contours (source): en/knowledge/domains/agent-operations/map-kb-three-contours-v1.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+exclude_docs: |
+  knowledge/work/**
+  knowledge/personal/**
+  knowledge/archive/**
+
+validation:
+  absolute_links: ignore
+  unrecognized_links: ignore
+  anchors: ignore
