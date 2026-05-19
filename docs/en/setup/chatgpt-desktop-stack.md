@@ -1,106 +1,151 @@
-## ChatGPT Desktop stack (Windows)
+## Agent stack: Cursor and ChatGPT Desktop (Windows)
+
+Guide for **local stdio MCP** on Windows. With **agent-notes-mcp 2.x** you need a **TOML** file and **`--config`** in the host settings; **`AGENT_NOTES_CANON_PATH`** is no longer used.
+
+Full onboarding (personal + group): [Clean setup](../onboarding/clean-setup.md), playbook [playbook-knowledge-stack-clean-setup-v1.md](../knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md), TOML template [template-clean-setup-agent-notes-mcp-toml-v1.toml](../knowledge/templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml).
 
 ### 1. Stack components
 
-- **ChatGPT Desktop** — official desktop app.
-- **kb-public** — local clone of the public knowledge slice.
-- **agent-notes-mcp** — MCP for long-term notes and canon access.
-- **webcam-mcp** — MCP for camera/screen/audio capture and analysis.
-- **git-mcp** — MCP for git status/diff/log/commit/push.
-- **Git for Windows** — system git (for git-mcp and repos).
+| Component | Role |
+|-----------|------|
+| **kb-public** | Public KB slice (GitHub clone) |
+| **agent-notes-mcp** | Memory, hot-context, `knowledge/` ([releases](https://github.com/AI-Guiders/agent-notes-mcp/releases)) |
+| **git-mcp** | Git status/diff/commit ([AI-Guiders/git-mcp](https://github.com/AI-Guiders/git-mcp)) |
+| **webcam-capture-mcp** / **webcam-analysis-mcp** | Capture and analysis (optional; [open stack](https://ai-guiders.github.io/)) |
+| **Git for Windows** | For git-mcp and clones |
 
-MCP servers ship as self-contained .NET 10 win-x64; end users do not need the .NET SDK.
+MCP servers ship as self-contained **.NET 10 win-x64**; no SDK required on the user machine.
 
 ### 2. Requirements
 
 - Windows 10/11 (x64).
-- Access to your Git host (GitHub, GitLab, etc.).
-- Account on that host.
-- **Git for Windows** installed (`git` on PATH).
+- **Git for Windows** (`git` on PATH).
+- **Cursor** and/or **ChatGPT Desktop** with **local** MCP support (stdio: `command` + `args`).
+- Internet access for **GitHub** clones and releases.
 
-### 3. Install ChatGPT Desktop
+!!! note "ChatGPT and remote MCP"
+    Some ChatGPT setups only accept MCP over **HTTPS URL** (connectors), not a local `.exe`. The stdio stack below targets **Cursor** first; for URL-based ChatGPT see [OpenAI MCP docs](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt). A remote endpoint for agent-notes-mcp is upstream backlog.
 
-1. Download the latest ChatGPT Desktop from OpenAI.
-2. Install with defaults.
-3. Sign in; confirm the app starts cleanly.
+### 3. Directory layout (example)
 
-### 4. Directory layout
-
-Suggested layout:
-
-- `D:\ChatGPT\tools\agent-notes-mcp\`
-- `D:\ChatGPT\tools\webcam-mcp\`
-- `D:\ChatGPT\tools\git-mcp\`
-- `D:\ChatGPT\kb-public\`
-
-Create base folders:
-
-```powershell
-mkdir D:\ChatGPT
-mkdir D:\ChatGPT\tools
+```text
+D:\agent-stack\
+  kb-public\              ← git clone
+  agent-notes-mcp\        ← AgentNotesMcp.exe + agent-notes-mcp.toml
+  tools\git-mcp\
 ```
 
-### 5. Install kb-public
+```powershell
+New-Item -ItemType Directory -Path D:\agent-stack\tools -Force
+```
+
+### 4. kb-public
 
 ```powershell
-cd D:\ChatGPT
+cd D:\agent-stack
 git clone https://github.com/AI-Guiders/kb-public.git kb-public
 ```
 
-Canon path: `D:\ChatGPT\kb-public`.
+Slice root: `D:\agent-stack\kb-public` (contains `knowledge/` and trimmed `agent-notes.md`).
 
-Recommended environment variable:
+### 5. agent-notes-mcp (binary)
 
-- `AGENT_NOTES_CANON_PATH = D:\ChatGPT\kb-public`
+1. [Releases](https://github.com/AI-Guiders/agent-notes-mcp/releases) → **win-x64** archive.
+2. Extract to `D:\agent-stack\agent-notes-mcp\`.
+3. Verify `D:\agent-stack\agent-notes-mcp\AgentNotesMcp.exe`.
 
-Restart ChatGPT Desktop after changing environment variables.
+From source: [AI-Guiders/agent-notes-mcp](https://github.com/AI-Guiders/agent-notes-mcp) — `dotnet publish`; `publish-and-deploy.ps1` copies a sample TOML next to the exe.
 
-### 6. Install agent-notes-mcp
+### 6. agent-notes-mcp config (TOML, required)
 
-1. Open your Git host → project `agent-notes-mcp` → **Releases**.
-2. Download the **win-x64** archive.
-3. Extract to `D:\ChatGPT\tools\agent-notes-mcp\`.
-4. Confirm `D:\ChatGPT\tools\agent-notes-mcp\AgentNotesMcp.exe` exists.
+Keep the file **out of git** (e.g. `D:\agent-stack\agent-notes-mcp\agent-notes-mcp.toml`). Without **`--config`** the process exits with an error.
 
-(Optional junction)
+**kb-public only** (no personal canon yet):
 
-```powershell
-New-Item -ItemType Junction -Path "D:\agent-notes-mcp" -Target "D:\ChatGPT\tools\agent-notes-mcp"
+```toml
+version = 1
+
+[knowledge]
+primary = "public"
+
+[knowledge.roots]
+public = "D:/agent-stack/kb-public"
+
+[workspace]
+default_scope = "mixed"
 ```
 
-### 7. Install webcam-mcp
+**kb-public + personal canon** — after [clean setup](../onboarding/clean-setup.md): use [template-clean-setup-agent-notes-mcp-toml-v1.toml](../knowledge/templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml) (`primary = "personal"`, `personal` + `public` roots, optional `[[knowledge.read_only]]` for group).
 
-1. Releases → **win-x64** archive.
-2. Extract to `D:\ChatGPT\tools\webcam-mcp\`.
-3. Confirm `WebcamMcp.exe`.
+| Section | Meaning |
+|---------|---------|
+| `[knowledge]` / `[knowledge.roots]` | Where `knowledge/` and `agent-notes.md` live (primary root) |
+| `[workspace]` | `default_scope`, paths to `scope_map` / `scope_aliases` in **personal** canon |
+| `[status]` | Optional localhost status — see ADRs in [agent-notes-mcp](https://github.com/AI-Guiders/agent-notes-mcp/tree/main/docs/adr) |
 
-### 8. Install git-mcp
+Use **forward slashes** in TOML paths (`D:/...`) where possible.
 
-1. Confirm `git --version` in PowerShell.
-2. Releases → **win-x64** archive.
-3. Extract to `D:\ChatGPT\tools\git-mcp\`.
-4. Confirm `GitMcp.exe`.
+More: [ADR 014 (local TOML)](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/adr/014-agent-notes-local-settings-toml-v1.md), [MCP-TOOLS](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/MCP-TOOLS.md).
 
-### 9. Connect to ChatGPT Desktop
+### 7. Cursor (`mcp.json`)
 
-ChatGPT Desktop MCP UI changes over time; here we only fix commands/paths.
+File: **`%USERPROFILE%\.cursor\mcp.json`**. Example **agent-notes** entry:
 
-Per server:
+```json
+{
+  "mcpServers": {
+    "agent-notes": {
+      "command": "D:\\agent-stack\\agent-notes-mcp\\AgentNotesMcp.exe",
+      "args": ["--config", "D:/agent-stack/agent-notes-mcp/agent-notes-mcp.toml"],
+      "env": {}
+    }
+  }
+}
+```
 
-- **agent-notes-mcp** — `D:\ChatGPT\tools\agent-notes-mcp\AgentNotesMcp.exe`, args `[]`
-- **webcam-mcp** — `D:\ChatGPT\tools\webcam-mcp\WebcamMcp.exe`, args `[]`
-- **git-mcp** — `D:\ChatGPT\tools\git-mcp\GitMcp.exe`, args `[]`
+Alternative: env **`AGENT_NOTES_CONFIG`** pointing at the same TOML if the host does not pass `args`.
 
-Then either add local MCP servers in ChatGPT Desktop settings, or use an external profile (e.g. mcp.run) if supported.
+Restart **Cursor** after changes.
 
-See current ChatGPT Desktop MCP docs and your org runbooks.
+### 8. ChatGPT Desktop
+
+If **local MCP servers** (stdio) are available in settings, use the **same** `command` and `args` as in §7, including **`--config`** with an absolute TOML path.
+
+| Field | Value |
+|-------|--------|
+| Command | `D:\agent-stack\agent-notes-mcp\AgentNotesMcp.exe` |
+| Args | `["--config", "D:/agent-stack/agent-notes-mcp/agent-notes-mcp.toml"]` |
+
+Do not use empty `args: []` — that was pre–MCP 2.0.
+
+### 9. Optional MCP servers
+
+Each gets its own `command` in `mcp.json` (no `--config` unless that server requires it):
+
+| Server | Example command |
+|--------|-----------------|
+| **git-mcp** | `D:\agent-stack\tools\git-mcp\GitMcp.exe` |
+| **webcam-capture-mcp** | `...\WebcamCaptureMcp.exe` |
+| **webcam-analysis-mcp** | `...\WebcamAnalysisMcp.exe` |
+
+Releases: [AI-Guiders](https://github.com/AI-Guiders) repos linked from [ai-guiders.github.io](https://ai-guiders.github.io/).
 
 ### 10. Smoke test
 
-After connecting MCP:
+With agent-notes connected:
 
-- **agent-notes-mcp** — ask for `memory_health` for the current workspace.
-- **webcam-mcp** — `capture_webcam_frame` and check a frame appears in workspace.
-- **git-mcp** — `git_status` for a local repo and compare with console git.
+1. **`memory_health`** with `workspace_path` set to any local project folder.
+2. **`read_knowledge_file`** — `file_path`: `SHOWCASE.md` (root from TOML `public`).
+3. **`route_context`** — query like “kb clean setup”; response should reference kb-public playbooks.
 
-If issues: check `.exe` paths, antivirus blocks, `AGENT_NOTES_CANON_PATH`, git on PATH.
+For **git-mcp**: `git_status` on a repo and compare with terminal `git status`.
+
+### 11. Troubleshooting
+
+| Symptom | Check |
+|---------|--------|
+| MCP exits immediately | `--config` file exists; valid TOML (`version = 1`) |
+| No knowledge | `[knowledge.roots]` path is a clone containing **`knowledge/`** |
+| Empty hot / scope | Full workspace map needs **personal** canon + `work/local/` ([clean setup](../onboarding/clean-setup.md)) |
+| Docs mention `AGENT_NOTES_CANON_PATH` | Migrate to TOML + `--config` |
+| Antivirus | Allow the folder with `.exe` |

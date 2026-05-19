@@ -70,7 +70,7 @@ plugins:
                 - Шаблон решения: guide/decision-template.md
                 - Глоссарий: guide/glossary.md
             - Установка:
-                - ChatGPT Desktop + MCP: setup/chatgpt-desktop-stack.md
+                - Cursor / ChatGPT + MCP: setup/chatgpt-desktop-stack.md
             - Knowledge (полный срез):
                 - SHOWCASE: knowledge/SHOWCASE.md
                 - Entry KB: knowledge/00-entry-kb-v1.md
