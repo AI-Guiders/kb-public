@@ -1,42 +1,87 @@
-# Three KB contours
+# Map: three KB contours
 
-Use **`{ORG_SLUG}`** as your GitHub organization slug (e.g. `acme-corp`). Example instance: `AI-Guiders` — not required for readers of kb-public.
+**Version:** v1.0 · **2026-05-19**
 
-**Canonical (long form):** [map-kb-three-contours-v1.md](../knowledge/domains/agent-operations/map-kb-three-contours-v1.md)
+Remove friction around “which repo” and “where to write”. One page for **agents** and **humans** (approve).
 
-## Contours
+**Canonical:** [map-kb-three-contours-v1.md](../knowledge/domains/agent-operations/map-kb-three-contours-v1.md) · **Your org:** [White-label org KB](../onboarding/white-label.md)
 
-| # | Contour | Where | MCP |
-|---|---------|-------|-----|
-| **1** | **Personal canon** | your `agent-notes` repo | `primary` / **u** |
-| **2a** | **Group KB** | `{ORG_SLUG}/kb` (private) | `knowledge_root_id=group` / **g** |
-| **2b** | **Public KB** | `{ORG_SLUG}/kb-public` | `knowledge_root_id=public` / **o** |
-| **3** | **Workspace** | IDE roots, product repos | code; hot file is a **mirror** of (1) |
+*Example instance: `AI-Guiders` — not required for readers.*
 
-`knowledge/work/` and `knowledge/personal/` live **inside (1)** only — they are **not** in kb-public by design.
+See also: [Protocols and entities](../onboarding/protocols.md) · [Memory and KB](../guide/memory-and-kb.md) · [PUBLISHING.md](../knowledge/PUBLISHING.md)
+
+---
+
+## Contours (do not mix up)
+
+| # | Contour | Where | MCP / chmod | Who writes |
+|---|---------|-------|-------------|------------|
+| **1** | **Canon** (personal) | maintainer repo (`agent-notes` / fork) | `primary` / **u** | canon owner |
+| **2a** | **Group KB** | **`{ORG_SLUG}/kb`** (private) | `knowledge_root_id=group` / **g** | PR + org-maintainer |
+| **2b** | **Public KB** | **`{ORG_SLUG}/kb-public`** | read-only / **o** | canon-maintainer → `build-public-kb.ps1` |
+| **3** | **Workspace** | IDE root, product repos | code, hot mirror | code in product repos; knowledge in **1** |
+
+**Not a fourth contour:** `knowledge/work/` and `knowledge/personal/` live **inside canon (1)**; they are **excluded** from kb-public by design.
 
 ```text
-[Workspace]  sync          [Personal agent-notes]
-     │                            │ git
-     └──────► agent-notes.md ◄────┘
+[Workspace]  copy/sync     [Canon — personal]
+     │                           │ git
+     └──────► agent-notes.md ◄───┘
                     │ export (sanitize)
                     ▼
-             [{ORG_SLUG}/kb]
+             [{ORG_SLUG}/kb — group KB]
                     │ build-public-kb.ps1
                     ▼
-             [{ORG_SLUG}/kb-public]
+                [{ORG_SLUG}/kb-public]
 ```
 
-## Cheat sheet
+---
 
-| Content | Contour |
-|---------|---------|
-| Playbooks, router, META | **1** `knowledge/...` |
-| Project cards, ops notes | **1** `work/projects/...` (not in kb-public) |
-| Private drafts | **1** `personal/...` |
-| Product code | **3** product repo |
-| Public sanitized slice | **2b** build from **1** |
+## Where to put what (cheat sheet)
+
+| Content | Contour | Action |
+|---------|---------|--------|
+| Playbooks, router, META, worlds | **1** | `knowledge/...` in canon |
+| L0, hot sections | **1** | `agent-notes.md` (above `<!-- public-cut -->` may go public) |
+| Project card, operational | **1**, work layer | full canon only (not kb-public) |
+| “Only me” draft | **1**, personal | not published |
+| C#, tests, UI | **3** | product repo |
+| Edit from Cursor chat | **1** | update canon; workspace hot is mirror |
+| Public sanitized slice | **2b** | build from **1** → push kb-public |
+
+---
+
+## Sync: workspace hot ↔ canon
+
+- **Source of truth** — contour **1** (canon git).
+- Hot in workspace (`.cascade-ide/agent-notes.md`, etc.) is MCP working surface; after substantive edits → **canon** and commit.
+- Agent must not treat workspace file as canon when `AGENT_NOTES_CANON_PATH` points at a canon clone.
+
+---
+
+## MCP: multiple roots
+
+| Parameter | Meaning |
+|-----------|---------|
+| `knowledge_root_id=group` | read from **`{ORG_SLUG}/kb`** (read-only in MCP) |
+| `primary` | write only to personal/main canon |
+| `route_context` | overlay from hot + optional group KB preview ([ADR 015](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/adr/015-multi-root-knowledge-roots-v1.md)) |
+
+More: [ADR 012](../knowledge/adr/012-multi-canon-workspace-resolution-v1.md) · [Protocols](../onboarding/protocols.md)
+
+---
+
+## Roles
+
+| Action | Agent | Human |
+|--------|-------|-------|
+| “Which contour to edit” | ✅ per this map | approve if unsure |
+| Commit to canon | prepare | approve, commit |
+| `build-public-kb`, push | preview, diff | **canon-maintainer** |
+| Weaken Integrity | ❌ | ❌ |
+
+---
 
 ## Agent triggers
 
-“Which repo?”, “where to write”, “three repositories”, “white-label”, “sync notes” → this page, then the focused playbook.
+“which repo”, “where to write”, “three repositories”, “kb-public vs agent-notes”, “group KB”, “sync notes” → **this map first**, then a narrow playbook.

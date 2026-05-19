@@ -1,27 +1,41 @@
-# Agent Notes KB (public slice)
+# Agent KB (kb-public)
 
-**kb-public** is a sanitized knowledge-base export for agents: playbooks, routers, Integrity kernel, and `worlds/` domains. It does **not** include full-canon `work/` or `personal/` trees.
+Public **Agent Notes KB** slice: agent memory, protocols, hot context, MCP, onboarding. Full markdown tree — [Knowledge](knowledge/SHOWCASE.md) and [repository](https://github.com/AI-Guiders/kb-public).
 
-!!! tip "Docs instead of wiki"
-    Onboarding lives **here** (EN/RU). The full markdown tree is under [Knowledge](knowledge/SHOWCASE.md) and in the [GitHub repo](https://github.com/AI-Guiders/kb-public).
+**AI Guiders org:** [handbook](https://github.com/AI-Guiders/handbook/wiki)
 
-## Start here
+## Getting started
 
 | Step | Page |
 |------|------|
-| 1 | [Three KB contours](onboarding/three-contours.md) — where to write |
-| 2 | [Clean setup](onboarding/clean-setup.md) — kb-public → personal + MCP |
-| 3 | [Your org (white-label)](onboarding/white-label.md) — `{ORG_SLUG}/kb` for any GitHub org |
-| 4 | [Protocols & markers](onboarding/protocols.md) — `[HUMAN]`, `[WORK]`, `[PRIMARY]`, `[SCOPE]` |
+| Your org | [White-label org KB](onboarding/white-label.md) — `{ORG_SLUG}/kb` + kb-public |
+| Map | [Three KB contours](onboarding/three-contours.md) — where to write |
+| Protocols | [Protocols and entities](onboarding/protocols.md) — `[HUMAN]`, `[WORK]`, `[PRIMARY]`, `[SCOPE]` |
+| 30 minutes | [30-minute onboarding](onboarding/quick-start-30min.md) |
+| FAQ | [Quick-entry FAQ](guide/faq.md) |
+| Memory | [Memory and KB](guide/memory-and-kb.md) |
 
-## Stack
+## Setup and stack
+
+| Step | Page |
+|------|------|
+| Clean setup | [kb-public → personal + MCP](onboarding/clean-setup.md) |
+| ChatGPT Desktop | [MCP stack install](setup/chatgpt-desktop-stack.md) |
+
+## Practice
+
+- [Typical scenarios and recovery](guide/scenarios-recovery.md)
+- [KB decision template](guide/decision-template.md)
+- [Glossary](guide/glossary.md)
+
+## Tools
 
 | Component | Link |
 |-----------|------|
 | **agent-notes-mcp** | [GitHub](https://github.com/KarataevDmitry/agent-notes-mcp) (MIT) |
-| **Cascade IDE** | [Documentation](https://ai-guiders.github.io/cascade-ide/) |
-| **AI-Guiders** (example org) | [ai-guiders.github.io](https://ai-guiders.github.io/) |
+| **Cascade IDE** | [Docs](https://ai-guiders.github.io/cascade-ide/) |
+| **Organization** | [ai-guiders.github.io](https://ai-guiders.github.io/) |
 
 ## License
 
-KB text — **CC BY-SA 4.0** (`LICENSE`). MCP code — **MIT** (separate repository).
+KB texts — **CC BY-SA 4.0** (`LICENSE`). MCP code — **MIT** (separate repo).

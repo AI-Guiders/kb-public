@@ -1,20 +1,34 @@
-# Agent Notes KB (публичный срез)
+# KB для агентов (kb-public)
 
-**kb-public** — обезличенный срез канона знаний для агентов: playbooks, роутер, Integrity, домены `worlds/`. Без `work/` и `personal/` из полного канона.
+Публичный срез **Agent Notes KB**: память агентов, протоколы, hot-контекст, MCP, onboarding. Полное дерево markdown — в разделе [Knowledge](knowledge/SHOWCASE.md) и в [репозитории](https://github.com/AI-Guiders/kb-public).
 
-!!! tip "Документация вместо wiki"
-    Онбординг и справочник — **на этом сайте** (RU/EN). Полное дерево markdown — в разделе [Knowledge](knowledge/SHOWCASE.md) и в [репозитории](https://github.com/AI-Guiders/kb-public).
+**Организация AI Guiders:** [handbook](https://github.com/AI-Guiders/handbook/wiki)
 
 ## С чего начать
 
 | Шаг | Страница |
 |-----|----------|
-| 1 | [Три контура KB](onboarding/three-contours.md) — куда писать |
-| 2 | [Чистая установка](onboarding/clean-setup.md) — kb-public → personal + MCP |
-| 3 | [Свой org (white-label)](onboarding/white-label.md) — `{ORG_SLUG}/kb` у вашей организации |
-| 4 | [Протоколы и маркеры](onboarding/protocols.md) — `[HUMAN]`, `[WORK]`, `[PRIMARY]`, `[SCOPE]` |
+| Свой org | [White-label org KB](onboarding/white-label.md) — `{ORG_SLUG}/kb` + kb-public |
+| Карта | [Три контура KB](onboarding/three-contours.md) — куда писать |
+| Протоколы | [Протоколы и сущности](onboarding/protocols.md) — `[HUMAN]`, `[WORK]`, `[PRIMARY]`, `[SCOPE]` |
+| 30 минут | [Onboarding за 30 минут](onboarding/quick-start-30min.md) |
+| FAQ | [FAQ быстрый вход](guide/faq.md) |
+| Память | [Память и KB](guide/memory-and-kb.md) |
 
-## Стек
+## Установка и стек
+
+| Шаг | Страница |
+|-----|----------|
+| Чистая установка | [kb-public → personal + MCP](onboarding/clean-setup.md) |
+| ChatGPT Desktop | [Установка стека MCP](setup/chatgpt-desktop-stack.md) |
+
+## Практика
+
+- [Типовые сценарии и recovery](guide/scenarios-recovery.md)
+- [Шаблон решения KB](guide/decision-template.md)
+- [Глоссарий](guide/glossary.md)
+
+## Инструменты
 
 | Компонент | Ссылка |
 |-----------|--------|

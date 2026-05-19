@@ -58,16 +58,24 @@ plugins:
           nav:
             - Главная: index.md
             - Онбординг:
-                - Три контура: onboarding/three-contours.md
-                - Чистая установка: onboarding/clean-setup.md
+                - Три контура KB: onboarding/three-contours.md
                 - White-label org: onboarding/white-label.md
-                - Протоколы: onboarding/protocols.md
-            - Knowledge (срез):
+                - Чистая установка: onboarding/clean-setup.md
+                - Onboarding 30 мин: onboarding/quick-start-30min.md
+                - Протоколы и сущности: onboarding/protocols.md
+            - Практика:
+                - FAQ: guide/faq.md
+                - Память и KB: guide/memory-and-kb.md
+                - Сценарии и recovery: guide/scenarios-recovery.md
+                - Шаблон решения: guide/decision-template.md
+                - Глоссарий: guide/glossary.md
+            - Установка:
+                - ChatGPT Desktop + MCP: setup/chatgpt-desktop-stack.md
+            - Knowledge (полный срез):
                 - SHOWCASE: knowledge/SHOWCASE.md
                 - Entry KB: knowledge/00-entry-kb-v1.md
                 - Публикация: knowledge/PUBLISHING.md
                 - Роутер: knowledge/index-knowledge-router-v1.md
-                - Карта контуров (исходник): knowledge/domains/agent-operations/map-kb-three-contours-v1.md
         - locale: en
           name: English
           build: true
@@ -76,15 +84,23 @@ plugins:
             - Home: en/index.md
             - Onboarding:
                 - Three contours: en/onboarding/three-contours.md
-                - Clean setup: en/onboarding/clean-setup.md
                 - White-label org: en/onboarding/white-label.md
-                - Protocols: en/onboarding/protocols.md
-            - Knowledge (slice):
+                - Clean setup: en/onboarding/clean-setup.md
+                - 30-minute onboarding: en/onboarding/quick-start-30min.md
+                - Protocols and entities: en/onboarding/protocols.md
+            - Practice:
+                - FAQ: en/guide/faq.md
+                - Memory and KB: en/guide/memory-and-kb.md
+                - Scenarios and recovery: en/guide/scenarios-recovery.md
+                - Decision template: en/guide/decision-template.md
+                - Glossary: en/guide/glossary.md
+            - Setup:
+                - ChatGPT Desktop + MCP: en/setup/chatgpt-desktop-stack.md
+            - Knowledge (full slice):
                 - SHOWCASE: en/knowledge/SHOWCASE.md
                 - Entry KB: en/knowledge/00-entry-kb-v1.md
                 - Publishing: en/knowledge/PUBLISHING.md
                 - Router: en/knowledge/index-knowledge-router-v1.md
-                - Three contours (source): en/knowledge/domains/agent-operations/map-kb-three-contours-v1.md
 
 markdown_extensions:
   - admonition
