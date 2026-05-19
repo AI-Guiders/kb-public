@@ -1,71 +1,78 @@
-## Стек агента: Cursor и ChatGPT Desktop (Windows)
+## Cursor: локальный MCP-стек (Windows)
 
-Страница для **локального stdio MCP** на Windows. С **agent-notes-mcp 2.x** обязателен файл **TOML** и аргумент **`--config`** в настройках хоста; переменная **`AGENT_NOTES_CANON_PATH`** больше не используется.
+!!! warning "ChatGPT Desktop — не stdio"
+    **ChatGPT Desktop не подключает** локальные MCP через `command` + `args` и `.exe`, как Cursor. В ChatGPT коннекторы работают по **публичному HTTPS URL** (Settings → Connectors → Create), см. [Connect from ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt).  
+    **agent-notes-mcp** сегодня — только **stdio** (`AgentNotesMcp.exe` + `--config`). Прямой перенос инструкции Cursor в ChatGPT **не работает**. Удалённый HTTP/SSE endpoint — [бэклог upstream](https://github.com/AI-Guiders/agent-notes-mcp) (см. §2).
+
+Исторический URL страницы (`…/chatgpt-desktop-stack/`) — с wiki про ChatGPT; актуальное содержание ниже — **установка для Cursor**.
 
 Полный онбординг (personal + group): [Чистая установка](../onboarding/clean-setup.md), playbook [playbook-knowledge-stack-clean-setup-v1.md](../knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md), шаблон TOML [template-clean-setup-agent-notes-mcp-toml-v1.toml](../knowledge/templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml).
 
-### 1. Состав стека
+### 1. ChatGPT Desktop — что возможно сейчас
+
+| Хост | Транспорт MCP | agent-notes-mcp |
+|------|----------------|-----------------|
+| **Cursor**, VS Code + MCP | Локальный **stdio** (`mcp.json`: `command`, `args`) | ✅ см. §5–7 |
+| **Cascade IDE** | In-proc MCP в IDE | ✅ отдельная интеграция, [документация cascade-ide](https://ai-guiders.github.io/cascade-ide/) |
+| **ChatGPT Desktop** | **HTTPS** коннектор → URL вида `https://…/mcp` | ❌ нет готового публичного endpoint; только stdio-бинарник |
+
+Если нужен именно ChatGPT:
+
+1. Нужен **свой** MCP-сервер, доступный по HTTPS (или туннель ngrok/Cloudflare Tunnel к такому серверу) — не к `AgentNotesMcp.exe` напрямую.
+2. В ChatGPT: **Settings → Connectors → Create** — указать **Connector URL**, не путь к exe.
+3. Для agent-notes/kb-public в ChatGPT пока разумнее **читать сайт** [kb-public](https://ai-guiders.github.io/kb-public/) или подключать **Cursor** с тем же каноном на диске.
+
+Разработка remote-слоя для agent-notes-mcp (безопасный URL, read-only контур) — открытый бэклог; следить за [agent-notes-mcp](https://github.com/AI-Guiders/agent-notes-mcp).
+
+### 2. Состав стека (Cursor)
 
 | Компонент | Назначение |
 |-----------|------------|
-| **kb-public** | Публичный срез KB (клон с GitHub) |
+| **kb-public** | Публичный срез KB ([GitHub](https://github.com/AI-Guiders/kb-public)) |
 | **agent-notes-mcp** | Память, hot-context, `knowledge/` ([релизы](https://github.com/AI-Guiders/agent-notes-mcp/releases)) |
-| **git-mcp** | Git status/diff/commit ([AI-Guiders/git-mcp](https://github.com/AI-Guiders/git-mcp)) |
-| **webcam-capture-mcp** / **webcam-analysis-mcp** | Кадры/экран/аудио и анализ (опционально; [open stack](https://ai-guiders.github.io/)) |
+| **git-mcp** | Git ([AI-Guiders/git-mcp](https://github.com/AI-Guiders/git-mcp)) |
+| **webcam-capture-mcp** / **webcam-analysis-mcp** | Опционально ([open stack](https://ai-guiders.github.io/)) |
 | **Git for Windows** | Для git-mcp и клонов |
 
-Серверы MCP — self-contained **.NET 10 win-x64**; SDK на машине пользователя не нужен.
+MCP-серверы — self-contained **.NET 10 win-x64**; SDK не нужен.
 
-### 2. Требования
+### 3. Требования
 
 - Windows 10/11 (x64).
+- **Cursor** (или другой хост с **stdio MCP**).
 - **Git for Windows** (`git` в PATH).
-- **Cursor** и/или **ChatGPT Desktop** с поддержкой **локальных** MCP (stdio: `command` + `args`).
-- Доступ в интернет для клонов с **GitHub** (релизы и `kb-public`).
+- Клоны и релизы с **GitHub**.
 
-!!! note "ChatGPT и удалённый MCP"
-    В части сценариев ChatGPT подключает MCP только по **HTTPS URL** (коннекторы), без локального `.exe`. Тогда stdio-стек ниже — для **Cursor**; для ChatGPT смотри [документацию OpenAI по MCP](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt). Удалённый endpoint для agent-notes-mcp — в бэклоге upstream.
-
-### 3. Каталоги (пример)
+### 4. Каталоги (пример)
 
 ```text
 D:\agent-stack\
-  kb-public\              ← git clone
-  agent-notes-mcp\        ← AgentNotesMcp.exe + agent-notes-mcp.toml
-  agent-notes-mcp.toml    ← тот же файл (рядом с exe — удобно)
+  kb-public\
+  agent-notes-mcp\       ← AgentNotesMcp.exe + agent-notes-mcp.toml
   tools\git-mcp\
-  tools\webcam-capture-mcp\
 ```
 
 ```powershell
 New-Item -ItemType Directory -Path D:\agent-stack\tools -Force
-```
-
-### 4. kb-public
-
-```powershell
 cd D:\agent-stack
 git clone https://github.com/AI-Guiders/kb-public.git kb-public
 ```
 
-Корень среза: `D:\agent-stack\kb-public` (внутри есть `knowledge/` и урезанный `agent-notes.md`).
-
 ### 5. agent-notes-mcp (бинарник)
 
-1. [Releases](https://github.com/AI-Guiders/agent-notes-mcp/releases) → архив **win-x64**.
+1. [Releases](https://github.com/AI-Guiders/agent-notes-mcp/releases) → **win-x64**.
 2. Распаковать в `D:\agent-stack\agent-notes-mcp\`.
-3. Проверить: `D:\agent-stack\agent-notes-mcp\AgentNotesMcp.exe`.
+3. Проверить `AgentNotesMcp.exe`.
 
-Сборка из исходников: [AI-Guiders/agent-notes-mcp](https://github.com/AI-Guiders/agent-notes-mcp) — `dotnet publish`; скрипт `publish-and-deploy.ps1` копирует пример TOML рядом с exe.
+Сборка из исходников: `dotnet publish`; `publish-and-deploy.ps1` копирует пример TOML рядом с exe.
 
-### 6. Конфиг agent-notes-mcp (TOML, обязательно)
+### 6. Конфиг (TOML, обязательно)
 
-Файл **вне git** (например `D:\agent-stack\agent-notes-mcp\agent-notes-mcp.toml`). Без **`--config`** процесс завершится с ошибкой.
+Файл вне git, например `D:\agent-stack\agent-notes-mcp\agent-notes-mcp.toml`. Без **`--config`** процесс завершится с ошибкой. Переменная **`AGENT_NOTES_CANON_PATH`** в MCP 2.x **не используется**.
 
-**Только kb-public** (участник без личного канона):
+**Только kb-public:**
 
 ```toml
-# agent-notes-mcp 2.x — schema version = 1
 version = 1
 
 [knowledge]
@@ -78,23 +85,19 @@ public = "D:/agent-stack/kb-public"
 default_scope = "mixed"
 ```
 
-**kb-public + личный канон** (после [чистой установки](../onboarding/clean-setup.md)) — см. шаблон [template-clean-setup-agent-notes-mcp-toml-v1.toml](../knowledge/templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml): `primary = "personal"`, корни `personal` и `public`, при необходимости `[[knowledge.read_only]]` для group.
-
-Секции TOML:
+**+ личный канон** — [шаблон](../knowledge/templates/newcomer/template-clean-setup-agent-notes-mcp-toml-v1.toml), [чистая установка](../onboarding/clean-setup.md).
 
 | Секция | Смысл |
 |--------|--------|
-| `[knowledge]` / `[knowledge.roots]` | Где лежит `knowledge/` и `agent-notes.md` (primary root) |
-| `[workspace]` | `default_scope`, пути к `scope_map` / `scope_aliases` в **личном** каноне |
-| `[status]` | Опционально: localhost status (порт, preview) — см. ADR в [agent-notes-mcp](https://github.com/AI-Guiders/agent-notes-mcp/tree/main/docs/adr) |
+| `[knowledge]` / `[knowledge.roots]` | Корень с `knowledge/` и `agent-notes.md` |
+| `[workspace]` | Scope-map в личном каноне |
+| `[status]` | Опционально localhost status |
 
-Пути в TOML — **прямые слэши** `D:/...` или экранированные `\\` в JSON; для `mcp.json` удобнее forward slashes.
+Подробнее: [ADR 014](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/adr/014-agent-notes-local-settings-toml-v1.md), [MCP-TOOLS](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/MCP-TOOLS.md).
 
-Подробнее: [ADR 014 (локальный TOML)](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/adr/014-agent-notes-local-settings-toml-v1.md), [MCP-TOOLS](https://github.com/AI-Guiders/agent-notes-mcp/blob/main/docs/MCP-TOOLS.md).
+### 7. Cursor — `mcp.json`
 
-### 7. Подключение в Cursor (`mcp.json`)
-
-Файл: **`%USERPROFILE%\.cursor\mcp.json`** (или настройки MCP в IDE). Фрагмент для **agent-notes**:
+**`%USERPROFILE%\.cursor\mcp.json`:**
 
 ```json
 {
@@ -108,51 +111,31 @@ default_scope = "mixed"
 }
 ```
 
-Альтернатива пути к TOML: env **`AGENT_NOTES_CONFIG`** (если хост не передаёт `args`).
+Альтернатива: env **`AGENT_NOTES_CONFIG`** = путь к тому же TOML.
 
-После правок — **перезапустить Cursor** (и дождаться перезапуска MCP-процесса).
+После правок — перезапустить Cursor.
 
-### 8. Подключение в ChatGPT Desktop
+Опционально в том же файле — **git-mcp**, **webcam-*** (только `command`, без `--config`):
 
-Если в настройках доступны **локальные MCP-серверы** (stdio), используй **те же** `command` и `args`, что в §7 — в том числе **`--config`** с абсолютным путём к TOML.
+```json
+"git": {
+  "command": "D:\\agent-stack\\tools\\git-mcp\\GitMcp.exe",
+  "args": [],
+  "env": {}
+}
+```
 
-Пример полей UI (имена могут отличаться):
+### 8. Smoke-test (Cursor)
 
-| Поле | Значение |
-|------|----------|
-| Command | `D:\agent-stack\agent-notes-mcp\AgentNotesMcp.exe` |
-| Args | `["--config", "D:/agent-stack/agent-notes-mcp/agent-notes-mcp.toml"]` |
+1. **`memory_health`** — `workspace_path` = каталог локального проекта.
+2. **`read_knowledge_file`** — `file_path`: `SHOWCASE.md`.
+3. **`route_context`** — запрос «чистая установка kb».
 
-Не оставляй `args: []` — это конфигурация **до MCP 2.0**.
-
-### 9. Опциональные MCP
-
-У каждого — свой `command` в `mcp.json`, **без** `--config` (если сервер не требует):
-
-| Сервер | Пример command |
-|--------|----------------|
-| **git-mcp** | `D:\agent-stack\tools\git-mcp\GitMcp.exe` |
-| **webcam-capture-mcp** | `...\WebcamCaptureMcp.exe` |
-| **webcam-analysis-mcp** | `...\WebcamAnalysisMcp.exe` |
-
-Релизы — репозитории [AI-Guiders](https://github.com/AI-Guiders) / open stack на [лендинге](https://ai-guiders.github.io/).
-
-### 10. Smoke-test
-
-В Cursor или ChatGPT (с подключённым agent-notes):
-
-1. **`memory_health`** с `workspace_path` = каталог любого локального проекта (например `D:/projects/my-app`).
-2. **`read_knowledge_file`** — `file_path`: `SHOWCASE.md` (корень из TOML `public`).
-3. **`route_context`** — запрос вроде «чистая установка kb»; в ответе должны быть ссылки на playbook из kb-public.
-
-Для **git-mcp**: `git_status` с `workspace_path` репозитория — сверить с `git status` в терминале.
-
-### 11. Если не работает
+### 9. Если не работает
 
 | Симптом | Проверить |
 |---------|-----------|
-| MCP сразу падает | Есть ли файл из `--config`; валидный TOML (`version = 1`) |
-| «Нет knowledge» | Путь в `[knowledge.roots]` ведёт в клон с каталогом **`knowledge/`** |
-| Пустой hot / scope | Для полной карты workspace нужен **личный** канон и `work/local/` (см. [clean-setup](../onboarding/clean-setup.md)) |
-| Старые инструкции с `AGENT_NOTES_CANON_PATH` | Заменить на TOML + `--config` |
-| Антивирус | Исключение для каталога с `.exe` |
+| MCP сразу падает | Файл `--config`, валидный TOML (`version = 1`) |
+| «Нет knowledge» | `[knowledge.roots]` → клон с каталогом **`knowledge/`** |
+| Пытались подключить exe в ChatGPT | ChatGPT не stdio; нужен HTTPS MCP или используй Cursor |
+| Старые гайды с `AGENT_NOTES_CANON_PATH` | TOML + `--config` |

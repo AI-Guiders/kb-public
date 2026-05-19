@@ -20,7 +20,7 @@
 | Шаг | Страница |
 |-----|----------|
 | Чистая установка | [kb-public → personal + MCP](onboarding/clean-setup.md) |
-| ChatGPT Desktop | [Установка стека MCP](setup/chatgpt-desktop-stack.md) |
+| Cursor (локальный MCP) | [kb-public + agent-notes-mcp](setup/chatgpt-desktop-stack.md) |
 
 ## Практика
 

@@ -20,7 +20,7 @@ Public **Agent Notes KB** slice: agent memory, protocols, hot context, MCP, onbo
 | Step | Page |
 |------|------|
 | Clean setup | [kb-public → personal + MCP](onboarding/clean-setup.md) |
-| ChatGPT Desktop | [MCP stack install](setup/chatgpt-desktop-stack.md) |
+| Cursor (local MCP) | [kb-public + agent-notes-mcp](setup/chatgpt-desktop-stack.md) |
 
 ## Practice
 
