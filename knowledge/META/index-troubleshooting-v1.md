@@ -41,25 +41,21 @@
 
 ---
 
-## Слой B (product) — только `work/`
+## Слой B (product) — только полный канон
 
-**Реестр и правила:** [`work/troubleshooting/README.md`](../work/troubleshooting/README.md).
+**Не kb-public** (префикс `work/` в `public-kb.ignore`). В публичном срезе — только слой A; product playbooks живут в репозитории **agent-notes** целиком: `work/troubleshooting/README.md` → `work/projects/<scope>/<project-id>/playbook-*-troubleshooting-v1.md`.
 
-| project-id | Playbook |
-|------------|----------|
-| `cascade-ide` | [`work/projects/door-to-singularity/cascade-ide/playbook-layout-presentation-intercom-troubleshooting-v1.md`](../work/projects/door-to-singularity/cascade-ide/playbook-layout-presentation-intercom-troubleshooting-v1.md) |
-
-В `worlds/` **нет** product troubleshooting — при `[PRIMARY:…]` сначала общий слой A, затем playbook из таблицы work.
+В `worlds/` **нет** product troubleshooting — при `[PRIMARY:…]` в полном каноне: сначала A, затем реестр work.
 
 ---
 
 ## Маршрутизация агента
 
-1. Есть `[PRIMARY]` / `project-id` и симптом **специфичен продукту** → [`work/troubleshooting/README.md`](../work/troubleshooting/README.md)
-2. Иначе → `worlds/…/troubleshooting/playbook-…` (этот индекс § A)
+1. Есть `[PRIMARY]` / `project-id` и симптом **специфичен продукту** → контур B в **полном каноне** (`work/troubleshooting/README.md` → playbook в `work/projects/…`)
+2. Иначе → `worlds/…/troubleshooting/playbook-…` (этот индекс § A; kb-public)
 3. Software неявный → `software-authoring/troubleshooting/`
 4. Sysadmin → `domain-index-v1.md` → ops `troubleshooting/`
-5. Роутер: `router-troubleshooting-index`; product layout — `router-cascade-ide-layout-troubleshooting` → **только work**
+5. Роутер: `router-troubleshooting-index` (supplement, kb-public). Product layout — `section_id` `router-cascade-ide-layout-troubleshooting` в `work/projects/door-to-singularity/cascade-ide/router-cascade-ide-layout-troubleshooting-v1.md`
 
 ---
 

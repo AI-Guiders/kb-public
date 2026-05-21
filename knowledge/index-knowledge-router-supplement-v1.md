@@ -1,4 +1,4 @@
-# Knowledge Router — Supplement (detailed domain routes) v1
+﻿# Knowledge Router — Supplement (detailed domain routes) v1
 
 **Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router-v1.md` сразу после Context Budget.
 
@@ -123,7 +123,7 @@
 - **Sysadmin:** `domain-index-v1.md` → `worlds/ops-network-admin|ops-observability-network|ops-reliability/troubleshooting/`.
 <!-- /section:router-troubleshooting-index -->
 
-<!-- section:router-cascade-ide-layout-troubleshooting -->
+<!-- section:router-videography -->
 
 
 
