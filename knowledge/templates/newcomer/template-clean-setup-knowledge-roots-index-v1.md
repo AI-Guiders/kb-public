@@ -1,18 +1,23 @@
 # Knowledge roots index (template — copy to personal `work/local/knowledge-roots-index-v1.md`)
 
-Machine-local registry: **which file under `knowledge/` lives in which root** (chmod ugo).
-**Not** clone paths — those go in TOML `--config` (`[[knowledge.read_only]]`).
+**Not** a catalog of every file in group/public. TOML `[[knowledge.read_only]]` already mounts the full clone — use `read_knowledge_file(..., knowledge_root_id=group)` for any path.
+
+This file hints **`route_context`** which root to prefer when the query matches (ADR 017 / Core 2.1.2+).
 
 Format: one line per entry — `relative/path/under/knowledge/ => root_id`
-- `group` — team KB (`{ORG_SLUG}/kb`), read via `knowledge_root_id=group`
-- `public` — kb-public slice, read via `knowledge_root_id=public`
-- `user` — primary personal canon (or omit line after import into personal)
+
+- **No trailing `/`** — single file only (e.g. `group/smoke-test-v1.md => group`)
+- **Trailing `/`** — prefix: all files under that directory (e.g. `work/projects/<group-scope-dir>/ => group`)
+- `group` — team KB (`{ORG_SLUG}/kb`)
+- `public` — kb-public slice
+- `user` — primary personal (or omit after import)
+
+Scope catalog names: **`work/org/scope-contour-map-v1.md`** — do not duplicate every card here.
 
 Lines starting with `#` are comments. No prose blocks in the committed real file.
 
-# --- examples (fictional paths) ---
+# --- minimal example ---
 
-index-knowledge-router-v1.md => group
-playbook-multi-project-context-v1.md => group
-
-kb-music-theory-fundamentals-v1.md => user
+group/smoke-test-v1.md => group
+work/org/ => group
+work/projects/<group-scope-dir>/ => group

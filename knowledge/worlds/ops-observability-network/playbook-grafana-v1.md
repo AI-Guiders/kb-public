@@ -41,9 +41,7 @@
 
 ## Диагностика
 
-- Панель пустая: Test data source, проверить запрос и время на дашборде; при использовании переменных — что `${var_name}` корректен и для выбранного значения есть данные в источнике.
-- Алерт не срабатывает: условие (expression), интервал оценки, контактные точки и политики (matchers по labels).
-- Не видно настроек: проверить роль (Viewer/Editor/Admin/Organization Admin).
+Сводка: [`troubleshooting/playbook-ops-observability-network-troubleshooting-v1.md`](troubleshooting/playbook-ops-observability-network-troubleshooting-v1.md) § Grafana.
 
 ---
 

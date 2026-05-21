@@ -104,7 +104,8 @@
 | `agent-notes.md` (до `public-cut` + stub manifest) | да | тот же контракт, что kb-public |
 | `knowledge/META/` (integrity, memory-architecture json, …) | да | без секретов |
 | `knowledge/worlds/`, `domains/`, шаблоны, router, SHOWCASE, one-pager | да | зона коллаборации |
-| `knowledge/work/projects/` | **да** | карточки `project-id`, scope; **без** `C:\`/`D:\` — чеклист [`../work/checklist-sanitize-paths-for-org-v1.md`](../work/checklist-sanitize-paths-for-org-v1.md) |
+| `knowledge/work/projects/` | **да** | карточки `project-id`, scope; **без** `C:\`/`D:\` — чеклист [`../work/org/checklist-sanitize-paths-for-org-v1.md`](../work/org/checklist-sanitize-paths-for-org-v1.md) |
+| `knowledge/work/org/` | **да** | scope contour map, чеклист санитизации, README; копируется целиком при seed |
 | `knowledge/work/local/` | **нет в git** | только `README.md`, `*.example.*`, `.gitignore`; реальные map — у каждого в personal |
 | `knowledge/personal/` | **нет** | |
 | `knowledge/archive/` | **нет** (или отдельная политика) | |
@@ -173,7 +174,7 @@ flowchart LR
 ## План внедрения (если ADR принят)
 
 1. ~~Создать `AI-Guiders/kb` (private org + LICENSE CC BY-SA).~~ **Сделано (2026-05-19):** https://github.com/AI-Guiders/kb — bootstrap (smoke, CONTRIBUTING, CODEOWNERS); полный `seed-org-kb.ps1` — позже.
-2. Initial commit = `.\scripts\seed-org-kb.ps1` после `build-public-kb.ps1` и прохода [`checklist-sanitize-paths-for-org-v1.md`](../work/checklist-sanitize-paths-for-org-v1.md).
+2. Initial commit = `.\scripts\seed-org-kb.ps1` после `build-public-kb.ps1` и прохода [`checklist-sanitize-paths-for-org-v1.md`](../work/org/checklist-sanitize-paths-for-org-v1.md).
 3. Шаблоны: `scripts/kb-org-root/CONTRIBUTING.md`, `CODEOWNERS`, `knowledge/work/local/.gitignore`.
 4. Runbook в `knowledge/work/projects/door-to-singularity/agent-notes-kb/`: export/import org ↔ personal (не в kb-public).
 5. Обновить `public-kb.push` / CI: целевой remote GitHub — **`AI-Guiders/kb-public`** (см. `knowledge/public-kb.push`); org `AI-Guiders/kb` — отдельный контур совместного канона.

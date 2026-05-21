@@ -57,7 +57,7 @@ MCP id **`group`** и **`public`** — **технические**, не меня
 2. Настроить `knowledge/group-kb.ignore` — какие `work/projects/<scope>/` **не** экспортировать в group (личные/чувствительные scope).
 3. Пройти санитизацию карточек перед seed (без `C:\`, `D:\`, имён, `personal/`).
 
-Чеклист санитизации — в полном каноне maintainer’а (`knowledge/work/checklist-sanitize-paths-for-org-v1.md`); в kb-public его **нет** — это нормально.
+Чеклист санитизации — в полном каноне maintainer’а (`knowledge/work/org/checklist-sanitize-paths-for-org-v1.md`); в kb-public его **нет** — это нормально.
 
 ---
 
@@ -85,7 +85,7 @@ MCP id **`group`** и **`public`** — **технические**, не меня
 .\scripts\seed-org-kb.ps1       # dist/group-kb/
 ```
 
-Содержимое: public slice + отфильтрованный `work/projects/` + `scripts/` + шаблоны из `scripts/kb-org-root/`.
+Содержимое: public slice + отфильтрованный `work/projects/` + каталог **`knowledge/work/org/`** (contour map, чеклист; **норма для kb-public** — [`templates/work/template-scope-contour-map-v1.md`](../../templates/work/template-scope-contour-map-v1.md)) + `scripts/` + шаблоны из `scripts/kb-org-root/`. Опционально: переименование scope-каталога при копировании (см. [`map-kb-three-contours-v1.md`](map-kb-three-contours-v1.md) § Scope contour map).
 
 Пуш в `{REPO_GROUP}` (maintainer): заменить содержимое репо (сохранить при необходимости `knowledge/group/smoke-test-v1.md` для smoke).
 

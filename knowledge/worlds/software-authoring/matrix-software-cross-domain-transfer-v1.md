@@ -1,4 +1,4 @@
-﻿<!-- markdownlint-disable MD060 -->
+<!-- markdownlint-disable MD060 -->
 
 # Software Cross-Domain Transfer Matrix v1
 
@@ -23,6 +23,8 @@
 ---
 
 ## Fast symptom router (агент)
+
+**Troubleshooting-вход мира:** [`troubleshooting/playbook-software-authoring-troubleshooting-v1.md`](troubleshooting/playbook-software-authoring-troubleshooting-v1.md) (таблица синхронна с этой секцией).
 
 | Симптом в запросе или коде | Сначала | Потом (если нужно) | Не делать |
 |----------------------------|---------|---------------------|-----------|

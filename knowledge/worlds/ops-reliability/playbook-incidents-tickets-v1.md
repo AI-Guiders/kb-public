@@ -30,8 +30,7 @@
 
 ## Диагностика
 
-- Анализ времени реакции и разрешения по классам инцидентов.
-- Доля повторяющихся причин; выполнение действий из постмортемов.
+Сводка: [`troubleshooting/playbook-ops-reliability-troubleshooting-v1.md`](troubleshooting/playbook-ops-reliability-troubleshooting-v1.md) § Инциденты.
 
 ---
 

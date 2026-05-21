@@ -31,11 +31,7 @@
 
 ## Диагностика
 
-- **Нет данных по item:** Availability хоста в UI → проверить интерфейс (Agent/SNMP/HTTP), ключ item'а, права на хосте; для HTTP — URL, таймаут, сеть. В форме item — «Test» препроцессинга на примере значения.
-- **Очередь:** Monitoring → Queue — задержки по типу (agent, HTTP, SNMP…); при перегрузке — число item'ов, таймауты, производительность БД и housekeeper.
-- **Триггер дёргается (flapping):** перейти на окно в выражении (avg/max/min за 5–10 мин вместо last()); при необходимости — зависимость от родительского триггера.
-- **Агент недоступен:** проверить сервис на хосте, порт (10050), файрвол, версию агента и сервера.
-- Сопоставление алертов с логами приложения и nginx (в т.ч. 413, 5xx).
+Сводка: [`troubleshooting/playbook-ops-observability-network-troubleshooting-v1.md`](troubleshooting/playbook-ops-observability-network-troubleshooting-v1.md) § Zabbix.
 
 ---
 

@@ -38,8 +38,7 @@
 
 ## Диагностика
 
-- Логи ошибок nginx и PHP-FPM; время ответа upstream.
-- Насыщение пула PHP-FPM — очередь запросов и рост задержки; мониторинг через stub_status и метрики FPM.
+Сводка: [`troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md`](troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md) § nginx / PHP-FPM.
 
 ---
 

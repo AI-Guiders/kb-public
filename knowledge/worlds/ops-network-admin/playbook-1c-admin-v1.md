@@ -29,9 +29,7 @@
 
 ## Диагностика
 
-- Анализ очереди непроведённых документов и логов проведения.
-- Проверка блокировок и таймаутов при проведении.
-- Оценка времени выполнения регламентных заданий и нагрузки на СУБД.
+Сводка: [`troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md`](troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md) § 1С.
 
 ---
 

@@ -2,6 +2,8 @@
 
 Смысл корзины и правила размещения — только из **`../META/kb-taxonomy-v1.md`**.
 
+**Troubleshooting:** слой A — **`troubleshooting/`** в мире (kb-public); слой B (продукт) — **только** [`../work/troubleshooting/README.md`](../work/troubleshooting/README.md). Сводка A — [`../META/index-troubleshooting-v1.md`](../META/index-troubleshooting-v1.md).
+
 **Уже есть:** `cognition-human-perception/` — мир **cognition.human-perception** (UX / психофизиология в смысле KE).  
 **Уже есть:** `arts-music/` — мир **arts.music** (теория, акустика, строи, незападные системы).  
 **Уже есть:** `logistics-warehouse/` — мир **logistics.warehouse** (этикетки маркетплейсов, видеозахват штрихкодов, камеры/NVR).  

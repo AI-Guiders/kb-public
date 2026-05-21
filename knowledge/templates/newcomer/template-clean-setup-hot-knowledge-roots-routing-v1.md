@@ -14,9 +14,10 @@ Copy the fenced block into personal `agent-notes.md` (below `<!-- public-cut -->
 
 If TOML has `[[knowledge.read_only]]` with `id=group` (or `public`):
 
-1. **Registry:** `work/local/knowledge-roots-index-v1.md` — which paths are only in group/public.
-2. **Do not** copy full group playbooks into personal tree; import consciously.
-3. **`route_context`** (Core 2.1.1+): on group/roots/registry queries or registry line match, blends this section + short preview from read-only root (`knowledge_roots_overlay_applied`). Full file: `read_knowledge_file(..., knowledge_root_id=group)`; writes primary only.
+1. **TOML** `[[knowledge.read_only]]` — whole clone; read any path with `knowledge_root_id=group` (or `public`).
+2. **Registry** `work/local/knowledge-roots-index-v1.md` — **route_context hints only** (exact file or `prefix/` with trailing `/`); not a full file catalog. Scope names: `work/org/scope-contour-map-v1.md`.
+3. **Do not** copy full group playbooks into personal tree; import consciously.
+4. **`route_context`** (Core 2.1.2+): on group/roots/registry queries or registry hit → this section + preview (`knowledge_roots_overlay_applied`). Writes primary only.
 
 Clone paths: TOML `--config` only (not this file).
 <!-- /section:knowledge-roots-routing-v1 -->

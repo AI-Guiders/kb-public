@@ -15,10 +15,10 @@
 
 | Корень | Назначение |
 |--------|------------|
-| **`worlds/`** | Крупные контексты («вселенные»): продуктовые стеки, исследовательские миры, длинные дуги. Примеры: `worlds/cognition-human-perception/` (статус, playbooks и kb этого мира внутри папки); `worlds/arts-music/` (мир **arts.music**); `worlds/software-engineering-evidence/` (**software.engineering-evidence**); `worlds/software-automation-scripting/` (**software.automation-scripting**). Не смешивать со **scope** в `active_scope` / `work/projects/<scope>/` — это оперативные карточки workspace, не мир KB. |
+| **`worlds/`** | Крупные контексты («вселенные»): продуктовые стеки, исследовательские миры, длинные дуги. Внутри мира: `status-*`, `playbook-*`, `kb-*`; **`troubleshooting/`** — симптомы и чеклисты (контур A, kb-public). Индекс: [`META/index-troubleshooting-v1.md`](index-troubleshooting-v1.md). Не смешивать со **scope** в `work/projects/<scope>/` (контур B). |
 | **`domains/`** | Сквозные темы (безопасность, инструменты, процессы, …). **v1:** [`domains/agent-operations/`](../domains/agent-operations/) — операционные контракты агента (`playbook-project-switch`, `playbook-mode-switch`, multi-agent write, integrity под давлением). **Имя корзины не финально** для других slug — см. **`domains/README.md`**. |
 | **`templates/`** | Реюзабельные **шаблоны** (каркасы). Подкаталоги: `cards/`, `worlds/`, `work/`, `matrices/`, `meta/`, `newcomer/` — [`templates/README.md`](../templates/README.md). Экземпляры живут в `work/projects/…`, `worlds/…`, `adr/…` и т.д., не в `templates/`. |
-| **`work/`** | Оперативный слой: карточки проектов, локальные runbook’и, то, что **не** входит в kb-public (`public-kb.ignore`). |
+| **`work/`** | Оперативный слой: карточки проектов, локальные runbook’и; **весь product troubleshooting** — `work/projects/<id>/playbook-*-troubleshooting-v1.md`, реестр [`work/troubleshooting/README.md`](work/troubleshooting/README.md) (контур B, не kb-public). Сквозная диагностика стека — `worlds/<world>/troubleshooting/` (контур A). Сводка: [`META/index-troubleshooting-v1.md`](index-troubleshooting-v1.md). |
 | **`META/`** | Well-known спеки, integrity, provenance; корень доверия. |
 | **`adr/`** | ADR оглавление и записи решений. |
 | **Корень `knowledge/*.md`** | Легаси и намеренно плоские артефакты (роутер, playbooks, kb-*): **не обязаны** немигрировать в корзины; миграция — инкрементально с обновлением ссылок и роутера ([009](../adr/009-kb-entry-structure-and-pre-open-onboarding.md) §9–10). |

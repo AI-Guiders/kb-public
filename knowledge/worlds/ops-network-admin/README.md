@@ -10,6 +10,7 @@
 | **Nginx** | [`playbook-nginx-admin-v1.md`](playbook-nginx-admin-v1.md) |
 | **Wireshark** | [`playbook-wireshark-network-v1.md`](playbook-wireshark-network-v1.md) |
 | **1С** | [`playbook-1c-admin-v1.md`](playbook-1c-admin-v1.md) |
+| **Troubleshooting** | [`troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md`](troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md) |
 
 Строка **Ops network & admin tools** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
 

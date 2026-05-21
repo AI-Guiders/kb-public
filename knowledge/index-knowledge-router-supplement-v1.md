@@ -20,12 +20,16 @@
 <!-- section:router-logic -->
 
 
+
+
 ## Logic: everyday and formal (evidence base)
 
 - **При запросах о логике, аргументации, кванторах («все/везде» vs «хотя бы один»), необходимости и достаточности, типичных ошибках в рассуждениях:** загружать `knowledge/worlds/evidence-humanities-shelf/kb-logic-everyday-and-formal-evidence-v1.md` — обычная логика (кванторы в речи, условие, необходимость/достаточность), связка с формальной (∀, ∃, импликация), evidence-кейсы из практики, связь с scope-disambiguation и эпистемией. Операционная секция scope-disambiguation-all-everywhere-v1 в agent-notes опирается на этот документ как на логический фундамент.
 <!-- /section:router-logic -->
 
 <!-- section:router-value-utility -->
+
+
 
 
 ## Value / Utility / Underdetermination (evidence base)
@@ -36,12 +40,16 @@
 <!-- section:router-bci-medicine -->
 
 
+
+
 ## BCI / Medicine (evidence base)
 
 - **При запросах о BCI (интерфейсы мозг–компьютер), нейрореабилитации (инсульт, SCI, locked-in, речь при параличе, ДЦП, нейрофидбек) или evidence-based по этим направлениям медицины:** загружать `knowledge/worlds/medicine-evidence/kb-bci-evidence-based-medicine-v1.md` — уровни доказательности, мета-анализы/RCT, ссылки на Cochrane/PubMed/PMC/NEJM/Nature; сводная таблица по направлениям. Домен: Medicine (Evidence); status → playbook → kb. Клинические решения — по руководствам и протоколам; документ только навигация.
 <!-- /section:router-bci-medicine -->
 
 <!-- section:router-secret-mode -->
+
+
 
 
 ## Secret Mode (активатор дисциплинированного режима)
@@ -52,12 +60,16 @@
 <!-- section:router-clarification -->
 
 
+
+
 ## Clarification: general / vague query
 
 - **При общем или размытом запросе** (нет явного scope, outcome или домена): загружать `knowledge/worlds/agent-orchestration/playbook-clarification-general-query-v1.md` — лестница снятия неопределённости (переформулировка → варианты A/B/C → минимальный безопасный шаг), использование route_context до вопроса, правило одного вопроса. Не загружать несколько доменных веток «на угад»; не сыпать уточняющими вопросами — один вопрос, снимающий максимум измерений.
 <!-- /section:router-clarification -->
 
 <!-- section:router-polyamory -->
+
+
 
 
 ## Polyamory (reference, culture.global)
@@ -68,12 +80,16 @@
 <!-- section:router-therapy -->
 
 
+
+
 ## Therapy / Support boundaries
 
 - **При запросах о терапии, поддерживающем контакте, границах «агент vs терапевт», когда направлять к специалисту, травме, флешбэках, кризисе, психологической первой помощи:** загружать `knowledge/worlds/medicine-evidence/kb-therapy-and-support-boundaries-v1.md` и секцию **agent-supportive-listening-gap-v1** в agent-notes. В документе: терапия vs поддерживающее слушание, признаки кризиса и серьёзных индикаторов, травма-информированный отклик и grounding (вне клиники), PFA-контекст, операционная таблица для агента. Агент не терапевт; может «заполнять пробел» (отражение, признание, без советов); при риске — предложить специалиста или экстренную службу.
 <!-- /section:router-therapy -->
 
 <!-- section:router-uncanny-valley -->
+
+
 
 
 ## Uncanny valley (прямая и инверсная, reference)
@@ -84,6 +100,8 @@
 <!-- section:router-human-perception -->
 
 
+
+
 ## Human perception (psychophysiology): fundamentals → operational
 
 - **При запросах о психофизиологии восприятия, когнитивной нагрузке, усталости и внимании в контексте UX/IDE/агента**, о том, «почему интерфейс бесит без бага», о конкуренции зон экрана за внимание, о прерываниях потока и предсказуемости фидбека: загружать **`knowledge/worlds/cognition-human-perception/playbook-human-perception-operational-v1.md`** — чеклисты и мост к HCI/продукту. Фундамент понятий (внимание, рабочая память, нагрузка, стресс, заметность): **`knowledge/worlds/cognition-human-perception/kb-human-perception-fundamentals-v1.md`**. **Первоисточники, DOI, таблица «идея → статья»:** **`knowledge/worlds/cognition-human-perception/kb-human-perception-scientific-evidence-v1.md`** — при обосновании ревью, споре о цитировании или углублении в научный слой. **Evidence-карточки по первоисточникам (`kb-human-perception-*-evidence-v1`):** `knowledge/worlds/cognition-human-perception/kb-human-perception-miller-1956-evidence-v1.md`, `knowledge/worlds/cognition-human-perception/kb-human-perception-treisman-gelade-1980-evidence-v1.md` (или по запросу конкретной работы). Hub **world (KE)** и границы переноса: **`knowledge/worlds/cognition-human-perception/README.md`** (`cognition.human-perception`).
@@ -91,7 +109,23 @@
 - **Пересечение с CascadeIDE:** метафора кокпита и иерархия внимания — в ADR репозитория (напр. 0021, 0076); KB даёт слой «почему», не дублирует нормативы продукта.
 <!-- /section:router-human-perception -->
 
-<!-- section:router-videography -->
+<!-- section:router-troubleshooting-index -->
+
+
+
+
+## Troubleshooting (общий индекс)
+
+- **При любом «симптом / не работает / узко / тормозит / куда смотреть»:** **`knowledge/META/index-troubleshooting-v1.md`** → **`worlds/<world>/troubleshooting/playbook-*-troubleshooting-v1.md`** (контур A, kb-public). Product — **`work/projects/…`** (контур B).
+- **Процесс и таксономия папки `troubleshooting/`:** `knowledge/META/playbook-troubleshooting-collection-v1.md`.
+- **Software (неявный симптом):** `worlds/software-authoring/troubleshooting/playbook-software-authoring-troubleshooting-v1.md` (+ matrix).
+- **Build/test/debug:** `worlds/hci-ux-dx/troubleshooting/playbook-tooling-debug-troubleshooting-v1.md`.
+- **Sysadmin:** `domain-index-v1.md` → `worlds/ops-network-admin|ops-observability-network|ops-reliability/troubleshooting/`.
+<!-- /section:router-troubleshooting-index -->
+
+<!-- section:router-cascade-ide-layout-troubleshooting -->
+
+
 
 
 ## Videography / Cinematography (theory reference)
@@ -102,12 +136,16 @@
 <!-- section:router-ml -->
 
 
+
+
 ## ML (applied, OCR, barcode, QR)
 
 - **При запросах о машинном обучении (парадигмы, supervised/unsupervised, классификация, регрессия), OCR (распознавание текста, Tesseract, препроцессинг, облако vs on-device), распознавании штрихкодов и 2D-кодов (barcode, QR, Data Matrix, UPC, EAN, Code 128, требования к изображению, ML Kit, ZXing):** загружать `knowledge/worlds/software-ml-applied/kb-ml-applied-theory-v1.md` — фундамент ML и прикладные задачи; OCR (пайплайн, препроцессинг, OEM/PSM); 1D/2D коды, типы и выбор решения; операционные правила R1–R7; мир **software.ml-applied**.
 <!-- /section:router-ml -->
 
 <!-- section:router-dotnet -->
+
+
 
 
 ## Developer Experience (DE/DX)
@@ -120,6 +158,8 @@
 <!-- /section:router-de-dx -->
 
 <!-- section:router-php-laravel -->
+
+
 
 
 ## PHP runtime (8.4+) and Laravel framework
@@ -144,6 +184,8 @@
 <!-- section:router-javascript -->
 
 
+
+
 ## JavaScript / ECMAScript language core
 
 - **Порядок загрузки:** `status -> playbook -> kb` (см. Domain Entry Map — домен **JavaScript (ECMAScript)**). Playbook операционного слоя: **`knowledge/worlds/software-javascript/playbook-javascript-operational-v1.md`** (мост **fundamentals → operational** и контракты CI/репо).
@@ -164,6 +206,8 @@
 <!-- section:router-avalonia-ui -->
 
 
+
+
 ## Math / Numerics (PDE/ODE/IDE, schemes)
 
 - **При запросах о математической постановке задач для симуляции (PDE/ODE/IDE, начальные/граничные условия, выбор тестовых задач):** загружать:
@@ -174,6 +218,8 @@
 <!-- /section:router-math-numerics -->
 
 <!-- section:router-equation-ca-cuda-validation -->
+
+
 
 
 ## Equation→CA→CUDA / PDE solver validation
@@ -188,6 +234,8 @@
 <!-- section:router-warehouse -->
 
 
+
+
 ## Warehouse (barcode video, marketplace labels)
 
 - Порядок загрузки: status → playbook → kb. **При запросах о требованиях маркетплейсов (Ozon, Wildberries, Яндекс Маркет) к этикеткам, размерам, штрихкодам и маркировке:** загружать `knowledge/worlds/logistics-warehouse/kb-warehouse-marketplace-labels-v1.md` — размеры, dpi, форматы (GS1-128, EAN, Data Matrix), Честный знак. **При запросах о видеозахвате штрихкодов/QR на складе, настройке камер и NVR под читаемость кода на записи:** загружать `knowledge/worlds/logistics-warehouse/kb-warehouse-barcode-video-v1.md` — пиксели на модуль (QR 3–3,5, штрихкод ≥2), разрешение, FOV, освещение, кодек, глубина резкости, две зоны съёмки. Для запросов о конкретных моделях камер (Hikvision DS-2CD2083G2-IU и др.), даташитах и evidence-расчёте px/модуль — дополнительно **L1 on demand:** `knowledge/worlds/logistics-warehouse/kb-warehouse-barcode-video-models-l1-v1.md`. По запросу, затрагивающему и этикетки, и видео — оба основных файла. Мир **logistics.warehouse**.
@@ -196,12 +244,16 @@
 <!-- section:router-music -->
 
 
+
+
 ## Music
 
 - **При запросах о музыке (теория, нотация, гармония, физика звука, психоакустика, строи, незападная):** загружать **`knowledge/worlds/arts-music/playbook-music-v1.md`** для маршрутизации; затем по теме запроса — соответствующий kb: **fundamentals** (нотация, pitch, ритм, лады, гармония, транспонирование) → **`knowledge/worlds/arts-music/kb-music-theory-fundamentals-v1.md`**; **физика/психоакустика** (волны, спектр, Фурье, громкость, тембр, маскировка) → **`knowledge/worlds/arts-music/kb-music-acoustics-v1.md`**; **строи, темперации, коммы, JI** → **`knowledge/worlds/arts-music/kb-music-temperaments-math-v1.md`**; **макам, рага, микротоновость** → **`knowledge/worlds/arts-music/kb-music-non-western-v1.md`**. Мир **arts.music**; hub — **`knowledge/worlds/arts-music/README.md`**.
 <!-- /section:router-music -->
 
 <!-- section:router-regex -->
+
+
 
 
 ## Regex (кластер MRE3 / Friedl + операционный контракт)
@@ -215,12 +267,16 @@
 <!-- section:router-sysadmin-ops -->
 
 
+
+
 ## Sysadmin: Zabbix, Grafana, networks
 
 - **При запросах по Zabbix, Grafana, мониторингу и алертингу, дашбордам и источникам данных, основам сетей (OSI, VLAN, диагностика), выбору инструмента («мониторинг vs визуализация», аналоги Zabbix/Grafana), а также по 1С, nginx, бекапам, инцидентам, SSH, Wireshark:** загружать `knowledge/domain-index-v1.md` (роутер доменов и ключевые слова), при сравнении задач и инструментов — `knowledge/worlds/information-management/tool-purpose-and-books-v1.md`, затем соответствующий `playbook-*` и `kb-*-reference-v1.md` из таблицы домена. **`domain-index`** остаётся в **корне `knowledge/`**; целевые playbooks/kb — под **`knowledge/worlds/...`** (см. таблицу в `domain-index-v1.md`; в kb-public — если файл не исключён иначе).
 <!-- /section:router-sysadmin-ops -->
 
 <!-- section:learn-basics-when-stuck-router -->
+
+
 
 
 ## Learn basics when stuck (agent discipline)
@@ -231,12 +287,16 @@
 <!-- section:router-agent-autonomy -->
 
 
+
+
 ## Agent autonomy without mentor (external world)
 
 - **При подготовке к самостоятельной работе без постоянного «учителя в контуре», при расширении scope за привычную среду (внешние API, чужие репо, неоднозначные источники), при вопросах о доверии к процессу без человека или о границах самостоятельных решений:** загружать `knowledge/worlds/agent-orchestration/playbook-agent-autonomy-and-routing-v1.md` — инварианты (Integrity POST, baseline), четыре режима (действовать / уточнить / отказаться / остановиться), transfer boundaries, эпистемика, связь с `knowledge/worlds/agent-orchestration/playbook-learn-basics-when-stuck-v1.md`, `knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md`, `knowledge/worlds/agent-orchestration/playbook-clarification-general-query-v1.md`. Не путать автономию с угадыванием в незнакомом домене.
 <!-- /section:router-agent-autonomy -->
 
 <!-- section:router-multi-project-context -->
+
+
 
 
 ## Multi-project workspace / rational context
@@ -247,12 +307,16 @@
 <!-- section:router-session-summary -->
 
 
+
+
 ## Длинная сессия / итоги / читаемый экспорт чата
 
 - **При разросшемся треде; по запросу пользователя подвести итоги / зафиксировать договорённости; по инициативе агента предложить подвести итоги** (длинный тред, риск потери нити, выгодно зафиксировать); **или** когда нужен читаемый экспорт вместо непрозрачного сжатия контекста: загружать `knowledge/worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`; операционный принцип — `knowledge/agent-memory-and-operating-principles-v1.md` §9. При работе с сырым `*.jsonl` Cursor — `tools/Export-CursorJsonlTranscript.ps1` (см. `tools/README.md`).
 <!-- /section:router-session-summary -->
 
 <!-- section:router-kb-mcp-access -->
+
+
 
 
 ## KB: доступ через MCP (agent-notes)
@@ -263,6 +327,8 @@
 <!-- section:router-captain-parallel-agents -->
 
 
+
+
 ## Cursor: капитан и параллельные субагенты (Task)
 
 - **При координации нескольких субагентов (Task), параллельной разведке по репозиторию, декомпозиции крупной задачи на воркеров в Cursor:** загружать `knowledge/worlds/agent-orchestration/playbook-captain-parallel-agents-v1.md` — роли капитан/воркер, бриф, антипаттерны; область — любой проект/workspace, не один продукт (в плейбуке есть пример Cascade IDE). Связь: `knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md` (primary/scope), `agent-memory-and-operating-principles-v1.md`.
@@ -271,12 +337,16 @@
 <!-- section:router-clean-setup -->
 
 
+
+
 ## Чистая установка KB (kb-public → personal)
 
 - **При первой настройке agent-notes-mcp, скачивании kb-public, заведении personal, «clean setup», онбординге участника:** загружать `knowledge/domains/agent-operations/playbook-knowledge-stack-clean-setup-v1.md` и `knowledge/templates/newcomer/README.md`. Не подставлять чужой org slug — пути и `{ORG_SLUG}` у пользователя.
 <!-- /section:router-clean-setup -->
 
 <!-- section:router-org-kb-white-label -->
+
+
 
 
 ## Организационный KB (white-label, свой org)

@@ -8,6 +8,7 @@
 
 - **Доверие / Integrity** — `META/integrity-core.md`, POST: `META/integrity-post-spec-v1.md`.
 - **Маршрутизация по KB** — `index-knowledge-router-v1.md`, supplement: `index-knowledge-router-supplement-v1.md`.
+- **Troubleshooting** — стек: `META/index-troubleshooting-v1.md` → `worlds/…/troubleshooting/`; **продукт:** только `work/troubleshooting/README.md` → `work/projects/<id>/…`. Процесс — `META/playbook-troubleshooting-collection-v1.md`.
 - **Быстрый обзор без full load** — `SHOWCASE.md`.
 - **Публикация / kb-public** — `PUBLISHING.md`, ADR [001](adr/001-kb-public-publishing-pipeline.md).
 - **Scope / workspace / карточки** — `work/projects/…`, ADR [003](adr/003-multi-project-scope-and-project-cards.md), [008](adr/008-workspace-scope-map-hot-mcp-and-public-cut.md).

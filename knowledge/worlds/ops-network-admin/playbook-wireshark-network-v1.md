@@ -43,8 +43,7 @@
 
 ## Диагностика
 
-- При «ничего не видно» — проверить интерфейс (promiscuous mode), наличие трафика на данном сегменте, корректность фильтра.
-- При анализе задержек — смотреть на delta времени между пакетами, ретраны и RST.
+Сводка: [`troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md`](troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md) § Wireshark.
 
 ---
 

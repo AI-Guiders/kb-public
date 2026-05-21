@@ -70,8 +70,9 @@
 
 ## Integration with other playbooks
 
-- **C# диагностика / рефакторинг:** `../software-dotnet-tooling-roslyn/dotnet-roslyn-debug-playbook.md`
-- **Сборка/тест/отладка общая:** `../../tooling-debug-playbook.md`
+- **C# диагностика / рефакторинг:** `../software-dotnet-tooling-roslyn/troubleshooting/playbook-dotnet-roslyn-troubleshooting-v1.md`
+- **Сборка/тест/отладка:** `../../hci-ux-dx/troubleshooting/playbook-tooling-debug-troubleshooting-v1.md`
+- **Симптомы UI Avalonia:** `troubleshooting/playbook-avalonia-ui-troubleshooting-v1.md`
 - **DX-поток и среда (не только UI):** `../hci-ux-dx/de-dx-playbook.md`
 - **Общий .NET frontend:** `frontend-dotnet-playbook.md`
 - **HCI / продуктовый UX:** `../hci-ux-dx/playbook-hci-core-v1.md`, `../hci-ux-dx/ui-ux-playbook.md`, `../hci-ux-dx/kb-hci-usability-and-dialog-rules-v1.md`

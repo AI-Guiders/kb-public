@@ -34,10 +34,7 @@
 
 ## Диагностика
 
-- **Нет доступа в интернет:** кабель/Wi‑Fi, IP и шлюз (DHCP или статика), DNS (nslookup), файрвол, ACL на маршруте.
-- **Медленно/потери:** ping по задержке и потере пакетов; трассировка — на каком hop растёт RTT или пропадают ответы; при L2 — проверить STP и дубликаты кадров.
-- **Нет связи между VLAN:** маршрутизация между VLAN (SVI или роутер на палке); ACL; trunk и разрешённые VLAN.
-- **Сброс стека (Windows):** netsh winsock reset, netsh int ip reset — только при серьёзных сбоях, по инструкциям.
+Сводка: [`troubleshooting/playbook-ops-observability-network-troubleshooting-v1.md`](troubleshooting/playbook-ops-observability-network-troubleshooting-v1.md) § Сеть.
 
 ---
 

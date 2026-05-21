@@ -8,6 +8,7 @@
 |------|------|
 | [`status-software-authoring-v1.md`](status-software-authoring-v1.md) | Статус домена, порядок загрузки |
 | [`matrix-software-cross-domain-transfer-v1.md`](matrix-software-cross-domain-transfer-v1.md) | Симптом → playbook (HCI, OOA&D, Avalonia, Roslyn, Git) |
+| [`troubleshooting/`](troubleshooting/README.md) | Единый вход troubleshooting (fast router) |
 | [`playbook-ooad-agent-operational-v1.md`](playbook-ooad-agent-operational-v1.md) | OOA&D для агента |
 | [`kb-ooad-fundamentals-v1.md`](kb-ooad-fundamentals-v1.md) | Фундамент OOA&D |
 | [`playbook-domain-nouns-verbs-decomposition-v1.md`](playbook-domain-nouns-verbs-decomposition-v1.md) | Быстрая декомпозиция nouns/verbs |

@@ -33,8 +33,7 @@
 
 ## Диагностика
 
-- Проверка логов и статусов заданий бекапа; алерты при сбоях.
-- Регулярный прогон восстановления в тестовую среду с фиксацией времени и результата.
+Сводка: [`troubleshooting/playbook-ops-reliability-troubleshooting-v1.md`](troubleshooting/playbook-ops-reliability-troubleshooting-v1.md) § Бекапы.
 
 ---
 

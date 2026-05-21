@@ -1,17 +1,18 @@
-﻿# Avalonia UI / CascadeIDE — domain status v1
+# Avalonia UI (desktop .NET) — domain status v1
 
 ## Scope
 
-Desktop UI на **Avalonia** с **Dock** (панели/документы), типичный стек **CascadeIDE**: XAML + MVVM, темы Fluent + кастомные JSON, встроенный редактор (AvaloniaEdit), дополнительные контролы (Markdown и др.). Домен **software.desktop-ui** в связке с **engineering**; продуктовые правила интерфейса — см. HCI (`../hci-ux-dx/playbook-hci-core-v1`, `../hci-ux-dx/ui-ux-playbook`).
+Desktop UI на **Avalonia** с **Dock** (панели/документы): XAML + MVVM, темы Fluent + кастомные JSON, AvaloniaEdit, Markdown и др. Домен **software.authoring.dotnet.csharp.desktop-ui.avalonia**; HCI — `../hci-ux-dx/`.  
+**Product troubleshooting** (layout именованного IDE, user settings) — **только** [`work/troubleshooting/README.md`](../../work/troubleshooting/README.md), не этот status.
 
-## Reference stack (эталон репо CascadeIDE)
+## Reference stack (пример: проверять csproj целевого приложения)
 
 Версии зафиксированы в `CascadeIDE.csproj` (проверять при обновлении KB):
 
-- `Avalonia` / `Avalonia.Desktop` / `Avalonia.Themes.Fluent` / `Avalonia.Fonts.Inter` — **11.3.x**
-- `Dock.Avalonia`, `Dock.Model.Avalonia`, `Dock.Model.Mvvm`, `Dock.Avalonia.Themes.Fluent` — **11.3.11.x** (patch может отличаться от Avalonia — нормально, следить за совместимостью)
-- `Avalonia.AvaloniaEdit`, `AvaloniaEdit.TextMate` — **11.0.x**
-- `Markdown.Avalonia` — **11.0.x**
+- `Avalonia` / `Avalonia.Desktop` / `Avalonia.Themes.Fluent` / `Avalonia.Fonts.Inter` / `Avalonia.Skia` — **12.0.x** (проверять `CascadeIDE.csproj`)
+- `Dock.Avalonia`, `Dock.Model.Avalonia`, `Dock.Model.Mvvm`, `Dock.Avalonia.Themes.Fluent` — **12.0.x**
+- `AIGuiders.AvaloniaEdit`, `AvaloniaEdit.TextMate` — **12.0.x** (fork, см. csproj)
+- `Markdown.Avalonia` / прочие пакеты — версии в `CascadeIDE.csproj`
 - `CommunityToolkit.Mvvm` — **8.x**
 - TFM приложения: **net10.0**, `AvaloniaUseCompiledBindingsByDefault` — **true**
 

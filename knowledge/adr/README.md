@@ -44,3 +44,5 @@
 - `011-aiguiders-org-collaborative-kb-repo-v1.md` (Proposed: org `AI-Guiders/kb` для совместного пополнения KB vs kb-public / **личный канон**)
 - `012-multi-canon-workspace-resolution-v1.md` (Proposed: primary/secondary canon, `.cursor/agent-notes.toml`, без `knowledge/organization/` в личном)
 - `013-agent-notes-mcp-local-settings-toml-v1.md` (Proposed: локальный TOML с MCP **2.0**, `[knowledge]` / `[workspace]` / `[status]`)
+- `016-knowledge-stack-clean-setup-protocol-v1.md`
+- `017-knowledge-roots-registry-prefix-v1.md` (Accepted: префиксы в `knowledge-roots-index`; Core 2.1.2 — AgentNotes.Core ADR 016)

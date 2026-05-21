@@ -10,6 +10,7 @@
 | **Правила (kb)** | [`kb-knowledge-engineering-multiworld-rules-v1.md`](kb-knowledge-engineering-multiworld-rules-v1.md), [`kb-knowledge-engineering-mixed-worlds-rules-v1.md`](kb-knowledge-engineering-mixed-worlds-rules-v1.md), [`kb-knowledge-engineering-culture-routing-rules-v1.md`](kb-knowledge-engineering-culture-routing-rules-v1.md), [`kb-knowledge-engineering-country-conflicts-rules-v1.md`](kb-knowledge-engineering-country-conflicts-rules-v1.md), [`kb-knowledge-engineering-operations-rules-v1.md`](kb-knowledge-engineering-operations-rules-v1.md) |
 | **Матрицы** | [`matrix-culture-routing-v1.md`](matrix-culture-routing-v1.md), [`matrix-do-not-transfer-v1.md`](matrix-do-not-transfer-v1.md) |
 | **Runbook** | [`runbook-kb-mcp-access-v1.md`](runbook-kb-mcp-access-v1.md), [`runbook-revisions-backup-v1.md`](runbook-revisions-backup-v1.md) |
+| **Troubleshooting MCP** | [`troubleshooting/playbook-knowledge-engineering-mcp-troubleshooting-v1.md`](troubleshooting/playbook-knowledge-engineering-mcp-troubleshooting-v1.md) |
 | **Corpus (stub bodies)** | [`playbook-epistemic-methods-and-calibration-v1.md`](playbook-epistemic-methods-and-calibration-v1.md), [`playbook-kb-canonical-publication-v1.md`](playbook-kb-canonical-publication-v1.md) |
 
 Строка **Knowledge Engineering** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md). Личный контур — `knowledge/personal/`. Инвариант hot-split: [`../../META/hot-agent-notes-split-invariant-v1.md`](../../META/hot-agent-notes-split-invariant-v1.md).

@@ -41,8 +41,8 @@
 | **g** (group) | team KB (`group-kb` / future `AI-Guiders/kb`) | `read_knowledge_file(..., knowledge_root_id=group)` |
 | **o** (other) | kb-public slice | `read_knowledge_file(..., knowledge_root_id=public)` when configured |
 
-TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id `group` → `Financial/software/open/group-kb`.
-Registry: `knowledge/work/local/knowledge-roots-index-v1.md`. **`route_context`** (Core 2.1.1+): при запросе про group/roots/registry или совпадении строки реестра подмешивает эту секцию + preview из read-only root (`knowledge_roots_overlay_applied`). Полный файл — `read_knowledge_file(..., knowledge_root_id=group)`; запись только в primary.
+TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id `group` → весь clone `{ORG}/kb`; **любой** путь: `read_knowledge_file(..., knowledge_root_id=group)`.
+Реестр `knowledge/work/local/knowledge-roots-index-v1.md` — **не** whitelist, а якоря для **`route_context`** (exact file или **prefix/** с `/` в конце). Contour map: `work/org/scope-contour-map-v1.md`. Open stack в group: `work/projects/aiguiders-open/` (имя из contour map, не `door-to-singularity/`). Personal: `work/projects/door-to-singularity/`. **`route_context`** (Core 2.1.2+): group/roots/registry или hit реестра → hot + preview (`knowledge_roots_overlay_applied`). Запись только в primary.
 <!-- /section:knowledge-roots-routing-v1 -->
 
 <!-- section:agent-equal-standing-v1 -->

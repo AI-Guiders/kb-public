@@ -38,8 +38,7 @@
 
 ## Диагностика
 
-- `ssh -v` для отладки подключения; проверка прав на `~/.ssh` (700) и `authorized_keys` (600).
-- Проверка наличия ключа в агенте: `ssh-add -l`. При проблемах с SCP — проверка прав на целевой каталог и лимитов диска.
+Сводка симптомов и чеклисты: [`troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md`](troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md) § SSH / SCP.
 
 ---
 

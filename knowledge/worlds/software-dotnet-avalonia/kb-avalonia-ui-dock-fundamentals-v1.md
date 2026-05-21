@@ -88,6 +88,8 @@
 
 ### 9. AvaloniaEdit, TextMate и редакторский слой
 
+**Troubleshooting (сводка симптомов):** [`troubleshooting/playbook-avalonia-ui-troubleshooting-v1.md`](troubleshooting/playbook-avalonia-ui-troubleshooting-v1.md).
+
 - **Fact:** **AvaloniaEdit** — отдельный пакет (версия часто **отстаёт** от core Avalonia); **AvaloniaEdit.TextMate** даёт подсветку через **TextMate-грамматики** (bundle: `.tmLanguage` / `.tmLanguage.json` / plist и связанные ресурсы), а не через автоматическую привязку Roslyn для произвольных языков.
 - **Fact:** **где лежат грамматики и как они регистрируются** (пути, `TextMateInstallation`, копирование в выходной каталог, порядок инициализации) — **источник правды в коде репозитория** при старте приложения / создании редактора; KB фиксирует только класс рисков.
 - **Heuristic:** симптом «**нет подсветки**» → проверить: bundle на диске/в ресурсах, корректное **включение файлов в сборку** (`Content`/`EmbeddedResource`/копирование), совпадение расширения файла с тем, что ожидает регистрация; лог старта редактора на исключения из слоя TextMate.

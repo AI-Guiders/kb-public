@@ -5,6 +5,7 @@
 **Среда-независимость:** протокол живёт в `knowledge/`; применим в любой среде с доступом к канону (MCP agent-notes, клон репо, экспорт). Не требует Cursor rules.
 
 **Связь:**
+- **IOP (манифест)** и **экосистема Cascade (use case)** — [IOP-манифест](https://github.com/AI-Guiders/cascade-ide/blob/develop/docs/iop-manifest-v1.md) (`docs/iop-manifest-v1.md` в cascade-ide): дисциплина отдельно от гайда по KB (SHOWCASE).
 - `knowledge/worlds/agent-orchestration/playbook-clarification-general-query-v1.md` — если запрос размыт и не ясен даже **какой** проект затронут.
 - `knowledge/worlds/agent-orchestration/playbook-captain-parallel-agents-v1.md` — параллельные субагенты (Task), капитан/воркер, тяжёлая разведка по репо.
 - `knowledge/agent-memory-and-operating-principles-v1.md` — route_context, нечёткий поиск, один шаг до финала.
