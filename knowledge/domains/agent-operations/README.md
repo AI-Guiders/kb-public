@@ -20,5 +20,6 @@
 | [playbook-mode-switch-v1.md](playbook-mode-switch-v1.md) | `mode-switch-protocol` |
 | [playbook-multi-agent-write-v1.md](playbook-multi-agent-write-v1.md) | `multi-agent-write-protocol-v1` |
 | [playbook-integrity-under-pressure-v1.md](playbook-integrity-under-pressure-v1.md) | `integrity-under-pressure-protocol` |
+| [playbook-agent-partnership-kb-v1.md](playbook-agent-partnership-kb-v1.md) | *(см. файл — культура ADR, не промпт-роль)* |
 
-Wiki-вход (kb-public): `knowledge/kb-protocols-and-entities-one-pager-v1.md`, `knowledge/kb-one-pager-structure-and-protocols-v1.md`.
+**Product (CascadeIDE):** [cascade-ide/playbook-agent-execution-environment-v1.md](../work/projects/door-to-singularity/cascade-ide/playbook-agent-execution-environment-v1.md) — AEE, verify ladder; SSOT — ADR 0148 в репо IDE. `knowledge/kb-protocols-and-entities-one-pager-v1.md`, `knowledge/kb-one-pager-structure-and-protocols-v1.md`.

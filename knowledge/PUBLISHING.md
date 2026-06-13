@@ -39,6 +39,12 @@
 - **`knowledge/work/`** — оперативный слой канона (карточки репо, `project-id`, внутренние runbook’и); не публичный продукт KB. Карта дерева для держателей полного клона: **`knowledge/work/README.md`** (в kb-public не копируется вместе с `work/`).
 - Файлы с **пометкой в первой строке** (типично `⚠️ НЕ ПУБЛИКОВАТЬ. Только локально.`) — см. п. 4 в «Механике».
 
+### Авторинг под `worlds/` (попадает в kb-public)
+
+Файлы в **`knowledge/worlds/<slug>/`** (любой мир) копируются в публичную сборку, если не перекрыты `public-kb.ignore`. **Не полагаться на «само собой разумеется»:** перед коммитом в **каждом** slug вычищать внутреннюю operationalку, scope/project-id, ссылки на **`work/`**, машинные пути, внутренние бренды; в fundamentals — только общеизвестные вендоры/платформы.
+
+**Чеклист агента:** [`worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md`](worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md).
+
 ### Новое исключение по пути
 
 Добавь строку в **`knowledge/public-kb.ignore`**, пересобери — править `build-public-kb.ps1` не нужно.

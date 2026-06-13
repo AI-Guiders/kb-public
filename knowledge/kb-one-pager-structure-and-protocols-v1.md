@@ -111,6 +111,7 @@
 ## Публикация и границы
 
 - Публичный контур ≠ весь `knowledge/`: у автора канона список исключений — **`knowledge/public-kb.ignore`** (префиксы вроде **`work/`**, **`personal/`**, служебные имена); в архив kb-public они **не попадают**. Дополнительно не копируются файлы с пометкой **«НЕ ПУБЛИКОВАТЬ»** в первой строке. Полный перечень правил — **`PUBLISHING.md`** (входит в kb-public); внутренний runbook пуша — под **`work/`** (в kb-public не входит).
+- **`knowledge/worlds/`** в kb-public **по умолчанию** (**любой** `<slug>/`). При создании или правке **любого** мира, fundamentals и строк роутера агент **обязан** вычищать непубличную operationalку, внутренние scope/бренды (кроме общеизвестных вендоров), ссылки на **`work/`** — см. **`worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md`** (playbook общий для всех миров).
 - **`agent-notes.md`:** в публичную сборку попадает только текст **до** **`<!-- public-cut -->`**; всё ниже — как частный/оперативный hot-слой при экспорте.
 
 ---
@@ -132,4 +133,5 @@
 | Полный канон: соглашение `work/projects/<scope>/…` | `work/projects/README.md` (в kb-public **нет**) |
 | Mixed worlds, `transfer_boundary`, поля `world:` | `worlds/knowledge-engineering/kb-knowledge-engineering-mixed-worlds-rules-v1.md` |
 | Свежесть kb: fundamentals / operational / evidence, `Проверено:`, стек или любой домен | `worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` (+ hot `kb-operational-freshness-v1` в agent-notes) |
+| Любой мир / fundamentals / правка `worlds/<slug>/` под kb-public | `worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md` |
 | Протоколы и сущности (one-pager для wiki) | `kb-protocols-and-entities-one-pager-v1.md` |

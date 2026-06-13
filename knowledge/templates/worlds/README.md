@@ -14,4 +14,6 @@
 Evidence-карточки книг/источников: [`../cards/template-kb-evidence-v1.md`](../cards/template-kb-evidence-v1.md).  
 Transfer matrix: [`../matrices/template-transfer-matrix-v1.md`](../matrices/template-transfer-matrix-v1.md).
 
+**Перед коммитом (обязательно):** экземпляр **любого** `worlds/<slug>/` попадает в **kb-public** — пройти [`playbook-kb-world-public-authoring-v1.md`](../worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md) (без scope, `work/`, внутренних брендов, машинных путей). Правило на все миры, не только knowledge.engineering. Operational clone/диск — только в `work/projects/`.
+
 Верхний индекс: [`../README.md`](../README.md).

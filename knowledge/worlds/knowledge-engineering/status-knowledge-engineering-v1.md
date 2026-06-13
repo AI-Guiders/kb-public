@@ -32,6 +32,7 @@ Completed artifacts:
 
 ## Active Guardrails
 
+- Новые/правки **любого** `worlds/<slug>/` под kb-public: **`playbook-kb-world-public-authoring-v1.md`** (без scope, `work/`, внутренних брендов, машинных путей).
 - Artifact-first restore after compression (`index -> playbook -> latest batch -> status`).
 - Section-level update preference over full overwrite for routine operations.
 - Revision retention/compaction policy is mandatory.

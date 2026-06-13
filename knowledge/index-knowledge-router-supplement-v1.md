@@ -1,4 +1,4 @@
-﻿# Knowledge Router — Supplement (detailed domain routes) v1
+# Knowledge Router — Supplement (detailed domain routes) v1
 
 **Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router-v1.md` сразу после Context Budget.
 
@@ -108,6 +108,18 @@
 - **Порядок:** `worlds/cognition-human-perception/status-human-perception-v1.md` → operational playbook → fundamentals kb → при необходимости **scientific-evidence** kb; затем при узком UI‑вопросе — **HCI** (`worlds/hci-ux-dx/playbook-hci-core-v1.md`, при необходимости `worlds/hci-ux-dx/kb-hci-usability-and-dialog-rules-v1.md`, `worlds/hci-ux-dx/kb-ui-ux-literature-evidence-v1.md`). Не подменять **Psychology** при клинических запросах.
 - **Пересечение с CascadeIDE:** метафора кокпита и иерархия внимания — в ADR репозитория (напр. 0021, 0076); KB даёт слой «почему», не дублирует нормативы продукта.
 <!-- /section:router-human-perception -->
+
+<!-- section:router-language-acquisition -->
+
+
+
+
+## Child language acquisition (L1): fundamentals → operational
+
+- **При запросах о human child L1** (CDS, maternal input, corrective feedback, word learning, lexical mapping, «как ребёнок учит язык»): загружать **`knowledge/worlds/cognition-language-acquisition/playbook-language-acquisition-operational-v1.md`**. Фундамент: **`knowledge/worlds/cognition-language-acquisition/kb-language-acquisition-fundamentals-v1.md`**. **DOI + read_depth + evidence-карты:** **`knowledge/worlds/cognition-language-acquisition/kb-language-acquisition-scientific-evidence-v1.md`** → per-paper `kb-language-acquisition-*-evidence-v1.md`. Hub: **`knowledge/worlds/cognition-language-acquisition/README.md`** (`cognition.language-acquisition`).
+- **Порядок:** status → playbook → fundamentals → scientific-evidence index → **одна** evidence-карта на источник. **Не** импортировать в CASA teacher/sleep — **`matrix-language-acquisition-transfer-v1.md`** + `matrix-do-not-transfer-v1.md`.
+- **CASA lab / ca-substrate-agent:** engineering spec — `teacher-correction-protocol-v0`, `kb-casa-teacher-sleep-lab-norm-v1`; педагогика — только inspiration в `research-training-developmental-pedagogy-v1` (hypothesis).
+<!-- /section:router-language-acquisition -->
 
 <!-- section:router-troubleshooting-index -->
 
@@ -314,6 +326,16 @@
 - **При разросшемся треде; по запросу пользователя подвести итоги / зафиксировать договорённости; по инициативе агента предложить подвести итоги** (длинный тред, риск потери нити, выгодно зафиксировать); **или** когда нужен читаемый экспорт вместо непрозрачного сжатия контекста: загружать `knowledge/worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`; операционный принцип — `knowledge/agent-memory-and-operating-principles-v1.md` §9. При работе с сырым `*.jsonl` Cursor — `tools/Export-CursorJsonlTranscript.ps1` (см. `tools/README.md`).
 <!-- /section:router-session-summary -->
 
+<!-- section:router-kb-world-public-authoring -->
+
+
+
+
+## KB: любой мир, fundamentals, карточка домена (kb-public)
+
+- **При создании или существенной правке любого `knowledge/worlds/<slug>/` (любой домен), Domain Entry Map, fundamentals/playbook в мирах, hub `worlds/README.md`:** загружать `knowledge/worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md` **до коммита**. Вычистить: scope/project-id, ссылки на `work/`, машинные пути, внутренние бренды; в `worlds/` — только vendor-neutral предметка и общеизвестные вендоры. Clone/диск/scope — в `work/projects/`, не в публичном слое. **Не** ограничивать проверку миром knowledge.engineering.
+<!-- /section:router-kb-world-public-authoring -->
+
 <!-- section:router-kb-mcp-access -->
 
 
@@ -353,3 +375,18 @@
 
 - **При запросе поднять KB для своей GitHub-организации, `{ORG_SLUG}/kb`, group KB, seed org, canon-maintainer, без привязки к конкретному бренду:** загружать `knowledge/domains/agent-operations/playbook-org-kb-white-label-v1.md`, затем `map-kb-three-contours-v1.md`. Участник существующей org — фаза E в white-label + `playbook-knowledge-stack-clean-setup-v1.md` фаза 4.
 <!-- /section:router-org-kb-white-label -->
+
+<!-- section:router-pedagogy-school-subjects -->
+
+
+
+
+
+
+## Pedagogy: школьные предметы (instruction science + subject worlds)
+
+- **При запросах о школьной педагогике, curriculum authoring, Rosenshine/CLT, reading/math/science pedagogy, ЗУН/gate constructs, или выборе предметного мира:** загружать **`knowledge/worlds/pedagogy-general/playbook-pedagogy-school-subjects-v1.md`** → **`status-pedagogy-school-subjects-v1.md`**. Порядок: **`playbook-pedagogy-fundamentals-to-operational-v1.md`** → **`kb-pedagogy-scientific-evidence-v1.md`** (cross-cutting) → subject **`kb-*-scientific-evidence-v1.md`** → one per-paper card → subject fundamentals. Карта: **`map-pedagogy-school-subjects-reading-v1.md`**. Перенос: **`matrix-pedagogy-cross-subject-transfer-v1.md`**; L1 acquisition — **`cognition-language-acquisition`** (deny без bridge).
+- **RU written v1:** **`pedagogy-russian-language`** — Castles 2018, SVR, orthographic mapping cards.
+- **Не путать:** **`cognition.language-acquisition`** (Snow/Clark/Saxton child L1); **`math.numerics-pde`** (инженерная math).
+- **Публикация:** **`playbook-kb-world-public-authoring-v1.md`** до коммита любого `worlds/pedagogy-*`.
+<!-- /section:router-pedagogy-school-subjects -->

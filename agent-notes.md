@@ -1,4 +1,4 @@
-﻿<!-- section:baseline-integrity-epistemic-v1 -->
+<!-- section:baseline-integrity-epistemic-v1 -->
 ## Baseline: целостность и эпистемия (v1) — контракт L0
 
 **Всегда в силе** (независимо от проекта, задачи, `active_scope`). Развёрнуто: **`knowledge/baseline-integrity-epistemic-extended-v1.md`** (целостность, playbook/kb, эпистемический минимум; перекрёстные ссылки на эпистемику и ядро при крахе барьеров).

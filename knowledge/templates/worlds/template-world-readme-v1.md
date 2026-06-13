@@ -14,7 +14,11 @@
 
 ## Router
 
-Строка в `index-knowledge-router-v1.md` (Domain Entry Map) + при необходимости `router-*` в supplement.
+Строка в `index-knowledge-router-v1.md` (Domain Entry Map) + при необходимости `router-*` в supplement. **Без** путей к `work/` в публичной строке.
+
+## Публикация (kb-public)
+
+Экземпляр **любого** мира попадёт в kb-public. Перед коммитом: [`playbook-kb-world-public-authoring-v1.md`](../worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md) (общий чеклист для всех `worlds/<slug>/`). Clone/scope/диск — не в этом README.
 
 ## Версия
 
