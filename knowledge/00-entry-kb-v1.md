@@ -12,6 +12,7 @@
 - **Быстрый обзор без full load** — `SHOWCASE.md`.
 - **Публикация / kb-public** — `PUBLISHING.md`, ADR [001](adr/001-kb-public-publishing-pipeline.md).
 - **Scope / workspace / карточки** — `work/projects/…`, ADR [003](adr/003-multi-project-scope-and-project-cards.md), [008](adr/008-workspace-scope-map-hot-mcp-and-public-cut.md).
+- **Scratch агента (external WM)** — `temp/README.md` (workaround harness; не kb-public).
 - **Корзины worlds / domains / templates** — см. `META/kb-taxonomy-v1.md` (физические пути под `knowledge/`).
 
 ---

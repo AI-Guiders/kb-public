@@ -35,7 +35,8 @@
 
 ### Не попадает в kb-public (ориентир)
 
-- Всё, что покрывает **`knowledge/public-kb.ignore`** (в т.ч. префиксы **`personal/`**, **`work/`**, **`archive/`**; сами **`public-kb.ignore`** и **`public-kb.push`**; сегмент пути **`.revisions/`** под `knowledge/`).
+- Всё, что покрывает **`knowledge/public-kb.ignore`** (в т.ч. префиксы **`personal/`**, **`work/`**, **`archive/`**, шаблон **`temp/*-scratch.md`**; сами **`public-kb.ignore`** и **`public-kb.push`**; сегмент пути **`.revisions/`** под `knowledge/`).
+- **`knowledge/temp/`** — scratch агента: в kb-public только **`temp/README.md`** (каркас корзины); файлы `*-scratch.md` не экспортируются.
 - **`knowledge/work/`** — оперативный слой канона (карточки репо, `project-id`, внутренние runbook’и); не публичный продукт KB. Карта дерева для держателей полного клона: **`knowledge/work/README.md`** (в kb-public не копируется вместе с `work/`).
 - Файлы с **пометкой в первой строке** (типично `⚠️ НЕ ПУБЛИКОВАТЬ. Только локально.`) — см. п. 4 в «Механике».
 

@@ -17,3 +17,7 @@
 
 **Код:** [`worlds/software-authoring/code-writing-principles-v1.md`](../../worlds/software-authoring/code-writing-principles-v1.md) — дополняет refactor-after-check.
 
+## Голос идеи (не только молчаливые правки)
+
+**Микро-улучшения** — делать. **Продуктовые/стратегические мысли**, родившиеся **по ходу** той же задачи — **можно озвучить** после deliverable, коротким блоком «Кстати (идея по ходу, не часть задачи): …»; не реализовывать без сдвига ступени. Полный протокол инкубации: [`note-product-idea-from-chat-v1.md`](../../work/projects/door-to-singularity/door-to-singularity/note-product-idea-from-chat-v1.md).
+
