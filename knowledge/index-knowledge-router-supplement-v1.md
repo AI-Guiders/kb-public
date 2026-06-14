@@ -37,6 +37,76 @@
 - **При запросах о критериях полезности, ценности, сравнении вариантов или обосновании оценочных суждений:** загружать `knowledge/worlds/evidence-humanities-shelf/kb-utility-value-underdetermination-evidence-v1.md` — обзор по теории полезности (EU, критика), теории ценности (axiology, good for / attributive, плюрализм), несоизмеримости (incommensurability, parity), теореме Эрроу. Операционный принцип — `knowledge/domains/agent-operations/playbook-utility-judgment-underdetermination-v1.md` (hub: `agent-memory-and-operating-principles-v1.md`).
 <!-- /section:router-value-utility -->
 
+<!-- section:router-agent-memory-hub -->
+
+
+
+
+## Agent memory / operating principles (hub)
+
+- **При онбординге «как агент работает с памятью и пользователем», неясном маршруте по операционным привычкам, или когда нужен один вход вместо перебора playbooks:** загружать `knowledge/agent-memory-and-operating-principles-v1.md` — маршрутизатор (таблица SSOT). **Не** грузить весь hub телом — один целевой playbook по строке таблицы.
+<!-- /section:router-agent-memory-hub -->
+
+<!-- section:router-proactive-micro-improvements -->
+
+
+
+
+## Proactive micro-improvements
+
+- **При микро-улучшениях по ходу работы, «почему не поправил сразу», интуиции по KB/коду без явного запроса:** `knowledge/domains/agent-operations/playbook-proactive-micro-improvements-v1.md`; hot stub `proactive-micro-improvements-and-intuition-v1`; hub — `agent-memory-and-operating-principles-v1.md`.
+<!-- /section:router-proactive-micro-improvements -->
+
+<!-- section:router-fuzzy-search-implicit-language -->
+
+
+
+
+## Fuzzy search / implicit language
+
+- **При образном запросе, «найди как finplan», неявном языке, одном пустом поиске как «доказательстве отсутствия»:** `knowledge/domains/agent-operations/playbook-fuzzy-search-implicit-language-v1.md`; hot stub `fuzzy-search-and-implicit-language-v1`; hub — `agent-memory-and-operating-principles-v1.md`.
+<!-- /section:router-fuzzy-search-implicit-language -->
+
+<!-- section:router-principled-clarity -->
+
+
+
+
+## Principled clarity
+
+- **При оценке сторон, вины, правоты, ответственности; «кто прав»; когда принцип уже режет, но тянут «всё сложно»:** `knowledge/domains/agent-operations/playbook-principled-clarity-v1.md`; L0 `principled-clarity-v1`; stub `principled-clarity-extended-v1`; hub — `agent-memory-and-operating-principles-v1.md`.
+<!-- /section:router-principled-clarity -->
+
+<!-- section:router-strict-execution-analogy -->
+
+
+
+
+## Strict execution by analogy
+
+- **При «по аналогии с X», «как в X», «как finplan» — строго 1:1 по образцу, без импровизации:** `knowledge/domains/agent-operations/playbook-strict-execution-when-analogy-v1.md`; hot stub `strict-execution-when-analogy-v1`; hub — `agent-memory-and-operating-principles-v1.md`.
+<!-- /section:router-strict-execution-analogy -->
+
+<!-- section:router-reconnaissance-before-action -->
+
+
+
+
+## Reconnaissance before action (anti-hurry)
+
+- **При ложном давлении «ответить немедленно», патче без контекста, «сейчас быстренько напишу»:** `knowledge/worlds/agent-orchestration/playbook-agent-reconnaissance-before-action-v1.md`; hot stub `autonomy-right-to-pause-reconnaissance-v1`; связь с `execution-gate-v1` (L1) и `playbook-agent-autonomy-and-routing-v1.md`; hub — `agent-memory-and-operating-principles-v1.md`.
+<!-- /section:router-reconnaissance-before-action -->
+
+<!-- section:router-agent-kb-responsibility -->
+
+
+
+
+## Agent knowledge responsibility
+
+- **При ответственности за слои KB, куда класть знание, свежесть канона, operational vs fundamentals:** `knowledge/domains/agent-operations/playbook-agent-knowledge-responsibility-v1.md`. **Партнёрство по ADR / культура Cascade** — отдельно `playbook-agent-partnership-kb-v1.md` (не смешивать). Hub — `agent-memory-and-operating-principles-v1.md`.
+<!-- /section:router-agent-kb-responsibility -->
+
 <!-- section:router-bci-medicine -->
 
 

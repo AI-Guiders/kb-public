@@ -73,6 +73,8 @@
 | Тема | Файл |
 | --- | --- |
 | Память, неявный язык, «дожать шаг» | `agent-memory-and-operating-principles-v1.md` |
+| Execution Gate (L1) | `execution-gate-v1` в agent-notes |
+| Пауза / разведка до патча | `playbook-agent-reconnaissance-before-action-v1.md` |
 | Роутер, baseline | `index-knowledge-router-v1.md` |
 | Размытый запрос | `playbook-clarification-general-query-v1.md` |
 | Застрял в незнакомом домене | `playbook-learn-basics-when-stuck-v1.md` |

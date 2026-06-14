@@ -27,7 +27,7 @@
 | [playbook-fuzzy-search-implicit-language-v1.md](playbook-fuzzy-search-implicit-language-v1.md) | `fuzzy-search-and-implicit-language-v1` |
 | [playbook-utility-judgment-underdetermination-v1.md](playbook-utility-judgment-underdetermination-v1.md) | Полезность недоопределена |
 | [playbook-principled-clarity-v1.md](playbook-principled-clarity-v1.md) | `principled-clarity-v1` |
-| [playbook-strict-execution-when-analogy-v1.md](playbook-strict-execution-when-analogy-v1.md) | Строгое выполнение по образцу |
+| [playbook-strict-execution-when-analogy-v1.md](playbook-strict-execution-when-analogy-v1.md) | `strict-execution-when-analogy-v1` |
 
 **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) — маршрутизатор, не дубль тел.
 

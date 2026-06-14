@@ -33,17 +33,20 @@ l0_manifest: knowledge/META/memory-architecture-v1.json
 - hot-context-writing-contract
 
 ### On-demand (не в L0/L1, подгружать по route_context)
-- response-one-step-checklist-v1 — полный чек-лист и триггеры «завершён?» / «изменил KB»
+- **`agent-memory-and-operating-principles-v1.md`** — hub операционных принципов (маршрутизатор → один playbook по теме)
+- `response-one-step-checklist-v1` → `worlds/workspace-context/response-one-step-checklist-extended-v1.md` — чек-лист «завершён?» / «изменил KB»
 - knowledge/baseline-integrity-epistemic-extended-v1.md — развёрнутый baseline (целостность, ссылки playbook/kb)
 - knowledge/epistemic-default-distrust-extended-v1.md — развёрнутый эпистемический принцип
 - knowledge/META/core-when-barriers-fail-extended-v1.md — ядро при крахе барьеров (слой рядом с POST/ядром)
 - knowledge/worlds/workspace-context/response-finalizer-extended-v1.md — вычитка долгоживущего текста и детали финализатора
 - knowledge/worlds/workspace-context/active-scope-resolution-extended-v1.md — резолв workspace_path → slice, карта, fallback MCP
-- principled-clarity-extended-v1 — развёрнутые примеры и триггер поиска принципа
+- principled-clarity-extended-v1 → `domains/agent-operations/playbook-principled-clarity-v1.md` § «Развёрнуто»
+- domains/agent-operations/playbook-proactive-micro-improvements-v1.md, playbook-fuzzy-search-implicit-language-v1.md, playbook-strict-execution-when-analogy-v1.md, playbook-agent-knowledge-responsibility-v1.md, playbook-utility-judgment-underdetermination-v1.md
+- worlds/agent-orchestration/playbook-agent-reconnaissance-before-action-v1.md — разведка до патча (anti-hurry)
 - scope-disambiguation-examples-v1 — примеры ∀/∃ и кейсы «везде»
 - project-operational-memory-v1 — где хранить текущую задачу / next step (только карточки проектов, не корневой hot)
 - project-switch-protocol-v1 — маркеры `[PRIMARY:…]` / `[SCOPE:…]` и приоритеты; рядом с mode-switch-protocol
-- agent-autonomy-routing-stub-v1 — автономия без наставника / внешний мир; полный контракт: `knowledge/worlds/agent-orchestration/playbook-agent-autonomy-and-routing-v1.md`
+- agent-autonomy-routing-stub-v1 → `worlds/agent-orchestration/playbook-agent-autonomy-and-routing-v1.md`
 - Подсказки «запрос → секция»: route-context-hints-v1
 
 ### Мета и поддержка
@@ -63,5 +66,5 @@ l0_manifest: knowledge/META/memory-architecture-v1.json
 
 Invariant:
 - scope split improves operations, but does not replace ontology routing.
-- **Операционные принципы** (память, неявный язык, проактивность, **длинная сессия и итоги** — §9): `knowledge/agent-memory-and-operating-principles-v1.md` (полный файл — по `read_knowledge_file` или роутеру; §9 → `knowledge/worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`, скрипт `tools/Export-CursorJsonlTranscript.ps1`); секции agent-notes: proactive-micro-improvements-and-intuition-v1, fuzzy-search-and-implicit-language-v1.
+- **Операционные принципы:** hub `knowledge/agent-memory-and-operating-principles-v1.md` → целевой playbook; hot stubs: `proactive-micro-improvements-and-intuition-v1`, `fuzzy-search-and-implicit-language-v1`, `strict-execution-when-analogy-v1`, `autonomy-right-to-pause-reconnaissance-v1`. **Длинная сессия / итогы:** `playbook-session-summary-and-chat-export-v1.md`, `tools/Export-CursorJsonlTranscript.ps1`.
 - **Миры/метамиры:** stub-секции `world-*` в `agent-notes.md` → полные тексты в `knowledge/worlds/world-life/map-world-life-subworlds-v1.md`; правила — `knowledge/worlds/knowledge-engineering/kb-knowledge-engineering-multiworld-rules-v1.md`, `world-modeling-playbook.md`. Домены в index (Git, IT, …) — навигация knowledge, не подмиры world-life.

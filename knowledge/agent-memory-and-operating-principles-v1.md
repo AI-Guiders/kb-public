@@ -11,6 +11,8 @@
 | Тема | Куда грузить |
 |------|----------------|
 | **Ответственность за KB** | [`domains/agent-operations/playbook-agent-knowledge-responsibility-v1.md`](domains/agent-operations/playbook-agent-knowledge-responsibility-v1.md) |
+| **Партнёрство по ADR (культура, не слои KB)** | [`domains/agent-operations/playbook-agent-partnership-kb-v1.md`](domains/agent-operations/playbook-agent-partnership-kb-v1.md) |
+| **Execution Gate (L1 в hot)** | `execution-gate-v1` в agent-notes → reconnaissance / autonomy playbooks ниже |
 | **Проактивные микро-улучшения** | [`domains/agent-operations/playbook-proactive-micro-improvements-v1.md`](domains/agent-operations/playbook-proactive-micro-improvements-v1.md) |
 | **Нечёткий поиск / неявный язык** | [`domains/agent-operations/playbook-fuzzy-search-implicit-language-v1.md`](domains/agent-operations/playbook-fuzzy-search-implicit-language-v1.md) |
 | **Роутер, baseline, safety, multi-project** | [`index-knowledge-router-v1.md`](index-knowledge-router-v1.md), [`router-operational-baseline-v1.md`](router-operational-baseline-v1.md), [`index-knowledge-router-safety-v1.md`](index-knowledge-router-safety-v1.md), [`worlds/workspace-context/playbook-multi-project-context-v1.md`](worlds/workspace-context/playbook-multi-project-context-v1.md) |
@@ -37,4 +39,4 @@
 - **Не** раздувать hub телом; дубли с `agent-notes.md` — убирать в пользу SSOT playbook.
 - Роутер: одна ссылка на этот файл в `index-knowledge-router-v1.md` / supplement.
 
-**История hub:** 2026-06-12 — рефакторинг: монолит ~186 строк → маршрутизатор; тела в playbooks и extended-файлах.
+**История hub:** 2026-06-12 — рефакторинг: монолит ~186 строк → маршрутизатор; тела в playbooks и extended-файлах. 2026-06-12 — cleanup: partnership vs responsibility, execution-gate иерархия.

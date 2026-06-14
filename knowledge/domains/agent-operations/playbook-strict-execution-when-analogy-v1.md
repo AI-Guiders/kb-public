@@ -1,7 +1,7 @@
 # Playbook: строгое выполнение при отсылке к образцу (v1)
 
 **Домен:** agent-operations  
-**Секция hot:** `strict-execution-when-analogy-v1` *(stub при необходимости)*
+**Секция hot:** `strict-execution-when-analogy-v1`
 
 ## Принцип
 

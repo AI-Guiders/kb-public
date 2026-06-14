@@ -1,12 +1,16 @@
 # Мир **agent.orchestration** (оркестрация агента)
 
-**Назначение:** автономия и маршрутизация, капитан параллельных агентов, сессии/экспорт, learn-when-stuck, clarification.
+**Назначение:** автономия и маршрутизация, капитан параллельных агентов, сессии/экспорт, learn-when-stuck, clarification, разведка до действия.
+
+**Hub операционных принципов:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) — маршрутизатор по всем playbooks агента.
 
 ## Карта материалов
 
 | Тема | Файл |
 |------|------|
+| **Hub (память, привычки агента)** | [`../../agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) |
 | **Автономия / маршрут** | [`playbook-agent-autonomy-and-routing-v1.md`](playbook-agent-autonomy-and-routing-v1.md) |
+| **Пауза / разведка (anti-hurry)** | [`playbook-agent-reconnaissance-before-action-v1.md`](playbook-agent-reconnaissance-before-action-v1.md) |
 | **Параллельные агенты** | [`playbook-captain-parallel-agents-v1.md`](playbook-captain-parallel-agents-v1.md) |
 | **Сессия / экспорт** | [`playbook-session-summary-and-chat-export-v1.md`](playbook-session-summary-and-chat-export-v1.md) |
 | **Pressure / checkpoint (сквозной контракт)** | [`../../domains/agent-operations/playbook-context-pressure-checkpoint-v1.md`](../../domains/agent-operations/playbook-context-pressure-checkpoint-v1.md) |
@@ -20,4 +24,4 @@
 
 ## Версия
 
-v1.0 — перенос из корня `knowledge/` в `worlds/agent-orchestration/`.
+v1.1 — hub + reconnaissance в карте (2026-06-12).

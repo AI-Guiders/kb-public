@@ -1,7 +1,7 @@
 # Playbook: пауза и разведка перед действием (anti-hurry) (v1)
 
 **Мир:** agent-orchestration  
-**Секция hot:** `autonomy-right-to-pause-reconnaissance-v1` *(stub при необходимости)*
+**Секция hot:** `autonomy-right-to-pause-reconnaissance-v1`
 
 ## Проблема
 

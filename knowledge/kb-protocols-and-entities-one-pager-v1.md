@@ -28,7 +28,7 @@
 
 **Правило:** один тред — один устойчивый режим, пока не переключили маркером или явной фразой («переходим в work»).
 
-**Полный текст:** секция **Mode Switch Protocol** в `agent-notes.md`.
+**Полный текст:** [`domains/agent-operations/playbook-mode-switch-v1.md`](domains/agent-operations/playbook-mode-switch-v1.md). Hot stub: секция `mode-switch-protocol` в `agent-notes.md`.
 
 ---
 
