@@ -56,3 +56,4 @@ Project-independent playbook for reliable engineering and troubleshooting on Lin
 - Repeated “works only on one distro/host profile” failures.
 - Frequent permission/ownership regressions.
 - Recurring incidents from invisible resource constraints.
+

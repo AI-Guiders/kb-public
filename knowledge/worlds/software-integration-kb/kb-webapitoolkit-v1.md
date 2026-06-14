@@ -1,4 +1,4 @@
-﻿# Wissance WebApiToolkit — полный стек слоёв (fundamental → operational)
+# Wissance WebApiToolkit — полный стек слоёв (fundamental → operational)
 
 Источник: [Wissance/WebApiToolkit](https://github.com/Wissance/WebApiToolkit), README и Wiki.
 

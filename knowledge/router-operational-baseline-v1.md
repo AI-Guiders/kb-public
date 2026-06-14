@@ -29,3 +29,4 @@
 - **Свежесть знаний в каноне (любой домен):** устаревание, слои **fundamentals / operational / evidence**, `Проверено:` / provenance, `deprecated`, плановая перепроверка; смена стека (.NET, PHP, JS, пакеты) — частный случай в том же playbook — **`knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md`** (§2 слои, §5 реестр); supplement `router-kb-operational-freshness`; hot **`kb-operational-freshness-v1`** (выше public-cut).
 
 Версия: v1.1 · 2026-06-12 — principled-clarity → playbook; integrity layers; stubs → playbooks; supplement router-*.
+

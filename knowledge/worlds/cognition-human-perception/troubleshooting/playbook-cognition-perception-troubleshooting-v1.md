@@ -27,3 +27,4 @@
 ## Как дополнять
 
 Связка symptom ↔ checklist в operational playbook, не дублировать научный слой.
+

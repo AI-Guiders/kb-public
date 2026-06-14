@@ -50,3 +50,4 @@
 - [`kb-pedagogy-geography-edelson-2009-evidence-v1.md`](kb-pedagogy-geography-edelson-2009-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

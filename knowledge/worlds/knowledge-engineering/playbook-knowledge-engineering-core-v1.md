@@ -90,3 +90,4 @@ Knowledge engineering meta-domain is "done v1" when:
 - recovery path after compression is documented via artifact-first restoration.
 
 <!-- markdownlint-enable MD022 MD032 -->
+

@@ -31,3 +31,4 @@ Hub-редирект: [`../software-dotnet-desktop/README.md`](../software-dotne
 ## Версия
 
 v1.2 — split .NET folders (2026-05); OOA&D + matrix в этой папке.
+

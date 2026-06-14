@@ -54,3 +54,4 @@
 - [`../pedagogy-history/kb-pedagogy-history-wilson-2023-historical-literacy-evidence-v1.md`](../pedagogy-history/kb-pedagogy-history-wilson-2023-historical-literacy-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

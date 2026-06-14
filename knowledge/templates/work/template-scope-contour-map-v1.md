@@ -62,3 +62,4 @@
 - [`template-project-card-v1.md`](template-project-card-v1.md)
 - [`work/projects/README.md`](../../work/projects/README.md) (в каноне)
 - [`playbook-org-kb-white-label-v1.md`](../../domains/agent-operations/playbook-org-kb-white-label-v1.md)
+

@@ -26,3 +26,4 @@ Jegstad 2023 = current; Moog 2017 cited inside POGIL card.
 | Cross-cutting pedagogy | [`../pedagogy-general/kb-pedagogy-scientific-evidence-v1.md`](../pedagogy-general/kb-pedagogy-scientific-evidence-v1.md) |
 
 *Версия: v1.1 · 2026-06-06*
+

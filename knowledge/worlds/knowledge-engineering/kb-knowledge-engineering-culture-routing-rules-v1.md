@@ -305,3 +305,4 @@
 - signal: глобальный принцип и локальная практика рассогласованы
 - action: применять порядок `global -> local -> conflict-check -> fallback`
 - transfer_boundary: universal routing contract for cultural decisions
+

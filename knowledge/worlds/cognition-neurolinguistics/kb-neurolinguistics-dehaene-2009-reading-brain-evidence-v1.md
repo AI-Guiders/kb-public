@@ -73,3 +73,4 @@ Visual cortex → VWFA (orthographic code) → phonological areas + semantic are
 - [`../pedagogy-second-native-language/kb-pedagogy-snl-castles-2018-en-literacy-bridge-v1.md`](../pedagogy-second-native-language/kb-pedagogy-snl-castles-2018-en-literacy-bridge-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

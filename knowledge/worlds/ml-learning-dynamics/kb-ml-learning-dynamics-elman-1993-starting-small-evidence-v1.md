@@ -1,4 +1,4 @@
-﻿# Evidence: Elman (1993) — Learning and development in NN: the importance of starting small
+# Evidence: Elman (1993) — Learning and development in NN: the importance of starting small
 
 ## Provenance
 - source_refs:

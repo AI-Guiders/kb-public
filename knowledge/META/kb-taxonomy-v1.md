@@ -57,3 +57,4 @@
 2. Если это **мир / длинный контур** — по мере зрелости `worlds/<slug>/…`.  
 3. Если это **сквозная тема** — `domains/<slug>/…` когда появится согласованный slug.  
 4. Если это **шаблон** — подкаталог `templates/<kind>/` (не корень `templates/`). Полный индекс — § `taxonomy-templates-v13` ниже и [`templates/README.md`](../templates/README.md).
+

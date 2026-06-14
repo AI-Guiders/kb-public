@@ -168,3 +168,4 @@ workspace_path (Cursor)
 
 - Пример workspace-конфига: `knowledge/work/local/agent-notes.workspace.example.toml`
 - Runbook wiki / org: `knowledge/work/projects/door-to-singularity/ai-guiders/templates/runbook-gitlab-wiki-to-github-ai-guiders-v1.md` (контуры kb-public / handbook)
+

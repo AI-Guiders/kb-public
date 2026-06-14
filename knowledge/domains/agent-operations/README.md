@@ -32,3 +32,4 @@
 **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) — маршрутизатор, не дубль тел.
 
 **Product (CascadeIDE):** [cascade-ide/playbook-agent-execution-environment-v1.md](../work/projects/door-to-singularity/cascade-ide/playbook-agent-execution-environment-v1.md) — AEE, verify ladder; SSOT — ADR 0148 в репо IDE. `knowledge/kb-protocols-and-entities-one-pager-v1.md`, `knowledge/kb-one-pager-structure-and-protocols-v1.md`.
+

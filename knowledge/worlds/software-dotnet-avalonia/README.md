@@ -13,3 +13,4 @@
 | [`troubleshooting/`](troubleshooting/README.md) | Симптомы UI (подсветка, биндинг, jank, build) |
 
 C#: [`../software-dotnet-csharp/`](../software-dotnet-csharp/). Roslyn MCP: [`../software-dotnet-tooling-roslyn/`](../software-dotnet-tooling-roslyn/). HCI: [`../hci-ux-dx/`](../hci-ux-dx/).
+

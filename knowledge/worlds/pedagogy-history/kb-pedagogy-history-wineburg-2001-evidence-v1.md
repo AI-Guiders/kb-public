@@ -61,3 +61,4 @@
 - [ ] Dedicated SHEG flagship tasks card (e.g. Battle of Little Bighorn, Boston Massacre) → read_depth: full
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

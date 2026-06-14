@@ -114,3 +114,4 @@ Phases = **overlapping waves** (Siegler), not rigid stages.
 - Index: [`kb-pedagogy-ru-scientific-evidence-v1.md`](kb-pedagogy-ru-scientific-evidence-v1.md)
 
 *Версия: v1.1 · 2026-06-06 — read_depth: full*
+

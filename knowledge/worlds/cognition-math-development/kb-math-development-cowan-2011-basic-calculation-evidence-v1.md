@@ -1,4 +1,4 @@
-﻿# Evidence card — Cowan et al. (2011): basic calculation proficiency and math achievement
+# Evidence card — Cowan et al. (2011): basic calculation proficiency and math achievement
 
 **KE id:** `evidence.cowan-2011-basic-calculation`  
 **World:** `cognition.math-development`  

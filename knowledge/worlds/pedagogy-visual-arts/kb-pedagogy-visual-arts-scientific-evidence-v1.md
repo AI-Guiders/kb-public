@@ -24,3 +24,4 @@
 | Literature craft reading | [`../pedagogy-literature/kb-pedagogy-literature-scientific-evidence-v1.md`](../pedagogy-literature/kb-pedagogy-literature-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

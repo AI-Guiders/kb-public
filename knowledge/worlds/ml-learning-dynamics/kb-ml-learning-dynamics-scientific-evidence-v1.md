@@ -1,4 +1,4 @@
-﻿# ML learning dynamics — scientific evidence index v1
+# ML learning dynamics — scientific evidence index v1
 
 ## Provenance
 - created_at: 2026-05-31

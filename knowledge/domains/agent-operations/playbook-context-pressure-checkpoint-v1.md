@@ -139,3 +139,4 @@ Agent-initiated checkpoint при pressure — **минимальный duck tes
 ## Канон
 
 `knowledge/domains/agent-operations/playbook-context-pressure-checkpoint-v1.md`
+

@@ -109,3 +109,4 @@
 - **layer:** META / reference only.
 - **transfer_boundary:** при любом запросе по TPM/федерации указывать Transition Mode (`integrity-post-spec-v1.md` §7); не заявлять TPM-совместимость до появления реального узла и подписанного манифеста.
 
+

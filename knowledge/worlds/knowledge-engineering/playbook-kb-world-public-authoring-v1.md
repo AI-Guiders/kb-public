@@ -97,3 +97,4 @@ Operational playbook **внутри `worlds/`** описывает **как аг
 | One-pager | `kb-one-pager-structure-and-protocols-v1.md` § Публикация |
 
 **Версия:** v1.1 · 2026-06-05
+

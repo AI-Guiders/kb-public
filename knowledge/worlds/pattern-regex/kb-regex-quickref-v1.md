@@ -58,3 +58,4 @@ last_reviewed_utc: 2026-03-21
 <!-- section:quantifiers-one-liner -->
 **Квантификаторы:** `*` ≥0, `+` ≥1, `?` 0 или 1, `{m}` ровно m, `{m,}` ≥m, `{m,n}` от m до n.
 <!-- /section:quantifiers-one-liner -->
+

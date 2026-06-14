@@ -77,3 +77,4 @@
 ---
 
 *Версия: v1.1 · 2026-04-20 — привязка к [`kb-human-perception-scientific-evidence-v1.md`](kb-human-perception-scientific-evidence-v1.md)*
+

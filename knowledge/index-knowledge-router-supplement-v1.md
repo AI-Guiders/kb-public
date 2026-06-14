@@ -460,3 +460,4 @@
 - **Не путать:** **`cognition.language-acquisition`** (Snow/Clark/Saxton child L1); **`math.numerics-pde`** (инженерная math).
 - **Публикация:** **`playbook-kb-world-public-authoring-v1.md`** до коммита любого `worlds/pedagogy-*`.
 <!-- /section:router-pedagogy-school-subjects -->
+

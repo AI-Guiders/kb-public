@@ -89,3 +89,4 @@ MCP, primary=personal, scope-map, при необходимости public/group
 ## Связанные документы
 
 - `templates/README.md`, `map-kb-three-contours-v1.md`, `playbook-org-kb-white-label-v1.md`, `adr/016-*`
+

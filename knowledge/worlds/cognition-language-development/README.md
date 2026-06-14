@@ -12,3 +12,4 @@
 | `cognition.language-development` | `cognition.language-acquisition` |
 
 *Deprecated: 2026-05-31*
+

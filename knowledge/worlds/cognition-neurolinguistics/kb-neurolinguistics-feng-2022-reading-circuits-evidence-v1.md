@@ -60,3 +60,4 @@
 - [`kb-neurolinguistics-perdue-2022-intervention-neuroplasticity-evidence-v1.md`](kb-neurolinguistics-perdue-2022-intervention-neuroplasticity-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

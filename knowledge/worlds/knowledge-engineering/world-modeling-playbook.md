@@ -81,3 +81,4 @@ Meta-playbook for keeping knowledge structure faithful to reality: intuition fir
 - Surface similarity: both can produce the same textual code change.
 - Divergence signal: Roslyn is symbol/semantic aware, while manual edits are text-level and can miss references/overloads/renames.
 - Decision: keep semantic refactoring workflow as its own tooling world; manual patching remains a fallback world with stricter verification.
+

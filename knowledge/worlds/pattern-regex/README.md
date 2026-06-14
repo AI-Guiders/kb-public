@@ -16,3 +16,4 @@
 ## Версия
 
 v1.0 — перенос кластера из корня `knowledge/` в `worlds/pattern-regex/` (ветка `feature/kb-taxonomy-layout-v1`).
+

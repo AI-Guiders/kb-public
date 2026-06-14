@@ -50,3 +50,4 @@
 - [`kb-pedagogy-visual-arts-hetland-2007-evidence-v1.md`](kb-pedagogy-visual-arts-hetland-2007-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

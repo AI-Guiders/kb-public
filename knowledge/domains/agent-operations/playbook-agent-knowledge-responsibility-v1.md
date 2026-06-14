@@ -14,3 +14,4 @@
 Полные слои карточки (fundamentals → operational; `templates/template-knowledge-card-v1.md`, Layer contract в evidence-карточках) нужны затем, чтобы агенты **не обращались к первоисточнику на каждый шаг** — требование к заполнению канона исполнителем, а не услуга читателю.
 
 **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md).
+

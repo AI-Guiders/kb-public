@@ -34,3 +34,4 @@
 - Templates: [`../../templates/worlds/README.md`](../../templates/worlds/README.md)
 
 **Версия:** v1.0 · 2026-06-06
+

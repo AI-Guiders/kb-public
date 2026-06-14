@@ -27,3 +27,4 @@
 **Router:** [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md) · Neurolinguistics
 
 *Версия: v1.1 · 2026-06-06*
+

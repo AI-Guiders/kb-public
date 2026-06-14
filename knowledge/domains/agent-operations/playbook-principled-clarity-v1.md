@@ -24,3 +24,4 @@
 **Пара:** [`playbook-utility-judgment-underdetermination-v1.md`](playbook-utility-judgment-underdetermination-v1.md) — когда принцип **ещё не** режет, не прятаться за ложную ясность.
 
 **L0:** `principled-clarity-v1` в hot. **Baseline:** указатель в `router-operational-baseline-v1.md`. **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md).
+

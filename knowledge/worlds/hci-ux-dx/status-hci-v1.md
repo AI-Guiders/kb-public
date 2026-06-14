@@ -27,3 +27,4 @@ Completed artifacts:
 - Reduce cognitive load before adding process.
 - Keep state visible and errors recoverable.
 - Measure outcomes by user task success, not by ritual completion.
+

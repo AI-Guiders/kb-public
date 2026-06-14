@@ -64,3 +64,4 @@ Human child L1 ([`cognition.language-acquisition`](../cognition-language-acquisi
 - Active learning without construct (Cooper 2024 lesson — biology card)
 
 *Версия: v1.0 · 2026-06-06*
+

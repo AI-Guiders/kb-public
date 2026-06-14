@@ -35,3 +35,4 @@ Keep review useful and fast: catch regressions early without turning review into
 - Review by checklist only, without reading behavior impact.
 - Endless style comments while missing regression risk.
 - “Looks fine” with no test or verification signal.
+

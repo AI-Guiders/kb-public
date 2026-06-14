@@ -13,3 +13,4 @@
 ## Версия
 
 v1.0 — перенос из корня `knowledge/` в `worlds/media-videography/` (ветка `feature/kb-taxonomy-layout-v1`).
+

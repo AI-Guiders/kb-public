@@ -1,4 +1,4 @@
-﻿# ODE / IDE Fundamentals v1
+# ODE / IDE Fundamentals v1
 
 **Purpose:** compact reference for ordinary differential equations (ODEs), integral equations (IE), and integro-differential equations (IDE) relevant to later CA-based simulation.
 

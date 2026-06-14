@@ -14,3 +14,4 @@
 ## Версия
 
 v1.0 — перенос из корня `knowledge/` в `worlds/software-integration-kb/`.
+

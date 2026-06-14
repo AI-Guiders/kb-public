@@ -58,3 +58,4 @@
 - [ ] Full TLD 2012 PDF → citation-level detail → read_depth: full
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

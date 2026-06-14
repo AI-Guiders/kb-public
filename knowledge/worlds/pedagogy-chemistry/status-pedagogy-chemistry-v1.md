@@ -27,3 +27,4 @@
 - Safety protocols mandatory; not optional flavor text
 
 *Версия: v1.0 · 2026-06-06*
+

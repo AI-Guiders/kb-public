@@ -57,3 +57,4 @@
 - **layer:** router (индекс кластера)  
 - **status:** active  
 - **updated_at:** 2026-05-10
+

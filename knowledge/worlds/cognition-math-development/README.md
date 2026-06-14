@@ -1,4 +1,4 @@
-﻿# World: cognition.math-development
+# World: cognition.math-development
 
 **KE id:** `cognition.math-development`  
 **Статус:** stub hub (2026-05-31) — developmental math / numeracy evidence, **не** CASA spec.

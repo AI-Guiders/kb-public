@@ -95,3 +95,4 @@ l0_manifest: knowledge/META/memory-architecture-v1.json
 
 **Роутер:** supplement § `router-kb-operational-freshness`.
 <!-- /section:kb-operational-freshness-v1 -->
+

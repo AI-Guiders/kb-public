@@ -62,3 +62,4 @@
 - Meta: [`kb-pedagogy-chen-2023-worked-examples-evidence-v1.md`](kb-pedagogy-chen-2023-worked-examples-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06*
+

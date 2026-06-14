@@ -45,3 +45,4 @@ Closed. Legacy aliases were retired after semantic-primary stabilization.
 
 IT domain operationally closed at v1 with phase-c baseline complete.  
 Next step: cleanup pass (index compaction and alias-window reduction).
+

@@ -1,4 +1,4 @@
-﻿# Evidence: Saxton (1997) — The contrast theory of negative input
+# Evidence: Saxton (1997) — The contrast theory of negative input
 
 ## Provenance
 

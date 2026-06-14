@@ -1,4 +1,4 @@
-﻿# Мир **cognition.language-acquisition** (детское усвоение языка L1)
+# Мир **cognition.language-acquisition** (детское усвоение языка L1)
 
 **Идентификатор мира:** `cognition.language-acquisition`  
 **Каталог:** `knowledge/worlds/cognition-language-acquisition/`  

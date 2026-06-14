@@ -93,3 +93,4 @@
 ## Триггер для роутера / агента
 
 «в каком репо», «куда записать», «три репозитория», «kb-public vs agent-notes», «свой org KB», «white-label», «синк заметок», **«personal scope vs group catalog»**, **«scope contour»** → **сначала этот файл**, затем узкий playbook.
+

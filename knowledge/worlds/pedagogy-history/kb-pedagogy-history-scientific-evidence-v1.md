@@ -26,3 +26,4 @@
 | Cross-cutting pedagogy | [`../pedagogy-general/kb-pedagogy-scientific-evidence-v1.md`](../pedagogy-general/kb-pedagogy-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

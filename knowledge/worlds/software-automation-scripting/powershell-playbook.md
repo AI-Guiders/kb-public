@@ -50,3 +50,4 @@ Dedicated playbook for reliable Windows-first automation using PowerShell.
 - Frequent path/quoting regressions.
 - Repeat failures from implicit error semantics.
 - Growing script complexity without modularization.
+

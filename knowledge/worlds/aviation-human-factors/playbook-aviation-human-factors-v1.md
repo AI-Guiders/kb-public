@@ -64,3 +64,4 @@ This domain is "done v1" when:
 - reading map exists with first-party grounding;
 - one curated rules set is available for operational reuse;
 - status artifact and index routing are synchronized.
+

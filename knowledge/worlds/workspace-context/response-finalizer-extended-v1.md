@@ -19,3 +19,4 @@
 **Как:** смысл и шаги готовы → короткий проход **без** нового содержания; сомнительное слово — проверить; пути — сверить с деревом.
 
 **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) → эта секция.
+

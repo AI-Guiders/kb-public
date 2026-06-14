@@ -17,3 +17,4 @@
 ## Версия
 
 v1.0 — перенос из корня `knowledge/` в `worlds/software-engineering-evidence/` (ветка `feature/kb-taxonomy-layout-v1`).
+

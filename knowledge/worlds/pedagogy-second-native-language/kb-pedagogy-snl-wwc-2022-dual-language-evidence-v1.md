@@ -54,3 +54,4 @@
 - [`kb-pedagogy-snl-thomas-collier-2017-dual-language-evidence-v1.md`](kb-pedagogy-snl-thomas-collier-2017-dual-language-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

@@ -23,3 +23,4 @@
 **Триггер:** «сейчас быстренько напишу, потом разберусь» → пауза, один шаг ориентирования.
 
 **Связь:** [`playbook-agent-autonomy-and-routing-v1.md`](playbook-agent-autonomy-and-routing-v1.md); дожим хвоста — [`response-one-step-checklist-extended-v1.md`](../workspace-context/response-one-step-checklist-extended-v1.md) (замыкание vs старт без контекста).
+

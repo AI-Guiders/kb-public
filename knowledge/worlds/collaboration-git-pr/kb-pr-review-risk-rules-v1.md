@@ -95,3 +95,4 @@ Focus: high-signal review with low process overhead.
 - Recurring failure classes: missed behavior regressions, mixed PR scope, weak verification paths.
 
 <!-- markdownlint-enable MD022 MD032 -->
+

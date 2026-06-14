@@ -51,3 +51,4 @@
 - **Roadmap → full read_depth:** Wilson HERJ full PDF; WWC DLI primary studies; Schneider arts domain breakdown.
 
 *Версия: v1.2 · 2026-06-06*
+

@@ -61,3 +61,4 @@ Specialized playbook for C# diagnostics, refactorings, and debug workflows in .N
 - High debug time with weak reproducibility.
 - Frequent mismatch between local and CI outcomes.
 - Rising regressions after refactors.
+

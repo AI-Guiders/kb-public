@@ -718,3 +718,4 @@ Parent: `world-life`
 3) Метрики учитывают задержку эффекта.
 <!-- /section:world-systems-dynamics-subdomain-v1 -->
 
+

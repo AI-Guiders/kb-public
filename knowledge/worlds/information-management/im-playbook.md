@@ -63,3 +63,4 @@ This file stores stable IM concepts, rules, and decision patterns that do not de
 ## Project Overlay Contract
 - Product-specific decisions (for example IMC UX, repo paths, sprint scopes) stay in canonical notes sections like `scope-imc` and related `imc-*` blocks.
 - This playbook remains domain-only and reusable across projects.
+

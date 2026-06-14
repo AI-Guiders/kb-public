@@ -84,3 +84,4 @@
 - Сжатый fundamentals: [`kb-human-perception-fundamentals-v1.md`](kb-human-perception-fundamentals-v1.md)
 
 *Версия карточки: v1.2 · 2026-04-20 — семантическое имя `*-evidence-v1` (канон `kb-*-evidence-v1`).*
+

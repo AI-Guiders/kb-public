@@ -101,3 +101,4 @@
 ---
 
 *Версия: v1 · operational split fundamentals → operational · 2026-05-10*
+

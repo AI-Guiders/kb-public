@@ -145,3 +145,4 @@ MCP id **`group`** и **`public`** — **технические**, не меня
 | `templates/newcomer/template-org-kb-bootstrap-codeowners-v1.md` | CODEOWNERS |
 | `templates/newcomer/template-org-kb-bootstrap-readme-group-v1.md` | README корня group |
 | `templates/newcomer/template-clean-setup-*` | personal + MCP у участников |
+

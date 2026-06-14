@@ -91,3 +91,4 @@
 - [`kb-neurolinguistics-perani-abutalebi-2015-bilingual-control-evidence-v1.md`](kb-neurolinguistics-perani-abutalebi-2015-bilingual-control-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended) · type: boundary*
+

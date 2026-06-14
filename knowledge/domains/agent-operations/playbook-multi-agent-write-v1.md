@@ -42,3 +42,4 @@
   - no destructive conflict resolution,
   - every write traceable by owner and timestamp.
 <!-- /section:multi-agent-write-protocol-v1 -->
+

@@ -23,3 +23,4 @@
 ## Как дополнять
 
 По мере закрытия digest-критерия — отдельные `troubleshooting/playbook-<facet>-troubleshooting-v1.md` под `systems-it/` или вынести в новый world facet.
+

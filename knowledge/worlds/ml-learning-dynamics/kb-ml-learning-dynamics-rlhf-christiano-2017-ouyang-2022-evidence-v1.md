@@ -1,4 +1,4 @@
-﻿# Evidence: RLHF — Christiano et al. (2017) + Ouyang et al. (2022, InstructGPT)
+# Evidence: RLHF — Christiano et al. (2017) + Ouyang et al. (2022, InstructGPT)
 
 ## Provenance
 - source_refs:

@@ -27,3 +27,4 @@
 - Age-appropriate civic action; no performative activism without inquiry
 
 *Версия: v1.0 · 2026-06-06*
+

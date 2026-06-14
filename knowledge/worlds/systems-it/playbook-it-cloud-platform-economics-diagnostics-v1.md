@@ -54,3 +54,4 @@ This playbook slice is "done v1" when:
 - at least one curated knowledge set captures reusable rules;
 - reading digest includes source-backed entries;
 - canonical index points to all slice artifacts.
+

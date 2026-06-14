@@ -64,3 +64,4 @@
 - **2026 layer:** [`kb-pedagogy-physics-theobald-2020-active-learning-evidence-v1.md`](kb-pedagogy-physics-theobald-2020-active-learning-evidence-v1.md)
 
 *Версия: v1.1 · 2026-06-06 · read_depth: full*
+

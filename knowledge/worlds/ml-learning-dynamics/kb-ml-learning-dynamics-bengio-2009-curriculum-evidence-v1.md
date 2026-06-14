@@ -1,4 +1,4 @@
-﻿# Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning
+# Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning
 
 ## Provenance
 - source_refs:

@@ -216,3 +216,4 @@
 - Перед Exp K emit: прогнать paraphrase bench; code-agent опирается на digest после literacy-маршрута (будущий P3).
 
 **Версия:** v1 · 2026-05-29
+

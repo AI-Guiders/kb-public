@@ -40,3 +40,4 @@
 ## Full pass hint
 
 - «Полный проход» → `index-knowledge-javascript-cluster-v1.md` (фаза A → фаза B) + `playbook-javascript-operational-v1.md` § 5.
+

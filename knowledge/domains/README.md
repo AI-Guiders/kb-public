@@ -8,3 +8,4 @@
 Определения корней и отличие от `work/projects/` — **`../META/kb-taxonomy-v1.md`**.
 
 **v1:** [`agent-operations/`](agent-operations/) — сквозные playbooks агента (маркеры, integrity, параллельные записи). Другие `domains/<slug>/` — по мере появления контента.
+

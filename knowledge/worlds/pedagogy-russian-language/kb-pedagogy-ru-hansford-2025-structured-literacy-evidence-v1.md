@@ -53,3 +53,4 @@
 - [`kb-pedagogy-ru-stalega-2024-pa-only-meta-evidence-v1.md`](kb-pedagogy-ru-stalega-2024-pa-only-meta-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

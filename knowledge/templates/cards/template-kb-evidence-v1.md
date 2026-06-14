@@ -1,4 +1,4 @@
-﻿# KB evidence card template (kb-`<slug>`-evidence-v1)
+# KB evidence card template (kb-`<slug>`-evidence-v1)
 
 **Имя файла:** `kb-<topic>-evidence-v1.md` (в `knowledge/` или `worlds/<world>/`).
 

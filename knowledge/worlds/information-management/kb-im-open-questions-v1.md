@@ -52,3 +52,4 @@
 - При закрытии вопроса: сменить status на `closed`, добавить кратко «Resolved by: …».
 - Новые вопросы добавлять по тому же формату (Question, Context, What would resolve, Status).
 - Канонический список дублируется в `im-playbook.md` → Open Questions Backlog; при расхождении приоритет у этого файла (kb — развёрнутая форма).
+

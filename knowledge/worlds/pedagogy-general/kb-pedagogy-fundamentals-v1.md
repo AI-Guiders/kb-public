@@ -100,3 +100,4 @@ Fail step 5 → revise 2–3, **not** tune probe to pass.
 - Cross-cutting: [`kb-pedagogy-scientific-evidence-v1.md`](kb-pedagogy-scientific-evidence-v1.md)
 - Synthesis: [`kb-pedagogy-evidence-global-v1.md`](kb-pedagogy-evidence-global-v1.md)
 - Provenance: `META/provenance-contract-v1.md`
+

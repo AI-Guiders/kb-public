@@ -259,3 +259,4 @@ Markdown-файлы карты и алиасов **остаются** в **prima
 | **3** | Публичный API + приборка Core/MCP (`ResolveCanonPath` → `ResolveKnowledgeRoot`, убрать `McpResolvePaths*`, дубликаты `.cs`); см. MCP ADR 014 «Техдолг»; удалить META JSON из KB |
 | **4** | **Релиз `2.0.0`**: без legacy env в supported path; README/migration; тег NuGet/exe при публикации |
 
+

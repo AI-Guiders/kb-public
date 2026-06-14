@@ -15,3 +15,4 @@
 - **Размытый запрос:** [`worlds/agent-orchestration/playbook-clarification-general-query-v1.md`](../../worlds/agent-orchestration/playbook-clarification-general-query-v1.md).
 
 **Цель:** учитывать неявное высказывание, не только буквальные совпадения.
+

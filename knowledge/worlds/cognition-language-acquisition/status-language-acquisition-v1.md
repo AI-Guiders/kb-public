@@ -28,3 +28,4 @@ Artifacts:
 - Domain Entry Map: `index-knowledge-router-v1.md` · Child language acquisition (L1)
 
 *Версия: v1.0 · 2026-05-31*
+

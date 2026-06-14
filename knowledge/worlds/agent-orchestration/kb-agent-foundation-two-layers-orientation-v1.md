@@ -78,3 +78,4 @@ flowchart TB
 - путаница «world model» vs «world» в KE / `scope`;
 - обсуждение стека агента (IDE + KB + embodied);
 - **не** под установку GPU, датасетов Cosmos, post-training — туда внешние cookbook и `software.ml-applied` по задаче.
+

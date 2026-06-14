@@ -6,3 +6,4 @@
 
 Легаси-путь (редирект): [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md).  
 HCI operational: [`../playbook-hci-core-v1.md`](../playbook-hci-core-v1.md). Восприятие: [`../../cognition-human-perception/troubleshooting/`](../../cognition-human-perception/troubleshooting/).
+

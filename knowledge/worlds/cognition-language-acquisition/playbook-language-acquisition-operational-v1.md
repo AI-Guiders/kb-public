@@ -46,3 +46,4 @@
 Этот мир — **факты о human L1**. Мост — только explicit engineering validation.
 
 *Версия: v1.0 · 2026-05-31*
+

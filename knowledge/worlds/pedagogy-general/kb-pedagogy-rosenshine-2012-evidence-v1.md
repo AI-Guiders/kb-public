@@ -67,3 +67,4 @@ Rosenshine distilled **10 principles** from: (a) cognitive science on working me
 - Synthesis: [`kb-pedagogy-evidence-global-v1.md`](kb-pedagogy-evidence-global-v1.md)
 
 *Версия: v1.0 · 2026-06-06*
+

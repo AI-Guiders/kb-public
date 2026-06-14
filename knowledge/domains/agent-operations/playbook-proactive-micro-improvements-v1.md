@@ -16,3 +16,4 @@
 - Не плодить жёсткие правила; добавлять паттерны и примеры в канон.
 
 **Код:** [`worlds/software-authoring/code-writing-principles-v1.md`](../../worlds/software-authoring/code-writing-principles-v1.md) — дополняет refactor-after-check.
+

@@ -68,3 +68,4 @@
 ## Канон
 
 Плейбук — `knowledge/worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`; скрипт — `tools/Export-CursorJsonlTranscript.ps1` в репозитории **agent-notes** (канон). Путь к корню канона для MCP — **`AGENT_NOTES_CANON_PATH`** (или `canon_path` в вызове); дублировать репозиторий канона внутри workspace (хаб DTS, Personal Cursor Folder и т.п.) для этого **не требуется**.
+

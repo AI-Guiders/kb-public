@@ -1,4 +1,4 @@
-﻿# Status: software.authoring v1
+# Status: software.authoring v1
 
 **Домен:** принципы написания кода, декомпозиция, OOA&D (канон для агента и человека).
 
@@ -50,3 +50,4 @@
 
 Легаси-теги `software.php`, `software.javascript` в старых карточках = те же миры.
 <!-- /section:language-worlds-v1 -->
+

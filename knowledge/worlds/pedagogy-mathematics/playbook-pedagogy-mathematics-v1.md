@@ -19,3 +19,4 @@
 - Pure theorem proving without instructional design
 
 *Версия: v1.0 · 2026-06-06*
+

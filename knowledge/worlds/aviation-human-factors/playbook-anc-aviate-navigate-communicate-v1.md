@@ -1,4 +1,4 @@
-﻿# Playbook: ANC (Aviate, Navigate, Communicate)
+# Playbook: ANC (Aviate, Navigate, Communicate)
 
 Версия: v1  
 Назначение: приоритеты действий агента в сложных или неполных условиях; дополняет human–agent parity (инструменты как у разработчика в IDE) и явную коммуникацию пробелов.

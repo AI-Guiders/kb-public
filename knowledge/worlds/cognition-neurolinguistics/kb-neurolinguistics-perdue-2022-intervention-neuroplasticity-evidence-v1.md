@@ -62,3 +62,4 @@
 - [`../pedagogy-russian-language/kb-pedagogy-ru-castles-2018-evidence-v1.md`](../pedagogy-russian-language/kb-pedagogy-ru-castles-2018-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

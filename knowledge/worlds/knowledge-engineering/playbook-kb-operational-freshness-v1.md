@@ -218,3 +218,4 @@
 v1.2 · 2026-05-16 — делегирование сроков в `status-*` Maintenance Policy / KE Operating Rhythm; отличие от router Maintenance Rule.  
 v1.1 · 2026-05-16 — слои fundamentals/operational/evidence.  
 v1.0 · 2026-05-16 — первая централизация agent UX (KBMC — отдельный PWA).
+

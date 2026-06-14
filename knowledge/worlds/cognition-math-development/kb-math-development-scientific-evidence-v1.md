@@ -1,4 +1,4 @@
-﻿# Scientific evidence — math development (elementary) v1
+# Scientific evidence — math development (elementary) v1
 
 **Мир:** `cognition.math-development`  
 **Назначение:** индекс human evidence по числу, базовым вычислениям и math achievement (не CASA spec).

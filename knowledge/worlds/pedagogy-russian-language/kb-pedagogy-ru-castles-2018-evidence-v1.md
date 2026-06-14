@@ -114,3 +114,4 @@
 - Index: [`kb-pedagogy-ru-scientific-evidence-v1.md`](kb-pedagogy-ru-scientific-evidence-v1.md)
 
 *Версия: v1.2 · 2026-06-06 — read_depth: full (ORA PDF)*
+

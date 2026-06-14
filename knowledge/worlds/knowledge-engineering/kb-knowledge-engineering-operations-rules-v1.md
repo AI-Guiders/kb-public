@@ -192,3 +192,4 @@ Focus: knowledge-engineering operational reliability (retention, section updates
 - Archive revision extracts (retention, revision hygiene, layered loading).
 - Tool-trace patterns from long operational transcript (append/upsert/restore behavior).
 - Operational incidents around context compression and recovery workflow.
+

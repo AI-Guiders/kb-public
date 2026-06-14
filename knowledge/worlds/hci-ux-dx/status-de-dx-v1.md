@@ -37,3 +37,4 @@ Completed artifacts:
 | Интерфейс и когнитивная нагрузка | HCI, `ui-ux-playbook.md`, `kb-ui-ux-literature-evidence-v1.md` |
 | Принципы IDE / интегрированной среды (литература) | `kb-ide-dx-literature-evidence-v1.md` |
 | Desktop IDE (Avalonia Cascade) | домен Avalonia UI в роутере; продуктовые метрики — в ADR репозитория приложения |
+

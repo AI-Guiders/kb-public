@@ -1,4 +1,4 @@
-﻿# Evidence: Chouinard & Clark (2003) — Adult reformulations as negative evidence
+# Evidence: Chouinard & Clark (2003) — Adult reformulations as negative evidence
 
 ## Provenance
 

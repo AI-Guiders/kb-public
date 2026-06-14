@@ -83,3 +83,4 @@ Revisit if cycle times up, repeated failure class, low-signal debug sessions.
 ## Как дополнять
 
 Product-specific tooling — `work/projects/…`; сюда — только обобщённые паттерны.
+

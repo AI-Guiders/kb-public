@@ -42,3 +42,4 @@
 ## Как дополнять
 
 Новый E* — таблица + секция в `playbook-world-life-modeling-toolchain-v1` § modeling-errors-catalog.
+

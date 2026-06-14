@@ -448,3 +448,4 @@ class Program
 - Профессиональный стиль кода — [`code-writing-principles-v1.md`](../software-authoring/code-writing-principles-v1.md) — **после** того как программа компилируется.
 
 **Версия:** v1 · 2026-05-29
+

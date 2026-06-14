@@ -19,3 +19,4 @@
 - Research lab techniques as school gate substitute
 
 *Версия: v1.0 · 2026-06-06*
+

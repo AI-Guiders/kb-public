@@ -9,3 +9,4 @@
 Roslyn: `knowledge/worlds/software-dotnet-tooling-roslyn/troubleshooting/playbook-dotnet-roslyn-troubleshooting-v1.md`.
 
 *Этот файл сохранён для обратной совместимости ссылок из роутера и README.*
+

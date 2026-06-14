@@ -240,3 +240,4 @@ flowchart LR
 ## Статус принятия
 
 **Accepted** 2026-06-12. Federation runbook: [`runbook-org-kb-federation-v1.md`](../work/projects/door-to-singularity/agent-notes-kb/templates/runbook-org-kb-federation-v1.md).
+

@@ -64,3 +64,4 @@ Closed. Legacy aliases were retired after semantic-primary stabilization.
 
 Engineering-reading foundation closed at v1.  
 Next step: move to remaining pending technical domain, then run naming/index cleanup.
+

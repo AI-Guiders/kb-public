@@ -36,3 +36,4 @@ Primary-name anti-patterns:
 ## Execution Record
 
 Final retirement outcome is tracked in `alias-retirement-report-v1.md`.
+

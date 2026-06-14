@@ -178,3 +178,4 @@ Alias window is closed. Legacy alias files were retired after semantic-primary m
 - Update canonical `agent-notes.md` when operational protocol changes.
 - Update files in `knowledge/*` for deep reference changes.
 - **Согласованность памяти:** при добавлении/переименовании домена или kb обновлять: (1) `index-knowledge-router-v1.md` → Domain Entry Map; (2) этот README → список Files; (3) при смене/расширении оперативного дерева `work/` — `work/README.md`; (4) `agent-notes-l1-pool.md` — если домен упомянут в списке L1; (5) при смене L0/агент/SHOWCASE-контракта роутера — `router-operational-baseline-v1.md`; (6) при новой секции `router-*` или смене списка section_id — `index-knowledge-router-maintenance-v1.md`; (7) при смене чек-листа Safety в роутере — `index-knowledge-router-safety-v1.md`. Секция `knowledge-index-v1` в agent-notes отсылает к index и L1 pool.
+

@@ -18,3 +18,4 @@
 ## Версия
 
 v1.0 — перенос из корня `knowledge/` в `worlds/psychology-models/` (ветка `feature/kb-taxonomy-layout-v1`).
+

@@ -1,4 +1,4 @@
-﻿# Transfer matrix template (matrix-`<slug>`-v1)
+# Transfer matrix template (matrix-`<slug>`-v1)
 
 **Имя файла:** `matrix-<domain-or-topic>-<purpose>-v1.md` (обычно в `worlds/<world>/`).
 

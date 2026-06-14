@@ -27,3 +27,4 @@ Prefer **Theobald 2020** + **Wells 1995** for program claims; Hake 1998 = founda
 | Cross-cutting pedagogy | [`../pedagogy-general/kb-pedagogy-scientific-evidence-v1.md`](../pedagogy-general/kb-pedagogy-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06 · 2020–26 refresh*
+

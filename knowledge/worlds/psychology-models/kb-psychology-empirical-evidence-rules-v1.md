@@ -195,3 +195,4 @@ Evidence posture: pragmatic and cautious; effect signals accepted with boundary 
 - Transactional-analysis systematic review + exploratory meta evidence.
 - Meaning-centered/logotherapy-adjacent reviews and meta-analyses.
 - Object-relations evidence reviews emphasizing measurement depth and treatment-evidence caution.
+

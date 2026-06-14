@@ -27,3 +27,4 @@ Ebner 2025 + Barbieri 2023 already current layer.
 | Physics quantity bridge | [`../pedagogy-physics/kb-pedagogy-physics-scientific-evidence-v1.md`](../pedagogy-physics/kb-pedagogy-physics-scientific-evidence-v1.md) |
 
 *Версия: v1.1 · 2026-06-06*
+

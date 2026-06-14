@@ -56,3 +56,4 @@
 - **Pair:** [`kb-pedagogy-snl-long-1991-form-in-input-evidence-v1.md`](kb-pedagogy-snl-long-1991-form-in-input-evidence-v1.md)
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

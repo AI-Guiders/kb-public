@@ -1,4 +1,4 @@
-﻿# Child language acquisition — scientific evidence index v1
+# Child language acquisition — scientific evidence index v1
 
 ## Metadata
 
@@ -32,3 +32,4 @@
 | SNL bridge | [`../pedagogy-second-native-language/matrix-pedagogy-snl-l1-acquisition-bridge-v1.md`](../pedagogy-second-native-language/matrix-pedagogy-snl-l1-acquisition-bridge-v1.md) |
 
 *Версия: v1.6 · 2026-06-06 · 2020–26 input layer*
+

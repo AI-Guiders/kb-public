@@ -40,3 +40,4 @@ last_reviewed_utc: 2026-03-21
 <!-- section:dotnet-unicode-hint -->
 **.NET:** `RegexOptions.ECMAScript` меняет семантику ряда конструкций; для Unicode-категорий обычно нужен стандартный .NET-режим без урезания до ECMAScript.
 <!-- /section:dotnet-unicode-hint -->
+

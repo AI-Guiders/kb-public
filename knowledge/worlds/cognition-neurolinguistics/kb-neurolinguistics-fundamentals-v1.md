@@ -51,3 +51,4 @@ pedagogy.*  →  gates, probes, program arc
 ```
 
 *Evidence index:* [`kb-neurolinguistics-scientific-evidence-v1.md`](kb-neurolinguistics-scientific-evidence-v1.md)
+

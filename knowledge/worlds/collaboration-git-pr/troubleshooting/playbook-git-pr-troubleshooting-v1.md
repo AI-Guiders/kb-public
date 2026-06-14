@@ -20,3 +20,4 @@
 ## Как дополнять
 
 Product-specific git (monorepo layout) — `work/projects/…` README § Git.
+

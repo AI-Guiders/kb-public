@@ -207,3 +207,4 @@
 - status: active
 - layer: kb / evidence-based language reference
 - transfer_boundary: применимо при любом порождении или редактировании русского текста агентом; ответы по норме русского языка опирать на указанные источники.
+

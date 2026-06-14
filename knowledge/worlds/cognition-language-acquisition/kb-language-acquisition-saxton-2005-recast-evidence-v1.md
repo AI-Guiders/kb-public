@@ -1,4 +1,4 @@
-﻿# Evidence: Saxton (2005) — Recast in a New Light (review)
+# Evidence: Saxton (2005) — Recast in a New Light (review)
 
 ## Provenance
 

@@ -63,3 +63,4 @@
 - [ ] Studio Thinking 2 vignettes → critique protocol templates → read_depth: full
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

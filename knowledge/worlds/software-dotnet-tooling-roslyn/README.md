@@ -11,3 +11,4 @@
 | [`troubleshooting/`](troubleshooting/README.md) | Симптомы CSxxxx, MCP, code actions |
 
 Язык C#: [`../software-dotnet-csharp/`](../software-dotnet-csharp/). Кросс-языковая структура: [`../software-authoring/`](../software-authoring/).
+

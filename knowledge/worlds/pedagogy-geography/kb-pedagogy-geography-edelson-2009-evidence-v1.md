@@ -53,3 +53,4 @@
 - [ ] NRC 2006 spatial card → read_depth: full; spatial skill probe bank
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

@@ -1,4 +1,4 @@
-﻿# Evidence: Clarke, Soto & Nelson — Recasts and AAC interaction (review)
+# Evidence: Clarke, Soto & Nelson — Recasts and AAC interaction (review)
 
 ## Provenance
 

@@ -233,3 +233,4 @@ Note: classical theories are high-value for interpretation but not equally valid
 - Status: `operational baseline`; promote high-impact rules only after modern review pass.
 
 <!-- markdownlint-enable MD022 MD032 -->
+

@@ -30,3 +30,4 @@ General reasoning layer for any domain: IT, research, strategy, and communicatio
 ## Maintenance Rules
 - Keep this file concise and index-like.
 - Keep narrative or chapter-level detail in canonical section blocks and archive revisions.
+

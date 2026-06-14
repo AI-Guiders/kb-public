@@ -27,3 +27,4 @@
 - RU decoding world → separate bridge for fluent read prerequisite
 
 *Версия: v1.0 · 2026-06-06*
+

@@ -231,3 +231,4 @@ Focus: cloud/platform engineering + architecture economics + large-scale diagnos
 - Kubernetes reliability components and disruption control references.
 - AWS Well-Architected cost optimization principles.
 - OpenTelemetry metrics SDK and cardinality-governance guidance.
+

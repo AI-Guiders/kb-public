@@ -28,3 +28,4 @@ Use this runbook when context is compressed, reset, or uncertain.
 - Loading multiple large `kb-*` files before defining scope.
 - Mixing global and country-specific guidance without routing matrix.
 - Answering from memory when index points to fresher artifact.
+

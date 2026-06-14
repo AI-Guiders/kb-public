@@ -40,3 +40,4 @@
 - Роутер: одна ссылка на этот файл в `index-knowledge-router-v1.md` / supplement.
 
 **История hub:** 2026-06-12 — рефакторинг: монолит ~186 строк → маршрутизатор; тела в playbooks и extended-файлах. 2026-06-12 — cleanup: partnership vs responsibility, execution-gate иерархия.
+

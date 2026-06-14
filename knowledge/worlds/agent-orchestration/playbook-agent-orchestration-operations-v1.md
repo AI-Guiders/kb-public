@@ -69,3 +69,4 @@ Scope: world-life calibration.
 - Failure signal:
   - if a new agent output violates shared protocol, treat as handoff-quality issue and repair via notes update.
 <!-- /section:auto-rotation-collaboration-v1 -->
+

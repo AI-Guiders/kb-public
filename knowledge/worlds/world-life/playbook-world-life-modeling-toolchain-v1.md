@@ -283,3 +283,4 @@ Scope: world-life / N-Why / сложные темы с высоким число
 - Дальше: адаптация стратегии, а не бесконечная Why-цепочка в той же оси.
 <!-- /section:representative-model-scaling-v1 -->
 
+

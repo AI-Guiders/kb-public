@@ -36,3 +36,4 @@ Neurocognitive synthesis for **language and literacy**: reading networks (VWFA, 
 - [ ] Ullman DP model card (grammar proceduralization ↔ immersion FoF)
 
 *Версия: v1.1 · 2026-06-06*
+

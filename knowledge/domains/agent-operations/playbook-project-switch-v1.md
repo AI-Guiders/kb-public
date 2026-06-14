@@ -30,3 +30,4 @@
 - Вызов MCP: параметр **`active_scope`**, если slice должен отличаться от резолва по пути.
 - **route_context** индексирует только `agent-notes.md`; playbook и карточки проектов — **`read_knowledge_file`** по путям из `knowledge/work/projects/`.
 <!-- /section:project-switch-protocol-v1 -->
+

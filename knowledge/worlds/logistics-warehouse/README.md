@@ -16,3 +16,4 @@
 ## История
 
 v1.0 — перенос из корня `knowledge/` в `worlds/logistics-warehouse/` (ветка `feature/kb-taxonomy-layout-v1`).
+

@@ -1,4 +1,4 @@
-﻿# Warehouse Domain Status v1
+# Warehouse Domain Status v1
 
 ## Scope
 

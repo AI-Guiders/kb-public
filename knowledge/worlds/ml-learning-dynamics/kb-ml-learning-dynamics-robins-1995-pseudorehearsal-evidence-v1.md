@@ -1,4 +1,4 @@
-﻿# Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal
+# Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal
 
 ## Provenance
 - source_refs:

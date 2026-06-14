@@ -163,3 +163,4 @@ TCP/IP — практический стек протоколов Интерне
 ---
 
 *Источники: официальная документация по протоколам (RFC), учебные материалы (OSI, TCP/IP, CCNA-ориентированные темы), статьи по прокси, балансировщикам, файрволам, STP, VLAN, ACL, QoS. Справочник дополнен: VLAN trunking 802.1Q, native VLAN, DTP, STP/RSTP/MSTP, EtherChannel/LACP, ACL, QoS, топологии (two-tier, three-tier, spine-leaf, WAN, SOHO), NTP, SNMP — картина от модели OSI до диагностики и IP-сервисов.*
+

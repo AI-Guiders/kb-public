@@ -104,3 +104,4 @@
 - **index-knowledge-router-v1.md**: при запросах про терапию, поддержку, травму, направление к специалисту — загружать этот документ и секцию agent-supportive-listening-gap-v1.
 - **route-context-hints-v1**: триггеры (терапия, границы терапии, когда к терапевту, травма, флешбэк, кризис) → kb-therapy-and-support-boundaries-v1, agent-supportive-listening-gap-v1.
 - **Psychology domain:** `worlds/psychology-models/status-psychology-v1.md`, `worlds/psychology-models/playbook-psychology-core-models-v1.md` — общий контур психологии; данный kb фокусируется на границах терапии/поддержки и поведении агента, не на теориях школ.
+

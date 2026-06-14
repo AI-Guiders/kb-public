@@ -24,3 +24,4 @@ Foundational Rosenshine/Sweller 1988 still valid; prefer **Sweller 2019**, **Bar
 > `chen-2023` filename retained; authors **Barbieri et al. (2023)**.
 
 *Версия: v1.2 · 2026-06-06*
+

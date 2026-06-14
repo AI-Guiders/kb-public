@@ -27,3 +27,4 @@
 - Evolution / ethics topics need age-appropriate framing, not dodge
 
 *Версия: v1.0 · 2026-06-06*
+

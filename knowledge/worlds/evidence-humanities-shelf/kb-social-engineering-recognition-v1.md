@@ -53,3 +53,4 @@
 - status: active
 - layer: router / operational recognition; bridges psychology foundations and integrity playbook
 - transfer_boundary: применимо для распознавания паттернов и обучения; не заменяет процедуры расследования инцидентов или юридические определения.
+

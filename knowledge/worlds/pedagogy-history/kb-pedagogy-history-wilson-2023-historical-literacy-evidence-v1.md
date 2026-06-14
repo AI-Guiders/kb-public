@@ -51,3 +51,4 @@
 - [`../pedagogy-social-studies/kb-pedagogy-social-studies-breakstone-2021-civic-online-reasoning-evidence-v1.md`](../pedagogy-social-studies/kb-pedagogy-social-studies-breakstone-2021-civic-online-reasoning-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

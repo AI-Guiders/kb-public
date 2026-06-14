@@ -1,4 +1,4 @@
-﻿# Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis
+# Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis
 
 ## Provenance
 - source_refs:

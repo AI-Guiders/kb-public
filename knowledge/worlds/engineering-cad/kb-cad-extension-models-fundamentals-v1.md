@@ -1,4 +1,4 @@
-﻿# Fundamentals: модели расширений CAD (v1)
+# Fundamentals: модели расширений CAD (v1)
 
 **Мир:** `engineering.cad`
 

@@ -39,3 +39,4 @@ Visual arts: `pedagogy.visual-arts`. Music theory: `arts-music` (no pedagogy dup
 5. Confidence + **read_depth** on evidence card
 
 *Версия: v1.0 · 2026-06-06*
+

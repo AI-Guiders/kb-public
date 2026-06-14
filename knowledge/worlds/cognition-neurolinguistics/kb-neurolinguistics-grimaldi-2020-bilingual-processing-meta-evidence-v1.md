@@ -52,3 +52,4 @@
 - [`kb-neurolinguistics-yeh-2026-developing-bilingual-brain-evidence-v1.md`](kb-neurolinguistics-yeh-2026-developing-bilingual-brain-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

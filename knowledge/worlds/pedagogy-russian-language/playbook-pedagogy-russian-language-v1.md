@@ -21,3 +21,4 @@
 - Orthography norm reference only → humanities shelf (not pedagogy hot path)
 
 *Версия: v1.1 · 2026-06-06*
+

@@ -25,3 +25,4 @@
 | Math representation | [`../pedagogy-mathematics/kb-pedagogy-math-scientific-evidence-v1.md`](../pedagogy-mathematics/kb-pedagogy-math-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

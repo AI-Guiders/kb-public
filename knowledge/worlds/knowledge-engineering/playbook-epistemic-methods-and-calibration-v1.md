@@ -208,3 +208,4 @@ Daily log (2-3 минуты):
 Эпистемические эвристики из ГПиМРМ вынесены в L1. По запросу: route_context('HPMOR'|'epistemic heuristics') или knowledge/agent-notes-l1-pool.md.
 <!-- /section:hpmor-l1-pool-v1 -->
 
+

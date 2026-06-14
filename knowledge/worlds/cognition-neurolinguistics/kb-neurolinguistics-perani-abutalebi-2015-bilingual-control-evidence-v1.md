@@ -62,3 +62,4 @@
 - **Pair with:** [`../pedagogy-second-native-language/kb-pedagogy-snl-genesee-2012-immersion-evidence-v1.md`](../pedagogy-second-native-language/kb-pedagogy-snl-genesee-2012-immersion-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

@@ -26,3 +26,4 @@
 
 - Index: `index-knowledge-router-v1.md` → Domain Entry Map, строка Medicine (Evidence).
 - Связь с эпистемией: `epistemic-playbook.md` (проверка утверждений, недоверие по умолчанию) применима к любым заявлениям о «эффективности» вне ссылки на документ.
+

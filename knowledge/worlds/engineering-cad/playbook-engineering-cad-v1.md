@@ -1,4 +1,4 @@
-﻿# Playbook: engineering.cad (корень мира) v1
+# Playbook: engineering.cad (корень мира) v1
 
 ## Purpose
 

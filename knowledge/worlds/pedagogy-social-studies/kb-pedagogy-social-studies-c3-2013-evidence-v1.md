@@ -64,3 +64,4 @@
 - [ ] RU band indicator map → read_depth: full on selected anchors
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

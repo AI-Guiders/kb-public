@@ -68,3 +68,4 @@ Invariant:
 - scope split improves operations, but does not replace ontology routing.
 - **Операционные принципы:** hub `knowledge/agent-memory-and-operating-principles-v1.md` → целевой playbook; hot stubs: `proactive-micro-improvements-and-intuition-v1`, `fuzzy-search-and-implicit-language-v1`, `strict-execution-when-analogy-v1`, `autonomy-right-to-pause-reconnaissance-v1`. **Длинная сессия / итогы:** `playbook-session-summary-and-chat-export-v1.md`, `tools/Export-CursorJsonlTranscript.ps1`.
 - **Миры/метамиры:** stub-секции `world-*` в `agent-notes.md` → полные тексты в `knowledge/worlds/world-life/map-world-life-subworlds-v1.md`; правила — `knowledge/worlds/knowledge-engineering/kb-knowledge-engineering-multiworld-rules-v1.md`, `world-modeling-playbook.md`. Домены в index (Git, IT, …) — навигация knowledge, не подмиры world-life.
+

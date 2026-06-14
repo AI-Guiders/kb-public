@@ -25,3 +25,4 @@ Completed artifacts:
 - Behavior and safety risks take priority over style nits.
 - No merge with unresolved high-severity risk.
 - Evidence beats confidence when uncertain.
+

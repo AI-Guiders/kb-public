@@ -1,4 +1,4 @@
-﻿# Evidence: McClelland, McNaughton & O'Reilly (1995) — Complementary Learning Systems
+# Evidence: McClelland, McNaughton & O'Reilly (1995) — Complementary Learning Systems
 
 ## Provenance
 - source_refs:

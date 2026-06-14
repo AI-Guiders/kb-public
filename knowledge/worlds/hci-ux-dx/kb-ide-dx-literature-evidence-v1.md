@@ -188,3 +188,4 @@
 - `de-dx-playbook.md` — процесс поставки и метрики (DORA-ориентир), не дублируется здесь.
 - `kb-ui-ux-literature-evidence-v1.md` — классика UI/UX интерфейса.
 - `knowledge/worlds/software-dotnet-avalonia/playbook-avalonia-dock-ui-v1.md`, `knowledge/worlds/software-dotnet-avalonia/kb-avalonia-ui-dock-fundamentals-v1.md` — имплементация desktop IDE на Avalonia.
+

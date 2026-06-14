@@ -44,3 +44,4 @@ Operational IT reference layer for design, diagnostics, and decision-making.
 ## Maintenance Rules
 - Keep this file as a stable map and concise summary.
 - Keep detailed examples and long-term expansions in canonical section blocks.
+

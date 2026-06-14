@@ -14,3 +14,4 @@
 | [`../software-authoring/code-writing-principles-v1.md`](../software-authoring/code-writing-principles-v1.md) | Стиль C# |
 
 Иерархия миров: [`../software-authoring/kb-software-authoring-language-worlds-v1.md`](../software-authoring/kb-software-authoring-language-worlds-v1.md).
+

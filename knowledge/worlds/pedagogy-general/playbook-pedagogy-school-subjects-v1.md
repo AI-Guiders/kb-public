@@ -39,3 +39,4 @@
 - Reading map: [`map-pedagogy-school-subjects-reading-v1.md`](map-pedagogy-school-subjects-reading-v1.md)
 
 **Версия:** v1.0 · 2026-06-06
+

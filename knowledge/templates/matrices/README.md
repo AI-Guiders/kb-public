@@ -1,4 +1,4 @@
-﻿# `templates/matrices/` — шаблоны transfer / routing матриц
+# `templates/matrices/` — шаблоны transfer / routing матриц
 
 Каркасы для **`matrix-*-v1.md`** в `worlds/<world>/` (или редко в `domains/`).
 

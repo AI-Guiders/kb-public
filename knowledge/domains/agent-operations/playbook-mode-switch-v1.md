@@ -14,3 +14,4 @@
 - If marker is missing and intent is ambiguous, keep current mode and ask one clarifying question only when required.
 - Priority rule: explicit marker in user message always overrides previous mode state.
 <!-- /section:mode-switch-protocol -->
+

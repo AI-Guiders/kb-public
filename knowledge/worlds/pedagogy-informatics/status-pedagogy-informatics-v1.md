@@ -27,3 +27,4 @@
 - Professional SWE practices → separate world, not school default
 
 *Версия: v1.0 · 2026-06-06*
+

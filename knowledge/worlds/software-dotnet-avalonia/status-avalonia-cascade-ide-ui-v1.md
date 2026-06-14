@@ -66,3 +66,4 @@ Artifacts:
 **Tooling:** `software.authoring.dotnet.tooling.roslyn` — диагностики/MCP, **отдельно** от языка.  
 **Легаси:** `software.desktop-ui`.
 <!-- /section:world-tag-v1 -->
+

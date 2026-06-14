@@ -56,3 +56,4 @@
 - **Deny:** EN «reader» books without decoding instruction for second-native learners
 
 *Версия: v1.0 · 2026-06-06 · read_depth: bridge (canonical full on RU Castles card)*
+

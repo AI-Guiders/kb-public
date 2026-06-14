@@ -19,3 +19,4 @@
 - Analytical lab SOPs as pedagogy substitute
 
 *Версия: v1.0 · 2026-06-06*
+

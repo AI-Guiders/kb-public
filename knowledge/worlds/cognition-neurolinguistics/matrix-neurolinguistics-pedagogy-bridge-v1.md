@@ -31,3 +31,4 @@ Neuro → school pedagogy: **allow-with-check** for design rationale; **deny** f
 - «Bilingual brain separate slots → grammar translation OK»
 
 *Версия: v1.0 · 2026-06-06*
+

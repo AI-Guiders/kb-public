@@ -9,3 +9,4 @@
 | `agent-notes.md` | Stub на строку на секцию (`route_context` / `read_hot_context`) |
 
 Правила миров: `knowledge/worlds/knowledge-engineering/kb-knowledge-engineering-multiworld-rules-v1.md`.
+

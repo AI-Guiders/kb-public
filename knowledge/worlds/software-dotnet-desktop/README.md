@@ -9,3 +9,4 @@
 | `software.authoring.dotnet.csharp.desktop-ui.avalonia` | [`../software-dotnet-avalonia/`](../software-dotnet-avalonia/) |
 
 Кросс-языковое (OOA&D, matrix): [`../software-authoring/`](../software-authoring/).
+

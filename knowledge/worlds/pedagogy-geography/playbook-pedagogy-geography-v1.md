@@ -19,3 +19,4 @@
 - Travel trivia as geography mastery gate
 
 *Версия: v1.0 · 2026-06-06*
+

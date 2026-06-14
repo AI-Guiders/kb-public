@@ -59,3 +59,4 @@
 - **Deny:** label «bilingual» with <30% L2 medium time and no L1 literacy parallel
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

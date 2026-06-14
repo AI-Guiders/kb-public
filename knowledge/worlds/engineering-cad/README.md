@@ -1,4 +1,4 @@
-﻿# Мир **engineering.cad** (САПР / CAD-плагины)
+# Мир **engineering.cad** (САПР / CAD-плагины)
 
 **World tag:** `engineering.cad`  
 **Каталог:** `knowledge/worlds/engineering-cad/`

@@ -1,4 +1,4 @@
-﻿# Playbook: `<topic>` v1 (template)
+# Playbook: `<topic>` v1 (template)
 
 ## Purpose
 

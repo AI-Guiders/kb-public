@@ -41,3 +41,4 @@
 | K5 | Foundational Snow/Clark corpus; Rowe 2019 = **current quality taxonomy** |
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

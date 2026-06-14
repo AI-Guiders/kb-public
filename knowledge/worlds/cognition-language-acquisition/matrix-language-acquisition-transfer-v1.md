@@ -24,3 +24,4 @@
 - Monolithic «empirical canon → CASA mapping» file
 
 *Версия: v1.0 · 2026-05-31*
+

@@ -169,3 +169,4 @@
 
 **Порядок:** authoring + matrix → csharp **и/или** tooling.roslyn → desktop-ui.* → HCI.
 <!-- /section:language-world-resolution-v1 -->
+

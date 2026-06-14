@@ -29,3 +29,4 @@
 | L1 acquisition bridge | [`matrix-pedagogy-snl-l1-acquisition-bridge-v1.md`](matrix-pedagogy-snl-l1-acquisition-bridge-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

@@ -128,3 +128,4 @@ NRP (14-member panel, 2000) synthesized experimental literature into **five inst
 - Index: [`kb-pedagogy-ru-scientific-evidence-v1.md`](kb-pedagogy-ru-scientific-evidence-v1.md)
 
 *Версия: v1.1 · 2026-06-06 — findings layer full*
+

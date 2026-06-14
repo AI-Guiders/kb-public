@@ -1,4 +1,4 @@
-﻿# Evidence: Kirkpatrick et al. (2017) — Overcoming catastrophic forgetting (EWC)
+# Evidence: Kirkpatrick et al. (2017) — Overcoming catastrophic forgetting (EWC)
 
 ## Provenance
 - source_refs:

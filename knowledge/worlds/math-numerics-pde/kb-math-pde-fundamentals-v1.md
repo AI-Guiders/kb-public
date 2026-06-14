@@ -1,4 +1,4 @@
-﻿# PDE Fundamentals v1
+# PDE Fundamentals v1
 
 **Purpose:** concise reference for basic partial differential equations (PDEs) relevant to simulation (heat/wave/Poisson) and well-posed initial/boundary value problems.
 

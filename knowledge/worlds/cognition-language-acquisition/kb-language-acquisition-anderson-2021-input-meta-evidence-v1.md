@@ -51,3 +51,4 @@
 - [`../pedagogy-second-native-language/matrix-pedagogy-snl-l1-acquisition-bridge-v1.md`](../pedagogy-second-native-language/matrix-pedagogy-snl-l1-acquisition-bridge-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

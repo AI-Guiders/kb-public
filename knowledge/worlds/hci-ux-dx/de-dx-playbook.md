@@ -62,3 +62,4 @@ Practical standards for developer effectiveness and sustainable delivery speed.
 - Frequent environment-specific failures.
 - Repeat incident classes with no checklist improvement.
 - Team feedback that tooling is harder than product work.
+

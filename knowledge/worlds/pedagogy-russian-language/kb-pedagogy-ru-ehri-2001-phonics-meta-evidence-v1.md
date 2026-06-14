@@ -127,3 +127,4 @@ Meta-analysis of **systematic phonics** vs unsystematic/no phonics (38 studies, 
 - Index: [`kb-pedagogy-ru-scientific-evidence-v1.md`](kb-pedagogy-ru-scientific-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06*
+

@@ -28,3 +28,4 @@
 - Infinite drill without transfer probe = anti-pattern
 
 *Версия: v1.0 · 2026-06-06*
+

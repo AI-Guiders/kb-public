@@ -136,3 +136,4 @@
 ---
 
 *Источники: официальная документация Grafana (grafana.com/docs). Справочник дополнен: типы data sources (Loki, Tempo, Prometheus, InfluxDB и др.), provisioning дашбордов и алертинга (в т.ч. нередактируемость политик при file provisioning), роли (Viewer/Editor/Admin/Organization Admin), переменные, аннотации, Explore, плагины, контактные точки и политики, LDAP/OAuth — картина от установки до тонких настроек и интеграций.*
+

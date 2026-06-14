@@ -36,3 +36,4 @@
 Мир переименован из `pedagogy.foreign-language`. Все языки в von Neumann идут через **second-native**, не FL.
 
 *Версия: v1.0 · 2026-06-06*
+

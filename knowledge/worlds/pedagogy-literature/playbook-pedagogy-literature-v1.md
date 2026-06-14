@@ -19,3 +19,4 @@
 - Literary theory graduate seminar content without school operationalization
 
 *Версия: v1.0 · 2026-06-06*
+

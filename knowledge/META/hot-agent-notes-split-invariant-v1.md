@@ -30,3 +30,4 @@
 | `worlds/workspace-context/*-extended-v1.md` | response checklist (и др.) |
 
 Политика: секция `memory-large-sections-policy-v1` в `agent-notes.md`.
+

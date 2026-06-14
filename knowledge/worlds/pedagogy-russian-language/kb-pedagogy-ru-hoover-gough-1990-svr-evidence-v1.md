@@ -108,3 +108,4 @@ Reading Rockets reports grade 1–4 **RC vs predicted RC correlations ≥ 0.8** 
 - Index: [`kb-pedagogy-ru-scientific-evidence-v1.md`](kb-pedagogy-ru-scientific-evidence-v1.md)
 
 *Версия: v1.1 · 2026-06-06 — partial (extended)*
+

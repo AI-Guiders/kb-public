@@ -1,4 +1,4 @@
-﻿# Playbook: engineering.cad — operational v1
+# Playbook: engineering.cad — operational v1
 
 ## Purpose
 

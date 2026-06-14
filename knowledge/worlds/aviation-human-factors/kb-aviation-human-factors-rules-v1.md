@@ -176,3 +176,4 @@ Focus: operational psychology and team-safety behavior in aviation contexts.
 - FAA ADM and pilot human-factors references.
 - Reason-model and HFACS-oriented causation framing.
 - LOSA observational methodology references.
+

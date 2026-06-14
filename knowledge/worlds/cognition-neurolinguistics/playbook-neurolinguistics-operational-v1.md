@@ -23,3 +23,4 @@
 - Clinical SLP protocol → out of scope v1
 
 *Версия: v1.0 · 2026-06-06*
+

@@ -24,3 +24,4 @@ path = "D:/path/to/kb-public"
 default_scope = "mixed"
 scope_map = "work/local/workspace-scope-map-v1.md"
 scope_aliases = "work/local/scope-alias-map-v1.md"
+

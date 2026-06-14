@@ -1,4 +1,4 @@
-﻿# `knowledge/worlds/` — крупные контексты («вселенные»)
+# `knowledge/worlds/` — крупные контексты («вселенные»)
 
 Смысл корзины и правила размещения — только из **`../META/kb-taxonomy-v1.md`**.
 
@@ -46,3 +46,4 @@
 <!-- section:catalog-pedagogy-school-subjects-v1 -->
 **Уже есть:** `pedagogy-general/` — **pedagogy.general** (instruction science, F→O, master router, transfer matrix, DoD hub). Subject worlds: `pedagogy-russian-language`, `pedagogy-mathematics`, `pedagogy-physics`, `pedagogy-chemistry`, `pedagogy-biology`, `pedagogy-literature`, `pedagogy-history`, `pedagogy-geography`, `pedagogy-social-studies`, `pedagogy-second-native-language`, `pedagogy-informatics`, `pedagogy-visual-arts` — per-paper evidence + scientific-evidence index; hub `pedagogy-general/README.md`. **Не** human L1 acquisition — `cognition-language-acquisition` (bridge → `pedagogy-second-native-language`). Музыка — `arts-music`.
 <!-- /section:catalog-pedagogy-school-subjects-v1 -->
+

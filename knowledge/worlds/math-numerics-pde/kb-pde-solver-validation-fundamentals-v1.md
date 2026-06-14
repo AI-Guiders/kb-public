@@ -45,3 +45,4 @@
 - **Success criterion:** решения о корректности принимаются по явным критериям из KB, а не по одному числу на выходе.
 - **Confidence:** high
 - *Source:* equation-to-ca-cuda R&D plan (docs/equation-to-ca-cuda-rnd-plan.md); internal KB layering policy.
+

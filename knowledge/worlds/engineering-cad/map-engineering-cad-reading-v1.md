@@ -1,4 +1,4 @@
-﻿# Карта чтения: engineering.cad (v1)
+# Карта чтения: engineering.cad (v1)
 
 **Цель:** Fundamentals → Playbook (без operational-путей).
 

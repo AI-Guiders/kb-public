@@ -135,3 +135,4 @@
 | Свежесть kb: fundamentals / operational / evidence, `Проверено:`, стек или любой домен | `worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` (+ hot `kb-operational-freshness-v1` в agent-notes) |
 | Любой мир / fundamentals / правка `worlds/<slug>/` под kb-public | `worlds/knowledge-engineering/playbook-kb-world-public-authoring-v1.md` |
 | Протоколы и сущности (one-pager для wiki) | `kb-protocols-and-entities-one-pager-v1.md` |
+

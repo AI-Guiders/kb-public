@@ -38,3 +38,4 @@
 | Second-native school | [`../pedagogy-second-native-language/kb-pedagogy-snl-scientific-evidence-v1.md`](../pedagogy-second-native-language/kb-pedagogy-snl-scientific-evidence-v1.md) |
 
 *Версия: v1.1 · 2026-06-06 · post-2011 refresh layer added*
+

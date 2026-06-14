@@ -38,3 +38,4 @@ Transfer useful safety and coordination patterns from aviation to everyday human
 - Misuse risk rises when aviation language is copied literally instead of translated to intent-level rules.
 
 <!-- markdownlint-enable MD060 -->
+

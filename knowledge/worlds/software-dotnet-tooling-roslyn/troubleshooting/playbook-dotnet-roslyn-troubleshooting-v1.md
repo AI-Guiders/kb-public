@@ -42,3 +42,4 @@
 
 - Сборка: [`../../hci-ux-dx/troubleshooting/playbook-tooling-debug-troubleshooting-v1.md`](../../hci-ux-dx/troubleshooting/playbook-tooling-debug-troubleshooting-v1.md)
 - Структура кода: [`../../software-authoring/troubleshooting/`](../../software-authoring/troubleshooting/)
+

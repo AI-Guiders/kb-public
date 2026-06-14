@@ -57,3 +57,4 @@
 - [ ] Pair with AP Biology / IB MYP where applicable
 
 *Версия: v1.0 · 2026-06-06 · read_depth: full (findings layer)*
+

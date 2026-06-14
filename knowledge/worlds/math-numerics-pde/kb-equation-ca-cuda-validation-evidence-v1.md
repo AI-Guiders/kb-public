@@ -56,3 +56,4 @@
 - **Success criterion:** по протоколу валидации можно однозначно воспроизвести прогон (конфиг + код).
 - **Confidence:** medium
 - *Source:* equation-to-ca-cuda R&D plan (Validation Strategy — run metadata); инженерная практика.
+

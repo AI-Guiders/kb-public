@@ -55,3 +55,4 @@ Closed. Legacy aliases were retired after semantic-primary stabilization.
 
 Knowledge engineering meta-domain closed at v1.  
 Next step: naming/index cleanup reduction and alias retirement by maintenance cycle.
+

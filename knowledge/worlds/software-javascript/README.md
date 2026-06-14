@@ -19,3 +19,4 @@
 ## Версия
 
 v1.0 — перенос из корня `knowledge/` в `worlds/software-javascript/` (ветка `feature/kb-taxonomy-layout-v1`).
+

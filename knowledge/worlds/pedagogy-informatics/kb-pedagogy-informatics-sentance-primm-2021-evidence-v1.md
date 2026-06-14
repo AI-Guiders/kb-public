@@ -65,3 +65,4 @@
 - [`kb-pedagogy-informatics-k12cs-2016-evidence-v1.md`](kb-pedagogy-informatics-k12cs-2016-evidence-v1.md)
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

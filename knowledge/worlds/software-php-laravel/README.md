@@ -18,3 +18,4 @@
 ## Версия
 
 v1.0 — перенос стека из корня `knowledge/` в `worlds/software-php-laravel/` (ветка `feature/kb-taxonomy-layout-v1`).
+

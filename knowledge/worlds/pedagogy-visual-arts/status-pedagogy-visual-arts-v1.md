@@ -27,3 +27,4 @@
 - Art history fact quiz as sole mastery invalid
 
 *Версия: v1.0 · 2026-06-06*
+

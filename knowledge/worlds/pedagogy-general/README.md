@@ -54,3 +54,4 @@
 Перед коммитом: [`../knowledge-engineering/playbook-kb-world-public-authoring-v1.md`](../knowledge-engineering/playbook-kb-world-public-authoring-v1.md).
 
 **Версия:** v1.0 · 2026-06-06
+

@@ -27,3 +27,4 @@ Artifacts:
 - Триггеры: `router-human-perception` в `index-knowledge-router-supplement-v1.md`
 
 *Версия: v1.4 · 2026-04-20 — семантические имена `kb-human-perception-*-evidence-v1`*
+

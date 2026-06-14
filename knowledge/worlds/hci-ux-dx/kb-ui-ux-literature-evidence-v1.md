@@ -155,3 +155,4 @@
 - `playbook-hci-core-v1.md`, `kb-hci-usability-and-dialog-rules-v1.md` — операционный контур HCI в KB.
 - `ui-ux-playbook.md` — продуктовые решения UI/UX.
 - `kb-ide-dx-literature-evidence-v1.md` — слой опыта разработчика и интегрированной среды.
+

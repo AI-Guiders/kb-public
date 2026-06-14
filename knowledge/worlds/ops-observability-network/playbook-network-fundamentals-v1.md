@@ -39,3 +39,4 @@
 ---
 
 *Полная картина: модель OSI/TCP/IP, протоколы (IP, TCP, UDP, DNS, DHCP, ARP, NAT), топологии, VLAN, маршрутизация — в `kb-network-reference-v1.md`.*
+

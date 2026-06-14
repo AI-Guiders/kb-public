@@ -191,3 +191,4 @@ flowchart TD
 | Слои L0–L3, публикация | `kb-one-pager-structure-and-protocols-v1.md` |
 | Целостность | `META/integrity-core.md` |
 | Multi-canon (личный + org) | `adr/012-multi-canon-workspace-resolution-v1.md` |
+

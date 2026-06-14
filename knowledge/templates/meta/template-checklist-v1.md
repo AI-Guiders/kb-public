@@ -1,4 +1,4 @@
-﻿# Checklist: <title> (template)
+# Checklist: <title> (template)
 
 **Контекст:** (playbook / runbook / фаза onboarding)
 

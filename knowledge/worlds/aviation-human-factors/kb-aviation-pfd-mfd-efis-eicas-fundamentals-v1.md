@@ -93,3 +93,4 @@
 ## 8. История версий
 
 - **v1** (2026-04-05): первый заход; ссылки FAA PHAK / Advanced Avionics; Wikipedia; оговорка Airbus PFD/ND/ECAM; канон — **agent-notes** (`AGENT_NOTES_CANON_PATH`).
+

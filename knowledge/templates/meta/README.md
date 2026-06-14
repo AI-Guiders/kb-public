@@ -1,4 +1,4 @@
-﻿# `templates/meta/` — ADR, карты, runbook, hot-секции
+# `templates/meta/` — ADR, карты, runbook, hot-секции
 
 | Шаблон | Куда |
 |--------|------|

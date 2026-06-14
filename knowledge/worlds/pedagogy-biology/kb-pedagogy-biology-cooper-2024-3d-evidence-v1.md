@@ -62,3 +62,4 @@
 - Chemistry POGIL card — complementary inquiry structure, different evidence base
 
 *Версия: v1.1 · 2026-06-06 · read_depth: full*
+

@@ -34,3 +34,4 @@ Laravel: `index-knowledge-laravel-cluster-v1.md` → `playbook-laravel-v1.md`.
 ## Как дополнять
 
 Строка в таблицу + при необходимости карточка в `kb-laravel-first-party-packages-v1.md` §5.
+

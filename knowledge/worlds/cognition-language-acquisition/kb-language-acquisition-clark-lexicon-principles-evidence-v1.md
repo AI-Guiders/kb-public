@@ -69,3 +69,4 @@
 - Index: [`kb-language-acquisition-scientific-evidence-v1.md`](kb-language-acquisition-scientific-evidence-v1.md)
 
 *Версия: v2.0 · 2026-05-31 — full monograph pass*
+

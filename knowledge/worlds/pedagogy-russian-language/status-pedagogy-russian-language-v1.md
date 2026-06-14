@@ -45,3 +45,4 @@
 - PA-only ≠ program; print path required (Stalega + NRP)
 
 *Версия: v1.1 · 2026-06-06*
+

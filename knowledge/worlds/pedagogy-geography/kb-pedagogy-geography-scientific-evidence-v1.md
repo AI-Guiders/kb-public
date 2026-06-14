@@ -25,3 +25,4 @@
 | History contextualization | [`../pedagogy-history/kb-pedagogy-history-scientific-evidence-v1.md`](../pedagogy-history/kb-pedagogy-history-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

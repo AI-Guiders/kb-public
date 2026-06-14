@@ -149,3 +149,4 @@
 - [ ] At-risk subgroup meta — dedicated card if von Neumann inclusion policy needs it
 
 *Версия: v1.0 · 2026-06-06 · read_depth: partial (extended)*
+

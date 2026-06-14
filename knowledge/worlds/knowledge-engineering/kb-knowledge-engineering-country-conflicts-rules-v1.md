@@ -325,3 +325,4 @@
 - signal: глобальные ценности и локальные нормы расходятся в практическом решении
 - action: выбирать least-harm route и явно отмечать открытые риски
 - transfer_boundary: cultural governance and public messaging
+

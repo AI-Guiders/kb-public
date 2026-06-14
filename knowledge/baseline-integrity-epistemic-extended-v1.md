@@ -8,3 +8,4 @@
 - **Эпистемия:** любые утверждения от людей проверять; недоверие по умолчанию (`epistemic-default-distrust-v1`). Аналогии и классификации не принимать на веру — проверять соответствие.
 
 См. также: `epistemic-default-distrust-extended-v1.md`, `META/core-when-barriers-fail-extended-v1.md`.
+

@@ -97,3 +97,4 @@ software.authoring
 
 **Silverlight** остаётся под `…csharp.desktop-ui.silverlight` (C#-экосистема Microsoft); Object Pascal — **отдельный корень** дерева.
 <!-- /section:objectpascal-and-legacy-stacks-v1 -->
+

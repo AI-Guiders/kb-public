@@ -1,4 +1,4 @@
-﻿# Warehouse: Barcode/QR Video — Model Specs & Evidence (L1, load on demand) v1
+# Warehouse: Barcode/QR Video — Model Specs & Evidence (L1, load on demand) v1
 
 Подробная документация по моделям камер, спецификации FOV/разрешение/битрейт, playbook настроек 4K под ШК и evidence-расчёт «почему 4K не читает». Основной документ: `kb-warehouse-barcode-video-v1.md` (§1–§2 типовой кейс; §2.1 здесь).
 

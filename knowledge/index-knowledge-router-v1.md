@@ -94,3 +94,4 @@ Single entrypoint for fast navigation across the knowledge base under tight cont
 <!-- section:engineering-cad-domain-entry-v1 -->
 | CAD / engineering.cad | `worlds/engineering-cad/status-engineering-cad-v1.md` | `worlds/engineering-cad/playbook-engineering-cad-v1.md` | fundamentals: `kb-cad-platforms-fundamentals-v1.md`, `kb-cad-extension-models-fundamentals-v1.md`, `kb-cad-build-references-fundamentals-v1.md`; operational: `playbook-engineering-cad-operational-v1.md`; map: `map-engineering-cad-reading-v1.md`; hub: `worlds/engineering-cad/README.md` |
 <!-- /section:engineering-cad-domain-entry-v1 -->
+

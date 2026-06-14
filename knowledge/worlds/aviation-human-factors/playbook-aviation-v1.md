@@ -43,3 +43,4 @@ World is stable when:
 - root world map exists and routes to active subdomains;
 - each active subdomain has playbook + map + knowledge set + status;
 - canonical index points first to the world root, then to subdomains.
+

@@ -1,4 +1,4 @@
-﻿# Evidence: McCloskey & Cohen (1989) — Catastrophic interference in connectionist networks
+# Evidence: McCloskey & Cohen (1989) — Catastrophic interference in connectionist networks
 
 ## Provenance
 - source_refs:

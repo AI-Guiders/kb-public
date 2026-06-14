@@ -27,3 +27,4 @@
 <!-- section:entry-templates-index -->
 **Шаблоны KB** — [`templates/README.md`](templates/README.md): `cards/`, `worlds/`, `work/`, `matrices/`, `meta/`, `newcomer/`.
 <!-- /section:entry-templates-index -->
+

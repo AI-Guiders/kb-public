@@ -62,3 +62,4 @@ Middle-class mothers; сравнение речи к **2-year-olds** vs **10-yea
 - Fundamentals: [`kb-language-acquisition-fundamentals-v1.md`](kb-language-acquisition-fundamentals-v1.md)
 
 *Версия: v1.0 · 2026-05-31*
+

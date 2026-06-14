@@ -45,3 +45,4 @@ Design human-computer interaction that stays clear under real cognitive load, no
 - Hidden state transitions that surprise users.
 - Validation that reports failure but gives no recovery route.
 - Excessive modal interruptions for low-risk actions.
+

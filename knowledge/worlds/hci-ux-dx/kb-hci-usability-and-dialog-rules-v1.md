@@ -144,3 +144,4 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 - Applied usability heuristics and production UX incident patterns.
 
 <!-- markdownlint-enable MD022 MD032 -->
+

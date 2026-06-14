@@ -19,3 +19,4 @@
 - History-only document work → prefer [`../pedagogy-history/`](../pedagogy-history/) when history-primary
 
 *Версия: v1.0 · 2026-06-06*
+

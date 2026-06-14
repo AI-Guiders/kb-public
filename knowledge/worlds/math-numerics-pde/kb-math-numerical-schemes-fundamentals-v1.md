@@ -1,4 +1,4 @@
-﻿# Numerical Schemes Fundamentals v1
+# Numerical Schemes Fundamentals v1
 
 **Purpose:** capture essential ideas for finite difference schemes for ODEs/PDEs (stability, consistency, convergence) as a reference for simulation/CA work.
 

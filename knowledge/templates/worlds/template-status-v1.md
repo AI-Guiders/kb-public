@@ -1,4 +1,4 @@
-﻿# Status: `<domain>` v1 (template)
+# Status: `<domain>` v1 (template)
 
 **Домен:** (одна строка)  
 **Версия:** v1.0 · YYYY-MM-DD

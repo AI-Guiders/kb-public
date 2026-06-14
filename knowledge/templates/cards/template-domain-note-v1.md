@@ -1,4 +1,4 @@
-﻿# <Title> — domain note (шаблон)
+# <Title> — domain note (шаблон)
 
 **domain-id:** `<slug>`  
 **Статус:** draft | active  

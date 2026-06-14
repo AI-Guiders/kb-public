@@ -732,3 +732,4 @@ Accumulated distilled notes from completed reading with direct applicability to 
 - First adoption task: define forbidden high-cardinality metric attributes for default instrumentation.
 - Success criterion: stable telemetry cost with preserved incident diagnosability.
 - Confidence: medium
+

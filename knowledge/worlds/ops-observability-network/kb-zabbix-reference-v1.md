@@ -176,3 +176,4 @@
 ---
 
 *Источники: официальная документация Zabbix (zabbix.com/documentation), best practices, гайдлайны по шаблонам и LLD, форум Zabbix. Справочник дополнен: препроцессинг, best practices, секреты/secret macros, зависимости триггеров, event correlation, HA, Prometheus/Script items — картина от установки до тонких настроек и автоматизации.*
+

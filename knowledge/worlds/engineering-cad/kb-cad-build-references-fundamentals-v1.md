@@ -1,4 +1,4 @@
-﻿# Fundamentals: сборка, References и vendor API (v1)
+# Fundamentals: сборка, References и vendor API (v1)
 
 **Мир:** `engineering.cad`
 

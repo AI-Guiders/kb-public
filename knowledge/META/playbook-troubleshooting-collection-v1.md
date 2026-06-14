@@ -62,3 +62,4 @@ worlds/<slug>/
 ## Provenance
 
 meta / process · 2026-05 world consolidation
+

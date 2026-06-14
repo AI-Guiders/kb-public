@@ -43,3 +43,4 @@ School RU curriculum labels — use for **section naming**, not probe oracle.
 → [`matrix-pedagogy-cross-subject-transfer-v1.md`](matrix-pedagogy-cross-subject-transfer-v1.md): RU developmental ≠ L1 acquisition evidence.
 
 *Версия: v1.0 · 2026-06-06*
+

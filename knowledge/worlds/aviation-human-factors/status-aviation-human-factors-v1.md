@@ -34,3 +34,4 @@ Completed artifacts:
   - regulatory updates (ICAO/EASA/FAA),
   - new major investigation lessons,
   - repeated field mismatches between SOP and actual cockpit behavior.
+

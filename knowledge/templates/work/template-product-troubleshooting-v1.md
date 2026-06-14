@@ -27,3 +27,4 @@
 ## Как дополнять
 
 Строка в [`work/troubleshooting/README.md`](../../troubleshooting/README.md) + при необходимости указатель в репо продукта (1 экран).
+

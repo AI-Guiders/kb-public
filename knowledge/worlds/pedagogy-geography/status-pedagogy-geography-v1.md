@@ -27,3 +27,4 @@
 - Static fact lists without systems thinking
 
 *Версия: v1.0 · 2026-06-06*
+

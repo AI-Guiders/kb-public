@@ -25,3 +25,4 @@
 | Geography geo-literacy | [`../pedagogy-geography/kb-pedagogy-geography-scientific-evidence-v1.md`](../pedagogy-geography/kb-pedagogy-geography-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

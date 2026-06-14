@@ -43,3 +43,4 @@
 ## Как дополнять
 
 Новая строка — здесь и в `matrix-software-cross-domain-transfer-v1.md` § Fast symptom router (держать синхронно).
+

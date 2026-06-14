@@ -80,3 +80,4 @@
 - supersedes: kb-javascript-runtime-tooling-and-security-baseline-v1 (содержимое tooling/security перенесено сюда; движки — в `kb-javascript-ecmascript-and-modules-v1.md` § реализации)
 - superseded_by: —
 - deprecation_reason: —
+

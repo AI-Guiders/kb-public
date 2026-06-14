@@ -39,3 +39,4 @@ Expand-Archive -Path ".\backups\revisions-YYYYMMDD-HHMMSS.zip" -DestinationPath 
 - Backup archive exists in `backups/`.
 - Randomly open one snapshot file from extracted archive to validate readability.
 - Keep at least last 4 weekly archives.
+

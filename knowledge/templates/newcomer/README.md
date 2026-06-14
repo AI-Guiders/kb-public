@@ -29,3 +29,4 @@
 | `template-org-kb-bootstrap-readme-group-v1.md` | `README.md` |
 
 Верхний индекс: [`../README.md`](../README.md).
+

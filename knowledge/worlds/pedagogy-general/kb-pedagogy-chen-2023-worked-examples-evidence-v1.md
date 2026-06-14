@@ -66,3 +66,4 @@
 - [ ] Complete moderator grade-band table → read_depth: full
 
 *Версия: v1.1 · 2026-06-06 · read_depth: partial (extended)*
+

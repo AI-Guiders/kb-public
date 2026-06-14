@@ -1,4 +1,4 @@
-﻿# Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 weeks
+# Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 weeks
 
 ## Provenance
 

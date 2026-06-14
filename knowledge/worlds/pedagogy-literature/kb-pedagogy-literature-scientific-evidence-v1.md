@@ -25,3 +25,4 @@
 | Writing-to-learn hub | [`../pedagogy-general/kb-pedagogy-graham-2020-writing-to-learn-meta-evidence-v1.md`](../pedagogy-general/kb-pedagogy-graham-2020-writing-to-learn-meta-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+

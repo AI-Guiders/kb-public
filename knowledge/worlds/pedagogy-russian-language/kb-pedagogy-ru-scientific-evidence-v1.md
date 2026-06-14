@@ -39,3 +39,4 @@
 | L1 acquisition | [`../cognition-language-acquisition/kb-language-acquisition-scientific-evidence-v1.md`](../cognition-language-acquisition/kb-language-acquisition-scientific-evidence-v1.md) |
 
 *Версия: v1.2 · 2026-06-06*
+
