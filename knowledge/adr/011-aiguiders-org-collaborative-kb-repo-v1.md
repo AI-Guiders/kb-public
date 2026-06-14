@@ -2,7 +2,7 @@
 
 > **Для любой другой org:** нормативный white-label onboarding — [`../domains/agent-operations/playbook-org-kb-white-label-v1.md`](../domains/agent-operations/playbook-org-kb-white-label-v1.md) (плейсхолдер `{ORG_SLUG}`). Этот ADR — **решение и история инстанса AI-Guiders**, не универсальная инструкция.
 
-**Статус:** Proposed (на обсуждение; уточнение `work/projects` vs `work/local` — 2026-05-17)  
+**Статус:** Accepted (2026-06-12)  
 **Дата:** 2026-05-15  
 **Именование GitHub:** org slug — **`AI-Guiders`** (с дефисом). Репозитории: `AI-Guiders/kb`, `AI-Guiders/kb-public`. Бренд/NuGet «AIGuiders» (без дефиса) — не путать с org slug.  
 **Источник в истории:** перенос open-репозиториев в GitHub-организацию [AI-Guiders](https://github.com/AI-Guiders); запрос на отдельный **живой** контур KB для коллаборации (общие линии, совместное пополнение), не только read-only зеркало `kb-public`.  
@@ -17,7 +17,7 @@
 | Термин | Где | Смысл |
 |--------|-----|--------|
 | **Личный канон** (chmod **u**) | `agent-notes` | SSOT владельца: `work/local/`, `personal/`, hot, полный `work/projects/`. |
-| **Group KB** (chmod **g**) | репо **`AI-Guiders/kb`**, MCP `knowledge_root_id=group` | Командный read-only контур для агента + PR коллаборации. **Основное имя контура.** |
+| **Group KB** (chmod **g**) | репо **`AI-Guiders/kb`**, MCP `knowledge_root_id=group` | **SSOT общего знания:** пары (человек+агент) пишут PR/export; все читают. |
 | **Org KB** | то же репо `AI-Guiders/kb` | Синоним в текстах про **GitHub org**, governance, `seed-org-kb.ps1`, **org-maintainer**. Не меняет MCP id (`group`). |
 | **Public KB** (chmod **o**) | `AI-Guiders/kb-public` | Публичный срез; `public-kb.ignore`. |
 | **Open-код** | `AI-Guiders/*` | MCP, IDE, Core — не текст KB. |
@@ -71,11 +71,11 @@
 - **Плюсы:** минимум новой механики; один источник правды для публичного среза.
 - **Минусы:** коллаборанты **не пишут** в живой git напрямую (только PR в agent-notes у владельца → пересборка); org-kb остаётся зеркалом, не «местом работы».
 
-### B. `AI-Guiders/kb` — **живой** collaborative repo (рекомендуется обсудить как основной)
+### B. `AI-Guiders/kb` — **живой** collaborative repo (**принято**)
 
-- Участники org коммитят/мержат PR **в `AI-Guiders/kb`** в согласованных зонах (`knowledge/worlds/`, `knowledge/domains/`, router, META, шаблоны).
-- Корневой `agent-notes.md` в org-kb — **только публичный hot** (как после недавнего split: контракты L0 + stub `memory-architecture-v1` + `l0_manifest`; без `current-task` / scope с путями).
-- Держатель **личного канона** **экспортирует** в org-kb (скрипт) **или** **импортирует** принятые PR из org-kb в `agent-notes` вручную/cherry-pick — политика ниже.
+- Участники org (пары A/B/C по доменам) коммитят/мержат PR **в `AI-Guiders/kb`** в согласованных зонах (`knowledge/worlds/`, `knowledge/domains/`, router, META, шаблоны).
+- **Routine sync из одного канона не затирает org:** steady state — PR или `export-to-org-kb.ps1`. Full replace — только `bootstrap-org-kb.ps1` или `seed-org-kb.ps1 -Push` (bootstrap/DR).
+- Держатель **личного канона** **импортирует** из org (`import-from-org-kb.ps1`) когда хочет писать локально; **экспортирует** только свои paths — не весь `knowledge/`.
 - **Плюсы:** настоящая коллаборация; понятный CONTRIBUTING; MCP на клон org.
 - **Минусы:** риск **двух SSOT** без дисциплины; нужны CODEOWNERS, шаблон PR, возможно `knowledge/collab/` vs зоны только maintainer’ов.
 
@@ -87,9 +87,19 @@
 
 ---
 
-## Предлагаемое решение (черновик для согласования)
+## Предлагаемое решение (принято)
 
-Принять **вариант B** с опциональным **C** для внешних зеркал:
+Принят **вариант B** (federation) с опциональным **C** для внешних зеркал:
+
+### 0. Federation (пары и домены)
+
+- **Org-first для shared:** общее знание развивается в `AI-Guiders/kb`; пары специализируются (Security, Psychology, open stack, …).
+- **Read:** любой участник — clone org, MCP `knowledge_root_id=group`.
+- **Write в org:** PR или `export-to-org-kb.ps1` (whitelist `knowledge/work/local/group-kb.export`, опционально).
+- **Write в канон:** opt-in — `import-from-org-kb.ps1`, локальные правки, при необходимости export своей зоны обратно.
+- **Запрещено в steady state:** full replace `knowledge/` из одного канона; bootstrap — `bootstrap-org-kb.ps1` / `seed-org-kb.ps1 -Push` (редко).
+
+Runbook: [`../work/projects/door-to-singularity/agent-notes-kb/templates/runbook-org-kb-federation-v1.md`](../work/projects/door-to-singularity/agent-notes-kb/templates/runbook-org-kb-federation-v1.md).
 
 ### 1. Репозиторий
 
@@ -117,27 +127,39 @@
 
 ### 3. Потоки изменений (governance)
 
-**Рекомендуемая модель «org-first для shared, owner-first для private»:**
+**Рекомендуемая модель «org-first для shared, federation пар, opt-in canon»:**
 
 ```mermaid
 flowchart LR
-  subgraph owner [Личный канон agent-notes]
-    AN[agent-notes.md + work + personal]
+  subgraph pairs [Pairs A B C]
+    A[Security PR/export]
+    B[Psychology PR/export]
+    C[Other domains]
   end
-  subgraph org [AI-Guiders/kb]
+  subgraph org [AI-Guiders/kb SSOT shared]
     KB[kb collaborative]
   end
-  subgraph mirror [Внешнее зеркало опционально]
-    PUB[kb-public / Release]
+  subgraph owner [Личный канон opt-in]
+    AN[import / local / export scope]
   end
-  AN -->|export script: только разрешённое| KB
-  KB -->|PR merged: cherry-pick / import playbook| AN
-  KB -->|tag / build-public-kb from org?| PUB
+  subgraph mirror [Внешнее зеркало]
+    PUB[kb-public]
+  end
+  A --> KB
+  B --> KB
+  C --> KB
+  KB -->|read all| pairs
+  KB -->|import-from-org-kb| AN
+  AN -->|export-to-org-kb scoped| KB
+  AN -->|build-public-kb| PUB
 ```
 
-- **В org-kb:** прямые PR участников; обязательный review (1+ maintainer).
-- **В личный канон:** любой **canon-maintainer** (или bot) **импортирует** согласованные файлы из org-kb; личное/пути не импортируются обратно из org.
-- **Экспорт в org-kb:** `seed-org-kb.ps1` или PR из личного канона — **односторонний**, по whitelist; санитизация путей обязательна. **Пуш kb-public** — отдельно, тоже canon-maintainer(ы).
+- **В org-kb:** прямые PR участников; review (1+ org-maintainer); CODEOWNERS по доменам — по мере роста.
+- **В личный канон:** import выбранных paths; личное/пути **не** экспортируются в org без санитизации.
+- **Bootstrap в org-kb:** `seed-org-kb.ps1 -Push` или `bootstrap-org-kb.ps1` — **не** routine; затирает весь `knowledge/`.
+- **Экспорт scoped:** `export-to-org-kb.ps1` по `knowledge/work/local/group-kb.export` или `-Paths`.
+- **Импорт:** `import-from-org-kb.ps1` по `knowledge/work/local/group-kb.import`.
+- **Пуш kb-public** — отдельно, canon-maintainer(s).
 
 **Запрещено по умолчанию:** коммит в org-kb файлов с путями `C:\`, `D:\`, имён собеседников, `work/local/workspace-scope-map` с реальными корнями.
 
@@ -176,13 +198,24 @@ flowchart LR
 1. ~~Создать `AI-Guiders/kb` (private org + LICENSE CC BY-SA).~~ **Сделано (2026-05-19):** https://github.com/AI-Guiders/kb — bootstrap (smoke, CONTRIBUTING, CODEOWNERS); полный `seed-org-kb.ps1` — позже.
 2. Initial commit = `.\scripts\seed-org-kb.ps1` после `build-public-kb.ps1` и прохода [`checklist-sanitize-paths-for-org-v1.md`](../work/org/checklist-sanitize-paths-for-org-v1.md).
 3. Шаблоны: `scripts/kb-org-root/CONTRIBUTING.md`, `CODEOWNERS`, `knowledge/work/local/.gitignore`.
-4. Runbook в `knowledge/work/projects/door-to-singularity/agent-notes-kb/`: export/import org ↔ personal (не в kb-public).
+4. Runbook: [`runbook-org-kb-federation-v1.md`](../work/projects/door-to-singularity/agent-notes-kb/templates/runbook-org-kb-federation-v1.md) (export/import/bootstrap).
 5. Обновить `public-kb.push` / CI: целевой remote GitHub — **`AI-Guiders/kb-public`** (см. `knowledge/public-kb.push`); org `AI-Guiders/kb` — отдельный контур совместного канона.
 6. Упоминание в `index-knowledge-router-v1.md` (секция router-org-kb) — после стабилизации имени репо.
 
 ---
 
-## Открытые вопросы (нужно твоё решение)
+## Решения (2026-06-12)
+
+1. **Имя репозитория:** `kb` — принято.
+2. **kb-public:** внешнее зеркало (вариант C); `AI-Guiders/kb-public` — канонический remote публичной сборки.
+3. **Видимость `AI-Guiders/kb`:** private org (члены org); публичность — через kb-public.
+4. **Кто может писать:** члены org — PR; merge через org-maintainer / CODEOWNERS.
+5. **Обратный поток в канон:** opt-in `import-from-org-kb.ps1`; автоматический merge без review — нет.
+6. **Роли:** org-maintainer (review org) vs canon-maintainer (kb-public, bootstrap) — разделены, можно совмещать.
+7. **ADR в org-kb:** продуктовые ADR из public slice; операционка с путями — redacted или только в каноне.
+8. **Зоны коллаборации:** `worlds/`, `domains/`, scoped `work/projects/`; federation по доменам; full wipe — только bootstrap.
+
+## Открытые вопросы (исторические; см. «Решения» выше)
 
 1. **Имя репозитория:** `kb` vs `knowledge-base` vs `agent-notes-kb`?
 2. **kb-public на KarataevDmitry:** оставить как **внешнее зеркало** (вариант C), **архивировать** с redirect на `AI-Guiders/kb`, или **только** org-kb?
@@ -206,4 +239,4 @@ flowchart LR
 
 ## Статус принятия
 
-После согласования ответов на «Открытые вопросы» — перевести в **Accepted** и завести runbook в `knowledge/work/projects/door-to-singularity/agent-notes-kb/` (не в kb-public).
+**Accepted** 2026-06-12. Federation runbook: [`runbook-org-kb-federation-v1.md`](../work/projects/door-to-singularity/agent-notes-kb/templates/runbook-org-kb-federation-v1.md).

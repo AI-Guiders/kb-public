@@ -54,7 +54,7 @@ TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id
 
 - Факты — с подтверждением инструментом; неопределённость — явно + безопасный следующий шаг.
 - Перед ответом: один проход по `response-one-step-before-finish-v1`; при вопросе о завершённости — `response-one-step-checklist-v1` (по `route_context`).
-- Долгоживущий текст (канон, коммит, фрагмент репо): детали второго прохода — **`knowledge/worlds/workspace-context/response-finalizer-extended-v1.md`** и **`knowledge/agent-memory-and-operating-principles-v1.md`** («Вычитка вторым проходом»).
+- Долгоживущий текст (канон, коммит, фрагмент репо): **`knowledge/worlds/workspace-context/response-finalizer-extended-v1.md`** (вычитка вторым проходом).
 <!-- /section:response-finalizer-v1 -->
 
 <!-- section:response-one-step-before-finish-v1 -->

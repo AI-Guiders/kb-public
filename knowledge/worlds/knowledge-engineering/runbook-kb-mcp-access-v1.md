@@ -2,7 +2,7 @@
 
 **Назначение:** согласовать поведение агента, когда канон живёт в репозитории **agent-notes** и доступен через **agent-notes MCP** (`read_knowledge_file`, `list_knowledge_files`, запись — отдельные инструменты). Среда-независимо: тот же смысл, если чтение идёт с диска по well-known пути без MCP.
 
-**Связь:** `SHOWCASE.md` § «Доступ к KB»; `agent-memory-and-operating-principles-v1.md` §7 и §7a; `worlds/workspace-context/playbook-multi-project-context-v1.md` §6 (PRIMARY). Общие нормы честности и baseline (L0, hot-context) **не** переопределяются здесь — только **операционный** случай: нет доступа к **чтению файлов канона** этим контуром.
+**Связь:** `SHOWCASE.md` § «Доступ к KB»; hub [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md); §6–7 ниже; `playbook-multi-project-context-v1.md` §6 (PRIMARY).
 
 ---
 
@@ -52,4 +52,25 @@
 
 ## Версия
 
-v1.2. 2026-04-11. v1.0 — первый текст. **v1.1:** §1 без «обязательной нормы» и без дублирования эпистемики L0; уточнение про один короткий ответ; связь с практикой при недоступном MCP. **v1.2:** §5 — bootstrap-парадокс, человек в контуре, vendor-aware, без тонны правил в среде.
+v1.3 · 2026-06-12. v1.0 — первый текст. v1.1: §1 без дублирования эпистемики L0. v1.2: §5 bootstrap-парадокс. **v1.3:** §6–7 запись/чтение KB через MCP (из hub agent-memory).
+
+---
+
+## 6. Запись в knowledge/ — только agent-notes MCP
+
+При изменении **`knowledge/`** канона — **только** инструменты agent-notes MCP, не Write IDE «мимо» (кроме явного согласования с оператором).
+
+| Действие | Инструмент |
+|----------|------------|
+| Чтение | `read_knowledge_file` |
+| Полная замена | `write_knowledge_file` |
+| Конец файла | `append_knowledge_file` |
+| Секция по `section_id` | `upsert_knowledge_section`, `delete_knowledge_section` |
+| Удалить файл | `delete_knowledge_file` |
+| Список | `list_knowledge_files` |
+
+Канон: **`AGENT_NOTES_CANON_PATH`**. Provenance: [`META/provenance-contract-v1.md`](../../META/provenance-contract-v1.md), [`templates/template-knowledge-card-v1.md`](../../templates/template-knowledge-card-v1.md).
+
+## 7. Чтение при недоступности MCP
+
+Если **чтение** недоступно — не цитировать KB из памяти как факт; одна фраза про недоступность контура. Когда MCP снова доступен — §6 в силе. Подробнее §1–5 выше.

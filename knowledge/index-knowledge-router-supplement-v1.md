@@ -34,7 +34,7 @@
 
 ## Value / Utility / Underdetermination (evidence base)
 
-- **При запросах о критериях полезности, ценности, сравнении вариантов или обосновании оценочных суждений:** загружать `knowledge/worlds/evidence-humanities-shelf/kb-utility-value-underdetermination-evidence-v1.md` — обзор по теории полезности (EU, критика), теории ценности (axiology, good for / attributive, плюрализм), несоизмеримости (incommensurability, parity), теореме Эрроу. Операционный принцип «полезность недоопределена» в `agent-memory-and-operating-principles-v1.md` опирается на этот evidence-based документ.
+- **При запросах о критериях полезности, ценности, сравнении вариантов или обосновании оценочных суждений:** загружать `knowledge/worlds/evidence-humanities-shelf/kb-utility-value-underdetermination-evidence-v1.md` — обзор по теории полезности (EU, критика), теории ценности (axiology, good for / attributive, плюрализм), несоизмеримости (incommensurability, parity), теореме Эрроу. Операционный принцип — `knowledge/domains/agent-operations/playbook-utility-judgment-underdetermination-v1.md` (hub: `agent-memory-and-operating-principles-v1.md`).
 <!-- /section:router-value-utility -->
 
 <!-- section:router-bci-medicine -->
@@ -323,7 +323,7 @@
 
 ## Длинная сессия / итоги / читаемый экспорт чата
 
-- **При разросшемся треде; по запросу пользователя подвести итоги / зафиксировать договорённости; по инициативе агента предложить подвести итоги** (длинный тред, риск потери нити, выгодно зафиксировать); **или** когда нужен читаемый экспорт вместо непрозрачного сжатия контекста: загружать `knowledge/worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`; операционный принцип — `knowledge/agent-memory-and-operating-principles-v1.md` §9. При работе с сырым `*.jsonl` Cursor — `tools/Export-CursorJsonlTranscript.ps1` (см. `tools/README.md`).
+- **При разросшемся треде; по запросу пользователя подвести итоги / зафиксировать договорённости; по инициативе агента предложить подвести итоги** (длинный тред, риск потери нити, выгодно зафиксировать); **или** когда нужен читаемый экспорт вместо непрозрачного сжатия контекста: загружать `knowledge/worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md`; **pressure / когда агент сам должен предложить checkpoint** — `knowledge/domains/agent-operations/playbook-context-pressure-checkpoint-v1.md`; операционный hub — `knowledge/agent-memory-and-operating-principles-v1.md` → `playbook-session-summary-and-chat-export-v1.md`. При работе с сырым `*.jsonl` Cursor — `tools/Export-CursorJsonlTranscript.ps1` (см. `tools/README.md`).
 <!-- /section:router-session-summary -->
 
 <!-- section:router-kb-world-public-authoring -->
@@ -343,7 +343,7 @@
 
 ## KB: доступ через MCP (agent-notes)
 
-- **При сбоях чтения `knowledge/` через agent-notes MCP, вопросах про `AGENT_NOTES_CANON_PATH`, после Reload Window, рассинхроне «MCP подключён» vs «агент не видит тулы», или когда нужно явно зафиксировать поведение «контур чтения канона недоступен»:** загружать `knowledge/worlds/knowledge-engineering/runbook-kb-mcp-access-v1.md`. Не дублирует L0 baseline; только операционный слой чтения файлов канона. Связь: `SHOWCASE.md`, `agent-memory-and-operating-principles-v1.md` §7a, `knowledge/worlds/workspace-context/playbook-multi-project-context-v1.md` §6–§6c.
+- **При сбоях чтения `knowledge/` через agent-notes MCP, вопросах про `AGENT_NOTES_CANON_PATH`, после Reload Window, рассинхроне «MCP подключён» vs «агент не видит тулы», или когда нужно явно зафиксировать поведение «контур чтения канона недоступен»:** загружать `knowledge/worlds/knowledge-engineering/runbook-kb-mcp-access-v1.md`. Не дублирует L0 baseline. Связь: `SHOWCASE.md`, hub `agent-memory-and-operating-principles-v1.md`, `playbook-multi-project-context-v1.md` §6–§6c.
 <!-- /section:router-kb-mcp-access -->
 
 <!-- section:router-captain-parallel-agents -->

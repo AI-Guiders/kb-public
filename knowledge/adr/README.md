@@ -41,7 +41,7 @@
 - `008-workspace-scope-map-hot-mcp-and-public-cut.md`
 - `009-kb-entry-structure-and-pre-open-onboarding.md` (вход, worlds/domains/templates/routers, таксономия)
 - `010-kb-markdown-fts-index-boundary.md` (опциональный FTS по Markdown KB; граница с внешним MCP HCI; не часть ANKB по умолчанию)
-- `011-aiguiders-org-collaborative-kb-repo-v1.md` (Proposed: org `AI-Guiders/kb` для совместного пополнения KB vs kb-public / **личный канон**)
+- `011-aiguiders-org-collaborative-kb-repo-v1.md` (Accepted: org federation SSOT, export/import, bootstrap-only push)
 - `012-multi-canon-workspace-resolution-v1.md` (Proposed: primary/secondary canon, `.cursor/agent-notes.toml`, без `knowledge/organization/` в личном)
 - `013-agent-notes-mcp-local-settings-toml-v1.md` (Proposed: локальный TOML с MCP **2.0**, `[knowledge]` / `[workspace]` / `[status]`)
 - `016-knowledge-stack-clean-setup-protocol-v1.md`

@@ -21,5 +21,14 @@
 | [playbook-multi-agent-write-v1.md](playbook-multi-agent-write-v1.md) | `multi-agent-write-protocol-v1` |
 | [playbook-integrity-under-pressure-v1.md](playbook-integrity-under-pressure-v1.md) | `integrity-under-pressure-protocol` |
 | [playbook-agent-partnership-kb-v1.md](playbook-agent-partnership-kb-v1.md) | *(см. файл — культура ADR, не промпт-роль)* |
+| [playbook-context-pressure-checkpoint-v1.md](playbook-context-pressure-checkpoint-v1.md) | Pressure signals (L0–L2); см. [`playbook-session-summary-and-chat-export-v1.md`](../worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md) |
+| [playbook-agent-knowledge-responsibility-v1.md](playbook-agent-knowledge-responsibility-v1.md) | Ответственность за KB |
+| [playbook-proactive-micro-improvements-v1.md](playbook-proactive-micro-improvements-v1.md) | `proactive-micro-improvements-and-intuition-v1` |
+| [playbook-fuzzy-search-implicit-language-v1.md](playbook-fuzzy-search-implicit-language-v1.md) | `fuzzy-search-and-implicit-language-v1` |
+| [playbook-utility-judgment-underdetermination-v1.md](playbook-utility-judgment-underdetermination-v1.md) | Полезность недоопределена |
+| [playbook-principled-clarity-v1.md](playbook-principled-clarity-v1.md) | `principled-clarity-v1` |
+| [playbook-strict-execution-when-analogy-v1.md](playbook-strict-execution-when-analogy-v1.md) | Строгое выполнение по образцу |
+
+**Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) — маршрутизатор, не дубль тел.
 
 **Product (CascadeIDE):** [cascade-ide/playbook-agent-execution-environment-v1.md](../work/projects/door-to-singularity/cascade-ide/playbook-agent-execution-environment-v1.md) — AEE, verify ladder; SSOT — ADR 0148 в репо IDE. `knowledge/kb-protocols-and-entities-one-pager-v1.md`, `knowledge/kb-one-pager-structure-and-protocols-v1.md`.

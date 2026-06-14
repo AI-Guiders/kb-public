@@ -45,7 +45,7 @@
 | **Operational** | Процедуры, версии, «что делаем сейчас» | `playbook-*-operational-v1.md`; **Operationalization**; `operational.md` в `work/projects/…` |
 | **Evidence / snapshot** | Факт + URL/строка; снимок версий | `EV-*`, **`Проверено:`**; таблицы пакетов в project kb |
 
-**Контракт слоёв:** `templates/template-knowledge-card-v1.md`; пример **Layer contract** — `kb-covey-7-habits-evidence-v1.md`. Полный fundamentals + operational по смыслу — `agent-memory-and-operating-principles-v1.md` §0.
+**Контракт слоёв:** `templates/template-knowledge-card-v1.md`; пример **Layer contract** — `kb-covey-7-habits-evidence-v1.md`. Ответственность агента за слои — [`playbook-agent-knowledge-responsibility-v1.md`](../../domains/agent-operations/playbook-agent-knowledge-responsibility-v1.md).
 
 **Порядок загрузки в домене:** `status-*` → operational playbook → fundamentals kb → evidence (см. Retrieval hint в том же `status-*`).
 
