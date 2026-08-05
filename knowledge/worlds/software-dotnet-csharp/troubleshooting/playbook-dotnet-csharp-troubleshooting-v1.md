@@ -1,4 +1,6 @@
 # Playbook: .NET / C# runtime — troubleshooting (v1)
+**Tags:** #living #playbook #software-dotnet-csharp #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** «тормозит» сервис, высокий CPU/GC, миграция Framework → .NET, неясный TFM  

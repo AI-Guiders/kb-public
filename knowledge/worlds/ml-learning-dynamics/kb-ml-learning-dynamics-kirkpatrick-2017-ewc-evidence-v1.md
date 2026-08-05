@@ -1,4 +1,6 @@
-# Evidence: Kirkpatrick et al. (2017) — Overcoming catastrophic forgetting (EWC)
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: Kirkpatrick et al. (2017) — Overcoming catastrophic forgetting (EWC)
 
 ## Provenance
 - source_refs:

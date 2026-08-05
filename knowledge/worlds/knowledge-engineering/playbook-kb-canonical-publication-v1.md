@@ -1,4 +1,6 @@
 # KB canonical publication v1
+**Tags:** #knowledge-engineering #living #playbook #worlds
+
 
 ---
 

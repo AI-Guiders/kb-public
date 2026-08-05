@@ -1,4 +1,6 @@
 # Миграция: карточки проектов в scope (v1)
+**Tags:** #meta
+
 
 **Цель:** структурировать `scope-door-to-singularity` и `scope-portal` без смены `section_id`, чтобы **hot-context**, манифест `memory-architecture-v1.json` и потребители команд не требовали доработок движка.
 

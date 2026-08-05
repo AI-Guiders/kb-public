@@ -1,6 +1,10 @@
+**Tags:** #kb #software-dotnet-csharp #worlds
+
 ## .NET playbooks (upgrade, targeting, diagnostics)
 
 **Назначение:** набор компактных сценариев‑playbook’ов для практических шагов вокруг .NET: выбор целевой версии, миграция с .NET Framework, базовая диагностика.
+
+**LLM-native when-cards:** `worlds/software-dotnet-csharp/pack/procedures.toml` — `dotnet-choose-tfm` (01), `dotnet-plan-framework-migrate` (02), `dotnet-perf-diag-cycle` (03). Проза ниже = SSOT деталей; procedure = trigger + короткие шаги.
 
 ---
 

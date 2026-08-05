@@ -1,4 +1,6 @@
 # Knowledge Engineering Knowledge Set v1 (Operations Rules)
+**Tags:** #kb #knowledge-engineering #worlds
+
 
 Set: 20 cards.  
 Focus: knowledge-engineering operational reliability (retention, section updates, restore protocol, archive discipline).

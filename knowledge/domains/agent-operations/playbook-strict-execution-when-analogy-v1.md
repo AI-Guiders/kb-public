@@ -1,4 +1,6 @@
 # Playbook: строгое выполнение при отсылке к образцу (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Домен:** agent-operations  
 **Секция hot:** `strict-execution-when-analogy-v1`

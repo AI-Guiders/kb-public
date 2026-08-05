@@ -1,4 +1,6 @@
 # Automation Scripting Playbook v1
+**Tags:** #software-automation-scripting #worlds
+
 
 ## Purpose
 Router playbook for project-aware automation decisions across scripting and container tools.

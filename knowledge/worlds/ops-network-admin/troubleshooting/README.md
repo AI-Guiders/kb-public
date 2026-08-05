@@ -1,4 +1,6 @@
 # Troubleshooting — ops.network-admin
+**Tags:** #ops-network-admin #readme #worlds
+
 
 | Файл | Роль |
 |------|------|

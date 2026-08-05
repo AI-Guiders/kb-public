@@ -1,4 +1,6 @@
 # World-life modeling toolchain v1
+**Tags:** #living #playbook #world-life #worlds
+
 
 Перенесено из `agent-notes.md`. Связь: `world-life-meta-v1`, `world-life-router-playbook-v1` в `map-world-life-subworlds-v1.md`.
 

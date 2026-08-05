@@ -1,4 +1,6 @@
 # Мир **pedagogy.biology**
+**Tags:** #pedagogy-biology #readme #worlds
+
 
 **Идентификатор:** `pedagogy.biology`  
 **Фокус v1:** three-dimensional learning (practices + crosscutting concepts + core ideas); phenomenon-first instruction.

@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD022 MD032 -->
 
 # Psychology Knowledge Set v1 (Classical Schools Rules)
+**Tags:** #kb #psychology-models #worlds
+
 
 Set: 24 cards.  
 Focus: foundational schools requested by user: Freud, Jung, Adler, Berne, Fromm, and adjacent core authors.  

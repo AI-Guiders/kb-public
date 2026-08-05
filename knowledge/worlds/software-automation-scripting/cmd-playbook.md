@@ -1,4 +1,6 @@
 # CMD Playbook v1
+**Tags:** #software-automation-scripting #worlds
+
 
 ## Purpose
 Dedicated playbook for Windows CMD/batch automation in legacy and compatibility scenarios.

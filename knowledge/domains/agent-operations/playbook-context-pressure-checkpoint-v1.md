@@ -1,11 +1,13 @@
 # Context pressure: сигналы и agent-initiated checkpoint (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Domain:** `agent-operations` (сквозной операционный контракт)  
 **Версия:** 1 (draft / living)  
 **Дата:** 2026-06-12  
 **Provenance:** диалог оператор + agent (Cursor); hub agent-memory refactor 2026-06-12.
 
-**Связь:** hub [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md); сценарий export — [`playbook-session-summary-and-chat-export-v1.md`](../worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md).
+**Связь:** hub [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md); сценарий export — [`playbook-session-summary-and-chat-export-v1.md`](../worlds/agent-orchestration/playbook-session-summary-and-chat-export-v1.md); ветвление тредов Cursor — [`playbook-cursor-chat-threading-v1.md`](playbook-cursor-chat-threading-v1.md).
 
 ---
 
@@ -120,7 +122,7 @@ Agent-initiated checkpoint при pressure — **минимальный duck tes
 
 | # | Где | Что |
 |---|-----|-----|
-| 1 | Cursor hooks | **`.cursor/hooks/session_checkpoint_pressure.py`** — L1: ≥40 user turns → postToolUse inject §9; `preCompact` → user_message + inject queue. State: `.cursor/hooks/state/` (gitignored). |
+| 1 | Cursor hooks | **`.cursor/hooks/session_checkpoint_pressure.py`** — L1: ≥40 user turns → `postToolUse` **additional_context** (только агент, **не видно в чате**) + **`stop` → followup_message** (видно как user message); `preCompact` → **user_message** (видно при compaction). State: `.cursor/hooks/state/` (gitignored). |
 | 2 | CIDE MCP | `session_turn_count`, `chat_export_readable` в hot path |
 | 3 | agent-notes rule | явные пороги L1 в §9 или ссылка на этот doc |
 | 4 | Forge | issue template «session checkpoint» с oar: actor |

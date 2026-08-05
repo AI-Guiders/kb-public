@@ -1,4 +1,6 @@
 # Playbook: накопление troubleshooting-гайдов (v1)
+**Tags:** #living #meta #playbook
+
 
 **Статус:** v1 · консолидация по мирам  
 **Индекс:** [`index-troubleshooting-v1.md`](index-troubleshooting-v1.md)  

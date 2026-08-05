@@ -1,4 +1,6 @@
 # Windows Environments Playbook v1
+**Tags:** #ops-host-environments #worlds
+
 
 ## Purpose
 Project-independent playbook for reliable engineering and troubleshooting on Windows hosts.

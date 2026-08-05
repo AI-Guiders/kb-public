@@ -1,4 +1,6 @@
 # Human perception — scientific evidence (first sources & reviews) v1
+**Tags:** #cognition-human-perception #kb #worlds
+
 
 ## Provenance
 

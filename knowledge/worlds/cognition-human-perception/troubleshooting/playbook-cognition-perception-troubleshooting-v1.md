@@ -1,4 +1,6 @@
 # Playbook: human perception — troubleshooting (v1)
+**Tags:** #cognition-human-perception #living #playbook #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** жалоба на UX без воспроизводимого бага, когнитивная перегрузка, потеря потока  

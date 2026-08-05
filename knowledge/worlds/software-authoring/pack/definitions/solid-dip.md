@@ -1,0 +1,12 @@
+**Tags:** #llm-native-card #definition #software-authoring
+
+# SOLID — Dependency Inversion
+
+- id: solid-dip
+- kind: definition
+- informal: Зависеть от абстракций; детали зависят от политики.
+- formal.rule: high_level_modules_depend_on_abstractions
+- llm_cue: Does domain import infrastructure concrete types?
+- related: solid-after-grasp, composition-over-inheritance
+- sources: worlds/software-authoring/code-writing-principles-v1.md
+

@@ -1,4 +1,6 @@
 # `templates/worlds/` — триада мира и hub
+**Tags:** #readme #templates
+
 
 Экземпляры в **`knowledge/worlds/<slug>/`**. Порядок загрузки (роутер): **status → playbook → kb**. При симптомах/инцидентах: **`troubleshooting/`** — [`template-world-troubleshooting-readme-v1.md`](template-world-troubleshooting-readme-v1.md); индекс — [`../../META/index-troubleshooting-v1.md`](../../META/index-troubleshooting-v1.md).
 

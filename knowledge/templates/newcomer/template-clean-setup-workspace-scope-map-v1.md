@@ -1,4 +1,6 @@
-# workspace-scope-map (template — copy to personal `work/local/workspace-scope-map-v1.md`)
+**Tags:** #template #templates
+
+﻿# workspace-scope-map (template — copy to personal `work/local/workspace-scope-map-v1.md`)
 
 One line per entry: `absolute/workspace/path => scope_id`
 Comments with `#` allowed. No prose in the real file.

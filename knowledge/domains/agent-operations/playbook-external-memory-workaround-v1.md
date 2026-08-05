@@ -1,4 +1,6 @@
 # External memory: запись в артефакты как обход harness (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Domain:** `agent-operations`  
 **Дата:** 2026-06-14  

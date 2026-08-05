@@ -1,4 +1,6 @@
 # ADR 009: Вход в KB, `worlds/` / `domains/`, `templates/`, `routers/` и файл таксономии
+**Tags:** #adr
+
 
 **Статус:** Accepted  
 **Дата:** 2026-05-12  

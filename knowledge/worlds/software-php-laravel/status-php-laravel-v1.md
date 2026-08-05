@@ -1,4 +1,6 @@
 # Status: PHP / Laravel v1
+**Tags:** #software-php-laravel #status #worlds
+
 
 **Канон перечня артефактов домена:** § Closure snapshot ниже; полный инвентарь имён файлов для людей и сборок — ещё `knowledge/README.md` (список Files). В `index-knowledge-router-v1.md` в таблице доменов — короткий указатель, без дублирования всего списка kb.
 

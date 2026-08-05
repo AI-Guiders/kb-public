@@ -1,4 +1,6 @@
-# Мир **cognition.language-acquisition** (детское усвоение языка L1)
+**Tags:** #cognition-language-acquisition #readme #worlds
+
+﻿# Мир **cognition.language-acquisition** (детское усвоение языка L1)
 
 **Идентификатор мира:** `cognition.language-acquisition`  
 **Каталог:** `knowledge/worlds/cognition-language-acquisition/`  
@@ -8,7 +10,7 @@
 
 **Инженерная половина (sibling):** [`../ml-learning-dynamics/README.md`](../ml-learning-dynamics/README.md) — ML-аналоги (curriculum, forgetting, CLS, EWC) с `transfer_boundary: allow-with-check`. Две половины гипотезы CASA «педагогика развития».
 
-**Соседи:** [`../psychology-models/README.md`](../psychology-models/README.md) (широкая психология); [`../cognition-human-perception/README.md`](../cognition-human-perception/README.md) (восприятие/UX, другой контур); [`../cognition-neurolinguistics/README.md`](../cognition-neurolinguistics/README.md) (brain language/reading — bridge → pedagogy); [`../pedagogy-general/README.md`](../pedagogy-general/README.md) (**school** pedagogy — другой контур; transfer deny без bridge).
+**Соседи:** [`../psychology-models/README.md`](../psychology-models/README.md) (широкая психология); [`../cognition-human-perception/README.md`](../cognition-human-perception/README.md) (восприятие/UX, другой контур); [`../cognition-neurolinguistics/README.md`](../cognition-neurolinguistics/README.md) (brain language/reading — bridge → pedagogy); [`../pedagogy-general/README.md`](../pedagogy-general/README.md) (**school** pedagogy — другой контур; transfer deny без bridge); [`../cognition-early-caregiving/README.md`](../cognition-early-caregiving/README.md) (**parent/pediatric practice** — CDC, serve-and-return; не academic L1).
 
 ## Слои канона (порядок загрузки)
 

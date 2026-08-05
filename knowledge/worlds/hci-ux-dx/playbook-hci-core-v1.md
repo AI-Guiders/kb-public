@@ -1,4 +1,6 @@
 # HCI Core Playbook v1
+**Tags:** #hci-ux-dx #living #playbook #worlds
+
 
 ## Purpose
 

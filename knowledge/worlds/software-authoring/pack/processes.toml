@@ -1,0 +1,42 @@
+# Guided processes — software-authoring
+
+[[process]]
+id = "ooad-agent-pass"
+name = "OOA&D agent pass before code"
+apply_when = "task names domain nouns or UI kinds grow via switch"
+signals = ["domain_nouns_in_task", "kind_switch_growth", "god_class_smell"]
+steps = [
+  "noun-verb lists",
+  "CRC / responsibilities",
+  "assign GRASP",
+  "only then SOLID polish / code",
+]
+gate = ["candidates_named", "no_new_kind_case_without_type"]
+definition_anchors = ["ooa", "ood", "noun-verb-analysis", "solid-after-grasp"]
+sources = ["worlds/software-authoring/playbook-ooad-agent-operational-v1.md"]
+
+[[process]]
+id = "mutation-blast-bound"
+name = "Bound blast radius before mutate"
+apply_when = "rename / signature / public API / cascade multi-file edit"
+signals = ["mutation_planned", "impact_unclear", "multi_file_edit"]
+steps = [
+  "name intended change (claim)",
+  "enumerate impact (refs/overrides/DI/tests) — not grep-only",
+  "classify nodes: compatible | needs-update | unsafe",
+  "bound radius (files/projects/symbols) + residual unknown",
+  "DryRun/Delta if available",
+  "mutate only inside accepted bound",
+  "verify delta within bound + VC",
+]
+gate = [
+  "blast set typed before write",
+  "no unsafe without explicit accept",
+  "unknown_impact shrinks each planning step",
+]
+definition_anchors = ["blast-radius", "verification-contract", "stage-result", "delta-radius-gate"]
+sources = [
+  "worlds/epistemic-scene/pack/definitions/blast-radius.md",
+  "worlds/_llm-native-packs/note-pack-layers-v0.md",
+]
+

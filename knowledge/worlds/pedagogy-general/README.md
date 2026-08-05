@@ -1,4 +1,6 @@
 # Мир **pedagogy.general**
+**Tags:** #pedagogy-general #readme #worlds
+
 
 **Идентификатор мира:** `pedagogy.general`  
 **Каталог:** `knowledge/worlds/pedagogy-general/`  

@@ -1,4 +1,6 @@
 # Evidence: Sweller (1988) — Cognitive load during problem solving
+**Tags:** #kb #pedagogy-general #worlds
+
 
 ## Provenance
 

@@ -1,4 +1,6 @@
 # Playbook: Zabbix — мониторинг (v1)
+**Tags:** #living #ops-observability-network #playbook #worlds
+
 
 > **Scope:** общие практики мониторинга с Zabbix, типовые интеграции (в т.ч. nginx), без привязки к конкретным хостам.
 

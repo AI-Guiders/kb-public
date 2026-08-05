@@ -1,4 +1,6 @@
 # Мир **cognition.language-development** — DEPRECATED
+**Tags:** #cognition-language-development #readme #worlds
+
 
 **Статус:** deprecated · superseded by [`../cognition-language-acquisition/`](../cognition-language-acquisition/README.md)
 

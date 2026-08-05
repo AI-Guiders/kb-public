@@ -1,4 +1,6 @@
 # Playbook: проактивные микро-улучшения и опора на интуицию (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Домен:** agent-operations  
 **Секция hot:** `proactive-micro-improvements-and-intuition-v1` (stub → этот файл)

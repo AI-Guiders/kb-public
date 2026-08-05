@@ -1,4 +1,6 @@
 # Child language acquisition — operational playbook v1
+**Tags:** #cognition-language-acquisition #living #playbook #worlds
+
 
 **Purpose:** когда и как использовать мир `cognition.language-acquisition`.  
 **Fundamentals:** [`kb-language-acquisition-fundamentals-v1.md`](kb-language-acquisition-fundamentals-v1.md)  

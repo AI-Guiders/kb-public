@@ -1,4 +1,6 @@
 # Knowledge Engineering Domain Status v1
+**Tags:** #knowledge-engineering #status #worlds
+
 
 ## Scope
 

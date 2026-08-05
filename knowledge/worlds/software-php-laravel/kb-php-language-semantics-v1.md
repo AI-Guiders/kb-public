@@ -1,4 +1,6 @@
 # PHP 8.x — язык и семантика (фундаментальный проход)
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** целостная карта **семантики PHP 8.x** (ориентир **8.4+**): типы, объекты, ошибки, пространства имён, граничные случаи. Мир **`software.php`**. Хронология фич по мажорам с **5.x** — `kb-php-versions-and-evolution-v1.md`. Рантайм/SAPI/Composer — в `kb-php-fundamentals-v1.md`; веб-слой — в `kb-php-web-sessions-io-v1.md`.
 

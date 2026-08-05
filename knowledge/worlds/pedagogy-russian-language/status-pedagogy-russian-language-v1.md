@@ -1,4 +1,6 @@
 # Status: pedagogy.russian-language v1
+**Tags:** #pedagogy-russian-language #status #worlds
+
 
 **Домен:** русский язык — written mastery v1  
 **Версия:** v1.1 · 2026-06-06 · **status:** active

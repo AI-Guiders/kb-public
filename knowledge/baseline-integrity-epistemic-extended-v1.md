@@ -1,4 +1,6 @@
 # Baseline: целостность и эпистемия (развёрнуто, v1)
+**Tags:** #kb-root
+
 
 **Назначение:** полный текст, ранее в секции `baseline-integrity-epistemic-v1` в `agent-notes.md`. В hot остаётся контракт L0 со ссылкой сюда.
 

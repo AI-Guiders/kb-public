@@ -1,4 +1,6 @@
 # Playbook: Wireshark — диагностика сети (v1)
+**Tags:** #living #ops-network-admin #playbook #worlds
+
 
 > **Scope:** общие приёмы захвата и анализа трафика. Без привязки к конкретным сетям и хостам.
 

@@ -1,4 +1,6 @@
 # Мир **information.management** (IM)
+**Tags:** #information-management #readme #worlds
+
 
 **Назначение:** IM playbook, публичная идентичность и доверие, открытые вопросы, purpose/books.
 

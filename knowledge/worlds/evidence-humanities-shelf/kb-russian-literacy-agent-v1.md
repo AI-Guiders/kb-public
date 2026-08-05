@@ -1,4 +1,6 @@
 # Русский для агента: читать запросы и писать ответы (literacy v1)
+**Tags:** #evidence-humanities-shelf #kb #worlds
+
 
 **doc_id:** `kb-russian-literacy-agent-v1`  
 **audience:** CASA-агент (не замена школьного РКШ); слой **до** доменных KB (C#, грамматика нормы).  

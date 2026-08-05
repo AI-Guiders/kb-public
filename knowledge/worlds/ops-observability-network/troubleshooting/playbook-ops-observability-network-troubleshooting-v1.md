@@ -1,4 +1,6 @@
 # Playbook: ops.observability-network — troubleshooting (v1)
+**Tags:** #living #ops-observability-network #playbook #worlds
+
 
 > **Контур:** A · мир **ops.observability-network** · kb-public  
 > **Когда:** Zabbix (нет данных, очередь, flapping), Grafana (пустые панели, алерты), сеть (нет интернета, VLAN, потери)  

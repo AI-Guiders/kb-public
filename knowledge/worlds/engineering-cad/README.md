@@ -1,4 +1,6 @@
-# Мир **engineering.cad** (САПР / CAD-плагины)
+**Tags:** #engineering-cad #readme #worlds
+
+﻿# Мир **engineering.cad** (САПР / CAD-плагины)
 
 **World tag:** `engineering.cad`  
 **Каталог:** `knowledge/worlds/engineering-cad/`
@@ -24,7 +26,7 @@
 
 ## Связанные миры
 
-[software.authoring](../software-authoring/README.md) · [software-dotnet-csharp](../software-dotnet-csharp/README.md) · [software-dotnet-tooling-roslyn](../software-dotnet-tooling-roslyn/README.md) · [collaboration.git-pr](../collaboration-git-pr/README.md) · [workspace.context](../workspace-context/playbook-multi-project-context-v1.md)
+[engineering.pml](../engineering-pml/README.md) (AVEVA PML / pmllib) · [software.authoring](../software-authoring/README.md) · [software-dotnet-csharp](../software-dotnet-csharp/README.md) · [software-dotnet-tooling-roslyn](../software-dotnet-tooling-roslyn/README.md) · [collaboration.git-pr](../collaboration-git-pr/README.md) · [workspace.context](../workspace-context/playbook-multi-project-context-v1.md)
 
 ## Роутер
 

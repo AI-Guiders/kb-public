@@ -1,4 +1,6 @@
 # Mathematics pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-mathematics #worlds
+
 
 ## Metadata
 

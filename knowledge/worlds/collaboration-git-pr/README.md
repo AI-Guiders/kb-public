@@ -1,4 +1,6 @@
 # Мир **collaboration.git-pr** (Git и pull request)
+**Tags:** #collaboration-git-pr #readme #worlds
+
 
 **Назначение:** статусы и playbooks по Git и ревью PR, kb по безопасности git и рискам merge, runbook multi-remote backup.
 

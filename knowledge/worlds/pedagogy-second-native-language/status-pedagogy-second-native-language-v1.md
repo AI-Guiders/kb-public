@@ -1,4 +1,6 @@
 # Status: pedagogy.second-native-language v1
+**Tags:** #pedagogy-second-native-language #status #worlds
+
 
 **Домен:** второй (и далее) родной язык — bilingual/immersion v1 (EN anchor)  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

@@ -1,4 +1,6 @@
-# Knowledge Router — Supplement (detailed domain routes) v1
+**Tags:** #kb-root
+
+﻿# Knowledge Router — Supplement (detailed domain routes) v1
 
 **Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router-v1.md` сразу после Context Budget.
 
@@ -191,6 +193,18 @@
 - **CASA lab / ca-substrate-agent:** engineering spec — `teacher-correction-protocol-v0`, `kb-casa-teacher-sleep-lab-norm-v1`; педагогика — только inspiration в `research-training-developmental-pedagogy-v1` (hypothesis).
 <!-- /section:router-language-acquisition -->
 
+<!-- section:router-early-caregiving -->
+
+
+
+
+## Early caregiving (parent/pediatric practice): fundamentals → operational
+
+- **При запросах «как растят детей»** (книги для родителей, педиатр, CDC milestones, serve-and-return, narrate routines, не academic papers): **`knowledge/worlds/cognition-early-caregiving/playbook-early-caregiving-operational-v1.md`**. Фундамент: **`kb-early-caregiving-fundamentals-v1.md`**. Index: **`kb-early-caregiving-scientific-evidence-v1.md`** → CDC, AAP, HCDC, Zero to Three, HealthyChildren cards. Hub: **`cognition-early-caregiving/README.md`**.
+- **Не путать с** `cognition.language-acquisition` (Snow/Saxton research) и `pedagogy.general` (школа).
+- **CASA partner wire:** inspiration only — **`work/projects/door-to-singularity/ca-substrate-agent/kb-casa-partner-wire-caregiving-inspiration-v1.md`**; transfer **`matrix-early-caregiving-transfer-v1.md`** (deny → compose oracle).
+<!-- /section:router-early-caregiving -->
+
 <!-- section:router-troubleshooting-index -->
 
 
@@ -284,6 +298,20 @@
 - **RegExp (flavor JS):** `knowledge/worlds/pattern-regex/regex-playbook.md` → `knowledge/worlds/pattern-regex/kb-regex-flavors-practice-v1.md` § JavaScript.
 - **Связь:** `knowledge/worlds/software-engineering-evidence/kb-engineering-evidence-v1.md`; DOM/Web API — MDN/платформа, не этот кластер.
 <!-- /section:router-javascript -->
+
+<!-- section:router-pml -->
+
+
+## AVEVA PML (PML1 / PML2 / pmllib)
+
+- **Триггеры:** PML, PML1, PML2, `pmllib`, `pml.index`, `.pmlfnc`, `.pmlobj`, `.pmlfrm`, `define object`, `!!` global, `pml reload`, E3D/PDMS macro, Notepad++ PML.
+- **Порядок:** `status-engineering-pml-v1` → `playbook-pml-v1` → **один** `kb-pml-*` (map: `map-engineering-pml-reading-v1.md`).
+- **Fundamentals языка:** `kb-pml-fundamentals-v1.md` (PML1/PML2, объекты, **нет inheritance**, файлы).
+- **Fundamentals runtime:** `kb-pml-runtime-fundamentals-v1.md` (directives, trace, forms, `pml index`).
+- **Operational репо** (каталог, build, LSP) — `work/projects/sscad/pmllib/README.md`, scope **`sscad`**, не worlds.
+- **Не смешивать:** .NET addins → `engineering.cad`; полный vendor Software Customization Reference — не грузить целиком.
+- **Hub:** `knowledge/worlds/engineering-pml/README.md` · Domain Entry `engineering-pml-domain-entry-v1`.
+<!-- /section:router-pml -->
 
 <!-- section:router-avalonia-ui -->
 

@@ -1,4 +1,6 @@
-# Fundamentals: CAD/BIM платформы в линейке плагинов (v1)
+**Tags:** #engineering-cad #kb #worlds
+
+﻿# Fundamentals: CAD/BIM платформы в линейке плагинов (v1)
 
 **Мир:** `engineering.cad`  
 **Статус:** active · справочно, без привязки к одному заказчику

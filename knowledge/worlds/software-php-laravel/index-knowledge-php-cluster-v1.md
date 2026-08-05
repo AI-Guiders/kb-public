@@ -1,4 +1,6 @@
 # Кластер PHP (**world (KE):** `software.php`) — навигация v1
+**Tags:** #software-php-laravel #worlds
+
 
 **Назначение:** точка входа при **полном или частичном** фундаментальном проходе по PHP без фреймворка. Следовать контракту memory-architecture: **status → playbook → kb**; этот файл — **карта «задача → файл»**, не заменяет playbook.
 

@@ -1,4 +1,6 @@
 # Laravel Playbook v1
+**Tags:** #living #playbook #software-php-laravel #worlds
+
 
 ## Purpose
 

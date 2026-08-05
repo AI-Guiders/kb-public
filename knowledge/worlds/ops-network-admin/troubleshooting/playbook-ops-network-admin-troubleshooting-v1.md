@@ -1,4 +1,6 @@
 # Playbook: ops.network-admin — troubleshooting (v1)
+**Tags:** #living #ops-network-admin #playbook #worlds
+
 
 > **Контур:** A · мир **ops.network-admin** · kb-public  
 > **Когда:** SSH/SCP, nginx/PHP-FPM, захват трафика, 1С (проведение, блокировки)  

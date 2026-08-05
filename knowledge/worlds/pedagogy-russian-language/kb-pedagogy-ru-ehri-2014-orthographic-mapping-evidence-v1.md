@@ -1,4 +1,6 @@
 # Evidence: Ehri (2014) — Orthographic mapping
+**Tags:** #kb #pedagogy-russian-language #worlds
+
 
 ## Provenance
 

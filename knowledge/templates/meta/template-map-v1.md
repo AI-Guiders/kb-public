@@ -1,4 +1,6 @@
-# Map: <title> (template)
+**Tags:** #template #templates
+
+﻿# Map: <title> (template)
 
 **Назначение:** одна страница — **схема**, маршрутизация, «куда что класть». Не дублировать длинные playbook.
 

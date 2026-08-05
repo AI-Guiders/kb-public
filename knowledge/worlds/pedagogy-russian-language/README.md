@@ -1,4 +1,6 @@
 # Мир **pedagogy.russian-language**
+**Tags:** #pedagogy-russian-language #readme #worlds
+
 
 **Идентификатор:** `pedagogy.russian-language`  
 **Фокус v1:** **письменный** тракт — fluent read, orthography/punctuation in context, text dialogue. **Audio deferred.**

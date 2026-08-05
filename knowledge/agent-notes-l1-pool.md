@@ -1,4 +1,6 @@
 # Agent-notes L1 pool (load on demand)
+**Tags:** #kb-root
+
 
 Секции, вынесенные из горячего контекста. **Не включать в default hot.** Загружать по запросу: `route_context(query)` или чтение этого файла.
 

@@ -1,4 +1,6 @@
-# Evidence: McCloskey & Cohen (1989) — Catastrophic interference in connectionist networks
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: McCloskey & Cohen (1989) — Catastrophic interference in connectionist networks
 
 ## Provenance
 - source_refs:

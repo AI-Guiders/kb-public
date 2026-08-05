@@ -1,4 +1,6 @@
 # Playbook: Grafana (v1)
+**Tags:** #living #ops-observability-network #playbook #worlds
+
 
 > **Scope:** типовые задачи админа Grafana — дашборды, источники данных, алерты. Без привязки к конкретным инстансам и паролям. Глубокий справочник: `kb-grafana-reference-v1.md`.
 

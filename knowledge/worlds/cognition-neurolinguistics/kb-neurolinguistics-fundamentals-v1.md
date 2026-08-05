@@ -1,4 +1,6 @@
 # Neurolinguistics — fundamentals v1
+**Tags:** #cognition-neurolinguistics #kb #worlds
+
 
 **Мир:** `cognition.neurolinguistics`  
 **Версия:** v1.1 · 2026-06-06 · **status:** active

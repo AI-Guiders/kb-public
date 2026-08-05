@@ -1,4 +1,6 @@
 # Pedagogy — scientific evidence index v1 (cross-cutting)
+**Tags:** #kb #pedagogy-general #worlds
+
 
 ## Metadata
 

@@ -1,4 +1,6 @@
 # Troubleshooting — knowledge.engineering
+**Tags:** #knowledge-engineering #readme #worlds
+
 
 | Файл | Роль |
 |------|------|

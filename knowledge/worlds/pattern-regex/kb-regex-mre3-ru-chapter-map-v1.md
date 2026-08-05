@@ -1,4 +1,6 @@
 # Карта глав: Jeffrey Friedl — «Регулярные выражения», 3-е изд. (рус. перевод O'Reilly)
+**Tags:** #kb #pattern-regex #worlds
+
 
 ## Provenance (происхождение)
 

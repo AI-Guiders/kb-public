@@ -1,4 +1,6 @@
 # Systems IT reference corpus v1
+**Tags:** #systems-it #worlds
+
 
 Перенесено из `agent-notes.md`. Stub в hot с тем же `section_id`. Мир **systems.it**: hub `README.md`; playbooks/kb в этой папке.
 

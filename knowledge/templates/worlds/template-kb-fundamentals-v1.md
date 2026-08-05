@@ -1,4 +1,6 @@
-# KB fundamentals: `<topic>` v1 (template)
+**Tags:** #template #templates
+
+﻿# KB fundamentals: `<topic>` v1 (template)
 
 **Назначение:** самодостаточный опорный слой определений (агент не обязан каждый раз открывать первоисточник).
 

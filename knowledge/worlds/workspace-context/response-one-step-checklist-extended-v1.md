@@ -1,4 +1,6 @@
 # Response one-step checklist (extended)
+**Tags:** #workspace-context #worlds
+
 
 Перенесено из `agent-notes.md`. Stub: `response-one-step-checklist-v1`.
 

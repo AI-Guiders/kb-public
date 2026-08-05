@@ -1,0 +1,17 @@
+id = "software-authoring"
+version = "0.5.1"
+layer = "craft"
+title = "Software authoring — OOA&D, SOLID, GoF licenses, C# traps, mutation craft"
+onboarding = "Start with ooa vs ood; noun-verb; SOLID/patterns only after responsibilities. Pattern-first = mc-pattern-first. High-abuse GoF: singleton, factory-method, strategy, observer. C# traps: dispose, HttpClient, multipass IEnumerable, culture, logs/PII, mutable static, ValueTask, async void, ConfigureAwait, CT propagate, AOT, vulnerable packages, DI captive. Before mutate: blast-radius + mutation-blast-bound."
+depends_on = ["epistemic-scene", "epistemic-methodology"]
+content = "definitions/*.md + misconceptions/*.md"
+route = "processes.toml"
+sources = [
+  "worlds/software-authoring/kb-ooad-fundamentals-v1.md",
+  "worlds/software-authoring/code-writing-principles-v1.md",
+  "worlds/software-authoring/playbook-ooad-agent-operational-v1.md",
+  "personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md",
+  "worlds/_llm-native-packs/note-pack-layers-v0.md",
+  "worlds/_llm-native-packs/MIGRATION-MAP.md",
+]
+

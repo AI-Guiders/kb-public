@@ -1,4 +1,6 @@
 # Мир **workspace.context** (мультипроект и контекст)
+**Tags:** #readme #workspace-context #worlds
+
 
 **Назначение:** мультипроектный контекст, регидрация контекста, active scope, response finalizer.
 

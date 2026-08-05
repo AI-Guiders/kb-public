@@ -1,4 +1,6 @@
 # Social studies pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-social-studies #worlds
+
 
 **Мир:** `pedagogy.social-studies`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

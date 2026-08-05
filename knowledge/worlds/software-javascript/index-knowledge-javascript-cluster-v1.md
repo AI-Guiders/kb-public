@@ -1,4 +1,6 @@
 # Кластер JavaScript (**world (KE):** `software.javascript`) — навигация v1
+**Tags:** #software-javascript #worlds
+
 
 **Назначение:** точка входа с явным разложением **fundamentals → operational**. Контракт memory-architecture: **status → playbook → kb**; playbook — [`playbook-javascript-operational-v1.md`](playbook-javascript-operational-v1.md) (операционный слой и мост от теории к действиям).
 

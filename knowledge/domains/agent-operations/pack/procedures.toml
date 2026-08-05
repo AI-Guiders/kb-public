@@ -1,0 +1,39 @@
+# When-cards — CDP consumer (agent-operations)
+
+[[procedure]]
+id = "migrate-one-then-batch"
+name = "Migrate one, then batch"
+apply_when = "mass migrate / rewrite / rename-across-tree urge; script-first temptation"
+signals = [
+  "mass_migrate",
+  "script_first",
+  "batch_without_golden",
+]
+phases = ["plan", "act", "verify"]
+steps = [
+  "draft transform (claim + bound)",
+  "apply to 1–2 files only",
+  "inspect golden pair — fix now if broken",
+  "only then batch inside accepted blast",
+  "verify or open tracked item — no silent «потом»",
+]
+gate = [
+  "golden_pair_ok before batch",
+  "no_silent_later_fix",
+  "deferred_only_if_task_or_finding_written",
+]
+definition_anchors = [
+  "migrate-one-then-batch",
+  "mc-mass-migrate-script-first",
+  "delta-radius-gate",
+  "blast-radius",
+]
+related_process = "mutation-blast-bound"
+tool_anchors = [
+  "get_definition:migrate-one-then-batch",
+  "get_procedure:migrate-one-then-batch",
+  "radius_gate_check",
+]
+llm_cue = "Did I say «потом поправлю»? Fix now or open a tracked item — do not rely on memory."
+host_projectors = []
+

@@ -1,4 +1,6 @@
 # Playbook: свежесть знаний в каноне (agent entry) — v1
+**Tags:** #knowledge-engineering #living #playbook #worlds
+
 
 **Назначение:** **одна точка входа для агента**, когда задача про **устаревание или перепроверку любого знания** в `knowledge/` — не только .NET: гуманитарные карточки, психология, HCI, продуктовые runbook’и, evidence, слои **fundamentals → operational**, поля `Проверено:` / provenance, `deprecated` / `supersedes`, «куда записать обновление». Не заменяет доменные playbook’и — **сужает** выбор файлов и порядок действий.
 

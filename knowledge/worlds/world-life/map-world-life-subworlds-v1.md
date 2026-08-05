@@ -1,4 +1,6 @@
 # World-life subworlds map v1
+**Tags:** #map #world-life #worlds
+
 
 Тела секций `world-*`, перенесённые из `agent-notes.md`. Те же `section_id` — stub в hot; полный текст: `read_knowledge_file` / `route_context`.
 

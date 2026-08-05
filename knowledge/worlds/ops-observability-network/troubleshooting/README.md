@@ -1,4 +1,6 @@
 # Troubleshooting — ops.observability-network
+**Tags:** #ops-observability-network #readme #worlds
+
 
 | Файл | Роль |
 |------|------|

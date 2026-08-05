@@ -1,4 +1,6 @@
 # Agent orchestration operations v1
+**Tags:** #agent-orchestration #living #playbook #worlds
+
 
 Перенесено из `agent-notes.md`. Сквозные write/integrity-протоколы — `knowledge/domains/agent-operations/`. Hub: `knowledge/worlds/agent-orchestration/`.
 

@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD032 -->
 
 # Psychology Reading Map v1
+**Tags:** #map #psychology-models #worlds
+
 
 ## Objective
 

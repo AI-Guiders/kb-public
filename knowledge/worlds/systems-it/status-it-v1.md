@@ -1,4 +1,6 @@
 # IT Domain Status v1
+**Tags:** #status #systems-it #worlds
+
 
 ## Scope
 

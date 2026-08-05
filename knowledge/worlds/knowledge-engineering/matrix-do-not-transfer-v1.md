@@ -1,4 +1,6 @@
 # Do-Not-Transfer Matrix v1
+**Tags:** #knowledge-engineering #worlds
+
 
 Назначение: фиксировать, какие знания нельзя переносить между мирами без явной валидации.
 

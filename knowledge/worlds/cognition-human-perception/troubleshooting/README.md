@@ -1,4 +1,6 @@
 # Troubleshooting — cognition.human-perception
+**Tags:** #cognition-human-perception #readme #worlds
+
 
 | Файл | Роль |
 |------|------|

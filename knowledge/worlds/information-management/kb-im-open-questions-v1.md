@@ -1,4 +1,6 @@
 # IM Open Questions v1
+**Tags:** #information-management #kb #worlds
+
 
 Открытые проектные/архитектурные вопросы домена Information Management. Источник: `im-playbook.md` → Open Questions Backlog. Ответы требуют решений по проекту или коду; здесь только структура и критерий закрытия.
 

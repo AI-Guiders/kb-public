@@ -1,4 +1,6 @@
-# Hot section (template)
+**Tags:** #template #templates
+
+﻿# Hot section (template)
 
 Вставка в **`agent-notes.md`** (personal primary) между маркерами:
 

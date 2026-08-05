@@ -1,4 +1,6 @@
 # Мир **pedagogy.mathematics**
+**Tags:** #pedagogy-mathematics #readme #worlds
+
 
 **Идентификатор:** `pedagogy.mathematics`  
 **Фокус v1:** procedural fluency + conceptual understanding; worked examples, CRA, problem-solving gates.

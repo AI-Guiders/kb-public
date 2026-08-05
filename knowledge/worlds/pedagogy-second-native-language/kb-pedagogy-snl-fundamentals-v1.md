@@ -1,4 +1,6 @@
 # Second-native language pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-second-native-language #worlds
+
 
 **Мир:** `pedagogy.second-native-language`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

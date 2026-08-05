@@ -1,4 +1,6 @@
 # `templates/work/` — операционный слой (`work/`)
+**Tags:** #readme #templates
+
 
 Экземпляры живут в **`knowledge/work/projects/`** (не в kb-public). Шаблоны **публикуются** в kb-public как каркасы.
 
@@ -15,3 +17,8 @@
 Соглашение полей: `work/projects/README.md`.
 
 Верхний индекс: [`../README.md`](../README.md).
+| `template-taskknowledge-analytics.md` | analytics после ADR → Parts/Facts/Gaps/DAG (экземпляр в work store / scratch, не в канон как ADR) |
+| `template-taskknowledge-task.md` | узел TaskKnowledge / findings task card (поля + зачем; criterion) |
+
+EnvInvariant: [`domains/agent-operations/note-taskknowledge-flow.md`](../../domains/agent-operations/note-taskknowledge-flow.md).
+| `template-taskknowledge-workspace-layout.md` | каркас `{workspace}/.task-knowledge/` |

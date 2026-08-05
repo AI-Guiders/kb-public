@@ -1,4 +1,6 @@
 # Docker Playbook v1
+**Tags:** #software-automation-scripting #worlds
+
 
 ## Purpose
 Dedicated playbook for containerized development, testing, and operational reproducibility.

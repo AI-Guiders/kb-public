@@ -1,4 +1,6 @@
 # Context Rehydrate Runbook v1
+**Tags:** #runbook #workspace-context #worlds
+
 
 ## Trigger
 

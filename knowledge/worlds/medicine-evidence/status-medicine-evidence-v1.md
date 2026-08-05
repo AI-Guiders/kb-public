@@ -1,4 +1,6 @@
 # Medicine (Evidence-Based) Domain Status v1
+**Tags:** #medicine-evidence #status #worlds
+
 
 ## Scope
 

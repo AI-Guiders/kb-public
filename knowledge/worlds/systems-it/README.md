@@ -1,4 +1,6 @@
 # Мир **systems.it** (IT: ядро и cloud/platform)
+**Tags:** #readme #systems-it #worlds
+
 
 **Назначение:** статус IT-домена, playbook ядра систем, cloud/platform economics и diagnostics, curated rules kb.
 

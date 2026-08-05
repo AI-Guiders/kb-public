@@ -1,4 +1,6 @@
 # Avalonia UI + Dock — fundamentals v1
+**Tags:** #kb #software-dotnet-avalonia #worlds
+
 
 **Назначение:** общий фундамент для реализации **дизайн-задач** в desktop .NET на **Avalonia** с **Dock** (как в CascadeIDE): от модели UI до типичных ошибок. Операционные чек-листы — в `playbook-avalonia-dock-ui-v1.md`. Продуктовый слой (иерархия действий, доступность) — `../hci-ux-dx/playbook-hci-core-v1.md`, `../hci-ux-dx/ui-ux-playbook.md`, `../hci-ux-dx/kb-hci-usability-and-dialog-rules-v1.md`.
 

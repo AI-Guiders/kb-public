@@ -1,4 +1,6 @@
 # Playbook: PHP / Laravel — troubleshooting (v1)
+**Tags:** #living #playbook #software-php-laravel #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** «что поставить из laravel/*», очереди, поиск, платежи, OAuth  

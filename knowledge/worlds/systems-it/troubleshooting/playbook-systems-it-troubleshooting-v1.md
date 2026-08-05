@@ -1,4 +1,6 @@
 # Playbook: systems.it — troubleshooting (v1)
+**Tags:** #living #playbook #systems-it #worlds
+
 
 > **Контур:** A · kb-public  
 > **Статус:** роутер-заглушка; доменные playbooks в ops-* и digest expansion  

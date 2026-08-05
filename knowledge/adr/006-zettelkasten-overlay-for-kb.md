@@ -1,4 +1,6 @@
 # ADR 006: Zettelkasten Overlay for KB
+**Tags:** #adr
+
 
 **Статус:** Proposed  
 **Дата:** 2026-05-05  

@@ -1,4 +1,6 @@
-# Hot section template: clean-setup-routing-v1
+**Tags:** #template #templates
+
+﻿# Hot section template: clean-setup-routing-v1
 
 Copy the fenced block into personal `agent-notes.md` (below `<!-- public-cut -->` if used).
 

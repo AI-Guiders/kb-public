@@ -1,4 +1,6 @@
 # History pedagogy — router v1
+**Tags:** #living #pedagogy-history #playbook #worlds
+
 
 **world:** `pedagogy.history`
 

@@ -1,4 +1,6 @@
-# Chapter map: `<source title>` (template)
+**Tags:** #template #templates
+
+﻿# Chapter map: `<source title>` (template)
 
 **Имя файла:** `kb-<source-slug>-chapter-map-v1.md`  
 **Назначение:** навигация по книге/курсу **без копипасты** полного текста (авторское право).

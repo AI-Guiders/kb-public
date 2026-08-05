@@ -1,4 +1,6 @@
 # Мир **culture.dialogue-insights** (инсайты из диалога)
+**Tags:** #culture-dialogue-insights #readme #worlds
+
 
 **Назначение:** материалы по паттернам и инсайтам из человеко-агентного диалога.
 

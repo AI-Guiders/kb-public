@@ -1,4 +1,6 @@
-# Evidence: Elman (1993) — Learning and development in NN: the importance of starting small
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: Elman (1993) — Learning and development in NN: the importance of starting small
 
 ## Provenance
 - source_refs:

@@ -1,4 +1,6 @@
 # Evidence: Clark (1993) — *The Lexicon in Acquisition*
+**Tags:** #cognition-language-acquisition #kb #worlds
+
 
 ## Provenance
 

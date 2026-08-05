@@ -1,4 +1,6 @@
 # IDE / DX — литературный evidence (Osmani, Smalltalk-80, Boxer) v1
+**Tags:** #hci-ux-dx #kb #worlds
+
 
 ## Provenance
 

@@ -1,4 +1,6 @@
 # Psychology Knowledge Set v1 (Cultural Adaptation Rules)
+**Tags:** #kb #psychology-models #worlds
+
 
 Set: 18 cards.  
 Focus: cross-cultural validity, transfer limits, and safe operational routing for psychology domain.

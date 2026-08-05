@@ -1,4 +1,6 @@
 # ADR 013: Локальные настройки agent-notes-mcp (TOML)
+**Tags:** #adr
+
 
 **Статус:** Proposed  
 **Дата:** 2026-05-16  

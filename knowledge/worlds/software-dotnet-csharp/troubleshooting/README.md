@@ -1,4 +1,6 @@
 # Troubleshooting — software.authoring.dotnet.csharp
+**Tags:** #readme #software-dotnet-csharp #worlds
+
 
 | Файл | Роль |
 |------|------|

@@ -1,4 +1,6 @@
 # Psychology Domain Status v1
+**Tags:** #psychology-models #status #worlds
+
 
 ## Scope
 

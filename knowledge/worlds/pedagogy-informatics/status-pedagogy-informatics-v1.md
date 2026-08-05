@@ -1,4 +1,6 @@
 # Status: pedagogy.informatics v1
+**Tags:** #pedagogy-informatics #status #worlds
+
 
 **Домен:** информатика — K-12 CS pedagogy v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

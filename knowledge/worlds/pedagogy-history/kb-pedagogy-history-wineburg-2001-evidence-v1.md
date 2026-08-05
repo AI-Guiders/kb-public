@@ -1,4 +1,6 @@
 # Evidence: Wineburg (2001) — Historical Thinking and Other Unnatural Acts
+**Tags:** #kb #pedagogy-history #worlds
+
 
 ## Provenance
 

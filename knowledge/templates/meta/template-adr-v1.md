@@ -1,4 +1,6 @@
-# ADR NNN: <Title> (template)
+**Tags:** #template #templates
+
+﻿# ADR NNN: <Title> (template)
 
 **Status:** Proposed | Accepted | Superseded by ADR-XXX  
 **Date:** YYYY-MM-DD  

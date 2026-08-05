@@ -1,4 +1,6 @@
 # Mathematics pedagogy — router v1
+**Tags:** #living #pedagogy-mathematics #playbook #worlds
+
 
 **world:** `pedagogy.mathematics`
 

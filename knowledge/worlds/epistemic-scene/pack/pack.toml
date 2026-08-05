@@ -1,0 +1,23 @@
+id = "epistemic-scene"
+version = "0.1.11"
+layer = "scene"
+title = "Epistemic scene — radius, H, VC, barriers"
+onboarding = "Load debug-radius + H before Bug graph; blast-radius before mutate; major promote → applicability-then-infer (ADR-0001); gap/what-if → curiosity-kolb-loop + procedure kolb-journal-park (ADR-0002/0003)."
+depends_on = ["epistemic-methodology"]
+content = "definitions/*.md"
+route = "processes.toml"
+procedures = "procedures.toml"
+sources = [
+  "worlds/_llm-native-packs/note-pack-layers-v0.md",
+  "worlds/_llm-native-packs/INVENTORY-L0-TO-PACKS.md",
+  "worlds/_llm-native-packs/CARD-SCHEMA-APPLICABILITY.md",
+  "worlds/_llm-native-packs/PROCEDURE-SCHEMA.md",
+  "work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md",
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0001-llm-native-applicability-inference.md",
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0002-llm-native-curiosity-kolb.md",
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0003-llm-native-procedures.md",
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0004-lifecycle-plan-phase.md",
+  "baseline-integrity-epistemic-extended-v1.md",
+  "META/core-when-barriers-fail-extended-v1.md",
+]
+

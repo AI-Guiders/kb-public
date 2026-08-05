@@ -1,4 +1,6 @@
 # Status: pedagogy.visual-arts v1
+**Tags:** #pedagogy-visual-arts #status #worlds
+
 
 **Домен:** ИЗО — studio thinking v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

@@ -1,4 +1,6 @@
 # Фундамент: Манипуляция и влияние (psychology.manipulation-influence)
+**Tags:** #kb #psychology-models #worlds
+
 
 ## Назначение
 

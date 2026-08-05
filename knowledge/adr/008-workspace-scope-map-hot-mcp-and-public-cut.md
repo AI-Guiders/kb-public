@@ -1,4 +1,6 @@
 # ADR 008: Карта workspace → scope (hot), публичная сборка и резолв в agent-notes-mcp
+**Tags:** #adr
+
 
 **Статус:** Accepted (части A и B)  
 **Дата:** 2026-05-12  

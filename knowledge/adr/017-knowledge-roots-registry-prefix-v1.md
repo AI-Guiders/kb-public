@@ -1,4 +1,6 @@
 # ADR 017: Knowledge-roots registry — префиксы (не каталог всех файлов group)
+**Tags:** #adr
+
 
 **Статус:** Accepted · **2026-05-19** · Core **2.1.2**  
 **Реализация (код):** репозиторий **AIGuiders.AgentNotes.Core** / `agent-notes-core` — `docs/adr/016-knowledge-roots-registry-prefix-v1.md` (полный текст)  

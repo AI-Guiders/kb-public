@@ -1,4 +1,6 @@
 # Transfer matrix — language acquisition (L1) v1
+**Tags:** #cognition-language-acquisition #worlds
+
 
 **Мир:** `cognition.language-acquisition`  
 **См. также:** [`../knowledge-engineering/matrix-do-not-transfer-v1.md`](../knowledge-engineering/matrix-do-not-transfer-v1.md)

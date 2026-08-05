@@ -1,4 +1,6 @@
 # Playbook: ops.reliability — troubleshooting (v1)
+**Tags:** #living #ops-reliability #playbook #worlds
+
 
 > **Контур:** A · мир **ops.reliability** · kb-public  
 > **Когда:** сбой бекапа, восстановление, инцидент, тикет, постмортем не закрыт

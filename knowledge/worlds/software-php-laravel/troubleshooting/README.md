@@ -1,4 +1,6 @@
 # Troubleshooting — software.php / software.laravel
+**Tags:** #readme #software-php-laravel #worlds
+
 
 | Файл | Роль |
 |------|------|

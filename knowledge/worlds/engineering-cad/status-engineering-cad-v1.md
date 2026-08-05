@@ -1,4 +1,6 @@
-# Status: engineering.cad v1
+**Tags:** #engineering-cad #status #worlds
+
+﻿# Status: engineering.cad v1
 
 **Домен:** плагины и расширения под САПР (CAD/BIM/AEC), преимущественно .NET и смежные native API.  
 **Версия:** v1.0 · 2026-06-04 · **status:** active (draft corpus)

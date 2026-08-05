@@ -1,4 +1,6 @@
 # Status: pedagogy school subjects v1
+**Tags:** #pedagogy-general #status #worlds
+
 
 **Домен:** школьная предметная педагогика (`pedagogy.general` + subject worlds)  
 **Версия:** v1.2 · 2026-06-06 · **status:** active

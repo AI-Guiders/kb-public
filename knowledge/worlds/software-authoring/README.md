@@ -1,4 +1,6 @@
 # Мир **software.authoring** (OOA&D, кросс-доменный перенос)
+**Tags:** #readme #software-authoring #worlds
+
 
 **Назначение:** языконезависимая структура ПО (nouns/verbs, слои), матрица переноса симптом→playbook, стиль C# (общий для .NET).
 
@@ -15,6 +17,7 @@
 | [`kb-software-authoring-language-worlds-v1.md`](kb-software-authoring-language-worlds-v1.md) | Дерево world tags (C#, Roslyn, Avalonia, PHP, …) |
 | [`code-writing-principles-v1.md`](code-writing-principles-v1.md) | Стиль C# |
 | [`index-knowledge-language-v1.md`](index-knowledge-language-v1.md) | Индекс языков |
+| [`pack/`](pack/) | **LLM-native pack** (definitions/processes) — проекция для агента; hub: [`../_llm-native-packs/`](../_llm-native-packs/) |
 
 ## .NET (отдельные папки по world tag)
 

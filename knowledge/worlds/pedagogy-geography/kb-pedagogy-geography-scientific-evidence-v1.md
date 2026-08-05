@@ -1,4 +1,6 @@
 # Geography pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-geography #worlds
+
 
 ## Metadata
 

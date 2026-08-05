@@ -1,4 +1,6 @@
 # Playbook: подведение итогов сессии и читаемый экспорт чата (v1)
+**Tags:** #agent-orchestration #living #playbook #worlds
+
 
 **Версия:** 1 (канон)  
 **Статус:** активный

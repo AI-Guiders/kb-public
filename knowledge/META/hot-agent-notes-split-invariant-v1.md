@@ -1,4 +1,6 @@
 # Hot split invariant v1
+**Tags:** #meta
+
 
 **Статус:** active  
 **Дата:** 2026-05-16

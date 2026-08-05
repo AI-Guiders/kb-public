@@ -1,4 +1,6 @@
 # Status: pedagogy.geography v1
+**Tags:** #pedagogy-geography #status #worlds
+
 
 **Домен:** география — geo-literacy v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

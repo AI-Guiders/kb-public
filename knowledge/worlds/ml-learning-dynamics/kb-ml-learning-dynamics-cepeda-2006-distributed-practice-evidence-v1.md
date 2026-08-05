@@ -1,4 +1,6 @@
-# Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis
 
 ## Provenance
 - source_refs:

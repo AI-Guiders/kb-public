@@ -1,4 +1,6 @@
 # Neurolinguistics — scientific evidence index v1
+**Tags:** #cognition-neurolinguistics #kb #worlds
+
 
 ## Metadata
 

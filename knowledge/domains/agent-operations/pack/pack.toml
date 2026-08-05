@@ -1,0 +1,15 @@
+id = "agent-operations-cdp"
+version = "0.4.0"
+layer = "consumer"
+title = "CDP consumer — onboarding + migrate anti-patterns"
+onboarding = "Depends on epistemic-scene + epistemic-methodology. Load debug-radius from scene; do not reinvent L0 epistemology here. Mass migrate → procedure migrate-one-then-batch (skill facet)."
+depends_on = ["epistemic-scene", "epistemic-methodology"]
+content = "definitions/*.md + misconceptions/*.md"
+route = "procedures.toml"
+sources = [
+  "worlds/epistemic-scene/pack/pack.toml",
+  "worlds/epistemic-methodology/pack/pack.toml",
+  "work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md",
+  "worlds/_llm-native-packs/INVENTORY-L0-TO-PACKS.md",
+]
+

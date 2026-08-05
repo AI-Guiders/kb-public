@@ -1,4 +1,6 @@
 # Biology pedagogy — router v1
+**Tags:** #living #pedagogy-biology #playbook #worlds
+
 
 **world:** `pedagogy.biology`
 

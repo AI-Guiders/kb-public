@@ -1,4 +1,6 @@
 # Utility, Value, and Underdetermination: Evidence-Based Survey (v1)
+**Tags:** #evidence-humanities-shelf #kb #worlds
+
 
 Evidence-based обзор направлений: теория полезности (expected utility), теория ценности (value theory, axiology), несоизмеримость ценностей (incommensurability), агрегация предпочтений. Цель — заземлить рассуждения о «полезности» и «ценности» в научных источниках, а не в формулировках принципов; поддерживать независимое мышление, а не мимикрию правил.
 

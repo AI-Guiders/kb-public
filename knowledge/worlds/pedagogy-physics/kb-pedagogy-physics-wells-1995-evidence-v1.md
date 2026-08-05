@@ -1,4 +1,6 @@
 # Evidence: Wells, Hestenes & Swackhamer (1995) — Modeling Method in physics
+**Tags:** #kb #pedagogy-physics #worlds
+
 
 ## Provenance
 

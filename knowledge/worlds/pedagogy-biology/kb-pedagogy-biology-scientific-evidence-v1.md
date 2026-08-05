@@ -1,4 +1,6 @@
 # Biology pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-biology #worlds
+
 
 ## Metadata
 

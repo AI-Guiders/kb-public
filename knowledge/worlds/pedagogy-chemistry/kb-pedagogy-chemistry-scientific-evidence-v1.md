@@ -1,4 +1,6 @@
 # Chemistry pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-chemistry #worlds
+
 
 ## Metadata
 

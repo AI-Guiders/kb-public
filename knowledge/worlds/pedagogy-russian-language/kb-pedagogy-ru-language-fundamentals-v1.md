@@ -1,4 +1,6 @@
 # Russian language pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-russian-language #worlds
+
 
 **Мир:** `pedagogy.russian-language`  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

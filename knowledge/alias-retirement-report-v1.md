@@ -1,4 +1,6 @@
 # Alias Retirement Report v1
+**Tags:** #kb-root
+
 
 ## Outcome
 

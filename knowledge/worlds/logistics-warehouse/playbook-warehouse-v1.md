@@ -1,4 +1,6 @@
 # Warehouse Playbook v1
+**Tags:** #living #logistics-warehouse #playbook #worlds
+
 
 ## Purpose
 

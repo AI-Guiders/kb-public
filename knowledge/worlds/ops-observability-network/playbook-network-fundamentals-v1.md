@@ -1,4 +1,6 @@
 # Playbook: основы сетей (v1)
+**Tags:** #living #ops-observability-network #playbook #worlds
+
 
 > **Scope:** операционная навигация по сетевым темам — где что искать, типовые шаги диагностики. Без привязки к конкретной инфраструктуре. Глубокий справочник: `kb-network-reference-v1.md`.
 

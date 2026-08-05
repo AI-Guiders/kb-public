@@ -1,4 +1,6 @@
 # Мир **pedagogy.visual-arts**
+**Tags:** #pedagogy-visual-arts #readme #worlds
+
 
 **Идентификатор:** `pedagogy.visual-arts`  
 **Фокус v1:** Studio Thinking — habits of mind, critique, making as cognitive practice.

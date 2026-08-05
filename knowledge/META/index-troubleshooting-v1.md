@@ -1,4 +1,6 @@
 # Индекс troubleshooting в KB (v1)
+**Tags:** #meta
+
 
 **Статус:** living index · 2026-05-20 (консолидация по мирам)  
 **Процесс:** [`playbook-troubleshooting-collection-v1.md`](playbook-troubleshooting-collection-v1.md)  

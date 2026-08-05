@@ -1,4 +1,6 @@
-# Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning
 
 ## Provenance
 - source_refs:

@@ -1,4 +1,6 @@
 # Epistemic methods and calibration v1
+**Tags:** #knowledge-engineering #living #playbook #worlds
+
 
 Тела секций epistemic/calibration/hpmor из `agent-notes.md`. L0 `epistemic-default-distrust-v1` — выше `public-cut`. Extended: `knowledge/epistemic-default-distrust-extended-v1.md`.
 

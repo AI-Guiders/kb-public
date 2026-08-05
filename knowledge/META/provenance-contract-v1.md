@@ -1,4 +1,6 @@
 # Provenance Contract v1
+**Tags:** #meta
+
 
 ## Назначение
 

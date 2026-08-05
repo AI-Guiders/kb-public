@@ -1,4 +1,6 @@
 # ADR 002: Integrity POST and Epistemic Baseline
+**Tags:** #adr
+
 
 **Статус:** Accepted  
 **Дата:** 2026-03-04  

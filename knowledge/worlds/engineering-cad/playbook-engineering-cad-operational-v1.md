@@ -1,4 +1,6 @@
-# Playbook: engineering.cad — operational v1
+**Tags:** #engineering-cad #living #playbook #worlds
+
+﻿# Playbook: engineering.cad — operational v1
 
 ## Purpose
 

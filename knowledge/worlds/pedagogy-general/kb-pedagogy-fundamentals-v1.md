@@ -1,4 +1,6 @@
 # Pedagogy fundamentals v1
+**Tags:** #kb #pedagogy-general #worlds
+
 
 **Мир:** `pedagogy.general`  
 **Назначение:** самодостаточный опорный слой для authoring curriculum и gate-конструктов.  

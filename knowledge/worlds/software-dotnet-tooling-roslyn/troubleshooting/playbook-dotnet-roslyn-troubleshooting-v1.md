@@ -1,4 +1,6 @@
 # Playbook: .NET Roslyn / MCP — troubleshooting (v1)
+**Tags:** #living #playbook #software-dotnet-tooling-roslyn #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** CSxxxx, warning не уходит, code action не применяется, ошибка только в `dotnet build`, rename/find usages  

@@ -1,4 +1,6 @@
 # Troubleshooting — world-life
+**Tags:** #readme #world-life #worlds
+
 
 | Файл | Роль |
 |------|------|

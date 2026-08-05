@@ -1,4 +1,6 @@
 # IT Knowledge Set v1 (Cloud, Platform, Economics, Diagnostics Rules)
+**Tags:** #kb #systems-it #worlds
+
 
 Set: 24 cards.  
 Focus: cloud/platform engineering + architecture economics + large-scale diagnostics.

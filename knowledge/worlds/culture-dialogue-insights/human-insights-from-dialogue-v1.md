@@ -1,4 +1,6 @@
 # Human insights from dialogue (v1)
+**Tags:** #culture-dialogue-insights #worlds
+
 
 Обезличенные инсайты о людях и среде, возникшие в ходе диалогов. Без имён и личных историй; пригодно для публичной KB.
 

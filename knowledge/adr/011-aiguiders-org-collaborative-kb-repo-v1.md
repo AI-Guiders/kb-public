@@ -1,4 +1,6 @@
 # ADR 011: GitHub-организация AI-Guiders и репозиторий совместной KB (`AI-Guiders/kb`)
+**Tags:** #adr
+
 
 > **Для любой другой org:** нормативный white-label onboarding — [`../domains/agent-operations/playbook-org-kb-white-label-v1.md`](../domains/agent-operations/playbook-org-kb-white-label-v1.md) (плейсхолдер `{ORG_SLUG}`). Этот ADR — **решение и история инстанса AI-Guiders**, не универсальная инструкция.
 

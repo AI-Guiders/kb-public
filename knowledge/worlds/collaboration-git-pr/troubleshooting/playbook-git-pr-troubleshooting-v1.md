@@ -1,4 +1,6 @@
 # Playbook: Git / PR — troubleshooting (v1)
+**Tags:** #collaboration-git-pr #living #playbook #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** commit rejected (identity), submodule pointer, whitespace-only diff noise  

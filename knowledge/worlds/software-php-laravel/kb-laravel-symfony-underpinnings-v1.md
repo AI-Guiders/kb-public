@@ -1,4 +1,6 @@
 # Laravel — связь с Symfony: компоненты и границы ответственности
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** объяснить, **почему** в Laravel встречаются классы и концепции Symfony (HttpFoundation, Console, Process, …) и **когда** идти в документацию symfony.com. Мир `software.laravel` + пересечение с `software.php`.
 

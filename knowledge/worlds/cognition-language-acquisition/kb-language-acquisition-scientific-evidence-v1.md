@@ -1,4 +1,6 @@
-# Child language acquisition — scientific evidence index v1
+**Tags:** #cognition-language-acquisition #kb #worlds
+
+﻿# Child language acquisition — scientific evidence index v1
 
 ## Metadata
 

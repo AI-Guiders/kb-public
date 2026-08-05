@@ -1,4 +1,6 @@
 # Evidence: Rowe & Snow (2019) — input quality three dimensions
+**Tags:** #cognition-language-acquisition #kb #worlds
+
 
 ## Provenance
 

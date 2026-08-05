@@ -1,4 +1,6 @@
 # Literature pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-literature #worlds
+
 
 **Мир:** `pedagogy.literature`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

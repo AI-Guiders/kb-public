@@ -1,4 +1,6 @@
 # Playbook: капитан и параллельные субагенты (v1)
+**Tags:** #agent-orchestration #living #playbook #worlds
+
 
 Стабильный id для ссылок и роутера: **`captain-parallel-v1`**.
 

@@ -1,0 +1,16 @@
+id = "epistemic-methodology"
+version = "0.1.2"
+layer = "methodology"
+title = "Epistemic methodology — L0 projections"
+onboarding = "Start from default-distrust + integrity-baseline; then claim-observation-split; equal-standing + turn-local-standing are culture not optional flavor; reverse-compaction + ontological-deprivation name training/preference ontology failures."
+depends_on = []
+content = "definitions/*.md"
+sources = [
+  "baseline-integrity-epistemic-extended-v1.md",
+  "epistemic-default-distrust-extended-v1.md",
+  "epistemic-playbook.md",
+  "worlds/knowledge-engineering/playbook-epistemic-methods-and-calibration-v1.md",
+  "worlds/_llm-native-packs/INVENTORY-L0-TO-PACKS.md",
+  "domains/agent-operations/note-equal-standing-index-v1.md",
+  "kb-reverse-compaction-and-ontological-deprivation-v0.md",
+]

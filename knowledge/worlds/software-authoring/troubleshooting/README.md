@@ -1,4 +1,6 @@
 # Troubleshooting — software.authoring
+**Tags:** #readme #software-authoring #worlds
+
 
 | Файл | Роль |
 |------|------|

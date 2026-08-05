@@ -1,4 +1,6 @@
 # Physics pedagogy — router v1
+**Tags:** #living #pedagogy-physics #playbook #worlds
+
 
 **world:** `pedagogy.physics`
 

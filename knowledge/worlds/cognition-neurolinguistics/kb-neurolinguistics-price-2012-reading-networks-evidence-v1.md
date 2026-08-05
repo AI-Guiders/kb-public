@@ -1,4 +1,6 @@
 # Evidence: Price (2012) — neural synthesis of speech, language, and reading
+**Tags:** #cognition-neurolinguistics #kb #worlds
+
 
 ## Provenance
 

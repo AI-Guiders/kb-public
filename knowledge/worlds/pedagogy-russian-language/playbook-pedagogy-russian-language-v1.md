@@ -1,4 +1,6 @@
 # Russian language pedagogy — router v1
+**Tags:** #living #pedagogy-russian-language #playbook #worlds
+
 
 **world:** `pedagogy.russian-language`
 

@@ -1,4 +1,6 @@
-# Evidence: Chouinard & Clark (2003) — Adult reformulations as negative evidence
+**Tags:** #cognition-language-acquisition #kb #worlds
+
+﻿# Evidence: Chouinard & Clark (2003) — Adult reformulations as negative evidence
 
 ## Provenance
 

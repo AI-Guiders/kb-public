@@ -1,4 +1,6 @@
 # Agent foundation: physical layer vs semantic layer (orientation)
+**Tags:** #agent-orchestration #kb #worlds
+
 
 **world:** `agent.orchestration`  
 **Версия:** v1 · **2026-05-16**  

@@ -1,4 +1,6 @@
 # Pedagogy — reading map v1
+**Tags:** #map #pedagogy-general #worlds
+
 
 **world:** `pedagogy.general`
 

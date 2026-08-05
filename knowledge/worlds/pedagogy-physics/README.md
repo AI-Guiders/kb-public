@@ -1,4 +1,6 @@
 # Мир **pedagogy.physics**
+**Tags:** #pedagogy-physics #readme #worlds
+
 
 **Идентификатор:** `pedagogy.physics`  
 **Фокус v1:** conceptual change, modeling, force/motion representations; interactive engagement over passive lecture.

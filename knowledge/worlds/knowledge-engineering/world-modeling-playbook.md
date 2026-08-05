@@ -1,4 +1,6 @@
 # World Modeling Playbook v1
+**Tags:** #knowledge-engineering #worlds
+
 
 ## Purpose
 Meta-playbook for keeping knowledge structure faithful to reality: intuition first, formalization second.

@@ -1,4 +1,6 @@
 # Evidence: Treisman & Gelade (1980) — Feature Integration Theory
+**Tags:** #cognition-human-perception #kb #worlds
+
 
 ## Provenance
 

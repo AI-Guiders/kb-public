@@ -1,4 +1,6 @@
 # ADR 001: KB Public Publishing Pipeline
+**Tags:** #adr
+
 
 **Статус:** Accepted  
 **Дата:** 2026-03-04  

@@ -1,4 +1,6 @@
-# Evidence: McClelland, McNaughton & O'Reilly (1995) — Complementary Learning Systems
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: McClelland, McNaughton & O'Reilly (1995) — Complementary Learning Systems
 
 ## Provenance
 - source_refs:

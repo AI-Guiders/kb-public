@@ -1,4 +1,6 @@
 # Geography pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-geography #worlds
+
 
 **Мир:** `pedagogy.geography`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

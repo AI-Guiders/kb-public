@@ -1,4 +1,6 @@
 # Миры **software.php**, **software.laravel** и смежные (**software.web-backend**, CMS, Symfony)
+**Tags:** #readme #software-php-laravel #worlds
+
 
 **Папка-контейнер:** один кластер под `worlds/software-php-laravel/` — единая точка статуса `status-php-laravel-v1.md` для строки **PHP / Laravel** в Domain Entry Map.
 

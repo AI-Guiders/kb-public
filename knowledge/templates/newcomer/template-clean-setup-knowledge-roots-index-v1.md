@@ -1,4 +1,6 @@
 # Knowledge roots index (template — copy to personal `work/local/knowledge-roots-index-v1.md`)
+**Tags:** #template #templates
+
 
 **Not** a catalog of every file in group/public. TOML `[[knowledge.read_only]]` already mounts the full clone — use `read_knowledge_file(..., knowledge_root_id=group)` for any path.
 

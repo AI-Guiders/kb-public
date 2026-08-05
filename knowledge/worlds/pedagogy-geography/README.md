@@ -1,4 +1,6 @@
 # Мир **pedagogy.geography**
+**Tags:** #pedagogy-geography #readme #worlds
+
 
 **Идентификатор:** `pedagogy.geography`  
 **Фокус v1:** geo-literacy — interactions, interconnections, implications; spatial thinking.

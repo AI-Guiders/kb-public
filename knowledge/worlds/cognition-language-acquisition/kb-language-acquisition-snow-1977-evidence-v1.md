@@ -1,4 +1,6 @@
 # Evidence: Snow (1977) — The development of conversation between mothers and babies
+**Tags:** #cognition-language-acquisition #kb #worlds
+
 
 ## Provenance
 

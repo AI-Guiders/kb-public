@@ -1,4 +1,6 @@
 # Status: pedagogy.history v1
+**Tags:** #pedagogy-history #status #worlds
+
 
 **Домен:** история — historical thinking v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

@@ -8,6 +8,8 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: диалекты и практика (L2)
+**Tags:** #kb #pattern-regex #worlds
+
 
 ## Назначение
 

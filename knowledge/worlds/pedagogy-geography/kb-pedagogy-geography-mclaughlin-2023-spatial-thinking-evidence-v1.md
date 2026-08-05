@@ -1,4 +1,6 @@
 # Evidence: McLaughlin & Bailey (2023) — spatial thinking in geoscience/geography education
+**Tags:** #kb #pedagogy-geography #worlds
+
 
 ## Provenance
 

@@ -1,4 +1,6 @@
 # Knowledge Engineering Mixed Worlds Rules v1
+**Tags:** #kb #knowledge-engineering #worlds
+
 
 Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`.
 Правило батча: не смешивать миры; связывать их только через `transfer_boundary`.

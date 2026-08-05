@@ -1,4 +1,6 @@
 # Information Management Playbook v1
+**Tags:** #information-management #worlds
+
 
 ## Purpose
 Project-independent domain base for engineering Information Management (IM).

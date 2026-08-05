@@ -1,4 +1,6 @@
 # Мир **pedagogy.social-studies**
+**Tags:** #pedagogy-social-studies #readme #worlds
+
 
 **Идентификатор:** `pedagogy.social-studies`  
 **Фокус v1:** inquiry arc (C3 Framework) — questioning, sources, arguments, action.

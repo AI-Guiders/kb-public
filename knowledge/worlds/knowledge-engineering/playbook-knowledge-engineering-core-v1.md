@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD022 MD032 -->
 
 # Knowledge Engineering Playbook v1
+**Tags:** #knowledge-engineering #living #playbook #worlds
+
 
 ## Purpose
 

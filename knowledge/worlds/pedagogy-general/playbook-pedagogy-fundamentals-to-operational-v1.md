@@ -1,4 +1,6 @@
 # Fundamentals → Operational playbook v1
+**Tags:** #living #pedagogy-general #playbook #worlds
+
 
 **world:** `pedagogy.general`  
 **When to open:** создание/правка curriculum, probe spec, subject world.

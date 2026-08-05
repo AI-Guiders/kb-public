@@ -1,0 +1,96 @@
+[[process]]
+id = "bug-radius-shrink"
+name = "Bug mode — shrink debug radius"
+apply_when = "investigating defect / exception / wrong behavior"
+signals = ["exception_seen", "hypothesis_open", "repro_unclear"]
+steps = [
+  "fix environment + locus",
+  "list H",
+  "gather evidence (logs/debug)",
+  "confirm/reject hypotheses",
+  "root cause when radius==0",
+  "fix/VC",
+]
+gate = ["delta_radius < 0 each step", "radius == 0 or honest residual+partition"]
+definition_anchors = ["debug-radius", "hypothesis-space-h", "delta-radius-gate", "stage-result", "verification-contract"]
+
+[[process]]
+id = "applicability-then-infer"
+name = "Applicability then inference before promote"
+apply_when = "major claim, principle citation, mutation intent, or analogy across domains"
+signals = ["claim_to_promote", "rule_cited", "cross_domain_analogy", "mutation_planned"]
+steps = [
+  "name the claim or action",
+  "(A) state applies_when / does_not_apply — or honest unknown",
+  "(A) check misconception cards if a school shortcut is nearby",
+  "(I) separate observation vs inference vs hypothesis (claim-observation-split)",
+  "(I) ask consistency with active claims — contradict / independent / unknown",
+  "promote only if (A) licensed and (I) not contradicting; else reject or ask",
+]
+gate = [
+  "applies_when or unknown stated before infer",
+  "no promote on unknown applicability for major claims",
+  "disconfirm trigger named for inferences",
+]
+definition_anchors = [
+  "applicability-inference-gate",
+  "claim-observation-split",
+  "default-distrust",
+  "delta-radius-gate",
+  "verification-contract",
+]
+sources = [
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0001-llm-native-applicability-inference.md",
+  "worlds/_llm-native-packs/CARD-SCHEMA-APPLICABILITY.md",
+]
+
+[[process]]
+id = "curiosity-kolb-loop"
+name = "Curiosity — Kolb loop with (A)→(I) gate"
+apply_when = "gap/surprise/what-if; learning or investigation that must change understanding"
+signals = [
+  "radius_flat",
+  "contradiction_felt",
+  "missing_definition",
+  "operator_what_if",
+  "analogy_unchecked",
+  "shortcut_smells_school",
+]
+steps = [
+  "name the gap signal (not a vibe)",
+  "enter experiment-space — probe only; outcomes stay hypothesis/evidence",
+  "reflect in inference-space — observation vs guess (claim-observation-split)",
+  "abstract — write what-if + applies_when / does_not_apply (still hypothesis)",
+  "experiment again if needed — tools/evidence; do not promote mid-probe",
+  "handoff experiment → inference — name what the probe allows you to conclude",
+  "run applicability-then-infer before any promote",
+  "settle — promote | discard | park to kolb-journal (finding/session); policy ask — includes decision + reason_changed for self-recheck",
+]
+gate = [
+  "gap signal named before what-if",
+  "experiment-space and inference-space not collapsed (mc-spaces-collapsed)",
+  "Kolb scratch / steps on DRAFT workbook — not chat-only (mc-kolb-only-in-chat)",
+  "what-if marked hypothesis + disconfirm trigger",
+  "no promote from inside experiment-space",
+  "no promote without applicability-then-infer",
+  "delta_radius < 0 or honest unknown parked",
+]
+definition_anchors = [
+  "curiosity-drive",
+  "kolb-loop",
+  "kolb-journal",
+  "experiment-space",
+  "inference-space",
+  "applicability-inference-gate",
+  "claim-observation-split",
+  "default-distrust",
+  "delta-radius-gate",
+  "mc-curiosity-equals-persona",
+  "mc-spaces-collapsed",
+  "mc-kolb-only-in-chat",
+]
+sources = [
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0002-llm-native-curiosity-kolb.md",
+  "work/projects/door-to-singularity/cascade-ide/CDP-ADR-0001-llm-native-applicability-inference.md",
+]
+

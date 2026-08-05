@@ -1,4 +1,6 @@
-# Wissance WebApiToolkit — полный стек слоёв (fundamental → operational)
+**Tags:** #kb #software-integration-kb #worlds
+
+﻿# Wissance WebApiToolkit — полный стек слоёв (fundamental → operational)
 
 Источник: [Wissance/WebApiToolkit](https://github.com/Wissance/WebApiToolkit), README и Wiki.
 

@@ -1,4 +1,6 @@
 # Playbook: world-life — troubleshooting (v1)
+**Tags:** #living #playbook #world-life #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** дистресс, конфликт, UX-провал, data-gap, «лечим симптом не петлю»  

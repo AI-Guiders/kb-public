@@ -1,4 +1,6 @@
 # Evidence: Anderson et al. (2021) — parental linguistic input meta-analysis
+**Tags:** #cognition-language-acquisition #kb #worlds
+
 
 ## Provenance
 

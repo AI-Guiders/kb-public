@@ -1,4 +1,6 @@
 # Music: Temperaments and Mathematical Theory v1
+**Tags:** #arts-music #kb #worlds
+
 
 Математическая теория музыки: чистая интонация (just intonation), коммы, темперации (12-EDO, среднетоновая, пифагоров строй), групповая структура интервалов, N-EDO. Мир **arts.music**.
 

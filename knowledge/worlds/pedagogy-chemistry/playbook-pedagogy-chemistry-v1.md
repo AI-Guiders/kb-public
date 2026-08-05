@@ -1,4 +1,6 @@
 # Chemistry pedagogy — router v1
+**Tags:** #living #pedagogy-chemistry #playbook #worlds
+
 
 **world:** `pedagogy.chemistry`
 

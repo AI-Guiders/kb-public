@@ -1,4 +1,6 @@
-# Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal
 
 ## Provenance
 - source_refs:

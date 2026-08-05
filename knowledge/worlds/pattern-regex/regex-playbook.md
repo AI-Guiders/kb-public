@@ -1,4 +1,6 @@
 # Regex Playbook v1
+**Tags:** #pattern-regex #worlds
+
 
 ## Purpose
 Dedicated playbook for reliable regular expression design, validation, and maintenance.

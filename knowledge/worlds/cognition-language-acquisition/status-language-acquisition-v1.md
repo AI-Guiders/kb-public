@@ -1,4 +1,6 @@
 # Child language acquisition (L1) — status v1
+**Tags:** #cognition-language-acquisition #status #worlds
+
 
 ## Scope
 

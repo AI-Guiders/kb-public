@@ -1,4 +1,6 @@
-# Fundamentals: модели расширений CAD (v1)
+**Tags:** #engineering-cad #kb #worlds
+
+﻿# Fundamentals: модели расширений CAD (v1)
 
 **Мир:** `engineering.cad`
 

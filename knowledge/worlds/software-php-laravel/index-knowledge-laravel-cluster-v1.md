@@ -1,4 +1,6 @@
 # Кластер Laravel (миру `software.laravel` / `software.web-backend`) — навигация v1
+**Tags:** #software-php-laravel #worlds
+
 
 **Назначение:** карта **полного контура** Laravel: версии, экосистема, безопасность, фундамент Symfony, долгоживущие воркеры и фронтенд-стеки. Контракт memory-architecture: **status → playbook-php (при сомнениях по PHP) → playbook-laravel → один целевой kb**. Этот файл — **маршрутизатор**, не заменяет playbook.
 

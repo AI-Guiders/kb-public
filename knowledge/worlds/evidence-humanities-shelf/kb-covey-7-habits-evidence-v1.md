@@ -1,4 +1,6 @@
 # Covey — 7 Habits: ethics of character, win‑win, synergy (evidence card v1)
+**Tags:** #evidence-humanities-shelf #kb #worlds
+
 
 ## Provenance (происхождение)
 - source_refs:

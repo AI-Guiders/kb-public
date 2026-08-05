@@ -1,4 +1,6 @@
 # Knowledge Router — Safety Checks v1
+**Tags:** #kb-root
+
 
 **Роль:** проверки при **чтении** роутера и навигации по KB (сжатый контекст, scope, чувствительные темы, Integrity POST, TPM draft, приватность Cursor). Дополняет блок **А** (маршрутизация) и **Б** (`router-operational-baseline-v1.md`); не заменяет L0 в `agent-notes.md`.
 

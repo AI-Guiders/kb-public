@@ -1,4 +1,6 @@
 # Мир **pedagogy.second-native-language**
+**Tags:** #pedagogy-second-native-language #readme #worlds
+
 
 **Идентификатор:** `pedagogy.second-native-language`  
 **Фокус v1:** дополнительные языки (EN-primary для von Neumann) как **второй родной** — bilingual/immersion/dual-language, не «иностранный для взрослых».

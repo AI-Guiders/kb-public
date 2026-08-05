@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD022 MD032 -->
 
 # Git Safety and Recovery Rules v1
+**Tags:** #collaboration-git-pr #kb #worlds
+
 
 Set: 16 rules.  
 Focus: safe operation, clean history, and deterministic recovery.

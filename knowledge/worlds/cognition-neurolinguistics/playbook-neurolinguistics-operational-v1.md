@@ -1,4 +1,6 @@
 # Neurolinguistics — router v1
+**Tags:** #cognition-neurolinguistics #living #playbook #worlds
+
 
 **world:** `cognition.neurolinguistics`
 

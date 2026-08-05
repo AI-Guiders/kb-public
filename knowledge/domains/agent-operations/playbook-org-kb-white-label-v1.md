@@ -1,4 +1,6 @@
 # Playbook: организационный контур KB (white-label)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Статус:** active · v1.0 · 2026-05-19  
 **Назначение:** как **любой** GitHub-org (не привязан к конкретному бренду) поднять три контура: **personal** · **group KB** · **kb-public** + MCP multi-root.

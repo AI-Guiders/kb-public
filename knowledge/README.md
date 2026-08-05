@@ -1,4 +1,6 @@
 # Knowledge Layer
+**Tags:** #kb-root #readme
+
 
 This directory stores heavy reference material that should not bloat hot context.
 

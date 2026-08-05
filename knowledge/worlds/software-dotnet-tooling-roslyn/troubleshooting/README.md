@@ -1,4 +1,6 @@
 # Troubleshooting — software.authoring.dotnet.tooling.roslyn
+**Tags:** #readme #software-dotnet-tooling-roslyn #worlds
+
 
 | Файл | Роль |
 |------|------|

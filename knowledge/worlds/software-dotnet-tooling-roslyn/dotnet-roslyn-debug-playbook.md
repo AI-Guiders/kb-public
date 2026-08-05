@@ -1,4 +1,6 @@
 # .NET Roslyn and Debug Playbook v1
+**Tags:** #software-dotnet-tooling-roslyn #worlds
+
 
 ## Related
 

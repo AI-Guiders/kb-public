@@ -1,4 +1,6 @@
 # Evidence: Snow (1972) — Mothers' speech to children learning language
+**Tags:** #cognition-language-acquisition #kb #worlds
+
 
 ## Provenance
 

@@ -1,4 +1,6 @@
 # Troubleshooting — systems.it
+**Tags:** #readme #systems-it #worlds
+
 
 | Файл | Роль |
 |------|------|

@@ -1,4 +1,6 @@
 # IT Cloud, Platform, Economics, and Diagnostics Playbook v1
+**Tags:** #living #playbook #systems-it #worlds
+
 
 ## Purpose
 

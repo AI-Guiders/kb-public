@@ -1,4 +1,6 @@
 # World-life
+**Tags:** #readme #world-life #worlds
+
 
 Метамир **world-life** и подмиры (`world-*-subdomain`, `world-*-playbook`) вынесены из корневого `agent-notes.md`.
 

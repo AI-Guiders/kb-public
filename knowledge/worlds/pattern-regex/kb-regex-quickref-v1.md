@@ -8,6 +8,8 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: шпаргалка (L0)
+**Tags:** #kb #pattern-regex #worlds
+
 
 ## Назначение
 

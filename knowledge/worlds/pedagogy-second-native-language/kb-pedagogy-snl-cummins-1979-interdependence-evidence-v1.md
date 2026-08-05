@@ -1,4 +1,6 @@
 # Evidence: Cummins (1979) — linguistic interdependence & bilingual development
+**Tags:** #kb #pedagogy-second-native-language #worlds
+
 
 ## Provenance
 

@@ -1,4 +1,6 @@
 # Contributing to {ORG_DISPLAY} KB (group)
+**Tags:** #template #templates
+
 
 Спасибо за вклад в **организационный** слой знаний `{REPO_GROUP}`. Это **не** личный канон участника и **не** замена `{REPO_PUBLIC}` для внешнего мира.
 

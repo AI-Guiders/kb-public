@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD032 -->
 
 # Psychology Foundations Playbook v1
+**Tags:** #living #playbook #psychology-models #worlds
+
 
 ## Purpose
 

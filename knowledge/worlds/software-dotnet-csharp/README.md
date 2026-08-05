@@ -1,4 +1,6 @@
 # `software.authoring.dotnet.csharp` — язык и платформа .NET
+**Tags:** #readme #software-dotnet-csharp #worlds
+
 
 **World tag:** `software.authoring.dotnet.csharp`  
 **Не сюда:** Roslyn → [`../software-dotnet-tooling-roslyn/`](../software-dotnet-tooling-roslyn/); Avalonia → [`../software-dotnet-avalonia/`](../software-dotnet-avalonia/).

@@ -1,4 +1,6 @@
 # Deprecated path (перенос)
+**Tags:** #kb #software-javascript #worlds
+
 
 Карточка **разложена** на слои fundamentals vs operational:
 

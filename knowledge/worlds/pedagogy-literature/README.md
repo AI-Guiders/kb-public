@@ -1,4 +1,6 @@
 # Мир **pedagogy.literature**
+**Tags:** #pedagogy-literature #readme #worlds
+
 
 **Идентификатор:** `pedagogy.literature`  
 **Фокус v1:** disciplinary literacy — close reading, text structure, argument in literary and informational texts.

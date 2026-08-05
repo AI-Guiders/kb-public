@@ -1,4 +1,6 @@
 # C# + Roslyn MCP (Cursor agent): диагностики и завершение задачи v1
+**Tags:** #living #playbook #software-dotnet-tooling-roslyn #worlds
+
 
 ## Purpose
 

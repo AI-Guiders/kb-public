@@ -1,4 +1,6 @@
 # Troubleshooting — software.authoring.dotnet.csharp.desktop-ui.avalonia
+**Tags:** #readme #software-dotnet-avalonia #worlds
+
 
 | Файл | Роль |
 |------|------|

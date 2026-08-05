@@ -1,4 +1,6 @@
 # Psychology Knowledge Set v1 (Empirical Evidence Rules)
+**Tags:** #kb #psychology-models #worlds
+
 
 Set: 20 cards.  
 Focus: modern empirical validation layer for psych foundations.  

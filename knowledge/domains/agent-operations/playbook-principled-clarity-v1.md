@@ -1,4 +1,6 @@
 # Playbook: принципиальная ясность (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Домен:** agent-operations  
 **Секция hot:** `principled-clarity-v1` (L0), `principled-clarity-extended-v1` (stub → этот файл § «Развёрнуто»)

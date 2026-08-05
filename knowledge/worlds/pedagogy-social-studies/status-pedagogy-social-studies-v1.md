@@ -1,4 +1,6 @@
 # Status: pedagogy.social-studies v1
+**Tags:** #pedagogy-social-studies #status #worlds
+
 
 **Домен:** обществознание — C3 inquiry v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

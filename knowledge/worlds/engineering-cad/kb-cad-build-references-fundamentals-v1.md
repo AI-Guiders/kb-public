@@ -1,4 +1,6 @@
-# Fundamentals: сборка, References и vendor API (v1)
+**Tags:** #engineering-cad #kb #worlds
+
+﻿# Fundamentals: сборка, References и vendor API (v1)
 
 **Мир:** `engineering.cad`
 

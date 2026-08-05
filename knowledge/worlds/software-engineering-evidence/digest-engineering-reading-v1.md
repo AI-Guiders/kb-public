@@ -1,4 +1,6 @@
 # Engineering Reading Digest v1
+**Tags:** #software-engineering-evidence #worlds
+
 
 **Legacy.** Каноническая база знаний — `kb-engineering-evidence-v1.md` (записи по темам). Этот файл сохранён как архив выписок по батчам.
 

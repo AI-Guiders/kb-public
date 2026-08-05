@@ -1,4 +1,6 @@
 # Multi-agent write v1
+**Tags:** #agent-operations #domains #living #playbook
+
 
 Тело секции `multi-agent-write-protocol-v1` из `agent-notes.md`. Hub оркестрации: `knowledge/worlds/agent-orchestration/`.
 

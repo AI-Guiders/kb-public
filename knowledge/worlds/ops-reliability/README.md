@@ -1,4 +1,6 @@
 # Мир **ops.reliability** (данные и инциденты)
+**Tags:** #ops-reliability #readme #worlds
+
 
 **Назначение:** backup БД и поток работы с инцидентами/тикетами — операционные playbooks.
 

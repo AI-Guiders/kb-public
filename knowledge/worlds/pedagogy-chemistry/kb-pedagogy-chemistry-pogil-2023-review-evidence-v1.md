@@ -1,4 +1,6 @@
 # Evidence: Jegstad (2023) — inquiry-based chemistry education systematic review
+**Tags:** #kb #pedagogy-chemistry #worlds
+
 
 ## Provenance
 

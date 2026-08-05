@@ -1,4 +1,6 @@
 # Child language acquisition — fundamentals v1
+**Tags:** #cognition-language-acquisition #kb #worlds
+
 
 **Статус:** справочник; **не** CASA spec.  
 **Мир:** `cognition.language-acquisition` · [`README.md`](README.md)  

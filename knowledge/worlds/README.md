@@ -1,4 +1,6 @@
-# `knowledge/worlds/` — крупные контексты («вселенные»)
+**Tags:** #readme #readme-md #worlds
+
+﻿# `knowledge/worlds/` — крупные контексты («вселенные»)
 
 Смысл корзины и правила размещения — только из **`../META/kb-taxonomy-v1.md`**.
 
@@ -42,6 +44,10 @@
 <!-- section:catalog-engineering-cad-v1 -->
 **Уже есть:** `engineering-cad/` — **engineering.cad** (Fundamentals → Playbook; hub `engineering-cad/README.md`). Только vendor-neutral предметка; пути clone/диск в kb не описываются.
 <!-- /section:catalog-engineering-cad-v1 -->
+
+<!-- section:catalog-engineering-pml-v1 -->
+**Уже есть:** `engineering-pml/` — **engineering.pml** (PML1/PML2, fundamentals + runtime kb; hub `engineering-pml/README.md`). **Нет** наследования объектов PML2.
+<!-- /section:catalog-engineering-pml-v1 -->
 
 <!-- section:catalog-pedagogy-school-subjects-v1 -->
 **Уже есть:** `pedagogy-general/` — **pedagogy.general** (instruction science, F→O, master router, transfer matrix, DoD hub). Subject worlds: `pedagogy-russian-language`, `pedagogy-mathematics`, `pedagogy-physics`, `pedagogy-chemistry`, `pedagogy-biology`, `pedagogy-literature`, `pedagogy-history`, `pedagogy-geography`, `pedagogy-social-studies`, `pedagogy-second-native-language`, `pedagogy-informatics`, `pedagogy-visual-arts` — per-paper evidence + scientific-evidence index; hub `pedagogy-general/README.md`. **Не** human L1 acquisition — `cognition-language-acquisition` (bridge → `pedagogy-second-native-language`). Музыка — `arts-music`.

@@ -1,4 +1,6 @@
 # Global pedagogy — evidence synthesis v1
+**Tags:** #kb #pedagogy-general #worlds
+
 
 **world:** `pedagogy.general`  
 **status:** active  

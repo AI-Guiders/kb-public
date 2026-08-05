@@ -1,4 +1,6 @@
 # Active scope — резолв slice и карта workspace (развёрнуто, v1)
+**Tags:** #workspace-context #worlds
+
 
 **Назначение:** полный текст указателя `active-scope`, ранее в секции `active-scope` в `agent-notes.md`. В hot — одна строка-контракт + ссылки.
 

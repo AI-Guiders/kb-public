@@ -1,4 +1,6 @@
 # Hot section template: knowledge-roots-routing-v1
+**Tags:** #template #templates
+
 
 Copy the fenced block into personal `agent-notes.md` (below `<!-- public-cut -->` if used).
 

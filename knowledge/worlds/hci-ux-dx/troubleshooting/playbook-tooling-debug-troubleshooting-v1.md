@@ -1,4 +1,6 @@
 # Playbook: tooling — build, test, debug (troubleshooting v1)
+**Tags:** #hci-ux-dx #living #playbook #worlds
+
 
 > **Контур:** A · мир **hci.ux-dx** (сквозной tooling для .NET и IDE) · kb-public  
 > **Канон:** этот файл; легаси-редирект: [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md)  

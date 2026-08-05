@@ -1,4 +1,6 @@
 # Status: pedagogy.literature v1
+**Tags:** #pedagogy-literature #status #worlds
+
 
 **Домен:** литература — disciplinary literacy v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

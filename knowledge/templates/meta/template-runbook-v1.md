@@ -17,6 +17,8 @@
 
 ```powershell
 # пример
+**Tags:** #template #templates
+
 ```
 
 **Expected:** …

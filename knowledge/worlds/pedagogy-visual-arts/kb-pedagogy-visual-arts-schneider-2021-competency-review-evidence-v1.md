@@ -1,4 +1,6 @@
 # Evidence: Schneider & Rohmann (2021) — arts in education competency outcomes (systematic review)
+**Tags:** #kb #pedagogy-visual-arts #worlds
+
 
 ## Provenance
 

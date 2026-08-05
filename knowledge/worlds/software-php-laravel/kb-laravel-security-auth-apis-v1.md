@@ -1,4 +1,6 @@
 # Laravel — безопасность, аутентификация, API
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** контур **auth** и базовых угроз в типичном Laravel-приложении (веб + API). Не заменяет OWASP ASVS и внутренние стандарты. Мир `software.laravel`.
 

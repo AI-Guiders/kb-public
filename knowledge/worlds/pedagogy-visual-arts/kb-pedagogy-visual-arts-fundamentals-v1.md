@@ -1,4 +1,6 @@
 # Visual arts pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-visual-arts #worlds
+
 
 **Мир:** `pedagogy.visual-arts`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

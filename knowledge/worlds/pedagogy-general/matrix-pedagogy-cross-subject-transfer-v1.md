@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD060 -->
 
 # Pedagogy — cross-subject transfer matrix v1
+**Tags:** #pedagogy-general #worlds
+
 
 **world:** `pedagogy.general`
 

@@ -1,4 +1,6 @@
 # `templates/newcomer/` — онбординг (kb-public → personal · group · white-label)
+**Tags:** #readme #templates
+
 
 Публикуется в **kb-public**. Без привязки к конкретной GitHub-org: подставляй **`{ORG_SLUG}`** (slug организации).
 

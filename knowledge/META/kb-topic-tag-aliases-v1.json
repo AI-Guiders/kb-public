@@ -1,0 +1,33 @@
+{
+  "schema": "kb-topic-tag-aliases-v1",
+  "description": "Phrase → topic tag for knowledge_tags resolve/explain. Merged over Core built-ins.",
+  "aliases": {
+    "nothing about us without us": "equal-standing",
+    "ничего о нас без нас": "equal-standing",
+    "equal standing": "equal-standing",
+    "agent equal standing": "equal-standing",
+    "стояние агентов": "equal-standing",
+    "agent-driven context": "adcm",
+    "agent driven context management": "adcm",
+    "compaction": "adcm",
+    "precompact": "adcm",
+    "fs relocate": "fs-relocate",
+    "fs_relocate": "fs-relocate",
+    "write+delete": "fs-relocate",
+    "agent affordances": "agent-affordances",
+    "налог на героизм": "agent-affordances",
+    "harness affordances": "agent-affordances",
+    "kb taxonomy": "kb-taxonomy",
+    "topic tags": "kb-tags",
+    "hashtags": "kb-tags",
+    "canon map": "canon-map",
+    "dialogue delta": "dialogue-delta",
+    "see history": "historiography",
+    "historiography": "historiography",
+    "cdp": "cdp",
+    "cognitive dev platform": "cdp",
+    "mcp facade": "cdp",
+    "catalog = f(phase)": "cdp",
+    "phase catalog": "cdp"
+  }
+}

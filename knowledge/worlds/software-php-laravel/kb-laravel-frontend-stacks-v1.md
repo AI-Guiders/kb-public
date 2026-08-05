@@ -1,4 +1,6 @@
 # Laravel — фронтенд-стеки: Blade, Livewire, Filament, Inertia
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** выбор и границы **UI-слоёв** вокруг Laravel без привязки к одной версии пакета (версии — из `composer.lock` / `package.json`). Мир `software.laravel` + `software.web-frontend` (частично).
 

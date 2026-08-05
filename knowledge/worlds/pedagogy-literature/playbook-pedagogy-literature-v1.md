@@ -1,4 +1,6 @@
 # Literature pedagogy — router v1
+**Tags:** #living #pedagogy-literature #playbook #worlds
+
 
 **world:** `pedagogy.literature`
 

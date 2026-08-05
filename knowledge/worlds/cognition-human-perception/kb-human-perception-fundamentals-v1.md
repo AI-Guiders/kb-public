@@ -1,4 +1,6 @@
 # Human perception — fundamentals (evidence-oriented) v1
+**Tags:** #cognition-human-perception #kb #worlds
+
 
 **Статус:** справочник для агентов и дизайнеров; **не** клинический протокол.  
 **Эпистемика:** обобщения из когнитивной психологии и human factors; применимость к UX/IDE — инженерная, не медицинская.  

@@ -1,4 +1,6 @@
 # Playbook: KB / agent-notes MCP — troubleshooting (v1)
+**Tags:** #knowledge-engineering #living #playbook #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** нет тулов MCP, пустой list, файл не найден, «цитата из KB» без чтения  

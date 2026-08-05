@@ -1,4 +1,6 @@
 # Мир **software.ml-applied**
+**Tags:** #readme #software-ml-applied #worlds
+
 
 **Идентификатор мира:** `software.ml-applied`  
 **Назначение:** парадигмы ML, прикладные задачи, OCR (Tesseract, препроцессинг), штрихкоды и 2D-коды (QR, Data Matrix и др.), операционные правила R1–R7.

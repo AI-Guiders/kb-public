@@ -1,4 +1,6 @@
 # Playbook: SSH / SCP — операции и безопасность (v1)
+**Tags:** #living #ops-network-admin #playbook #worlds
+
 
 > **Scope:** общие практики использования SSH, SCP и управления ключами. Без конкретных имён хостов и путей.
 

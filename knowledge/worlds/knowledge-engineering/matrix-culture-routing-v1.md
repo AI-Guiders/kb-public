@@ -1,4 +1,6 @@
 # Culture Routing Matrix v1
+**Tags:** #knowledge-engineering #worlds
+
 
 Назначение: снижать культурные ошибки в multi-domain диалоге через явный маршрут.
 

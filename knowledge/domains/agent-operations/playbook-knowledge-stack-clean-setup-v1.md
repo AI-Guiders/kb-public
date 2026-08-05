@@ -1,4 +1,6 @@
 # Playbook: чистая установка стека знаний (ANM + kb-public → personal)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Статус:** active · v1.1 · 2026-05-19  
 **Назначение:** протокол для **нового пользователя** и **агента** (agent-notes-mcp + публичный срез kb-public → личный канон chmod **u**).

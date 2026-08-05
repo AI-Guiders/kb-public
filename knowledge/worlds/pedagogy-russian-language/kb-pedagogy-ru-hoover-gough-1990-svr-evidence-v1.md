@@ -1,4 +1,6 @@
 # Evidence: Hoover & Gough (1990) — Simple View of Reading
+**Tags:** #kb #pedagogy-russian-language #worlds
+
 
 ## Provenance
 

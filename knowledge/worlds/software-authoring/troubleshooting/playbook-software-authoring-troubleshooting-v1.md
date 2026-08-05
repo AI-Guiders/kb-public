@@ -1,4 +1,6 @@
 # Playbook: software.authoring — troubleshooting (v1)
+**Tags:** #living #playbook #software-authoring #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** «сделай красиво», god-class, switch/Kind, Skia, новый экран, DDD-мода, смешение слоёв  

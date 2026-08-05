@@ -1,4 +1,6 @@
 # Evidence: Rosenshine (2012) — Principles of Instruction
+**Tags:** #kb #pedagogy-general #worlds
+
 
 ## Provenance
 

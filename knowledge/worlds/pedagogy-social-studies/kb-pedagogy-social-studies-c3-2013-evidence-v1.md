@@ -1,4 +1,6 @@
 # Evidence: NCSS (2013) — C3 Framework for Social Studies
+**Tags:** #kb #pedagogy-social-studies #worlds
+
 
 ## Provenance
 

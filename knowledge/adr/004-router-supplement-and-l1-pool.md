@@ -1,4 +1,6 @@
 # ADR 004: Router Supplement Split and L1 Pool
+**Tags:** #adr
+
 
 **Статус:** Accepted  
 **Дата:** 2026-04-11  

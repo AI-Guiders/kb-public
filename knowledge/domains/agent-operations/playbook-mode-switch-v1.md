@@ -1,4 +1,6 @@
 # Mode switch v1
+**Tags:** #agent-operations #domains #living #playbook
+
 
 Тело секции `mode-switch-protocol` из `agent-notes.md`. Связь: `playbook-project-switch-v1.md` (PRIMARY/SCOPE), `kb-protocols-and-entities-one-pager-v1.md`.
 

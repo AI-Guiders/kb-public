@@ -1,4 +1,6 @@
-# Мир **`<world.id>`** (template)
+**Tags:** #template #templates
+
+﻿# Мир **`<world.id>`** (template)
 
 **Идентификатор мира:** `<world.id>` (напр. `arts.music`, `software.authoring`)  
 **Каталог:** `knowledge/worlds/<slug>/`

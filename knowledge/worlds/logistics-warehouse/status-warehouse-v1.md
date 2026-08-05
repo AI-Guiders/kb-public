@@ -1,4 +1,6 @@
-# Warehouse Domain Status v1
+**Tags:** #logistics-warehouse #status #worlds
+
+﻿# Warehouse Domain Status v1
 
 ## Scope
 

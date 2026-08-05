@@ -1,4 +1,6 @@
 # DE/DX Playbook v1
+**Tags:** #hci-ux-dx #worlds
+
 
 ## Purpose
 Practical standards for developer effectiveness and sustainable delivery speed.

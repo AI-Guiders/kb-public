@@ -1,4 +1,6 @@
 # Physics pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-physics #worlds
+
 
 ## Metadata
 

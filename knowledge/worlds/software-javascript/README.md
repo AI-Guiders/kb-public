@@ -1,4 +1,6 @@
 # Мир **software.javascript**
+**Tags:** #readme #software-javascript #worlds
+
 
 **Идентификатор мира:** `software.javascript` (ECMAScript; TypeScript — отдельно).  
 **Назначение:** fundamentals языка (модули, типы, прототипы, async) и operational слой (npm, бандлеры, CSP/XSS).

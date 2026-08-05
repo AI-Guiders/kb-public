@@ -1,4 +1,6 @@
 # Medicine (Evidence-Based) Playbook v1
+**Tags:** #living #medicine-evidence #playbook #worlds
+
 
 ## Purpose
 

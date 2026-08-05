@@ -1,4 +1,6 @@
 # Status: pedagogy.physics v1
+**Tags:** #pedagogy-physics #status #worlds
+
 
 **Домен:** физика — school conceptual instruction v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

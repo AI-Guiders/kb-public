@@ -1,17 +1,20 @@
 # Git Multi-Remote Backup Runbook v1
+**Tags:** #collaboration-git-pr #runbook #worlds
+
 
 ## Goal
 
 Keep canonical KB available even if one host becomes unavailable by maintaining synchronized `main` on multiple remotes.
 
-Current target pair:
+Current targets:
 
-- `origin`
-- `wissance`
+- `origin` — fetch VDS (`Krawler/agent-notes`); **push** fan-out на VDS, GitLab wissance, GitHub `personal-knowledge-base`
+- `wissance` — backup mirror (push отдельно при необходимости)
+- **forge AMS** — опционально, **пауза** для личного канона пока нет git SSH ACL на хосте; после hardening только через SSH tunnel (`forge-ams-git` в `~/.ssh/config`, см. [fvds-ams-forge-host-v1.md](../../work/projects/door-to-singularity/agent-forge/fvds-ams-forge-host-v1.md))
 
 ## Policy
 
-- Every semantic update to canonical KB (`agent-notes.md`, `knowledge/*`) is pushed to both remotes.
+- Every semantic update to canonical KB (`agent-notes.md`, `knowledge/*`) is pushed to all `origin` push URLs: `git push origin main` (VDS, GitLab, GitHub; forge AMS — только если настроен tunnel и осознанно включён).
 - No force-push to shared `main` in normal operation.
 - Divergence is resolved by integration (`fetch` + `merge`), not overwrite.
 - Merge-only workflow for shared branches: no `rebase` on `main`.
@@ -20,9 +23,9 @@ Current target pair:
 
 1. `git status --short`
 2. logical commit(s)
-3. push primary:
+3. push (все pushurl на `origin` — VDS, GitLab, GitHub; forge AMS по желанию):
    - `git push origin main`
-4. push backup:
+4. при необходимости backup mirror:
    - `git push wissance main`
 5. verify:
    - `git ls-remote --heads origin main`

@@ -1,4 +1,6 @@
 # `knowledge/templates/` — шаблоны (каркасы для копирования)
+**Tags:** #readme #templates
+
 
 Не живые экземпляры под один workspace. Контракт корзины: **`../META/kb-taxonomy-v1.md`**.
 

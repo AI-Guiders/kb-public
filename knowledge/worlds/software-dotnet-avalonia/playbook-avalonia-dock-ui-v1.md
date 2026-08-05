@@ -1,4 +1,6 @@
 # Avalonia + Dock UI — operational playbook v1
+**Tags:** #living #playbook #software-dotnet-avalonia #worlds
+
 
 ## Purpose
 

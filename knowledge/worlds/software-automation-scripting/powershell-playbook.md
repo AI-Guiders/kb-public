@@ -1,4 +1,6 @@
 # PowerShell Playbook v1
+**Tags:** #software-automation-scripting #worlds
+
 
 ## Purpose
 Dedicated playbook for reliable Windows-first automation using PowerShell.

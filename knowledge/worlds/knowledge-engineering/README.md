@@ -1,4 +1,6 @@
 # Мир **knowledge.engineering** (KE: мультимиры, матрицы, операции канона)
+**Tags:** #knowledge-engineering #readme #worlds
+
 
 **Назначение:** мета-домен ingestion/lifecycle KB; правила multiworld/mixed-worlds/culture-routing/country-conflicts/operations; матрицы переноса; world modeling; runbook MCP и revisions backup.
 

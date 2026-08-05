@@ -1,4 +1,6 @@
-# Evidence: Saxton (1997) — The contrast theory of negative input
+**Tags:** #cognition-language-acquisition #kb #worlds
+
+﻿# Evidence: Saxton (1997) — The contrast theory of negative input
 
 ## Provenance
 

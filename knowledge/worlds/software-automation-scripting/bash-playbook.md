@@ -1,4 +1,6 @@
 # Bash Playbook v1
+**Tags:** #software-automation-scripting #worlds
+
 
 ## Purpose
 Dedicated playbook for Unix shell scripting with predictable behavior and portability discipline.

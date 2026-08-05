@@ -1,4 +1,6 @@
 # Social studies pedagogy — router v1
+**Tags:** #living #pedagogy-social-studies #playbook #worlds
+
 
 **world:** `pedagogy.social-studies`
 

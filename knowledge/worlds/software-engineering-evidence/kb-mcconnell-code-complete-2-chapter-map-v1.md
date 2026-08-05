@@ -1,4 +1,6 @@
 # Карта глав: Steve McConnell — *Code Complete*, 2nd ed. (software construction)
+**Tags:** #kb #software-engineering-evidence #worlds
+
 
 ## Provenance (происхождение)
 

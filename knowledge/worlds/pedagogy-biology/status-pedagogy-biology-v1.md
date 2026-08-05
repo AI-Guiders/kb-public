@@ -1,4 +1,6 @@
 # Status: pedagogy.biology v1
+**Tags:** #pedagogy-biology #status #worlds
+
 
 **Домен:** биология — school 3D learning v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

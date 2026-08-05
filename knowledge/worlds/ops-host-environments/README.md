@@ -1,4 +1,6 @@
 # Мир **ops.host-environments** (Linux / Windows хосты)
+**Tags:** #ops-host-environments #readme #worlds
+
 
 **Назначение:** playbooks по средам выполнения Linux и Windows (runtime, сервисы, диагностика, guardrails).
 

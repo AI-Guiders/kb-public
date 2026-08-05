@@ -1,0 +1,13 @@
+id = "software-dotnet-csharp"
+version = "0.4.0"
+layer = "stack"
+title = ".NET / C# fundamentals pack"
+onboarding = "Name Framework vs modern .NET first; then TFM; CLI as SSOT for build. Playbooks as procedures: dotnet-choose-tfm, dotnet-plan-framework-migrate, dotnet-perf-diag-cycle. Blast measure via Roslyn — definition lives in epistemic-scene."
+depends_on = ["epistemic-scene", "software-authoring"]
+content = "definitions/*.md"
+route = "procedures.toml"
+sources = [
+  "worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md",
+  "worlds/software-dotnet-csharp/kb-dotnet-playbooks-v1.md",
+]
+

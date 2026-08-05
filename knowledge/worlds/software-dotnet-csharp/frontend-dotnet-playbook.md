@@ -1,4 +1,6 @@
 # Frontend .NET Playbook v1
+**Tags:** #software-dotnet-csharp #worlds
+
 
 ## Purpose
 Unified frontend engineering playbook for .NET UI stacks:

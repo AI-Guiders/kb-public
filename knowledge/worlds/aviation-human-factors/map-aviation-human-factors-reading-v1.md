@@ -1,4 +1,6 @@
 # Aviation Human Factors Reading Map v1
+**Tags:** #aviation-human-factors #map #worlds
+
 
 ## Objective
 

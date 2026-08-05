@@ -1,4 +1,6 @@
 # Мир **pedagogy.chemistry**
+**Tags:** #pedagogy-chemistry #readme #worlds
+
 
 **Идентификатор:** `pedagogy.chemistry`  
 **Фокус v1:** inquiry / POGIL-style active learning, particulate-level reasoning, lab safety + sensemaking.

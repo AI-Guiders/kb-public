@@ -1,4 +1,6 @@
 # Evidence: Hetland, Winner et al. (2007) — Studio Thinking
+**Tags:** #kb #pedagogy-visual-arts #worlds
+
 
 ## Provenance
 

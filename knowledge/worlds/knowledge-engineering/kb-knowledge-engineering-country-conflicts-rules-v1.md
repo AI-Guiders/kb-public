@@ -1,4 +1,6 @@
 # Knowledge Engineering Country Conflicts Rules v1
+**Tags:** #kb #knowledge-engineering #worlds
+
 
 Набор: 32 карточки.  
 Фокус: страновые конфликты интерпретации, границы переноса между мирами, и safety-маршруты.  

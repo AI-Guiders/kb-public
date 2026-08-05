@@ -1,4 +1,6 @@
-# `templates/meta/` — ADR, карты, runbook, hot-секции
+**Tags:** #readme #templates
+
+﻿# `templates/meta/` — ADR, карты, runbook, hot-секции
 
 | Шаблон | Куда |
 |--------|------|

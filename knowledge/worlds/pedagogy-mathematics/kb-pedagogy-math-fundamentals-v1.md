@@ -1,4 +1,6 @@
 # Mathematics pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-mathematics #worlds
+
 
 **Мир:** `pedagogy.mathematics`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

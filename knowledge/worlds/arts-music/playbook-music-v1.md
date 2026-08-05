@@ -1,4 +1,6 @@
 # Music Domain Router v1
+**Tags:** #arts-music #living #playbook #worlds
+
 
 Маршрутизация по поддоменам Music (мир **arts.music**). Загружать **один или несколько** kb по теме запроса; при общих запросах о музыке — начать с fundamentals, при необходимости добавить остальные.
 

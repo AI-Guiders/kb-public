@@ -1,4 +1,6 @@
 # Мир **evidence.humanities-shelf** (эвиденция и культурный слой)
+**Tags:** #evidence-humanities-shelf #readme #worlds
+
 
 **Назначение:** справочные и evidence-карточки по гуманитарным, логическим, языковым и смежным темам; политика публикации для отдельных файлов — см. `PUBLISHING.md`.
 

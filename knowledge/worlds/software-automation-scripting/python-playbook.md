@@ -1,4 +1,6 @@
 # Python Playbook v1
+**Tags:** #software-automation-scripting #worlds
+
 
 ## Purpose
 Dedicated playbook for robust Python usage in automation, data processing, and tooling tasks.

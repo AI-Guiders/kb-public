@@ -1,4 +1,6 @@
 # Epistemic Playbook v1
+**Tags:** #kb-root
+
 
 ## Purpose
 General reasoning layer for any domain: IT, research, strategy, and communication.

@@ -1,4 +1,6 @@
 # Physics pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-physics #worlds
+
 
 **Мир:** `pedagogy.physics`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

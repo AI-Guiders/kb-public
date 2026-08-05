@@ -1,4 +1,6 @@
 # Playbook: <ProductName> — <topic> (troubleshooting v1)
+**Tags:** #template #templates
+
 
 > **Контур:** B — product · `work/projects/<scope>/<project-id>/` · **не kb-public**  
 > **Общий слой (сначала):** [`META/index-troubleshooting-v1.md`](../../../META/index-troubleshooting-v1.md) → перечислить релевантные `worlds/…/troubleshooting/`  

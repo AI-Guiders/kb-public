@@ -1,4 +1,6 @@
 # Playbook: nginx — администрирование (v1)
+**Tags:** #living #ops-network-admin #playbook #worlds
+
 
 > **Scope:** типовые настройки nginx, работа с PHP-FPM и proxy. Без привязки к конкретным доменам и путям.
 

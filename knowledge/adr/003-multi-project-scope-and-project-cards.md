@@ -1,4 +1,6 @@
 # ADR 003: Multi-Project Scope Model and Project Cards
+**Tags:** #adr
+
 
 **Статус:** Accepted  
 **Дата:** 2026-04-02  

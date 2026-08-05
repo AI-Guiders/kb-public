@@ -1,4 +1,6 @@
-# Telegram API и WTelegramClient: идентификаторы и отправка сообщений
+**Tags:** #kb #software-integration-kb #worlds
+
+﻿# Telegram API и WTelegramClient: идентификаторы и отправка сообщений
 
 Версия: v1. Дата: 2026-03.
 

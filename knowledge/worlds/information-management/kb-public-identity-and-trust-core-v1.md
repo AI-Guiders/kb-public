@@ -1,3 +1,5 @@
+**Tags:** #information-management #kb #worlds
+
 ## kb-public: ядро личности и доверия (v1)
 
 ### 1. Смысловое ядро (кто мы, когда всё рухнуло)

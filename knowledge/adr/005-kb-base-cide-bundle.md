@@ -1,4 +1,6 @@
 # ADR 005: KB-Base Bundle for CIDE
+**Tags:** #adr
+
 
 **Статус:** Proposed  
 **Дата:** 2026-05-05  

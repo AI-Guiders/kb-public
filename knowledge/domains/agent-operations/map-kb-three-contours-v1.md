@@ -1,4 +1,6 @@
 # Map: три контура KB (канон · публичное · workspace)
+**Tags:** #agent-operations #domains #map
+
 
 **Назначение:** снять когнитивное трение «что в каком репо и куда писать». Одна страница для **агента** (диспетчер) и для **человека** (approve). Не заменяет `PUBLISHING.md`, `kb-one-pager-structure-and-protocols-v1.md`, `playbook-kb-operational-freshness-v1.md` — **сводит** их в схему действий.
 

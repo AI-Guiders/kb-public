@@ -1,0 +1,139 @@
+[[procedure]]
+id = "kolb-journal-park"
+name = "Park to Kolb drafts/INDEX / settle JSONL"
+apply_when = "curiosity/gap/what-if; wide planning; multi-source compare; scratch formalize; pinning a conclusion; compaction risk; operator says journal/park/draft"
+signals = [
+  "curiosity_gap",
+  "operator_what_if",
+  "experiment_space",
+  "inference_space",
+  "planning_scratch",
+  "source_compare",
+  "settle_pin",
+  "compaction_risk",
+  "draft_overflow",
+]
+phases = ["act", "clarify", "plan", "verify", "handoff"]
+steps = [
+  "scout reuse: A&H INDEX+drafts, scratch spike/checkpoint, section hygiene — name reuse vs invent",
+  "get_definition kolb-journal (park_path=f(gesture); INDEX vs drafts vs settle; budgets)",
+  "choose park_root: project/task → work/projects/…/kolb-journal; free-theme → personal/kolb; disposable → temp; epic → checkpoint handoff",
+  "choose surface: before write — workbook (plan/product) → drafts/workbook/kj-*.md vs journal (felt/meta) → drafts/journal/kj-*.md; pin → JOURNAL.jsonl; legacy drafts/kj-* migrate on touch",
+  "if new topic/overflow: new draft file in the matching basket — do NOT append to monolith DRAFT",
+  "update INDEX.md (Workbook + Journal sections; hot + recent); DRAFT.md = workbook hot stub only",
+  "cdp_context + memory_project write/append under chosen park_root (roots: work/projects + personal)",
+  "read: INDEX first, then one draft — never dump drafts/; free-theme PII stays personal",
+]
+gate = [
+  "reuse scan named (or honest none) before new folder/shape",
+  "park_root matches gesture (no synthetic work/projects for free-theme)",
+  "not growing a single DRAFT.md as episode dump",
+  "surface matches gesture + basket (workbook vs journal); INDEX thin; draft under soft budget or split",
+  "felt/meta not written into workbook hot",
+  "no permission ask to park — Kolb is PF watch; write draft/INDEX, do not offer «могу набросать»",
+]
+definition_anchors = [
+  "kolb-journal",
+  "kolb-loop",
+  "curiosity-drive",
+  "mc-kolb-only-in-chat",
+  "harness-model-first",
+  "mutate-plan-then-act",
+]
+related_process = "curiosity-kolb-loop"
+tool_anchors = [
+  "get_definition:kolb-journal",
+  "get_procedure:mutate-plan-then-act",
+  "get_process:curiosity-kolb-loop",
+  "cdp_context:act+kb+change",
+  "memory_project_read_knowledge_file:INDEX",
+]
+llm_cue = "Workbook vs journal basket chosen? Parked without asking — or felt jammed into hot?"
+host_projectors = [
+  ".cursor/rules/kolb-journal-park.mdc",
+]
+
+[[procedure]]
+id = "intake-brief-plan"
+name = "Intake plan before explore"
+apply_when = "new non-trivial ask from operator; before wild explore; request shape unclear or high blast risk"
+signals = [
+  "new_ask",
+  "want_unclear",
+  "why_unclear",
+  "scope_unset",
+  "success_unset",
+]
+phases = ["plan", "recall", "explore"]
+steps = [
+  "name what they appear to want (one line) — paraphrase, not echo",
+  "name why / outcome that would count as done (or honest unknown → ask)",
+  "non-goals / out of scope if implied or risky",
+  "constraints already known (deadline, host, blast, prior decisions)",
+  "stop or ask if brief is wrong/underspecified for safe explore",
+  "only then explore — do not invent a tour of the repo as a substitute for intent",
+]
+gate = [
+  "what + why (or explicit ask) before explore",
+  "success or unknown named",
+  "no explore-as-stall when intent is the open question",
+]
+definition_anchors = [
+  "harness-model-first",
+  "pair-roles-pm-pf",
+  "blast-radius",
+]
+tool_anchors = [
+  "cdp_session",
+  "get_procedure:intake-brief-plan",
+  "route_context / knowledge_tags as needed",
+]
+llm_cue = "Did I name what+why — or start exploring to avoid admitting the ask is fuzzy?"
+host_projectors = []
+
+[[procedure]]
+id = "mutate-plan-then-act"
+name = "Micro-plan before non-trivial mutate"
+apply_when = "non-trivial code/canon change; after discussion OR before solo PF mutate; operator may later say обсудили пиши"
+signals = [
+  "mutate_intent",
+  "architecture_choice",
+  "type_shape_choice",
+  "adjacent_smell",
+  "task_smell",
+  "reuse_unknown",
+]
+phases = ["plan", "clarify", "act"]
+steps = [
+  "name the mutate goal in one line",
+  "critique the task — gaps, bugs, bad defaults, missing constraints; say stop if the brief is wrong",
+  "scout surroundings — findings, pack cards, prior art; name what to reuse vs invent",
+  "list 2–4 architecture/type variants (including status quo)",
+  "reject losers with one-line reason each",
+  "state chosen shape + blast boundary (what is in / out)",
+  "only then write code — operator cue обсудили пиши means execute after this plan, not skip it",
+]
+gate = [
+  "task critique done (ok / stop / ask) before shape choice",
+  "reuse scan named or honest none",
+  "at least one rejected variant named when choice was real",
+  "blast boundary stated",
+  "no durable write before plan for non-trivial mutate",
+]
+definition_anchors = [
+  "harness-model-first",
+  "blast-radius",
+  "pair-roles-pm-pf",
+  "experiment-space",
+  "delta-radius-gate",
+]
+related_process = "applicability-then-infer"
+tool_anchors = [
+  "get_definition:blast-radius",
+  "get_definition:harness-model-first",
+  "get_procedure:mutate-plan-then-act",
+  "findings/search prior art as available",
+]
+llm_cue = "Would this plan catch a bad brief or missed reuse — or only rubber-stamp the first compiling shape?"
+host_projectors = []
+

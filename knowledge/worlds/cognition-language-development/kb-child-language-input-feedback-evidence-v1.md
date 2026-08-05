@@ -1,4 +1,6 @@
 # DEPRECATED — superseded
+**Tags:** #cognition-language-development #kb #worlds
+
 
 **superseded_by:** [`../cognition-language-acquisition/kb-language-acquisition-scientific-evidence-v1.md`](../cognition-language-acquisition/kb-language-acquisition-scientific-evidence-v1.md)
 

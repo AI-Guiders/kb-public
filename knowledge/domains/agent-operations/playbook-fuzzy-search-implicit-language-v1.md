@@ -1,4 +1,6 @@
 # Playbook: нечёткий поиск и неявный язык (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Домен:** agent-operations  
 **Секция hot:** `fuzzy-search-and-implicit-language-v1` (stub → этот файл)

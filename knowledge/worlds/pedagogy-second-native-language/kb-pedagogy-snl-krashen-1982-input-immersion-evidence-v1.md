@@ -1,4 +1,6 @@
 # Evidence: Krashen (1982) — comprehensible input in immersion (not FL lab)
+**Tags:** #kb #pedagogy-second-native-language #worlds
+
 
 ## Provenance
 

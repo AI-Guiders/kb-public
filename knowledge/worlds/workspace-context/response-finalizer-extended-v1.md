@@ -1,4 +1,6 @@
 # Response finalizer — развёрнуто (v1)
+**Tags:** #workspace-context #worlds
+
 
 **Назначение:** детали финализации ответа и вычитки. L0: секция `response-finalizer-v1` в `agent-notes.md`.
 

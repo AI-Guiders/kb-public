@@ -1,4 +1,6 @@
 # Evidence: Edelson (2009) — geo-literacy
+**Tags:** #kb #pedagogy-geography #worlds
+
 
 ## Provenance
 

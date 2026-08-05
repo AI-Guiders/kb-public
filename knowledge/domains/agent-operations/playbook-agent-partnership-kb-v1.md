@@ -1,4 +1,6 @@
 # Playbook: агент как партнёр KB (не «лычка senior») v1
+**Tags:** #agent-operations #domains #living #playbook
+
 
 ## Purpose
 

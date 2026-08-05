@@ -1,4 +1,6 @@
 # Мир **pedagogy.history**
+**Tags:** #pedagogy-history #readme #worlds
+
 
 **Идентификатор:** `pedagogy.history`  
 **Фокус v1:** historical thinking — sourcing, contextualization, corroboration, causal reasoning.

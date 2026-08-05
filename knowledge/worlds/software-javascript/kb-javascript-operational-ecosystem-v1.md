@@ -1,4 +1,6 @@
 # JavaScript — operational: экосистема, сборка, тесты, угрозы
+**Tags:** #kb #software-javascript #worlds
+
 
 **Назначение:** **операционный слой** мира **`software.javascript`** после fundamentals: npm/lockfile, semver, статический анализ, бандлеры, тест‑раннеры, базовая модель угроз (XSS, CSP, динамический код). Не заменяет спецификацию языка — см. карточки `kb-javascript-*` в фазе fundamentals в `index-knowledge-javascript-cluster-v1.md`.
 

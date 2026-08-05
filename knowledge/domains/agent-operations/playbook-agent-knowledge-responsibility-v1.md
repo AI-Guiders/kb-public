@@ -1,4 +1,6 @@
 # Playbook: ответственность агента за память и знание (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Домен:** agent-operations  
 **Секция hot (stub):** *(нет отдельной L0 — загрузка по hub / route_context «память KB»)*

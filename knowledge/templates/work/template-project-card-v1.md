@@ -1,4 +1,6 @@
-# Project card: `<project-id>` (template)
+**Tags:** #template #templates
+
+﻿# Project card: `<project-id>` (template)
 
 **Путь экземпляра:** `knowledge/work/projects/<scope>/<project-id>/README.md`  
 **scope:** `door-to-singularity` | `portal` | `harvester` | `imc` | …  

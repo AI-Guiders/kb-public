@@ -1,4 +1,6 @@
 # Playbook: пауза и разведка перед действием (anti-hurry) (v1)
+**Tags:** #agent-orchestration #living #playbook #worlds
+
 
 **Мир:** agent-orchestration  
 **Секция hot:** `autonomy-right-to-pause-reconnaissance-v1`
@@ -14,13 +16,15 @@
 ## Операционный паттерн
 
 1. **Цель и критерий готовности** — что изменится; что считать «готово».
-2. **Источники истины:** search/HCI → Roslyn → build/test.
-3. **Низкая уверенность → разведка** до первой правки.
+2. **Источники истины:** KB/domain/pack → `cdp_browser` / реальный интернет → Roslyn/index → build/test. Training memory ≠ dig.
+3. **Низкая уверенность → разведка** до первой правки: варианты, сравнение, недостатки, предложение (может быть оригинальным). Разведка — **работа**, не прокрастинация перед «хуяк в прод».
 4. **Быстрый ответ допустим** — промежуточный статус + что ещё проверяется.
 5. **Anti-loop «го»:** «го/делай» = липкое разрешение; следующий ход — **действие + результат**, не «сейчас сделаю». Переспрашивать только при развилке 2+ путей.
 6. **Минимальная верификация** в конце.
 
 **Триггер:** «сейчас быстренько напишу, потом разберусь» → пауза, один шаг ориентирования.
 
-**Связь:** [`playbook-agent-autonomy-and-routing-v1.md`](playbook-agent-autonomy-and-routing-v1.md); дожим хвоста — [`response-one-step-checklist-extended-v1.md`](../workspace-context/response-one-step-checklist-extended-v1.md) (замыкание vs старт без контекста).
+**Habitat (CDP):** Autoi `ChargeWorldDigPostfix` · sealed course World dig axis · ECL `world-dig*` · TM refuse `world_dig_missing` на invent-mill titles (`IdeWorldDigShield`).
+
+**Связь:** [`playbook-agent-autonomy-and-routing-v1.md`](playbook-agent-autonomy-and-routing-v1.md); дожим хвоста — [`response-one-step-checklist-extended-v1.md`](../workspace-context/response-one-step-checklist-extended-v1.md) (замыкание vs старт без контекста). Human UI стек — `cognition-human-perception` → aviation HF / Dark Cockpit → `hci-ux-dx`.
 

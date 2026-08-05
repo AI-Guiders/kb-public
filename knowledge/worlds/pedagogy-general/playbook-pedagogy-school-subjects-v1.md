@@ -1,4 +1,6 @@
 # Pedagogy school subjects — master router v1
+**Tags:** #living #pedagogy-general #playbook #worlds
+
 
 **world:** `pedagogy.general`
 

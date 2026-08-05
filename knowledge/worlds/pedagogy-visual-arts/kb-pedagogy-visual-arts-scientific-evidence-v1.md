@@ -1,4 +1,6 @@
 # Visual arts pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-visual-arts #worlds
+
 
 ## Metadata
 

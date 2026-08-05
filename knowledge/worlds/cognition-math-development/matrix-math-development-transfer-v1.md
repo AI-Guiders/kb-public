@@ -1,4 +1,6 @@
-# Transfer matrix — math development (elementary) v1
+**Tags:** #cognition-math-development #worlds
+
+﻿# Transfer matrix — math development (elementary) v1
 
 **Мир:** `cognition.math-development`
 

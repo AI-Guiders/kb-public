@@ -1,4 +1,6 @@
 # History pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-history #worlds
+
 
 **Мир:** `pedagogy.history`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

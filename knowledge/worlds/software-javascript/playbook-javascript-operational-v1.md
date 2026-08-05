@@ -1,4 +1,6 @@
 # JavaScript — operational playbook v1
+**Tags:** #living #playbook #software-javascript #worlds
+
 
 **Purpose:** перевод **fundamentals** (модель языка ECMAScript в KB) в **действия, контракты и проверки** в репозитории и CI.  
 **Мир:** `software.javascript`.  

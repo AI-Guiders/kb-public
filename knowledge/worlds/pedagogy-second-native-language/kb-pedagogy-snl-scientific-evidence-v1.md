@@ -1,4 +1,6 @@
 # Second-native language pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-second-native-language #worlds
+
 
 ## Metadata
 

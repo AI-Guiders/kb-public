@@ -1,4 +1,6 @@
-# Evidence: Saxton (2005) — Recast in a New Light (review)
+**Tags:** #cognition-language-acquisition #kb #worlds
+
+﻿# Evidence: Saxton (2005) — Recast in a New Light (review)
 
 ## Provenance
 

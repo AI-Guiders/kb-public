@@ -1,4 +1,6 @@
 # Status: JavaScript (ECMAScript) v1
+**Tags:** #software-javascript #status #worlds
+
 
 **Канон перечня артефактов домена:** § Closure snapshot ниже. В `index-knowledge-router-v1.md` в таблице доменов — короткая строка; полная карта **fundamentals → operational** — `index-knowledge-javascript-cluster-v1.md`.
 

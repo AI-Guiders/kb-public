@@ -1,4 +1,6 @@
 # Visual arts pedagogy — router v1
+**Tags:** #living #pedagogy-visual-arts #playbook #worlds
+
 
 **world:** `pedagogy.visual-arts`
 

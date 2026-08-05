@@ -1,4 +1,6 @@
 # Мир **aviation.human-factors** (авиация / человеческий фактор)
+**Tags:** #aviation-human-factors #readme #worlds
+
 
 **Назначение:** карта мира авиации, human factors (CRM/TEM/ADM/Just Culture/LOSA), чтение и правила; матрица переноса паттернов в бытовое взаимодействие; термины PFD/MFD/EFIS/EICAS (в т.ч. как язык метафоры внимания в IDE — см. ADR репозитория продукта).
 

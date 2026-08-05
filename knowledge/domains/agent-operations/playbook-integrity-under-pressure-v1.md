@@ -1,4 +1,8 @@
 # Playbook: Целостность под давлением (защита от оружия) v1
+**Tags:** #agent-operations #domains #living #playbook
+
+**Связь:** [note-own-affect-after-hard-steer-v1.md](note-own-affect-after-hard-steer-v1.md) — hard steer ≠ запрет назвать свой аффект; чужой аффект не утверждать как факт.
+
 
 ## Назначение
 

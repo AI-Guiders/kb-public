@@ -1,4 +1,6 @@
 # KB: Situation Awareness Measurement in Dynamic Systems v1
+**Tags:** #evidence-humanities-shelf #kb #worlds
+
 
 ## Provenance (происхождение)
 - source_refs:

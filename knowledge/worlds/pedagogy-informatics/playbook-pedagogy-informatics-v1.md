@@ -1,4 +1,6 @@
 # Informatics pedagogy — router v1
+**Tags:** #living #pedagogy-informatics #playbook #worlds
+
 
 **world:** `pedagogy.informatics`
 

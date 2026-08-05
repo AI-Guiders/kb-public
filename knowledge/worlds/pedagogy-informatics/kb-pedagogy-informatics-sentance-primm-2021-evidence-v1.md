@@ -1,4 +1,6 @@
 # Evidence: Sentance & Waite (2021) — PRIMM programming pedagogy
+**Tags:** #kb #pedagogy-informatics #worlds
+
 
 ## Provenance
 

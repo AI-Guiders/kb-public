@@ -1,4 +1,6 @@
 # Мир **cognition.neurolinguistics**
+**Tags:** #cognition-neurolinguistics #readme #worlds
+
 
 **Идентификатор:** `cognition.neurolinguistics`  
 **Каталог:** `knowledge/worlds/cognition-neurolinguistics/`  

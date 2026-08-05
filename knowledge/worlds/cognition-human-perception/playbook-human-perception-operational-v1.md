@@ -1,4 +1,6 @@
 # Human perception — operational playbook v1
+**Tags:** #cognition-human-perception #living #playbook #worlds
+
 
 **Purpose:** переводить фундамент из [`kb-human-perception-fundamentals-v1.md`](kb-human-perception-fundamentals-v1.md) в **действия и проверки** для UX, IDE и агентского контура.  
 **Мир:** `cognition.human-perception` — см. [`README.md`](README.md).  

@@ -1,4 +1,6 @@
 # Chemistry pedagogy — fundamentals v1
+**Tags:** #kb #pedagogy-chemistry #worlds
+
 
 **Мир:** `pedagogy.chemistry`  
 **Версия:** v1.0 · 2026-06-06 · **status:** draft

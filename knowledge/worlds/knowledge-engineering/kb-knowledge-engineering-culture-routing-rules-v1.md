@@ -1,4 +1,6 @@
 # Knowledge Engineering Culture Routing Rules v1
+**Tags:** #kb #knowledge-engineering #worlds
+
 
 Набор: 30 карточек.  
 Фокус: `culture.global` + `culture.country-specific` + операционные последствия для агентного цикла.  

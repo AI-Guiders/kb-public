@@ -1,4 +1,6 @@
 # Transfer matrix — second-native language ↔ L1 acquisition v1
+**Tags:** #pedagogy-second-native-language #worlds
+
 
 **Мир:** `pedagogy.second-native-language`  
 **См. также:** [`../cognition-language-acquisition/matrix-language-acquisition-transfer-v1.md`](../cognition-language-acquisition/matrix-language-acquisition-transfer-v1.md)

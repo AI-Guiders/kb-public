@@ -1,4 +1,6 @@
 # Neurolinguistics — status v1
+**Tags:** #cognition-neurolinguistics #status #worlds
+
 
 **Домен:** `cognition.neurolinguistics` — brain bases of language, reading, bilingualism  
 **Версия:** v1.1 · 2026-06-06 · **status:** active

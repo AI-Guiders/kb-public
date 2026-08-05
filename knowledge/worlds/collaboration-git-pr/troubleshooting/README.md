@@ -1,4 +1,6 @@
 # Troubleshooting — collaboration.git-pr
+**Tags:** #collaboration-git-pr #readme #worlds
+
 
 | Файл | Роль |
 |------|------|

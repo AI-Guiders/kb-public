@@ -1,4 +1,6 @@
-# `templates/cards/` — шаблоны карточек и domain-заметок
+**Tags:** #readme #templates
+
+﻿# `templates/cards/` — шаблоны карточек и domain-заметок
 
 Каркасы для копирования в `knowledge/` или `work/projects/<scope>/`. Не редактировать «живые» экземпляры здесь.
 

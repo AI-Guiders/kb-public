@@ -1,4 +1,6 @@
 # Playbook: Avalonia UI — troubleshooting (v1)
+**Tags:** #living #playbook #software-dotnet-avalonia #worlds
+
 
 > **Контур:** A · kb-public  
 > **Когда:** нет подсветки, сломалось после апгрейда пакетов, jank списка, красный биндинг, Dock не сохраняет layout  

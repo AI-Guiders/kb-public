@@ -1,4 +1,6 @@
 # Geography pedagogy — router v1
+**Tags:** #living #pedagogy-geography #playbook #worlds
+
 
 **world:** `pedagogy.geography`
 

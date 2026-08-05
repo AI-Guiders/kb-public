@@ -1,4 +1,6 @@
 # Playbook: существительные → сущности, глаголы → методы v1
+**Tags:** #living #playbook #software-authoring #worlds
+
 
 **Назначение:** общий принцип декомпозиции кода и UI-рендеринга для агента. Не привязан к одному модулю (чат, Skia, MCP). **Связь:** `worlds/software-authoring/code-writing-principles-v1.md` (инженерные принципы), домен **software.authoring**.
 

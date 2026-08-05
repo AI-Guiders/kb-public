@@ -1,4 +1,6 @@
 # Human perception domain — status v1
+**Tags:** #cognition-human-perception #status #worlds
+
 
 ## Scope
 

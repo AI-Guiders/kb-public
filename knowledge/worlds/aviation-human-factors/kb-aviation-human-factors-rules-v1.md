@@ -1,4 +1,6 @@
 # Aviation Human Factors Knowledge Set v1
+**Tags:** #aviation-human-factors #kb #worlds
+
 
 Set: 18 rules.  
 Focus: operational psychology and team-safety behavior in aviation contexts.

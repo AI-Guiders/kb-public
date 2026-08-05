@@ -1,4 +1,6 @@
 # Playbook: полезность и ценность недоопределены (v1)
+**Tags:** #agent-operations #domains #living #playbook
+
 
 **Домен:** agent-operations  
 **Секция hot:** *(через epistemic baseline + hub)*

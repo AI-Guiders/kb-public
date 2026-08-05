@@ -1,4 +1,6 @@
 # Scope contour map (template)
+**Tags:** #template #templates
+
 
 **Назначение:** white-label карта «личный scope → каталог в group KB» для org, где maintainer ведёт **personal** канон с **своими** именами `work/projects/<scope>/`, а участники читают **group** clone с **нейтральными** префиксами.
 

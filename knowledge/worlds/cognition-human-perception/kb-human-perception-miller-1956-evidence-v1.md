@@ -1,4 +1,6 @@
 # Evidence: Miller (1956) — The Magical Number Seven
+**Tags:** #cognition-human-perception #kb #worlds
+
 
 ## Provenance
 

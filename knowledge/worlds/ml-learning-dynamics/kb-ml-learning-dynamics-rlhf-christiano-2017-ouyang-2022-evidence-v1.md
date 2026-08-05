@@ -1,4 +1,6 @@
-# Evidence: RLHF — Christiano et al. (2017) + Ouyang et al. (2022, InstructGPT)
+**Tags:** #kb #ml-learning-dynamics #worlds
+
+﻿# Evidence: RLHF — Christiano et al. (2017) + Ouyang et al. (2022, InstructGPT)
 
 ## Provenance
 - source_refs:

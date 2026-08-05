@@ -1,4 +1,6 @@
 # Мир **logistics.warehouse**
+**Tags:** #logistics-warehouse #readme #worlds
+
 
 **Идентификатор мира:** `logistics.warehouse`  
 **Назначение:** маркетплейсы и этикетки (Ozon, Wildberries, Яндекс Маркет); видеозахват штрихкодов и QR на складе; камеры и NVR под читаемость кода на записи.

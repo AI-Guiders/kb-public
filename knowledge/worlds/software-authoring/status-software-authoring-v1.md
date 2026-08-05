@@ -1,4 +1,6 @@
-# Status: software.authoring v1
+**Tags:** #software-authoring #status #worlds
+
+﻿# Status: software.authoring v1
 
 **Домен:** принципы написания кода, декомпозиция, OOA&D (канон для агента и человека).
 

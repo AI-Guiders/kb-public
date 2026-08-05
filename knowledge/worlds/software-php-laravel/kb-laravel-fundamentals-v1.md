@@ -1,4 +1,6 @@
 # Laravel — фундаментальный слой (framework на PHP)
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** опорная карта **Laravel** как full-stack PHP-фреймворка (HTTP, консоль, очереди, ORM) в связке с **PHP 8.2+** (для Laravel 12 — диапазон **8.2–8.5** по документации laravel.com/docs/12.x). Слой **L1 world** (миру `software.laravel` / `software.web-backend`). Рантайм PHP без фреймворка — в `kb-php-fundamentals-v1.md`.
 

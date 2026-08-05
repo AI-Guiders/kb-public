@@ -1,0 +1,96 @@
+# When-cards — .NET / C# stack playbooks as procedures
+
+[[procedure]]
+id = "dotnet-choose-tfm"
+name = "Choose TFM for new app"
+apply_when = "new service/util/app; TFM unset; LTS vs STS unclear"
+signals = [
+  "new_dotnet_app",
+  "tfm_unset",
+  "lts_vs_sts",
+]
+phases = ["plan", "clarify"]
+steps = [
+  "name app class: API/worker/desktop/tool + OS constraint",
+  "check current LTS/STS matrix and support windows",
+  "default production → latest LTS TFM unless hard constraint",
+  "R&D/experiment → STS ok with explicit lifetime",
+  "record TFM + LTS/STS + upgrade policy in ADR/README",
+]
+gate = [
+  "concrete TFM chosen",
+  "release kind named (LTS/STS)",
+  "no silent EOL/obsolete default",
+]
+definition_anchors = ["tfm", "net-framework-vs-net", "dotnet-cli-as-ssot"]
+tool_anchors = [
+  "get_definition:tfm",
+  "get_procedure:dotnet-choose-tfm",
+]
+llm_cue = "Did I pick a TFM with a support story — or the first number that compiled?"
+host_projectors = []
+
+[[procedure]]
+id = "dotnet-plan-framework-migrate"
+name = "Plan Framework → modern .NET migrate"
+apply_when = "living Framework 3.5/4.x app; migrate asked or EOL pressure"
+signals = [
+  "framework_app",
+  "migrate_ask",
+  "eol_pressure",
+]
+phases = ["plan", "explore"]
+steps = [
+  "inventory: Framework version, app type, WCF/WebForms/COM/third-party",
+  "mark lifecycle / EOL status",
+  "split layers: UI vs domain vs infra — what can move first",
+  "pick strategy: lift-shift | stratify (new libs on modern) | greenfield drip",
+  "define one pilot subsystem + success criteria (perf/reliability/cost)",
+]
+gate = [
+  "migration plan + pilot written",
+  "risks/benefits named",
+  "no rewrite-everything fantasy as exit",
+]
+definition_anchors = ["net-framework-vs-net", "tfm", "dotnet-cli-as-ssot"]
+tool_anchors = [
+  "get_definition:net-framework-vs-net",
+  "get_procedure:dotnet-plan-framework-migrate",
+]
+llm_cue = "Is there a pilot with exit criteria — or a vague 'move to .NET 10' wish?"
+host_projectors = []
+
+[[procedure]]
+id = "dotnet-perf-diag-cycle"
+name = "Basic .NET perf/stability cycle"
+apply_when = "CPU/latency/OOM/hang suspicion on .NET service; 'feels slow' without numbers"
+signals = [
+  "perf_symptom",
+  "stability_symptom",
+  "threadpool_starvation_suspect",
+]
+phases = ["explore", "verify", "act"]
+steps = [
+  "confirm symptom via metrics/logs/health — not vibe alone",
+  "primary picture: counters/OTel (CPU, GC, threadpool, RPS)",
+  "if confirmed — short controlled trace/profile window",
+  "name hot paths / allocators / blocking / sync-over-async",
+  "small change-set + measure before/after",
+]
+gate = [
+  "at least one documented improvement with measured delta",
+  "no endless flag-tuning without remeasure",
+]
+definition_anchors = [
+  "dotnet-cli-as-ssot",
+  "csharp-async-no-sync-over-async",
+  "csharp-cancellationtoken-propagate",
+]
+related_process = "mutation-blast-bound"
+tool_anchors = [
+  "get_procedure:dotnet-perf-diag-cycle",
+  "get_definition:csharp-async-no-sync-over-async",
+]
+llm_cue = "Do I have before/after numbers — or am I tuning flags by feel?"
+host_projectors = []
+

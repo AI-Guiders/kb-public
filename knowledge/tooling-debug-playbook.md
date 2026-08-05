@@ -1,4 +1,6 @@
 # Tooling and Debug Playbook v1 (редирект)
+**Tags:** #kb-root
+
 
 **Канон перенесён** в мир hci.ux-dx:
 

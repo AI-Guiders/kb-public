@@ -1,4 +1,6 @@
 # IT Playbook v1
+**Tags:** #living #playbook #systems-it #worlds
+
 
 ## Purpose
 

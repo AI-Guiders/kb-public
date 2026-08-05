@@ -8,6 +8,8 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Кластер: регулярные выражения
+**Tags:** #pattern-regex #worlds
+
 
 ## Назначение
 

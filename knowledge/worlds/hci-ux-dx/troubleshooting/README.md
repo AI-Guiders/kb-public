@@ -1,4 +1,6 @@
 # Troubleshooting — hci.ux-dx
+**Tags:** #hci-ux-dx #readme #worlds
+
 
 | Файл | Роль |
 |------|------|

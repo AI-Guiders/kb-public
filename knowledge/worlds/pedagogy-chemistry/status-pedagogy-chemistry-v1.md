@@ -1,4 +1,6 @@
 # Status: pedagogy.chemistry v1
+**Tags:** #pedagogy-chemistry #status #worlds
+
 
 **Домен:** химия — school inquiry instruction v1  
 **Версия:** v1.0 · 2026-06-06 · **status:** active

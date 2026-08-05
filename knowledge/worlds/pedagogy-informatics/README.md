@@ -1,4 +1,6 @@
 # Мир **pedagogy.informatics**
+**Tags:** #pedagogy-informatics #readme #worlds
+
 
 **Идентификатор:** `pedagogy.informatics`  
 **Фокус v1:** K-12 computing practices + PRIMM progression (Predict–Run–Investigate–Modify–Make).

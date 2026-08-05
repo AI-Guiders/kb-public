@@ -1,4 +1,6 @@
-# Playbook: engineering.cad (корень мира) v1
+**Tags:** #engineering-cad #living #playbook #worlds
+
+﻿# Playbook: engineering.cad (корень мира) v1
 
 ## Purpose
 

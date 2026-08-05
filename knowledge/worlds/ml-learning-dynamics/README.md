@@ -1,4 +1,6 @@
-# Мир **ml.learning-dynamics** (динамика обучения ML: куррикулум, забывание, консолидация)
+**Tags:** #ml-learning-dynamics #readme #worlds
+
+﻿# Мир **ml.learning-dynamics** (динамика обучения ML: куррикулум, забывание, консолидация)
 
 **Идентификатор мира:** `ml.learning-dynamics`
 **Каталог:** `knowledge/worlds/ml-learning-dynamics/`

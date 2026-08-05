@@ -1,4 +1,6 @@
 # Software authoring: карта языковых миров v1
+**Tags:** #kb #software-authoring #worlds
+
 
 **Назначение:** разделить **языконезависимый** контур (OOA&D), **языки**, **tooling** (компилятор/семантика ≠ язык) и **UI/framework**-стеки.
 

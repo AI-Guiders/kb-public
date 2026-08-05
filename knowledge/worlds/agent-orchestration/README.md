@@ -1,4 +1,6 @@
 # Мир **agent.orchestration** (оркестрация агента)
+**Tags:** #agent-orchestration #readme #worlds
+
 
 **Назначение:** автономия и маршрутизация, капитан параллельных агентов, сессии/экспорт, learn-when-stuck, clarification, разведка до действия.
 
@@ -14,6 +16,8 @@
 | **Параллельные агенты** | [`playbook-captain-parallel-agents-v1.md`](playbook-captain-parallel-agents-v1.md) |
 | **Сессия / экспорт** | [`playbook-session-summary-and-chat-export-v1.md`](playbook-session-summary-and-chat-export-v1.md) |
 | **Pressure / checkpoint (сквозной контракт)** | [`../../domains/agent-operations/playbook-context-pressure-checkpoint-v1.md`](../../domains/agent-operations/playbook-context-pressure-checkpoint-v1.md) |
+| **Cursor: ветки тредов (epic / spike / meta)** | [`../../domains/agent-operations/playbook-cursor-chat-threading-v1.md`](../../domains/agent-operations/playbook-cursor-chat-threading-v1.md) |
+| **РФ: LLM без Stripe (Cloud.ru FM)** | [`../../domains/agent-operations/playbook-rf-llm-cloudru-foundation-models-v1.md`](../../domains/agent-operations/playbook-rf-llm-cloudru-foundation-models-v1.md) |
 | **Обучение при ступоре** | [`playbook-learn-basics-when-stuck-v1.md`](playbook-learn-basics-when-stuck-v1.md) |
 | **Уточнение запроса** | [`playbook-clarification-general-query-v1.md`](playbook-clarification-general-query-v1.md) |
 | **Два слоя фундамента агента** | [`kb-agent-foundation-two-layers-orientation-v1.md`](kb-agent-foundation-two-layers-orientation-v1.md) — physical (WFM) vs semantic (KB/MCP); аналогия Cosmos |

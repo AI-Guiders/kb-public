@@ -1,4 +1,6 @@
 # Literature pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-literature #worlds
+
 
 ## Metadata
 

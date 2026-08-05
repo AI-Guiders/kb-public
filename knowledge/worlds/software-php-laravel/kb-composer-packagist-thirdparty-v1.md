@@ -1,4 +1,6 @@
 # Composer, Packagist и сторонняя экосистема PHP
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** контракты **управления зависимостями** и навигация по **популярным семействам** пакетов (в т.ч. Spatie для Laravel), без фиксации версий в KB. Мир `software.php` (tooling). Сочетается с `playbook-php-v1.md`.
 

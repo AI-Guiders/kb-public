@@ -1,4 +1,6 @@
 # Russian language pedagogy — scientific evidence index v1
+**Tags:** #kb #pedagogy-russian-language #worlds
+
 
 ## Metadata
 

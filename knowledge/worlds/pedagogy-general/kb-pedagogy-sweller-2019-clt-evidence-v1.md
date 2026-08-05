@@ -1,4 +1,6 @@
 # Evidence: Sweller, van Merriënboer & Paas (2019) — CLT 20 years later
+**Tags:** #kb #pedagogy-general #worlds
+
 
 ## Provenance
 

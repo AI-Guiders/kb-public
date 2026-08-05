@@ -1,4 +1,6 @@
 # `software.authoring.dotnet.tooling.roslyn` — компиляторная платформа
+**Tags:** #readme #software-dotnet-tooling-roslyn #worlds
+
 
 **World tag:** `software.authoring.dotnet.tooling.roslyn` (**не** язык C#).
 

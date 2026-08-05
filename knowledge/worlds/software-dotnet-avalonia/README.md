@@ -1,4 +1,6 @@
 # `software.authoring.dotnet.csharp.desktop-ui.avalonia`
+**Tags:** #readme #software-dotnet-avalonia #worlds
+
 
 **World tag:** `software.authoring.dotnet.csharp.desktop-ui.avalonia`  
 **Легаси:** `software.desktop-ui`

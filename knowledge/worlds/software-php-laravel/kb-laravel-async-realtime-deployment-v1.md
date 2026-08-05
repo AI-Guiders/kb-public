@@ -1,4 +1,6 @@
 # Laravel — асинхронность, долгоживущие воркеры, realtime, деплой
+**Tags:** #kb #software-php-laravel #worlds
+
 
 **Назначение:** контур **очередей**, **Octane/FrankenPHP/RoadRunner**, **broadcasting/Reverb**, типичные **подводные камни состояния** и связь с деплоем. Мир `software.laravel`. База очередей — `kb-laravel-fundamentals-v1.md` §5.
 

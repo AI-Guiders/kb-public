@@ -1,4 +1,6 @@
 # Transfer matrix — neurolinguistics ↔ pedagogy v1
+**Tags:** #cognition-neurolinguistics #worlds
+
 
 **Мир:** `cognition.neurolinguistics`  
 **См. также:** [`../pedagogy-second-native-language/matrix-pedagogy-snl-l1-acquisition-bridge-v1.md`](../pedagogy-second-native-language/matrix-pedagogy-snl-l1-acquisition-bridge-v1.md)

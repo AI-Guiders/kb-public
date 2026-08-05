@@ -1,0 +1,12 @@
+id = "pedagogy-physics"
+version = "0.3.0"
+layer = "methodology"
+title = "Physics pedagogy — modeling + conceptual change (method pillars)"
+onboarding = "Mastery ≠ definition recitation; pillars P1–P4 are methodology. Subject laws live elsewhere when split."
+depends_on = ["epistemic-methodology", "epistemic-scene"]
+content = "definitions/*.md"
+sources = [
+  "worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals-v1.md",
+  "worlds/pedagogy-physics/kb-pedagogy-physics-scientific-evidence-v1.md",
+]
+

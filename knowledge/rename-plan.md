@@ -1,4 +1,6 @@
 # Knowledge Naming Cleanup Plan v4 (Compact)
+**Tags:** #kb-root
+
 
 ## Goal
 

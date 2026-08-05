@@ -1,4 +1,6 @@
-# Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 weeks
+**Tags:** #cognition-language-acquisition #kb #worlds
+
+﻿# Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 weeks
 
 ## Provenance
 

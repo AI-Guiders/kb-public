@@ -1,4 +1,6 @@
 # Knowledge Engineering Multiworld Rules v1
+**Tags:** #kb #knowledge-engineering #worlds
+
 
 Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`
 и подтверждающих фрагментов чата `894407cf-07fb-4435-b3e5-131ac7a9172f`.

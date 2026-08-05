@@ -1,4 +1,6 @@
 # ADR 007: KB Project Constitution
+**Tags:** #adr
+
 
 **Статус:** Proposed  
 **Дата:** 2026-05-05  
