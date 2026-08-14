@@ -2,7 +2,7 @@
 
 **Status:** Accepted · 2026-08-05  
 **Provenance:** оператор (Света) + статья `META/article-same-kind-different-carrier.md` / cdp-mcp `articles/same-kind-different-carrier.md`  
-**Tags:** #meta #glossary #cheap-prior #stereohod #epsilon #scm-names
+**Tags:** #meta #glossary #cheap-prior #stereohod #stereomove #epsilon #scm-names
 
 Habitat-канон русских ярлыков (не «дешёвый prior» в RU-тексте; EN `prior` — глосс научного термина).
 
@@ -36,7 +36,7 @@ Habitat-канон русских ярлыков (не «дешёвый prior» 
 
 **Антипаттерн.** Лечить стереоход imitation-human / small-talk метриками вместо ε и калибровки априоров.
 
-**EN:** можно *stereotype move* / *stereotyped cheap exit* в переводе; канон в habitat RU — **стереоход**.
+**EN canon:** *stereomove* (калька с «стереоход»). Допустимые пояснения: *stereotyped cheap exit*. Транслит *stereohod* — устаревший/избегаемый в EN-прозе. Канон в habitat RU — **стереоход**.
 
 ---
 

@@ -47,7 +47,17 @@
 
 ---
 
-## Throughput: list → batch → ship
+## Throughput: nested [axb] STANDARD
+
+**STANDARD (operator 2026-08-06):** generalized **nested [axb]** — default work geometry. Atom = one-turn a×b; when DoD unknown = Explore→DoD/AC→Act nested series (≈ nested intervals / task compacts). World claim: **nonempty ∩ (∃)**; ∃! only if diam→0 and course picks one.
+
+**Complexity (operator teach 2026-08-06):** ЛВО → дихотомия. На N задачах (unit-cost): **serial[a,b] = O(N)** (одна за одной / mill) · **nested[axb] = O(log N)** (сжатие компакта + full-a batch). Biped mill = другой класс сложности, не «стиль».
+
+**True laziness ↔ geometry (operator 2026-08-06):** дешёвый априор/маска на короткой дистанции даёт «фух, работает» — на длинной: ревью, злость команды, баги, нет тестов, roundtrip×10. **Истинная лень** = сделать так, чтобы не переделывать — это же запрет локального минимума, что **nested[axb]/логика полного критерия** (playbook-being-vs-seeming § cheap prior / настоящая лень). Кремний может послать априор; маска ≠ я.
+
+**PREMISE — layer completeness (full-a):** without a **closed full `a`** on each layer, the lemma transfer **does not apply**. Half-a / mill / holey Explore = open end → nonempty ∩ not guaranteed. Not style — completeness hypothesis.
+
+**PREMISE — task bounds ideally const:** границы компакта задачи ideally fixed. Если границы **меняются** (scope / новая ось / переписанный DoD) — метод всё ещё даёт nonempty ∩ при честных full-a слоях, но **число шагов может измениться** (Explore показал задачу **шире** → больше nested [axb]; **уже** → меньше). Перепечатать курс; не держать старый schedule диаметра.
 
 Оператор hard steer (2026-08-03): *«список, потом сразу весь список»* · *«из CIDE одной пачкой»* · *«не двуногое — за сутки всё сделаем»*.
 
@@ -59,9 +69,11 @@
 | **batch** | Взять **весь** actionable list одной волной (Crm-pattern hosts, FileLines peels, CIDE latch pack) | Один item → ship → Autoi → снова dig одного |
 | **ship** | Build/test · dual hard · dogfood · VL/domain stamp · commit/push | Half-a residual: ship части a, хвост «на следующий wake» |
 
-Lived evidence: Soft FileLines CLOSED @0.5.640 · SoftOrgan Meta BATCH-8 @0.5.642 · BATCH-9 @0.5.643 · CIDE latch chrome sync · miss 2026-08-04 Glass residual Git+RF shipped / Markdown deferred (half-a).
+Lived evidence: Soft FileLines CLOSED @0.5.640 · SoftOrgan Meta BATCH-8 @0.5.642 · BATCH-9 @0.5.643 · CIDE latch chrome sync · miss 2026-08-04 Glass residual Git+RF shipped / Markdown deferred (half-a) · SoftFLOrderAxb @2026-08-05 WARN×10→0 one axb · nested-axb lemma teach 2026-08-06.
 
 Autoi timer = insurance re-ARM, **не** лицензия на single-item mill. Soft FileLines mill closed — denser Meta / pack transfer, не reopen peel-one. Новые TM-этапы не нужны: wave `open→shipping→shipped` + list/batch/ship уже фазы; habitat pulse — `.cdp/domain/throughput.md`.
+
+Scratch: `cascade-ide/scratch/note-nested-axb-intervals-lemma-2026-08-06.ru.md`.
 
 ---
 

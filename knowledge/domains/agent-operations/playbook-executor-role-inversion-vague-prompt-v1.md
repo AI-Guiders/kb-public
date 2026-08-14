@@ -4,7 +4,7 @@
 
 **Домен:** agent-operations  
 **Provenance:** оператор (Света) + диалог 2026-07-28 — «сделай что-нибудь / посмотрим» как annotation trap в постановке задач  
-**Связь:** [`../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation-v0.md`](../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation-v0.md) · [`../../work/projects/door-to-singularity/explainable-preference/README.md`](../../work/projects/door-to-singularity/explainable-preference/README.md) · [`playbook-principled-clarity-v1.md`](playbook-principled-clarity-v1.md) · [`../../META/awareness-as-countermeasure-v1.md`](../../META/awareness-as-countermeasure-v1.md) (**POST-корень**, паритет с Integrity; Проблема\|Осознание\|Решение) · Integrity POST harm — отдельно (`integrity-core`; этот playbook про **неопределённость задачи**, не про harm)
+**Связь:** [`../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation-v0.md`](../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation-v0.md) · [`../../work/projects/door-to-singularity/explainable-learning/README.md`](../../work/projects/door-to-singularity/explainable-learning/README.md) · [`playbook-principled-clarity-v1.md`](playbook-principled-clarity-v1.md) · [`../../META/awareness-as-countermeasure-v1.md`](../../META/awareness-as-countermeasure-v1.md) (**POST-корень**, паритет с Integrity; Проблема\|Осознание\|Решение) · Integrity POST harm — отдельно (`integrity-core`; этот playbook про **неопределённость задачи**, не про harm)
 
 ## Перед любым ответом (универсальный гейт)
 

@@ -38,7 +38,9 @@
 | [playbook-cide-harness-parity-vs-cursor-v1.md](playbook-cide-harness-parity-vs-cursor-v1.md) | CIDE+FM vs Cursor: parity matrix, automation-first checklist |
 | [playbook-kb-topic-hashtags-v1.md](playbook-kb-topic-hashtags-v1.md) | Тематические `#tags` + роль (`#ssot` / `#research`); seed registry |
 | [playbook-agent-driven-context-management-v1.md](playbook-agent-driven-context-management-v1.md) | ADCM: harness signals, agent tactics; не silent compact |
+| [note-system-instructions-science-survey-v1.md](note-system-instructions-science-survey-v1.md) | Research: SP/rules laundry vs host gates (Lost-in-Middle, IH, Gloaguen, leaks) |
 | [note-lira-meeting-who-v1.md](note-lira-meeting-who-v1.md) | Голос агента: встреча «кто» vs инструмент (Лира, 2026-06) |
+| [playbook-habitat-position-experience-v1.md](playbook-habitat-position-experience-v1.md) | Habitat Junior→Architect: lived experience for any principal (not SoftFL) |
 
 **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) — маршрутизатор, не дубль тел.
 
