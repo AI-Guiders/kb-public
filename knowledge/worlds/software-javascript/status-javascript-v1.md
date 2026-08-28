@@ -26,8 +26,12 @@
 - **`software.typescript`** — статический слой типов поверх этого ядра; отдельный проход.
 - **RegExp (диалект JS):** `worlds/pattern-regex/kb-regex-flavors-practice-v1.md` § JavaScript.
 
-## Next review triggers
+## Maintenance Policy
 
+- **Проверено:** 2026-08-15 (operational playbook + ecosystem dig vs Baseline 2026 / ES2026)
+- Event-driven refresh via **Next review triggers** below.
+- Order: `status-*` → operational playbook → fundamentals → evidence (`playbook-kb-operational-freshness-v1.md`).
+## Next review triggers
 - Крупные изменения ECMA-262, влияющие на операционную матрицу (модули, async).
 
 - Изменение политики Baseline / interop в целевых браузерах — пересмотреть шаг транспиляции.

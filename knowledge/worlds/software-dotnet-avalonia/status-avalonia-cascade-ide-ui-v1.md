@@ -53,8 +53,10 @@ Artifacts:
 ## Provenance
 
 - source_refs: `CascadeIDE.csproj` (PackageReference, PropertyGroup), структура Views; дата синхронизации: 2026-03-20
+- **Проверено:** 2026-08-15 — dig `Avalonia/releases.atom`: latest **11.3.20** (11.x); **12.1.1** / **12.1.0** on 12.x (after 12.0.5). Product stack in this status still **12.0.x** until CascadeIDE PackageReference bump.
+- harness: `cdp_freshness op=scan alias=avalonia` (0.5.717)
 - layer: meta / domain-status
-- epistemic_basis: fact (версии из csproj); confidence: high для версий на дату обновления
+- epistemic_basis: fact (версии из csproj + Atom dig); confidence: high for upstream releases on dig date
 
 <!-- section:cross-link-software-transfer-matrix -->
 ## Cross-link: software transfer matrix
@@ -68,4 +70,13 @@ Artifacts:
 **Tooling:** `software.authoring.dotnet.tooling.roslyn` — диагностики/MCP, **отдельно** от языка.  
 **Легаси:** `software.desktop-ui`.
 <!-- /section:world-tag-v1 -->
+
+## Maintenance Policy
+
+- Event-driven refresh (not calendar-only). Order: `status-*` → playbook → one `kb-*` per pass (`playbook-kb-operational-freshness-v1.md`).
+- **Next review triggers:**
+  - New edition / major paper / platform release superseding cited claims
+  - Broken `source_refs` / URL rot
+  - Repeated field mismatch with practice or primary sources
+  - Operator/agent flags a stale claim
 

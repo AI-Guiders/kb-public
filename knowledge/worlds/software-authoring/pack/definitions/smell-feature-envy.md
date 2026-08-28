@@ -11,6 +11,6 @@
 - inference_hooks: grasp-information-expert, mutation-blast-bound
 - llm_cue: Whose data is this behavior about — move there or Extract+Move part?
 - related: smell-long-method, grasp-information-expert, gof-strategy
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/smells/feature-envy
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/smells/feature-envy
 - formal.roslyn_hint: Move Method / Extract Method then move
 

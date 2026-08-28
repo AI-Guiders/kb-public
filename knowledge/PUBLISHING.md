@@ -19,6 +19,20 @@
 
 Сборку выполняют из **полного** клона **личного/командного канона** (репозиторий maintainer’а с `scripts/`) или из group-репо **`{ORG_SLUG}/kb`** после seed (зеркало `scripts/` для canon-maintainer). В артефакт kb-public попадают обрезанный **`agent-notes.md`**, отфильтрованный **`knowledge/`**, корневые **`README.md`** и **`LICENSE`** из **`scripts/kb-public-root/`**; каталог **`scripts/`** и операции **git push** в зеркало kb-public **в zip не входят**. Список remotes — **`knowledge/public-kb.push`** (в публичную сборку не копируется; шаблон `scripts/public-kb.push.example`).
 
+### Release manifest (HIS federation leg)
+
+Каждый **полный релиз** артефакта несёт **`habitat-release-manifest.v1.json`** в корне сборки (спека: CDP-ADR-0206 §3a · pointer [`domains/agent-operations/CDP-ADR-0206-habitat-integrity-subsystem.md`](domains/agent-operations/CDP-ADR-0206-habitat-integrity-subsystem.md)).
+
+| Контур | `contour` | Скрипт | Артефакт | Manifest |
+|--------|-----------|--------|----------|----------|
+| **Public** | `kb_public` | `build-public-kb.ps1` | `dist/public-kb/` | **обязателен** (релиз без manifest — неполный) |
+| **Group** | `kb_group` | `seed-org-kb.ps1` | `dist/group-kb/` | **обязателен** при push в `{ORG_SLUG}/kb` |
+| **Private canon** | `kb_private` | `Write-HabitatReleaseManifest.ps1` (v1) | personal repo @ tag | рекомендован при tag / handoff |
+
+Проверка: `∀ path ∈ manifest: sha256(файл на диске) = manifest[path]`; `tree_sha256` — один бит «всё дерево совпало». Публичный срез ⊆ group: общие пути при сборке с одного commit **должны** иметь одинаковые хеши.
+
+**Реализация:** v1 — общий helper + hook в build/seed; до ship — спека в ADR достаточна.
+
 ### Что обычно в публичной kb
 
 По общему правилу п. 2 в публичный срез попадают типичные **`knowledge/*.md`**: плейбуки, индексы, доменные kb, **`knowledge/META/`** (Integrity POST и спеки), **этот `PUBLISHING.md`**, **`kb-one-pager-structure-and-protocols-v1.md`** (онлайн-онбординг: слои, маркеры, зачем в полном каноне есть `work/` и `personal/`), **`kb-protocols-and-entities-one-pager-v1.md`** (wiki-вход: протоколы и сущности Scope/Primary, схемы), **`worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md`** (свежесть знаний: fundamentals / operational / evidence, перепроверка любого домена; supplement `router-kb-operational-freshness`). В **`agent-notes.md`** в kb-public — секции **выше** `<!-- public-cut -->`, в т.ч. **`kb-operational-freshness-v1`**. Корневые **`README.md`** / **`LICENSE`** для репозитория kb-public — п. 3 «Механики».

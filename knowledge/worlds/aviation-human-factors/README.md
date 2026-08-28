@@ -13,6 +13,7 @@
 | **Приборная колба / метафора UI** | [`kb-aviation-pfd-mfd-efis-eicas-fundamentals-v1.md`](kb-aviation-pfd-mfd-efis-eicas-fundamentals-v1.md) |
 | **Перенос в не-авиацию** | [`matrix-aviation-to-human-interaction-transfer-v1.md`](matrix-aviation-to-human-interaction-transfer-v1.md) — опирается на [`../../matrix-culture-routing-v1.md`](../../matrix-culture-routing-v1.md) и [`../../matrix-do-not-transfer-v1.md`](../../matrix-do-not-transfer-v1.md) в корне `knowledge/` |
 | **ANC** | [`playbook-anc-aviate-navigate-communicate-v1.md`](playbook-anc-aviate-navigate-communicate-v1.md) |
+| **Эссе (human + agent)** | [Why aviation, not Pair Programming](https://github.com/AI-Guiders/guiders-platform/blob/main/docs/essay/why-aviation-not-pair-programming.md) · [GUIDERS-ADR-0007](https://github.com/AI-Guiders/guiders-platform/blob/main/docs/adr/GUIDERS-ADR-0007-aviation-mental-model.md) |
 
 Маршрутизатор: строка **Aviation Human Factors** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md); пересечение с восприятием/UX — [`../cognition-human-perception/README.md`](../cognition-human-perception/README.md).
 

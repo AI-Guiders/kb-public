@@ -29,6 +29,7 @@
 ## Notes
 
 - ADR здесь не заменяют `status-*` и `playbook-*`; они фиксируют архитектурные развилки.
+- **Один ADR — одно решение.** Мотивация из чатов, work, outreach, дисклеймеры — в `operator-notes/` или project note со ссылкой из ADR, не внутри тела ADR.
 - Для ссылок из роутера можно использовать краткую отсылку в `index-knowledge-router-v1.md` при необходимости.
 
 ## Timeline (restored from commit history)
@@ -48,3 +49,5 @@
 - `013-agent-notes-mcp-local-settings-toml-v1.md` (Proposed: локальный TOML с MCP **2.0**, `[knowledge]` / `[workspace]` / `[status]`)
 - `016-knowledge-stack-clean-setup-protocol-v1.md`
 - `017-knowledge-roots-registry-prefix-v1.md` (Accepted: префиксы в `knowledge-roots-index`; Core 2.1.2 — AgentNotes.Core ADR 016)
+- `018-ai-guiders-licensing-hub-and-software-grant-v1.md` (Superseded → канон: [AI-Guiders/licensing ADR 001](https://github.com/AI-Guiders/licensing/blob/main/docs/decisions/001-software-grant-mit-and-ethical-layer.md))
+- `019-writing-canon-layers-and-guiders-style-v1.md` (Mirror → normative [CDP-ADR-0207](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/adr/CDP-ADR-0207-writing-canon-layers.md); Vision: GUIDERS-VISION-0002)

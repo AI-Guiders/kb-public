@@ -17,7 +17,7 @@
 - formal.settle_path: <park_root>/JOURNAL.jsonl
 - formal.park_ops: <park_root>/README.md
 - formal.facet: memory_project (roots work/projects + personal); not memory_world; not memory_self_finding (memo/hash-gate ≠ workbook)
-- formal.reuses: work/projects/door-to-singularity/agents-and-humans/INDEX.md; work/projects/door-to-singularity/agents-and-humans/drafts/; cascade-ide/scratch spike-*/checkpoint-*.handoff.md; playbook-agent-notes-section-store-hygiene-v1.md; personal/personal-playbook.md
+- formal.reuses: work/projects/door-to-singularity/agents-and-humans/INDEX.md; work/projects/door-to-singularity/agents-and-humans/drafts/; cascade-ide/scratch spike-*/checkpoint-*.handoff.md; playbook-agent-notes-section-store-hygiene-v1.md; personal/operator-guides/personal-playbook.md
 - formal.park_how: scout reuse first; choose park_root by gesture; new topic → drafts/kj-*.md + INDEX row + hot stub; pin → JOURNAL.jsonl with draft_ref; read INDEX then one draft; free-theme with ПДн stays in personal (no public promote as-is)
 - formal.park_tool: memory_project_* ; not Shell; not endless append to one DRAFT
 - formal.allowed_moves: sketch; cite; claim×source; contradiction hunt; scratch formalization; settle pin

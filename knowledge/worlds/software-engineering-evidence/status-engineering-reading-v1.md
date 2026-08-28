@@ -67,3 +67,12 @@ Closed. Legacy aliases were retired after semantic-primary stabilization.
 Engineering-reading foundation closed at v1.  
 Next step: move to remaining pending technical domain, then run naming/index cleanup.
 
+## Maintenance Policy
+
+- Event-driven refresh (not calendar-only). Order: `status-*` → playbook → one `kb-*` per pass (`playbook-kb-operational-freshness-v1.md`).
+- **Next review triggers:**
+  - New edition / major paper / platform release superseding cited claims
+  - Broken `source_refs` / URL rot
+  - Repeated field mismatch with practice or primary sources
+  - Operator/agent flags a stale claim
+

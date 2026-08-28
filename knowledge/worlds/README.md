@@ -28,6 +28,7 @@
 **Уже есть:** `software-automation-scripting/` — **software.automation-scripting** (роутер автоматизации, PowerShell, Bash, CMD, Python, Docker) — см. hub.  
 **Уже есть:** `collaboration-git-pr/` — **collaboration.git-pr** (Git, PR review, kb, runbook backup) — см. hub.  
 **Уже есть:** `systems-it/` — **systems.it** (IT core, cloud/platform diagnostics) — см. hub.  
+**Уже есть:** `computing-hardware-substrate/` — **computing.hardware-substrate** (NVM, carrier memory/energy horizon, evidence cards) — см. hub.  
 **Уже есть:** `knowledge-engineering/` — **knowledge.engineering** (KE playbooks, kb, матрицы, world modeling, runbooks) — см. hub.  
 **Уже есть:** `ops-host-environments/` — **ops.host-environments** (Linux/Windows playbooks) — см. hub.  
 **Уже есть:** `ops-network-admin/` — **ops.network-admin** (SSH, Nginx, Wireshark, 1C) — см. hub.  
@@ -39,6 +40,7 @@
 **Уже есть:** `evidence-humanities-shelf/` — **evidence.humanities-shelf** (гуманитарные и смежные evidence-kb) — см. hub.  
 **Уже есть:** `software-integration-kb/` — **software.integration-kb** (WebApiToolkit, Telegram kb) — см. hub.  
 **Уже есть:** `culture-dialogue-insights/` — **culture.dialogue-insights** (инсайты из диалога) — см. hub.  
+**Уже есть:** `rhetoric-pragmatics/` — **rhetoric.pragmatics** (речевые ситуации, жанры, register; evidence Bitzer/Bakhtin + fundamental pass) — см. hub.  
 **Уже есть:** `software-authoring/` — **software.authoring** (code principles, language index) — см. hub.
 
 <!-- section:catalog-engineering-cad-v1 -->

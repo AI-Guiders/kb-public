@@ -25,6 +25,7 @@
 - **Связь с engineering-evidence:** Track C в `map-engineering-reading-v1.md`; evidence-строки — в `kb-engineering-evidence-v1.md` § Object-oriented analysis and design.
 
 ---
+- **Next review triggers:** new primary source / platform release / URL rot / repeated field mismatch / stale-claim flag
 
 ## Closure snapshot
 
@@ -39,6 +40,7 @@
 |-------|----------|
 | Неявный симптом (визуал + структура, god-class, switch, Skia, новый экран) | `matrix-software-cross-domain-transfer-v1.md` **до** углубления в kb |
 | Явный OOA&D / декомпозиция | сразу `playbook-ooad-agent-operational-v1.md` (матрица опциональна) |
+| SoftFL / FileLines warn (CDP quality) | OOA&D + DRY + KISS; `partial` = узкий случай — playbook §Когда + cdp-mcp `.cdp/domain/quality.md` |
 
 Роутер supplement: `router-software-transfer-matrix` в `index-knowledge-router-supplement-v1.md`.
 <!-- /section:operating-contract-matrix -->

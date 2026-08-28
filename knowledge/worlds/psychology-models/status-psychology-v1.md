@@ -42,6 +42,7 @@ Completed artifacts:
   - conflicting new meta-analysis;
   - guideline updates affecting multicultural practice;
   - repeated operational failures in transfer/use.
+- **Next review triggers:** new primary source / platform release / URL rot / repeated field mismatch / stale-claim flag
 
 ## Alias Window
 

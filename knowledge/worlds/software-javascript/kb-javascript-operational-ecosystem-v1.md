@@ -10,9 +10,9 @@
 
 ## Provenance
 
-- source_refs: `npm:docs`; `nodejs.org` / `bun.sh` / `deno.land`; `cheatsheetseries.owasp.org` (XSS — ориентир); `kb:internal` synthesis 2026-05-10; supersedes раздел tooling из `kb-javascript-runtime-tooling-and-security-baseline-v1.md`
+- source_refs: `npm:docs`; `nodejs.org` / `bun.sh` / `deno.land`; `cheatsheetseries.owasp.org` (XSS — ориентир); `kb:internal` synthesis 2026-05-10; supersedes раздел tooling из `kb-javascript-runtime-tooling-and-security-baseline-v1.md``r`n- **Проверено:** 2026-08-15 (Baseline 2026 track live; Trusted Types Newly available — CSP note still valid)
 - created_at: 2026-05-10
-- updated_at: 2026-05-10
+- updated_at: 2026-08-15
 
 ## Metadata
 

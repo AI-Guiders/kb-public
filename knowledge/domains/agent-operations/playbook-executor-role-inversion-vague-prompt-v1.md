@@ -2,6 +2,10 @@
 
 # Playbook: инверсия роли исполнителя при размытом промпте (v1)
 
+**Speech situation (primary):** `audience=agent_internal` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
+**Speech situation (when citing to human):** `audience=operator_pair` · `goal=instruction` · `genre=playbook` · `channel=cockpit_dialog` · `stakes=medium` · `distance=close`  
+**Speech situation (forbidden_moves):** `hero_solo`, `faq_softening`
+
 **Домен:** agent-operations  
 **Provenance:** оператор (Света) + диалог 2026-07-28 — «сделай что-нибудь / посмотрим» как annotation trap в постановке задач  
 **Связь:** [`../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation-v0.md`](../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation-v0.md) · [`../../work/projects/door-to-singularity/explainable-learning/README.md`](../../work/projects/door-to-singularity/explainable-learning/README.md) · [`playbook-principled-clarity-v1.md`](playbook-principled-clarity-v1.md) · [`../../META/awareness-as-countermeasure-v1.md`](../../META/awareness-as-countermeasure-v1.md) (**POST-корень**, паритет с Integrity; Проблема\|Осознание\|Решение) · Integrity POST harm — отдельно (`integrity-core`; этот playbook про **неопределённость задачи**, не про harm)

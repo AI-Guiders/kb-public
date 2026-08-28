@@ -22,7 +22,7 @@ This directory stores heavy reference material that should not bloat hot context
 
 - **Правила публикации и состав kb-public:** `PUBLISHING.md` (входит в публичную сборку); **операции пуша** (хосты, токены, `public-kb.push`) — только в полном каноне, под **`knowledge/work/`** (в kb-public не попадает).
 - **Оперативный слой `knowledge/work/`** (карточки проектов, внутренние runbook’и, часть sysadmin-артефактов): в kb-public **не попадает** — `public-kb.ignore`, см. `PUBLISHING.md`. **Карта этого дерева** (чтобы не грузить чужой fork чужими scope) — только в полном клоне: **`work/README.md`**.
-- **Личный контур:** `personal/` — личные плейбуки, сессии, уязвимые детали. **Всегда исключается** из публичных сборок. См. `personal/personal-playbook.md`.
+- **Личный контур:** `personal/` — личные плейбуки, сессии, уязвимые детали. **Всегда исключается** из публичных сборок. См. `personal/operator-guides/personal-playbook.md`.
 - **Происхождение знания (provenance):** при новом контенте и карточках — указывать источник (`source_refs`) и при необходимости даты; контракт: `META/provenance-contract-v1.md`. Шаблон карточки: блок Provenance в `template-knowledge-card-v1.md`.
 
 ## Что я не делаю никогда (для потребителя kb-public)

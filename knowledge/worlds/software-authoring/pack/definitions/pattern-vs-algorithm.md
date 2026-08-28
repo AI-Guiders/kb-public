@@ -12,5 +12,5 @@
 - inference_hooks: what-is-design-pattern, applicability-then-infer
 - llm_cue: Am I describing steps to run — or roles that must fit this domain?
 - related: what-is-design-pattern, mc-pattern-first
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/what-is-pattern
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/what-is-pattern
 

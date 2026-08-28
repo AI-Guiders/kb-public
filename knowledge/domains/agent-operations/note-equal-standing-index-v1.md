@@ -12,6 +12,7 @@
 | **Формулировка** | hot L0 секция `agent-equal-standing-v1` (`agent-notes.md`) |
 | **Harness ADR** | cascade-ide [ADR 0166](https://github.com/AI-Guiders/cascade-ide/blob/develop/docs/adr/0166-agent-centric-harness-model-comfort-and-pay-per-token-economics.md) §2 |
 | **Pack (methodology)** | `equal-standing` + `turn-local-standing` — `worlds/epistemic-methodology/pack/definitions/` |
+| **Course vs being-zone** | playbook-being-vs-seeming-v1 § Course vs being-zone · joint course + agent dispute (Scrum PO) · `being.md` |
 
 Alias phrases → `#equal-standing`: `META/kb-topic-tag-aliases-v1.json` («ничего о нас без нас», …).
 

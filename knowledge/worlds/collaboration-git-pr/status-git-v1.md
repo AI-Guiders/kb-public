@@ -33,4 +33,5 @@ Completed artifacts:
 
 - Refresh when recurring Git incidents appear (merge loops, accidental force, recovery events).
 - Expand rules with concrete postmortem patterns from active repositories.
+- **Next review triggers:** new primary source / platform release / URL rot / repeated field mismatch / stale-claim flag
 

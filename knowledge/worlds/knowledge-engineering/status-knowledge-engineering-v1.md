@@ -19,7 +19,7 @@ Completed artifacts:
 - `kb-knowledge-engineering-culture-routing-rules-v1.md`
 - `kb-knowledge-engineering-country-conflicts-rules-v1.md`
 - `kb-knowledge-engineering-operations-rules-v1.md`
-- `personal/bookshelf-corpus-vs-router-gaps-v1.md` (личный снимок корпуса vs роутер; personal-слой, не публичный дефолт)
+- `personal/ah-history/bookshelf-corpus-vs-router-gaps-v1.md` (личный снимок корпуса vs роутер; personal-слой, не публичный дефолт)
 - `matrix-culture-routing-v1.md`
 - `matrix-do-not-transfer-v1.md`
 
@@ -48,6 +48,18 @@ Completed artifacts:
   - restore failures after compression,
   - retention threshold breaches,
   - repeated cross-world misclassification.
+- **Next review triggers:** new primary source / platform release / URL rot / repeated field mismatch / stale-claim flag; also when a «full-a» pass claims done without freshness atoms below.
+- **Canon+public FULL-A atoms (2026-08-15):** mechanical dedupe alone ≠ full-a. Nested order:
+  1. infra push-preserve + Pages restore — done
+  2. mechanical basename/router dedupe — done
+  3. `status-*` MP + Next review triggers substrate — done (34/34)
+  4. hot `playbook-*-operational*` re-verify against sources — partial (JS + Avalonia Atom + PHP releases dig 2026-08-15 via `cdp_freshness`; others open)
+  5. evidence `Проверено:` / `updated_at` by domain priority — partial (Avalonia status + PHP playbook + JS operational stamped 2026-08-15; ~104/106 evidence still open)
+  6. semantic playbook-overlap pass — open
+  7. sync+push kb-public after canon ships — open
+  8. weekly build+push cadence note — open
+  Route: `playbook-kb-operational-freshness-v1.md` · harness: `cdp_freshness` (MLP W2–W4 @ 0.5.717). Do not stamp full-a until atoms 4–5 denser.
+
 
 ## Alias Window
 

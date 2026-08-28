@@ -36,8 +36,11 @@
 
 - Конкретные **номера версий** пакетов и ядер (WP/Drupal/Symfony) в этой KB не фиксируются — источник истины: **`composer.lock`**, версия ядра WP, `drupal/core` в проекте, официальные release notes.
 
-## Next review triggers
+## Maintenance Policy
 
+- Event-driven refresh via **Next review triggers** below.
+- Order: `status-*` → operational playbook → fundamentals → evidence (`playbook-kb-operational-freshness-v1.md`).
+## Next review triggers
 - **PHP 8.5** stable или смена политики поддержки на php.net.
 - **Laravel 13+** или крупные изменения структуры в docs.
 - Новые системные инциденты: рассинхрон ext между средами, preload/JIT регрессии, массовые deprecations.

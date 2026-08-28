@@ -17,6 +17,7 @@
 - Рост **`switch` / `enum Kind` / общего record** в renderer, ViewModel, handler.
 - Задача «сделать визуал», но в домене уже есть **именованные понятия** (Message, Thread, Order, …).
 - Пользователь явно просит **OOA&D**, **декомпозицию**, **сущности**.
+- Habitat **`file_lines` / SoftFL FileLines warn** — ответ по умолчанию **OOA&D + DRY + KISS** (реальные типы по ответственности). **`partial` — очень узкий случай** (codegen / designer / редкий hand-split одного типа), не metric peel.
 
 **Можно сократить** (только nouns-verbs чеклист): мелкий баг в одном типе, однострочный фикс, конфиг.
 

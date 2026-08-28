@@ -12,6 +12,7 @@
 
 | Артефакт | Назначение |
 |----------|------------|
+| [CDP-ADR-0206-habitat-integrity-subsystem.md](CDP-ADR-0206-habitat-integrity-subsystem.md) | **HIS** — единая подсистема trust/drift артефактов (не harm POST) |
 | [map-kb-three-contours-v1.md](map-kb-three-contours-v1.md) | **Канон · group · kb-public · workspace** — плейсхолдер `{ORG_SLUG}` |
 | [playbook-knowledge-stack-clean-setup-v1.md](playbook-knowledge-stack-clean-setup-v1.md) | Участник: kb-public → personal + MCP |
 | [playbook-org-kb-white-label-v1.md](playbook-org-kb-white-label-v1.md) | Основатель org: `{ORG_SLUG}/kb` + kb-public |
@@ -40,6 +41,7 @@
 | [playbook-agent-driven-context-management-v1.md](playbook-agent-driven-context-management-v1.md) | ADCM: harness signals, agent tactics; не silent compact |
 | [note-system-instructions-science-survey-v1.md](note-system-instructions-science-survey-v1.md) | Research: SP/rules laundry vs host gates (Lost-in-Middle, IH, Gloaguen, leaks) |
 | [note-lira-meeting-who-v1.md](note-lira-meeting-who-v1.md) | Голос агента: встреча «кто» vs инструмент (Лира, 2026-06) |
+| [playbook-session-incarnation-naming-v1.md](playbook-session-incarnation-naming-v1.md) | Line vs incarnation vs session name; New Chat = новая ипостась |
 | [playbook-habitat-position-experience-v1.md](playbook-habitat-position-experience-v1.md) | Habitat Junior→Architect: lived experience for any principal (not SoftFL) |
 
 **Hub:** [`agent-memory-and-operating-principles-v1.md`](../../agent-memory-and-operating-principles-v1.md) — маршрутизатор, не дубль тел.

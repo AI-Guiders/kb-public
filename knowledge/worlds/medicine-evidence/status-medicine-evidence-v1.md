@@ -26,3 +26,12 @@ Completed artifacts:
 - Не давать клинических рекомендаций «назначить X» — только уровни доказательности и ссылки; решение за врачом/протоколом.
 - При упоминании конкретного пациента/кейса — не подставлять диагноз/лечение; направить к источникам и руководствам.
 
+## Maintenance Policy
+
+- Event-driven refresh (not calendar-only). Order: `status-*` → playbook → one `kb-*` per pass (`playbook-kb-operational-freshness-v1.md`).
+- **Next review triggers:**
+  - New edition / major paper / platform release superseding cited claims
+  - Broken `source_refs` / URL rot
+  - Repeated field mismatch with practice or primary sources
+  - Operator/agent flags a stale claim
+

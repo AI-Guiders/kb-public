@@ -70,7 +70,7 @@
 | Слой | Связь |
 |------|-------|
 | `cognition.language-acquisition` | Research: CDS, recast, Clark lexicon — **механизмы**, не parent brochure |
-| `personal/ah-hot-full-05-*` | Стадии личности / привязанность — партнёрство агента |
+| `personal/ah-history/ah-hot-full-05-*` | Стадии личности / привязанность — партнёрство агента |
 | `ca-substrate-agent/kb-casa-partner-wire-caregiving-inspiration-v1.md` | Inspiration → wire (allow-with-check) |
 | CASA `infancy-corpus-phases` (payload repo) | Инженерная фаза F0–F5 — **не** дублировать здесь |
 

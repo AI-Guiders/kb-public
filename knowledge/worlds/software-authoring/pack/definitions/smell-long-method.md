@@ -11,6 +11,6 @@
 - inference_hooks: mutation-blast-bound, applicability-then-infer
 - llm_cue: Can I Extract Method with a name that states purpose — or am I chopping noise?
 - related: smell-feature-envy, kiss, dry
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/smells/long-method
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/smells/long-method
 - formal.roslyn_hint: prefer roslyn Extract Method / introduce local over hand-edit sprawl
 

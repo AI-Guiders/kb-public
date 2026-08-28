@@ -10,7 +10,7 @@ sources = [
   "worlds/software-authoring/kb-ooad-fundamentals-v1.md",
   "worlds/software-authoring/code-writing-principles-v1.md",
   "worlds/software-authoring/playbook-ooad-agent-operational-v1.md",
-  "personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md",
+  "personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md",
   "worlds/_llm-native-packs/note-pack-layers-v0.md",
   "worlds/_llm-native-packs/MIGRATION-MAP.md",
 ]

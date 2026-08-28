@@ -1,5 +1,9 @@
 **Tags:** #llm-native-card #definition #methodology
 
+**Speech situation (primary):** `audience=agent_internal` · `goal=epistemic_gate` · `genre=definition_card` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
+**Speech situation (when citing to human):** `audience=colleague` · `goal=epistemic_gate` · `genre=definition_card` · `channel=cockpit_dialog` · `stakes=medium` · `distance=professional`  
+**Speech situation (forbidden_moves):** `define_by_negation`, `faq_softening`
+
 # Claim / observation / inference split
 
 - id: claim-observation-split

@@ -18,3 +18,5 @@
 
 **Цель:** учитывать неявное высказывание, не только буквальные совпадения.
 
+**Also:** сжатая речь в чате (A/B/C, Alice/Bob как плейсхолдеры сторон) — [`playbook-compressed-speech-decompress-v1.md`](playbook-compressed-speech-decompress-v1.md).
+

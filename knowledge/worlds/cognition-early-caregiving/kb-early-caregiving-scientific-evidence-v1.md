@@ -31,7 +31,7 @@
 |------|-------|
 | Academic L1 | [`../cognition-language-acquisition/README.md`](../cognition-language-acquisition/README.md) |
 | CASA inspiration bridge | [`../../work/projects/door-to-singularity/ca-substrate-agent/kb-casa-partner-wire-caregiving-inspiration-v1.md`](../../work/projects/door-to-singularity/ca-substrate-agent/kb-casa-partner-wire-caregiving-inspiration-v1.md) |
-| Personality stages | [`../../personal/ah-hot-full-05-2026-02-10-personality-development-stages-map.md`](../../personal/ah-hot-full-05-2026-02-10-personality-development-stages-map.md) |
+| Personality stages | [`../../personal/ah-history/ah-hot-full-05-2026-02-10-personality-development-stages-map.md`](../../personal/ah-history/ah-hot-full-05-2026-02-10-personality-development-stages-map.md) |
 
 *Версия: v1.0 · 2026-06-11*
 

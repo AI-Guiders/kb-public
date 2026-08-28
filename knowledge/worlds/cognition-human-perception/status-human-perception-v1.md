@@ -30,3 +30,12 @@ Artifacts:
 
 *Версия: v1.4 · 2026-04-20 — семантические имена `kb-human-perception-*-evidence-v1`*
 
+## Maintenance Policy
+
+- Event-driven refresh (not calendar-only). Order: `status-*` → playbook → one `kb-*` per pass (`playbook-kb-operational-freshness-v1.md`).
+- **Next review triggers:**
+  - New edition / major paper / platform release superseding cited claims
+  - Broken `source_refs` / URL rot
+  - Repeated field mismatch with practice or primary sources
+  - Operator/agent flags a stale claim
+

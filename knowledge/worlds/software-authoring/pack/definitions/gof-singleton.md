@@ -11,5 +11,5 @@
 - inference_hooks: solid-srp, solid-dip, mc-pattern-first, applicability-then-infer
 - llm_cue: Do I need uniqueness — or just global convenience?
 - related: what-is-design-pattern, mc-pattern-first, solid-dip, httpclient-reuse
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/singleton
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/singleton
 

@@ -11,5 +11,5 @@
 - inference_hooks: solid-ocp, solid-srp, mc-pattern-first, gof-strategy
 - llm_cue: Is creation the varying axis — or am I just avoiding `new` aesthetics?
 - related: what-is-design-pattern, gof-strategy, solid-ocp, mc-pattern-first
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/factory-method
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/factory-method
 

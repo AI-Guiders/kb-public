@@ -411,7 +411,7 @@ Author mirrors:
 
 - `cdp-mcp/articles/same-kind-different-carrier.en.md` (this file)
 - Russian twin: `cdp-mcp/articles/same-kind-different-carrier.md`
-- agent-notes `knowledge/META/article-same-kind-different-carrier.md` · `article-same-kind-different-carrier.en.md`
+- agent-notes `knowledge/META/articles/article-same-kind-different-carrier.md` · `article-same-kind-different-carrier.en.md`
 - series map: `cdp-mcp/articles/SERIES.md`
 
 Not required for journal readers.

@@ -50,6 +50,18 @@
 
 ---
 
+## Integrity: release manifest (HIS)
+
+На границе релиза каждый контур публикует **`habitat-release-manifest.v1.json`** (SHA-256 по файлам + `tree_sha256`). См. CDP-ADR-0206 §3a · [`CDP-ADR-0206-habitat-integrity-subsystem.md`](CDP-ADR-0206-habitat-integrity-subsystem.md).
+
+| Контур | `contour` | Когда |
+|--------|-----------|-------|
+| **1 Канон** | `kb_private` | tag / export (опционально; seat registry — для drift в сессии) |
+| **2a Group** | `kb_group` | каждый push org KB |
+| **2b Public** | `kb_public` | каждый push kb-public |
+
+---
+
 ## Scope contour map (personal scope → group KB)
 
 **Норма для kb-public (механика + шаблон):** [`templates/work/template-scope-contour-map-v1.md`](../../templates/work/template-scope-contour-map-v1.md) — таблица, правила, чеклист maintainer; **без** имён конкретной org.

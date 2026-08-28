@@ -129,6 +129,16 @@
 - **При запросах про дисциплинированный режим, «что делаю + зачем», совместную ясность без победы в споре или про активатор для текстового агента:** загружать `secret-mode-prefix-ru.md` (корень репо agent-notes). Расширенный префикс — 6 посылок после «Secret Mode activated»; применим к любому текстовому агенту. Связь с multiworld: тег `secret-mode` в kb-knowledge-engineering-multiworld-rules-v1.md.
 <!-- /section:router-secret-mode -->
 
+<!-- section:router-rhetoric-pragmatics -->
+
+
+
+
+## Rhetoric & pragmatics (speech situations, register, genre)
+
+- **При запросах о речевой ситуации, уместности тона/жанра, регистре, «как писать для аудитории X», смешении disclaimer/спор/самоотчёт, define-by-negation, speech genres:** загружать `knowledge/worlds/rhetoric-pragmatics/playbook-rhetoric-pragmatics-v1.md` → `knowledge/worlds/rhetoric-pragmatics/kb-rhetoric-pragmatics-fundamentals-v1.md`. Evidence по первоисточникам: `kb-rhetoric-pragmatics-scientific-evidence-v1.md` (индекс); Bitzer 1968 — `kb-bitzer-rhetorical-situation-1968-evidence-v1.md`; Bakhtin speech genres — `kb-bakhtin-speech-genres-1986-evidence-v1.md`. Fundamental pass queue — `map-rhetoric-pragmatics-fundamental-pass-v1.md`. Operational теги на playbooks — `domains/agent-operations/map-speech-situation-tagged-cards-v0.md`; XL — `work/projects/door-to-singularity/explainable-learning/note-speech-situations-rubric-axis-v0.md`. KB reorg slice — `worlds/knowledge-engineering/note-kb-reorganization-rhetoric-layer-v1.md`. Order: status → playbook → fundamentals → one evidence card.
+<!-- /section:router-rhetoric-pragmatics -->
+
 <!-- section:router-clarification -->
 
 

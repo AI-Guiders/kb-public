@@ -12,5 +12,5 @@
 - inference_hooks: solid-after-grasp, noun-verb-analysis, mc-pattern-first, applicability-then-infer
 - llm_cue: Is there a named recurring pain — or am I decorating the design?
 - related: pattern-vs-algorithm, mc-pattern-first, solid-after-grasp, ooa, ood
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/what-is-pattern, worlds/software-authoring/kb-ooad-fundamentals-v1.md
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/what-is-pattern, worlds/software-authoring/kb-ooad-fundamentals-v1.md
 

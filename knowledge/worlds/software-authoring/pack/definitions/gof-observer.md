@@ -11,5 +11,5 @@
 - inference_hooks: solid-ocp, mc-pattern-first, gof-singleton
 - llm_cue: One-way notify to many — or components need structured dialogue (→ Mediator)?
 - related: what-is-design-pattern, gof-strategy, gof-singleton, solid-ocp
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/observer
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/observer
 

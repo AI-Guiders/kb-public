@@ -7,7 +7,7 @@
 **Авторы:** С. Каратаева; при участии программного агента-соавтора  
 **Аффилиация:** независимые авторы; без клинической / вузовской аффилиации  
 **Статус:** развёрнутый черновик · ещё не preprint-submit  
-**Серия:** [SERIES.md](SERIES.md) #2 · опирается на [same-kind-different-carrier.md](same-kind-different-carrier.md)  
+**Серия:** [article-series-predictive-minds.md](article-series-predictive-minds.md) #2 · опирается на [same-kind-different-carrier.md](article-same-kind-different-carrier.md)  
 **Язык:** русский (EN twin — следующая итерация)
 
 ---

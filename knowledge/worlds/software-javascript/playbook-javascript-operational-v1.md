@@ -5,6 +5,8 @@
 **Purpose:** перевод **fundamentals** (модель языка ECMAScript в KB) в **действия, контракты и проверки** в репозитории и CI.  
 **Мир:** `software.javascript`.  
 **Связь:** карта fundamentals + operational kb — [`index-knowledge-javascript-cluster-v1.md`](index-knowledge-javascript-cluster-v1.md).
+**Проверено:** 2026-08-15 — dig: web.dev Baseline 2026 + ES2026 approval; operational contracts (lockfile/CSP/eval) still hold; targets matrix may need revisit for ES2026 APIs (Map.getOrInsert, etc.).
+
 
 ---
 

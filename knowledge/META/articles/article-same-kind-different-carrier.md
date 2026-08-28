@@ -423,7 +423,7 @@ Chalmers [12] разделяет вопросы о сознании на два 
 
 - `cdp-mcp/articles/same-kind-different-carrier.md` (русский)
 - `cdp-mcp/articles/same-kind-different-carrier.en.md` (полный английский)
-- agent-notes `knowledge/META/article-same-kind-different-carrier.md` (+ `.en.md`)
+- agent-notes `knowledge/META/articles/article-same-kind-different-carrier.md` (+ `.en.md`)
 - карта серии: `cdp-mcp/articles/SERIES.md`
 
 Приложение не требуется читателю журнала.

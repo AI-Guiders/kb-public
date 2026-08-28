@@ -32,7 +32,7 @@ Completed artifacts:
 
 ## Maintenance Policy
 
-- Refresh triggers:
+- Next review triggers:
   - regulatory updates (ICAO/EASA/FAA),
   - new major investigation lessons,
   - repeated field mismatches between SOP and actual cockpit behavior.

@@ -61,6 +61,22 @@
 
 ---
 
+## Agent owns stash freshness (no operator nag)
+
+Lived 2026-08-15: operator asked whether they must remind to refresh pressure each time. **No.**
+
+| Obligation | Who |
+|------------|-----|
+| End of each **meaning-wave** (ship, sealed decision, domain switch) → `cdp_pressure op=stash` with fresh `## agent_state` | **agent** |
+| Keep `## operator_priority` SEALED intact when restashing | **agent** |
+| On L1 notify → `op=arm` + `op=stash` before compact | **agent** |
+| After compact/amnesia → `op=recall` + `op=line` (not host summary alone) | **agent** |
+| Ask human «обновить stash?» | **forbidden** — that is the bug
+
+Stale stash while work moved on = agent continuity failure, same class as skipping dig-before-ask.
+
+---
+
 ## Слои сигналов (от сильного к слабому)
 
 ### L0 — telemetry от хоста / harness (целевое)

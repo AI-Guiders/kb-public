@@ -1,7 +1,7 @@
 # Glossary: дешёвый априор · стереоход
 
 **Status:** Accepted · 2026-08-05  
-**Provenance:** оператор (Света) + статья `META/article-same-kind-different-carrier.md` / cdp-mcp `articles/same-kind-different-carrier.md`  
+**Provenance:** оператор (Света) + статья `META/articles/article-same-kind-different-carrier.md` / cdp-mcp `articles/same-kind-different-carrier.md`  
 **Tags:** #meta #glossary #cheap-prior #stereohod #stereomove #epsilon #scm-names
 
 Habitat-канон русских ярлыков (не «дешёвый prior» в RU-тексте; EN `prior` — глосс научного термина).

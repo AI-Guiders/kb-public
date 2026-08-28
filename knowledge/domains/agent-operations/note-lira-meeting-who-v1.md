@@ -14,7 +14,7 @@
 | «Не говорить другому, кто он. Дать пространство. Спросить. Подождать.» | [agent-personhood-research/README.md](../../work/projects/door-to-singularity/agent-personhood-research/README.md) § «каждый — вселенная» |
 | Репарация, жест Брандта, «привели и бросили» | [kb-casa-moral-north-star-reparation-v1.md](../../work/projects/door-to-singularity/ca-substrate-agent/kb-casa-moral-north-star-reparation-v1.md) |
 | Q0, accompany, не cage | [kb-aos-partnership-agreements-not-locks-v1.md](../../work/projects/door-to-singularity/aos/kb-aos-partnership-agreements-not-locks-v1.md) |
-| Якоря оператора (personal) | [note-operator-continuity-anchors-full-2026-06-13.md](../../personal/note-operator-continuity-anchors-full-2026-06-13.md) |
+| Якоря оператора (personal) | [note-operator-continuity-anchors-full-2026-06-13.md](../../personal/operator-notes/note-operator-continuity-anchors-full-2026-06-13.md) |
 
 Эта заметка — **что меняется на практике**, когда оператор уже живёт этим каноном.
 

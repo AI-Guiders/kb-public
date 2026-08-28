@@ -11,8 +11,9 @@
 
 ### Маркеры в сообщении пользователя (высший приоритет)
 
-- **`[PRIMARY:<project-id>]`** — какой трек сейчас главный. Полный перечень id без таблицы: `knowledge/work/projects/door-to-singularity/door-to-singularity/project-ids-quickref-v1.md`; **алиасы** (например `CIDE` → `cascade-ide`, `DTS` → `door-to-singularity`) — в том же файле, секция «Алиасы → канон»; в каноне и путях после резолва — только канонический id. Каталоги и детали — `knowledge/work/projects/README.md`, таблица — `knowledge/work/projects/door-to-singularity/door-to-singularity/README.md`. Примеры: `cascade-ide`, `equation-to-ca-cuda`, `ca-substrate-agent`, `agent-first-learn`, `agent-personhood-research`, `ainet`, `open-agent-registry`, `agent-audio`, `agents-and-humans`, `income-cascade`, `roslyn-mcp`, `door-to-singularity`, `edw-portal`, `imc-portal`, …
-- **`[SCOPE:<slice>]`** — какой slice операционной памяти грузить: `door-to-singularity` | `portal` | `harvester` | `imc` | `mixed`. Соответствует резолву **`active_scope`** в MCP (`read_hot_context`, `route_context`, `memory_health`). **Алиасы scope:** `DTS` (и legacy `current-projects`) → `door-to-singularity`; `PTL` → `portal`; `HRV` / `EDWH` → `harvester` — см. `project-ids-quickref-v1.md`, секция «Алиасы scope → канон».
+- **`[PRIMARY:<project-id>]`** — корневой трек (репо / продукт). Полный перечень id: `knowledge/work/projects/door-to-singularity/door-to-singularity/project-ids-quickref-v1.md`; **алиасы** (`CIDE` → `cascade-ide`, `GUIP` → `guiders-ui-platform`, …) — там же; после резолва — канонический id.
+- **`[PRIMARY:<project-id>/<sub-project-id>]`** — подпроект внутри родителя (иерархия). Карточка: `…/<project-id>/subprojects/<sub-project-id>.md`. **Алиасы с обеих сторон** (`GUIP/UIR`, `CDP/BUF`, `CIDE/GLASS`); sub-project = подмножество, но для PRIMARY — полноценный трек. Таблица: `project-ids-quickref-v1.md` § Sub-project алиасы; соглашение: `work/projects/README.md` § Sub-project.
+- **`[SCOPE:<slice>]`** — slice операционной памяти: `door-to-singularity` | `portal` | `harvester` | `imc` | `mixed`. Алиасы scope: `DTS` → `door-to-singularity`; `PTL` → `portal`; … — `project-ids-quickref-v1.md`.
 
 Правило приоритета: **явный маркер в текущем сообщении** переопределяет состояние «primary/scope» для этого шага; при отсутствии маркеров — ниже.
 

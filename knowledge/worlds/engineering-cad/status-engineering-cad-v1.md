@@ -46,3 +46,5 @@
 - **Проверено:** 2026-06-04 — каркас мира по шаблону `templates/worlds/`.
 - **Next review:** смена основных версий платформ в команде; появление нового САПР в линейке плагинов.
 - **Источники:** обобщение практики .NET CAD-плагинов; официальные docs Autodesk, Nanosoft, AVEVA, Tekla Trimble (вне kb).
+- **Next review triggers:** new primary source / platform release / URL rot / repeated field mismatch / stale-claim flag
+

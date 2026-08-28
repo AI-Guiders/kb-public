@@ -11,5 +11,5 @@
 - inference_hooks: solid-ocp, composition-over-inheritance, mc-pattern-first, gof-observer
 - llm_cue: Am I swapping algorithms — or modeling object state transitions (→ State)?
 - related: what-is-design-pattern, composition-over-inheritance, solid-ocp, gof-factory-method
-- sources: personal/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/strategy
+- sources: personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/strategy
 

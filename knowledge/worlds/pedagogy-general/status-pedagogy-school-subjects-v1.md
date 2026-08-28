@@ -54,3 +54,7 @@
 
 *Версия: v1.2 · 2026-06-06*
 
+## Next review triggers
+
+- **Next review triggers:** new primary source / platform release / URL rot / repeated field mismatch / stale-claim flag
+

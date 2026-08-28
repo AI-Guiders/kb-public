@@ -17,7 +17,7 @@
 | `cognition.early-caregiving` | `cognition.language-acquisition` | **allow-with-check** | Practice ↔ research; не дублировать Snow как CDC |
 | `cognition.early-caregiving` | `pedagogy.general` (school) | **deny** | Дошкольный уход ≠ урок русского |
 | `cognition.early-caregiving` | pytest / oracle_audit | **deny** | Milestones ≠ utterance truth |
-| `cognition.early-caregiving` | `personal/ah-hot-full-05` | **allow-with-check** | Привязанность / партнёрство — нарративный слой |
+| `cognition.early-caregiving` | `personal/ah-history/ah-hot-full-05` | **allow-with-check** | Привязанность / партнёрство — нарративный слой |
 
 ## Red flags
 

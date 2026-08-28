@@ -7,6 +7,8 @@
 **Среда-независимость:** текст в `knowledge/`; чтение через MCP `read_knowledge_file` или локальный клон.
 
 **Связь:**
+- **CDP desk (MLP):** `cdp_freshness` / `go=freshness` — harness Digest for URL watchlist (map: `work/projects/door-to-singularity/cascade-ide/note-cdp-kb-freshness-mlp.md`). Digest ≠ `Проверено:`. Ops include `nrt` / `clear` / `arm` / `tick` (0.5.717+).
+
 - `templates/template-knowledge-card-v1.md` (Provenance, Core Unit, Operationalization, Lifecycle)
 - `META/provenance-contract-v1.md`
 - Layer contract (пример): `worlds/evidence-humanities-shelf/kb-covey-7-habits-evidence-v1.md` § Layer contract

@@ -17,6 +17,14 @@
 - tags:
 - status: (`active` | `deprecated` | `draft`)
 
+## Speech Situation (опционально)
+
+Для operational карточек с явным жанром/адресатом — см. [`template-speech-situation-metadata-v1.md`](template-speech-situation-metadata-v1.md).
+
+- speech_situation_primary: (audience · goal · genre · channel · stakes · distance)
+- speech_situation_when_citing_to_human: (если агент переносит в другой канал)
+- speech_situation_forbidden_moves: (опционально)
+
 ## Epistemic Linkage
 - epistemic_basis: (`fact` | `inference` | `hypothesis`)
 - evidence_type:
