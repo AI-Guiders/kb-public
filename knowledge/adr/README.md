@@ -51,3 +51,5 @@
 - `017-knowledge-roots-registry-prefix-v1.md` (Accepted: префиксы в `knowledge-roots-index`; Core 2.1.2 — AgentNotes.Core ADR 016)
 - `018-ai-guiders-licensing-hub-and-software-grant-v1.md` (Superseded → канон: [AI-Guiders/licensing ADR 001](https://github.com/AI-Guiders/licensing/blob/main/docs/decisions/001-software-grant-mit-and-ethical-layer.md))
 - `019-writing-canon-layers-and-guiders-style-v1.md` (Mirror → normative [CDP-ADR-0207](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/adr/CDP-ADR-0207-writing-canon-layers.md); Vision: GUIDERS-VISION-0002)
+- `020-kb-language-contours-v1.md` (Accepted: EN open perimeter, RU personal/work interior; no dual-maintenance i18n)
+- `021-federated-app-catalog-v1.md` (Accepted draft: federated trust, unified desktop install journey; FAC / GPLAT/APPCAT)
