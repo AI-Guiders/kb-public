@@ -6,6 +6,7 @@
 - source_refs: 六祖壇經/行由品第一, zh.wikisource.org — https://zh.wikisource.org/wiki/六祖壇經/行由品
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: глава прочитана целиком; переводы мои; история про ветер и флаг — в этой главе, при приходе Хуйнэна в 法性寺
 
 ## Metadata

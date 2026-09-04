@@ -6,6 +6,7 @@
 - source_refs: 老子 (帛書校勘版), zh.wikisource.org — https://zh.wikisource.org/wiki/老子_(帛書校勘版)
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: мавандуйский шёлк (сверенная цифровая редакция): 德篇 перед 道篇, порядок глав обратный; номера ниже — канонические (в скобках — по 帛書)
 
 ## Metadata

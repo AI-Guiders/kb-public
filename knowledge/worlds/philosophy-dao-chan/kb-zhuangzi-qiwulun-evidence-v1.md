@@ -6,6 +6,7 @@
 - source_refs: 莊子·齊物論, zh.wikisource.org — https://zh.wikisource.org/wiki/莊子/齊物論
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: китайский оригинал (внутренние главы, традиционные иероглифы); переводы здесь — мои
 
 ## Metadata

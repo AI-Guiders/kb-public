@@ -6,6 +6,7 @@
 - source_refs: 道德經 (王弼本), zh.wikisource.org — https://zh.wikisource.org/wiki/道德經_(王弼本)
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: китайский оригинал (традиционные иероглифы), редакция Ван Би с его комментарием; переводы здесь — мои
 
 ## Metadata

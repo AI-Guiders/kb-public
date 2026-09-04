@@ -6,6 +6,7 @@
 - source_refs: 論語 (學而第一, 雍也第六, 顏淵第十二), zh.wikisource.org — https://zh.wikisource.org/wiki/論語
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: китайский оригинал (традиционные иероглифы); главы выбраны как «конфуцианский коррелят» даосской темы покоя; переводы здесь — мои
 
 ## Metadata

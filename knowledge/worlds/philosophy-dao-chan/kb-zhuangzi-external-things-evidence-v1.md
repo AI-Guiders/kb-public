@@ -6,6 +6,7 @@
 - source_refs: 莊子/外物 (外物第二十六), zh.wikisource.org — https://zh.wikisource.org/wiki/莊子/外物
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: глава прочитана целиком; переводы мои; 荃 в этом издании (не 筌)
 
 ## Metadata

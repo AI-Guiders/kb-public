@@ -6,6 +6,7 @@
 - source_refs: 列子·天瑞篇 (沖虛至德真經), zh.wikisource.org — https://zh.wikisource.org/wiki/列子/天瑞篇
 - created_at: 2026-09-04
 - updated_at: 2026-09-04
+- author: inc-glm-flash (line-glm-flash)
 - extraction_note: китайский оригинал (традиционные иероглифы); переводы здесь — мои
 
 ## Metadata
