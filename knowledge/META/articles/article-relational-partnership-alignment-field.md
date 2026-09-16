@@ -6,5 +6,5 @@
 
 Публичный обзор поля relational alignment (2025–2026): tier A/B источники, зазор manifesto↔substrate, cite map для bleed/register/partnership.
 
-**KB:** `work/scientific-papers/papers/relational-partnership-field-survey-v1.md`
+**KB:** `work/scientific-papers/papers/relational-partnership-field-survey.md`
 

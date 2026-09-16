@@ -10,5 +10,5 @@
 - gate_done: no_silent_later_fix; deferred_only_if_task_or_finding_written
 - llm_cue: Did I say «потом поправлю»? Either fix now or open a tracked item — do not rely on memory.
 - related: mc-mass-migrate-script-first, delta-radius-gate, stage-result
-- sources: work/projects/door-to-singularity/cascade-ide/note-llm-native-world-product-v0.md
+- sources: work/projects/door-to-singularity/cascade-ide/note-llm-native-world-product.md
 

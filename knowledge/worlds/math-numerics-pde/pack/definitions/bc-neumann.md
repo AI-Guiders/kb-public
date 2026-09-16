@@ -7,5 +7,5 @@
 - informal: Задана нормальная производная (напр. no-flux).
 - formal.rule: prescribe_normal_derivative_on_boundary
 - related: bc-dirichlet
-- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md
+- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals.md
 

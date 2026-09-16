@@ -8,5 +8,5 @@
 - formal.fields: status, closed, unknown, blocked, h_delta
 - llm_cue: Can I name stage result without rewriting the whole chat?
 - related: debug-radius, verification-contract
-- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md
+- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc.md
 

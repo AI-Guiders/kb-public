@@ -12,5 +12,5 @@
 - gate_done: blast set known and accepted (no silent unsafe)
 - llm_cue: Is blast radius known before write? If not — do not promote the mutation.
 - related: debug-radius, verification-contract, stage-result, delta-radius-gate
-- sources: work/projects/door-to-singularity/cascade-ide/kb-cide-sdm-decision-making-research-v1.md, worlds/_llm-native-packs/note-pack-layers-v0.md
+- sources: work/projects/door-to-singularity/cascade-ide/kb-cide-sdm-decision-making-research.md, worlds/_llm-native-packs/note-pack-layers.md
 

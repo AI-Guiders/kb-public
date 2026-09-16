@@ -9,7 +9,7 @@ route = "procedures.toml"
 sources = [
   "worlds/epistemic-scene/pack/pack.toml",
   "worlds/epistemic-methodology/pack/pack.toml",
-  "work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md",
+  "work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc.md",
   "worlds/_llm-native-packs/INVENTORY-L0-TO-PACKS.md",
 ]
 

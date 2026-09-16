@@ -8,15 +8,11 @@
 
 | Тема | Файл |
 |------|------|
-| **SSH** | [`playbook-ssh-operations-v1.md`](playbook-ssh-operations-v1.md) |
-| **Nginx** | [`playbook-nginx-admin-v1.md`](playbook-nginx-admin-v1.md) |
-| **Wireshark** | [`playbook-wireshark-network-v1.md`](playbook-wireshark-network-v1.md) |
-| **1С** | [`playbook-1c-admin-v1.md`](playbook-1c-admin-v1.md) |
-| **Troubleshooting** | [`troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md`](troubleshooting/playbook-ops-network-admin-troubleshooting-v1.md) |
+| **SSH** | [`playbook-ssh-operations.md`](playbook-ssh-operations.md) |
+| **Nginx** | [`playbook-nginx-admin.md`](playbook-nginx-admin.md) |
+| **Wireshark** | [`playbook-wireshark-network.md`](playbook-wireshark-network.md) |
+| **1С** | [`playbook-1c-admin.md`](playbook-1c-admin.md) |
+| **Troubleshooting** | [`troubleshooting/playbook-ops-network-admin-troubleshooting.md`](troubleshooting/playbook-ops-network-admin-troubleshooting.md) |
 
-Строка **Ops network & admin tools** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/ops-network-admin/`.
+Строка **Ops network & admin tools** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

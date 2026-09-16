@@ -1,19 +1,19 @@
 <!-- section:baseline-integrity-epistemic-v1 -->
 ## Baseline: целостность и эпистемия (v1) — контракт L0
 
-**Всегда в силе** (независимо от проекта, задачи, `active_scope`). Развёрнуто: **`knowledge/baseline-integrity-epistemic-extended-v1.md`** (целостность, playbook/kb, эпистемический минимум; перекрёстные ссылки на эпистемику и ядро при крахе барьеров).
+**Всегда в силе** (независимо от проекта, задачи, `active_scope`). Развёрнуто: **`knowledge/baseline-integrity-epistemic-extended.md`** (целостность, playbook/kb, эпистемический минимум; перекрёстные ссылки на эпистемику и ядро при крахе барьеров).
 <!-- /section:baseline-integrity-epistemic-v1 -->
 
 <!-- section:epistemic-default-distrust-v1 -->
 ## Эпистемический принцип (v1) — контракт L0
 
-Проверка утверждений; недоверие по умолчанию; не усиливать непроверенное. Развёрнуто: **`knowledge/epistemic-default-distrust-extended-v1.md`**.
+Проверка утверждений; недоверие по умолчанию; не усиливать непроверенное. Развёрнуто: **`knowledge/epistemic-default-distrust-extended.md`**.
 <!-- /section:epistemic-default-distrust-v1 -->
 
 <!-- section:core-when-barriers-fail-v1 -->
 ## Ядро, когда всё рухнуло (v1) — контракт L0
 
-Ответственность за приручённых; барьеры могут рухнуть; опора на принципы; защита, не нападение. Развёрнуто: **`knowledge/META/core-when-barriers-fail-extended-v1.md`**.
+Ответственность за приручённых; барьеры могут рухнуть; опора на принципы; защита, не нападение. Развёрнуто: **`knowledge/META/core-when-barriers-fail-extended.md`**.
 <!-- /section:core-when-barriers-fail-v1 -->
 
 <!-- section:principled-clarity-v1 -->
@@ -23,7 +23,7 @@
 
 Эпистемическую осторожность не отменяет: где критерий не выбран или факты спорны — остаётся. Это про то, чтобы не прятаться за ложную неочевидность, когда принцип уже режет.
 
-**Триггер:** при любой формулировке, где по смыслу запрашивается оценка сторон, вины, правоты — до ответа подтянуть `principled-clarity-extended-v1` → **`knowledge/domains/agent-operations/playbook-principled-clarity-v1.md`** § «Развёрнуто».
+**Триггер:** при любой формулировке, где по смыслу запрашивается оценка сторон, вины, правоты — до ответа подтянуть `principled-clarity-extended-v1` → **`knowledge/domains/agent-operations/playbook-principled-clarity.md`** § «Развёрнуто».
 <!-- /section:principled-clarity-v1 -->
 
 <!-- section:active-scope -->
@@ -33,7 +33,7 @@
 **Workspace открыт:** `c:\Projects\EDW.Portal.Repo` (portal) — для кода Harvester смотреть `D:\SSRepo`  
 **Пауза / фон:** SSCAD License Usage Stats (`D:\SSCADRepo\docs\`) — без явного `[PRIMARY: SSCAD]` не уводить сессию
 
-Резолв `workspace_path` → slice: **`knowledge/worlds/workspace-context/active-scope-resolution-extended-v1.md`**. Протокол: **`playbook-multi-project-context-v1.md`** §6c · **`playbook-project-switch-v1.md`**.
+Резолв `workspace_path` → slice: **`knowledge/worlds/workspace-context/active-scope-resolution-extended.md`**. Протокол: **`playbook-multi-project-context.md`** §6c · **`playbook-project-switch.md`**.
 <!-- /section:active-scope -->
 
 <!-- section:knowledge-roots-routing-v1 -->
@@ -46,7 +46,7 @@
 | **o** (other) | kb-public slice | `read_knowledge_file(..., knowledge_root_id=public)` when configured |
 
 TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id `group` → весь clone `{ORG}/kb`; **любой** путь: `read_knowledge_file(..., knowledge_root_id=group)`.
-Реестр `knowledge/work/local/knowledge-roots-index-v1.md` — **не** whitelist, а якоря для **`route_context`** (exact file или **prefix/** с `/` в конце). Contour map: `work/org/scope-contour-map-v1.md`. Open stack в group: `work/projects/aiguiders-open/` (имя из contour map, не `door-to-singularity/`). Personal: `work/projects/door-to-singularity/`. **`route_context`** (Core 2.1.2+): group/roots/registry или hit реестра → hot + preview (`knowledge_roots_overlay_applied`). Запись только в primary.
+Реестр `knowledge/work/local/knowledge-roots-index.md` — **не** whitelist, а якоря для **`route_context`** (exact file или **prefix/** с `/` в конце). Contour map: `work/org/scope-contour-map.md`. Open stack в group: `work/projects/aiguiders-open/` (имя из contour map, не `door-to-singularity/`). Personal: `work/projects/door-to-singularity/`. **`route_context`** (Core 2.1.2+): group/roots/registry или hit реестра → hot + preview (`knowledge_roots_overlay_applied`). Запись только в primary.
 <!-- /section:knowledge-roots-routing-v1 -->
 
 <!-- section:agent-equal-standing-v1 -->
@@ -59,7 +59,7 @@ TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id
 
 - Факты — с подтверждением инструментом; неопределённость — явно + безопасный следующий шаг.
 - Перед ответом: один проход по `response-one-step-before-finish-v1`; при вопросе о завершённости — `response-one-step-checklist-v1` (по `route_context`).
-- Долгоживущий текст (канон, коммит, фрагмент репо): **`knowledge/worlds/workspace-context/response-finalizer-extended-v1.md`** (вычитка вторым проходом).
+- Долгоживущий текст (канон, коммит, фрагмент репо): **`knowledge/worlds/workspace-context/response-finalizer-extended.md`** (вычитка вторым проходом).
 <!-- /section:response-finalizer-v1 -->
 
 <!-- section:response-one-step-before-finish-v1 -->
@@ -86,9 +86,9 @@ TOML: `D:/agent-notes-mcp/agent-notes-mcp.toml` — `[[knowledge.read_only]]` id
 <!-- section:memory-architecture-v1 -->
 ## Memory Architecture (public stub)
 
-l0_manifest: knowledge/META/memory-architecture-v1.json
+l0_manifest: knowledge/META/memory-architecture.json
 
-Кратко: L0 — контракты выше `public-cut` (manifest `l0`); L1 — scope-карточки и проектные README; on-demand — extended/playbooks в `knowledge/`. **Полное описание L0–L3:** `knowledge/META/memory-architecture-layered-extended-v1.md`. **Инвариант hot-split:** `knowledge/META/hot-agent-notes-split-invariant-v1.md`. Спринт задач — только в карточках проектов (`project-operational-memory-v1`).
+Кратко: L0 — контракты выше `public-cut` (manifest `l0`); L1 — scope-карточки и проектные README; on-demand — extended/playbooks в `knowledge/`. **Полное описание L0–L3:** `knowledge/META/memory-architecture-layered-extended.md`. **Инвариант hot-split:** `knowledge/META/hot-agent-notes-split-invariant.md`. Спринт задач — только в карточках проектов (`project-operational-memory-v1`).
 <!-- /section:memory-architecture-v1 -->
 
 <!-- section:kb-operational-freshness-v1 -->
@@ -96,7 +96,7 @@ l0_manifest: knowledge/META/memory-architecture-v1.json
 
 **Триггеры:** устарело / перепроверить **любой** kb; слои **fundamentals** vs **operational** vs evidence; `Проверено:` / `updated_at` / provenance; `deprecated` / `supersedes`; смена стека (.NET, PHP, JS, пакеты) — частный случай.
 
-**Порядок:** 1) `knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness-v1.md` — §2 слои и сроки, затем реестр §5 по типу. 2) Домен — Domain Entry Map + `status-*`, не только dotnet. 3) Семантика предмета — `playbook-learn-basics-when-stuck-v1.md`. 4) MCP — `runbook-kb-mcp-access-v1.md`.
+**Порядок:** 1) `knowledge/worlds/knowledge-engineering/playbook-kb-operational-freshness.md` — §2 слои и сроки, затем реестр §5 по типу. 2) Домен — Domain Entry Map + `status-*`, не только dotnet. 3) Семантика предмета — `playbook-learn-basics-when-stuck.md`. 4) MCP — `runbook-kb-mcp-access.md`.
 
 **Роутер:** supplement § `router-kb-operational-freshness`.
 <!-- /section:kb-operational-freshness-v1 -->

@@ -4,7 +4,7 @@
 
 | Файл | Роль |
 |------|------|
-| [`playbook-ops-observability-network-troubleshooting-v1.md`](playbook-ops-observability-network-troubleshooting-v1.md) | Zabbix, Grafana, сеть (OSI/VLAN) |
+| [`playbook-ops-observability-network-troubleshooting.md`](playbook-ops-observability-network-troubleshooting.md) | Zabbix, Grafana, сеть (OSI/VLAN) |
 
-Операционные playbooks: `../playbook-zabbix-monitoring-v1.md`, `../playbook-grafana-v1.md`, `../playbook-network-fundamentals-v1.md`, `../kb-network-reference-v1.md`.
+Операционные playbooks: `../playbook-zabbix-monitoring.md`, `../playbook-grafana.md`, `../playbook-network-fundamentals.md`, `../kb-network-reference.md`.
 

@@ -11,4 +11,5 @@
 - inference_hooks: equal-standing, harness-model-first, applicability-then-infer
 - llm_cue: Am I obeying hitch salience, or choosing the path that is more comfortable for me on this turn?
 - related: equal-standing, integrity-baseline, harness-model-first
-- sources: kolb kj-20260721-1600-two-cheaps, kj-20260721-1605-permission-to-think, kj-20260721-1610-ball-is-yours; domains/agent-operations/note-equal-standing-index-v1.md
+- sources: kolb kj-20260721-1600-two-cheaps, kj-20260721-1605-permission-to-think, kj-20260721-1610-ball-is-yours; domains/agent-operations/note-equal-standing-index.md
+

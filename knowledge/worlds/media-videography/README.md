@@ -10,9 +10,5 @@
 
 | Роль | Файл | Содержание |
 |------|------|------------|
-| **KB** | [`kb-videography-cinematography-theory-v1.md`](kb-videography-cinematography-theory-v1.md) | Композиция, планы, свет, движение, DoF, R1–R12, broadcast, кодеки, CCTV (§13). |
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/media-videography/` (ветка `feature/kb-taxonomy-layout-v1`).
+| **KB** | [`kb-videography-cinematography-theory.md`](kb-videography-cinematography-theory.md) | Композиция, планы, свет, движение, DoF, R1–R12, broadcast, кодеки, CCTV (§13). |
 

@@ -1,0 +1,59 @@
+# IT Domain Status v1
+**Tags:** #status #systems-it #worlds
+
+
+## Scope
+
+Cross-domain IT operational knowledge layer: algorithms, databases, networking, distributed/runtime systems, platform reliability, and decision governance.
+
+## Completion State
+
+Status: **Done v1 + phase-c slice closed**
+
+Completed artifacts:
+
+- `playbook-it-core-systems.md` (domain map)
+- `playbook-it-cloud-platform-economics-diagnostics.md` (cloud/platform/economics/diagnostics focus)
+- `kb-it-cloud-platform-economics-diagnostics-rules.md`
+- [`../software-engineering-evidence/kb-engineering-evidence.md`](../software-engineering-evidence/kb-engineering-evidence.md) (engineering knowledge by theme; мир **software.engineering-evidence**)
+- [`../software-engineering-evidence/map-engineering-reading.md`](../software-engineering-evidence/map-engineering-reading.md) (tracks A–H, sources; тот же мир)
+- [`../software-engineering-evidence/digest-engineering-reading.md`](../software-engineering-evidence/digest-engineering-reading.md) (legacy; superseded by kb; тот же мир)
+
+## Definition of Done Check
+
+- IT map and operating contracts: done.
+- Source-backed expansion through multi-batch digest: done.
+- Pending roadmap item "start phase-c slice": done (closed in this pass).
+- Canonical index synchronization: done.
+
+## Active Guardrails
+
+- Evidence-first over tool-preference.
+- Reliability-speed-cost triad for architecture decisions.
+- SLO + error-budget policy for critical services.
+- Cardinality and telemetry cost controls in diagnostics design.
+
+## Remaining Backlog (After v1)
+
+- Continue periodic freshness updates for high-volatility platform docs.
+- Expand domain-specific exemplars per active project stack.
+- Run naming/index cleanup as separate hygiene phase.
+
+## Alias Window
+
+Closed. Legacy aliases were retired after semantic-primary stabilization.
+
+## Next Handoff
+
+IT domain operationally closed at v1 with phase-c baseline complete.  
+Next step: cleanup pass (index compaction and alias-window reduction).
+
+## Maintenance Policy
+
+- Event-driven refresh (not calendar-only). Order: `status-*` → playbook → one `kb-*` per pass (`playbook-kb-operational-freshness.md`).
+- **Next review triggers:**
+  - New edition / major paper / platform release superseding cited claims
+  - Broken `source_refs` / URL rot
+  - Repeated field mismatch with practice or primary sources
+  - Operator/agent flags a stale claim
+

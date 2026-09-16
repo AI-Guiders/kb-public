@@ -6,7 +6,7 @@ onboarding = "Mastery ≠ definition recitation; pillars P1–P4 are methodology
 depends_on = ["epistemic-methodology", "epistemic-scene"]
 content = "definitions/*.md"
 sources = [
-  "worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals-v1.md",
-  "worlds/pedagogy-physics/kb-pedagogy-physics-scientific-evidence-v1.md",
+  "worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals.md",
+  "worlds/pedagogy-physics/kb-pedagogy-physics-scientific-evidence.md",
 ]
 

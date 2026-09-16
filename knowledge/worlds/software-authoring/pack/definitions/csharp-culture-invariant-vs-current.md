@@ -11,5 +11,5 @@
 - inference_hooks: applicability-then-infer
 - llm_cue: Is this for a machine or a human reader?
 - related: csharp-async-no-sync-over-async
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

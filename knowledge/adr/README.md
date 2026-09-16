@@ -30,7 +30,7 @@
 
 - ADR здесь не заменяют `status-*` и `playbook-*`; они фиксируют архитектурные развилки.
 - **Один ADR — одно решение.** Мотивация из чатов, work, outreach, дисклеймеры — в `operator-notes/` или project note со ссылкой из ADR, не внутри тела ADR.
-- Для ссылок из роутера можно использовать краткую отсылку в `index-knowledge-router-v1.md` при необходимости.
+- Для ссылок из роутера можно использовать краткую отсылку в `index-knowledge-router.md` при необходимости.
 
 ## Timeline (restored from commit history)
 
@@ -44,12 +44,14 @@
 - `008-workspace-scope-map-hot-mcp-and-public-cut.md`
 - `009-kb-entry-structure-and-pre-open-onboarding.md` (вход, worlds/domains/templates/routers, таксономия)
 - `010-kb-markdown-fts-index-boundary.md` (опциональный FTS по Markdown KB; граница с внешним MCP HCI; не часть ANKB по умолчанию)
-- `011-aiguiders-org-collaborative-kb-repo-v1.md` (Accepted: org federation SSOT, export/import, bootstrap-only push)
-- `012-multi-canon-workspace-resolution-v1.md` (Proposed: primary/secondary canon, `.cursor/agent-notes.toml`, без `knowledge/organization/` в личном)
-- `013-agent-notes-mcp-local-settings-toml-v1.md` (Proposed: локальный TOML с MCP **2.0**, `[knowledge]` / `[workspace]` / `[status]`)
-- `016-knowledge-stack-clean-setup-protocol-v1.md`
-- `017-knowledge-roots-registry-prefix-v1.md` (Accepted: префиксы в `knowledge-roots-index`; Core 2.1.2 — AgentNotes.Core ADR 016)
-- `018-ai-guiders-licensing-hub-and-software-grant-v1.md` (Superseded → канон: [AI-Guiders/licensing ADR 001](https://github.com/AI-Guiders/licensing/blob/main/docs/decisions/001-software-grant-mit-and-ethical-layer.md))
-- `019-writing-canon-layers-and-guiders-style-v1.md` (Mirror → normative [CDP-ADR-0207](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/adr/CDP-ADR-0207-writing-canon-layers.md); Vision: GUIDERS-VISION-0002)
-- `020-kb-language-contours-v1.md` (Accepted: EN open perimeter, RU personal/work interior; no dual-maintenance i18n)
-- `021-federated-app-catalog-v1.md` (Accepted draft: federated trust, unified desktop install journey; FAC / GPLAT/APPCAT)
+- `011-aiguiders-org-collaborative-kb-repo.md` (Accepted: org federation SSOT, export/import, bootstrap-only push)
+- `012-multi-canon-workspace-resolution.md` (Proposed: primary/secondary canon, `.cursor/agent-notes.toml`, без `knowledge/organization/` в личном)
+- `013-agent-notes-mcp-local-settings-toml.md` (Proposed: локальный TOML с MCP **2.0**, `[knowledge]` / `[workspace]` / `[status]`)
+- `016-knowledge-stack-clean-setup-protocol.md`
+- `017-knowledge-roots-registry-prefix.md` (Accepted: префиксы в `knowledge-roots-index`; Core 2.1.2 — AgentNotes.Core ADR 016)
+- `018-ai-guiders-licensing-hub-and-software-grant.md` (Superseded → канон: [AI-Guiders/licensing ADR 001](https://github.com/AI-Guiders/licensing/blob/main/docs/decisions/001-software-grant-mit-and-ethical-layer.md))
+- `019-writing-canon-layers-and-guiders-style.md` (Mirror → normative [CDP-ADR-0207](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/adr/CDP-ADR-0207-writing-canon-layers.md); Vision: GUIDERS-VISION-0002)
+- `020-kb-language-contours.md` (Accepted: EN open perimeter, RU personal/work interior; no dual-maintenance i18n)
+- `021-federated-app-catalog.md` (Accepted draft: federated trust, unified desktop install journey; FAC / GPLAT/APPCAT)
+- `022-kb-graph-substrate.md` (Proposed: KB implicit graph → F# Graph IR, slices, kb-sat, records/views; graph DB optional projection; AgentNotes.Modeling guild)
+

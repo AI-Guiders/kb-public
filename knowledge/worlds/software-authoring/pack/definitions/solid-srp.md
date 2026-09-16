@@ -12,5 +12,5 @@
 - inference_hooks: applicability-then-infer, mc-srp-one-method, solid-after-grasp
 - llm_cue: What reasons-to-change does this type have? More than one axis?
 - related: grasp-high-cohesion, solid-after-grasp, applicability-inference-gate
-- sources: worlds/software-authoring/code-writing-principles-v1.md, worlds/software-authoring/kb-ooad-fundamentals-v1.md#5
+- sources: worlds/software-authoring/code-writing-principles.md, worlds/software-authoring/kb-ooad-fundamentals.md#5
 

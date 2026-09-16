@@ -7,7 +7,7 @@ depends_on = ["epistemic-scene", "software-authoring"]
 content = "definitions/*.md"
 route = "procedures.toml"
 sources = [
-  "worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md",
-  "worlds/software-dotnet-csharp/kb-dotnet-playbooks-v1.md",
+  "worlds/software-dotnet-csharp/kb-dotnet-fundamentals.md",
+  "worlds/software-dotnet-csharp/kb-dotnet-playbooks.md",
 ]
 

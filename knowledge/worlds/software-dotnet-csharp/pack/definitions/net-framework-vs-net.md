@@ -9,5 +9,5 @@
 - gate_step: project_table_has_line_tfm_support
 - llm_cue: Did I say which line (Framework 4.8 vs net8.0) or handwave '.NET'?
 - related: tfm
-- sources: worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md
+- sources: worlds/software-dotnet-csharp/kb-dotnet-fundamentals.md
 

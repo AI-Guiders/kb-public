@@ -4,7 +4,7 @@
 
 ## Related
 
-- Обязательный чеклист агента Cursor (Roslyn MCP, `file_path` по каждому затронутому `.cs`): [`playbook-csharp-roslyn-mcp-diagnostics-v1.md`](playbook-csharp-roslyn-mcp-diagnostics-v1.md).
+- Обязательный чеклист агента Cursor (Roslyn MCP, `file_path` по каждому затронутому `.cs`): [`playbook-csharp-roslyn-mcp-diagnostics.md`](playbook-csharp-roslyn-mcp-diagnostics.md).
 
 ## Purpose
 Specialized playbook for C# diagnostics, refactorings, and debug workflows in .NET projects.

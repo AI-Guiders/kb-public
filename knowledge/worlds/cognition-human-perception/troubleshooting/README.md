@@ -4,7 +4,7 @@
 
 | Файл | Роль |
 |------|------|
-| [`playbook-cognition-perception-troubleshooting-v1.md`](playbook-cognition-perception-troubleshooting-v1.md) | «UI бесит без бага», нагрузка, прерывания |
+| [`playbook-cognition-perception-troubleshooting.md`](playbook-cognition-perception-troubleshooting.md) | «UI бесит без бага», нагрузка, прерывания |
 
-Operational: [`../playbook-human-perception-operational-v1.md`](../playbook-human-perception-operational-v1.md).
+Operational: [`../playbook-human-perception-operational.md`](../playbook-human-perception-operational.md).
 

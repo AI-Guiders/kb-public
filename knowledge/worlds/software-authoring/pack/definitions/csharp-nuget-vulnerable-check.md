@@ -11,5 +11,5 @@
 - inference_hooks: blast-radius, applicability-then-infer
 - llm_cue: Did this change touch package graph — any known vulns?
 - related: blast-radius, dotnet-cli-as-ssot
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

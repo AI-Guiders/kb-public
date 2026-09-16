@@ -17,8 +17,8 @@
 - Templates — `templates/work/template-taskknowledge-*.md`
 - Gap map — `domains/agent-operations/note-taskknowledge-gap-map.md`
 - Product ADR (Core repo, не KB) — https://github.com/AI-Guiders/AIGuiders.AgentTaskKnowledge.Core/blob/main/docs/adr/0001-process-instance-vs-delivery-dag.md
-- Section-store hygiene (AN + TK markers) — `domains/agent-operations/playbook-agent-notes-section-store-hygiene-v1.md`
-- Next-task handoff (substance, not just id) — `domains/agent-operations/playbook-taskknowledge-next-handoff-v1.md`
+- Section-store hygiene (AN + TK markers) — `domains/agent-operations/playbook-agent-notes-section-store-hygiene.md`
+- Next-task handoff (substance, not just id) — `domains/agent-operations/playbook-taskknowledge-next-handoff.md`
 - Findings JSONL — прототип полей only
 - Failures — отдельный JSONL
 
@@ -44,6 +44,7 @@
 
 ## Dogfood
 
-`D:\Experiments\agent-notes\.task-knowledge\` — после MCP reload: `ensure_store` / `route_next` на этом workspace.
+`D:\Experiments\agent-notes\.task-knowledge\` — после remount MCP (del/add в `mcp.json`, см. `note-cursor-mcp-remount.md`): `ensure_store` / `route_next` на этом workspace.
 
 **Next work (после среды):** pilot CIDE ADR 0008 в cascade-ide `.task-knowledge/`.
+

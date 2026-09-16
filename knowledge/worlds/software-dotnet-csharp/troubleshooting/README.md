@@ -4,7 +4,7 @@
 
 | Файл | Роль |
 |------|------|
-| [`playbook-dotnet-csharp-troubleshooting-v1.md`](playbook-dotnet-csharp-troubleshooting-v1.md) | Perf/stability сервиса, TFM/migration сигналы |
+| [`playbook-dotnet-csharp-troubleshooting.md`](playbook-dotnet-csharp-troubleshooting.md) | Perf/stability сервиса, TFM/migration сигналы |
 
-Kb: [`../kb-dotnet-playbooks-v1.md`](../kb-dotnet-playbooks-v1.md) (DOTNET-01..03).
+Kb: [`../kb-dotnet-playbooks.md`](../kb-dotnet-playbooks.md) (DOTNET-01..03).
 

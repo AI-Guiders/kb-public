@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-geography-v1.md`](status-pedagogy-geography-v1.md) |
-| **Playbook** | [`playbook-pedagogy-geography-v1.md`](playbook-pedagogy-geography-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-geography-fundamentals-v1.md`](kb-pedagogy-geography-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-geography-scientific-evidence-v1.md`](kb-pedagogy-geography-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-geography-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-geography.md`](status-pedagogy-geography.md) |
+| **Playbook** | [`playbook-pedagogy-geography.md`](playbook-pedagogy-geography.md) |
+| **Fundamentals** | [`kb-pedagogy-geography-fundamentals.md`](kb-pedagogy-geography-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-geography-scientific-evidence.md`](kb-pedagogy-geography-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-geography-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

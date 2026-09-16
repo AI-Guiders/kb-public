@@ -9,5 +9,5 @@
 - gate_step: core_tests_use_standard_well_posed_setups
 - llm_cue: Is this exotic BC/domain an experiment, or am I treating it as baseline?
 - related: pde-elliptic, pde-parabolic, pde-hyperbolic
-- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md
+- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals.md
 

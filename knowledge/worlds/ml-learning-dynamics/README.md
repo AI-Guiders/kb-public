@@ -4,7 +4,7 @@
 
 **Идентификатор мира:** `ml.learning-dynamics`
 **Каталог:** `knowledge/worlds/ml-learning-dynamics/`
-**Назначение:** первоисточники о **том, как обучаются машинные модели** — curriculum / starting-small, catastrophic forgetting, complementary learning systems, replay/consolidation, spacing. Это **инженерная половина** гипотезы CASA «педагогика развития» (см. `work/projects/door-to-singularity/ca-substrate-agent/research-training-developmental-pedagogy-v1.md`).
+**Назначение:** первоисточники о **том, как обучаются машинные модели** — curriculum / starting-small, catastrophic forgetting, complementary learning systems, replay/consolidation, spacing. Это **инженерная половина** гипотезы CASA «педагогика развития» (см. `work/projects/door-to-singularity/ca-substrate-agent/research-training-developmental-pedagogy.md`).
 
 **Не путать с:** `cognition.language-acquisition` (human child L1, `transfer_boundary: deny` → CASA spec). Здесь — **ML-домен**, поэтому перенос в CASA-инженерию `allow-with-check`, а не deny.
 
@@ -14,9 +14,6 @@
 
 | Слой | Файл |
 |------|------|
-| Scientific evidence (index) | [`kb-ml-learning-dynamics-scientific-evidence-v1.md`](kb-ml-learning-dynamics-scientific-evidence-v1.md) |
-| Evidence (papers) | `kb-ml-learning-dynamics-*-evidence-v1.md` |
+| Scientific evidence (index) | [`kb-ml-learning-dynamics-scientific-evidence.md`](kb-ml-learning-dynamics-scientific-evidence.md) |
+| Evidence (papers) | `kb-ml-learning-dynamics-*-evidence.md` |
 
-## Версия
-
-v1.0 · 2026-05-31 — мир собран как ML-мост к CASA-гипотезе развития; 4 якорные карты (Elman 1993, Bengio 2009, McClelland 1995, Kirkpatrick 2017).

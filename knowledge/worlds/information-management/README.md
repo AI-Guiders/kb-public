@@ -9,14 +9,10 @@
 | Слой | Файл |
 |------|------|
 | **Ядро** | [`im-playbook.md`](im-playbook.md) |
-| **Идентичность / доверие** | [`kb-public-identity-and-trust-core-v1.md`](kb-public-identity-and-trust-core-v1.md) |
-| **Вопросы** | [`kb-im-open-questions-v1.md`](kb-im-open-questions-v1.md) |
-| **Purpose / книги** | [`tool-purpose-and-books-v1.md`](tool-purpose-and-books-v1.md) |
-| **CFIHOS → UI analogy** | [note-ui-ir-platform-research-v1.md](../../work/projects/door-to-singularity/guiders-ui-platform/research/note-ui-ir-platform-research-v1.md) · [ui-ir-platform-v1](../../work/projects/door-to-singularity/guiders-ui-platform/subprojects/ui-ir-platform-v1.md) |
+| **Идентичность / доверие** | [`kb-public-identity-and-trust-core.md`](kb-public-identity-and-trust-core.md) |
+| **Вопросы** | [`kb-im-open-questions.md`](kb-im-open-questions.md) |
+| **Purpose / книги** | [`tool-purpose-and-books.md`](tool-purpose-and-books.md) |
+| **CFIHOS → UI analogy** | [note-ui-ir-platform-research.md](../../work/projects/door-to-singularity/guiders-ui-platform/research/note-ui-ir-platform-research.md) · [ui-ir-platform-v1](../../work/projects/door-to-singularity/guiders-ui-platform/subprojects/ui-ir-platform.md) |
 
-Строка **Information management** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/information-management/`.
+Строка **Information management** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

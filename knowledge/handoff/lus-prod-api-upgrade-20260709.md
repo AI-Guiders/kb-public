@@ -60,3 +60,4 @@ WarmReportViewsFromAggregates, WarmAggExtendedTablesAndViews, StakeholderKpiView
 ## После API
 
 DashSpec: `scripts/publish-dashspec.ps1` (порт 5295). Агенты не трогать.
+

@@ -11,11 +11,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-mathematics-v1.md`](status-pedagogy-mathematics-v1.md) |
-| **Playbook** | [`playbook-pedagogy-mathematics-v1.md`](playbook-pedagogy-mathematics-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-math-fundamentals-v1.md`](kb-pedagogy-math-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-math-scientific-evidence-v1.md`](kb-pedagogy-math-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-math-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-mathematics.md`](status-pedagogy-mathematics.md) |
+| **Playbook** | [`playbook-pedagogy-mathematics.md`](playbook-pedagogy-mathematics.md) |
+| **Fundamentals** | [`kb-pedagogy-math-fundamentals.md`](kb-pedagogy-math-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-math-scientific-evidence.md`](kb-pedagogy-math-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-math-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

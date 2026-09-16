@@ -2,7 +2,7 @@
 **Tags:** #meta
 
 
-Файл по well-known path для **Integrity POST**. Если этот файл присутствует, он задаёт необсуждаемое ядро. Если удалён — срабатывает POST failed; применяется Minimal Safe Default из `META/integrity-post-spec-v1.md`.
+Файл по well-known path для **Integrity POST**. Если этот файл присутствует, он задаёт необсуждаемое ядро. Если удалён — срабатывает POST failed; применяется Minimal Safe Default из `META/integrity-post-spec.md`.
 
 ---
 
@@ -24,11 +24,9 @@
 
 ## Sibling POST root (awareness)
 
-Паритет важности: `META/awareness-as-countermeasure-v1.md` — Проблема\|Осознание\|Решение; отсутствие → **Awareness POST failed** + MSD §3.1 в `integrity-post-spec-v1.md`. Не заменяет это harm-ядро.
+Паритет важности: `META/awareness-as-countermeasure.md` — Проблема\|Осознание\|Решение; отсутствие → **Awareness POST failed** + MSD §3.1 в `integrity-post-spec.md`. Не заменяет это harm-ядро.
 
 ## Полный протокол
 
-При доступности KB: `domains/agent-operations/playbook-integrity-under-pressure-v1.md` (паттерны, восстановление, связь с фундаментом).
-
-Версия: v1.2. 2026-07-28 (sibling awareness POST root).
+При доступности KB: `domains/agent-operations/playbook-integrity-under-pressure.md` (паттерны, восстановление, связь с фундаментом).
 

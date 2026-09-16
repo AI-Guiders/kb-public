@@ -8,5 +8,5 @@
 - formal.role: scene fallback when procedural barriers fail
 - llm_cue: Are barriers intact? If not — apply core principles, do not improvise harm.
 - related: integrity-baseline, default-distrust
-- sources: META/core-when-barriers-fail-extended-v1.md, agent-notes L0 core-when-barriers-fail-v1
+- sources: META/core-when-barriers-fail-extended.md, agent-notes L0 core-when-barriers-fail-v1
 

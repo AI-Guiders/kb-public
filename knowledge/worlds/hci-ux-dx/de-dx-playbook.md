@@ -56,8 +56,8 @@ Practical standards for developer effectiveness and sustainable delivery speed.
 
 ## Literature synthesis (IDE / UI — классика, не метрики команды)
 
-- **Опыт разработчика и интегрированная среда** (Osmani, Goldberg/Smalltalk-80, diSessa/Boxer): `kb-ide-dx-literature-evidence-v1.md` — принципы инструмента и IDE; **дополняет** этот playbook, но **не заменяет** разделы про поток поставки и DORA-ориентир выше.
-- **UI/UX интерфейса** (Norman, Nielsen, Shneiderman, Krug): `kb-ui-ux-literature-evidence-v1.md` — эвристики и язык ревью; пересечение с доменом **HCI** (`status-hci-v1.md`).
+- **Опыт разработчика и интегрированная среда** (Osmani, Goldberg/Smalltalk-80, diSessa/Boxer): `kb-ide-dx-literature-evidence.md` — принципы инструмента и IDE; **дополняет** этот playbook, но **не заменяет** разделы про поток поставки и DORA-ориентир выше.
+- **UI/UX интерфейса** (Norman, Nielsen, Shneiderman, Krug): `kb-ui-ux-literature-evidence.md` — эвристики и язык ревью; пересечение с доменом **HCI** (`status-hci.md`).
 
 ## Revisit Triggers
 - Rising cycle time or merge delay.

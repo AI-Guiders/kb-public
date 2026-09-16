@@ -7,13 +7,11 @@
 
 | Слой | Файлы |
 |------|--------|
-| **Индекс evidence** | [`kb-computing-hardware-substrate-scientific-evidence-v1.md`](kb-computing-hardware-substrate-scientific-evidence-v1.md) |
-| **Карточки** | `kb-computing-hardware-substrate-*-evidence-v1.md` |
+| **Индекс evidence** | [`kb-computing-hardware-substrate-scientific-evidence.md`](kb-computing-hardware-substrate-scientific-evidence.md) |
+| **Карточки** | `kb-computing-hardware-substrate-*-evidence.md` |
 
 ## Связи
 
 - CASA memory / deployment: [`../../work/projects/door-to-singularity/ca-substrate-agent/README.md`](../../work/projects/door-to-singularity/ca-substrate-agent/README.md)
 - Эссе «просто есть» / автономный носитель: CDP `articles/just-being-without-justification.md` #9
-
-**Версия:** v1.0 · 2026-08-25
 

@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-history-v1.md`](status-pedagogy-history-v1.md) |
-| **Playbook** | [`playbook-pedagogy-history-v1.md`](playbook-pedagogy-history-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-history-fundamentals-v1.md`](kb-pedagogy-history-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-history-scientific-evidence-v1.md`](kb-pedagogy-history-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-history-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-history.md`](status-pedagogy-history.md) |
+| **Playbook** | [`playbook-pedagogy-history.md`](playbook-pedagogy-history.md) |
+| **Fundamentals** | [`kb-pedagogy-history-fundamentals.md`](kb-pedagogy-history-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-history-scientific-evidence.md`](kb-pedagogy-history-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-history-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

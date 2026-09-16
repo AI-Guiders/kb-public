@@ -8,14 +8,10 @@
 
 | Слой | Файлы |
 |------|--------|
-| **HCI** | [`status-hci-v1.md`](status-hci-v1.md), [`playbook-hci-core-v1.md`](playbook-hci-core-v1.md), [`map-hci-reading-v1.md`](map-hci-reading-v1.md), [`kb-hci-usability-and-dialog-rules-v1.md`](kb-hci-usability-and-dialog-rules-v1.md) |
-| **UI/UX литература + продукт** | [`kb-ui-ux-literature-evidence-v1.md`](kb-ui-ux-literature-evidence-v1.md), [`ui-ux-playbook.md`](ui-ux-playbook.md) |
-| **DE/DX** | [`status-de-dx-v1.md`](status-de-dx-v1.md), [`de-dx-playbook.md`](de-dx-playbook.md), [`kb-ide-dx-literature-evidence-v1.md`](kb-ide-dx-literature-evidence-v1.md) |
-| **Сквозные инструменты** | [`troubleshooting/playbook-tooling-debug-troubleshooting-v1.md`](troubleshooting/playbook-tooling-debug-troubleshooting-v1.md); Git/PR — [`../collaboration-git-pr/troubleshooting/`](../collaboration-git-pr/troubleshooting/) |
+| **HCI** | [`status-hci.md`](status-hci.md), [`playbook-hci-core.md`](playbook-hci-core.md), [`map-hci-reading.md`](map-hci-reading.md), [`kb-hci-usability-and-dialog-rules.md`](kb-hci-usability-and-dialog-rules.md) |
+| **UI/UX литература + продукт** | [`kb-ui-ux-literature-evidence.md`](kb-ui-ux-literature-evidence.md), [`ui-ux-playbook.md`](ui-ux-playbook.md) |
+| **DE/DX** | [`status-de-dx.md`](status-de-dx.md), [`de-dx-playbook.md`](de-dx-playbook.md), [`kb-ide-dx-literature-evidence.md`](kb-ide-dx-literature-evidence.md) |
+| **Сквозные инструменты** | [`troubleshooting/playbook-tooling-debug-troubleshooting.md`](troubleshooting/playbook-tooling-debug-troubleshooting.md); Git/PR — [`../collaboration-git-pr/troubleshooting/`](../collaboration-git-pr/troubleshooting/) |
 
-Маршрутизатор: строки **HCI** и **Developer Experience (DE/DX)** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md); триггеры и порядок — [`index-knowledge-router-supplement-v1.md`](../../index-knowledge-router-supplement-v1.md). Пересечение с **восприятием** — [`../cognition-human-perception/README.md`](../cognition-human-perception/README.md); desktop IDE — [`../software-dotnet-desktop/README.md`](../software-dotnet-desktop/README.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/hci-ux-dx/` (ветка `feature/kb-taxonomy-layout-v1`).
+Маршрутизатор: строки **HCI** и **Developer Experience (DE/DX)** в [`index-knowledge-router.md`](../../index-knowledge-router.md); триггеры и порядок — [`index-knowledge-router-supplement.md`](../../index-knowledge-router-supplement.md). Пересечение с **восприятием** — [`../cognition-human-perception/README.md`](../cognition-human-perception/README.md); desktop IDE — [`../software-dotnet-desktop/README.md`](../software-dotnet-desktop/README.md).
 

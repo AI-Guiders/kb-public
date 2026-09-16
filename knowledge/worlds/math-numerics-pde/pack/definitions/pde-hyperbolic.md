@@ -8,5 +8,5 @@
 - formal.example: u_tt = c² Δu + f
 - llm_cue: Wave-like? Expect energy/finite speed invariants.
 - related: pde-elliptic, pde-parabolic
-- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md
+- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals.md
 

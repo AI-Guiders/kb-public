@@ -11,11 +11,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-literature-v1.md`](status-pedagogy-literature-v1.md) |
-| **Playbook** | [`playbook-pedagogy-literature-v1.md`](playbook-pedagogy-literature-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-literature-fundamentals-v1.md`](kb-pedagogy-literature-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-literature-scientific-evidence-v1.md`](kb-pedagogy-literature-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-literature-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-literature.md`](status-pedagogy-literature.md) |
+| **Playbook** | [`playbook-pedagogy-literature.md`](playbook-pedagogy-literature.md) |
+| **Fundamentals** | [`kb-pedagogy-literature-fundamentals.md`](kb-pedagogy-literature-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-literature-scientific-evidence.md`](kb-pedagogy-literature-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-literature-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

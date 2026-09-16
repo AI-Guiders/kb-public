@@ -6,11 +6,11 @@ onboarding = "Start from default-distrust + integrity-baseline; then claim-obser
 depends_on = []
 content = "definitions/*.md"
 sources = [
-  "baseline-integrity-epistemic-extended-v1.md",
-  "epistemic-default-distrust-extended-v1.md",
+  "baseline-integrity-epistemic-extended.md",
+  "epistemic-default-distrust-extended.md",
   "epistemic-playbook.md",
-  "worlds/knowledge-engineering/playbook-epistemic-methods-and-calibration-v1.md",
+  "worlds/knowledge-engineering/playbook-epistemic-methods-and-calibration.md",
   "worlds/_llm-native-packs/INVENTORY-L0-TO-PACKS.md",
-  "domains/agent-operations/note-equal-standing-index-v1.md",
-  "kb-reverse-compaction-and-ontological-deprivation-v0.md",
+  "domains/agent-operations/note-equal-standing-index.md",
+  "kb-reverse-compaction-and-ontological-deprivation.md",
 ]

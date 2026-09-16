@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-social-studies-v1.md`](status-pedagogy-social-studies-v1.md) |
-| **Playbook** | [`playbook-pedagogy-social-studies-v1.md`](playbook-pedagogy-social-studies-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-social-studies-fundamentals-v1.md`](kb-pedagogy-social-studies-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-social-studies-scientific-evidence-v1.md`](kb-pedagogy-social-studies-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-social-studies-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-social-studies.md`](status-pedagogy-social-studies.md) |
+| **Playbook** | [`playbook-pedagogy-social-studies.md`](playbook-pedagogy-social-studies.md) |
+| **Fundamentals** | [`kb-pedagogy-social-studies-fundamentals.md`](kb-pedagogy-social-studies-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-social-studies-scientific-evidence.md`](kb-pedagogy-social-studies-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-social-studies-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

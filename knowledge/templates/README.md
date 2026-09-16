@@ -2,7 +2,7 @@
 **Tags:** #readme #templates
 
 
-Не живые экземпляры под один workspace. Контракт корзины: **`../META/kb-taxonomy-v1.md`**.
+Не живые экземпляры под один workspace. Контракт корзины: **`../META/kb-taxonomy.md`**.
 
 ## Подкаталоги
 
@@ -21,17 +21,18 @@
 
 | Задача | Шаблон |
 |--------|--------|
-| Новый мир / домен | `worlds/template-world-readme-v1.md` + status → playbook → kb |
-| Книга / курс (оглавление) | `worlds/template-kb-chapter-map-v1.md` |
-| Evidence по источнику | `cards/template-kb-evidence-v1.md` |
-| Cross-domain routing | `matrices/template-transfer-matrix-v1.md` |
-| Трек в IDE | `work/template-project-card-v1.md` |
-| ADR | `meta/template-adr-v1.md` |
-| Схема контуров / маршрутизация | `meta/template-map-v1.md` |
-| Процедура со скриптами | `meta/template-runbook-v1.md` |
-| Секция в `agent-notes.md` | `meta/template-hot-section-v1.md` или `newcomer/` |
-| Свой org KB (CONTRIBUTING, CODEOWNERS) | `newcomer/template-org-kb-bootstrap-*` + `playbook-org-kb-white-label-v1.md` |
+| Новый мир / домен | `worlds/template-world-readme.md` + status → playbook → kb |
+| Книга / курс (оглавление) | `worlds/template-kb-chapter-map.md` |
+| Evidence по источнику | `cards/template-kb-evidence.md` |
+| Cross-domain routing | `matrices/template-transfer-matrix.md` |
+| Трек в IDE | `work/template-project-card.md` |
+| ADR | `meta/template-adr.md` |
+| Схема контуров / маршрутизация | `meta/template-map.md` |
+| Процедура со скриптами | `meta/template-runbook.md` |
+| Секция в `agent-notes.md` | `meta/template-hot-section.md` или `newcomer/` |
+| Свой org KB (CONTRIBUTING, CODEOWNERS) | `newcomer/template-org-kb-bootstrap-*` + `playbook-org-kb-white-label.md` |
 
 ## Легаси-пути (после v1.2)
 
-Старые ссылки `templates/template-knowledge-card-v1.md` → **`templates/cards/template-knowledge-card-v1.md`** (или `template-kb-evidence-v1.md` для evidence).
+Старые ссылки `templates/template-knowledge-card.md` → **`templates/cards/template-knowledge-card.md`** (или `template-kb-evidence.md` для evidence).
+

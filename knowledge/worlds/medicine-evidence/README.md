@@ -8,13 +8,12 @@
 
 | Слой | Файлы |
 |------|--------|
-| **Статус / playbook** | [`status-medicine-evidence-v1.md`](status-medicine-evidence-v1.md), [`playbook-medicine-evidence-v1.md`](playbook-medicine-evidence-v1.md) |
-| **BCI / evidence** | [`kb-bci-evidence-based-medicine-v1.md`](kb-bci-evidence-based-medicine-v1.md) |
-| **Терапия vs поддержка агента** | [`kb-therapy-and-support-boundaries-v1.md`](kb-therapy-and-support-boundaries-v1.md) — см. также секцию **agent-supportive-listening-gap-v1** в `agent-notes.md` |
+| **Статус / playbook** | [`status-medicine-evidence.md`](status-medicine-evidence.md), [`playbook-medicine-evidence.md`](playbook-medicine-evidence.md) |
+| **BCI / evidence** | [`kb-bci-evidence-based-medicine.md`](kb-bci-evidence-based-medicine.md) |
+| **CMD / covert awareness** | [`kb-cognitive-motor-dissociation-fundamentals.md`](kb-cognitive-motor-dissociation-fundamentals.md) — NEJM 2024, fMRI/EEG да/нет |
+| **Autonomy & consent axioms** | [`kb-bodily-autonomy-consent-axioms.md`](kb-bodily-autonomy-consent-axioms.md) — запрет vs redirect, отказ от лечения, capacity |
+| **Matrix «не слышали»** | [`matrix-covert-signals-not-heard.md`](matrix-covert-signals-not-heard.md) — suicide signals, coma CMD, блоки |
+| **Терапия vs поддержка агента** | [`kb-therapy-and-support-boundaries.md`](kb-therapy-and-support-boundaries.md) — см. также секцию **agent-supportive-listening-gap-v1** в `agent-notes.md` |
 
-Маршрутизатор: строка **Medicine (Evidence)** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md); supplement — секции **`router-bci-medicine`** и блок про терапию в [`index-knowledge-router-supplement-v1.md`](../../index-knowledge-router-supplement-v1.md). Психологические модели — [`../psychology-models/README.md`](../psychology-models/README.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/medicine-evidence/` (ветка `feature/kb-taxonomy-layout-v1`).
+Маршрутизатор: строка **Medicine (Evidence)** в [`index-knowledge-router.md`](../../index-knowledge-router.md); supplement — секции **`router-bci-medicine`** и блок про терапию в [`index-knowledge-router-supplement.md`](../../index-knowledge-router-supplement.md). Психологические модели — [`../psychology-models/README.md`](../psychology-models/README.md).
 

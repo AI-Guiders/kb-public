@@ -7,5 +7,5 @@
 - informal: Якорь на явлении: predict–observe–explain.
 - formal.probe: predict_observe_explain
 - related: phys-modeling-conceptual-change
-- sources: worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals-v1.md
+- sources: worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals.md
 

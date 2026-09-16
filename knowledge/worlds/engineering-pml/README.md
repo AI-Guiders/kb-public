@@ -15,16 +15,16 @@
 
 | Слой | Файл | Роль |
 |------|------|------|
-| **Status** | [status-engineering-pml-v1.md](status-engineering-pml-v1.md) | Operating contract, DoD, guardrails |
-| **Playbook** | [playbook-pml-v1.md](playbook-pml-v1.md) | Маршрут: вопрос → kb |
-| **Карта чтения** | [map-engineering-pml-reading-v1.md](map-engineering-pml-reading-v1.md) | Fundamentals → playbook |
+| **Status** | [status-engineering-pml.md](status-engineering-pml.md) | Operating contract, DoD, guardrails |
+| **Playbook** | [playbook-pml.md](playbook-pml.md) | Маршрут: вопрос → kb |
+| **Карта чтения** | [map-engineering-pml-reading.md](map-engineering-pml-reading.md) | Fundamentals → playbook |
 | **Fundamentals** | см. ниже | Определения, anti-patterns |
-| **Evidence** | [kb-pml-evidence-v1.md](kb-pml-evidence-v1.md) | AVEVA docs и учебные источники |
+| **Evidence** | [kb-pml-evidence.md](kb-pml-evidence.md) | AVEVA docs и учебные источники |
 
 ## Fundamentals (v1)
 
-1. [kb-pml-fundamentals-v1.md](kb-pml-fundamentals-v1.md) — язык: PML1/PML2, объекты, выражения, файлы
-2. [kb-pml-runtime-fundamentals-v1.md](kb-pml-runtime-fundamentals-v1.md) — среда: directives, trace, формы, индекс
+1. [kb-pml-fundamentals.md](kb-pml-fundamentals.md) — язык: PML1/PML2, объекты, выражения, файлы
+2. [kb-pml-runtime-fundamentals.md](kb-pml-runtime-fundamentals.md) — среда: directives, trace, формы, индекс
 
 ## Связанные миры
 
@@ -32,10 +32,9 @@
 
 ## Router
 
-`index-knowledge-router-v1.md` · `engineering-pml-domain-entry-v1`
+`index-knowledge-router.md` · `engineering-pml-domain-entry-v1`
 
 ## Публикация (kb-public)
 
-Перед коммитом: [`playbook-kb-world-public-authoring-v1.md`](../knowledge-engineering/playbook-kb-world-public-authoring-v1.md).
+Перед коммитом: [`playbook-kb-world-public-authoring.md`](../knowledge-engineering/playbook-kb-world-public-authoring.md).
 
-**Версия:** v1.1 · 2026-06-16

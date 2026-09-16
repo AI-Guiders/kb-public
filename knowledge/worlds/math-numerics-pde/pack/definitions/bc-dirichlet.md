@@ -7,5 +7,5 @@
 - informal: Задано значение решения на границе.
 - formal.rule: prescribe_u_on_boundary
 - related: bc-neumann
-- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md
+- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals.md
 

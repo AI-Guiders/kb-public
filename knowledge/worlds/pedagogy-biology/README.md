@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-biology-v1.md`](status-pedagogy-biology-v1.md) |
-| **Playbook** | [`playbook-pedagogy-biology-v1.md`](playbook-pedagogy-biology-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-biology-fundamentals-v1.md`](kb-pedagogy-biology-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-biology-scientific-evidence-v1.md`](kb-pedagogy-biology-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-biology-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-biology.md`](status-pedagogy-biology.md) |
+| **Playbook** | [`playbook-pedagogy-biology.md`](playbook-pedagogy-biology.md) |
+| **Fundamentals** | [`kb-pedagogy-biology-fundamentals.md`](kb-pedagogy-biology-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-biology-scientific-evidence.md`](kb-pedagogy-biology-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-biology-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

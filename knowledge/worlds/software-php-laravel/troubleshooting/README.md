@@ -4,7 +4,7 @@
 
 | Файл | Роль |
 |------|------|
-| [`playbook-php-laravel-troubleshooting-v1.md`](playbook-php-laravel-troubleshooting-v1.md) | Симптом → first-party пакет / область |
+| [`playbook-php-laravel-troubleshooting.md`](playbook-php-laravel-troubleshooting.md) | Симптом → first-party пакет / область |
 
-Индексы: [`../index-knowledge-php-cluster-v1.md`](../index-knowledge-php-cluster-v1.md), [`../index-knowledge-laravel-cluster-v1.md`](../index-knowledge-laravel-cluster-v1.md).
+Индексы: [`../index-knowledge-php-cluster.md`](../index-knowledge-php-cluster.md), [`../index-knowledge-laravel-cluster.md`](../index-knowledge-laravel-cluster.md).
 

@@ -2,11 +2,11 @@
 
 ﻿# `knowledge/worlds/` — крупные контексты («вселенные»)
 
-Смысл корзины и правила размещения — только из **`../META/kb-taxonomy-v1.md`**.
+Смысл корзины и правила размещения — только из **`../META/kb-taxonomy.md`**.
 
-**Публикация (все миры):** любой текст под `worlds/<slug>/` уходит в kb-public. Перед коммитом в **любом** мире — чеклист [`knowledge-engineering/playbook-kb-world-public-authoring-v1.md`](knowledge-engineering/playbook-kb-world-public-authoring-v1.md) (без scope, `work/`, внутренних брендов, машинных путей). Не только для knowledge.engineering.
+**Публикация (все миры):** любой текст под `worlds/<slug>/` уходит в kb-public. Перед коммитом в **любом** мире — чеклист [`knowledge-engineering/playbook-kb-world-public-authoring.md`](knowledge-engineering/playbook-kb-world-public-authoring.md) (без scope, `work/`, внутренних брендов, машинных путей). Не только для knowledge.engineering.
 
-**Troubleshooting:** слой A — **`troubleshooting/`** в мире (kb-public); слой B (продукт) — **только** [`../work/troubleshooting/README.md`](../work/troubleshooting/README.md). Сводка A — [`../META/index-troubleshooting-v1.md`](../META/index-troubleshooting-v1.md).
+**Troubleshooting:** слой A — **`troubleshooting/`** в мире (kb-public); слой B (продукт) — **только** [`../work/troubleshooting/README.md`](../work/troubleshooting/README.md). Сводка A — [`../META/index-troubleshooting.md`](../META/index-troubleshooting.md).
 
 **Уже есть:** `cognition-human-perception/` — мир **cognition.human-perception** (UX / психофизиология в смысле KE).  
 **Уже есть:** `cognition-language-acquisition/` — мир **cognition.language-acquisition** (human child L1: CDS, feedback, lexical learning; transfer deny → CASA) — см. hub.  

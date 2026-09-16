@@ -11,5 +11,5 @@
 - inference_hooks: csharp-async-no-sync-over-async, applicability-then-infer
 - llm_cue: Do I know every consumer awaits this ValueTask exactly once?
 - related: csharp-async-no-sync-over-async
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

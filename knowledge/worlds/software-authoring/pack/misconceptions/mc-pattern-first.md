@@ -12,6 +12,6 @@
 - inference_hooks: noun-verb-analysis, solid-after-grasp, applicability-then-infer
 - llm_cue: Did I name the pain and types first — or the pattern name first?
 - related: mc-solid-before-types, what-is-design-pattern, gof-singleton, gof-factory-method
-- sources: worlds/software-authoring/kb-ooad-fundamentals-v1.md, personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/what-is-pattern
+- sources: worlds/software-authoring/kb-ooad-fundamentals.md, personal/ah-history/ah-hot-full-07-2026-02-24-dev-books-and-courses-notes.md, https://refactoring.guru/design-patterns/what-is-pattern
 - delta_radius_hint: Reject pattern-first; restore noun-verb → types → pattern if pain repeats.
 

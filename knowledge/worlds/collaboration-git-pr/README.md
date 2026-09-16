@@ -8,12 +8,8 @@
 
 | Слой | Файлы |
 |------|--------|
-| **Git** | [`status-git-v1.md`](status-git-v1.md), [`playbook-git-workflow-v1.md`](playbook-git-workflow-v1.md), [`kb-git-safety-and-recovery-rules-v1.md`](kb-git-safety-and-recovery-rules-v1.md), [`runbook-git-multi-remote-backup-v1.md`](runbook-git-multi-remote-backup-v1.md) |
-| **PR Review** | [`status-pr-review-v1.md`](status-pr-review-v1.md), [`playbook-pr-review-v1.md`](playbook-pr-review-v1.md), [`kb-pr-review-risk-rules-v1.md`](kb-pr-review-risk-rules-v1.md) |
+| **Git** | [`status-git.md`](status-git.md), [`playbook-git-workflow.md`](playbook-git-workflow.md), [`kb-git-safety-and-recovery-rules.md`](kb-git-safety-and-recovery-rules.md), [`runbook-git-multi-remote-backup.md`](runbook-git-multi-remote-backup.md) |
+| **PR Review** | [`status-pr-review.md`](status-pr-review.md), [`playbook-pr-review.md`](playbook-pr-review.md), [`kb-pr-review-risk-rules.md`](kb-pr-review-risk-rules.md) |
 
-Сквозной **DE/DX** и отладка — [`../hci-ux-dx/README.md`](../hci-ux-dx/README.md), [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md). Строки **Git** и **PR Review** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/collaboration-git-pr/`.
+Сквозной **DE/DX** и отладка — [`../hci-ux-dx/README.md`](../hci-ux-dx/README.md), [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md). Строки **Git** и **PR Review** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

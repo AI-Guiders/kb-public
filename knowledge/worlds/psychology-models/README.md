@@ -8,16 +8,12 @@
 
 | Слой | Файлы |
 |------|--------|
-| **Статус / playbook** | [`status-psychology-v1.md`](status-psychology-v1.md), [`playbook-psychology-core-models-v1.md`](playbook-psychology-core-models-v1.md) |
-| **Чтение** | [`map-psychology-reading-v1.md`](map-psychology-reading-v1.md) |
-| **Правила (kb)** | [`kb-psychology-classical-schools-rules-v1.md`](kb-psychology-classical-schools-rules-v1.md), [`kb-psychology-empirical-evidence-rules-v1.md`](kb-psychology-empirical-evidence-rules-v1.md), [`kb-psychology-cultural-adaptation-rules-v1.md`](kb-psychology-cultural-adaptation-rules-v1.md), [`kb-psychology-manipulation-and-influence-foundations-v1.md`](kb-psychology-manipulation-and-influence-foundations-v1.md) |
-| **L1 (Gender Studies)** | [`psychology-gender-studies-subdomain-v1.md`](psychology-gender-studies-subdomain-v1.md) — stub в `agent-notes.md` с тем же `section_id` |
+| **Статус / playbook** | [`status-psychology.md`](status-psychology.md), [`playbook-psychology-core-models.md`](playbook-psychology-core-models.md) |
+| **Чтение** | [`map-psychology-reading.md`](map-psychology-reading.md) |
+| **Правила (kb)** | [`kb-psychology-classical-schools-rules.md`](kb-psychology-classical-schools-rules.md), [`kb-psychology-empirical-evidence-rules.md`](kb-psychology-empirical-evidence-rules.md), [`kb-psychology-cultural-adaptation-rules.md`](kb-psychology-cultural-adaptation-rules.md), [`kb-psychology-manipulation-and-influence-foundations.md`](kb-psychology-manipulation-and-influence-foundations.md) |
+| **L1 (Gender Studies)** | [`psychology-gender-studies-subdomain.md`](psychology-gender-studies-subdomain.md) — stub в `agent-notes.md` с тем же `section_id` |
 
-**Сквозные матрицы (мир knowledge.engineering):** [`../knowledge-engineering/matrix-culture-routing-v1.md`](../knowledge-engineering/matrix-culture-routing-v1.md), [`../knowledge-engineering/matrix-do-not-transfer-v1.md`](../knowledge-engineering/matrix-do-not-transfer-v1.md).
+**Сквозные матрицы (мир knowledge.engineering):** [`../knowledge-engineering/matrix-culture-routing.md`](../knowledge-engineering/matrix-culture-routing.md), [`../knowledge-engineering/matrix-do-not-transfer.md`](../knowledge-engineering/matrix-do-not-transfer.md).
 
-Маршрутизатор: строка **Psychology** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md). Границы терапии/поддержки агента — [`../medicine-evidence/kb-therapy-and-support-boundaries-v1.md`](../medicine-evidence/kb-therapy-and-support-boundaries-v1.md) (мир **medicine.evidence**).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/psychology-models/` (ветка `feature/kb-taxonomy-layout-v1`).
+Маршрутизатор: строка **Psychology** в [`index-knowledge-router.md`](../../index-knowledge-router.md). Границы терапии/поддержки агента — [`../medicine-evidence/kb-therapy-and-support-boundaries.md`](../medicine-evidence/kb-therapy-and-support-boundaries.md) (мир **medicine.evidence**).
 

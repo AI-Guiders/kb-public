@@ -10,5 +10,5 @@
 - gate_done: noun_verb_lists_exist AND candidates_named
 - llm_cue: Am I still in analysis (domain), or did I jump to C# types?
 - related: ood, noun-verb-analysis
-- sources: worlds/software-authoring/kb-ooad-fundamentals-v1.md#1
+- sources: worlds/software-authoring/kb-ooad-fundamentals.md#1
 

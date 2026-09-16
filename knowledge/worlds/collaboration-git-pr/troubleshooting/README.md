@@ -4,7 +4,7 @@
 
 | Файл | Роль |
 |------|------|
-| [`playbook-git-pr-troubleshooting-v1.md`](playbook-git-pr-troubleshooting-v1.md) | Identity, submodule, preflight |
+| [`playbook-git-pr-troubleshooting.md`](playbook-git-pr-troubleshooting.md) | Identity, submodule, preflight |
 
-Playbooks: [`../playbook-git-workflow-v1.md`](../playbook-git-workflow-v1.md), [`../playbook-pr-review-v1.md`](../playbook-pr-review-v1.md).
+Playbooks: [`../playbook-git-workflow.md`](../playbook-git-workflow.md), [`../playbook-pr-review.md`](../playbook-pr-review.md).
 

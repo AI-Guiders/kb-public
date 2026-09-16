@@ -11,5 +11,5 @@
 - inference_hooks: applicability-then-infer
 - llm_cue: Can two threads touch this static state?
 - related: csharp-async-no-sync-over-async, gof-singleton
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

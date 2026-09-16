@@ -8,5 +8,5 @@
 - formal.order: OOA → OOD/GRASP → SOLID polish → GoF if pain repeats
 - llm_cue: Am I applying SOLID before types exist? If yes — stop, do noun-verb.
 - related: solid-srp, solid-ocp, solid-lsp, solid-isp, solid-dip
-- sources: worlds/software-authoring/kb-ooad-fundamentals-v1.md#5
+- sources: worlds/software-authoring/kb-ooad-fundamentals.md#5
 

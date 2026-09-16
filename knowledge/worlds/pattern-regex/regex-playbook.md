@@ -5,7 +5,7 @@
 ## Purpose
 Dedicated playbook for reliable regular expression design, validation, and maintenance.
 
-**Knowledge cluster (syntax, engines, dialects, карта глав MRE3):** `index-knowledge-regex-cluster-v1.md` и `kb-regex-*` в этом каталоге; маршрутизация в `index-knowledge-router-v1.md` (секция `router-regex`). Загружать playbook первым, затем точечно один `kb-regex-*` по вопросу.
+**Knowledge cluster (syntax, engines, dialects, карта глав MRE3):** `index-knowledge-regex-cluster.md` и `kb-regex-*` в этом каталоге; маршрутизация в `index-knowledge-router.md` (секция `router-regex`). Загружать playbook первым, затем точечно один `kb-regex-*` по вопросу.
 
 ## Scope
 - Pattern design and readability

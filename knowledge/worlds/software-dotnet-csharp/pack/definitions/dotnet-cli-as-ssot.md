@@ -8,5 +8,5 @@
 - formal.commands: dotnet restore, dotnet build, dotnet test, dotnet publish
 - llm_cue: Would CI and IDE disagree on how this builds?
 - related: tfm
-- sources: worlds/software-dotnet-csharp/kb-dotnet-fundamentals-v1.md
+- sources: worlds/software-dotnet-csharp/kb-dotnet-fundamentals.md
 

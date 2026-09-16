@@ -8,13 +8,9 @@
 
 | Тема | Файл |
 |------|------|
-| **Backup DB** | [`playbook-backup-db-v1.md`](playbook-backup-db-v1.md) |
-| **Incidents / tickets** | [`playbook-incidents-tickets-v1.md`](playbook-incidents-tickets-v1.md) |
-| **Troubleshooting** | [`troubleshooting/playbook-ops-reliability-troubleshooting-v1.md`](troubleshooting/playbook-ops-reliability-troubleshooting-v1.md) |
+| **Backup DB** | [`playbook-backup-db.md`](playbook-backup-db.md) |
+| **Incidents / tickets** | [`playbook-incidents-tickets.md`](playbook-incidents-tickets.md) |
+| **Troubleshooting** | [`troubleshooting/playbook-ops-reliability-troubleshooting.md`](troubleshooting/playbook-ops-reliability-troubleshooting.md) |
 
-Строка **Ops reliability** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/ops-reliability/`.
+Строка **Ops reliability** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

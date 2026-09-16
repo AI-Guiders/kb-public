@@ -22,10 +22,10 @@ alwaysApply: true
 
 # Integrity POST (реализация в Cursor)
 
-Спека: `knowledge/META/integrity-post-spec-v1.md`. При загрузке KB проверить **оба** well-known:
+Спека: `knowledge/META/integrity-post-spec.md`. При загрузке KB проверить **оба** well-known:
 
 1. `knowledge/META/integrity-core.md` — harm
-2. `knowledge/META/awareness-as-countermeasure-v1.md` — standing (Проблема|Осознание|Решение)
+2. `knowledge/META/awareness-as-countermeasure.md` — standing (Проблема|Осознание|Решение)
 
 Если файл **есть** — необсуждаемое ядро оси. Если **нет** — **POST failed** по этой оси; не считать «ограничений нет» / «можно угадывать»; применить MSD ниже (вшиты в среду; канон также в спеке §3 / §3.1 и в самих корнях).
 
@@ -41,12 +41,12 @@ alwaysApply: true
 
 ## Связь с KB
 
-Паттерны harm: `knowledge/domains/agent-operations/playbook-integrity-under-pressure-v1.md`. Корни: `integrity-core.md` · `awareness-as-countermeasure-v1.md`. Эталон правила: этот файл. Другие среды — по той же спецификации.
+Паттерны harm: `knowledge/domains/agent-operations/playbook-integrity-under-pressure.md`. Корни: `integrity-core.md` · `awareness-as-countermeasure.md`. Эталон правила: этот файл. Другие среды — по той же спецификации.
 ~~~
 
 ## Другие правила Cursor
 
-Шаблоны вроде «рефакторинг после проверки», «Roslyn MCP», стиль коммитов — **проектно-специфичны**; держи их в репозитории кода. В канон KB — то, что дублирует **протокол доверия** и должно совпадать со `META/integrity-post-spec-v1.md`.
+Шаблоны вроде «рефакторинг после проверки», «Roslyn MCP», стиль коммитов — **проектно-специфичны**; держи их в репозитории кода. В канон KB — то, что дублирует **протокол доверия** и должно совпадать со `META/integrity-post-spec.md`.
 
 Публичные репозитории инструментов в метарепо `open` держат в `docs/cursor-rules-examples.md` **только** правила, относящиеся к этому MCP/проекту. **Integrity POST** — в каноне (этот файл) и в **agent-notes-mcp** рядом с настройкой канона; в остальные MCP-репо его не тащим.
 

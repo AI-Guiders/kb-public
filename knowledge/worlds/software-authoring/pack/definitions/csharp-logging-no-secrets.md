@@ -11,5 +11,5 @@
 - inference_hooks: default-distrust, applicability-then-infer
 - llm_cue: Would I paste this log line into a ticket for a stranger?
 - related: csharp-culture-invariant-vs-current
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

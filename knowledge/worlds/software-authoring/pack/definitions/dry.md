@@ -9,5 +9,5 @@
 - misconception: DRY ≠ never duplicate a line
 - llm_cue: Is this duplication of knowledge or of coincidence?
 - related: kiss
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

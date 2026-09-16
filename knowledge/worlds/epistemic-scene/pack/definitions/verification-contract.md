@@ -9,5 +9,5 @@
 - gate_done: required_invariants_have_evidence
 - llm_cue: Is this claim covered by VC, or floating prose?
 - related: stage-result, debug-radius
-- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md
+- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc.md
 

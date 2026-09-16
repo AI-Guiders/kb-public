@@ -13,7 +13,7 @@
 
 ## Контекст
 
-1. **KB (agent-notes)** уже имеет **семантическую навигацию**: `index-knowledge-router-v1.md`, supplement, `route_context`, `read_knowledge_file`, L0 в `agent-notes.md`. Это **источник истины** по тому, *что* и в каком порядке читать, а не полнотекстовый поиск по всему дереву.
+1. **KB (agent-notes)** уже имеет **семантическую навигацию**: `index-knowledge-router.md`, supplement, `route_context`, `read_knowledge_file`, L0 в `agent-notes.md`. Это **источник истины** по тому, *что* и в каком порядке читать, а не полнотекстовый поиск по всему дереву.
 
 2. **Полнотекстовый индекс** (FTS по чанкам Markdown) полезен как **дополнение**: «где встречается формулировка», быстрый топ‑N перед точечным чтением. Он **не обязан** быть частью **agent-notes-mcp** и не обязан дублировать роутер.
 
@@ -27,7 +27,7 @@
 
 1. **Индекс по Markdown KB — опциональное расширение** потребителя среды (IDE, агент с несколькими MCP), а не обязательный компонент канона. **Канон и MCP чтения KB** остаются самодостаточными без индекса.
 
-2. **Рекомендуемая реализация v1 (без кода в agent-notes-core):** использовать **внешний** MCP HCI с `workspace_path` = корень клона канона; сужение области — через профиль **`<repo>/.hybrid-codebase-index/settings.toml`** (например только `*.md`, исключение сегментов пути `personal`, `work`, `.revisions`, `dist`). Пошаговый runbook для канона — в карточке **agent-notes-kb** под `knowledge/work/` ([`kb-hci-optional-fts-runbook-v1.md`](../work/projects/door-to-singularity/agent-notes-kb/templates/kb-hci-optional-fts-runbook-v1.md)); пример `settings.toml` дублируется там (приложение А) и в репозитории HCI (`examples/settings.agent-notes-kb.toml`) для удобства сборки MCP. Содержимое runbook **не** в kb-public.
+2. **Рекомендуемая реализация v1 (без кода в agent-notes-core):** использовать **внешний** MCP HCI с `workspace_path` = корень клона канона; сужение области — через профиль **`<repo>/.hybrid-codebase-index/settings.toml`** (например только `*.md`, исключение сегментов пути `personal`, `work`, `.revisions`, `dist`). Пошаговый runbook для канона — в карточке **agent-notes-kb** под `knowledge/work/` ([`kb-hci-optional-fts-runbook.md`](../work/projects/door-to-singularity/agent-notes-kb/templates/kb-hci-optional-fts-runbook.md)); пример `settings.toml` дублируется там (приложение А) и в репозитории HCI (`examples/settings.agent-notes-kb.toml`) для удобства сборки MCP. Содержимое runbook **не** в kb-public.
 
 3. **Не делаем в рамках этого ADR** (явные non-goals, пока не принят отдельный ADR):
    - встраивание SQLite / sqlite-vec **внутрь** `AgentNotes.Core` / `agent-notes-mcp` как обязательную зависимость;

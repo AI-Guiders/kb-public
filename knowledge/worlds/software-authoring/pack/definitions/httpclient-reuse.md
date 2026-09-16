@@ -8,5 +8,5 @@
 - formal.rule: use_IHttpClientFactory_or_documented_singleton
 - llm_cue: Socket exhaustion risk from per-request HttpClient?
 - related: csharp-dispose-using, csharp-di-no-scoped-from-singleton, gof-singleton
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

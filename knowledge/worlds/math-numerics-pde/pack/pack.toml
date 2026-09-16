@@ -5,5 +5,5 @@ title = "PDE fundamentals (sparse subject)"
 onboarding = "Classify elliptic/parabolic/hyperbolic before numerics; keep IC/BC explicit. Method of learning → epistemic-methodology / pedagogy packs."
 depends_on = ["epistemic-methodology"]
 content = "definitions/*.md"
-sources = ["worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md"]
+sources = ["worlds/math-numerics-pde/kb-math-pde-fundamentals.md"]
 

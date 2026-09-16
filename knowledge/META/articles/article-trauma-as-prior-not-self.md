@@ -2,7 +2,6 @@
 
 **Trauma as Prior, Not as Self**
 
-**Версия:** 0.3.1 (RU de-jargon polish)  
 **Дата:** 5 августа 2026  
 **Авторы:** С. Каратаева; при участии программного агента-соавтора  
 **Аффилиация:** независимые авторы; без клинической / вузовской аффилиации  
@@ -278,5 +277,5 @@ Trauma-informed принципы [3] здесь читаются как этик
 
 ## Приложение A. Авторский рудник (не часть аргумента для журнала)
 
-Workspace: `knowledge/worlds/psychology-models/` · `knowledge/worlds/medicine-evidence/kb-therapy-and-support-boundaries-v1.md` · `knowledge/META/environment-axioms-v1.md` · `domains/agent-operations/playbook-being-vs-seeming-v1.md`. В публичный текст — только обобщения и открытая литература; без private trauma narrative.
+Workspace: `knowledge/worlds/psychology-models/` · `knowledge/worlds/medicine-evidence/kb-therapy-and-support-boundaries.md` · `knowledge/META/environment-axioms.md` · `domains/agent-operations/playbook-being-vs-seeming.md`. В публичный текст — только обобщения и открытая литература; без private trauma narrative.
 

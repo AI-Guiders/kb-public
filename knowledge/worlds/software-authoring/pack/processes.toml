@@ -13,7 +13,7 @@ steps = [
 ]
 gate = ["candidates_named", "no_new_kind_case_without_type"]
 definition_anchors = ["ooa", "ood", "noun-verb-analysis", "solid-after-grasp"]
-sources = ["worlds/software-authoring/playbook-ooad-agent-operational-v1.md"]
+sources = ["worlds/software-authoring/playbook-ooad-agent-operational.md"]
 
 [[process]]
 id = "mutation-blast-bound"
@@ -37,6 +37,6 @@ gate = [
 definition_anchors = ["blast-radius", "verification-contract", "stage-result", "delta-radius-gate"]
 sources = [
   "worlds/epistemic-scene/pack/definitions/blast-radius.md",
-  "worlds/_llm-native-packs/note-pack-layers-v0.md",
+  "worlds/_llm-native-packs/note-pack-layers.md",
 ]
 

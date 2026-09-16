@@ -8,5 +8,5 @@
 - formal.example: u_t = α Δu + f
 - llm_cue: Heat/diffusion? Require IC + BC, not BC-only.
 - related: pde-elliptic, pde-hyperbolic
-- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals-v1.md
+- sources: worlds/math-numerics-pde/kb-math-pde-fundamentals.md
 

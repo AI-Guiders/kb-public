@@ -1,7 +1,7 @@
 # `knowledge/temp/` — external WM агента (scratch)
 
 **Статус:** операционная корзина · не kb-public · не канон  
-**Playbook:** [`domains/agent-operations/playbook-external-memory-workaround-v1.md`](../domains/agent-operations/playbook-external-memory-workaround-v1.md)
+**Playbook:** [`domains/agent-operations/playbook-external-memory-workaround.md`](../domains/agent-operations/playbook-external-memory-workaround.md)
 
 ---
 
@@ -49,11 +49,11 @@ temp/*.md  →  задача дожита  →  merge в playbook / work / domai
 
 ## Не класть сюда
 
-- ADR, playbooks, status — сразу в целевую корзину по [`META/kb-taxonomy-v1.md`](../META/kb-taxonomy-v1.md)
+- ADR, playbooks, status — сразу в целевую корзину по [`META/kb-taxonomy.md`](../META/kb-taxonomy.md)
 - секреты, токены, `.env`
 - дампы логов и бинарники
 
 ---
 
-**Hub:** [`agent-memory-and-operating-principles-v1.md`](../agent-memory-and-operating-principles-v1.md)
+**Hub:** [`agent-memory-and-operating-principles.md`](../agent-memory-and-operating-principles.md)
 

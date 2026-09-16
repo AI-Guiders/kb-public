@@ -8,5 +8,5 @@
 - formal.heuristic: prefer_has_a_delegation_unless_is_a_is_stable
 - llm_cue: Is inheritance for reuse only? Prefer composition.
 - related: solid-dip
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

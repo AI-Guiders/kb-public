@@ -11,5 +11,5 @@
 - inference_hooks: applicability-then-infer, gof-singleton
 - llm_cue: Is a shorter-lived service stuck inside a longer-lived one?
 - related: gof-singleton, httpclient-reuse, csharp-dispose-using
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

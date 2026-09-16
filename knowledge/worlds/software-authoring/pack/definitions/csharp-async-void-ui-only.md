@@ -11,5 +11,5 @@
 - inference_hooks: csharp-async-no-sync-over-async, applicability-then-infer
 - llm_cue: Is this forced void by an event — or lazy fire-and-forget?
 - related: csharp-async-no-sync-over-async, csharp-valuetask-semantics
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

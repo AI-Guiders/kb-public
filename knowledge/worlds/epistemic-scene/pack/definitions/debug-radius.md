@@ -12,5 +12,5 @@
 - gate_done: radius == 0
 - llm_cue: Does this conclusion shrink debug-radius? If not — do not promote.
 - related: hypothesis-space-h, delta-radius-gate, stage-result, verification-contract
-- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md
+- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc.md
 

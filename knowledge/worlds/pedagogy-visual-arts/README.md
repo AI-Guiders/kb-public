@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-visual-arts-v1.md`](status-pedagogy-visual-arts-v1.md) |
-| **Playbook** | [`playbook-pedagogy-visual-arts-v1.md`](playbook-pedagogy-visual-arts-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-visual-arts-fundamentals-v1.md`](kb-pedagogy-visual-arts-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-visual-arts-scientific-evidence-v1.md`](kb-pedagogy-visual-arts-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-visual-arts-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-visual-arts.md`](status-pedagogy-visual-arts.md) |
+| **Playbook** | [`playbook-pedagogy-visual-arts.md`](playbook-pedagogy-visual-arts.md) |
+| **Fundamentals** | [`kb-pedagogy-visual-arts-fundamentals.md`](kb-pedagogy-visual-arts-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-visual-arts-scientific-evidence.md`](kb-pedagogy-visual-arts-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-visual-arts-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

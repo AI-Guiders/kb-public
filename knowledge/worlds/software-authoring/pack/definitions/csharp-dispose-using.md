@@ -11,5 +11,5 @@
 - inference_hooks: applicability-then-infer
 - llm_cue: Who owns this resource — and is cleanup on every path?
 - related: httpclient-reuse, csharp-async-no-sync-over-async
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

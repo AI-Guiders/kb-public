@@ -10,5 +10,5 @@
 - gate_done: types_have_responsibilities AND dependencies_direction_stated
 - llm_cue: Did responsibilities get assigned (GRASP), or only DTO fields?
 - related: ooa, grasp-information-expert, solid-after-grasp
-- sources: worlds/software-authoring/kb-ooad-fundamentals-v1.md#1
+- sources: worlds/software-authoring/kb-ooad-fundamentals.md#1
 

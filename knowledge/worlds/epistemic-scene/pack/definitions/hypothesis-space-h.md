@@ -8,5 +8,5 @@
 - formal.measure: set of open hypothesis ids on scene
 - llm_cue: What is still in H after this claim?
 - related: debug-radius, delta-radius-gate
-- sources: domains/agent-operations/note-cig-conversational-information-gain-v0.md
+- sources: domains/agent-operations/note-cig-conversational-information-gain.md
 

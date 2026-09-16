@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-informatics-v1.md`](status-pedagogy-informatics-v1.md) |
-| **Playbook** | [`playbook-pedagogy-informatics-v1.md`](playbook-pedagogy-informatics-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-informatics-fundamentals-v1.md`](kb-pedagogy-informatics-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-informatics-scientific-evidence-v1.md`](kb-pedagogy-informatics-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-informatics-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-informatics.md`](status-pedagogy-informatics.md) |
+| **Playbook** | [`playbook-pedagogy-informatics.md`](playbook-pedagogy-informatics.md) |
+| **Fundamentals** | [`kb-pedagogy-informatics-fundamentals.md`](kb-pedagogy-informatics-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-informatics-scientific-evidence.md`](kb-pedagogy-informatics-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-informatics-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

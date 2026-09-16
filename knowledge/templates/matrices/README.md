@@ -2,12 +2,13 @@
 
 ﻿# `templates/matrices/` — шаблоны transfer / routing матриц
 
-Каркасы для **`matrix-*-v1.md`** в `worlds/<world>/` (или редко в `domains/`).
+Каркасы для **`matrix-*.md`** в `worlds/<world>/` (или редко в `domains/`).
 
 | Файл | Назначение |
 |------|------------|
-| `template-transfer-matrix-v1.md` | Симптом → playbook/kb; cross-world guardrails; fast router + detail table |
+| `template-transfer-matrix.md` | Симптом → playbook/kb; cross-world guardrails; fast router + detail table |
 
-**Живые матрицы (не шаблоны):** см. `worlds/knowledge-engineering/matrix-culture-routing-v1.md`, `matrix-do-not-transfer-v1.md`, `worlds/software-authoring/matrix-software-cross-domain-transfer-v1.md`.
+**Живые матрицы (не шаблоны):** см. `worlds/knowledge-engineering/matrix-culture-routing.md`, `matrix-do-not-transfer.md`, `worlds/software-authoring/matrix-software-cross-domain-transfer.md`.
 
 Верхний индекс: [`../README.md`](../README.md).
+

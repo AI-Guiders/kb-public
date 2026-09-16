@@ -8,12 +8,8 @@
 
 | Тема | Файл |
 |------|------|
-| **Web API** | [`kb-webapitoolkit-v1.md`](kb-webapitoolkit-v1.md) |
-| **Telegram** | [`kb-telegram-api-wtelegram-ids-v1.md`](kb-telegram-api-wtelegram-ids-v1.md) |
+| **Web API** | [`kb-webapitoolkit.md`](kb-webapitoolkit.md) |
+| **Telegram** | [`kb-telegram-api-wtelegram-ids.md`](kb-telegram-api-wtelegram-ids.md) |
 
-Строка **Software integration** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/software-integration-kb/`.
+Строка **Software integration** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

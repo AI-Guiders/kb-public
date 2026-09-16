@@ -2,7 +2,7 @@
 
 **Tags:** #worlds #llm-ready #map #epistemic  
 **Date:** 2026-07-20  
-**Layers:** [`note-pack-layers-v0.md`](note-pack-layers-v0.md)
+**Layers:** [`note-pack-layers.md`](note-pack-layers.md)
 
 Правило: card = тонкая проекция; длинный prose остаётся в extended; `sources:` на L0/extended.
 
@@ -10,13 +10,13 @@
 
 | L0 section | Extended / hub | Pack | Definition id | Status |
 |------------|----------------|------|---------------|--------|
-| `baseline-integrity-epistemic-v1` | `baseline-integrity-epistemic-extended-v1.md` | methodology | `integrity-baseline` | seeded |
-| `epistemic-default-distrust-v1` | `epistemic-default-distrust-extended-v1.md` | methodology | `default-distrust` | seeded |
-| `principled-clarity-v1` | `playbook-principled-clarity-v1.md` | methodology | `principled-clarity` | seeded |
-| `core-when-barriers-fail-v1` | `META/core-when-barriers-fail-extended-v1.md` | scene | `core-when-barriers-fail` | seeded |
+| `baseline-integrity-epistemic-v1` | `baseline-integrity-epistemic-extended.md` | methodology | `integrity-baseline` | seeded |
+| `epistemic-default-distrust-v1` | `epistemic-default-distrust-extended.md` | methodology | `default-distrust` | seeded |
+| `principled-clarity-v1` | `playbook-principled-clarity.md` | methodology | `principled-clarity` | seeded |
+| `core-when-barriers-fail-v1` | `META/core-when-barriers-fail-extended.md` | scene | `core-when-barriers-fail` | seeded |
 | `agent-equal-standing-v1` | equal-standing notes | methodology | `equal-standing` | seeded |
 | (index) `epistemic-playbook.md` | methodology bridges | methodology | `claim-observation-split` | seeded |
-| calibration playbook | `playbook-epistemic-methods-and-calibration-v1.md` | methodology | (later) `calibration-14d` | defer |
+| calibration playbook | `playbook-epistemic-methods-and-calibration.md` | methodology | (later) `calibration-14d` | defer |
 
 ## Scene (уже были в agent-ops → pack `epistemic-scene`)
 

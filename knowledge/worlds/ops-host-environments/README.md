@@ -11,9 +11,5 @@
 | **Linux** | [`linux-environments-playbook.md`](linux-environments-playbook.md) |
 | **Windows** | [`windows-environments-playbook.md`](windows-environments-playbook.md) |
 
-Строка **Host OS environments** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/ops-host-environments/`.
+Строка **Host OS environments** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

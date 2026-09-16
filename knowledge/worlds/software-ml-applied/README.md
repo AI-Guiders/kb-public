@@ -9,9 +9,5 @@
 
 | Роль | Файл | Содержание |
 |------|------|------------|
-| **KB** | [`kb-ml-applied-theory-v1.md`](kb-ml-applied-theory-v1.md) | ML, OCR, коды, правила R1–R7. |
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/software-ml-applied/` (ветка `feature/kb-taxonomy-layout-v1`).
+| **KB** | [`kb-ml-applied-theory.md`](kb-ml-applied-theory.md) | ML, OCR, коды, правила R1–R7. |
 

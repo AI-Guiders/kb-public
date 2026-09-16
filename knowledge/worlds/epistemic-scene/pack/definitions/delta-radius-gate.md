@@ -13,5 +13,5 @@
 - inference_hooks: applicability-then-infer, debug-radius, hypothesis-space-h
 - llm_cue: Before promote: Δradius < 0?
 - related: debug-radius, hypothesis-space-h, applicability-inference-gate
-- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc-v0.md
+- sources: work/projects/door-to-singularity/cascade-ide/note-cdp-design-doc.md
 

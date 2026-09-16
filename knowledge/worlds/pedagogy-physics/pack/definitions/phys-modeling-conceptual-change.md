@@ -8,5 +8,5 @@
 - formal.gate: conceptual_change_verified_on_held_out
 - llm_cue: Am I testing recitation, or revised models on new contexts?
 - related: phys-p1-phenomenon, phys-p2-representations, phys-p3-model-refinement, phys-p4-quantitative
-- sources: worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals-v1.md
+- sources: worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals.md
 

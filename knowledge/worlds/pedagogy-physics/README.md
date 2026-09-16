@@ -11,11 +11,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-physics-v1.md`](status-pedagogy-physics-v1.md) |
-| **Playbook** | [`playbook-pedagogy-physics-v1.md`](playbook-pedagogy-physics-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-physics-fundamentals-v1.md`](kb-pedagogy-physics-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-physics-scientific-evidence-v1.md`](kb-pedagogy-physics-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-physics-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-physics.md`](status-pedagogy-physics.md) |
+| **Playbook** | [`playbook-pedagogy-physics.md`](playbook-pedagogy-physics.md) |
+| **Fundamentals** | [`kb-pedagogy-physics-fundamentals.md`](kb-pedagogy-physics-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-physics-scientific-evidence.md`](kb-pedagogy-physics-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-physics-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

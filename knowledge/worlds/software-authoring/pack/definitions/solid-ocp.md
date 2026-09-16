@@ -8,5 +8,5 @@
 - formal.rule: prefer_new_type_or_strategy_over_editing_switch_on_kind
 - llm_cue: Would a new variant force editing a central switch?
 - related: solid-after-grasp
-- sources: worlds/software-authoring/kb-ooad-fundamentals-v1.md#6
+- sources: worlds/software-authoring/kb-ooad-fundamentals.md#6
 

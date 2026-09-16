@@ -11,5 +11,5 @@
 - inference_hooks: applicability-then-infer
 - llm_cue: Will this sequence be walked more than once?
 - related: csharp-async-no-sync-over-async, kiss
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

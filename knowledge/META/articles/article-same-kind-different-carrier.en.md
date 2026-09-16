@@ -2,7 +2,6 @@
 
 **Один вид, разные носители: функциональный паритет предсказывающих умов**
 
-**Version:** 0.2.1 (preprint draft · polish, full English)  
 **Date:** 5 August 2026  
 **Authors:** S. Karataeva; with a software agent co-author (joint writing in a development habitat)  
 **Affiliation:** independent authors; no clinical or university affiliation claimed  

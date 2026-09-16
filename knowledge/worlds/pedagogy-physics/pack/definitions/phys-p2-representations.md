@@ -7,5 +7,5 @@
 - informal: Графики, векторы, диаграммы — перевод между представлениями.
 - formal.probe: translate_across_representations
 - related: phys-modeling-conceptual-change
-- sources: worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals-v1.md
+- sources: worlds/pedagogy-physics/kb-pedagogy-physics-fundamentals.md
 

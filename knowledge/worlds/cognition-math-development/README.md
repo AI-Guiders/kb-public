@@ -15,9 +15,10 @@
 
 | Layer | File |
 |-------|------|
-| Index | [`kb-math-development-scientific-evidence-v1.md`](kb-math-development-scientific-evidence-v1.md) |
-| Transfer | [`matrix-math-development-transfer-v1.md`](matrix-math-development-transfer-v1.md) |
+| Index | [`kb-math-development-scientific-evidence.md`](kb-math-development-scientific-evidence.md) |
+| Transfer | [`matrix-math-development-transfer.md`](matrix-math-development-transfer.md) |
 
 ## CASA (lab only)
 
-Human numeracy evidence → **deny** прямой import в F0/bench без engineering bridge. См. `Financial/software/open/casa-ontology-payload/design/` (F0, bukvar phases) — гипотезы only.
+Human numeracy evidence → **deny** прямой import в F0/bench без engineering bridge. См. `open/casa-ontology-payload/design/` (F0, bukvar phases) — гипотезы only.
+

@@ -35,7 +35,7 @@ Unified frontend engineering playbook for .NET UI stacks:
 
 ## Avalonia and XAML Track
 
-**CascadeIDE / Dock / дизайн-имплементация:** полная цепочка **status → playbook → kb** — `status-avalonia-cascade-ide-ui-v1.md`, `playbook-avalonia-dock-ui-v1.md`, `kb-avalonia-ui-dock-fundamentals-v1.md`; маршрутизатор индекса: секция `router-avalonia-ui` в `index-knowledge-router-v1.md`.
+**CascadeIDE / Dock / дизайн-имплементация:** полная цепочка **status → playbook → kb** — `status-avalonia-cascade-ide-ui.md`, `playbook-avalonia-dock-ui.md`, `kb-avalonia-ui-dock-fundamentals.md`; маршрутизатор индекса: секция `router-avalonia-ui` в `index-knowledge-router.md`.
 
 - MVVM boundaries and command/state flow.
 - Resource dictionaries, styling, and theme consistency.

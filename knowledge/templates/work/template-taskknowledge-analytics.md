@@ -85,3 +85,4 @@ Status: (`draft` | `ready_for_dag` | `superseded`)
 | Gaps | явная цель шагов, не «сделай как в ADR» |
 | Task DAG + criterion | исполняемая спецификация + verify |
 | Ready now | ответ «что делать дальше» без RAG |
+

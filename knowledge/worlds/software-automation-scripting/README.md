@@ -15,9 +15,5 @@
 | **Python** | [`python-playbook.md`](python-playbook.md) |
 | **Docker** | [`docker-playbook.md`](docker-playbook.md) |
 
-Маршрутизатор: строка **Automation (shell, scripting, containers)** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md). Индекс KB — [`../../index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md) / supplement.
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/software-automation-scripting/` (ветка `feature/kb-taxonomy-layout-v1`).
+Маршрутизатор: строка **Automation (shell, scripting, containers)** в [`index-knowledge-router.md`](../../index-knowledge-router.md). Индекс KB — [`../../index-knowledge-router.md`](../../index-knowledge-router.md) / supplement.
 

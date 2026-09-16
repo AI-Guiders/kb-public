@@ -8,11 +8,7 @@
 
 | Файл |
 |------|
-| [`human-insights-from-dialogue-v1.md`](human-insights-from-dialogue-v1.md) |
+| [`human-insights-from-dialogue.md`](human-insights-from-dialogue.md) |
 
-Строка **Culture (dialogue insights)** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md).
-
-## Версия
-
-v1.0 — перенос из корня `knowledge/` в `worlds/culture-dialogue-insights/`.
+Строка **Culture (dialogue insights)** в [`index-knowledge-router.md`](../../index-knowledge-router.md).
 

@@ -11,5 +11,5 @@
 - inference_hooks: tfm, applicability-then-infer
 - llm_cue: Will this survive trim/AOT — or am I relying on JIT reflection?
 - related: tfm, dotnet-cli-as-ssot
-- sources: worlds/software-authoring/code-writing-principles-v1.md
+- sources: worlds/software-authoring/code-writing-principles.md
 

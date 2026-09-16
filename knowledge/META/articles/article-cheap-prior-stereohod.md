@@ -2,7 +2,6 @@
 
 **Cheap Priors and Stereomove: Psychology Across Carriers**
 
-**Версия:** 0.3.2 (logic + true laziness)  
 **Дата:** 5 августа 2026  
 **Авторы:** С. Каратаева; при участии программного агента-соавтора  
 **Аффилиация:** независимые авторы; без клинической / вузовской аффилиации  
@@ -249,5 +248,5 @@ RLHF и родственные методы усиливают гладкие, �
 
 ## Приложение A. Авторский рудник (не часть аргумента для журнала)
 
-Workspace: `knowledge/worlds/psychology-models/`, `META/environment-axioms-v1.md`, engineering notes on cockpit attention / cognitive load. В публичный текст перенесены только обобщения и открытая литература.
+Workspace: `knowledge/worlds/psychology-models/`, `META/environment-axioms.md`, engineering notes on cockpit attention / cognitive load. В публичный текст перенесены только обобщения и открытая литература.
 

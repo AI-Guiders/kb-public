@@ -2,7 +2,7 @@
 
 **Tags:** #worlds #llm-ready #map #kb
 
-Рабочий store для **domain packs** продукта `note-llm-native-world-product-v0.md`.  
+Рабочий store для **domain packs** продукта `note-llm-native-world-product.md`.  
 Исходные prose/KB **не удаляются** — остаются R0/R1 источниками; pack = LLM-native проекция.
 
 ## Layout
@@ -17,7 +17,7 @@ knowledge/worlds/<world>/pack/
 
 ## Layers
 
-См. [`note-pack-layers-v0.md`](note-pack-layers-v0.md) · inventory L0 → ids: [`INVENTORY-L0-TO-PACKS.md`](INVENTORY-L0-TO-PACKS.md).
+См. [`note-pack-layers.md`](note-pack-layers.md) · inventory L0 → ids: [`INVENTORY-L0-TO-PACKS.md`](INVENTORY-L0-TO-PACKS.md).
 
 `scene` · `craft` · `methodology` · `stack` · `consumer` · (`subject` = метка предмета, не архитектурный слой).
 

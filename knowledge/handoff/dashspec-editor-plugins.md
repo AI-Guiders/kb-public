@@ -29,3 +29,4 @@ cd dash-spec
 ```
 
 Settings: dashspec.languageServerEnabled (default true). CLI validate optional via dashspec.hostDll.
+

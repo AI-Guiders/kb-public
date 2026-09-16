@@ -11,5 +11,5 @@
 - inference_hooks: applicability-then-infer, claim-observation-split, integrity-baseline
 - llm_cue: Did I verify this claim, or am I amplifying it?
 - related: integrity-baseline, claim-observation-split, principled-clarity, applicability-inference-gate
-- sources: epistemic-default-distrust-extended-v1.md, agent-notes L0 epistemic-default-distrust-v1
+- sources: epistemic-default-distrust-extended.md, agent-notes L0 epistemic-default-distrust-v1
 

@@ -9,11 +9,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-chemistry-v1.md`](status-pedagogy-chemistry-v1.md) |
-| **Playbook** | [`playbook-pedagogy-chemistry-v1.md`](playbook-pedagogy-chemistry-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-chemistry-fundamentals-v1.md`](kb-pedagogy-chemistry-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-chemistry-scientific-evidence-v1.md`](kb-pedagogy-chemistry-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-chemistry-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-chemistry.md`](status-pedagogy-chemistry.md) |
+| **Playbook** | [`playbook-pedagogy-chemistry.md`](playbook-pedagogy-chemistry.md) |
+| **Fundamentals** | [`kb-pedagogy-chemistry-fundamentals.md`](kb-pedagogy-chemistry-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-chemistry-scientific-evidence.md`](kb-pedagogy-chemistry-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-chemistry-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 

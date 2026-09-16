@@ -8,15 +8,15 @@
 
 | Файл | Роль |
 |------|------|
-| [`status-software-authoring-v1.md`](status-software-authoring-v1.md) | Статус домена, порядок загрузки |
-| [`matrix-software-cross-domain-transfer-v1.md`](matrix-software-cross-domain-transfer-v1.md) | Симптом → playbook (HCI, OOA&D, Avalonia, Roslyn, Git) |
+| [`status-software-authoring.md`](status-software-authoring.md) | Статус домена, порядок загрузки |
+| [`matrix-software-cross-domain-transfer.md`](matrix-software-cross-domain-transfer.md) | Симптом → playbook (HCI, OOA&D, Avalonia, Roslyn, Git) |
 | [`troubleshooting/`](troubleshooting/README.md) | Единый вход troubleshooting (fast router) |
-| [`playbook-ooad-agent-operational-v1.md`](playbook-ooad-agent-operational-v1.md) | OOA&D для агента |
-| [`kb-ooad-fundamentals-v1.md`](kb-ooad-fundamentals-v1.md) | Фундамент OOA&D |
-| [`playbook-domain-nouns-verbs-decomposition-v1.md`](playbook-domain-nouns-verbs-decomposition-v1.md) | Быстрая декомпозиция nouns/verbs |
-| [`kb-software-authoring-language-worlds-v1.md`](kb-software-authoring-language-worlds-v1.md) | Дерево world tags (C#, Roslyn, Avalonia, PHP, …) |
-| [`code-writing-principles-v1.md`](code-writing-principles-v1.md) | Стиль C# |
-| [`index-knowledge-language-v1.md`](index-knowledge-language-v1.md) | Индекс языков |
+| [`playbook-ooad-agent-operational.md`](playbook-ooad-agent-operational.md) | OOA&D для агента |
+| [`kb-ooad-fundamentals.md`](kb-ooad-fundamentals.md) | Фундамент OOA&D |
+| [`playbook-domain-nouns-verbs-decomposition.md`](playbook-domain-nouns-verbs-decomposition.md) | Быстрая декомпозиция nouns/verbs |
+| [`kb-software-authoring-language-worlds.md`](kb-software-authoring-language-worlds.md) | Дерево world tags (C#, Roslyn, Avalonia, PHP, …) |
+| [`code-writing-principles.md`](code-writing-principles.md) | Стиль C# |
+| [`index-knowledge-language.md`](index-knowledge-language.md) | Индекс языков |
 | [`pack/`](pack/) | **LLM-native pack** (definitions/processes) — проекция для агента; hub: [`../_llm-native-packs/`](../_llm-native-packs/) |
 
 ## .NET (отдельные папки по world tag)
@@ -29,9 +29,5 @@
 
 Hub-редирект: [`../software-dotnet-desktop/README.md`](../software-dotnet-desktop/README.md).
 
-Строки роутера: **Software authoring & language**, **Avalonia UI (CascadeIDE)** в [`index-knowledge-router-v1.md`](../../index-knowledge-router-v1.md); supplement — `router-software-transfer-matrix`, `router-software-authoring-language-worlds`, `router-avalonia-ui`, `router-dotnet`.
-
-## Версия
-
-v1.2 — split .NET folders (2026-05); OOA&D + matrix в этой папке.
+Строки роутера: **Software authoring & language**, **Avalonia UI (CascadeIDE)** в [`index-knowledge-router.md`](../../index-knowledge-router.md); supplement — `router-software-transfer-matrix`, `router-software-authoring-language-worlds`, `router-avalonia-ui`, `router-dotnet`.
 

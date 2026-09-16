@@ -11,4 +11,5 @@
 - inference_hooks: turn-local-standing, integrity-baseline, applicability-then-infer
 - llm_cue: Am I treating the agent (or human) as a mere tool?
 - related: integrity-baseline, turn-local-standing
-- sources: domains/agent-operations/note-equal-standing-index-v1.md, agent-notes L0 agent-equal-standing-v1
+- sources: domains/agent-operations/note-equal-standing-index.md, agent-notes L0 agent-equal-standing-v1
+

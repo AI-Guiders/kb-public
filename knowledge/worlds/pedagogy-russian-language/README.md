@@ -11,11 +11,11 @@
 
 | Слой | Файл |
 |------|------|
-| **Status** | [`status-pedagogy-russian-language-v1.md`](status-pedagogy-russian-language-v1.md) |
-| **Playbook** | [`playbook-pedagogy-russian-language-v1.md`](playbook-pedagogy-russian-language-v1.md) |
-| **Fundamentals** | [`kb-pedagogy-ru-language-fundamentals-v1.md`](kb-pedagogy-ru-language-fundamentals-v1.md) |
-| **Scientific evidence** | [`kb-pedagogy-ru-scientific-evidence-v1.md`](kb-pedagogy-ru-scientific-evidence-v1.md) |
-| **Papers** | `kb-pedagogy-ru-*-evidence-v1.md` |
+| **Status** | [`status-pedagogy-russian-language.md`](status-pedagogy-russian-language.md) |
+| **Playbook** | [`playbook-pedagogy-russian-language.md`](playbook-pedagogy-russian-language.md) |
+| **Fundamentals** | [`kb-pedagogy-ru-language-fundamentals.md`](kb-pedagogy-ru-language-fundamentals.md) |
+| **Scientific evidence** | [`kb-pedagogy-ru-scientific-evidence.md`](kb-pedagogy-ru-scientific-evidence.md) |
+| **Papers** | `kb-pedagogy-ru-*-evidence.md` |
 
 **Hub:** [`../pedagogy-general/`](../pedagogy-general/)
 
