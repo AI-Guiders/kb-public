@@ -3,6 +3,7 @@ type: Playbook
 title: Project switch v1
 description: 'Тела секции `project-switch-protocol-v1` из `agent-notes.md`. Длинный контур: `knowledge/worlds/workspace-context/playbook-multi-project-context.md`.'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 sections: [project-switch-protocol-v1]
 ---
 # Project switch v1

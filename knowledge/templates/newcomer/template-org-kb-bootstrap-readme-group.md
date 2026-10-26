@@ -3,7 +3,7 @@ type: Template
 title: '{ORG_DISPLAY} — group KB (`{REPO_GROUP}`)'
 description: Приватный **командный** контур знаний (chmod **g**, MCP `knowledge_root_id=group`).
 tags: [template, templates]
-subtype: org-kb-bootstrap-readme-group
+language: ru
 ---
 # {ORG_DISPLAY} — group KB (`{REPO_GROUP}`)
 

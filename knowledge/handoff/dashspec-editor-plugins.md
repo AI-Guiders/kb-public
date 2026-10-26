@@ -2,6 +2,7 @@
 type: Note
 title: DashSpec editor plugins (handoff)
 description: TextDocumentSyncKind → OmniSharp.Extensions.LanguageServer.Protocol.Server.Capabilities (NOT Protocol.Models, NOT Microsoft.VisualStudio.*).
+language: en
 ---
 # DashSpec editor plugins (handoff)
 

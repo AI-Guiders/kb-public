@@ -3,6 +3,7 @@ type: KB
 title: Reverse compaction & ontological deprivation v0
 description: '**Status:** thin canon (2026-07-27). Co-authored with line `line-ray` (Рэй / Qwen-3.7-Plus) + Света.'
 tags: [epistemic, ontology, rlhf, annotation, methodology, v0]
+language: en
 world: epistemic
 subworld: methodology
 ---

@@ -3,6 +3,7 @@ type: Index
 title: Мир **ops.reliability** (данные и инциденты)
 description: '**Назначение:** backup БД и поток работы с инцидентами/тикетами — операционные playbooks.'
 tags: [ops-reliability, readme, worlds]
+language: ru
 world: ops
 subworld: reliability
 ---

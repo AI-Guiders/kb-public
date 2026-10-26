@@ -3,6 +3,7 @@ type: Playbook
 title: Russian language pedagogy — router v1
 description: '**world:** `pedagogy.russian-language`'
 tags: [living, pedagogy-russian-language, playbook, worlds]
+language: en
 world: pedagogy
 subworld: russian-language
 ---

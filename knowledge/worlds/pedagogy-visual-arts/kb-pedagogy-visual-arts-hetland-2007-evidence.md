@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Hetland, Winner et al. (2007) — Studio Thinking'
 description: '**Thesis:** rigorous visual arts instruction develops **Studio Habits of Mind** — thinking dispositions visible in **making, observing, and critique**, not only technical skill.'
 tags: [kb, pedagogy-visual-arts, worlds]
+language: en
 world: pedagogy
 subworld: visual-arts
 ---

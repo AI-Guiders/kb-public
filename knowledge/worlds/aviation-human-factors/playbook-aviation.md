@@ -3,6 +3,7 @@ type: Playbook
 title: Aviation Playbook v1
 description: Root world map for aviation knowledge.
 tags: [aviation-human-factors, living, playbook, worlds]
+language: en
 world: aviation
 subworld: human-factors
 ---

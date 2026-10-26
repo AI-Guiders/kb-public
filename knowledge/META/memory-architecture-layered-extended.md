@@ -3,6 +3,7 @@ type: Note
 title: Memory Architecture v1 (Layered) — extended
 description: Перенесено из `agent-notes.md` (приборка hot). В hot остаётся stub `memory-architecture-v1` с `l0_manifest` (выше `public-cut` для kb-public).
 tags: [meta]
+language: ru
 ---
 # Memory Architecture v1 (Layered) — extended
 

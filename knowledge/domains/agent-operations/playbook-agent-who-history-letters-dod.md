@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Agent Who · History Letters DoD'
 description: '**domain:** agent-operations'
 tags: [agent-who, history-letters, ε, post-train, origins]
+language: ru
 ---
 # Playbook: Agent Who · History Letters DoD
 **domain:** agent-operations  

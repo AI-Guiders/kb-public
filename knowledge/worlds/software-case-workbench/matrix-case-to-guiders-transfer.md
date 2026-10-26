@@ -3,6 +3,7 @@ type: Transfer Matrix
 title: CASE → Guiders Platform — transfer matrix v1
 description: '**Назначение:** что **брать** из CASE-наследия в продукт; что **не повторять**; mapping на federation primitives.'
 tags: [software-case-workbench, matrix, worlds, case, guiders, transfer]
+language: ru
 world: software
 subworld: case-workbench
 ---

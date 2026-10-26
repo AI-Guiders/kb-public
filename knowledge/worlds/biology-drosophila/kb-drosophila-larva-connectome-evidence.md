@@ -2,6 +2,7 @@
 type: Evidence Card
 title: Drosophila melanogaster — Коннектом личинки (полный мозг, Science 2023) (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, larva, connectome, remodeling, comparative]
+language: ru
 world: biology
 subworld: drosophila
 ---

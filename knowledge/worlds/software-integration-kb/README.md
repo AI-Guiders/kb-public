@@ -3,6 +3,7 @@ type: Index
 title: Мир **software.integration-kb** (интеграции и API kb)
 description: '**Назначение:** узкоспециализированные kb по внешним API/интеграциям (WebApiToolkit, Telegram/WTelegram).'
 tags: [readme, software-integration-kb, worlds]
+language: ru
 world: software
 subworld: integration-kb
 ---

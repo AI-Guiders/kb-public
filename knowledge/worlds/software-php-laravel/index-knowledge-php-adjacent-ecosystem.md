@@ -3,6 +3,7 @@ type: Index
 title: Смежная PHP-экосистема (CMS, Symfony, Packagist) — навигация v1
 description: '**Назначение:** маршрутизация **вне** «чистого PHP» и **вне** Laravel: WordPress, Drupal, полноценный **Symfony Framework**, а также **Composer / Packagist / сторонние пакеты**. Не смешивать миры без явного запроса.'
 tags: [software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

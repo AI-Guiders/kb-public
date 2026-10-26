@@ -2,6 +2,7 @@
 type: Playbook
 description: Meta-domain for transforming raw experience into reliable, reusable knowledge across all worlds.
 tags: [knowledge-engineering, living, playbook, worlds]
+language: en
 world: knowledge
 subworld: engineering
 ---

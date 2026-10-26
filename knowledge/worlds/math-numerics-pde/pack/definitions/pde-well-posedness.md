@@ -3,6 +3,7 @@ type: Definition Card
 title: Well-posedness (Hadamard)
 description: Существование, единственность, непрерывная зависимость от данных.
 tags: [llm-native-card, definition, math-numerics-pde]
+language: ru
 world: math
 subworld: numerics-pde
 ---

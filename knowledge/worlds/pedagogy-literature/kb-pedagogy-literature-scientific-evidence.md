@@ -3,6 +3,7 @@ type: Evidence Card
 title: Literature pedagogy — scientific evidence index v1
 description: '**Hwang 2021** elementary integration meta + **Graham 2020** writing-to-learn (general hub); Shanahan 2012 foundational secondary DL.'
 tags: [kb, pedagogy-literature, worlds]
+language: en
 world: pedagogy
 subworld: literature
 ---

@@ -3,9 +3,9 @@ type: Template
 title: Мир **`<world.id>`** (template)
 description: '**Идентификатор мира:** `<world.id>` (напр. `arts.music`, `software.authoring`)'
 tags: [template, templates]
+language: ru
 world: template
 subworld: world-readme.md
-subtype: World README
 ---
 
 ﻿# Мир **`<world.id>`** (template)

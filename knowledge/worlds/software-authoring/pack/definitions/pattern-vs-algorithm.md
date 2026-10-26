@@ -3,6 +3,7 @@ type: Definition Card
 title: Pattern vs algorithm
 description: Алгоритм = чёткие шаги (рецепт). Паттерн = высокоуровневое решение; порядок реализации остаётся за тобой.
 tags: [llm-native-card, definition, software-authoring, gof]
+language: ru
 world: software
 subworld: authoring
 ---

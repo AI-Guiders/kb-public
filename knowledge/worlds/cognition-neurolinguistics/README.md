@@ -3,6 +3,7 @@ type: Index
 title: Мир **cognition.neurolinguistics**
 description: '**Идентификатор:** `cognition.neurolinguistics`'
 tags: [cognition-neurolinguistics, readme, worlds]
+language: ru
 world: cognition
 subworld: neurolinguistics
 ---

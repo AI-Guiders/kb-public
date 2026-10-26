@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Speech acts — Austin & Searle (SEP synthesis)'
 description: Одна locution может нести разную **illocutionary force** в разных контекстах.
 tags: [rhetoric-pragmatics, sep-evidence, speech-acts, worlds]
+language: ru
 world: rhetoric
 subworld: pragmatics
 ---

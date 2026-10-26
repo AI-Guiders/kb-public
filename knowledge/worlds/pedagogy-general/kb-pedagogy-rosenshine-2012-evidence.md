@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Rosenshine (2012) — Principles of Instruction'
 description: 'Rosenshine distilled **10 principles** from: (a) cognitive science on working memory; (b) studies of master teachers (high success rate); (c) cognitive supports (models, scaffolds).'
 tags: [kb, pedagogy-general, worlds]
+language: en
 world: pedagogy
 subworld: general
 ---

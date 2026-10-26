@@ -3,6 +3,7 @@ type: KB
 title: PHP — веб-вход, сессии, cookies, потоки (нативный слой)
 description: '**Назначение:** фундамент **веб-части без фреймворка**: суперглобалы, сессии, заголовки, загрузка файлов, потоки. Мир **`software.php`**. Фреймворки (Laravel Request/Response) — поверх этих механизмов.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

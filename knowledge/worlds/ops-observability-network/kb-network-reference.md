@@ -3,6 +3,7 @@ type: KB
 title: 'Справочник: мир сетевых технологий'
 description: '> **Назначение:** единая картина от модели OSI до устройств, топологий, прокси и протоколов — для ответов по сетевой тематике. Без привязки к конкретной инфраструктуре.'
 tags: [kb, ops-observability-network, worlds]
+language: ru
 world: ops
 subworld: observability-network
 ---

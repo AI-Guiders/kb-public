@@ -3,6 +3,7 @@ type: KB
 title: 'Карта глав: Jeffrey Friedl — «Регулярные выражения», 3-е изд. (рус. перевод O''Reilly)'
 description: Оглавление в PDF содержит **294** закладки верхнего уровня (плоский список в экспорте); для навигации по подпунктам удобнее сам ридер PDF.
 tags: [kb, pattern-regex, worlds]
+language: ru
 world: pattern
 subworld: regex
 sections: [bookmarks-note]

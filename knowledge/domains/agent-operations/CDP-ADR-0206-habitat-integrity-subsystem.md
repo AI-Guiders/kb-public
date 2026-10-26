@@ -3,6 +3,7 @@ type: Note
 title: 'CDP-ADR-0206: Habitat Integrity Subsystem (pointer)'
 description: '**Status:** accepted (spec)'
 tags: [agent-operations, cdp, adr, integrity, habitat, mem-c]
+language: ru
 ---
 # CDP-ADR-0206: Habitat Integrity Subsystem (pointer)
 

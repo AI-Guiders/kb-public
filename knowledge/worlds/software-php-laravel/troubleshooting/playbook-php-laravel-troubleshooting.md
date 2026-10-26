@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: PHP / Laravel — troubleshooting'
 description: '> **Контур:** A · kb-public'
 tags: [living, playbook, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

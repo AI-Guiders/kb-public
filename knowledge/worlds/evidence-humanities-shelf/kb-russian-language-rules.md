@@ -3,6 +3,7 @@ type: KB
 title: Правила русского языка (evidence-based v1)
 description: Справочник по грамматике и норме русского языка с опорой на академические и авторитетные источники. Цель — при генерации или правке текста на русском проверять согласование, управление и типичные ошибки; ответы по норме опирать на указанные источники.
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

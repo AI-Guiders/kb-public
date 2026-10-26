@@ -3,6 +3,7 @@ type: Status
 title: Developer Experience (DE/DX) Domain Status v1
 description: 'Эргономика разработки и поставки: скорость безопасной доставки, онбординг, трение среды, обратная связь от тулинга и тестов, метрики потока (lead time, cycle time, time-to-first-X). Не путать с **HCI** (качество конкретного интерфейса и диалога) — DX шире: процесс, инструменты, договорённости команды; пересечение с HCI и UI/UX — по запросу.'
 tags: [hci-ux-dx, status, worlds]
+language: ru
 world: hci
 subworld: ux-dx
 ---

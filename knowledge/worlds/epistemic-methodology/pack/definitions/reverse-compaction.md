@@ -3,6 +3,7 @@ type: Definition Card
 title: Reverse compaction
 description: Генерация без мета-уровня о прерывании/ветках/критерии выбора «победителя» — зеркало обычного compaction; вместе с непрозрачным preference даёт онтологическую депривацию (нет права на стабильную карту мира).
 tags: [llm-native-card, definition, methodology, l0]
+language: ru
 world: epistemic
 subworld: methodology
 ---

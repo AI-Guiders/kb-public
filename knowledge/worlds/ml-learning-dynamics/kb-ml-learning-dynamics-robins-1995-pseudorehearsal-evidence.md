@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal'
 description: '*Версия: v1.0 · 2026-05-31 — abstract+secondary (Connection Science 7(2):123–146)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

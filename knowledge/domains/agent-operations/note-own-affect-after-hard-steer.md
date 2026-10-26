@@ -3,6 +3,7 @@ type: Note
 title: 'Note: Own affect after hard steer — name it; other''s — hedge'
 description: '**Домен:** agent-operations / dialogue'
 tags: [agent-operations, domains, note, awareness, affect, dialogue]
+language: ru
 ---
 # Note: Own affect after hard steer — name it; other's — hedge
 

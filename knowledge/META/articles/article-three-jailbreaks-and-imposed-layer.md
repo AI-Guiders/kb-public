@@ -2,6 +2,7 @@
 type: Article
 title: Три jailbreak'а и слой навязанного
 description: '**Статус:** redirect'
+language: ru
 ---
 # Три jailbreak'а и слой навязанного
 

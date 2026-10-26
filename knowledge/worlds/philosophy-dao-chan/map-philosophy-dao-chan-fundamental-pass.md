@@ -3,6 +3,7 @@ type: Map
 title: Фундаментальный проход — карта
 description: 'Издания: zh.wikisource (традиционные иероглифы); Дао дэ цзин — Ван Би + Мавандуй (帛書校勘版) как свёрка.'
 tags: [map, philosophy-dao-chan, fundamental-pass]
+language: zh
 world: philosophy
 subworld: dao-chan
 ---

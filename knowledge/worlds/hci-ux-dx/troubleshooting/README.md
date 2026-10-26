@@ -3,6 +3,7 @@ type: Index
 title: Troubleshooting — hci.ux-dx
 description: 'Легаси-путь (редирект): [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md).'
 tags: [hci-ux-dx, readme, worlds]
+language: ru
 world: hci
 subworld: ux-dx
 ---

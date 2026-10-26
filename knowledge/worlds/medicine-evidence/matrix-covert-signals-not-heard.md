@@ -3,6 +3,7 @@ type: Transfer Matrix
 title: 'Matrix: covert signals / «не слышали» v1'
 description: '**Status:** Accepted · 2026-09-14'
 tags: [matrix, medicine-evidence, psychology, communication, fundamentals]
+language: ru
 world: medicine
 subworld: evidence
 ---

@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Эво-дево: консервативные каскады, гены поведения (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, evo-devo, hox, conservation, developmental-cascades]
+language: ru
 world: biology
 subworld: drosophila
 ---

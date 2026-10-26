@@ -3,6 +3,7 @@ type: Playbook
 title: Python Playbook v1
 description: Dedicated playbook for robust Python usage in automation, data processing, and tooling tasks.
 tags: [software-automation-scripting, worlds]
+language: en
 world: software
 subworld: automation-scripting
 ---

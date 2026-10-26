@@ -2,6 +2,7 @@
 type: Note
 title: CDP-ADR-0218 — Knowledge recall facade (KB mirror)
 description: '**Status:** Accepted (mirror)'
+language: en
 ---
 # CDP-ADR-0218 — Knowledge recall facade (KB mirror)
 

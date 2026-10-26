@@ -3,6 +3,7 @@ type: KB
 title: Laravel — версии, требования PHP, апгрейды (мажоры 8–12+)
 description: '**Назначение:** опорная **матрица мажоров** и дисциплина апгрейда без путаницы между ветками документации. Мир `software.laravel`. Детали «как писать код» — в `kb-laravel-fundamentals.md`.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

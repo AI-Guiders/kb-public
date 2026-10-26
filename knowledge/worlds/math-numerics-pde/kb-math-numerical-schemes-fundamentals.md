@@ -3,6 +3,7 @@ type: KB
 title: Numerical Schemes Fundamentals v1
 description: '**Purpose:** capture essential ideas for finite difference schemes for ODEs/PDEs (stability, consistency, convergence) as a reference for simulation/CA work.'
 tags: [kb, math-numerics-pde, worlds]
+language: en
 world: math
 subworld: numerics-pde
 ---

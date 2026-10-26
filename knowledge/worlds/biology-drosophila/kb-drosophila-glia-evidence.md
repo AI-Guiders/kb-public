@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Глия: типы, функции, развитие (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, glia, astrocyte, blood-brain-barrier]
+language: ru
 world: biology
 subworld: drosophila
 ---

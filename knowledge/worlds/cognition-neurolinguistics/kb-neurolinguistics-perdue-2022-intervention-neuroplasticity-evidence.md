@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Perdue et al. (2022) — reading intervention & brain neuroplasticity'
 description: '**Thesis:** behavioral reading intervention works; **brain changes are real but heterogeneous** — PRISMA review of **39** neuroimaging studies; coordinate-based meta on **8** fMRI pre/post studies (**null** significant cluster convergence).'
 tags: [cognition-neurolinguistics, kb, worlds]
+language: en
 world: cognition
 subworld: neurolinguistics
 ---

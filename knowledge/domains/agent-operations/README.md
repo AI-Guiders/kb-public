@@ -3,6 +3,7 @@ type: Index
 title: 'Domain: agent-operations'
 description: Сквозные **операционные контракты агента** (маркеры чата, целостность, параллельные записи в заметки). Не путать с:
 tags: [agent-operations, domains, readme]
+language: ru
 ---
 # Domain: agent-operations
 

@@ -3,6 +3,7 @@ type: Status
 title: Git Domain Status v1
 description: Operational Git workflow, safety guardrails, and recovery patterns for daily engineering work.
 tags: [collaboration-git-pr, status, worlds]
+language: en
 world: collaboration
 subworld: git-pr
 ---

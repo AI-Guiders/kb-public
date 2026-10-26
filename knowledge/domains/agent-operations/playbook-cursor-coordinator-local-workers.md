@@ -3,6 +3,7 @@ type: Playbook
 title: 'Cursor: coordinator + local Task workers'
 description: '**Domain:** `agent-operations`'
 tags: [agent-operations, cursor, cdp, orchestration, subagent, living, playbook]
+language: ru
 ---
 # Cursor: coordinator + local Task workers
 

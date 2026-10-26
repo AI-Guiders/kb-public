@@ -3,6 +3,7 @@ type: Playbook
 title: Regex Playbook v1
 description: Dedicated playbook for reliable regular expression design, validation, and maintenance.
 tags: [pattern-regex, worlds]
+language: ru
 world: pattern
 subworld: regex
 ---

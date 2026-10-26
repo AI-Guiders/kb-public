@@ -3,6 +3,7 @@ type: Note
 title: Inventory — L0 / extended → pack definition ids
 description: '**Date:** 2026-07-20'
 tags: [worlds, llm-ready, map, epistemic]
+language: ru
 world: _llm
 subworld: native-packs
 ---

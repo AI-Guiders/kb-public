@@ -3,6 +3,7 @@ type: Note
 title: 'Note: авто-отравление · retract + rebuild (v0)'
 description: '**Domain:** agent-operations'
 tags: [adcm, awareness, agent-operations, epistemic, living]
+language: ru
 ---
 # Note: авто-отравление · retract + rebuild (v0)
 

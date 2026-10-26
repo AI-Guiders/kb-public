@@ -3,6 +3,7 @@ type: Note
 title: 'Router: операционный базис (L0 и агент)'
 description: '**Назначение:** инварианты и указатели, которые действуют **до или параллельно** выбору строки в Domain Entry Map (`index-knowledge-router.md`). Здесь **нет** таблицы доменов и **нет** триггеров `router-*` (они в `index-knowledge-router-supplement.md`). Полные playbook/kb не дублируются — только контракт «что подтянуть».'
 tags: [kb-root]
+language: ru
 ---
 # Router: операционный базис (L0 и агент)
 

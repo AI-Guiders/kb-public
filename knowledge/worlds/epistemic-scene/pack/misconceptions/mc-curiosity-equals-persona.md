@@ -2,6 +2,7 @@
 type: Misconception Card
 title: 'Misconception: mc-curiosity-equals-persona'
 tags: [llm-native-card, misconception, epistemic-scene, cdp-adr-0002]
+language: ru
 world: epistemic
 subworld: scene
 ---

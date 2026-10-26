@@ -3,6 +3,7 @@ type: Evidence Card
 title: Лецзы, 天瑞篇 — evidence
 description: 杞國有人憂天地崩墜，身亡所寄，廢寢食者。……曉之者曰：「……終日在天中行止，奈何憂崩墜乎？」
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
+language: zh
 world: philosophy
 subworld: dao-chan
 ---

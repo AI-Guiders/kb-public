@@ -3,6 +3,7 @@ type: Evidence Card
 title: Чжуан-цзы, гл. 2 齊物論 — evidence
 description: 南郭子綦……荅焉似喪其耦。子游曰：「……形固可使如槁木，而心固可使如死灰乎？」
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
+language: zh
 world: philosophy
 subworld: dao-chan
 ---

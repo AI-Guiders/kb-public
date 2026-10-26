@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: авторинг **любого** мира и kb под kb-public'
 description: '**Назначение:** обязательный контракт для **агента и человека** при создании или существенной правке файлов, которые **попадают в публичную сборку** (`build-public-kb.ps1` → kb-public). Это **не** «само собой» — проверять **до коммита**, даже если материал пока только в полном каноне.'
 tags: [knowledge-engineering, living, playbook, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

@@ -3,6 +3,7 @@ type: Definition Card
 title: What is a design pattern
 description: Типичное решение типичной задачи проектирования — чертёж, не готовый сниппет. Один паттерн в двух программах выглядит по-разному.
 tags: [llm-native-card, definition, software-authoring, gof, refactoring-guru]
+language: ru
 world: software
 subworld: authoring
 ---

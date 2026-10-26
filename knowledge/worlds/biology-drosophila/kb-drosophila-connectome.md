@@ -3,6 +3,7 @@ type: KB
 title: Слой 3 — Коннектом (biology.drosophila)
 description: '**world-id:** `biology.drosophila` · **Слой:** 3/7 · **Статус:** анализ начат (2026-09-19)'
 tags: [biology-drosophila, worlds, kb, connectome, banc, graph]
+language: ru
 world: biology
 subworld: drosophila
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: Social studies pedagogy — router v1
 description: '**world:** `pedagogy.social-studies`'
 tags: [living, pedagogy-social-studies, playbook, worlds]
+language: en
 world: pedagogy
 subworld: social-studies
 ---

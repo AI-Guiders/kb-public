@@ -3,7 +3,7 @@ type: Template
 title: Hot section (template)
 description: Вставка в **`agent-notes.md`** (personal primary) между маркерами:
 tags: [template, templates]
-subtype: Hot Section
+language: ru
 ---
 
 ﻿# Hot section (template)

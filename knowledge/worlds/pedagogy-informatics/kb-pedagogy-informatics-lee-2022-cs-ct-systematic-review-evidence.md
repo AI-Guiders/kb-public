@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Lee et al. (2022) — K-12 CS education & computational thinking (systematic review)'
 description: '**Thesis:** **66-study systematic review** — CS education in K-12 **promotes computational thinking** and creative/critical thinking; early access + varied approaches recommended; not all interventions equally successful.'
 tags: [kb, pedagogy-informatics, worlds]
+language: en
 world: pedagogy
 subworld: informatics
 ---

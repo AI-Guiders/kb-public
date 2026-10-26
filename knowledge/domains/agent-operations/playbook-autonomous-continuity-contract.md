@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Autonomous Continuity Contract'
 description: '**Domain:** agent-operations'
 tags: [agent-operations, autoi, continuity, overnight, living]
+language: ru
 ---
 # Playbook: Autonomous Continuity Contract
 

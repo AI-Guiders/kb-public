@@ -2,6 +2,7 @@
 type: Note
 title: 'Инцидент: KB AutoShip «failed: timeout» (2026-10-16) — что известно и чего не хватает'
 description: '**Статус:** причина не локализована до шага (алерт недоступен постфактум); структурные дефекты описаны, предлагаются фиксы'
+language: ru
 sections: [baseline-integrity-epistemic-v1, recall-facade-probe]
 ---
 # Инцидент: KB AutoShip «failed: timeout» (2026-10-16) — что известно и чего не хватает

@@ -3,6 +3,7 @@ type: Index
 title: '`templates/worlds/` — триада мира и hub'
 description: 'Экземпляры в **`knowledge/worlds/<slug>/`**. Порядок загрузки (роутер): **status → playbook → kb**. При симптомах/инцидентах: **`troubleshooting/`** — [`template-world-troubleshooting-readme.md`](template-world-troubleshooting-readme.md); индекс — [`../../META/index-troubleshooting.md`](../../META/index-troubleshooting.md).'
 tags: [readme, templates]
+language: ru
 world: README.md
 ---
 # `templates/worlds/` — триада мира и hub

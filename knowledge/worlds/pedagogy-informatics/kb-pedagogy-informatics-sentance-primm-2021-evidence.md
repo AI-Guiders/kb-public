@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Sentance & Waite (2021) — PRIMM programming pedagogy'
 description: '**Thesis:** **PRIMM** structures novice programming lessons to reduce cognitive overload and build **code reading** before authorship:'
 tags: [kb, pedagogy-informatics, worlds]
+language: en
 world: pedagogy
 subworld: informatics
 ---

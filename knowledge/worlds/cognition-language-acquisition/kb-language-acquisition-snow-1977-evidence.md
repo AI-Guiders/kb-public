@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Snow (1977) — The development of conversation between mothers and babies'
 description: '*Версия: v2.0 · 2026-05-31 — partial primary (paywall); figure-caption pass*'
 tags: [cognition-language-acquisition, kb, worlds]
+language: ru
 world: cognition
 subworld: language-acquisition
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Agent Who · Voice Letters DoD'
 description: '**domain:** agent-operations'
 tags: [agent-who, voice-letters, dod, dogfood, continuity]
+language: en
 ---
 # Playbook: Agent Who · Voice Letters DoD
 **domain:** agent-operations  

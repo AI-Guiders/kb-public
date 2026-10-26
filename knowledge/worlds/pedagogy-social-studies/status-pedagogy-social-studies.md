@@ -3,6 +3,7 @@ type: Status
 title: 'Status: pedagogy.social-studies v1'
 description: '**Домен:** обществознание — C3 inquiry v1'
 tags: [pedagogy-social-studies, status, worlds]
+language: ru
 world: pedagogy
 subworld: social-studies
 ---

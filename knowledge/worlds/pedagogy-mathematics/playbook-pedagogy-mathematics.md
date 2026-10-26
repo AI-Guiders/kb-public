@@ -3,6 +3,7 @@ type: Playbook
 title: Mathematics pedagogy — router v1
 description: '**world:** `pedagogy.mathematics`'
 tags: [living, pedagogy-mathematics, playbook, worlds]
+language: en
 world: pedagogy
 subworld: mathematics
 ---

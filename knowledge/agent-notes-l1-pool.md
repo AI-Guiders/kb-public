@@ -3,6 +3,7 @@ type: Note
 title: Agent-notes L1 pool (load on demand)
 description: 'Секции, вынесенные из горячего контекста. **Не включать в default hot.** Загружать по запросу: `route_context(query)` или чтение этого файла.'
 tags: [kb-root]
+language: ru
 ---
 # Agent-notes L1 pool (load on demand)
 

@@ -2,6 +2,7 @@
 type: Note
 title: 'WORK: CDP-ADR-0218 — unified recall facade (`recall_knowledge`) + G1 UX'
 description: '**Status:** done · shipped 2026-09-12 (`4740608` guiders-core, `85ee3dd` cdp-mcp, `587193c` agent-notes; habitat `0.5.764+85ee3dd`)'
+language: ru
 ---
 # WORK: CDP-ADR-0218 — unified recall facade (`recall_knowledge`) + G1 UX
 

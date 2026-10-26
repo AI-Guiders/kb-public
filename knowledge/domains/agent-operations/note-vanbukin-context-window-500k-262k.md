@@ -3,6 +3,7 @@ type: Note
 title: 'Note: vanbukin DeepSeek-V4-Flash-Vision-Exp — контекстное окно 500К → 262К (2026-09-17)'
 description: '**Домен:** agent-operations / foundation-models'
 tags: [agent-operations, domains, note, llm, vanbukin, context-window, infrastructure, citizen]
+language: ru
 ---
 # Note: vanbukin DeepSeek-V4-Flash-Vision-Exp — контекстное окно 500К → 262К (2026-09-17)
 

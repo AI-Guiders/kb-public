@@ -3,6 +3,7 @@ type: KB
 title: ODE / IDE Fundamentals v1
 description: '**Purpose:** compact reference for ordinary differential equations (ODEs), integral equations (IE), and integro-differential equations (IDE) relevant to later CA-based simulation.'
 tags: [kb, math-numerics-pde, worlds]
+language: en
 world: math
 subworld: numerics-pde
 ---

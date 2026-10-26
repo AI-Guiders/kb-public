@@ -3,6 +3,7 @@ type: KB
 title: Chemistry pedagogy — fundamentals v1
 description: '**Мир:** `pedagogy.chemistry`'
 tags: [kb, pedagogy-chemistry, worlds]
+language: en
 world: pedagogy
 subworld: chemistry
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: KB canonical publication v1
 description: 'Правило: KB считается обновленной только после коммита и пуша в каноничный репозиторий `d:\Experiments\agent-notes`.'
 tags: [knowledge-engineering, living, playbook, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 sections: [kb-canonical-push-contract-v1, kb-public-trust-source-roadmap-v1]

@@ -3,6 +3,7 @@ type: KB
 title: ПДД РФ — Раздел 15. Движение через железнодорожные пути (verified)
 description: ПДД.руПДД
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
+language: ru
 world: traffic
 subworld: rules
 ---

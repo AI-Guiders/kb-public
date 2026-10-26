@@ -3,6 +3,7 @@ type: Definition Card
 title: Logging — no secrets / PII
 description: Структурированные логи и уровни — да. Секреты и лишний PII в логах — нет.
 tags: [llm-native-card, definition, software-authoring, csharp, trap]
+language: ru
 world: software
 subworld: authoring
 ---

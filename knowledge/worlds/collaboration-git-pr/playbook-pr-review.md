@@ -3,6 +3,7 @@ type: Playbook
 title: PR Review Playbook v1
 description: 'Keep review useful and fast: catch regressions early without turning review into paperwork.'
 tags: [collaboration-git-pr, living, playbook, worlds]
+language: en
 world: collaboration
 subworld: git-pr
 ---

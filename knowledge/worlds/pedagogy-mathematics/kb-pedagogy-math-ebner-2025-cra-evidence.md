@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Ebner et al. (2025) — CRA meta-analysis (mathematics SCD)'
 description: '**Thesis:** **Concrete–Representational–Abstract (CRA)** sequence produces **very large** effects on mathematics outcomes vs baseline phases in SCD studies.'
 tags: [kb, pedagogy-mathematics, worlds]
+language: en
 world: pedagogy
 subworld: mathematics
 ---

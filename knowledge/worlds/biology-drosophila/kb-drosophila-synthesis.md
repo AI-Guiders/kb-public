@@ -3,6 +3,7 @@ type: KB
 title: 'Слой 7 — Синтез: как работает Drosophila (biology.drosophila)'
 description: '**world-id:** `biology.drosophila` · **Слой:** 7/7 · **Статус:** черновик синтеза (2026-09-19) — на основе слоёв 1–6'
 tags: [biology-drosophila, worlds, kb, synthesis, mechanism]
+language: ru
 world: biology
 subworld: drosophila
 ---

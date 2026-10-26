@@ -3,6 +3,7 @@ type: Status
 title: 'Status: pedagogy.geography v1'
 description: '**Домен:** география — geo-literacy v1'
 tags: [pedagogy-geography, status, worlds]
+language: ru
 world: pedagogy
 subworld: geography
 ---

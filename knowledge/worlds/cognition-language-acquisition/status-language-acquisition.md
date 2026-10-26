@@ -3,6 +3,7 @@ type: Status
 title: Child language acquisition (L1) — status v1
 description: 'Empirical и теоретический контур **усвоения первого языка ребёнком**: child-directed speech, типы feedback, lexical mapping (conventionality, contrast, context). **Не** CLD/SLP клиника; **не** CASA teacher/sleep spec.'
 tags: [cognition-language-acquisition, status, worlds]
+language: ru
 world: cognition
 subworld: language-acquisition
 ---

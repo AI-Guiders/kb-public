@@ -3,6 +3,7 @@ type: Index
 title: 'Мир **knowledge.engineering** (KE: мультимиры, матрицы, операции канона)'
 description: '**Назначение:** мета-домен ingestion/lifecycle KB; правила multiworld/mixed-worlds/culture-routing/country-conflicts/operations; матрицы переноса; world modeling; runbook MCP и revisions backup.'
 tags: [knowledge-engineering, readme, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

@@ -3,6 +3,7 @@ type: KB
 title: Deprecated path (перенос)
 description: Карточка **разложена** на слои fundamentals vs operational:
 tags: [kb, software-javascript, worlds]
+language: ru
 world: software
 subworld: javascript
 ---

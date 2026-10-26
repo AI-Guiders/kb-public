@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: 1С — администрирование'
 description: '> **Scope:** общие знания по администрированию и типовым задачам 1С. Без привязки к конкретной инфраструктуре.'
 tags: [living, ops-network-admin, playbook, worlds]
+language: ru
 world: ops
 subworld: network-admin
 ---

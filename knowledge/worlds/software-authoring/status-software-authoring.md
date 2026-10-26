@@ -3,6 +3,7 @@ type: Status
 title: 'Status: software.authoring v1'
 description: '**Домен:** принципы написания кода, декомпозиция, OOA&D (канон для агента и человека).'
 tags: [software-authoring, status, worlds]
+language: ru
 world: software
 subworld: authoring
 sections: [operating-contract-matrix, language-worlds-v1]

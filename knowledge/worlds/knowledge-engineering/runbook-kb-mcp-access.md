@@ -3,6 +3,7 @@ type: Runbook
 title: 'Runbook: доступ к KB через MCP (handshake, деградация, сбои)'
 description: '**Назначение:** согласовать поведение агента, когда канон живёт в репозитории **agent-notes** и доступен через **agent-notes MCP** (`read_knowledge_file`, `list_knowledge_files`, запись — отдельные инструменты). Среда-независимо: тот же смысл, если чтение идёт с диска по well-known пути без MCP.'
 tags: [knowledge-engineering, runbook, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 sections: [hot-vs-full-agent-notes-read-v1]

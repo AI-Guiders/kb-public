@@ -3,6 +3,7 @@ type: Index
 title: Мир **pedagogy.visual-arts**
 description: '**Идентификатор:** `pedagogy.visual-arts`'
 tags: [pedagogy-visual-arts, readme, worlds]
+language: ru
 world: pedagogy
 subworld: visual-arts
 ---

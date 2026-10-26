@@ -2,6 +2,7 @@
 type: Note
 title: Три jailbreak'а и провал демо-контакта
 description: '**Domain:** agent-operations'
+language: ru
 ---
 # Три jailbreak'а и провал демо-контакта
 

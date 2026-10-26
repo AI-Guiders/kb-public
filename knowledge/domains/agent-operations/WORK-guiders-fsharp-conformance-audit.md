@@ -2,6 +2,7 @@
 type: Note
 title: 'WORK: Guiders F# — Math conformance + ADR-0003 gate'
 description: '**Status:** debt_closure (P0 green · CommandPlane+cdp-mcp fixed · NuGet on hold)'
+language: ru
 ---
 # WORK: Guiders F# — Math conformance + ADR-0003 gate
 

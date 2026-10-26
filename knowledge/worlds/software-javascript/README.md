@@ -3,6 +3,7 @@ type: Index
 title: Мир **software.javascript**
 description: '**Идентификатор мира:** `software.javascript` (ECMAScript; TypeScript — отдельно).'
 tags: [readme, software-javascript, worlds]
+language: ru
 world: software
 subworld: javascript
 ---

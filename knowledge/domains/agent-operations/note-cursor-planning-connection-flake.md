@@ -3,6 +3,7 @@ type: Note
 title: 'Cursor: Planning next moves → Connection Problems (flake)'
 description: '**Status:** Observed · 2026-07-31 (оператор, этот тред) + earlier transcripts 2026-07'
 tags: [agent-operations, cursor, harness, epsilon, continuity]
+language: ru
 ---
 # Cursor: Planning next moves → Connection Problems (flake)
 **Status:** Observed · 2026-07-31 (оператор, этот тред) + earlier transcripts 2026-07

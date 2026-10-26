@@ -2,6 +2,7 @@
 type: Article
 title: 'Дешёвый априор и стереоход: психология на двух носителях'
 description: '**Cheap Priors and Stereomove: Psychology Across Carriers**'
+language: ru
 ---
 # Дешёвый априор и стереоход: психология на двух носителях
 

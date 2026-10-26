@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: nginx — администрирование'
 description: '> **Scope:** типовые настройки nginx, работа с PHP-FPM и proxy. Без привязки к конкретным доменам и путям.'
 tags: [living, ops-network-admin, playbook, worlds]
+language: ru
 world: ops
 subworld: network-admin
 ---

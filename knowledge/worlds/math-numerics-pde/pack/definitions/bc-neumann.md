@@ -3,6 +3,7 @@ type: Definition Card
 title: Neumann BC
 description: Задана нормальная производная (напр. no-flux).
 tags: [llm-native-card, definition, math-numerics-pde]
+language: ru
 world: math
 subworld: numerics-pde
 ---

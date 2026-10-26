@@ -3,6 +3,7 @@ type: Index
 title: '`software.authoring.dotnet.csharp.desktop-ui.avalonia`'
 description: '**World tag:** `software.authoring.dotnet.csharp.desktop-ui.avalonia`'
 tags: [readme, software-dotnet-avalonia, worlds]
+language: ru
 world: software
 subworld: dotnet-avalonia
 ---

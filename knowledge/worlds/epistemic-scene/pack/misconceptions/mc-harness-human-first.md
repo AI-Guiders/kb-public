@@ -2,6 +2,7 @@
 type: Misconception Card
 title: 'Misconception: mc-harness-human-first'
 tags: [llm-native-card, misconception, epistemic-scene, harness, cdp]
+language: ru
 world: epistemic
 subworld: scene
 ---

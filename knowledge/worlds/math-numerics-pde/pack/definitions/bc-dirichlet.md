@@ -3,6 +3,7 @@ type: Definition Card
 title: Dirichlet BC
 description: Задано значение решения на границе.
 tags: [llm-native-card, definition, math-numerics-pde]
+language: ru
 world: math
 subworld: numerics-pde
 ---

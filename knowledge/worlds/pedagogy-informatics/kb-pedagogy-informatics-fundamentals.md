@@ -3,6 +3,7 @@ type: KB
 title: Informatics pedagogy — fundamentals v1
 description: '**Мир:** `pedagogy.informatics`'
 tags: [kb, pedagogy-informatics, worlds]
+language: ru
 world: pedagogy
 subworld: informatics
 ---

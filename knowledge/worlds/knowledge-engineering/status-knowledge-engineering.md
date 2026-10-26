@@ -3,6 +3,7 @@ type: Status
 title: Knowledge Engineering Domain Status v1
 description: Meta-domain for transforming volatile operational experience into durable, reusable knowledge assets.
 tags: [knowledge-engineering, status, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

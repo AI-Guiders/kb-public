@@ -3,6 +3,7 @@ type: Definition Card
 title: GoF — Observer
 description: Издатель уведомляет подписчиков о событиях; набор слушателей неизвестен или меняется в рантайме.
 tags: [llm-native-card, definition, software-authoring, gof]
+language: ru
 world: software
 subworld: authoring
 ---

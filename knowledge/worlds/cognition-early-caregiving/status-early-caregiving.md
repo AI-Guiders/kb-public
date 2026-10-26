@@ -3,6 +3,7 @@ type: Status
 title: Early caregiving — status v1
 description: 'Практический контур **раннего развития и ухода** для родителей и педиатрических программ: milestones (CDC Act Early), relational health (AAP), serve-and-return (Harvard HCDC), Zero to Three, HealthyChildren literacy milestones. **Не** клиническая SLP; **не** школьный curriculum; **не** CASA teacher/sleep spec.'
 tags: [cognition-early-caregiving, status, worlds]
+language: ru
 world: cognition
 subworld: early-caregiving
 ---

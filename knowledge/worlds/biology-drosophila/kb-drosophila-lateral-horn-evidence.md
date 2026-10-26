@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Латеральный рог: мультимодальный гейт контекстной памяти (evidence card v1)'
 description: '**Данные:** `D:\Experiments\casa-data\connectomes\banc-v888\banc_888_meta.feather` (188 508 × 81) + `banc_888_edgelist_simple_v3.feather` (13 620 865 рёбер). Ключ = banc_888_id. Скрипты: `.cdp/scratch/lh_analysis_v2.py`, `lh_preclasses.py`; результат: `.cdp/scratch/lhon_inputs_v2.csv`, `lhon_report_v2.txt`.'
 tags: [biology-drosophila, worlds, kb, evidence, lateral-horn, multisensory, context-gate, cltm, lh]
+language: ru
 world: biology
 subworld: drosophila
 ---

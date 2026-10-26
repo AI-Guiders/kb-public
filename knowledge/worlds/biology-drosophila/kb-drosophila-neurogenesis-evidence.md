@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Нейрогенез: нейробласты, гемилинейджи, birth-order код (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, neurogenesis, hemilineage, birthorder, notch]
+language: ru
 world: biology
 subworld: drosophila
 ---

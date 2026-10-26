@@ -3,6 +3,7 @@ type: Index
 title: Мир **ops.observability-network** (мониторинг и сеть KB)
 description: '**Назначение:** Grafana, Zabbix, сетевые фундаменталы и справочные kb (не дубли vendor-доков).'
 tags: [ops-observability-network, readme, worlds]
+language: ru
 world: ops
 subworld: observability-network
 ---

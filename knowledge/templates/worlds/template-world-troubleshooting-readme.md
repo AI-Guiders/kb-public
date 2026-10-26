@@ -3,9 +3,9 @@ type: Template
 title: Troubleshooting — `<world-slug>` (шаблон README)
 description: '> **Контур:** A (world / kb-public). Операционные `playbook-*` в родительской папке — процесс; **здесь** — симптомы, чеклисты, ложные гипотезы.'
 tags: [template, templates]
+language: ru
 world: template
 subworld: world-troubleshooting-readme.md
-subtype: world-troubleshooting-readme
 ---
 # Troubleshooting — `<world-slug>` (шаблон README)
 

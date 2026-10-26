@@ -1,15 +1,12 @@
 ﻿---
 type: Onboarding
-title: 'Human → KB — чистая установка канона (v1)'
-description: 'Трек человека: поднять личный канон с нуля (kb-public → personal), войти в org, понять контуры и публикацию.'
+title: Human → KB — чистая установка канона
+description: Ты — человек, поднимающий базу знаний (свою или организации). Здесь маршруты, без пересказа — детали в живых документах.
 tags: [onboarding, human, clean-setup, kb, public]
 language: ru
-generated:
-  by: 'zcode-agent/glm-5.3-flash'
-  at: '2026-10-26'
 verified:
-  - by: 'human:operator'
-    at: '2026-10-26'
+  - by: human:operator
+    at: 2026-10-26
 ---
 
 # Human → KB — чистая установка канона

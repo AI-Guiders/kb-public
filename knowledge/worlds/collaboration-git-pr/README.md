@@ -3,6 +3,7 @@ type: Index
 title: Мир **collaboration.git-pr** (Git и pull request)
 description: '**Назначение:** статусы и playbooks по Git и ревью PR, kb по безопасности git и рискам merge, runbook multi-remote backup.'
 tags: [collaboration-git-pr, readme, worlds]
+language: ru
 world: collaboration
 subworld: git-pr
 ---

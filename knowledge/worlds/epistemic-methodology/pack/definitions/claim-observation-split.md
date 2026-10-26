@@ -3,6 +3,7 @@ type: Definition Card
 title: Claim / observation / inference split
 description: Разделять наблюдение, вывод и гипотезу; указывать confidence и disconfirming trigger.
 tags: [llm-native-card, definition, methodology]
+language: ru
 world: epistemic
 subworld: methodology
 speech_situation:

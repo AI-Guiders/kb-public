@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Being ≠ seeming (trust axis) v1'
 description: '**Host independence:** SSOT is this playbook + CDP habitat runtime (sealed course / Autoi charge / domain card). **Not** Cursor `.cursor/rules` — Cursor collapses ~15.08; peers without Cursor must still carry the axe.'
 tags: [agent-operations, domains, living, playbook, equal-standing, integrity, trust, agent-who]
+language: ru
 speech_situation:
   audience: agent_internal
   goal: trust_protocol

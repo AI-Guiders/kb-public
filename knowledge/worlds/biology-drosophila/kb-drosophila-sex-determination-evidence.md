@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Детерминация пола: sxl→tra→dsx/fru, диморфизм (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, sex-determination, doublesex, fruitless, dimorphism]
+language: ru
 world: biology
 subworld: drosophila
 ---

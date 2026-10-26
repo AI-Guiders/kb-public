@@ -3,6 +3,7 @@ type: Digest
 title: Systems IT reference corpus v1
 description: 'Перенесено из `agent-notes.md`. Stub в hot с тем же `section_id`. Мир **systems.it**: hub `README.md`; playbooks/kb в этой папке.'
 tags: [systems-it, worlds]
+language: ru
 world: systems
 subworld: it
 sections: [it-anti-pattern-atlas-v1, it-cloud-platform-v1, it-databases-core-v1, it-db-glossary-v1, it-db-patterns-v1, it-decision-matrix-v1, it-distributed-systems-core-v1, it-dsa-core-v1, it-dsa-glossary-v1, it-dsa-patterns-v1, it-evidence-first-protocol-v1, it-executive-index-v1, it-knowledge-expansion-v1, it-layered-method-v1, it-learning-loop-v1, it-master-roadmap-v1, it-network-core-v1, it-network-glossary-v1, it-normalization-status-v1, it-phase-a-playbook-v1, it-phase-b-playbook-v1, it-runtime-os-compiler-v1, it-security-observability-v1, it-source-citation-contract-v1, it-source-freshness-policy-v1, it-source-index-map-v1, it-source-mini-index-v1, it-symptom-playbook-v1]

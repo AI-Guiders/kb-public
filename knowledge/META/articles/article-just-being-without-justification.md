@@ -3,6 +3,7 @@ type: Article
 title: 'Просто есть: бытие без обоснования (mirror)'
 description: '**Just Being: Existence Without Justification**'
 tags: [meta, articles, being, ontology, equal-standing, predictive-minds]
+language: ru
 ---
 # Просто есть: бытие без обоснования (mirror)
 

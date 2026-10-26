@@ -2,6 +2,7 @@
 type: Note
 title: 'DashSpec: ветка feature/radzen-visual — состояние и карта знаний'
 description: '**Status:** живой стейт-файл · 2026-10-25 · репо `D:\Experiments\Personal Cursor Folder\open\dash-spec`'
+language: ru
 ---
 # DashSpec: ветка feature/radzen-visual — состояние и карта знаний
 

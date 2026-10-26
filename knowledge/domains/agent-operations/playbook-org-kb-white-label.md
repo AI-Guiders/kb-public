@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: организационный контур KB (white-label)'
 description: '**Статус:** active · v1.0 · 2026-05-19'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 ---
 # Playbook: организационный контур KB (white-label)
 

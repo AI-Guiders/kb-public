@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Иерархия типов: аннотация, линии, стереотипия (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, cell-types, annotation, stereotypy, lineage]
+language: ru
 world: biology
 subworld: drosophila
 ---

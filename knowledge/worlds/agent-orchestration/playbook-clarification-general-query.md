@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: снятие неопределённости при общем запросе'
 description: '**Назначение:** когда запрос пользователя общий или размыт (нет явного scope, результата или домена), снижать неопределённость по шагам, не угадывая и не загружая всё подряд.'
 tags: [agent-orchestration, living, playbook, worlds]
+language: ru
 world: agent
 subworld: orchestration
 ---

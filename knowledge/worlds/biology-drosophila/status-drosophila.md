@@ -3,6 +3,7 @@ type: Status
 title: 'Status: biology.drosophila (мир «Drosophila melanogaster»)'
 description: '**Домен:** reference implementation от природы — полный evidence-синтез знаний о Drosophila melanogaster (геном → поведение → эволюция), с полным коннектомом CNS как якорем.'
 tags: [biology-drosophila, worlds, status]
+language: ru
 world: biology
 subworld: drosophila
 ---

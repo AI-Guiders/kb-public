@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: ревью как разговор (v1)'
 description: '**Домен:** agent-operations'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 ---
 
 ﻿# Playbook: ревью как разговор (v1)

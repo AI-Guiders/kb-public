@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Elman (1993) — Learning and development in NN: the importance of starting small'
 description: '*Версия: v1.0 · 2026-05-31 — full text (Cognition 48:71–99)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

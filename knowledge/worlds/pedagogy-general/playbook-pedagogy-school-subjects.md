@@ -3,6 +3,7 @@ type: Playbook
 title: Pedagogy school subjects — master router v1
 description: '**world:** `pedagogy.general`'
 tags: [living, pedagogy-general, playbook, worlds]
+language: ru
 world: pedagogy
 subworld: general
 ---

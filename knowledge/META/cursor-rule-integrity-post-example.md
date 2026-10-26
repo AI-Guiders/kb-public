@@ -3,6 +3,7 @@ type: Note
 title: 'Пример правила Cursor: Integrity POST (эталон для копирования)'
 description: Реализация POST в Cursor — это **локальный** `.cursor/rules/*.mdc` в каждом workspace. Чтобы не расходились формулировки Minimal Safe Default и пути well-known, в каноне лежит **один эталонный текст** для копирования. Живое правило у тебя на машине может называться иначе; после правок спеки или корней сверяйся с этим файлом.
 tags: [meta]
+language: ru
 ---
 # Пример правила Cursor: Integrity POST (эталон для копирования)
 

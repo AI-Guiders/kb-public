@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Hoover & Gough (1990) — Simple View of Reading'
 description: '**Simple View of Reading (SVR):**'
 tags: [kb, pedagogy-russian-language, worlds]
+language: ru
 world: pedagogy
 subworld: russian-language
 ---

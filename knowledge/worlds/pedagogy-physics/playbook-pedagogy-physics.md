@@ -3,6 +3,7 @@ type: Playbook
 title: Physics pedagogy — router v1
 description: '**world:** `pedagogy.physics`'
 tags: [living, pedagogy-physics, playbook, worlds]
+language: en
 world: pedagogy
 subworld: physics
 ---

@@ -3,9 +3,9 @@ type: Template
 title: 'Chapter map: `<source title>` (template)'
 description: '**Имя файла:** `kb-<source-slug>-chapter-map.md`'
 tags: [template, templates]
+language: ru
 world: template
 subworld: kb-chapter-map.md
-subtype: kb-chapter-map
 ---
 
 ﻿# Chapter map: `<source title>` (template)

@@ -3,7 +3,7 @@ type: Template
 title: 'Project card: `<project-id>` (template)'
 description: '**Путь экземпляра:** `knowledge/work/projects/<scope>/<project-id>/README.md`'
 tags: [template, templates]
-subtype: Project Card
+language: ru
 ---
 
 ﻿# Project card: `<project-id>` (template)

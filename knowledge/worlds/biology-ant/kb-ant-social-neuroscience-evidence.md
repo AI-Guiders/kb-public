@@ -3,6 +3,7 @@ type: Evidence Card
 title: Муравей — социальная нейронаука и данные (evidence card v1)
 description: 1. **Социальная коммуникация — через ОБОНЯНИЕ (ORs — феромоны!)** — муравей — образец СЛОЖНОЙ химической коммуникации (в отличие от мухи — «не социальна как муравьи»!);
 tags: [biology-ant, worlds, kb, evidence, social, communication, atlas, navigation, olfaction, colony]
+language: ru
 world: biology
 subworld: ant
 ---

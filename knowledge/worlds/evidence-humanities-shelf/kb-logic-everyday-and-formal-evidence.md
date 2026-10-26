@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Обычная логика и связка с формальной: Evidence-Based'
 description: 'Evidence-based обзор: как в естественном языке выражаются кванторы, условие, необходимость и достаточность; как это соотносится с формальной логикой (∀, ∃, импликация); типичные сбои рассуждения и их формальные аналоги. Цель — заземлить операционные правила (напр. scope-disambiguation, различение ∀/∃) в явном логическом фундаменте и в примерах из практики.'
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

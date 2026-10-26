@@ -3,6 +3,7 @@ type: KB
 title: Drupal — архитектура и операции (ядро, модули, конфигурация)
 description: '**Назначение:** опорная карта **Drupal 8+** (современное ядро на Symfony-компонентах): структура, модули, сущности, конфигурация, деплой. Мир `software.drupal`. Drupal 7 и ниже — legacy; упоминать только как «наследие».'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

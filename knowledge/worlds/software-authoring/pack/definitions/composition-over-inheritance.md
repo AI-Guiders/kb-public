@@ -3,6 +3,7 @@ type: Definition Card
 title: Composition over inheritance
 description: Композиция важнее наследования; глубокие иерархии — только при явной пользе.
 tags: [llm-native-card, definition, software-authoring]
+language: ru
 world: software
 subworld: authoring
 ---

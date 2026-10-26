@@ -2,6 +2,7 @@
 type: Article
 title: Травма как априор, не как «я»
 description: '**Trauma as Prior, Not as Self**'
+language: ru
 ---
 # Травма как априор, не как «я»
 

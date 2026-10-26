@@ -3,6 +3,7 @@ type: KB
 title: KB taxonomy v1 (канонический описатель)
 description: '**Статус:** Accepted · 2026-05-11 (v1 таксономии под [ADR 009](../adr/009-kb-entry-structure-and-pre-open-onboarding.md)). Примеры миров: **cognition.human-perception**, **aviation.human-factors**, **psychology.models**, **medicine.evidence**, **hci.ux-dx**, **software.engineering-evidence**, **software.automation-scripting**, **collaboration.git-pr**, **systems.it**, **knowledge.engineering**, **ops** (host / network / observability / reliability), **agent.orchestration**, **workspace.context**, **information.management**, **evidence.humanities-shelf** — каталоги под `worlds/<…>/`; **полный список** — [`worlds/README.md`](../worlds/README.md). Роутеры — в корне `knowledge/`.'
 tags: [kb, kb-taxonomy, meta, ssot]
+language: ru
 ---
 # KB taxonomy v1 (канонический описатель)
 

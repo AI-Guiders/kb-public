@@ -3,6 +3,7 @@ type: Playbook
 title: Informatics pedagogy — router v1
 description: '**world:** `pedagogy.informatics`'
 tags: [living, pedagogy-informatics, playbook, worlds]
+language: en
 world: pedagogy
 subworld: informatics
 ---

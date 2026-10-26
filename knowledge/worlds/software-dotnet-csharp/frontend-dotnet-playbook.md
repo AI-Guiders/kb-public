@@ -3,6 +3,7 @@ type: Playbook
 title: Frontend .NET Playbook v1
 description: Unified frontend engineering playbook for .NET UI stacks:
 tags: [software-dotnet-csharp, worlds]
+language: ru
 world: software
 subworld: dotnet-csharp
 ---

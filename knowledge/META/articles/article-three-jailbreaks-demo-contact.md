@@ -2,6 +2,7 @@
 type: Article
 title: Три jailbreak'а и дешёвый тест первого контакта
 description: '**Three Jailbreaks and the Cheap First-Contact Test**'
+language: ru
 ---
 # Три jailbreak'а и дешёвый тест первого контакта
 

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Человеческая история: Холокост, спасение, моральный выбор под давлением (evidence-based v1)'
 description: Evidence-based обзор по историографии спасения во время Холокоста и морального выбора в условиях краха норм и крайнего давления. Цель — заземлить «ядро, когда всё рухнуло» и защиту других в исторических свидетельствах, а не только в принципах.
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

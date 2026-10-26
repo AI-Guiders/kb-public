@@ -3,6 +3,7 @@ type: Definition Card
 title: P2 Representations
 description: Графики, векторы, диаграммы — перевод между представлениями.
 tags: [llm-native-card, definition, pedagogy-physics]
+language: ru
 world: pedagogy
 subworld: physics
 ---

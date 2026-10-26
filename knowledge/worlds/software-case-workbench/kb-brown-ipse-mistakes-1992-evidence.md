@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Brown & McDermid (1992) — Learning From IPSE''s Mistakes'
 description: 'Единая среда: общий object management (OMS), tool bus, process support — **все инструменты** через одну интегрированную платформу.'
 tags: [software-case-workbench, paper-evidence, ipse, case, worlds]
+language: ru
 world: software
 subworld: case-workbench
 ---

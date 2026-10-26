@@ -3,7 +3,7 @@ type: Template
 title: Template — TaskKnowledge Task Card
 description: '**Контур:** TaskKnowledge work store (не KB).'
 tags: [template, templates]
-subtype: TaskKnowledge Task
+language: ru
 ---
 # Template — TaskKnowledge Task Card
 

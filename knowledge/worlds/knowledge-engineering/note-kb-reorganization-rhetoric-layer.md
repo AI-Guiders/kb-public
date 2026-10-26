@@ -3,6 +3,7 @@ type: Note
 title: 'Note: KB reorganization — rhetoric layer & agent operations v1'
 description: '**Status:** proposal + first slice shipped 2026-08-22'
 tags: [knowledge-engineering, kb-taxonomy, rhetoric-pragmatics, living]
+language: ru
 world: knowledge
 subworld: engineering
 ---

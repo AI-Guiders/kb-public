@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: HealthyChildren.org — early literacy milestones'
 description: '**Thesis:** Early literacy is **staged interaction with books and sound**, not early formal reading. Prenatal reading = bonding optional; real joint engagement ramps with motor control.'
 tags: [cognition-early-caregiving, kb, worlds]
+language: en
 world: cognition
 subworld: early-caregiving
 ---

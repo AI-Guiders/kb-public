@@ -2,6 +2,7 @@
 type: KB
 description: 'id: kb-regex-quickref-v1'
 tags: [kb, pattern-regex, worlds]
+language: ru
 world: pattern
 subworld: regex
 sections: [quantifiers-one-liner]

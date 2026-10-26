@@ -3,6 +3,7 @@ type: Definition Card
 title: GoF — Singleton
 description: Один экземпляр класса + глобальная точка доступа. Часто нарушает SRP и усложняет тесты/многопоточность.
 tags: [llm-native-card, definition, software-authoring, gof]
+language: ru
 world: software
 subworld: authoring
 ---

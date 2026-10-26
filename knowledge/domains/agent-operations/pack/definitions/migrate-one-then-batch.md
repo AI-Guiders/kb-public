@@ -3,6 +3,7 @@ type: Definition Card
 title: Migrate one, then batch
 description: Массовая миграция — только после эталона на 1–2 файлах. «Потом поправлю» без gate = почти наверняка забудешь, пока человек не пнёт.
 tags: [llm-native-card, definition, agent-operations]
+language: ru
 ---
 
 # Migrate one, then batch

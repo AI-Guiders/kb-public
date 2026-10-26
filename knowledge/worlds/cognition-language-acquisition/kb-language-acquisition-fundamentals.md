@@ -3,6 +3,7 @@ type: KB
 title: Child language acquisition — fundamentals v1
 description: '**Статус:** справочник; **не** CASA spec.'
 tags: [cognition-language-acquisition, kb, worlds]
+language: ru
 world: cognition
 subworld: language-acquisition
 ---

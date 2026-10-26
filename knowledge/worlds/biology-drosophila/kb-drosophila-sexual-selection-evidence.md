@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Половой отбор: эволюция и механизмы (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, sexual-selection, polyandry, fitness, dsx-fru]
+language: ru
 world: biology
 subworld: drosophila
 ---

@@ -3,6 +3,7 @@ type: KB
 title: Объекты, прототипы и классы в JavaScript
 description: '**Назначение:** связать **семантику объектов** со спецификацией: литералы, доступ к свойствам, цепочка прототипов, синтаксис `class`, приватные поля, итерируемость. Мир **`software.javascript`**.'
 tags: [kb, software-javascript, worlds]
+language: ru
 world: software
 subworld: javascript
 ---

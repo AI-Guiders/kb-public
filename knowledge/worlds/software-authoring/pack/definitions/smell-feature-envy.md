@@ -3,6 +3,7 @@ type: Definition Card
 title: Smell — Feature Envy
 description: Метод чаще использует данные другого объекта, чем свои. «Что меняется вместе — держать вместе».
 tags: [llm-native-card, definition, software-authoring, refactoring-guru, smell]
+language: ru
 world: software
 subworld: authoring
 ---

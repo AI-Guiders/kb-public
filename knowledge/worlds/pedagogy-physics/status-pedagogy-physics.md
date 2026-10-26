@@ -3,6 +3,7 @@ type: Status
 title: 'Status: pedagogy.physics v1'
 description: '**Домен:** физика — school conceptual instruction v1'
 tags: [pedagogy-physics, status, worlds]
+language: ru
 world: pedagogy
 subworld: physics
 ---

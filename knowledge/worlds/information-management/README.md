@@ -3,6 +3,7 @@ type: Index
 title: Мир **information.management** (IM)
 description: '**Назначение:** IM playbook, публичная идентичность и доверие, открытые вопросы, purpose/books.'
 tags: [information-management, readme, worlds]
+language: ru
 world: information
 subworld: management
 ---

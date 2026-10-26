@@ -3,6 +3,7 @@ type: KB
 title: Laravel — безопасность, аутентификация, API
 description: '**Назначение:** контур **auth** и базовых угроз в типичном Laravel-приложении (веб + API). Не заменяет OWASP ASVS и внутренние стандарты. Мир `software.laravel`.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

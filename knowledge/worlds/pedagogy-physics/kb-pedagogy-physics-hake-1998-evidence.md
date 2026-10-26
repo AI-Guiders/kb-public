@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Hake (1998) — interactive engagement vs traditional mechanics'
 description: '**Thesis:** **Interactive engagement (IE)** courses show substantially higher **normalized gain** `<g>` on concept inventories than **traditional (T)** lecture + standard recitation.'
 tags: [kb, pedagogy-physics, worlds]
+language: en
 world: pedagogy
 subworld: physics
 ---

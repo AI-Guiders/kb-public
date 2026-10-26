@@ -3,6 +3,7 @@ type: Note
 title: 'Cursor: The window is not responding (Reopen / Close / Keep Waiting)'
 description: '**Status:** Identified · 2026-07-31'
 tags: [agent-operations, cursor, harness, epsilon, continuity]
+language: ru
 ---
 # Cursor: The window is not responding (Reopen / Close / Keep Waiting)
 **Status:** Identified · 2026-07-31

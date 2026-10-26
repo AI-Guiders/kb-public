@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: мультипроектный workspace и рациональный контекст'
 description: '**Назначение:** чтобы агент не смешивал репозитории и не расходовал контекст на лишнее при работе в домашнем workspace с множеством `.sln`, MCP-серверов и карточек в каноне.'
 tags: [living, playbook, workspace-context, worlds]
+language: ru
 world: workspace
 subworld: context
 ---

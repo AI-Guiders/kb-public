@@ -3,6 +3,7 @@ type: Map
 title: Pedagogy — reading map v1
 description: '**world:** `pedagogy.general`'
 tags: [map, pedagogy-general, worlds]
+language: en
 world: pedagogy
 subworld: general
 ---

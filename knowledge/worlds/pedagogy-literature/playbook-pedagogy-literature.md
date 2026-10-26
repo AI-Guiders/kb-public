@@ -3,6 +3,7 @@ type: Playbook
 title: Literature pedagogy — router v1
 description: '**world:** `pedagogy.literature`'
 tags: [living, pedagogy-literature, playbook, worlds]
+language: en
 world: pedagogy
 subworld: literature
 ---

@@ -3,6 +3,7 @@ type: Note
 title: 'Поддомен психологии: Gender Studies / Identity & Context'
 description: '> Каноническое тело секции `psychology-gender-studies-subdomain-v1`. В `agent-notes.md` остаётся stub с тем же `section_id`; загрузка по `route_context` или `read_knowledge_file`.'
 tags: [psychology-models, worlds]
+language: ru
 world: psychology
 subworld: models
 status: stable

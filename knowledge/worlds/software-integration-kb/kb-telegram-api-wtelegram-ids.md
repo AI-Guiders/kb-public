@@ -3,6 +3,7 @@ type: KB
 title: 'Telegram API и WTelegramClient: идентификаторы и отправка сообщений'
 description: 'Источник: https://core.telegram.org/api/bots/ids'
 tags: [kb, software-integration-kb, worlds]
+language: ru
 world: software
 subworld: integration-kb
 ---

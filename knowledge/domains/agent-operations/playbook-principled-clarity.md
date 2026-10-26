@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: принципиальная ясность'
 description: '**Домен:** agent-operations'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 speech_situation:
   audience: agent_internal
   goal: epistemic_gate

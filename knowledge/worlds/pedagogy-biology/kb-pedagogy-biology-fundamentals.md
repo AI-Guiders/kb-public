@@ -3,6 +3,7 @@ type: KB
 title: Biology pedagogy — fundamentals v1
 description: '**Мир:** `pedagogy.biology`'
 tags: [kb, pedagogy-biology, worlds]
+language: ru
 world: pedagogy
 subworld: biology
 ---

@@ -3,6 +3,7 @@ type: KB
 title: 'Music: Temperaments and Mathematical Theory v1'
 description: 'Математическая теория музыки: чистая интонация (just intonation), коммы, темперации (12-EDO, среднетоновая, пифагоров строй), групповая структура интервалов, N-EDO. Мир **arts.music**.'
 tags: [arts-music, kb, worlds]
+language: ru
 world: arts
 subworld: music
 ---

@@ -3,6 +3,7 @@ type: KB
 title: 'Music: Non-Western and Extended Systems v1'
 description: 'Незападная и расширенная музыка: макам (арабский/турецкий и связанные традиции), рага (индийская классика), микротоновость и 24-EDO. Мир **arts.music**. При анализе или сравнении с западной тональностью — явно указывать систему.'
 tags: [arts-music, kb, worlds]
+language: ru
 world: arts
 subworld: music
 ---

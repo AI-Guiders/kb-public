@@ -3,7 +3,7 @@ type: Template
 title: 'Map: <title> (template)'
 description: '**Назначение:** одна страница — **схема**, маршрутизация, «куда что класть». Не дублировать длинные playbook.'
 tags: [template, templates]
-subtype: Map
+language: ru
 ---
 
 ﻿# Map: <title> (template)

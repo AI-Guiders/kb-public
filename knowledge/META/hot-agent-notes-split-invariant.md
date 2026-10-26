@@ -3,6 +3,7 @@ type: Note
 title: Hot split invariant v1
 description: '**Статус:** active'
 tags: [meta]
+language: ru
 ---
 # Hot split invariant v1
 

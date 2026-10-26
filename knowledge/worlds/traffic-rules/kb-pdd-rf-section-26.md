@@ -3,6 +3,7 @@ type: KB
 title: ПДД РФ — Раздел 26. Нормы времени управления ТС и отдыха (verified)
 description: ПДД.руПДД
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
+language: ru
 world: traffic
 subworld: rules
 ---

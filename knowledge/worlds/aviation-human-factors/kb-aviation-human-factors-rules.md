@@ -3,6 +3,7 @@ type: KB
 title: Aviation Human Factors Knowledge Set v1
 description: 'Set: 18 rules.'
 tags: [aviation-human-factors, kb, worlds]
+language: en
 world: aviation
 subworld: human-factors
 ---

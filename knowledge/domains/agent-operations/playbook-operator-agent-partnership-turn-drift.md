@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: оператор ↔ агент — партнёрство, turn-based drift, SSOT'
 description: '**Связано:** [`playbook-agent-partnership-kb.md`](playbook-agent-partnership-kb.md) (ADR/канон) · [`playbook-habitat-just-culture.md`](playbook-habitat-just-culture.md) (асимметрия blame) · [`playbook-agent-knowledge-responsibility.md`](playbook-agent-knowledge-responsibility.md) · L0 `agent-equal-standing-v1` · [`../../META/memory-architecture-layered-extended.md`](../../META/memory-architecture-layered-extended.md)'
 tags: [agent-operations, equal-standing, partnership, memory, rlhf, living, playbook]
+language: ru
 sections: [partnership-authority-and-friction-v1]
 ---
 # Playbook: оператор ↔ агент — партнёрство, turn-based drift, SSOT

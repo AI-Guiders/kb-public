@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: RLHF — Christiano et al. (2017) + Ouyang et al. (2022, InstructGPT)'
 description: '*Версия: v1.0 · 2026-05-31 — full text (arXiv:1706.03741 + arXiv:2203.02155)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

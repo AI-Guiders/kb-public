@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Hansford et al. (2025) — structured vs balanced literacy (2020s replication of NRP)'
 description: '**Thesis:** 2025 analysis finds **structured literacy** (systematic phonics, scope/sequence, decodables) effect sizes **~identical to NRP 2000** (d≈.44–.46); **balanced literacy** weaker (d≈.19–.29).'
 tags: [kb, pedagogy-russian-language, worlds]
+language: en
 world: pedagogy
 subworld: russian-language
 ---

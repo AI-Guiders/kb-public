@@ -3,6 +3,7 @@ type: Note
 title: Note — TaskKnowledge Flow (agent work ontology)
 description: '**Status:** Proposed · capture (EnvInvariant draft; not freeze)'
 tags: [agent-operations, domains, note, research]
+language: ru
 ---
 
 ﻿# Note — TaskKnowledge Flow (agent work ontology)

@@ -3,6 +3,7 @@ type: KB
 title: Слой 2 — Клетки и типы (biology.drosophila)
 description: '**world-id:** `biology.drosophila` · **Слой:** 2/7 · **Статус:** каркас-инвентаризация (2026-09-19)'
 tags: [biology-drosophila, worlds, kb, cell-types, transcriptomics]
+language: ru
 world: biology
 subworld: drosophila
 ---

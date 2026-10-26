@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Kruchten (1995) — The 4+1 View Model of Architecture'
 description: 'Одна диаграмма не обслуживает всех stakeholders: разработчик, интегратор, performance engineer, клиент видят **разные срезы** одной системы.'
 tags: [software-case-workbench, paper-evidence, kruchten, architecture, worlds]
+language: ru
 world: software
 subworld: case-workbench
 ---

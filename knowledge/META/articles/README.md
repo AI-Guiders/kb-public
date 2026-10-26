@@ -3,6 +3,7 @@ type: Index
 title: META · articles (корзина зеркал)
 description: Зеркала и dual-home копии **публичной серии** *Predictive minds · carriers · habitat*.
 tags: [meta, articles, predictive-minds]
+language: ru
 ---
 # META · articles (корзина зеркал)
 

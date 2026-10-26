@@ -3,6 +3,7 @@ type: Note
 title: Active scope — резолв slice и карта workspace (развёрнуто, v1)
 description: '**Назначение:** полный текст резолва slice и карты workspace. Сам **указатель** (что сейчас в фокусе: primary, открытый workspace, пауза) живёт в **`knowledge/work/local/active-scope.md`** — машинная привязка, в hot/L0 и в kb-public не входит (перенесено 2026-10-17).'
 tags: [workspace-context, worlds]
+language: ru
 world: workspace
 subworld: context
 ---

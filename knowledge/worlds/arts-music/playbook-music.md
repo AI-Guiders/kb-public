@@ -3,6 +3,7 @@ type: Playbook
 title: Music Domain Router v1
 description: Маршрутизация по поддоменам Music (мир **arts.music**). Загружать **один или несколько** kb по теме запроса; при общих запросах о музыке — начать с fundamentals, при необходимости добавить остальные.
 tags: [arts-music, living, playbook, worlds]
+language: ru
 world: arts
 subworld: music
 ---

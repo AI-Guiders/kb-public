@@ -3,6 +3,7 @@ type: Evidence Card
 title: Чжуан-цзы, гл. 26 外物 — evidence
 description: 荃者所以在魚，得魚而忘荃；蹄者所以在兔，得兔而忘蹄；言者所以在意，得意而忘言。吾安得夫忘言之人而與之言哉！
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
+language: zh
 world: philosophy
 subworld: dao-chan
 ---

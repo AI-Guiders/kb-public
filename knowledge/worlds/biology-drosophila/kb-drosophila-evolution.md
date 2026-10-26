@@ -3,6 +3,7 @@ type: KB
 title: Слой 6 — Эволюция (biology.drosophila)
 description: '**world-id:** `biology.drosophila` · **Слой:** 6/7 · **Статус:** каркас-инвентаризация (2026-09-19)'
 tags: [biology-drosophila, worlds, kb, evolution, speciation, evo-devo]
+language: ru
 world: biology
 subworld: drosophila
 ---

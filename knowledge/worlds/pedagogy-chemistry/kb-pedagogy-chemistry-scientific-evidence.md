@@ -3,6 +3,7 @@ type: Evidence Card
 title: Chemistry pedagogy — scientific evidence index v1
 description: Jegstad 2023 = current; Moog 2017 cited inside POGIL card.
 tags: [kb, pedagogy-chemistry, worlds]
+language: en
 world: pedagogy
 subworld: chemistry
 ---

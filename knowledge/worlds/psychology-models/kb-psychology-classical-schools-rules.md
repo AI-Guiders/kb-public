@@ -2,6 +2,7 @@
 type: KB
 description: 'Set: 24 cards.'
 tags: [kb, psychology-models, worlds]
+language: en
 world: psychology
 subworld: models
 ---

@@ -3,6 +3,7 @@ type: Note
 title: Pack layers — taxonomy before more cards
 description: '**Status:** design proposal (2026-07-20) · agreed direction · freeze before blast-radius / pass #2'
 tags: [worlds, llm-ready, map, architecture]
+language: ru
 world: _llm
 subworld: native-packs
 ---

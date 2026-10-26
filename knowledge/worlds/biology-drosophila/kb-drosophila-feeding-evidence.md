@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Питание: голод, насыщение, цепи (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, feeding, hunger, satiety, neuropeptide, motivation]
+language: ru
 world: biology
 subworld: drosophila
 ---

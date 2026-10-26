@@ -3,6 +3,7 @@ type: Index
 title: 'Указатель: язык и стиль (черновик)'
 description: Дополнять по мере появления статей в `knowledge/language/`.
 tags: [software-authoring, worlds]
+language: ru
 world: software
 subworld: authoring
 ---

@@ -2,6 +2,7 @@
 type: Misconception Card
 title: 'Misconception: mc-mass-migrate-script-first'
 tags: [llm-native-card, misconception, agent-operations]
+language: ru
 ---
 
 # Misconception: mc-mass-migrate-script-first

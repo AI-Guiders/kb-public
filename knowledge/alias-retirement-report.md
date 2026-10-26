@@ -3,6 +3,7 @@ type: Note
 title: Alias Retirement Report v1
 description: Alias-retirement batch completed successfully for Knowledge KB normalization.
 tags: [kb-root]
+language: en
 ---
 # Alias Retirement Report v1
 

@@ -3,6 +3,7 @@ type: Do-Not-Transfer Matrix
 title: Do-Not-Transfer Matrix v1
 description: 'Назначение: фиксировать, какие знания нельзя переносить между мирами без явной валидации.'
 tags: [knowledge-engineering, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

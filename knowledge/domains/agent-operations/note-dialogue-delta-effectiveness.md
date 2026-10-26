@@ -3,6 +3,7 @@ type: Note
 title: 'Note: Dialogue Δ — эффективность диалога и round-trip economy (v0)'
 description: '**Domain:** agent-operations'
 tags: [agent-operations, dialogue-delta, domains, ssot, note, research, living]
+language: ru
 ---
 # Note: Dialogue Δ — эффективность диалога и round-trip economy (v0)
 

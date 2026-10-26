@@ -2,6 +2,7 @@
 type: KB
 description: 'Set: 10 rules.'
 tags: [collaboration-git-pr, kb, worlds]
+language: en
 world: collaboration
 subworld: git-pr
 ---

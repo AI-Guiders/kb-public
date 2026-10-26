@@ -3,6 +3,7 @@ type: Status
 title: 'Status: biology.mus-musculus (мир «Mus musculus — лабораторная мышь»)'
 description: '**Домен:** лабораторная мышь — следующий референс после Drosophila melanogaster: клеточные атласы и частичные коннектомы (MICrONS — зрительная кора), без полного EM-коннектома мозга. Цель: знать всё доступное на текущий момент, чтобы при расширении CASA наслаивать знания о других животных.'
 tags: [biology-mus-musculus, worlds, status]
+language: ru
 world: biology
 subworld: mus-musculus
 ---

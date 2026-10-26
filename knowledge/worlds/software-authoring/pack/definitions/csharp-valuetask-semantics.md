@@ -3,6 +3,7 @@ type: Definition Card
 title: ValueTask semantics
 description: '`ValueTask` — только понимая семантику (в т.ч. повторный await одного экземпляра). Сомнение → `Task`.'
 tags: [llm-native-card, definition, software-authoring, csharp, trap]
+language: ru
 world: software
 subworld: authoring
 ---

@@ -3,6 +3,7 @@ type: Definition Card
 title: Dispose / await using
 description: '`IDisposable` / `IAsyncDisposable` освобождать через `using` / `await using`. Не глотать исключения так, что объект остаётся битым без схемы.'
 tags: [llm-native-card, definition, software-authoring, csharp, trap]
+language: ru
 world: software
 subworld: authoring
 ---

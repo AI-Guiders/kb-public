@@ -3,6 +3,7 @@ type: Playbook
 title: IT Cloud, Platform, Economics, and Diagnostics Playbook v1
 description: Close the pending IT roadmap segment focused on:
 tags: [living, playbook, systems-it, worlds]
+language: en
 world: systems
 subworld: it
 ---

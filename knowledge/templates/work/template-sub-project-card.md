@@ -3,7 +3,7 @@ type: Template
 title: 'Sub-project card: `<sub-project-id>` (template)'
 description: '**Путь экземпляра:** `knowledge/work/projects/<scope>/<parent-project-id>/subprojects/<sub-project-id>.md`'
 tags: [template, templates, sub-project]
-subtype: Sub-Project Card
+language: ru
 ---
 
 # Sub-project card: `<sub-project-id>` (template)

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Bitzer (1968) — The Rhetorical Situation'
 description: Комбинация persons, events, objects, relations, которая **требует** риторического ответа. Риторическое произведение **функционирует** для действия в мире и **контролируется** ситуацией, которая его порождает.
 tags: [rhetoric-pragmatics, paper-evidence, bitzer, worlds]
+language: ru
 world: rhetoric
 subworld: pragmatics
 ---

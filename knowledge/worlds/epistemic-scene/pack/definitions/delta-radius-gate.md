@@ -3,6 +3,7 @@ type: Definition Card
 title: Δradius effectiveness gate
 description: Шаг полезен только если радиус уменьшился.
 tags: [llm-native-card, definition, epistemic-scene, agent-operations]
+language: ru
 world: epistemic
 subworld: scene
 ---

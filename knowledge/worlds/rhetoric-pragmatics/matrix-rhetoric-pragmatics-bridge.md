@@ -3,6 +3,7 @@ type: Transfer Matrix
 title: 'Matrix: rhetoric.pragmatics bridges v1'
 description: '**Transfer allow:** speech_situation tuple → XL metadata; Bitzer/Bakhtin K-тезисы → fundamentals spine.'
 tags: [rhetoric-pragmatics, matrix, worlds]
+language: ru
 world: rhetoric
 subworld: pragmatics
 ---

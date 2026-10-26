@@ -3,6 +3,7 @@ type: Evidence Card
 title: Geography pedagogy — scientific evidence index v1
 description: '**McLaughlin 2023** spatial interventions review; Edelson 2009 foundational geo-literacy frame.'
 tags: [kb, pedagogy-geography, worlds]
+language: en
 world: pedagogy
 subworld: geography
 ---

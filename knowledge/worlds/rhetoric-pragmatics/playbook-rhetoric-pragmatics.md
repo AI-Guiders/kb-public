@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: rhetoric & pragmatics v1'
 description: '**Домен:** rhetoric.pragmatics'
 tags: [rhetoric-pragmatics, playbook, worlds, living]
+language: ru
 world: rhetoric
 subworld: pragmatics
 ---

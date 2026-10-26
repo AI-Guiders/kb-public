@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning'
 description: '*Версия: v1.0 · 2026-05-31 — full text (ICML 2009, pp. 41–48)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

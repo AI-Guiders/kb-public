@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Геном: структура, размер, гены, транспозоны, сборки (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, genome]
+language: ru
 world: biology
 subworld: drosophila
 supersedes: [нет (первая карточка темы 1.1; предыдущий черновик evidence-1-1-genome.md — заменён этим каноном)]

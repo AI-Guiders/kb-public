@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Grafana'
 description: '> **Scope:** типовые задачи админа Grafana — дашборды, источники данных, алерты. Без привязки к конкретным инстансам и паролям. Глубокий справочник: `kb-grafana-reference.md`.'
 tags: [living, ops-observability-network, playbook, worlds]
+language: ru
 world: ops
 subworld: observability-network
 ---

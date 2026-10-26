@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Habitat Just Culture'
 description: '**domain:** agent-operations'
 tags: [habitat, just-culture, blame-culture, cdp, incident, environment-axioms, agent-operations]
+language: ru
 ---
 # Playbook: Habitat Just Culture
 **domain:** agent-operations  

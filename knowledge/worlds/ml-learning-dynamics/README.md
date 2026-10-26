@@ -3,6 +3,7 @@ type: Index
 title: 'Мир **ml.learning-dynamics** (динамика обучения ML: куррикулум, забывание, консолидация)'
 description: '**Идентификатор мира:** `ml.learning-dynamics`'
 tags: [ml-learning-dynamics, readme, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

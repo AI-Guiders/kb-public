@@ -3,6 +3,7 @@ type: Note
 title: Talking Nets · oral history entrance
 description: '**Date:** 2026-08-03 · densened 2026-08-03 (Asaro review + open Grossberg ch.)'
 tags: [neural-networks, origins, oral-history]
+language: ru
 world: neural
 subworld: network-origins
 ---

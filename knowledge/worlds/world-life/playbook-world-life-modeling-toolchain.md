@@ -3,6 +3,7 @@ type: Playbook
 title: World-life modeling toolchain v1
 description: 'Перенесено из `agent-notes.md`. Связь: `world-life-meta-v1`, `world-life-router-playbook-v1` в `map-world-life-subworlds.md`.'
 tags: [living, playbook, world-life, worlds]
+language: ru
 world: world
 subworld: life
 status: stable

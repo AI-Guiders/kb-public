@@ -2,6 +2,7 @@
 type: Misconception Card
 title: 'Misconception: mc-pm-realtime-accept'
 tags: [llm-native-card, misconception, epistemic-scene, harness, cdp, pair]
+language: ru
 world: epistemic
 subworld: scene
 ---

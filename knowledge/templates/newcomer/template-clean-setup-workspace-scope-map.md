@@ -3,7 +3,7 @@ type: Template
 title: workspace-scope-map (template — copy to personal `work/local/workspace-scope-map.md`)
 description: 'One line per entry: `absolute/workspace/path => scope_id`'
 tags: [template, templates]
-subtype: clean-setup-workspace-scope-map
+language: en
 ---
 
 ﻿# workspace-scope-map (template — copy to personal `work/local/workspace-scope-map.md`)

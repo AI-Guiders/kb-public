@@ -3,6 +3,7 @@ type: Note
 title: OpenCode session store × DBHub
 description: '**Config:** `C:/CursorDBHubConfig/config.toml` → source `opencodedb`'
 tags: [agent-operations, opencode, dbhub, sqlite, living]
+language: ru
 ---
 # OpenCode session store × DBHub
 

@@ -3,6 +3,7 @@ type: KB
 title: ПДД РФ — Раздел 21. Учебная езда (verified)
 description: ПДД.руПДД
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
+language: ru
 world: traffic
 subworld: rules
 ---

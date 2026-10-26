@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: tiers данных для агентов'
 description: '**Домен:** agent-operations'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 ---
 # Playbook: tiers данных для агентов
 

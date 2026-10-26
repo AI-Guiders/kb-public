@@ -2,6 +2,7 @@
 type: Map
 description: '**Каноническая база знаний:** `kb-engineering-evidence.md` — факты, эвристики и задачи внедрения по темам. Этот файл — справочник источников и опциональное углублённое чтение по трекам.'
 tags: [map, software-engineering-evidence, worlds]
+language: ru
 world: software
 subworld: engineering-evidence
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: Aviation Human Factors Playbook v1
 description: Operational knowledge layer for aviation psychology and human factors:
 tags: [aviation-human-factors, living, playbook, worlds]
+language: en
 world: aviation
 subworld: human-factors
 ---

@@ -3,6 +3,7 @@ type: Note
 title: 'Note: Ide.Session Ports.* — documented disk-IO seam exception'
 description: '**Status:** Accepted (slice B, 2026-09-13)'
 tags: [guiders, fsharp, ide-session, ports, nuget, conformance]
+language: en
 ---
 # Note: Ide.Session Ports.* — documented disk-IO seam exception
 

@@ -3,6 +3,7 @@ type: Evidence Card
 title: Human perception — scientific evidence (first sources & reviews) v1
 description: 'Слой **fundamentals** (`kb-human-perception-fundamentals.md`) даёт рабочие формулировки; этот документ — **научные якоря**: кто и в каком жанре доказал/ввёл идею, с DOI где возможно. Используй для обоснования ревью, споров о приоритете внимания и для дальнейшего чтения первоисточников.'
 tags: [cognition-human-perception, kb, worlds]
+language: ru
 world: cognition
 subworld: human-perception
 ---

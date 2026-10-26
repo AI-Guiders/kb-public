@@ -3,6 +3,7 @@ type: Index
 title: Мир **pedagogy.second-native-language**
 description: '**Идентификатор:** `pedagogy.second-native-language`'
 tags: [pedagogy-second-native-language, readme, worlds]
+language: ru
 world: pedagogy
 subworld: second-native-language
 ---

@@ -3,6 +3,7 @@ type: Index
 title: Мир **software.engineering-evidence** (инженерная эвиденция, .NET/C#)
 description: '**Назначение:** база фактов и эвристик по темам (не каталог книг), карта источников и треков чтения (A–H), карта глав *Code Complete* 2nd ed. с evidence-протоколом, статус closure слоя; legacy-дайджест — архив выписок. Пересекается с доменом **IT** в роутере (`playbook-it-core-systems`, cloud/economics) и с **software.dotnet-desktop** при задачах UI/инструмента.'
 tags: [readme, software-engineering-evidence, worlds]
+language: ru
 world: software
 subworld: engineering-evidence
 ---

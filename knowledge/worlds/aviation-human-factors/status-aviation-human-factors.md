@@ -3,6 +3,7 @@ type: Status
 title: Aviation Human Factors Domain Status v1
 description: Aviation psychology and human-factors domain for safety-critical team decisions, reporting culture, and error-chain prevention.
 tags: [aviation-human-factors, status, worlds]
+language: ru
 world: aviation
 subworld: human-factors
 ---

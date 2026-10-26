@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: K-12 Computer Science Framework (2016)'
 description: '**Thesis:** K-12 CS is organized as **five core concepts** enacted through **seven practices** — not a syntax-first language course.'
 tags: [kb, pedagogy-informatics, worlds]
+language: en
 world: pedagogy
 subworld: informatics
 ---

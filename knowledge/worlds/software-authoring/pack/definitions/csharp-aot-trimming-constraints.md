@@ -3,6 +3,7 @@ type: Definition Card
 title: Native AOT / trimming constraints
 description: Native AOT / trimming режут рефлексию и динамику. Таргет AOT → отдельные ограничения, не «как обычный JIT».
 tags: [llm-native-card, definition, software-authoring, csharp, trap]
+language: ru
 world: software
 subworld: authoring
 ---

@@ -3,6 +3,7 @@ type: KB
 title: Composer, Packagist и сторонняя экосистема PHP
 description: '**Назначение:** контракты **управления зависимостями** и навигация по **популярным семействам** пакетов (в т.ч. Spatie для Laravel), без фиксации версий в KB. Мир `software.php` (tooling). Сочетается с `playbook-php.md`.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

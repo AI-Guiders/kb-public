@@ -3,6 +3,7 @@ type: Transfer Matrix
 title: Transfer matrix — early caregiving v1
 description: '**Мир:** `cognition.early-caregiving`'
 tags: [cognition-early-caregiving, worlds]
+language: ru
 world: cognition
 subworld: early-caregiving
 ---

@@ -2,6 +2,7 @@
 type: KB
 description: 'Set: 16 rules.'
 tags: [hci-ux-dx, kb, worlds]
+language: en
 world: hci
 subworld: ux-dx
 ---

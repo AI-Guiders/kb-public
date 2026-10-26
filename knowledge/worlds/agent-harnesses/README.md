@@ -3,6 +3,7 @@ type: Index
 title: 'Мир **agent.harnesses** (харнессы: контекст-фидинг и среда модели)'
 description: '**World tag:** `agent.harnesses`'
 tags: [agent-harnesses, worlds, readme]
+language: ru
 world: agent
 subworld: harnesses
 ---

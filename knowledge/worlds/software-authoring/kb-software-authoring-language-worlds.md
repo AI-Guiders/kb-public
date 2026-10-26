@@ -3,6 +3,7 @@ type: KB
 title: 'Software authoring: карта языковых миров v1'
 description: '**Назначение:** разделить **языконезависимый** контур (OOA&D), **языки**, **tooling** (компилятор/семантика ≠ язык) и **UI/framework**-стеки.'
 tags: [kb, software-authoring, worlds]
+language: ru
 world: software
 subworld: authoring
 sections: [objectpascal-and-legacy-stacks-v1]

@@ -3,6 +3,7 @@ type: Meta Contract
 title: Environment axioms v1 (аксиоматика среды)
 description: '**Well-known path:** `knowledge/META/environment-axioms.md`'
 tags: [meta, environment-axioms, duck-test, tps, standing]
+language: ru
 ---
 # Environment axioms v1 (аксиоматика среды)
 

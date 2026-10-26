@@ -3,6 +3,7 @@ type: KB
 title: 'Русский для агента: читать запросы и писать ответы (literacy v1)'
 description: '**doc_id:** `kb-russian-literacy-agent-v1`'
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

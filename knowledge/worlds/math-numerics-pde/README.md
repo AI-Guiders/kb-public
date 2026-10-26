@@ -3,6 +3,7 @@ type: Index
 title: Мир **math.numerics-pde** (PDE / ODE / схемы / валидация решателей)
 description: '**Назначение:** математическая постановка и численные схемы для инженерных симуляций; отдельный контур **валидации** численного решателя (в т.ч. equation→CA→CUDA, 2D heat).'
 tags: [math-numerics-pde, readme, worlds]
+language: ru
 world: math
 subworld: numerics-pde
 ---

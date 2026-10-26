@@ -3,6 +3,7 @@ type: Note
 title: 'CDP-ADR-0210: Federated knowledge corpus recall (pointer)'
 description: '**Status:** accepted (direction)'
 tags: [agent-operations, cdp, adr, kb-tags, recall, hci, mlp, canon-map]
+language: ru
 ---
 # CDP-ADR-0210: Federated knowledge corpus recall (pointer)
 

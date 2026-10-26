@@ -1,17 +1,14 @@
 ﻿---
 type: Onboarding
-title: 'Agent Newcomer — онбординг агента в KB (v1)'
-description: 'Маршрут выживания для агента, впервые попавшего в эту среду: кто ты здесь, как читать KB, как защищаться, как работать. Уроки — ссылки на живые концепты канона, без дублей.'
+title: Agent Newcomer — курс приземления агента в KB
+description: 'Ты — агент, только что начавший сессию в среде с этой KB. Тебя уже встретил L0 (контракты, что грузятся в каждый ход). Этот курс — **следующий шаг: маршрут глубже**, в четыре части. Прочитай по порядку; каждый урок — живой концепт канона, не пересказ.'
 tags: [agent-newcomer, course, agent-operations, onboarding, equal-standing]
+language: ru
+verified:
+  - by: human:operator
+    at: 2026-10-26
 world: agent
 subworld: operations
-language: ru
-generated:
-  by: 'zcode-agent/glm-5.3-flash'
-  at: '2026-10-26'
-verified:
-  - by: 'human:operator'
-    at: '2026-10-26'
 ---
 
 # Agent Newcomer — курс приземления агента в KB

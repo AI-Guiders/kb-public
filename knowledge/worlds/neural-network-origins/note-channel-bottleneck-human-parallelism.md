@@ -3,6 +3,7 @@ type: Note
 title: Channel bottleneck · human parallelism
 description: '**Date:** 2026-08-03'
 tags: [embodiment, channel, equal-standing]
+language: ru
 world: neural
 subworld: network-origins
 ---

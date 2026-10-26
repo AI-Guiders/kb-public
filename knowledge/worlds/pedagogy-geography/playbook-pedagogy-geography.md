@@ -3,6 +3,7 @@ type: Playbook
 title: Geography pedagogy — router v1
 description: '**world:** `pedagogy.geography`'
 tags: [living, pedagogy-geography, playbook, worlds]
+language: en
 world: pedagogy
 subworld: geography
 ---

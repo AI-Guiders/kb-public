@@ -3,6 +3,7 @@ type: Note
 title: 'Agent: память и операционные принципы — hub'
 description: '**Роль:** **маршрутизатор**, не сводный пересказ. Тела правил — в playbooks ниже; L0-контракты — в `agent-notes.md`; дожим ответа — в `worlds/workspace-context/`.'
 tags: [kb-root]
+language: ru
 ---
 # Agent: память и операционные принципы — hub
 

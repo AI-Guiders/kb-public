@@ -3,6 +3,7 @@ type: Playbook
 title: Multi-agent write v1
 description: 'Тело секции `multi-agent-write-protocol-v1` из `agent-notes.md`. Hub оркестрации: `knowledge/worlds/agent-orchestration/`.'
 tags: [agent-operations, domains, living, playbook]
+language: en
 sections: [multi-agent-write-protocol-v1]
 ---
 # Multi-agent write v1

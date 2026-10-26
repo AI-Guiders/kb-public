@@ -3,6 +3,7 @@ type: Definition Card
 title: Applicability → inference gate
 description: Перед promote major claim — сначала лицензия области (A), потом согласованность/следствие (I); иначе reject или honest unknown.
 tags: [llm-native-card, definition, epistemic-scene, cdp-adr-0001]
+language: ru
 world: epistemic
 subworld: scene
 ---

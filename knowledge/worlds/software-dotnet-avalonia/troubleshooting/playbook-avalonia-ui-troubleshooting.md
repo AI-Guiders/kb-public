@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: Avalonia UI — troubleshooting'
 description: '> **Контур:** A · kb-public'
 tags: [living, playbook, software-dotnet-avalonia, worlds]
+language: ru
 world: software
 subworld: dotnet-avalonia
 ---

@@ -3,6 +3,7 @@ type: Definition Card
 title: SOLID — Liskov Substitution
 description: Подтип можно подставить без нарушения контракта базы.
 tags: [llm-native-card, definition, software-authoring]
+language: ru
 world: software
 subworld: authoring
 ---

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Kirkpatrick et al. (2017) — Overcoming catastrophic forgetting (EWC)'
 description: '*Версия: v1.0 · 2026-05-31 — full text (PNAS 114(13):3521–3526 / arXiv:1612.00796)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

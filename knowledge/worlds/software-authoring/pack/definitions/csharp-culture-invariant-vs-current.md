@@ -3,6 +3,7 @@ type: Definition Card
 title: 'Culture: Invariant vs Current'
 description: Протоколы, сырой парсинг, машиночитаемые логи → `InvariantCulture`. Текст UI → `CurrentCulture`.
 tags: [llm-native-card, definition, software-authoring, csharp, trap]
+language: ru
 world: software
 subworld: authoring
 ---

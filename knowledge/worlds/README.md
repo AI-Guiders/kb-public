@@ -3,6 +3,7 @@ type: Index
 title: '`knowledge/worlds/` — крупные контексты («вселенные»)'
 description: Смысл корзины и правила размещения — только из **`../META/kb-taxonomy.md`**.
 tags: [readme, readme-md, worlds]
+language: ru
 world: README.md
 sections: [catalog-engineering-cad-v1, catalog-engineering-pml-v1, catalog-pedagogy-school-subjects-v1, catalog-biology-drosophila-v1]
 ---

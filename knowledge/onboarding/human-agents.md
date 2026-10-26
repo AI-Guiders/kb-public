@@ -1,15 +1,12 @@
 ﻿---
 type: Onboarding
-title: 'Human ↔ agents — agent-first-learn (v1)'
-description: 'Трек человека-партнёра: курс designing with and for AI agents — память, суммаризация, субъектность, этика партнёрства, ContextDB.'
+title: Human ↔ agents — agent-first-learn
+description: Ты — человек, работающий с агентами. Этот трек — как перестать быть «пользователем» и стать партнёром.
 tags: [onboarding, human, agent-first-learn, partnership, public]
 language: ru
-generated:
-  by: 'zcode-agent/glm-5.3-flash'
-  at: '2026-10-26'
 verified:
-  - by: 'human:operator'
-    at: '2026-10-26'
+  - by: human:operator
+    at: 2026-10-26
 ---
 
 # Human ↔ agents — agent-first-learn

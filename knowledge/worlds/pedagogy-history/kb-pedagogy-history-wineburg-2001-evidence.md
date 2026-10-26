@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Wineburg (2001) — Historical Thinking and Other Unnatural Acts'
 description: '**Thesis:** historical thinking is **unnatural** — novices read past as present; experts **source, contextualize, corroborate**.'
 tags: [kb, pedagogy-history, worlds]
+language: en
 world: pedagogy
 subworld: history
 ---

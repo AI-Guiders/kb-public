@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: ops.observability-network — troubleshooting'
 description: '> **Контур:** A · мир **ops.observability-network** · kb-public'
 tags: [living, ops-observability-network, playbook, worlds]
+language: ru
 world: ops
 subworld: observability-network
 ---

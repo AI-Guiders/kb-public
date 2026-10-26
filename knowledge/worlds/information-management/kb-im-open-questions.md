@@ -3,6 +3,7 @@ type: KB
 title: IM Open Questions v1
 description: 'Открытые проектные/архитектурные вопросы домена Information Management. Источник: `im-playbook.md` → Open Questions Backlog. Ответы требуют решений по проекту или коду; здесь только структура и критерий закрытия.'
 tags: [information-management, kb, worlds]
+language: ru
 world: information
 subworld: management
 ---

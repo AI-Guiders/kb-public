@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: AAP Early Relational Health — language & serve-and-return'
 description: '**Thesis:** Early language grows in **relational health** — back-and-forth vocalizing and gesturing between child and caring adult (**serve and return**). Play in everyday moments (diaper, feeding, silly faces) is learning.'
 tags: [cognition-early-caregiving, kb, worlds]
+language: en
 world: cognition
 subworld: early-caregiving
 ---

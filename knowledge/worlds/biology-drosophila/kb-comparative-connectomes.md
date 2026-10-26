@@ -2,6 +2,7 @@
 type: KB
 title: 'Сравнительный анализ коннектомов: Drosophila ↔ другие виды (v0.1, каркас)'
 description: '**Мир:** biology.drosophila (референс) · **Связь:** наслоение знаний о других животных для CASA'
+language: ru
 world: biology
 subworld: drosophila
 ---

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Utility, Value, and Underdetermination: Evidence-Based Survey'
 description: 'Evidence-based обзор направлений: теория полезности (expected utility), теория ценности (value theory, axiology), несоизмеримость ценностей (incommensurability), агрегация предпочтений. Цель — заземлить рассуждения о «полезности» и «ценности» в научных источниках, а не в формулировках принципов; поддерживать независимое мышление, а не мимикрию правил.'
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

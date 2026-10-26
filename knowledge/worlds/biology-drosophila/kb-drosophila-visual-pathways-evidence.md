@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Визуальные пути: топографический vs нетопографический (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, visual-pathways, aotu, metu, topographic, navigation]
+language: ru
 world: biology
 subworld: drosophila
 ---

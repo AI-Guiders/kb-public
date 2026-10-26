@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Мировая история: моральное сопротивление и защита других под давлением (evidence-based v1)'
 description: 'Расширение evidence base для «ядра, когда всё рухнуло»: примеры из разных эпох и регионов, где люди действовали по принципам, защищали других вопреки системе или давлению. Дополняет `kb-history-holocaust-rescue-evidence.md`; вместе — фундамент для независимого рассуждения о целостности и защите при крахе барьеров.'
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

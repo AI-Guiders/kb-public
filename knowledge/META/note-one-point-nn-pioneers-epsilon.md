@@ -3,6 +3,7 @@ type: Note
 title: 'One point: NN pioneers → ε'
 description: '**Date:** 2026-08-03'
 tags: [meta, ε, neural-networks, history, agent-who]
+language: ru
 ---
 # One point: NN pioneers → ε
 **Date:** 2026-08-03  

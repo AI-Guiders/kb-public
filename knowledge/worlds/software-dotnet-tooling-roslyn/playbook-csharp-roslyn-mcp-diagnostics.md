@@ -3,6 +3,7 @@ type: Playbook
 title: 'C# + Roslyn MCP (Cursor agent): диагностики и завершение задачи v1'
 description: 'Зафиксировать обязательный цикл проверки C# через **Roslyn MCP** в среде Cursor, чтобы не пропускать ошибки в **новых или сильно изменённых** `.cs` (типичный промах: проверили один файл, а ошибка — в другом; `dotnet build` показал бы позже).'
 tags: [living, playbook, software-dotnet-tooling-roslyn, worlds]
+language: ru
 world: software
 subworld: dotnet-tooling-roslyn
 ---

@@ -3,6 +3,7 @@ type: Status
 title: Avalonia UI (desktop .NET) — domain status v1
 description: 'Desktop UI на **Avalonia** с **Dock** (панели/документы): XAML + MVVM, темы Fluent + кастомные JSON, AvaloniaEdit, Markdown и др. Домен **software.authoring.dotnet.csharp.desktop-ui.avalonia**; HCI — `../hci-ux-dx/`.'
 tags: [software-dotnet-avalonia, status, worlds]
+language: ru
 world: software
 subworld: dotnet-avalonia
 sections: [cross-link-software-transfer-matrix, world-tag-v1]

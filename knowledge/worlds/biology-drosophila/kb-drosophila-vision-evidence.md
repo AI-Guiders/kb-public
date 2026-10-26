@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Зрение: коннектом зрительной доли (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, vision, optic-lobe, visual-system, connectome]
+language: ru
 world: biology
 subworld: drosophila
 ---

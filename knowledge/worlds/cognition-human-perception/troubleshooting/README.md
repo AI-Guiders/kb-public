@@ -3,6 +3,7 @@ type: Index
 title: Troubleshooting — cognition.human-perception
 description: 'Operational: [`../playbook-human-perception-operational.md`](../playbook-human-perception-operational.md).'
 tags: [cognition-human-perception, readme, worlds]
+language: ru
 world: cognition
 subworld: human-perception
 ---

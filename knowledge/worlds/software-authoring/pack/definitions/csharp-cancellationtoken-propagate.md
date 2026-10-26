@@ -3,6 +3,7 @@ type: Definition Card
 title: CancellationToken — propagate
 description: Для отменяемых операций проталкивать `CancellationToken` по цепочке (публичные async API, I/O, long loops). Не глотать cancel без схемы; не invent'ить токен «внизу», если caller уже дал.
 tags: [llm-native-card, definition, software-authoring, csharp, trap, async]
+language: ru
 world: software
 subworld: authoring
 ---

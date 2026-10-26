@@ -3,6 +3,7 @@ type: KB
 title: Geography pedagogy — fundamentals v1
 description: '**Мир:** `pedagogy.geography`'
 tags: [kb, pedagogy-geography, worlds]
+language: ru
 world: pedagogy
 subworld: geography
 ---

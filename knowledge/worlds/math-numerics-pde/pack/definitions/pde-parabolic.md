@@ -3,6 +3,7 @@ type: Definition Card
 title: Parabolic PDE
 description: 'Diffusion / heat: needs IC at t=0 plus BCs.'
 tags: [llm-native-card, definition, math-numerics-pde]
+language: en
 world: math
 subworld: numerics-pde
 ---

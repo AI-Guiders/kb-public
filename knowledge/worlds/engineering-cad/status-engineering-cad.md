@@ -3,6 +3,7 @@ type: Status
 title: 'Status: engineering.cad v1'
 description: '**Домен:** плагины и расширения под САПР (CAD/BIM/AEC), преимущественно .NET и смежные native API.'
 tags: [engineering-cad, status, worlds]
+language: ru
 world: engineering
 subworld: cad
 ---

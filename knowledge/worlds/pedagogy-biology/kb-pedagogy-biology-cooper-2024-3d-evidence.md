@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Cooper et al. (2024) — 3D learning vs active learning (video segments)'
 description: '**Thesis:** segments coded as **three-dimensional learning (3DL)** — integrating disciplinary core ideas, crosscutting concepts, and science/engineering practices (NRC Framework) — outperform segments coded as **active learning only** on post-segment quiz performance.'
 tags: [kb, pedagogy-biology, worlds]
+language: en
 world: pedagogy
 subworld: biology
 ---

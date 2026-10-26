@@ -3,9 +3,9 @@ type: Template
 title: 'Playbook: `<topic>` v1 (template)'
 description: (Зачем этот playbook; не заменяет status/kb.)
 tags: [template, templates]
+language: ru
 world: template
 subworld: playbook.md
-subtype: playbook
 ---
 
 ﻿# Playbook: `<topic>` v1 (template)

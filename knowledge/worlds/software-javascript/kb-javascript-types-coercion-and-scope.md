@@ -3,6 +3,7 @@ type: KB
 title: 'JavaScript: значения, принуждения, область видимости и `this`'
 description: '**Назначение:** фундамент слоя **времени выполнения** до объектной модели: внутренние типы (спецификационные), поведение операторов сравнения и приведений, блочная область, TDZ, функции и стрелки, привязка `this`. Мир **`software.javascript`**.'
 tags: [kb, software-javascript, worlds]
+language: ru
 world: software
 subworld: javascript
 ---

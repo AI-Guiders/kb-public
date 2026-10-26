@@ -2,6 +2,7 @@
 type: Evidence Card
 title: Drosophila melanogaster — Агрессия и социальное поведение (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, aggression, social, courtship, escape]
+language: ru
 world: biology
 subworld: drosophila
 ---

@@ -3,6 +3,7 @@ type: Definition Card
 title: Harness model-first ergonomics
 description: Харнесс подстраивается под того, кто реально PF. Сегодня PF ≈ модель (~≥95% рабочих ходов), человек ≈ PM (steward). Эргономика — под модель (карточки, shortlist, spaces, cdp_session), не под human-IDE ритуалы. Human-PF — редкий режим (см. pair-roles-pm-pf).
 tags: [llm-native-card, definition, epistemic-scene, harness, cdp, agent-ide]
+language: ru
 world: epistemic
 subworld: scene
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: подведение итогов сессии и читаемый экспорт чата'
 description: '**Статус:** активный'
 tags: [agent-orchestration, living, playbook, worlds]
+language: ru
 world: agent
 subworld: orchestration
 ---

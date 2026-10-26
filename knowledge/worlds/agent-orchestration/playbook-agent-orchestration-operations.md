@@ -3,6 +3,7 @@ type: Playbook
 title: Agent orchestration operations v1
 description: 'Перенесено из `agent-notes.md`. Сквозные write/integrity-протоколы — `knowledge/domains/agent-operations/`. Hub: `knowledge/worlds/agent-orchestration/`.'
 tags: [agent-orchestration, living, playbook, worlds]
+language: ru
 world: agent
 subworld: orchestration
 status: stable

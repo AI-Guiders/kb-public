@@ -3,6 +3,7 @@ type: Definition Card
 title: SOLID — Interface Segregation
 description: Не заставлять клиента зависеть от методов, которые не нужны.
 tags: [llm-native-card, definition, software-authoring]
+language: ru
 world: software
 subworld: authoring
 ---

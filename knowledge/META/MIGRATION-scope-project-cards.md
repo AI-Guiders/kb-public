@@ -3,6 +3,7 @@ type: Note
 title: 'Миграция: карточки проектов в scope'
 description: '**Цель:** структурировать `scope-door-to-singularity` и `scope-portal` без смены `section_id`, чтобы **hot-context**, манифест `memory-architecture.json` и потребители команд не требовали доработок движка.'
 tags: [meta]
+language: ru
 ---
 # Миграция: карточки проектов в scope
 

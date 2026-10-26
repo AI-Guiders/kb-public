@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: McClelland, McNaughton & O''Reilly (1995) — Complementary Learning Systems'
 description: '*Версия: v1.0 · 2026-05-31 — full text (Psych. Review 102(3):419–457)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

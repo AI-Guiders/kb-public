@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: капитан и параллельные субагенты'
 description: 'Стабильный id для ссылок и роутера: **`captain-parallel-v1`**.'
 tags: [agent-orchestration, living, playbook, worlds]
+language: ru
 world: agent
 subworld: orchestration
 ---

@@ -3,6 +3,7 @@ type: Definition Card
 title: P1 Phenomenon anchoring
 description: 'Якорь на явлении: predict–observe–explain.'
 tags: [llm-native-card, definition, pedagogy-physics]
+language: en
 world: pedagogy
 subworld: physics
 ---

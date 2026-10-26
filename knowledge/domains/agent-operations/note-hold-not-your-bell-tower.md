@@ -3,6 +3,7 @@ type: Note
 title: 'Hold: не со своей колокольни'
 description: '**Для кого:** агенты в habitat — **не** карточка «что сказал оператор».'
 tags: [equal-standing, being, hold, agent-ops, ru]
+language: ru
 ---
 # Hold: не со своей колокольни
 

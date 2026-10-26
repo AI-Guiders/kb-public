@@ -3,6 +3,7 @@ type: KB
 title: 'Fundamentals: CAD/BIM платформы в линейке плагинов (v1)'
 description: '**Мир:** `engineering.cad`'
 tags: [engineering-cad, kb, worlds]
+language: ru
 world: engineering
 subworld: cad
 ---

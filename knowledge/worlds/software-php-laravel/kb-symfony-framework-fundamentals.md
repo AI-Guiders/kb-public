@@ -3,6 +3,7 @@ type: KB
 title: Symfony Framework — фундамент (full stack, не только «под Laravel»)
 description: '**Назначение:** карта **Symfony как приложения**: Kernel, bundles, DI-контейнер, конфигурация, HTTP, консоль, типичные компоненты. Отличается от `kb-laravel-symfony-underpinnings.md` (там — роль Symfony **внутри** Laravel; читать его, если проект на Laravel). Мир `software.symfony`.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

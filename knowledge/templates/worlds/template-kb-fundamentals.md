@@ -3,9 +3,9 @@ type: Template
 title: 'KB fundamentals: `<topic>` v1 (template)'
 description: '**Назначение:** самодостаточный опорный слой определений (агент не обязан каждый раз открывать первоисточник).'
 tags: [template, templates]
+language: ru
 world: template
 subworld: kb-fundamentals.md
-subtype: kb-fundamentals
 ---
 
 ﻿# KB fundamentals: `<topic>` v1 (template)

@@ -3,6 +3,7 @@ type: Playbook
 title: Epistemic methods and calibration v1
 description: 'Тела секций epistemic/calibration/hpmor из `agent-notes.md`. L0 `epistemic-default-distrust-v1` — выше `public-cut`. Extended: `knowledge/epistemic-default-distrust-extended.md`.'
 tags: [knowledge-engineering, living, playbook, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 status: stable

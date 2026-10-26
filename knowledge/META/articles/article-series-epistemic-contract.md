@@ -3,6 +3,7 @@ type: Article
 title: 'Mirror: series epistemic contract'
 description: '**SSOT:** `cdp-mcp/articles/series-epistemic-contract.md` (v0.2.3)'
 tags: [meta, article, mirror, series]
+language: ru
 ---
 # Mirror: series epistemic contract
 

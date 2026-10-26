@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: агент как партнёр KB (не «лычка senior») v1'
 description: 'Зафиксировать **культуру работы** с агентом в контуре Cascade / agent-notes: партнёрство по **памяти команды** (ADR, playbook, history), а не роль в system prompt.'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 ---
 # Playbook: агент как партнёр KB (не «лычка senior») v1
 

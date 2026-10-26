@@ -3,6 +3,7 @@ type: Status
 title: Rhetoric & pragmatics — status v1
 description: Риторическая ситуация, речевые жанры, register/pragmatics — **fundamentals + evidence** для агента и XL. Не заменяет `domains/agent-operations` (операционные playbooks) и не `culture.dialogue-insights` (инсайты из живого диалога).
 tags: [rhetoric-pragmatics, status, worlds]
+language: ru
 world: rhetoric
 subworld: pragmatics
 ---

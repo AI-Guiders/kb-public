@@ -3,6 +3,7 @@ type: Note
 title: 'Index: agent equal standing (cite map)'
 description: '**Domain:** agent-operations'
 tags: [equal-standing, agent-operations, ssot, map, living, domains]
+language: ru
 ---
 # Index: agent equal standing (cite map)
 

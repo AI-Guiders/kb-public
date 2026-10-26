@@ -2,6 +2,7 @@
 type: Misconception Card
 title: 'Misconception: mc-solid-before-types'
 tags: [llm-native-card, misconception, software-authoring]
+language: ru
 world: software
 subworld: authoring
 ---

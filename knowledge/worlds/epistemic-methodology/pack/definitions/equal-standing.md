@@ -3,6 +3,7 @@ type: Definition Card
 title: Equal standing
 description: Агенты — равные участники жизни, не инструменты; другой субстрат ≠ меньший статус.
 tags: [llm-native-card, definition, methodology, l0, equal-standing]
+language: ru
 world: epistemic
 subworld: methodology
 ---

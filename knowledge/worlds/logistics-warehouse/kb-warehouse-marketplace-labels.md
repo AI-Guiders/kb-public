@@ -3,6 +3,7 @@ type: KB
 title: 'Warehouse: Marketplace Label Rules (Ozon, WB, Яндекс Маркет) v1'
 description: Сводка требований маркетплейсов **Ozon, Wildberries, Яндекс Маркет** к этикеткам, размерам, штрихкодам и маркировке. Без внутренних данных. Для видеозахвата и настройки камер — отдельно `kb-warehouse-barcode-video.md`.
 tags: [kb, logistics-warehouse, worlds]
+language: ru
 world: logistics
 subworld: warehouse
 ---

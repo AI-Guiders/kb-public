@@ -2,6 +2,7 @@
 type: Note
 title: 'WORK: KB AutoShip — FileWatcher in CdpService'
 description: '**Status:** shipped (cdp-mcp `0b6619a`, CDP-ADR-0224)'
+language: en
 ---
 # WORK: KB AutoShip — FileWatcher in CdpService
 

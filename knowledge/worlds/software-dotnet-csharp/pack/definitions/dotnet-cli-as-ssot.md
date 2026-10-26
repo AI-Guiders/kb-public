@@ -3,6 +3,7 @@ type: Definition Card
 title: dotnet CLI as build SSOT
 description: restore/build/test/publish через SDK; IDE/CI — тонкие оболочки, не параллельный путь.
 tags: [llm-native-card, definition, software-dotnet-csharp]
+language: ru
 world: software
 subworld: dotnet-csharp
 ---

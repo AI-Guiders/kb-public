@@ -3,6 +3,7 @@ type: KB
 title: PHP — данные и персистентность (PDO и обход без ORM)
 description: '**Назначение:** фундамент **работы с БД из PHP** без привязки к Laravel/Eloquent: PDO, подготовленные запросы, транзакции, типичные ошибки. Мир **`software.php`**.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

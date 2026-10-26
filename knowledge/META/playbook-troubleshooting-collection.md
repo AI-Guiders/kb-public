@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: накопление troubleshooting-гайдов'
 description: '**Статус:** v1 · консолидация по мирам'
 tags: [living, meta, playbook]
+language: ru
 ---
 # Playbook: накопление troubleshooting-гайдов
 

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Wells, Hestenes & Swackhamer (1995) — Modeling Method in physics'
 description: '**Thesis:** **Modeling Instruction** organizes mechanics as **model development → deployment** cycles grounded in student-designed experiments and explicit representational tools (diagrams, graphs, equations).'
 tags: [kb, pedagogy-physics, worlds]
+language: en
 world: pedagogy
 subworld: physics
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: Biology pedagogy — router v1
 description: '**world:** `pedagogy.biology`'
 tags: [living, pedagogy-biology, playbook, worlds]
+language: en
 world: pedagogy
 subworld: biology
 ---

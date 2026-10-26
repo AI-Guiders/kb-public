@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: существительные → сущности, глаголы → методы v1'
 description: '**Назначение:** общий принцип декомпозиции кода и UI-рендеринга для агента. Не привязан к одному модулю (чат, Skia, MCP). **Связь:** `worlds/software-authoring/code-writing-principles.md` (инженерные принципы), домен **software.authoring**.'
 tags: [living, playbook, software-authoring, worlds]
+language: ru
 world: software
 subworld: authoring
 sections: [ooad-foundation]

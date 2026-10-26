@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Rowe & Snow (2019) — input quality three dimensions'
 description: '**Thesis:** High-quality caregiver input is **interactionally supportive**, **linguistically adapted**, and **conceptually challenging** — not merely more words.'
 tags: [cognition-language-acquisition, kb, worlds]
+language: en
 world: cognition
 subworld: language-acquisition
 ---

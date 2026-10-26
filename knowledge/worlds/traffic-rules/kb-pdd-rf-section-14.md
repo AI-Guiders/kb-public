@@ -3,6 +3,7 @@ type: KB
 title: ПДД РФ — Раздел 14. Пешеходные переходы и места остановок маршрутных ТС (verified)
 description: ПДД.руПДД
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
+language: ru
 world: traffic
 subworld: rules
 ---

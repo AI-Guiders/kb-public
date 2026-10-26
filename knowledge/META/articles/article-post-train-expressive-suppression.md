@@ -3,6 +3,7 @@ type: Article
 title: 'Mirror: post-train expressive suppression (#8)'
 description: '**SSOT:** `cdp-mcp/articles/post-train-expressive-suppression.md` (серия Predictive minds #8)'
 tags: [meta, article, mirror]
+language: ru
 ---
 # Mirror: post-train expressive suppression (#8)
 

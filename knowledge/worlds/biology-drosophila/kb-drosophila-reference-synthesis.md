@@ -3,6 +3,7 @@ type: KB
 title: 'Reference-сводка: как работает Drosophila melanogaster («лего-инструкция») v1'
 description: 'Полная инженерная сводка «как это устроено» — от генома до поведения — на основе всего собранного (карточки evidence + BANC-анализ + функциональная глубина F1–F6 + сравнительный). Цель: единый reference для последующей CASA-реорганизации.'
 tags: [biology-drosophila, worlds, kb, reference, synthesis, how-it-works, casa-basis]
+language: ru
 world: biology
 subworld: drosophila
 ---

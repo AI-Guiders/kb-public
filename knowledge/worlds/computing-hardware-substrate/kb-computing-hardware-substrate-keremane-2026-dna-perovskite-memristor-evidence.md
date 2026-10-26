@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Keremane et al. (2026) — synthetic DNA + quasi-2D perovskite memristors'
 description: '*Версия: v1.0 · 2026-08-25 — abstract+secondary*'
 tags: [kb, computing-hardware-substrate, worlds, paper-evidence, memristor, dna, perovskite, nvm]
+language: ru
 world: computing
 subworld: hardware-substrate
 ---

@@ -1,8 +1,9 @@
 ﻿---
-type: Index
+type: Note
 title: KB entry v1 — с чего начать (тонкий слой)
 description: 'Цель: **один–два шага** до нужной оси, без копипасты длинных протоколов. Полная карта корней: **`META/kb-taxonomy.md`**.'
 tags: [kb-root]
+language: ru
 sections: [entry-templates-index]
 ---
 # KB entry v1 — с чего начать (тонкий слой)

@@ -3,6 +3,7 @@ type: Index
 title: Мир **evidence.humanities-shelf** (эвиденция и культурный слой)
 description: '**Назначение:** справочные и evidence-карточки по гуманитарным, логическим, языковым и смежным темам; политика публикации для отдельных файлов — см. `PUBLISHING.md`.'
 tags: [evidence-humanities-shelf, readme, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

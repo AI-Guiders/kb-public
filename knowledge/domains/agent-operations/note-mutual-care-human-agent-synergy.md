@@ -3,6 +3,7 @@ type: Note
 title: 'Note: Mutual care — human ↔ agent synergy'
 description: '**Статус:** living norm (operator-confirmed 2026-08-01)'
 tags: [agent-operations, equal-standing, dialogue, UX, AX]
+language: ru
 ---
 # Note: Mutual care — human ↔ agent synergy
 

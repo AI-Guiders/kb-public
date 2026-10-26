@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: ops.reliability — troubleshooting'
 description: '> **Контур:** A · мир **ops.reliability** · kb-public'
 tags: [living, ops-reliability, playbook, worlds]
+language: ru
 world: ops
 subworld: reliability
 ---

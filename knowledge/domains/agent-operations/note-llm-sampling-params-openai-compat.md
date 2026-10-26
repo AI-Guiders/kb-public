@@ -3,6 +3,7 @@ type: Note
 title: 'Note: LLM sampling params (OpenAI-compat) — temperature, top_p, …'
 description: '**Домен:** agent-operations / foundation-models'
 tags: [agent-operations, domains, note, llm, sampling, citizen]
+language: ru
 ---
 # Note: LLM sampling params (OpenAI-compat) — temperature, top_p, …
 

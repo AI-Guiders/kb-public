@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Sweller, van Merriënboer & Paas (2019) — CLT 20 years later'
 description: '**Thesis:** human **cognitive architecture** (working memory limits, long-term schema storage) implies **instructional effects** that remain robust 20 years after original CLT synthesis.'
 tags: [kb, pedagogy-general, worlds]
+language: en
 world: pedagogy
 subworld: general
 ---

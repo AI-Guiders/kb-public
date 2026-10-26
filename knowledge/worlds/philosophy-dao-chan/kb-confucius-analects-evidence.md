@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Лунь юй — evidence (избранные главы: 學而/雍也/顏淵)'
 description: 人不知而不慍，不亦君子乎？
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, ru, l0]
+language: zh
 world: philosophy
 subworld: dao-chan
 ---

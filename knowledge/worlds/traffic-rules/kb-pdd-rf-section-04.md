@@ -3,6 +3,7 @@ type: KB
 title: ПДД РФ — Раздел 4. Обязанности пешеходов (verified)
 description: ПДД.руПДД
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
+language: ru
 world: traffic
 subworld: rules
 ---

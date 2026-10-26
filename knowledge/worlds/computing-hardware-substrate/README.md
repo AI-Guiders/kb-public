@@ -3,6 +3,7 @@ type: Index
 title: Мир **computing.hardware-substrate** (носитель · память · энергия)
 description: '**Назначение:** evidence-карточки по **физическому субстрату** носителей — память, NVM, neuromorphic, плотность/ватт — для горизонта автономных агентов (CASA, carrier, habitat). Не ML-алгоритмы (см. `ml-learning-dynamics`).'
 tags: [readme, computing-hardware-substrate, worlds]
+language: ru
 world: computing
 subworld: hardware-substrate
 ---

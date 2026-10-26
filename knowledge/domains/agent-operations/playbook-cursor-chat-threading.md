@@ -3,6 +3,7 @@ type: Playbook
 title: 'Cursor: ветвление тредов и топики без CIDE'
 description: '**Domain:** `agent-operations`'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 ---
 # Cursor: ветвление тредов и топики без CIDE
 

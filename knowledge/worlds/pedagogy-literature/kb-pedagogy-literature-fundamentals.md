@@ -3,6 +3,7 @@ type: KB
 title: Literature pedagogy — fundamentals v1
 description: '**Мир:** `pedagogy.literature`'
 tags: [kb, pedagogy-literature, worlds]
+language: ru
 world: pedagogy
 subworld: literature
 ---

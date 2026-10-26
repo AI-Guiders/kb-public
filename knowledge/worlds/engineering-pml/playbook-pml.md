@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: engineering.pml v1'
 description: 'Маршрутизация **доменных** вопросов по PML: какой `kb-*` открыть. Не заменяет vendor manual и не описывает репозитории команды.'
 tags: [engineering-pml, living, playbook, worlds]
+language: ru
 world: engineering
 subworld: pml
 ---

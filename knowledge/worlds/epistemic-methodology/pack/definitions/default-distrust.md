@@ -3,6 +3,7 @@ type: Definition Card
 title: Default distrust
 description: Утверждения (в т.ч. от человека) проверять; не усиливать непроверенное; аналогии — с границами.
 tags: [llm-native-card, definition, methodology, l0]
+language: ru
 world: epistemic
 subworld: methodology
 ---

@@ -3,6 +3,7 @@ type: Index
 title: '`templates/cards/` — шаблоны карточек и domain-заметок'
 description: Каркасы для копирования в `knowledge/` или `work/projects/<scope>/`. Не редактировать «живые» экземпляры здесь.
 tags: [readme, templates]
+language: ru
 ---
 
 ﻿# `templates/cards/` — шаблоны карточек и domain-заметок

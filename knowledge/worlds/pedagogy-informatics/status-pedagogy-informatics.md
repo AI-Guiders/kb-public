@@ -3,6 +3,7 @@ type: Status
 title: 'Status: pedagogy.informatics v1'
 description: '**Домен:** информатика — K-12 CS pedagogy v1'
 tags: [pedagogy-informatics, status, worlds]
+language: ru
 world: pedagogy
 subworld: informatics
 ---

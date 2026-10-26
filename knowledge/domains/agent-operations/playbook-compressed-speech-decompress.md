@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: compressed speech → decompress'
 description: '**Домен:** agent-operations'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 speech_situation:
   audience: agent_internal
   goal: operational_protocol

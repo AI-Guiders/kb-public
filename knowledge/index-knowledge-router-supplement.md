@@ -3,6 +3,7 @@ type: Router
 title: Knowledge Router — Supplement (detailed domain routes) v1
 description: '**Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router.md` сразу после Context Budget.'
 tags: [kb-root]
+language: ru
 sections: [router-kb-structure-adr009, router-logic, router-value-utility, router-agent-memory-hub, router-proactive-micro-improvements, router-fuzzy-search-implicit-language, router-principled-clarity, router-strict-execution-analogy, router-reconnaissance-before-action, router-agent-kb-responsibility, router-bci-medicine, router-consciousness-autonomy, router-secret-mode, router-rhetoric-pragmatics, router-clarification, router-polyamory, router-therapy, router-uncanny-valley, router-human-perception, router-language-acquisition, router-early-caregiving, router-troubleshooting-index, router-videography, router-ml, router-dotnet, router-php-laravel, router-javascript, router-pml, router-avalonia-ui, router-equation-ca-cuda-validation, router-mt-lattice-fluid, router-voyager-science-reference, router-warehouse, router-music, router-regex, router-sysadmin-ops, learn-basics-when-stuck-router, router-agent-autonomy, router-multi-project-context, router-session-summary, router-kb-world-public-authoring, router-kb-mcp-access, router-cursor-mcp-remount, router-captain-parallel-agents, router-clean-setup, router-org-kb-white-label, router-pedagogy-school-subjects]
 ---
 

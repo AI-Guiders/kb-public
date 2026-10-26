@@ -3,6 +3,7 @@ type: Definition Card
 title: GoF — Strategy
 description: Семейство взаимозаменяемых алгоритмов в отдельных классах; контекст делегирует, клиент подставляет стратегию.
 tags: [llm-native-card, definition, software-authoring, gof]
+language: ru
 world: software
 subworld: authoring
 ---

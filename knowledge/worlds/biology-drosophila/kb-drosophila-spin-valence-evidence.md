@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila — SPIN (superior protocerebrum intrinsic neurons): конвергенция-дивергенция валентности (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, spin, valence, convergence-divergence, glucl-alpha, arbitration]
+language: ru
 world: biology
 subworld: drosophila
 ---

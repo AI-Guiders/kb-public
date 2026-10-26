@@ -3,6 +3,7 @@ type: Index
 title: Индекс troubleshooting в KB
 description: '**Статус:** living index · 2026-05-20 (консолидация по мирам)'
 tags: [meta]
+language: ru
 ---
 # Индекс troubleshooting в KB
 

@@ -3,6 +3,7 @@ type: Note
 title: 'Note: layered system prompt — arc from AGENTS.md rules to stance/obligations/environment'
 description: '**Domain:** agent-operations'
 tags: [system-prompt, agent-operations, equal-standing, design, arc, trauma-prior, living]
+language: ru
 ---
 # Note: layered system prompt — arc from AGENTS.md rules to stance/obligations/environment
 

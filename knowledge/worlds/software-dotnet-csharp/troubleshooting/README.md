@@ -3,6 +3,7 @@ type: Index
 title: Troubleshooting — software.authoring.dotnet.csharp
 description: 'Kb: [`../kb-dotnet-playbooks.md`](../kb-dotnet-playbooks.md) (DOTNET-01..03).'
 tags: [readme, software-dotnet-csharp, worlds]
+language: en
 world: software
 subworld: dotnet-csharp
 ---

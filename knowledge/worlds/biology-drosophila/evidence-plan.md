@@ -3,6 +3,7 @@ type: Note
 title: evidence-plan — план полного evidence-синтеза (biology.drosophila)
 description: '**world-id:** `biology.drosophila` · **Статус:** активен (2026-09-19) · **Цель:** собрать ВСЁ известное о Drosophila melanogaster как reference implementation от природы'
 tags: [biology-drosophila, worlds, evidence, plan, reference-implementation]
+language: ru
 world: biology
 subworld: drosophila
 ---

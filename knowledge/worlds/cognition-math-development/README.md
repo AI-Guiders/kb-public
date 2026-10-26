@@ -3,6 +3,7 @@ type: Index
 title: 'World: cognition.math-development'
 description: '**KE id:** `cognition.math-development`'
 tags: [cognition-math-development, readme, worlds]
+language: ru
 world: cognition
 subworld: math-development
 ---

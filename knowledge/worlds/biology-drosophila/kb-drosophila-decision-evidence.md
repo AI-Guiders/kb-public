@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Принятие решений: рабочая память, интеграция свидетельств (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, decision, working-memory, evidence-integration, goal, fb, cx]
+language: ru
 world: biology
 subworld: drosophila
 ---

@@ -3,6 +3,7 @@ type: Playbook
 title: HCI Core Playbook v1
 description: Design human-computer interaction that stays clear under real cognitive load, not only in ideal demo flows.
 tags: [hci-ux-dx, living, playbook, worlds]
+language: en
 world: hci
 subworld: ux-dx
 ---

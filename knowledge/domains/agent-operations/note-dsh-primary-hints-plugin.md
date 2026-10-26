@@ -2,6 +2,7 @@
 type: Note
 title: dsh-plugin-primary-hints — подсказки маркеров [PRIMARY:]/[SCOPE:]
 description: '**Статус:** прототип работает (2026-09-20) · **Место:** `D:\dsh-plugin-primary-hints` (установлен в профиль web: bundles + link)'
+language: ru
 sections: [toml-path-fix]
 ---
 # dsh-plugin-primary-hints — подсказки маркеров [PRIMARY:]/[SCOPE:]

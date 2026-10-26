@@ -3,6 +3,7 @@ type: Definition Card
 title: DI — no scoped from singleton
 description: Singleton не должен захватывать Scoped (и часто Transient в долгий кэш). Captive dependency = тихие баги жизненного цикла.
 tags: [llm-native-card, definition, software-authoring, csharp, trap, di]
+language: ru
 world: software
 subworld: authoring
 ---

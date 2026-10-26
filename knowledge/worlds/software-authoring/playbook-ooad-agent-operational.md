@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: OOA&D — операционный проход для агента v1'
 description: '**Назначение:** пошаговый **фундаментальный проход** перед реализацией или крупным рефакторингом. Не заменяет чтение Larman, но заставляет **не пропускать анализ**.'
 tags: [living, playbook, software-authoring, worlds]
+language: ru
 world: software
 subworld: authoring
 ---

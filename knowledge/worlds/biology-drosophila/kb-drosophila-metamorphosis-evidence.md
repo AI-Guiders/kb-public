@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Метаморфоз: имагинальные диски, экдизоновый каскад (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, metamorphosis, imaginal-disc, ecdysone]
+language: ru
 world: biology
 subworld: drosophila
 ---

@@ -3,6 +3,7 @@ type: Note
 title: Cursor MCP remount (agent-operated)
 description: '**Anti-pattern (устарело):** «перезагрузи MCP в Cursor» / Settings → Reload — **не** просить оператора.'
 tags: [agent-operations, cursor, mcp, living]
+language: ru
 ---
 # Cursor MCP remount (agent-operated)
 

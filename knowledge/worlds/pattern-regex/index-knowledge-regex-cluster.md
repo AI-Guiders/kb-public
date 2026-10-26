@@ -2,6 +2,7 @@
 type: Index
 description: 'id: index-knowledge-regex-cluster-v1'
 tags: [pattern-regex, worlds]
+language: ru
 world: pattern
 subworld: regex
 sections: [router-main]

@@ -3,6 +3,7 @@ type: KB
 title: Knowledge Engineering Multiworld Rules v1
 description: Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`
 tags: [kb, knowledge-engineering, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

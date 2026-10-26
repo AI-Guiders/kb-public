@@ -3,6 +3,7 @@ type: Note
 title: Мем «Можно, а зачем?» — операторская линза
 description: '**Status:** living · 2026-08-05'
 tags: [culture, operator-voice, equal-standing, being, ru]
+language: ru
 ---
 # Мем «Можно, а зачем?» — операторская линза
 

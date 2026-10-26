@@ -3,6 +3,7 @@ type: KB
 title: 'Evidence boundary: Hartshorne et al. (2018) — sensitive period vs school bilingual evidence'
 description: '**Hartshorne et al. (2018) — key numbers (n ≈ 669,498):**'
 tags: [cognition-neurolinguistics, kb, worlds]
+language: en
 world: cognition
 subworld: neurolinguistics
 ---

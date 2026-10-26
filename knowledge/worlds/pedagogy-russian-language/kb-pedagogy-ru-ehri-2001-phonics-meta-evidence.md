@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Ehri et al. (2001) — Systematic phonics (NRP meta-analysis)'
 description: 'Meta-analysis of **systematic phonics** vs unsystematic/no phonics (38 studies, 66 treatment–control comparisons, peer-reviewed, post-1970). Primary outcome: pooled reading at end of training or end of Year 1.'
 tags: [kb, pedagogy-russian-language, worlds]
+language: ru
 world: pedagogy
 subworld: russian-language
 ---

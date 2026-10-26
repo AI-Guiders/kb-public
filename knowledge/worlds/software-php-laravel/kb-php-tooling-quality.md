@@ -3,6 +3,7 @@ type: KB
 title: PHP — инструменты, качество, CI (фундаментальный проход)
 description: '**Назначение:** слой **PHPUnit/Pest, статанализ, форматирование, Rector, Xdebug, CI-матрица**. Мир **`software.php`**.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

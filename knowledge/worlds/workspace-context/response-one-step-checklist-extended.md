@@ -3,6 +3,7 @@ type: Note
 title: Response one-step checklist (extended)
 description: 'Перенесено из `agent-notes.md`. Stub: `response-one-step-checklist-v1`.'
 tags: [workspace-context, worlds]
+language: ru
 world: workspace
 subworld: context
 ---

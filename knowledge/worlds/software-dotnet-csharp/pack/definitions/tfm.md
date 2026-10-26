@@ -3,6 +3,7 @@ type: Definition Card
 title: Target Framework Moniker
 description: 'Целевая платформа сборки: net48, net8.0, netstandard2.0, …'
 tags: [llm-native-card, definition, software-dotnet-csharp]
+language: en
 world: software
 subworld: dotnet-csharp
 ---

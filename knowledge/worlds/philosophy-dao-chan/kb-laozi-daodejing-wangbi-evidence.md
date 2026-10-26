@@ -3,6 +3,7 @@ type: Evidence Card
 title: Дао дэ цзин — evidence (Ван Би, 81 глава)
 description: 道常無為 / 而無不為。侯王若能守之，萬物將自化。
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
+language: zh
 world: philosophy
 subworld: dao-chan
 ---

@@ -3,6 +3,7 @@ type: Status
 title: 'Status: pedagogy.chemistry v1'
 description: '**Домен:** химия — school inquiry instruction v1'
 tags: [pedagogy-chemistry, status, worlds]
+language: ru
 world: pedagogy
 subworld: chemistry
 ---

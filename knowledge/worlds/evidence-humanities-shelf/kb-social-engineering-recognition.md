@@ -3,6 +3,7 @@ type: KB
 title: 'Социальная инженерия: распознавание и связь с фундаментом'
 description: 'Социальная инженерия (СИ) — **прикладное использование** тех же механизмов влияния и манипуляции, что в [`kb-psychology-manipulation-and-influence-foundations.md`](worlds/psychology-models/kb-psychology-manipulation-and-influence-foundations.md), с целевым фокусом: получение доступа, информации, согласия на действие вопреки процедурам или интересам жертвы. Цель документа: дать операционный слой распознавания СИ и явно связать его с уже имеющимся фундаментом (принципы влияния, когнитивные искажения, доверие/авторитет).'
 tags: [evidence-humanities-shelf, kb, worlds]
+language: ru
 world: evidence
 subworld: humanities-shelf
 ---

@@ -3,6 +3,7 @@ type: Index
 title: LLM-native packs — hub
 description: Рабочий store для **domain packs** продукта `note-llm-native-world-product.md`.
 tags: [worlds, llm-ready, map, kb]
+language: ru
 world: _llm
 subworld: native-packs
 ---

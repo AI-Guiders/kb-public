@@ -3,6 +3,7 @@ type: KB
 title: RU developmental methods — authoring hints v1
 description: '**world:** `pedagogy.general`'
 tags: [kb, pedagogy-general, worlds]
+language: en
 world: pedagogy
 subworld: general
 ---

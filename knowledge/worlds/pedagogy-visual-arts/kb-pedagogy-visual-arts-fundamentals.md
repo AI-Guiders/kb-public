@@ -3,6 +3,7 @@ type: KB
 title: Visual arts pedagogy — fundamentals v1
 description: '**Мир:** `pedagogy.visual-arts`'
 tags: [kb, pedagogy-visual-arts, worlds]
+language: ru
 world: pedagogy
 subworld: visual-arts
 ---

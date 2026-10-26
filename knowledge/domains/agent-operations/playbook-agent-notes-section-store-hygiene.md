@@ -3,6 +3,7 @@ type: Playbook
 title: Playbook — agent-notes / TaskKnowledge section-store hygiene
 description: '**Status:** Active (P0+P1 shipped in AgentNotes.Core 2.1.4–2.1.5 / MCP 2.1.3–2.1.4)'
 tags: [agent-operations, domains, living, playbook]
+language: ru
 sections: [id, foo]
 ---
 

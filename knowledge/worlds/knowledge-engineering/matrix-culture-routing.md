@@ -3,6 +3,7 @@ type: Routing Matrix
 title: Culture Routing Matrix v1
 description: 'Назначение: снижать культурные ошибки в multi-domain диалоге через явный маршрут.'
 tags: [knowledge-engineering, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

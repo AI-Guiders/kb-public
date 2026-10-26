@@ -2,6 +2,7 @@
 type: Note
 title: 'M6 — gap-отчёт: синтез Drosophila ↔ CASA (ca-substrate-agent)'
 description: '**world-id:** `biology.drosophila` · **project-id:** `ca-substrate-agent`'
+language: ru
 world: biology
 subworld: drosophila
 ---

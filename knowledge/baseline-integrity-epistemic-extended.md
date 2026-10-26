@@ -3,6 +3,7 @@ type: Note
 title: 'Baseline: целостность и эпистемия (развёрнуто, v1)'
 description: '**Назначение:** полный текст, ранее в секции `baseline-integrity-epistemic-v1` в `agent-notes.md`. В hot остаётся контракт L0 со ссылкой сюда.'
 tags: [kb-root]
+language: ru
 ---
 # Baseline: целостность и эпистемия (развёрнуто, v1)
 

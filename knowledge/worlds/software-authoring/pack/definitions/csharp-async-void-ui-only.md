@@ -3,6 +3,7 @@ type: Definition Card
 title: async void — UI events only
 description: '`async void` — только обработчики событий UI. Иначе `Task` / `ValueTask`.'
 tags: [llm-native-card, definition, software-authoring, csharp, trap]
+language: en
 world: software
 subworld: authoring
 ---

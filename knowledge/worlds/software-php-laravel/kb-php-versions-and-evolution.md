@@ -3,6 +3,7 @@ type: KB
 title: PHP — эволюция языка с ветки 5.x по 8.x (версии и особенности)
 description: '**Назначение:** **хронология и миграционные опоры**: что появилось в каком мажоре/миноре, типовые ломания при апгрейде, что считать легаси. Дополняет `kb-php-fundamentals.md` (рантайм 8.4+) и `kb-php-language-semantics.md` (семантика 8.x). Мир `software.php`.'
 tags: [kb, software-php-laravel, worlds]
+language: ru
 world: software
 subworld: php-laravel
 ---

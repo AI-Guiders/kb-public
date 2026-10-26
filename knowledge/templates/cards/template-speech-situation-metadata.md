@@ -3,6 +3,7 @@ type: Template
 title: Speech situation metadata (карточки KB) v1
 description: Опциональный блок для **operational** карточек (playbook, note, personal self-report). Не заменяет fundamentals/evidence; не путать с **фундаментальным проходом** по риторике (первоисточники → evidence).
 tags: [template, templates, speech-situation, pragmatics]
+language: ru
 speech_situation:
   audience: colleague
   goal: operational_protocol
@@ -13,7 +14,6 @@ speech_situation:
   when_citing_to_human:
     audience: friend_tg
     channel: tg
-subtype: Speech Situation
 ---
 
 # Speech situation metadata (карточки KB) v1

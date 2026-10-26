@@ -3,6 +3,7 @@ type: Digest
 title: Engineering Reading Digest v1
 description: '**Legacy.** Каноническая база знаний — `kb-engineering-evidence.md` (записи по темам). Этот файл сохранён как архив выписок по батчам.'
 tags: [software-engineering-evidence, worlds]
+language: ru
 world: software
 subworld: engineering-evidence
 ---

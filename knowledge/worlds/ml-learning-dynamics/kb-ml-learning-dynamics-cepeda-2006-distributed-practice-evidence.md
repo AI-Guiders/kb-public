@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis'
 description: '*Версия: v1.0 · 2026-05-31 — full text (Psych. Bulletin 132(3):354–380)*'
 tags: [kb, ml-learning-dynamics, worlds]
+language: ru
 world: ml
 subworld: learning-dynamics
 ---

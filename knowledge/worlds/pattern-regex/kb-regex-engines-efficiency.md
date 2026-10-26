@@ -2,6 +2,7 @@
 type: KB
 description: 'id: kb-regex-engines-efficiency-v1'
 tags: [kb, pattern-regex, worlds]
+language: ru
 world: pattern
 subworld: regex
 sections: [dfa-vs-nfa, backtracking, catastrophic, possessive-atomic]

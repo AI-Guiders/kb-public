@@ -3,6 +3,7 @@ type: Definition Card
 title: Inference space (LLM-native)
 description: Явное место, где разрешено делать выводы — не весь чат и не сырой CoT. Observation → inference/hypothesis с applies_when, confidence и disconfirm; запись в kolb-journal (иначе не переживает compaction); promote только через (A)→(I).
 tags: [llm-native-card, definition, epistemic-scene, cdp-adr-0002]
+language: ru
 world: epistemic
 subworld: scene
 ---

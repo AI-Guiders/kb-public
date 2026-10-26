@@ -3,6 +3,7 @@ type: KB
 title: Knowledge Engineering Culture Routing Rules v1
 description: 'Набор: 30 карточек.'
 tags: [kb, knowledge-engineering, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

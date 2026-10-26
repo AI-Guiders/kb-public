@@ -3,6 +3,7 @@ type: KB
 title: ПДД РФ — Раздел 10 «Скорость движения» (verified)
 description: Вести ТС со скоростью не выше установленного ограничения, учитывая интенсивность
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
+language: ru
 world: traffic
 subworld: rules
 ---

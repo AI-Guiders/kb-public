@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Mus musculus — MICrONS: функциональный коннектом зрительной коры (evidence card v1)'
 tags: [biology-mus-musculus, worlds, kb, evidence, microns, visual-cortex, wiring-rule]
+language: ru
 world: biology
 subworld: mus-musculus
 ---

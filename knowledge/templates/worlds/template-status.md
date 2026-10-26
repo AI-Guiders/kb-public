@@ -3,10 +3,10 @@ type: Template
 title: 'Status: `<domain>` v1 (template)'
 description: '**Домен:** (одна строка)'
 tags: [template, templates]
+language: ru
 world: template
 subworld: status.md
 sections: [optional-transfer-matrix]
-subtype: Status
 ---
 
 ﻿# Status: `<domain>` v1 (template)

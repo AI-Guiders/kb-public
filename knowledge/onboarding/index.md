@@ -1,15 +1,12 @@
 ﻿---
 type: Index
-title: 'Onboarding — кого онбордим (карта корзины)'
-description: 'Три трека входа в среду: агент → KB, человек → KB, человек → работа с агентами. Публичный контур.'
+title: Onboarding — кого онбордим
+description: Среда онбордит три вида новичков — три двери, один дом:
 tags: [onboarding, index, agent-operations, public]
 language: ru
-generated:
-  by: 'zcode-agent/glm-5.3-flash'
-  at: '2026-10-26'
 verified:
-  - by: 'human:operator'
-    at: '2026-10-26'
+  - by: human:operator
+    at: 2026-10-26
 ---
 
 # Onboarding — кого онбордим

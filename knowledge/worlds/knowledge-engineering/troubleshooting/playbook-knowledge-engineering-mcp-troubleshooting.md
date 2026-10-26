@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: KB / agent-notes MCP — troubleshooting'
 description: '> **Контур:** A · kb-public'
 tags: [knowledge-engineering, living, playbook, worlds]
+language: ru
 world: knowledge
 subworld: engineering
 ---

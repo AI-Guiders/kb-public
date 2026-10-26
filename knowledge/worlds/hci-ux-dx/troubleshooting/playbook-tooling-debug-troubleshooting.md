@@ -3,6 +3,7 @@ type: Playbook
 title: 'Playbook: tooling — build, test, debug (troubleshooting v1)'
 description: '> **Контур:** A · мир **hci.ux-dx** (сквозной tooling для .NET и IDE) · kb-public'
 tags: [hci-ux-dx, living, playbook, worlds]
+language: ru
 world: hci
 subworld: ux-dx
 ---

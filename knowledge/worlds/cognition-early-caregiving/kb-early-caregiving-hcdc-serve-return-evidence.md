@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: Harvard HCDC — Serve and Return (5 steps)'
 description: '**Thesis:** Responsive **back-and-forth** between adult and young child builds neural architecture for learning. Language acquisition **requires social interaction** to instigate learning (HCDC cites Kuhl 2007; contingent response to babbling — Goldstein et al.).'
 tags: [cognition-early-caregiving, kb, worlds]
+language: en
 world: cognition
 subworld: early-caregiving
 ---

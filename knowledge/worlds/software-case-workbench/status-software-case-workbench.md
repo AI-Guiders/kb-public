@@ -3,6 +3,7 @@ type: Status
 title: Software CASE Workbench — status v1
 description: '**Мир:** `software.case-workbench`'
 tags: [software-case-workbench, status, worlds]
+language: ru
 world: software
 subworld: case-workbench
 ---

@@ -3,7 +3,7 @@ type: Template
 title: 'Playbook: <ProductName> — <topic> (troubleshooting v1)'
 description: '> **Контур:** B — product · `work/projects/<scope>/<project-id>/` · **не kb-public**'
 tags: [template, templates]
-subtype: Product Troubleshooting
+language: ru
 ---
 # Playbook: <ProductName> — <topic> (troubleshooting v1)
 

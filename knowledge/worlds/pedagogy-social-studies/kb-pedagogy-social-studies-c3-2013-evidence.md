@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Evidence: NCSS (2013) — C3 Framework for Social Studies'
 description: '**Thesis:** social studies mastery = **Inquiry Arc** applied across **four dimensions** (Civics, Economics, Geography, History).'
 tags: [kb, pedagogy-social-studies, worlds]
+language: en
 world: pedagogy
 subworld: social-studies
 ---

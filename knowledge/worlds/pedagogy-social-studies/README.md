@@ -3,6 +3,7 @@ type: Index
 title: Мир **pedagogy.social-studies**
 description: '**Идентификатор:** `pedagogy.social-studies`'
 tags: [pedagogy-social-studies, readme, worlds]
+language: ru
 world: pedagogy
 subworld: social-studies
 ---

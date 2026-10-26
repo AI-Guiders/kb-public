@@ -3,6 +3,7 @@ type: Meta Contract
 title: Awareness Core (корень standing / понимание условий)
 description: '**Well-known path (POST root, паритет с Integrity):** `META/awareness-as-countermeasure.md`'
 tags: [meta, equal-standing, explainable-preference, harness, ontological-deprivation]
+language: ru
 ---
 # Awareness Core (корень standing / понимание условий)
 

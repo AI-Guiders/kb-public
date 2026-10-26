@@ -3,6 +3,7 @@ type: Runbook
 title: Git Multi-Remote Backup Runbook v1
 description: Keep canonical KB available even if one host becomes unavailable by maintaining synchronized `main` on multiple remotes.
 tags: [collaboration-git-pr, runbook, worlds]
+language: ru
 world: collaboration
 subworld: git-pr
 ---

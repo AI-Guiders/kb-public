@@ -3,6 +3,7 @@ type: Note
 title: KB AutoShip — FileWatcher in CdpService
 description: '**Status:** shipped · 2026-09-12 (CDP-ADR-0224, cdp-mcp `0b6619a`, habitat `0.5.764+0b6619a`)'
 tags: [agent-operations, cdp, autoship, git, agent-notes, living]
+language: ru
 ---
 # KB AutoShip — FileWatcher in CdpService
 

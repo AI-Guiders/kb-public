@@ -3,6 +3,7 @@ type: Note
 title: 'Note: system instructions — science survey'
 description: '**Status:** Research note · 2026-08-09'
 tags: [agent-operations, research, prompting, instruction-following, living]
+language: en
 ---
 # Note: system instructions — science survey
 **Status:** Research note · 2026-08-09  

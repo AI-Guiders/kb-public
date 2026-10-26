@@ -3,6 +3,7 @@ type: Index
 title: '`software.authoring.dotnet.csharp` — язык и платформа .NET'
 description: '**World tag:** `software.authoring.dotnet.csharp`'
 tags: [readme, software-dotnet-csharp, worlds]
+language: ru
 world: software
 subworld: dotnet-csharp
 ---

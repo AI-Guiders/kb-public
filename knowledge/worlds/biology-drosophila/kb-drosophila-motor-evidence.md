@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Моторика: распределённое управление движением (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, motor, backward-walking, mdn, distributed-control, vnc]
+language: ru
 world: biology
 subworld: drosophila
 ---

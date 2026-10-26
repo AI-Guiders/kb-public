@@ -2,6 +2,7 @@
 type: Evidence Card
 title: 'Drosophila melanogaster — Развитие: сегментация, Gap/Hox, Pair-rule (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, development, segmentation, hox]
+language: ru
 world: biology
 subworld: drosophila
 ---

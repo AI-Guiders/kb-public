@@ -3,6 +3,7 @@ type: Note
 title: McCulloch–Pitts · experimental epistemology
 description: '**Date:** 2026-08-03'
 tags: [neural-networks, origins, epistemology]
+language: ru
 world: neural
 subworld: network-origins
 ---

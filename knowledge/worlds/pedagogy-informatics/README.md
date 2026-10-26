@@ -3,6 +3,7 @@ type: Index
 title: Мир **pedagogy.informatics**
 description: '**Идентификатор:** `pedagogy.informatics`'
 tags: [pedagogy-informatics, readme, worlds]
+language: ru
 world: pedagogy
 subworld: informatics
 ---
