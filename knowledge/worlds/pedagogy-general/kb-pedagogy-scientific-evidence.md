@@ -12,7 +12,6 @@ subworld: general
 
 ## Metadata
 
-- card_id: kb-pedagogy-scientific-evidence-v1
 - world: pedagogy.general
 - status: active
 - updated_at: 2026-06-06

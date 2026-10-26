@@ -4,6 +4,7 @@ title: Лецзы, 天瑞篇 — evidence
 description: 杞國有人憂天地崩墜，身亡所寄，廢寢食者。……曉之者曰：「……終日在天中行止，奈何憂崩墜乎？」
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
 language: zh
+epistemic: fact (глава прочитана целиком 2026-09-04)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: китайский оригинал (традиционные иероглифы); переводы здесь — мои
 
 ## Metadata
-- card_id: kb-liezi-tianrui-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#dao #l0 #evidence]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (глава прочитана целиком 2026-09-04)
 - evidence_type: book
 - confidence: high
 - uncertainty: датировка и авторство 列子 спорны в науке (поздние напластования); текст фиксирован, атрибуция — нет

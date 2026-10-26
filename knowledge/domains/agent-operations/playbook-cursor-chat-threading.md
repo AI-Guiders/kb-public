@@ -121,7 +121,7 @@ Epic: Neumann listen wire-gap post-merge
 Не трогать: listen_beat_apply/verify WIP (stash)
 Репо: casa-ontology-payload, develop
 Store: agents/von-neumann
-Сейчас: Lalabook G0 / curriculum flip п.5
+Сейчас: учебный трек G0 / curriculum flip п.5
 Стык: design/CASA-scratch-dima-concept-zone-handoff.md
 ```
 

@@ -21,7 +21,6 @@ subworld: history
 
 ## Metadata
 
-- card_id: kb-pedagogy-history-wilson-2023-historical-literacy-evidence-v1
 - world: pedagogy.history
 - status: active
 - era: **2020–2026 current**

@@ -21,7 +21,6 @@ subworld: literature
 
 ## Metadata
 
-- card_id: kb-pedagogy-literature-shanahan-2012-evidence-v1
 - world: pedagogy.literature
 - status: active
 

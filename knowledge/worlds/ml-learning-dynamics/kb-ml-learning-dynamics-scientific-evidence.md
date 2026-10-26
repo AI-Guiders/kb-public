@@ -16,7 +16,6 @@ subworld: learning-dynamics
 - extraction_note: ML-половина гипотезы CASA «педагогика развития». Якоря извлечены из полных PDF (web fetch 2026-05-31), кроме Robins 1995 (abstract+secondary, paywall).
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-scientific-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - status: active

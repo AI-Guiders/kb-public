@@ -22,7 +22,6 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-hansford-2025-structured-literacy-evidence-v1
 - world: pedagogy.russian-language
 - status: active
 - era: **2020–2026 current** (replication layer for phonics/systematic code)

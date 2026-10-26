@@ -18,7 +18,6 @@ subworld: evidence
 
 ## Metadata
 
-- card_id: kb-therapy-and-support-boundaries-v1
 - world: psychology, safety, agent-conduct
 - layer: router / kb
 - tags: therapy, supportive-listening, referral, trauma, PFA, boundaries

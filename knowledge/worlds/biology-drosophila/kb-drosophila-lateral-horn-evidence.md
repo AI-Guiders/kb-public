@@ -4,6 +4,7 @@ title: 'Drosophila melanogaster — Латеральный рог: мульти�
 description: '**Данные:** `D:\Experiments\casa-data\connectomes\banc-v888\banc_888_meta.feather` (188 508 × 81) + `banc_888_edgelist_simple_v3.feather` (13 620 865 рёбер). Ключ = banc_888_id. Скрипты: `.cdp/scratch/lh_analysis_v2.py`, `lh_preclasses.py`; результат: `.cdp/scratch/lhon_inputs_v2.csv`, `lhon_report_v2.txt`.'
 tags: [biology-drosophila, worlds, kb, evidence, lateral-horn, multisensory, context-gate, cltm, lh]
 language: ru
+epistemic: fact (из полных текстов) + open (механизм гейта)
 world: biology
 subworld: drosophila
 ---
@@ -19,14 +20,12 @@ subworld: drosophila
 - extraction_note: полные тексты ×2 прочитаны (LH: типы, входы, выходы, функции, in vivo); синаптический уровень (BANC) — НЕ анализировался (выгрузка данных — сеть недоступна).
 
 ## Metadata
-- card_id: kb-drosophila-lateral-horn-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [lateral-horn, multisensory, context-gate, cltm, lhon, lhin]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полных текстов) + open (механизм гейта)
 - evidence_type: paper (ориг., полные тексты ×2)
 - confidence: high (структура: Dolan 2019; функции: Frechter 2019); medium (механизм «проверки» — НЕ установлен)
 - uncertainty:

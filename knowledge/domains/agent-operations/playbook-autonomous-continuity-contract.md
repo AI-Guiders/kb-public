@@ -9,7 +9,7 @@ language: ru
 
 **Domain:** agent-operations  
 **Дата:** 2026-07-31  
-**Provenance:** оператор (Света) + агент — после ночного plateau miss + WinUpdate reboot; рамка до 15.08
+**Provenance:** оператор + агент — после ночного plateau miss + WinUpdate reboot; рамка до 15.08
 
 **Связь:** `harness-checkpoint-automation.mdc` · domain card `ignite` · `playbook-cide-harness-parity-vs-cursor.md` · `playbook-context-pressure-checkpoint.md`
 

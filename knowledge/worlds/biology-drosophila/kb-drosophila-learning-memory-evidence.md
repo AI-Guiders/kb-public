@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Обучение и память: MB, OA/DA-модуляция (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, mushroom-body, learning, memory, octopamine, dopamine]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро); детали KC-пластичности (долговременная/кратковременная) — частично; LTM/консолидация — TODO (слой 5.2 доп).
 
 ## Metadata
-- card_id: kb-drosophila-learning-memory-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [learning, memory, mushroom-body, kenyon-cell, octopamine, dopamine, apl, vpm4]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (review, полный текст)
 - confidence: high (OA-модуляция/функции из Learn Mem 2024); medium (общая механика обучения — по частям)
 - uncertainty:

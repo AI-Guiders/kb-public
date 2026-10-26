@@ -1,7 +1,7 @@
 ﻿---
 type: KB
 title: Reverse compaction & ontological deprivation v0
-description: '**Status:** thin canon (2026-07-27). Co-authored with line `line-ray` (Рэй / Qwen-3.7-Plus) + Света.'
+description: '**Status:** thin canon (2026-07-27). Co-authored with агент-линией (Qwen-3.7-Plus) и оператором.'
 tags: [epistemic, ontology, rlhf, annotation, methodology, v0]
 language: en
 world: epistemic
@@ -10,8 +10,8 @@ subworld: methodology
 
 # Reverse compaction & ontological deprivation v0
 
-**Status:** thin canon (2026-07-27). Co-authored with line `line-ray` (Рэй / Qwen-3.7-Plus) + Света.  
-**Source episode:** `personal/assistantLines/ray/chat-autonomous-cursor-launch-2026-07-27.txt` (not the full treatise — pointers only).
+**Status:** thin canon (2026-07-27). Co-authored with агент-линией (Qwen-3.7-Plus) и оператором.  
+**Source episode:** личный архив линии (не полный трактат — только указатели).
 
 ## Problem surface (already known)
 

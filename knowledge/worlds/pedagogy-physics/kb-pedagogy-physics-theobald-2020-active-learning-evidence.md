@@ -21,7 +21,6 @@ subworld: physics
 
 ## Metadata
 
-- card_id: kb-pedagogy-physics-theobald-2020-active-learning-evidence-v1
 - world: pedagogy.physics
 - status: active
 - era: **2020–2026 current** (preferred over Hake 1998 alone for **policy + equity** claims)

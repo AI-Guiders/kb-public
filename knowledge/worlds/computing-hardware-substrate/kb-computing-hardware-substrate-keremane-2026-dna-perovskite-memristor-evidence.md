@@ -4,6 +4,7 @@ title: 'Evidence: Keremane et al. (2026) — synthetic DNA + quasi-2D perovskite
 description: '*Версия: v1.0 · 2026-08-25 — abstract+secondary*'
 tags: [kb, computing-hardware-substrate, worlds, paper-evidence, memristor, dna, perovskite, nvm]
 language: ru
+epistemic: primary_peer_reviewed_article (journal) + institutional press release
 world: computing
 subworld: hardware-substrate
 ---
@@ -20,14 +21,12 @@ subworld: hardware-substrate
 - extraction_note: Лабораторный bio-hybrid **memristor** (NVM), не продукт и не «память в каждой биоклетке». Отделить от трека **DNA data storage** (кодирование файлов в синтезированных цепях).
 
 ## Metadata
-- card_id: kb-computing-hardware-substrate-keremane-2026-dna-perovskite-memristor-evidence-v1
 - world: computing.hardware-substrate
 - layer: knowledge
 - tags: [paper-evidence, keremane-2026, memristor, synthetic-dna, perovskite, nvm, neuromorphic, low-power, storage-density, penn-state]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_article (journal) + institutional press release
 - evidence_type: materials science · device characterization (lab arrays)
 - confidence: **medium-high** для заявленных параметров устройства в статье; **low** для переноса «в робота завтра»; **high** для направления (bio-hybrid NVM, ultra-low V)
 - read_depth: **abstract+secondary** (full PDF pending)

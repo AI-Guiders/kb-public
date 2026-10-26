@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Иерархия типов: аннотация, линии, стереотипия (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, cell-types, annotation, stereotypy, lineage]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -19,14 +20,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро Main); методы (NBLAST/CBLAST) — кратко; детали по суперклассам — TODO при необходимости.
 
 ## Metadata
-- card_id: kb-drosophila-celltypes-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [cell-types, annotation, hierarchy, hemilineage, stereotypy, cell-typing, flywire]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (числа/механизмы из Nature 2024)
 - uncertainty:

@@ -4,6 +4,7 @@ title: 'Evidence: RLHF — Christiano et al. (2017) + Ouyang et al. (2022, Instr
 description: '*Версия: v1.0 · 2026-05-31 — full text (arXiv:1706.03741 + arXiv:2203.02155)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: две primary peer-reviewed работы + эксперименты
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: Кластер из двух работ: принцип (preference-based reward) + масштаб на LLM (SFT→RM→PPO).
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-rlhf-christiano-2017-ouyang-2022-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, rlhf, christiano-2017, ouyang-2022, instructgpt, preference-learning, reward-model, alignment, richer-than-scalar]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: две primary peer-reviewed работы + эксперименты
 - evidence_type: ML алгоритм + RL/LLM эксперименты
 - confidence: **high** для «preference/feedback signal эффективнее голого скаляра-лосса для intent-alignment»
 - read_depth: **full**

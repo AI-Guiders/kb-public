@@ -21,7 +21,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-yeh-2026-developing-bilingual-brain-evidence-v1
 - world: cognition.neurolinguistics
 - status: active
 - era: **2020–2026 current** (preferred over Perani 2015 alone for **child** bilingual brain)

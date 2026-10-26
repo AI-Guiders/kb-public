@@ -21,7 +21,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-price-2012-reading-networks-evidence-v1
 - world: cognition.neurolinguistics
 - status: active
 

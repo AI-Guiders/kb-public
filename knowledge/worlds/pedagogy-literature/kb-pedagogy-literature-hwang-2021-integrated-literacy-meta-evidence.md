@@ -22,7 +22,6 @@ subworld: literature
 
 ## Metadata
 
-- card_id: kb-pedagogy-literature-hwang-2021-integrated-literacy-meta-evidence-v1
 - world: pedagogy.literature
 - status: active
 - era: **2020–2026 current**

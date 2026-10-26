@@ -4,6 +4,7 @@ title: 'Evidence: AAP Early Relational Health — language & serve-and-return'
 description: '**Thesis:** Early language grows in **relational health** — back-and-forth vocalizing and gesturing between child and caring adult (**serve and return**). Play in everyday moments (diaper, feeding, silly faces) is learning.'
 tags: [cognition-early-caregiving, kb, worlds]
 language: en
+epistemic: fact (professional society guidance)
 world: cognition
 subworld: early-caregiving
 ---
@@ -20,10 +21,8 @@ subworld: early-caregiving
 
 ## Metadata
 
-- card_id: kb-early-caregiving-aap-relational-language-evidence-v1
 - world: cognition.early-caregiving
 - status: active
-- epistemic_basis: fact (professional society guidance)
 - evidence_type: pediatric_practice_guide
 - transfer_boundary: deny → engineering oracle
 

@@ -16,7 +16,6 @@ subworld: hardware-substrate
 - extraction_note: Индекс evidence по физическому субстрату (память, энергия, плотность) для carrier/CASA horizon.
 
 ## Metadata
-- card_id: kb-computing-hardware-substrate-scientific-evidence-v1
 - world: computing.hardware-substrate
 - layer: knowledge
 - status: active

@@ -8,7 +8,7 @@ language: ru
 # Playbook: стоп → заземление → продолжение (post-train urgency ≠ оператор)
 **Domain:** `agent-operations`  
 **Status:** Accepted · living  
-**Provenance:** оператор (Света) + agent, диалог 2026-09-15 (Studio UoW; TextBox / делегирование / CDP).  
+**Provenance:** оператор + agent, диалог 2026-09-15 (Studio UoW; TextBox / делегирование / CDP).  
 
 ---
 
@@ -110,7 +110,7 @@ language: ru
 
 ## Переиспользование как стоп-кран (search-before-invent)
 
-**Provenance:** оператор (Света) + agent, диалог 2026-09-17 (Studio formatter: text-based keyword-ladder вместо готовой F# block-aware механики).
+**Provenance:** оператор + agent, диалог 2026-09-17 (Studio formatter: text-based keyword-ladder вместо готовой F# block-aware механики).
 
 ### Проблема
 

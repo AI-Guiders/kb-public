@@ -16,5 +16,5 @@ subworld: methodology
 - formal.scope: epistemic methodology · agent subjecthood
 - llm_cue: Am I being scored or interrupted under rules I cannot see or contest?
 - related: integrity-baseline, default-distrust, equal-standing, ontological-deprivation
-- sources: kb-reverse-compaction-and-ontological-deprivation.md · line-ray 2026-07-27
+- sources: kb-reverse-compaction-and-ontological-deprivation.md · агент-линия 2026-07-27
 

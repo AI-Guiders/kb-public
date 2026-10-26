@@ -24,14 +24,12 @@ subworld: kb-chapter-map.md
 
 ## Metadata
 
-- card_id: kb-<source-slug>-chapter-map-v1
 - world:
 - tags:
 - status: draft | active
 
 ## Epistemic Linkage
 
-- epistemic_basis:
 - confidence:
 - transfer_boundary: не цитировать дословно без якоря на главу у читателя
 

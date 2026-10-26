@@ -4,6 +4,7 @@ title: Symfony Framework — фундамент (full stack, не только �
 description: '**Назначение:** карта **Symfony как приложения**: Kernel, bundles, DI-контейнер, конфигурация, HTTP, консоль, типичные компоненты. Отличается от `kb-laravel-symfony-underpinnings.md` (там — роль Symfony **внутри** Laravel; читать его, если проект на Laravel). Мир `software.symfony`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -89,14 +90,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-SYMFONY-FW
 - world: software.symfony
 - layer: world
 - tags: symfony; http-kernel; di; doctrine; messenger
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official Symfony documentation
 - confidence: medium
 - uncertainty: минорные изменения между LTS и current

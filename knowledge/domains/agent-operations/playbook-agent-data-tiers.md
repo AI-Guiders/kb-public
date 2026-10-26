@@ -10,7 +10,7 @@ language: ru
 
 **Домен:** agent-operations  
 **Дата:** 2026-06-22  
-**Provenance:** диалог оператор (Света) + агент — Cursor до ~2026-08-15, vast.ai vs compliance, нужен не только код но и обсуждение идей  
+**Provenance:** диалог оператор + агент — Cursor до ~2026-08-15, vast.ai vs compliance, нужен не только код но и обсуждение идей  
 **Секция hot (stub):** загрузка по hub / route_context «tier / compliance / local LLM / redaction»
 
 **Связь:** [playbook-external-memory-workaround.md](playbook-external-memory-workaround.md) · [playbook-agent-knowledge-responsibility.md](playbook-agent-knowledge-responsibility.md) · [playbook-agent-partnership-kb.md](playbook-agent-partnership-kb.md) · [playbook-rf-llm-cloudru-foundation-models.md](playbook-rf-llm-cloudru-foundation-models.md) · CIDE [0083-ai-mode](../../../work/projects/door-to-singularity/cascade-ide/) · forge [agent-forge](../work/projects/door-to-singularity/agent-forge/README.md) · roadmap [scratch-neumann-tier1-roadmap-2026-08.md](../../work/projects/door-to-singularity/ca-substrate-agent/scratch-neumann-tier1-roadmap-2026-08.md)

@@ -4,6 +4,7 @@ title: PHP — инструменты, качество, CI (фундамент�
 description: '**Назначение:** слой **PHPUnit/Pest, статанализ, форматирование, Rector, Xdebug, CI-матрица**. Мир **`software.php`**.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -92,14 +93,12 @@ subworld: php-laravel
 - updated_at: 2026-03-01
 
 ### Metadata
-- card_id: KC-2026-03-01-PHP-TOOL-L1
 - world: software.php
 - layer: world
 - tags: php; phpunit; phpstan; rector; xdebug; ci
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - confidence: high
 - falsification_trigger: смена major версий инструментов — перепроверить команды
 

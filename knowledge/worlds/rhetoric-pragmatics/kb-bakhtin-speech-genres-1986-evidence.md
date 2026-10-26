@@ -4,6 +4,7 @@ title: 'Evidence: Bakhtin (1986) — The Problem of Speech Genres'
 description: '**Речевой жанр** — каждый относительно стабильный тип **высказывания** (utterance): от однословной реплики до многотомного романа. Общая **вербальная (языковая) природа** — не только «литература».'
 tags: [rhetoric-pragmatics, paper-evidence, bakhtin, speech-genres, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: rhetoric
 subworld: pragmatics
 ---
@@ -22,7 +23,6 @@ subworld: pragmatics
 
 ## Metadata
 
-- card_id: kb-bakhtin-speech-genres-1986-evidence-v1
 - world: rhetoric.pragmatics
 - layer: knowledge
 - tags: [paper-evidence, speech-genres, utterance, dialogism]
@@ -30,7 +30,6 @@ subworld: pragmatics
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: philosophical essay (translated)
 - confidence: **high** для тезиса «речевые жанры как типы utterance»; **medium** для иерархии primary/secondary без перечитывания полного текста
 - transfer_boundary: не сводить жанр к **литературному** анализу только; не путать «жанр» в Бахтине с file format (ADR, playbook).

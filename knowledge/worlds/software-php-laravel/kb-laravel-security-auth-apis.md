@@ -4,6 +4,7 @@ title: Laravel — безопасность, аутентификация, API
 description: '**Назначение:** контур **auth** и базовых угроз в типичном Laravel-приложении (веб + API). Не заменяет OWASP ASVS и внутренние стандарты. Мир `software.laravel`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -83,14 +84,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-LARAVEL-SECURITY
 - world: software.laravel
 - layer: world
 - tags: laravel; sanctum; passport; csrf; policy; oauth
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official docs + OWASP-aware heuristics
 - confidence: medium
 - uncertainty: конкретные threat models и compliance

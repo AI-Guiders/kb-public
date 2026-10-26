@@ -22,7 +22,6 @@ subworld: second-native-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-thomas-collier-2017-dual-language-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
 

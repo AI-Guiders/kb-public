@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Центральный комплекс: навигация, компас, векторные вычисления (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, central-complex, navigation, compass, ring-attractor, fan-shaped-body]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро Main+Discussion+Methods частично); модели (path integration) — кратко; числовые детали — из текста.
 
 ## Metadata
-- card_id: kb-drosophila-cx-navigation-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [central-complex, navigation, compass, ring-attractor, fan-shaped-body, vector-computation, action-selection]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (коннектом/мотивы eLife 2021); medium (функциональные интерпретации моделей — гипотезы авторов)
 - uncertainty:

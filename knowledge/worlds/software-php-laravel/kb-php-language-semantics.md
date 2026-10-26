@@ -4,6 +4,7 @@ title: PHP 8.x — язык и семантика (фундаментальны�
 description: '**Назначение:** целостная карта **семантики PHP 8.x** (ориентир **8.4+**): типы, объекты, ошибки, пространства имён, граничные случаи. Мир **`software.php`**. Хронология фич по мажорам с **5.x** — `kb-php-versions-and-evolution.md`. Рантайм/SAPI/Composer — в `kb-php-fundamentals.md`; веб-слой — в `kb-php-web-sessions-io.md`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -176,14 +177,12 @@ subworld: php-laravel
 - updated_at: 2026-03-01
 
 ### Metadata
-- card_id: KC-2026-03-01-PHP-LANG-L1
 - world: software.php
 - layer: world
 - tags: php; semantics; types; oop; errors; namespace
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - confidence: high для базовой семантики; medium для edge GC/destructor
 - falsification_trigger: расхождение с manual для заявленной версии PHP
 

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Питание: голод, насыщение, цепи (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, feeding, hunger, satiety, neuropeptide, motivation]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро); молекулярные детали (DILP-типы) — частично.
 
 ## Metadata
-- card_id: kb-drosophila-feeding-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [feeding, hunger, satiety, dilp, akh, npf, snpf, motivation, mb]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (review, полный текст)
 - confidence: high (сигналы/цепи из Open Biol 2019)
 - uncertainty:

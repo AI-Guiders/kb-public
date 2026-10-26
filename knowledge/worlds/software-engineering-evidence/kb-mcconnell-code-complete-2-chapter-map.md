@@ -4,6 +4,7 @@ title: 'Карта глав: Steve McConnell — *Code Complete*, 2nd ed. (softw
 description: 1. **Claim** (утверждение о «хорошей практике» из McConnell) → обязательна **привязка к главе/разделу** (например, «гл. 7 — качество подпрограмм»), не «McConnell говорит, что…» без якоря.
 tags: [kb, software-engineering-evidence, worlds]
 language: ru
+epistemic: fact (структура Parts I–VII и нумерация глав 1–35 по опубликованному оглавлению) + **inference** (сопоставление с практиками в `kb-engineering-evidence.md`, ADR, ревью).
 world: software
 subworld: engineering-evidence
 ---
@@ -13,14 +14,13 @@ subworld: engineering-evidence
 ## Provenance (происхождение)
 
 - **Издание:** Steve McConnell, *Code Complete: A Practical Handbook of Software Construction*, Second Edition, Microsoft Press, 2004. ISBN печати: 0-7356-1967-0; часто указывают 978-0735619678.
-- **Локальная копия (пользователь):** `c:\Users\dkara\YandexDisk\Книги\Дискретная математика и программирование\makkonnel.djvu` — формат DJVU; **в среде агента содержимое не извлекается** (бинарный тип). Навигация по книге — в локальном ридере DJVU/PDF.
+- **Локальная копия (пользователь):** `локальная копия математика и программирование\makkonnel.djvu` — формат DJVU; **в среде агента содержимое не извлекается** (бинарный тип). Навигация по книге — в локальном ридере DJVU/PDF.
 - **Публичная структура (для сверки нумерации глав):** оглавление 2-го изд. на платформе O’Reilly — `https://www.oreilly.com/library/view/code-complete-2nd/0735619670/` (раздел Table of Contents). Дополнительно: образец страниц Pearson — `https://ptgmedia.pearsoncmg.com/images/9780735619678/samplepages/9780735619678a.pdf` (фрагмент издательства, не полный текст).
 - **created_at:** 2026-04-09
 - **updated_at:** 2026-04-09
 
 ## Metadata
 
-- **card_id:** kb-mcconnell-code-complete-2-chapter-map-v1
 - **world:** software / engineering / construction
 - **layer:** router + evidence anchor
 - **tags:** mcconnell, code-complete, construction, chapter-index, evidence-based-reading
@@ -28,7 +28,6 @@ subworld: engineering-evidence
 
 ## Epistemic Linkage
 
-- **epistemic_basis:** fact (структура Parts I–VII и нумерация глав 1–35 по опубликованному оглавлению) + **inference** (сопоставление с практиками в `kb-engineering-evidence.md`, ADR, ревью).
 - **evidence_type:** published_table_of_contents + user-local_copy_pointer
 - **confidence:** high (оглавление и части книги как артефакт издательства); medium (соответствие перевода/верстки конкретному DJVU без побайтовой сверки).
 - **uncertainty:** русское издание («Совершенный код») может отличаться нумерацией страниц и разбивкой подзаголовков; **источник истины по тексту — твоя локальная книга**.

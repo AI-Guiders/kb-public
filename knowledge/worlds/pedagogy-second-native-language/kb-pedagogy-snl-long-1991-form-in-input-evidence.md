@@ -22,7 +22,6 @@ supersedes: ['`kb-pedagogy-fl-long-1991-focus-on-form-evidence-v1`']
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-long-1991-form-in-input-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
 

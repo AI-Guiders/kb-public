@@ -4,6 +4,7 @@ title: 'Evidence: Stalega et al. (2024) — PA-only vs print-based instruction'
 description: '**Question:** Is PA instruction **without print** as effective for reading outcomes as **print-based** instruction (phonics)?'
 tags: [kb, pedagogy-russian-language, worlds]
 language: en
+epistemic: quantitative_meta_analysis (38 studies, 293 ES, RVE)
 world: pedagogy
 subworld: russian-language
 ---
@@ -21,7 +22,6 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-stalega-2024-pa-only-meta-evidence-v1
 - world: pedagogy.russian-language
 - layer: knowledge
 - tags: [meta-analysis, phonological-awareness, print, phonics, 2024]
@@ -29,7 +29,6 @@ subworld: russian-language
 
 ## Epistemic linkage
 
-- epistemic_basis: quantitative_meta_analysis (38 studies, 293 ES, RVE)
 - confidence: **high** for PA-only < print-based; **medium** for preschool subgroup (fewer studies)
 - read_depth: **partial (extended)**
 - transfer_boundary: preschool–grade 1; English corpus; supports **print path** for RU v1, not oral-only Elkonin-as-oracle

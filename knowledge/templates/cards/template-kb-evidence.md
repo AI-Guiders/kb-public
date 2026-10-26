@@ -4,6 +4,7 @@ title: KB evidence card template (kb-`<slug>`-evidence-v1)
 description: '**Имя файла:** `kb-<topic>-evidence.md` (в `knowledge/` или `worlds/<world>/`).'
 tags: [template, templates]
 language: ru
+epistemic: (`fact` | `inference` | `hypothesis`)
 ---
 
 ﻿# KB evidence card template (kb-`<slug>`-evidence-v1)
@@ -22,14 +23,12 @@ language: ru
 - extraction_note: (опционально: издание, язык, ограничения цитирования)
 
 ## Metadata
-- card_id: kb-<topic>-evidence-v1
 - world: (напр. `culture.global`, `software.engineering-evidence`)
 - layer: (`world` | `router` | `meta`)
 - tags: []
 - status: (`active` | `deprecated` | `draft`)
 
 ## Epistemic Linkage
-- epistemic_basis: (`fact` | `inference` | `hypothesis`)
 - evidence_type: (book | paper | spec | experience | …)
 - confidence: (`low` | `medium` | `high`)
 - uncertainty:

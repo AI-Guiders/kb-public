@@ -4,6 +4,7 @@ title: UI/UX — литературный evidence (Norman, Nielsen, Shneiderman
 description: Цель — свод принципов для проектирования интерфейсов и оценки UX (в т.ч. IDE и инструментов). Источники перечислены в Provenance.
 tags: [hci-ux-dx, kb, worlds]
 language: ru
+epistemic: literature_synthesis
 world: hci
 subworld: ux-dx
 ---
@@ -23,7 +24,6 @@ subworld: ux-dx
 
 ## Metadata
 
-- card_id: kb-ui-ux-literature-evidence-v1
 - world: software.desktop-ui, software.web-ui
 - layer: knowledge
 - tags: [ui, ux, hci, norman, nielsen, shneiderman, krug, heuristics, literature-evidence]
@@ -31,7 +31,6 @@ subworld: ux-dx
 
 ## Epistemic linkage
 
-- epistemic_basis: literature_synthesis
 - evidence_type: books and published heuristics (interpretive summary)
 - confidence: medium
 - transfer_boundary: эвристики — критерии оценки и язык дизайна; **не** заменяют WCAG/продуктовые исследования пользователей.

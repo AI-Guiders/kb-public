@@ -4,6 +4,7 @@ title: 'JavaScript: значения, принуждения, область в�
 description: '**Назначение:** фундамент слоя **времени выполнения** до объектной модели: внутренние типы (спецификационные), поведение операторов сравнения и приведений, блочная область, TDZ, функции и стрелки, привязка `this`. Мир **`software.javascript`**.'
 tags: [kb, software-javascript, worlds]
 language: ru
+epistemic: fact
 world: software
 subworld: javascript
 ---
@@ -24,7 +25,6 @@ subworld: javascript
 
 ## Metadata
 
-- card_id: kb-javascript-types-coercion-and-scope-v1
 - world: software.javascript
 - layer: world
 - tags: coercion, scope, tdz, this, closure
@@ -32,7 +32,6 @@ subworld: javascript
 
 ## Epistemic Linkage
 
-- epistemic_basis: fact
 - confidence: high для `===` и TDZ; medium для редких углов `Symbol.toPrimitive`
 - transfer_boundary: не дублирует полный раздел **Number** и **Date** — только то, что ломает повседневный код
 

@@ -4,6 +4,7 @@ title: 'Evidence: Kirkpatrick et al. (2017) — Overcoming catastrophic forgetti
 description: '*Версия: v1.0 · 2026-05-31 — full text (PNAS 114(13):3521–3526 / arXiv:1612.00796)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article (PNAS) + empirical
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: EWC — регуляризация против забывания; явно опирается на McClelland 1995 (system-level consolidation/replay) как альтернативу и на синаптическую консолидацию.
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-kirkpatrick-2017-ewc-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, kirkpatrick-2017, EWC, catastrophic-forgetting, continual-learning, fisher-information, synaptic-consolidation]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_article (PNAS) + empirical
 - evidence_type: ML algorithm + experiments (MNIST permutations, Atari 2600)
 - confidence: **high** для эффекта EWC на показанных бенчмарках; **medium** для масштаба/точности диагональной Fisher-аппроксимации (см. поздние критики)
 - read_depth: **full**

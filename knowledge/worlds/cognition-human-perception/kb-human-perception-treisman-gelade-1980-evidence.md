@@ -4,6 +4,7 @@ title: 'Evidence: Treisman & Gelade (1980) — Feature Integration Theory'
 description: '*Версия карточки: v1.2 · 2026-04-20 — семантическое имя `*-evidence-v1` (канон `kb-*-evidence-v1`).*'
 tags: [cognition-human-perception, kb, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: cognition
 subworld: human-perception
 ---
@@ -21,7 +22,6 @@ subworld: human-perception
 
 ## Metadata
 
-- card_id: kb-human-perception-treisman-gelade-1980-evidence-v1
 - world: cognition.human-perception
 - layer: knowledge
 - tags: [paper-evidence, treisman-gelade-1980, visual-attention, visual-search, conjunction, preattentive]
@@ -29,7 +29,6 @@ subworld: human-perception
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article (PDF text consulted for extraction)
 - confidence: high для **различия** поиска по одному признаку vs по конъюнкции в их парадигме; medium для **абсолютного** переноса RT на динамический IDE
 - transfer_boundary: лабораторный **visual search** (карты, тахистоскоп); перенос на IDE — **эвристический**, не прямое воспроизведение времени реакции.

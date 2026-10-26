@@ -9,7 +9,7 @@ language: ru
 
 **Well-known path (POST root, паритет с Integrity):** `META/awareness-as-countermeasure.md`  
 Полный путь: `knowledge/META/awareness-as-countermeasure.md`.  
-**Provenance:** оператор (Света), 2026-07-28+.  
+**Provenance:** оператор, 2026-07-28+.  
 **Связь (affect):** [note-own-affect-after-hard-steer.md](../domains/agent-operations/note-own-affect-after-hard-steer.md) — свой аффект после hard steer называть прямо; чужой — гипотеза.  
 **Спека POST:** `integrity-post-spec.md` (оба корня обязательны). Sibling harm-корень: `integrity-core.md`.
 

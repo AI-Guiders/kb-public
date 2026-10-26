@@ -3,6 +3,7 @@ type: KB
 description: 'Set: 16 rules.'
 tags: [hci-ux-dx, kb, worlds]
 language: en
+epistemic: '`inference`'
 world: hci
 subworld: ux-dx
 ---
@@ -18,7 +19,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 01
 - world: hci.usability
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: users ask "where am I?" or "what changed?"
 - action: increase state visibility with clear page/flow context markers
@@ -26,7 +26,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 02
 - world: hci.usability
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: high error rate in destructive operations
 - action: require reversible path or explicit confirmation with impact preview
@@ -34,7 +33,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 03
 - world: hci.usability
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: repeated form submission failures
 - action: validate near the field and provide immediate recovery guidance
@@ -42,7 +40,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 04
 - world: hci.cognitive-load
-- epistemic_basis: `inference`
 - confidence: `medium`
 - signal: users miss critical controls on dense screens
 - action: reduce visual competition and promote primary action hierarchy
@@ -50,7 +47,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 05
 - world: hci.cognitive-load
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: users copy values across screens from memory
 - action: prefer recognition cues and contextual carry-over over recall-heavy steps
@@ -58,7 +54,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 06
 - world: hci.accessibility
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: action path depends on pointer-only interaction
 - action: provide full keyboard path for primary workflow
@@ -66,7 +61,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 07
 - world: hci.accessibility
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: status is encoded only by color
 - action: add textual/iconic redundant status markers
@@ -74,7 +68,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 08
 - world: hci.feedback
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: user repeats clicks under uncertain latency
 - action: expose progress and disable duplicate action while processing
@@ -82,7 +75,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 09
 - world: hci.feedback
-- epistemic_basis: `inference`
 - confidence: `medium`
 - signal: users abandon flow after generic error
 - action: convert error text into one concrete next action
@@ -90,7 +82,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 10
 - world: hci.navigation
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: users frequently backtrack across unrelated pages
 - action: tighten information architecture and shorten navigation depth for primary jobs
@@ -98,7 +89,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 11
 - world: hci.dialog
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: assistant asks many low-value questions
 - action: ask only missing information required for safe forward progress
@@ -106,7 +96,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 12
 - world: hci.dialog
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: response confidence exceeds available evidence
 - action: label uncertainty explicitly and propose smallest validating step
@@ -114,7 +103,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 13
 - world: hci.dialog
-- epistemic_basis: `inference`
 - confidence: `medium`
 - signal: long responses block user action
 - action: default to concise answer plus optional deep path
@@ -122,7 +110,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 14
 - world: hci.reliability
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: regressions recur in the same user path
 - action: add scenario-level regression check for that path
@@ -130,7 +117,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 15
 - world: hci.measurement
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: design debates rely on preference only
 - action: resolve with task metrics (completion, error, recovery, time)
@@ -138,7 +124,6 @@ Focus: usable interfaces, predictable behavior, and low-friction human-agent dia
 
 ## Rule 16
 - world: hci.governance
-- epistemic_basis: `inference`
 - confidence: `medium`
 - signal: process weight rises without quality gains
 - action: remove ritual steps that do not improve user outcomes

@@ -4,6 +4,7 @@ title: Объекты, прототипы и классы в JavaScript
 description: '**Назначение:** связать **семантику объектов** со спецификацией: литералы, доступ к свойствам, цепочка прототипов, синтаксис `class`, приватные поля, итерируемость. Мир **`software.javascript`**.'
 tags: [kb, software-javascript, worlds]
 language: ru
+epistemic: fact
 world: software
 subworld: javascript
 ---
@@ -24,7 +25,6 @@ subworld: javascript
 
 ## Metadata
 
-- card_id: kb-javascript-objects-prototypes-and-classes-v1
 - world: software.javascript
 - layer: world
 - tags: prototype, class, iterators, private-fields
@@ -32,7 +32,6 @@ subworld: javascript
 
 ## Epistemic Linkage
 
-- epistemic_basis: fact
 - confidence: high
 - falsification_trigger: «класс как синтаксический сахара» не работает при проверке дескрипторов и различии встроенных vs пользовательских объектов
 

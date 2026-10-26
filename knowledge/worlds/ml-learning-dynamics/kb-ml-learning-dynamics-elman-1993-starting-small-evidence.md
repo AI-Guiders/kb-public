@@ -4,6 +4,7 @@ title: 'Evidence: Elman (1993) — Learning and development in NN: the importanc
 description: '*Версия: v1.0 · 2026-05-31 — full text (Cognition 48:71–99)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: SRN-моделирование. Связан с Rohde & Plaut (1999) — критика/частичный no-replication «starting small».
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-elman-1993-starting-small-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, elman-1993, curriculum, starting-small, SRN, working-memory, staged-capacity]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_article
 - evidence_type: connectionist simulation
 - confidence: **high** для эффекта в SRN на этой задаче; **medium** для генерализации (см. Rohde & Plaut 1999)
 - read_depth: **full**

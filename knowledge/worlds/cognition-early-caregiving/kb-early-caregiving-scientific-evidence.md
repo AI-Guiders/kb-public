@@ -12,7 +12,6 @@ subworld: early-caregiving
 
 ## Metadata
 
-- card_id: kb-early-caregiving-scientific-evidence-v1
 - world: cognition.early-caregiving
 - status: active
 - updated_at: 2026-06-11

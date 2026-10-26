@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Атласы и связка транскриптом↔коннектом (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, atlas, scrnaseq, hemilineage, birthorder, integration]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро); FCA (Science 2022) — полный текст недоступен (OA:N) — использованы данные/аннотации локально; числа согласуются с Nature 2026.
 
 ## Metadata
-- card_id: kb-drosophila-atlas-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [atlas, scrna-seq, cell-types, hemilineage, birth-order, meta-atlas]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (числа/механизмы Cell Genom 2026)
 - uncertainty:

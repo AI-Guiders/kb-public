@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Метаморфоз: имагинальные диски, экдизоновый каскад (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, metamorphosis, imaginal-disc, ecdysone]
 language: ru
+epistemic: fact (из полных текстов)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: факты — из полных текстов (извлечены ключевые секции); JH-детали (титр, роль в метаморфозе) — TODO (нужен отдельный источник); EcR/USP — классика (в обзоре 2025 не детализирован).
 
 ## Metadata
-- card_id: kb-drosophila-metamorphosis-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [metamorphosis, imaginal-disc, ecdysone, 20E, eversion, puff-genes, regeneration]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полных текстов)
 - evidence_type: paper (review, полный текст)
 - confidence: high (диски/экдизон из Genetics 2022+2025); medium (JH-роль — по каркасу, TODO)
 - uncertainty:

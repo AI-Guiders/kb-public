@@ -4,6 +4,7 @@ title: 'Evidence: OMG MDA Guide (2003) — Model-Driven Architecture'
 description: '**PIM** (Platform-Independent Model) → transforms → **PSM** (Platform-Specific Model) → code/artifacts.'
 tags: [software-case-workbench, paper-evidence, mda, omg, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: software
 subworld: case-workbench
 ---
@@ -20,7 +21,6 @@ subworld: case-workbench
 
 ## Metadata
 
-- card_id: kb-omg-mda-2003-evidence-v1
 - world: software.case-workbench
 - layer: knowledge
 - tags: [paper-evidence, mda, model-driven, case]
@@ -28,7 +28,6 @@ subworld: case-workbench
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: industry specification / guide
 - confidence: **high** для того, что MDA **заявляло**; **high** что mass agile dev **не приняло** PIM→PSM как daily practice
 - transfer_boundary: MDA transforms ≠ federation conformance CI; не копировать XMI/MOF stack

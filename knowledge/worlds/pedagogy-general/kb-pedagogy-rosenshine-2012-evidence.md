@@ -4,6 +4,7 @@ title: 'Evidence: Rosenshine (2012) — Principles of Instruction'
 description: 'Rosenshine distilled **10 principles** from: (a) cognitive science on working memory; (b) studies of master teachers (high success rate); (c) cognitive supports (models, scaffolds).'
 tags: [kb, pedagogy-general, worlds]
 language: en
+epistemic: synthesis_from_primary (review integrating cognitive science + master-teacher studies)
 world: pedagogy
 subworld: general
 ---
@@ -22,7 +23,6 @@ subworld: general
 
 ## Metadata
 
-- card_id: kb-pedagogy-rosenshine-2012-evidence-v1
 - world: pedagogy.general
 - layer: knowledge
 - tags: [paper-evidence, rosenshine, principles-of-instruction, explicit-instruction]
@@ -30,7 +30,6 @@ subworld: general
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary (review integrating cognitive science + master-teacher studies)
 - evidence_type: peer-reviewed practitioner journal + research synthesis
 - confidence: **high** for principle list as teaching heuristics; **medium** for effect sizes (not meta-analysis itself)
 - read_depth: **full**

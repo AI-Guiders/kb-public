@@ -24,7 +24,6 @@ subworld: second-native-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-genesee-2012-immersion-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
 

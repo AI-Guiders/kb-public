@@ -4,6 +4,7 @@ title: Дао дэ цзин — evidence (Мавандуй, 帛書校勘版, с�
 description: 為學者日益，聞道者日損。損之又損，以至於無為。無為而無不為。
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
 language: zh
+epistemic: fact (текст прочитан целиком 2026-09-04, сверка с Ван Би по ключевым главам)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: мавандуйский шёлк (сверенная цифровая редакция): 德篇 перед 道篇, порядок глав обратный; номера ниже — канонические (в скобках — по 帛書)
 
 ## Metadata
-- card_id: kb-laozi-mawangdui-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#dao #l0 #evidence #textual]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (текст прочитан целиком 2026-09-04, сверка с Ван Би по ключевым главам)
 - evidence_type: book (археологическая редакция, ~168 до н.э.)
 - confidence: high
 - uncertainty: редакция 帛書甲/乙 повреждена местами; 校勘版 — конъектурная свёрка, не фотокопия

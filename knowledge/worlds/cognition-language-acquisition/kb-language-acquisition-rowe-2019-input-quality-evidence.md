@@ -21,7 +21,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-rowe-2019-input-quality-evidence-v1
 - world: cognition.language-acquisition
 - status: active
 - era: **2020–2026 current** (conceptual framework for quality)

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila — SPIN (superior protocerebrum intrinsic neurons): конвергенция-дивергенция валентности (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, spin, valence, convergence-divergence, glucl-alpha, arbitration]
 language: ru
+epistemic: fact (полный текст, 2 датасета, согласованные результаты)
 world: biology
 subworld: drosophila
 ---
@@ -14,13 +15,11 @@ subworld: drosophila
 - created_at: 2026-09-19; updated_at: 2026-09-19.
 
 ## Metadata
-- card_id: kb-drosophila-spin-valence-evidence-v1
 - world: biology.drosophila
 - layer: world
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (полный текст, 2 датасета, согласованные результаты)
 - confidence: high (топология/NT/структура); medium (поведенческая интерпретация — гипотезы авторов)
 - transfer_boundary: SPIN — **не** LH/MB/CX; это отдельный слой (третий порядок валентности) между LH/MB и FB; для CASA — **bottleneck/гейт валентности** (не память!).
 

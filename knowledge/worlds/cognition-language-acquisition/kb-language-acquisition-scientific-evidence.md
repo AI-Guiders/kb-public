@@ -12,7 +12,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-scientific-evidence-v1
 - world: cognition.language-acquisition
 - status: active
 - updated_at: 2026-06-06

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Моторика: распределённое управление движением (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, motor, backward-walking, mdn, distributed-control, vnc]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: MDN→локальные цепи, фазы шага); другие моторные программы (ходьба вперёд, полёт) — TODO.
 
 ## Metadata
-- card_id: kb-drosophila-motor-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [motor, backward-walking, mdn, distributed-control, vnc, leg-circuits]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (Nat Commun 2020 — оптогенетика+эпистаз+кинематика)
 - uncertainty:

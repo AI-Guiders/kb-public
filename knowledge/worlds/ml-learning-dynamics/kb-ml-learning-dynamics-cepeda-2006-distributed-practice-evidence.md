@@ -4,6 +4,7 @@ title: 'Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed p
 description: '*Версия: v1.0 · 2026-05-31 — full text (Psych. Bulletin 132(3):354–380)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: meta-analysis (317 эксп., 184 статьи) — human verbal recall
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: Якорь для spacing effect; определяет ISI/retention-interval как совместные факторы.
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-cepeda-2006-distributed-practice-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, cepeda-2006, spacing-effect, distributed-practice, meta-analysis, ISI, retention-interval, scheduling]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: meta-analysis (317 эксп., 184 статьи) — human verbal recall
 - evidence_type: quantitative synthesis
 - confidence: **high** для spacing>massing; **medium** для точной формы ISI×RI (литература неравномерна)
 - read_depth: **full**

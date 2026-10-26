@@ -4,6 +4,7 @@ title: 'Evidence: Clarke, Soto & Nelson — Recasts and AAC interaction (review)
 description: '*Версия: v1.0 · 2026-05-31 — full text (36 pp. OCR)*'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature + qualitative conversation analysis (AAC subset)
 world: cognition
 subworld: language-acquisition
 ---
@@ -23,7 +24,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-clarke-aac-recasts-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [review-evidence, aac, recast, co-construction, corrective-input, clinical, asymmetry]
@@ -31,7 +31,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature + qualitative conversation analysis (AAC subset)
 - evidence_type: review / theoretical synthesis + illustrative extracts
 - confidence: **high** for descriptive claims about AAC interaction patterns and recast taxonomy from literature; **low–medium** for facilitative efficacy in AAC (authors state evidence limited)
 - read_depth: **full**

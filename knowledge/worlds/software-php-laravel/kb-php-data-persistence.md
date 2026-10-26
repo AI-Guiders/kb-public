@@ -4,6 +4,7 @@ title: PHP — данные и персистентность (PDO и обход
 description: '**Назначение:** фундамент **работы с БД из PHP** без привязки к Laravel/Eloquent: PDO, подготовленные запросы, транзакции, типичные ошибки. Мир **`software.php`**.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -92,14 +93,12 @@ subworld: php-laravel
 - updated_at: 2026-03-01
 
 ### Metadata
-- card_id: KC-2026-03-01-PHP-DB-L1
 - world: software.php
 - layer: world
 - tags: php; pdo; sql; transactions; migrations
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - confidence: high
 - transfer_boundary: тюнинг конкретной СУБД — вендорная документация
 

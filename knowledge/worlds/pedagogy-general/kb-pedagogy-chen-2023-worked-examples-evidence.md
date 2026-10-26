@@ -24,7 +24,6 @@ subworld: general
 
 ## Metadata
 
-- card_id: kb-pedagogy-chen-2023-worked-examples-evidence-v1
 - world: pedagogy.general
 - status: active
 

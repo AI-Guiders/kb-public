@@ -4,19 +4,20 @@ title: ПДД РФ — Раздел 10. Скорость движения (verif
 description: ПДД.руПДД
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
 language: ru
+verified:
+  - by: human:operator
+    at: 2026-10-13 (добыто fetch-pdd-rf.py, pdd.ru, ред. 27.03.2026)
+epistemic: '`fact`'
 world: traffic
 subworld: rules
 ---
 # ПДД РФ — Раздел 10. Скорость движения (verified)
 
 
-- card_id: KC-2026-10-13-110
 - world: traffic-rules.pdd-rf.section-10
-- epistemic_basis: `fact`
 - confidence: `high`
 - source: ПДД РФ (Пост. Правительства РФ от 23.10.1993 N 1090, ред. 2026), раздел 10
 - verified_url: https://pdd.ru/theory/pdd/pdd10/
-- verified_utc: 2026-10-13 (добыто fetch-pdd-rf.py, pdd.ru, ред. 27.03.2026)
 
 ---
 

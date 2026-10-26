@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Развитие: сегментация, Gap/Hox, Pair-rule (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, development, segmentation, hox]
 language: ru
+epistemic: fact (для механизмов из обзора), inference (обобщения)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст обзора прочитан (ключевые секции по дрозофиле); классика (Нобель 1995/бикоид) — по канону каркаса, без отдельного полного текста (помечено в confidence); специализированные Hox-обзоры (полные тексты) — TODO.
 
 ## Metadata
-- card_id: kb-drosophila-development-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [development, segmentation, gap-genes, hox, pair-rule, french-flag, zelda]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (для механизмов из обзора), inference (обобщения)
 - evidence_type: paper (review, полный текст) + classic
 - confidence: high (механизмы сегментации по обзору 2021: stripe-specific enhancers, Zelda/Opa, Hb-градиент); medium (классика/детали бикоид-nanos — по каркасу, без полного текста)
 - uncertainty:

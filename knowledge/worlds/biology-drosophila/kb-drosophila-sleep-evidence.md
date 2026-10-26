@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Сон: состояния, гомеостаз, схемы (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, sleep, sleep-states, homeostasis, dfb]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан; молекулярная генетика сна (ген-мутанты) — частично; «sleep need»-механизм — в eLife 2021.
 
 ## Metadata
-- card_id: kb-drosophila-sleep-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [sleep, sleep-states, arousal, dfb, slow-wave, homeostasis]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (review, полный текст)
 - confidence: high (состояния/маркеры — обзор 2026); medium (число состояний — нет консенсуса, отмечено авторами)
 - uncertainty:

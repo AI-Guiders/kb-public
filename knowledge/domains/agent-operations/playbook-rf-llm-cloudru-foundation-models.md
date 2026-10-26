@@ -10,7 +10,7 @@ language: ru
 
 **Домен:** agent-operations  
 **Дата:** 2026-06-25  
-**Provenance:** диалог оператор (Света) + агент — Cursor; поиск обхода Stripe/KZ; находка тарифов FM  
+**Provenance:** диалог оператор + агент — Cursor; поиск обхода Stripe/KZ; находка тарифов FM  
 **Секция hot (stub):** загрузка по hub / route_context «Cloud.ru / Foundation Models / РФ / Roo / оплата рублями»
 
 **Связь:** [playbook-agent-data-tiers.md](playbook-agent-data-tiers.md) · [playbook-cursor-chat-threading.md](playbook-cursor-chat-threading.md) · [note-llm-sampling-params-openai-compat.md](note-llm-sampling-params-openai-compat.md) · CIDE `settings.toml` `[ai.cloud.openai]` · [Cloud.ru FM quickstart](https://cloud.ru/docs/foundation-models/ug/topics/quickstart)

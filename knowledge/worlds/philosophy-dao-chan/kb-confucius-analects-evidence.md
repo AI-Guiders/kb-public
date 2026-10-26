@@ -4,6 +4,7 @@ title: 'Лунь юй — evidence (избранные главы: 學而/雍也
 description: 人不知而不慍，不亦君子乎？
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, ru, l0]
 language: zh
+epistemic: fact (три главы прочитаны целиком 2026-09-04)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: китайский оригинал (традиционные иероглифы); главы выбраны как «конфуцианский коррелят» даосской темы покоя; переводы здесь — мои
 
 ## Metadata
-- card_id: kb-confucius-analects-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#ru #l0 #evidence]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (три главы прочитаны целиком 2026-09-04)
 - evidence_type: book
 - confidence: high
 - uncertainty: разбивка на главу/изречение следует ред. Чжу Си; нумерация 6.x/12.x условна по изданию

@@ -4,6 +4,7 @@ title: 'Evidence: Zero to Three — language from birth'
 description: '**Thesis:** Language begins at **birth** — connection motive («babies want to connect with you»). Wide range for first words (9–18 months); track **progression** of sounds, gestures, facial expressions.'
 tags: [cognition-early-caregiving, kb, worlds]
 language: en
+epistemic: fact (NGO practice guidance)
 world: cognition
 subworld: early-caregiving
 ---
@@ -24,10 +25,8 @@ subworld: early-caregiving
 
 ## Metadata
 
-- card_id: kb-early-caregiving-zero-to-three-language-evidence-v1
 - world: cognition.early-caregiving
 - status: active
-- epistemic_basis: fact (NGO practice guidance)
 - evidence_type: parent_resource
 - transfer_boundary: deny → compose gates
 

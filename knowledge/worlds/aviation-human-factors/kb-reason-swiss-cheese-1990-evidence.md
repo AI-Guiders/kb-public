@@ -4,6 +4,7 @@ title: 'Evidence: Reason (1990) — Swiss Cheese / layered defenses'
 description: Defenses are layers with **holes** (weaknesses). Accident when holes **align** transiently — not because one layer «failed alone».
 tags: [aviation-human-factors, paper-evidence, reason, investigation, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: aviation
 subworld: human-factors
 ---
@@ -20,7 +21,6 @@ subworld: human-factors
 
 ## Metadata
 
-- card_id: kb-reason-swiss-cheese-1990-evidence-v1
 - world: aviation.human-factors
 - layer: knowledge
 - tags: [paper-evidence, swiss-cheese, investigation, system-safety]
@@ -28,7 +28,6 @@ subworld: human-factors
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: academic monograph + clinical summary
 - confidence: **high** для модели слоёв; **medium** при переносе в non-safety software без calibration
 - transfer_boundary: метафора слоёв ≠ excuse for no individual accountability (Just Culture still applies)

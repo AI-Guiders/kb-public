@@ -4,6 +4,7 @@ title: Laravel — версии, требования PHP, апгрейды (м�
 description: '**Назначение:** опорная **матрица мажоров** и дисциплина апгрейда без путаницы между ветками документации. Мир `software.laravel`. Детали «как писать код» — в `kb-laravel-fundamentals.md`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -72,14 +73,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-LARAVEL-VERSIONS
 - world: software.laravel
 - layer: world
 - tags: laravel; upgrade; php-versions; lts
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official docs + composer constraints
 - confidence: medium
 - uncertainty: точные даты EOL и минорные требования PHP

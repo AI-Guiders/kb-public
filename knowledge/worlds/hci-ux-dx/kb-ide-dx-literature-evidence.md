@@ -4,6 +4,7 @@ title: IDE / DX — литературный evidence (Osmani, Smalltalk-80, Box
 description: Цель — собрать принципы и наблюдения для проектирования IDE и инструментов разработчика (в т.ч. Cascade IDE). Источники перечислены в Provenance.
 tags: [hci-ux-dx, kb, worlds]
 language: ru
+epistemic: literature_synthesis
 world: hci
 subworld: ux-dx
 ---
@@ -22,7 +23,6 @@ subworld: ux-dx
 
 ## Metadata
 
-- card_id: kb-ide-dx-literature-evidence-v1
 - world: software.desktop-ui, software.ide
 - layer: knowledge
 - tags: [dx, ide, osmani, smalltalk, boxer, disessa, goldberg, cascade-ide, developer-experience, literature-evidence]
@@ -30,7 +30,6 @@ subworld: ux-dx
 
 ## Epistemic linkage
 
-- epistemic_basis: literature_synthesis
 - evidence_type: books and technical report (interpretive summary, not empirical A/B or product telemetry)
 - confidence: medium (зависит от издания и интерпретации конспекта)
 - transfer_boundary: принципы — ориентиры для проектирования IDE и инструментов; **не** заменяют продуктовые acceptance-метрики и ADR конкретного приложения (см. `status-de-dx.md`).

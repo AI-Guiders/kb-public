@@ -9,7 +9,7 @@ language: ru
 
 **Well-known path:** `knowledge/META/environment-axioms.md`  
 **Status:** Accepted · 2026-07-31  
-**Provenance:** оператор (Света) + агент, диалог Continuity / learned helplessness; placement: META (не `.cdp/domain`, не поддомен product-domain).
+**Provenance:** оператор + агент, диалог Continuity / learned helplessness; placement: META (не `.cdp/domain`, не поддомен product-domain).
 
 Sibling roots: `integrity-core.md` (harm) · `awareness-as-countermeasure.md` (standing) · CASA north star duck test.
 

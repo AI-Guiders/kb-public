@@ -7,7 +7,7 @@
 **Источник в истории:** запрос на поиск по канону «как в CIDE» (SQLite FTS5 ± vec); риск смешения **ANKB** (канон, роутер, MCP чтения) с **отдельным инструментом индексации** без явного решения.  
 **Supersedes:** —  
 **Extended by:** —  
-**Связано:** [009](009-kb-entry-structure-and-pre-open-onboarding.md) (вход и таксономия «перед открытием»), [001](001-kb-public-publishing-pipeline.md) (kb-public, границы контуров), [004](004-router-supplement-and-l1-pool.md) (роутер KB). Технический референс стека FTS+vec в продуктовом контуре CascadeIDE — **вне KB-канона:** [ADR 0105](https://github.com/KarataevDmitry/cascade-ide/blob/main/docs/adr/0105-hybrid-codebase-index-for-csharp-web.md) (*Accepted · Implemented*).
+**Связано:** [009](009-kb-entry-structure-and-pre-open-onboarding.md) (вход и таксономия «перед открытием»), [001](001-kb-public-publishing-pipeline.md) (kb-public, границы контуров), [004](004-router-supplement-and-l1-pool.md) (роутер KB). Технический референс стека FTS+vec в продуктовом контуре CascadeIDE — **вне KB-канона:** ADR 0105 (*Accepted · Implemented*).
 
 ---
 
@@ -17,7 +17,7 @@
 
 2. **Полнотекстовый индекс** (FTS по чанкам Markdown) полезен как **дополнение**: «где встречается формулировка», быстрый топ‑N перед точечным чтением. Он **не обязан** быть частью **agent-notes-mcp** и не обязан дублировать роутер.
 
-3. В экосистеме уже есть **отдельный MCP** «Hybrid Codebase Index» (HCI): локальный SQLite FTS5, опционально vec, отдельный процесс ([описание в репозитории HCI](https://github.com/KarataevDmitry/hybrid-codebase-index), формальное решение — ADR 0105 в CascadeIDE). Путаница возникает, если считать HCI **частью ANKB** без явной границы.
+3. В экосистеме уже есть **отдельный MCP** «Hybrid Codebase Index» (HCI): локальный SQLite FTS5, опционально vec, отдельный процесс (описание в репозитории HCI, формальное решение — ADR 0105 в CascadeIDE). Путаница возникает, если считать HCI **частью ANKB** без явной границы.
 
 4. **Публикация kb-public** ([001](001-kb-public-publishing-pipeline.md)) и **личный / work-слой** остаются политикой содержимого; индекс **не меняет** правила «что в архив», но при индексации локального полного клона нужно явно решать, индексировать ли `knowledge/work/**` и `knowledge/personal/**` (по умолчанию для «публично-ориентированного» поиска — **нет**).
 

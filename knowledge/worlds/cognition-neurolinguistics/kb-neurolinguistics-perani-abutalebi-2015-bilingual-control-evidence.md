@@ -21,7 +21,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-perani-abutalebi-2015-bilingual-control-evidence-v1
 - world: cognition.neurolinguistics
 - status: active
 

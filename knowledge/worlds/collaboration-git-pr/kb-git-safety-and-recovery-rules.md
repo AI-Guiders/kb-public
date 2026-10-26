@@ -3,6 +3,7 @@ type: KB
 description: 'Set: 16 rules.'
 tags: [collaboration-git-pr, kb, worlds]
 language: en
+epistemic: '`fact`'
 world: collaboration
 subworld: git-pr
 ---
@@ -18,7 +19,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 01
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: unknown repository state before edit
 - action: run `git status` before any change operation
@@ -26,7 +26,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 02
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: broad staging includes unrelated files
 - action: stage only explicit files/scopes for logical commit
@@ -34,7 +33,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 03
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: commit message explains only "what"
 - action: include intent and behavioral impact in commit message
@@ -42,7 +40,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 04
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: one commit contains unrelated domains
 - action: split into logical commits by concern
@@ -50,7 +47,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 05
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: local branch diverges from remote silently
 - action: inspect ahead/behind status before push
@@ -58,7 +54,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 06
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: request to force push shared branch
 - action: block by default and require explicit approval
@@ -66,7 +61,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 07
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: destructive cleanup is considered first option
 - action: choose reversible path first (`restore`, branch copy, reflog)
@@ -74,7 +68,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 08
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: merge conflict loops repeatedly in same files
 - action: isolate conflict class and create focused reconciliation commit
@@ -82,7 +75,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 09
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: secrets staged accidentally
 - action: unstage immediately and rotate credential if leaked
@@ -90,7 +82,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 10
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: lost commit pointer after reset/rebase
 - action: recover via `git reflog` before further operations
@@ -98,7 +89,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 11
 - world: tooling.git
-- epistemic_basis: `inference`
 - confidence: `medium`
 - signal: review quality drops on large PRs
 - action: keep PR scope narrow and commit series readable
@@ -106,7 +96,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 12
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: branch accumulates long-lived drift
 - action: synchronize branch frequently and resolve early
@@ -114,7 +103,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 13
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: unfinished work needs context switch
 - action: checkpoint with commit or named stash note
@@ -122,7 +110,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 14
 - world: tooling.git
-- epistemic_basis: `inference`
 - confidence: `medium`
 - signal: repetitive hotfixes after merge
 - action: strengthen pre-merge validation checklist for changed areas
@@ -130,7 +117,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 15
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: uncertainty about impact of reset/clean
 - action: create safety branch before irreversible operation
@@ -138,7 +124,6 @@ Focus: safe operation, clean history, and deterministic recovery.
 
 ## Rule 16
 - world: tooling.git
-- epistemic_basis: `fact`
 - confidence: `high`
 - signal: "clean tree" policy absent at session end
 - action: end with clean state or explicit WIP marker

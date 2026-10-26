@@ -21,7 +21,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-feng-2022-reading-circuits-evidence-v1
 - world: cognition.neurolinguistics
 - status: active
 - era: **2020–2026 current** (preferred over 2011 alone for developmental claims)

@@ -22,7 +22,6 @@ subworld: social-studies
 
 ## Metadata
 
-- card_id: kb-pedagogy-social-studies-breakstone-2021-civic-online-reasoning-evidence-v1
 - world: pedagogy.social-studies
 - status: active
 - era: **2020–2026 current**

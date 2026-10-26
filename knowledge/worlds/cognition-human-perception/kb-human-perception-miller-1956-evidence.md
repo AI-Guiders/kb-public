@@ -4,6 +4,7 @@ title: 'Evidence: Miller (1956) — The Magical Number Seven'
 description: '*Версия карточки: v1.2 · 2026-04-20 — семантическое имя `*-evidence-v1` (канон `kb-*-evidence-v1`).*'
 tags: [cognition-human-perception, kb, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: cognition
 subworld: human-perception
 ---
@@ -21,7 +22,6 @@ subworld: human-perception
 
 ## Metadata
 
-- card_id: kb-human-perception-miller-1956-evidence-v1
 - world: cognition.human-perception
 - layer: knowledge
 - tags: [paper-evidence, miller-1956, information-theory, absolute-judgment, memory-span, recoding]
@@ -29,7 +29,6 @@ subworld: human-perception
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article (full text consulted for extraction)
 - confidence: high для различия **видов ограничений** (абсолютное суждение vs немедленная память); medium для численных оценок ёмкости по модальностям
 - transfer_boundary: статья **не** про «N пунктов меню»; про измерение **переданной информации** и **перекодирование** в ограниченном канале.

@@ -22,7 +22,6 @@ subworld: history
 
 ## Metadata
 
-- card_id: kb-pedagogy-history-wineburg-2001-evidence-v1
 - world: pedagogy.history
 - status: active
 

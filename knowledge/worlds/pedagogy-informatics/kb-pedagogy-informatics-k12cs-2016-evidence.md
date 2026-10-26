@@ -22,7 +22,6 @@ subworld: informatics
 
 ## Metadata
 
-- card_id: kb-pedagogy-informatics-k12cs-2016-evidence-v1
 - world: pedagogy.informatics
 - status: active
 

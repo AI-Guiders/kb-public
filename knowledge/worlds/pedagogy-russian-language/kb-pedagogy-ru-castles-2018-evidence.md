@@ -4,6 +4,7 @@ title: 'Evidence: Castles, Rastle & Nation (2018) — Ending the Reading Wars'
 description: '**Central thesis:** phonics is **necessary and non-negotiable** in alphabetic systems but **insufficient** — fluent word recognition + comprehension required. Reading wars persist partly because (a) *why* phonics works is under-explained publicly, and (b) phonics is framed as the whole program rather than foundation.'
 tags: [kb, pedagogy-russian-language, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature (tutorial review)
 world: pedagogy
 subworld: russian-language
 ---
@@ -23,7 +24,6 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-castles-2018-evidence-v1
 - world: pedagogy.russian-language
 - layer: knowledge
 - tags: [paper-evidence, castles-2018, phonics, orthographic-learning, comprehension, reading-wars]
@@ -31,7 +31,6 @@ subworld: russian-language
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature (tutorial review)
 - evidence_type: peer-reviewed public-interest synthesis
 - confidence: **high** for three-stage model and phonics necessity; **medium** for classroom dosage details (authors flag open questions)
 - read_depth: **full**

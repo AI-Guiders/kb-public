@@ -4,6 +4,7 @@ title: 'Evidence: Grice (1975) — Logic and Conversation'
 description: Участники обмена (ceteris paribus) ожидаются соблюдать:
 tags: [rhetoric-pragmatics, paper-evidence, grice, pragmatics, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: rhetoric
 subworld: pragmatics
 ---
@@ -21,7 +22,6 @@ subworld: pragmatics
 
 ## Metadata
 
-- card_id: kb-grice-cooperative-principle-1975-evidence-v1
 - world: rhetoric.pragmatics
 - layer: knowledge
 - tags: [paper-evidence, cooperative-principle, conversational-implicature, maxims]
@@ -29,7 +29,6 @@ subworld: pragmatics
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: book chapter (speech acts volume)
 - confidence: **high** для CP и четырёх категорий maxims; **medium** для полной теории implicature
 - transfer_boundary: CP описывает **кооперативный** обмен; спор, trolling, propaganda — отдельные режимы (не «нарушение CP = всегда плохо»).

@@ -22,7 +22,6 @@ supersedes: ['`kb-pedagogy-fl-krashen-1982-evidence-v1` (foreign-language framin
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-krashen-1982-input-immersion-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
 

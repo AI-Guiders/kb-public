@@ -20,7 +20,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-grimaldi-2020-bilingual-processing-meta-evidence-v1
 - world: cognition.neurolinguistics
 - status: active
 - era: **2020–2026 current** (adult bilingual brain; pair with Yeh 2026 for children)

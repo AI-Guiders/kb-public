@@ -4,6 +4,7 @@ title: 'Evidence: Saxton (2005) — Recast in a New Light (review)'
 description: '*Версия: v1.1 · 2026-05-31 — full text (UCL Recast23 PDF)*'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature (review)
 world: cognition
 subworld: language-acquisition
 ---
@@ -21,7 +22,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-saxton-2005-recast-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [review-evidence, saxton-2005, recast, contrast-theory, corrective-input, language-delay]
@@ -29,7 +29,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature (review)
 - evidence_type: review / theoretical synthesis + cited empirical program
 - confidence: **high** for theoretical distinctions; **medium** for clinical efficacy claims (author notes equivocal intervention literature)
 - read_depth: **full**

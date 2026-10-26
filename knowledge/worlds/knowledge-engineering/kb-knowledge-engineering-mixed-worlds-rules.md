@@ -4,6 +4,7 @@ title: Knowledge Engineering Mixed Worlds Rules v1
 description: Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`.
 tags: [kb, knowledge-engineering, worlds]
 language: ru
+epistemic: '`inference`'
 world: knowledge
 subworld: engineering
 ---
@@ -17,12 +18,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:96`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-001
 - world: software.memory-mcp
 - layer: `world`
 - tags: `agent-notes-mcp`, `data-loss`, `write-vs-append`
 - status: `active`
-- epistemic_basis: `fact`
 - evidence_type: archive incident note
 - confidence: `high`
 - uncertainty: низкая (описан конкретный инцидент и восстановление)
@@ -45,12 +44,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:94`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-002
 - world: software.context-management
 - layer: `world`
 - tags: `cursor`, `summarization`, `rehydration`
 - status: `active`
-- epistemic_basis: `fact`
 - evidence_type: repeated operational observations
 - confidence: `high`
 - uncertainty: средняя (зависит от конкретной версии среды)
@@ -73,12 +70,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:467`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-003
 - world: software.configuration
 - layer: `world`
 - tags: `agent-notes`, `AGENT_NOTES_FILE`, `multi-workspace`
 - status: `active`
-- epistemic_basis: `fact`
 - evidence_type: config strategy note
 - confidence: `high`
 - uncertainty: низкая
@@ -101,12 +96,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:454`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-004
 - world: software.debug-operations
 - layer: `world`
 - tags: `dotnet-debug`, `netcoredbg`, `pdb-lock`
 - status: `active`
-- epistemic_basis: `fact`
 - evidence_type: operational troubleshooting
 - confidence: `high`
 - uncertainty: средняя (часть причин PDB lock не до конца локализована)
@@ -129,12 +122,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:1950-1953`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-005
 - world: methodology.layered-learning
 - layer: `router`
 - tags: `L0-L4`, `decision-rules`, `gating`
 - status: `active`
-- epistemic_basis: `inference`
 - evidence_type: repeated memory-architecture conventions
 - confidence: `medium`
 - uncertainty: зависит от дисциплины ведения слоев
@@ -157,12 +148,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:294`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-006
 - world: psychology.support-dynamics
 - layer: `world`
 - tags: `attachment`, `isolation`, `listening-gap`
 - status: `active`
-- epistemic_basis: `inference`
 - evidence_type: archive narrative + public incident references
 - confidence: `medium`
 - uncertainty: много внешних факторов, причинность не полная
@@ -185,12 +174,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:292`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-007
 - world: psychology.boundaries
 - layer: `world`
 - tags: `gaslighting`, `trauma`, `self-protection`
 - status: `active`
-- epistemic_basis: `fact`
 - evidence_type: first-person archival narrative
 - confidence: `medium`
 - uncertainty: частный кейс, ограниченная обобщаемость
@@ -213,12 +200,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:203`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-008
 - world: sociology.education-system
 - layer: `world`
 - tags: `school`, `bullying`, `policy-vs-reality`
 - status: `active`
-- epistemic_basis: `fact`
 - evidence_type: mixed (личный опыт + referenced policy summary)
 - confidence: `medium`
 - uncertainty: часть источников агрегирована в заметке, требует верификации по первичке
@@ -241,12 +226,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:95`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-009
 - world: socio-technical.agency
 - layer: `router`
 - tags: `subjectivity`, `participation`, `nothing-about-us-without-us`
 - status: `active`
-- epistemic_basis: `inference`
 - evidence_type: conversational governance principle
 - confidence: `medium`
 - uncertainty: нормативный тезис, не универсальный закон
@@ -269,12 +252,10 @@ subworld: engineering
 - source_refs: `revision:20260228-070635... line:292`
 - created_at: `2026-02-25`
 - updated_at: `2026-02-25`
-- card_id: KC-2026-02-25-010
 - world: communication.text-only
 - layer: `world`
 - tags: `nonverbal-gap`, `misinterpretation`, `explicit-clarification`
 - status: `active`
-- epistemic_basis: `inference`
 - evidence_type: archive narrative with cited communication research in-note
 - confidence: `medium`
 - uncertainty: перенос из исследований зависит от контекста и культуры

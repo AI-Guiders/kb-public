@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Коннектом BANC: реконструкция, NT, влияние, модули (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, banc, connectome, architecture, influence]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (Main + Discussion + методы NT); детали методов (сегментация) — кратко; числа из текста.
 
 ## Metadata
-- card_id: kb-drosophila-banc-connectome-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [connectome, banc, em, neurotransmitter, influence, modules, descending, ascending, cns-networks]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (факты Bates 2026)
 - uncertainty:

@@ -21,7 +21,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-dehaene-2009-reading-brain-evidence-v1
 - world: cognition.neurolinguistics
 - status: active
 - era: **foundational (2009–2011)** — still valid; prefer **Feng 2022** for developmental timing, **Perdue 2022** for intervention neuroplasticity

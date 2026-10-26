@@ -21,7 +21,6 @@ subworld: physics
 
 ## Metadata
 
-- card_id: kb-pedagogy-physics-wells-1995-evidence-v1
 - world: pedagogy.physics
 - era: **foundational (1995)** — pair with **Theobald 2020** for 2026 IE/equity claims
 

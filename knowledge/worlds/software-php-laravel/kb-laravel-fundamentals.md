@@ -4,6 +4,7 @@ title: Laravel — фундаментальный слой (framework на PHP)
 description: '**Назначение:** опорная карта **Laravel** как full-stack PHP-фреймворка (HTTP, консоль, очереди, ORM) в связке с **PHP 8.2+** (для Laravel 12 — диапазон **8.2–8.5** по документации laravel.com/docs/12.x). Слой **L1 world** (миру `software.laravel` / `software.web-backend`). Рантайм PHP без фреймворка — в `kb-php-fundamentals.md`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -87,14 +88,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-02-28-LARAVEL-L1
 - world: software.laravel
 - layer: world
 - tags: laravel; php; eloquent; queue; artisan; http; cluster-entry
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official Laravel docs + общеотраслевые практики
 - confidence: medium
 - uncertainty: детали конкретного мажора (10 vs 11 vs 12) — всегда сверять с docs выбранной ветки

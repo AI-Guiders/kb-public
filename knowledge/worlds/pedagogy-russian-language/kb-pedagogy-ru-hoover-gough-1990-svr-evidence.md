@@ -4,6 +4,7 @@ title: 'Evidence: Hoover & Gough (1990) — Simple View of Reading'
 description: '**Simple View of Reading (SVR):**'
 tags: [kb, pedagogy-russian-language, worlds]
 language: ru
+epistemic: longitudinal_validation_study + theoretical framework
 world: pedagogy
 subworld: russian-language
 ---
@@ -24,13 +25,11 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-hoover-gough-1990-svr-evidence-v1
 - world: pedagogy.russian-language
 - status: active
 
 ## Epistemic linkage
 
-- epistemic_basis: longitudinal_validation_study + theoretical framework
 - confidence: **high** for multiplicative framework as organizer; **medium** for exact cross-linguistic generalization (bilingual sample)
 - read_depth: **partial (extended)**
 - transfer_boundary: diagnose D vs C separately on field; RC = product not average

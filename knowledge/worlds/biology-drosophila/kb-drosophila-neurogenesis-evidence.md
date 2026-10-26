@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Нейрогенез: нейробласты, гемилинейджи, birth-order код (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, neurogenesis, hemilineage, birthorder, notch]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан; факты ниже — из указанных секций; детали методов (scRNA-seq) опущены (не предмет карточки); связь с коннектомом — через MANC (ссылки в тексте).
 
 ## Metadata
-- card_id: kb-drosophila-neurogenesis-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [neurogenesis, neuroblast, hemilineage, birth-order, notch, imp, broad, vnc]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (факты из Nature 2026: волны, гемилинейджи, 17 TF-код, Br-эксперимент); medium (интерпретация «глобальный код» — обобщение авторов; проверено в VNC + brain)
 - uncertainty:

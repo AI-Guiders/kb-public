@@ -4,6 +4,7 @@ title: 'Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseud
 description: '*Версия: v1.0 · 2026-05-31 — abstract+secondary (Connection Science 7(2):123–146)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article (читан по abstract+secondary)
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: Оригинал термина **pseudorehearsal**; прямой предшественник generative replay.
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-robins-1995-pseudorehearsal-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, robins-1995, pseudorehearsal, rehearsal, sweep-rehearsal, catastrophic-forgetting, generative-replay]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_article (читан по abstract+secondary)
 - evidence_type: connectionist simulation
 - confidence: **medium** (основные тезисы из abstract/обзоров надёжны; числа экспериментов не сверены по первоисточнику)
 - read_depth: **abstract+secondary** (не full — честно помечено; добрать full PDF при доступе)

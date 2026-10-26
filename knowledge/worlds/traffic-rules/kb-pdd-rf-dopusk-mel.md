@@ -4,21 +4,22 @@ title: ПДД РФ — Допуск ТС к эксплуатации и пере
 description: 'Аналог авиационного **MEL (Minimum Equipment List)**: перечень неисправностей,'
 tags: [traffic-rules, pdd-rf, kb, worlds, verified, mel, selftest]
 language: ru
+verified:
+  - by: human:operator
+    at: 2026-10-13 (fetch-dopusk.py)
+epistemic: '`fact`'
 world: traffic
 subworld: rules
 ---
 # ПДД РФ — Допуск ТС к эксплуатации и перечень неисправностей (MEL-аналог, verified)
 
 
-- card_id: KC-2026-10-13-200
 - world: traffic-rules.pdd-rf.dopusk
-- epistemic_basis: `fact`
 - confidence: `high`
 - source: Основные положения по допуску ТС к эксплуатации и обязанности должностных лиц (приложение к ПДД РФ)
 - verified_url: https://pdd.ru/theory/dopusk/
-- verified_utc: 2026-10-13 (fetch-dopusk.py)
 
-## Зачем это ATC (Света, 2026-10-13)
+## Зачем это ATC (оператор, 2026-10-13)
 
 Аналог авиационного **MEL (Minimum Equipment List)**: перечень неисправностей,
 при которых эксплуатация ЗАПРЕЩЕНА. Отличный слой для **SELF TESTING капсул**:

@@ -20,7 +20,6 @@ subworld: general
 
 ## Metadata
 
-- card_id: kb-pedagogy-graham-2020-writing-to-learn-meta-evidence-v1
 - world: pedagogy.general
 - status: active
 - era: **2020–2026 current**

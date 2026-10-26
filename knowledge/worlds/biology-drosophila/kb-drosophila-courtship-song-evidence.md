@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Ухаживание/песня и популяционная дифференциация (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, courtship, song, speciation, qst, qtl]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро); цепи ухаживания (P1 → двигательные) — карточка 1.5; этот источник — генетика/популяционная дифференциация.
 
 ## Metadata
-- card_id: kb-drosophila-courtship-song-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [courtship, song, pulse-mode, qtl, qst, fst, population, speciation]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (методы/результаты G3 2025)
 - uncertainty:

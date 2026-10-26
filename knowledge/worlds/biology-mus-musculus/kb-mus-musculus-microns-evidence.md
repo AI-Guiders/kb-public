@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Mus musculus — MICrONS: функциональный коннектом зрительной коры (evidence card v1)'
 tags: [biology-mus-musculus, worlds, kb, evidence, microns, visual-cortex, wiring-rule]
 language: ru
+epistemic: fact (из полных текстов)
 world: biology
 subworld: mus-musculus
 ---
@@ -17,14 +18,12 @@ subworld: mus-musculus
 - extraction_note: полные тексты прочитаны (ядро: объём/методы + like-to-like правило); сопутствующие статьи (4) — аннотации.
 
 ## Metadata
-- card_id: kb-mus-musculus-microns-evidence-v1
 - world: biology.mus-musculus
 - layer: world
 - tags: [microns, visual-cortex, like-to-like, wiring-rule, functional-connectomics]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полных текстов)
 - evidence_type: paper (ориг., полные тексты)
 - confidence: high (MICrONS — Nature 2025)
 - uncertainty:

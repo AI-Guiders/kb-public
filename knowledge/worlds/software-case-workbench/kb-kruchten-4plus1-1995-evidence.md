@@ -4,6 +4,7 @@ title: 'Evidence: Kruchten (1995) — The 4+1 View Model of Architecture'
 description: 'Одна диаграмма не обслуживает всех stakeholders: разработчик, интегратор, performance engineer, клиент видят **разные срезы** одной системы.'
 tags: [software-case-workbench, paper-evidence, kruchten, architecture, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: software
 subworld: case-workbench
 ---
@@ -20,7 +21,6 @@ subworld: case-workbench
 
 ## Metadata
 
-- card_id: kb-kruchten-4plus1-1995-evidence-v1
 - world: software.case-workbench
 - layer: knowledge
 - tags: [paper-evidence, architecture-views, case, multi-view]
@@ -28,7 +28,6 @@ subworld: case-workbench
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article
 - confidence: **high** для структуры пяти видов; **medium** для границ «что входит в logical view» в конкретных методологиях
 - transfer_boundary: 4+1 описывает **software architecture presentation**, не org chart и не fleet ops напрямую — перенос через аналогию views (см. matrix-case-to-guiders-transfer)

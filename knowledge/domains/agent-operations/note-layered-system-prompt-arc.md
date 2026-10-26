@@ -62,5 +62,5 @@ language: ru
 
 ## 7. История конфига (2026-09-20)
 
-Доктрина живёт в `~/.dsh` (не в core-пакете). Runtime SSOT: `C:\Users\dkara\.dsh\`. Primary remote: private GitHub [`KarataevDmitry/dsh-habitat`](https://github.com/KarataevDmitry/dsh-habitat) (как `personal-knowledge-base` для KB). Зеркало в KB: [`knowledge/personal/operator-guides/dsh-habitat/`](../../personal/operator-guides/dsh-habitat/README.md).
+Доктрина живёт в `~/.dsh` (не в core-пакете). Runtime SSOT: `~/.dsh\`. Primary remote: приватный git-репозиторий (как `personal-knowledge-base` для KB). Зеркало в KB: личный контур канона (`personal/operator-guides/`).
 

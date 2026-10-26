@@ -4,6 +4,7 @@ title: 'Evidence: McCloskey & Cohen (1989) — Catastrophic interference in conn
 description: '*Версия: v1.0 · 2026-05-31 — full text (PLM 24:109–165)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: primary_peer_reviewed_chapter + эксперименты
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: Оригинал термина «catastrophic interference»; основа, на которую отвечают CLS (McClelland 1995), pseudorehearsal (Robins 1995), EWC (Kirkpatrick 2017).
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-mccloskey-cohen-1989-catastrophic-interference-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, mccloskey-cohen-1989, catastrophic-interference, sequential-learning, distributed-representations, forgetting]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_chapter + эксперименты
 - evidence_type: connectionist simulation
 - confidence: **high** для феномена; поздние работы уточняют условия/степень (French 1999; CLS)
 - read_depth: **full**

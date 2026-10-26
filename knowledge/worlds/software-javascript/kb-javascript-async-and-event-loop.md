@@ -4,6 +4,7 @@ title: Асинхронность и цикл событий (Promises, зада
 description: '**Назначение:** единая картина **асинхронного поведения языка** (Promises, async/await) и **порядка исполнения задач** — микрозадачи vs задачи, взаимодействие с таймерами и I/O в типичных платформах. Мир **`software.javascript`**; детали браузерной **TaskQueue** и libuv — ориентировочно и с отсылкой к целевому движку.'
 tags: [kb, software-javascript, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: javascript
 ---
@@ -24,7 +25,6 @@ subworld: javascript
 
 ## Metadata
 
-- card_id: kb-javascript-async-and-event-loop-v1
 - world: software.javascript
 - layer: world
 - tags: promise, async-await, microtask, event-loop
@@ -32,7 +32,6 @@ subworld: javascript
 
 ## Epistemic Linkage
 
-- epistemic_basis: fact + inference
 - confidence: high для ordering microtasks vs текущей синхронной порции; medium для конкретной наносекундной упорядоченности I/O в Node без измерения
 
 ## Core Unit

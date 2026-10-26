@@ -21,7 +21,6 @@ subworld: biology
 
 ## Metadata
 
-- card_id: kb-pedagogy-biology-nrc-2012-framework-evidence-v1
 - world: pedagogy.biology
 - status: active
 

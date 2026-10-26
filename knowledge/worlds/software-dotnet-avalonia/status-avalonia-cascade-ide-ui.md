@@ -4,6 +4,7 @@ title: Avalonia UI (desktop .NET) — domain status v1
 description: 'Desktop UI на **Avalonia** с **Dock** (панели/документы): XAML + MVVM, темы Fluent + кастомные JSON, AvaloniaEdit, Markdown и др. Домен **software.authoring.dotnet.csharp.desktop-ui.avalonia**; HCI — `../hci-ux-dx/`.'
 tags: [software-dotnet-avalonia, status, worlds]
 language: ru
+epistemic: 'fact (версии из csproj + Atom dig); confidence: high for upstream releases on dig date'
 world: software
 subworld: dotnet-avalonia
 sections: [cross-link-software-transfer-matrix, world-tag-v1]
@@ -65,7 +66,6 @@ Artifacts:
 - **Проверено:** 2026-08-15 — dig `Avalonia/releases.atom`: latest **11.3.20** (11.x); **12.1.1** / **12.1.0** on 12.x (after 12.0.5). Product stack in this status still **12.0.x** until CascadeIDE PackageReference bump.
 - harness: `cdp_freshness op=scan alias=avalonia` (0.5.717)
 - layer: meta / domain-status
-- epistemic_basis: fact (версии из csproj + Atom dig); confidence: high for upstream releases on dig date
 
 <!-- section:cross-link-software-transfer-matrix -->
 ## Cross-link: software transfer matrix

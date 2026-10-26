@@ -4,6 +4,7 @@ title: Laravel — first-party пакеты и инструменты экоси
 description: '**Назначение:** карта **официальных** пакетов вокруг `laravel/framework`: зачем каждый, типичные контракты деплоя. Не заменяет docs конкретного пакета. Мир `software.laravel`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -81,14 +82,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-LARAVEL-PACKAGES
 - world: software.laravel
 - layer: world
 - tags: laravel; horizon; telescope; scout; cashier; sail
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official Laravel docs
 - confidence: medium
 - uncertainty: версии пакетов и breaking changes в минорах

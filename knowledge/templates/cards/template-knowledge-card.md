@@ -4,6 +4,7 @@ title: Knowledge Card Template v1
 description: Универсальный каркас KB-единицы. Для evidence-карт (`kb-*-evidence-v1`) предпочтительнее [`template-kb-evidence.md`](template-kb-evidence.md) (Layer contract + Fundamentals).
 tags: [template, templates]
 language: ru
+epistemic: (`fact` | `inference` | `hypothesis`)
 ---
 
 ﻿# Knowledge Card Template v1
@@ -17,7 +18,6 @@ language: ru
 - author: (опционально; для совместного накопления — кто внёс/извлёк)
 
 ## Metadata
-- card_id:
 - world:
 - layer: (`world` | `router` | `meta`)
 - tags:
@@ -32,7 +32,6 @@ language: ru
 - speech_situation_forbidden_moves: (опционально)
 
 ## Epistemic Linkage
-- epistemic_basis: (`fact` | `inference` | `hypothesis`)
 - evidence_type:
 - confidence: (`low` | `medium` | `high`)
 - uncertainty:

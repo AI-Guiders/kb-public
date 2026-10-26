@@ -4,6 +4,7 @@ title: 'Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Le
 description: '*Версия: v1.0 · 2026-05-31 — full text (ICML 2009, pp. 41–48)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: Формализует curriculum learning; опирается на Elman 1993 (starting small), Skinner shaping.
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-bengio-2009-curriculum-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, bengio-2009, curriculum-learning, continuation-method, non-convex, generalization, active-learning]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_article
 - evidence_type: ML theory + empirical (toy + shape + language model)
 - confidence: **high** для прироста на показанных задачах; **medium** для «какой именно куррикулум» (зависит от задачи)
 - read_depth: **full**

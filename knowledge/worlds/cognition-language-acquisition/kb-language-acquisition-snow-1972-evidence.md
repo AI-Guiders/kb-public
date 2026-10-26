@@ -4,6 +4,7 @@ title: 'Evidence: Snow (1972) — Mothers'' speech to children learning language
 description: '**Discussion (Snow 1972):** simplified input может быть **comprehensible** и **pedagogically structured** — **не** доказательство, что acquisition «полностью зависит» от input (спор с strong nativism о random adult corpus).'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: cognition
 subworld: language-acquisition
 ---
@@ -21,7 +22,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-snow-1972-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [paper-evidence, snow-1972, CDS, motherese, child-directed-speech]
@@ -29,7 +29,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article (full text consulted for extraction)
 - confidence: high для описательных паттернов CDS в дизайне Snow 1972; medium для обобщения на все культуры/классы
 - read_depth: **full**

@@ -21,7 +21,6 @@ subworld: visual-arts
 
 ## Metadata
 
-- card_id: kb-pedagogy-visual-arts-schneider-2021-competency-review-evidence-v1
 - world: pedagogy.visual-arts
 - status: active
 - era: **2020–2026 current**

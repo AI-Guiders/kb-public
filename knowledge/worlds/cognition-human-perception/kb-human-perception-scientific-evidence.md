@@ -4,6 +4,7 @@ title: Human perception — scientific evidence (first sources & reviews) v1
 description: 'Слой **fundamentals** (`kb-human-perception-fundamentals.md`) даёт рабочие формулировки; этот документ — **научные якоря**: кто и в каком жанре доказал/ввёл идею, с DOI где возможно. Используй для обоснования ревью, споров о приоритете внимания и для дальнейшего чтения первоисточников.'
 tags: [cognition-human-perception, kb, worlds]
 language: ru
+epistemic: literature_synthesis
 world: cognition
 subworld: human-perception
 ---
@@ -34,7 +35,6 @@ subworld: human-perception
 
 ## Metadata
 
-- card_id: kb-human-perception-scientific-evidence-v1
 - world: cognition.human-perception
 - layer: knowledge
 - tags: [perception, attention, working-memory, cognitive-load, change-blindness, inattentional-blindness, human-factors, evidence, first-sources]
@@ -42,7 +42,6 @@ subworld: human-perception
 
 ## Epistemic linkage
 
-- epistemic_basis: literature_synthesis
 - evidence_type: peer-reviewed papers and canonical books (bibliographic + conceptual summary)
 - confidence: medium-high for «что утверждает традиция»; medium for количественные обобщения (ёмкость, проценты в демо)
 - transfer_boundary: когнитивная психология и HF — **не** нейроклиника и **не** замена A/B-тестов продукта; применение к IDE/UX — инженерная экстраполяция.

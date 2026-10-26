@@ -4,6 +4,7 @@ title: 'Evidence: McClelland, McNaughton & O''Reilly (1995) — Complementary Le
 description: '*Версия: v1.0 · 2026-05-31 — full text (Psych. Review 102(3):419–457)*'
 tags: [kb, ml-learning-dynamics, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article (theory + connectionist simulation)
 world: ml
 subworld: learning-dynamics
 ---
@@ -20,14 +21,12 @@ subworld: learning-dynamics
 - extraction_note: Базовая теория консолидации; первоисточник идеи «interleaved replay против catastrophic interference», на которую опираются EWC и современный experience replay.
 
 ## Metadata
-- card_id: kb-ml-learning-dynamics-mcclelland-1995-cls-evidence-v1
 - world: ml.learning-dynamics
 - layer: knowledge
 - tags: [paper-evidence, mcclelland-1995, complementary-learning-systems, consolidation, interleaved-learning, catastrophic-interference, hippocampus-neocortex, replay]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: primary_peer_reviewed_article (theory + connectionist simulation)
 - evidence_type: review + computational model
 - confidence: **high** для принципа interleaved-vs-sequential; **medium-high** для нейро-маппинга (подтверждён обзором Kumaran/Hassabis/McClelland 2016)
 - read_depth: **full**

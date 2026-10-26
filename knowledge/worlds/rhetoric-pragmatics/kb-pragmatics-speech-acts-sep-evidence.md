@@ -4,6 +4,7 @@ title: 'Evidence: Speech acts — Austin & Searle (SEP synthesis)'
 description: Одна locution может нести разную **illocutionary force** в разных контекстах.
 tags: [rhetoric-pragmatics, sep-evidence, speech-acts, worlds]
 language: ru
+epistemic: synthesis_from_secondary_encyclopedia
 world: rhetoric
 subworld: pragmatics
 ---
@@ -22,7 +23,6 @@ subworld: pragmatics
 
 ## Metadata
 
-- card_id: kb-pragmatics-speech-acts-sep-evidence-v1
 - world: rhetoric.pragmatics
 - layer: knowledge
 - tags: [sep-evidence, illocution, locution, performative]
@@ -30,7 +30,6 @@ subworld: pragmatics
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_secondary_encyclopedia
 - evidence_type: encyclopedia + book references
 - confidence: **high** для трёх уровней Austin; **medium** для таксономий Searle
 - transfer_boundary: не сводить «все utterances = assertions»; force зависит от контекста и felicity conditions.

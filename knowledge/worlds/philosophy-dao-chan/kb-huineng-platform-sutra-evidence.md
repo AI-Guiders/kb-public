@@ -4,6 +4,7 @@ title: Сутра платформы, 行由品 — evidence
 description: 因二僧論風幡義，一曰風動，一曰幡動，議論不已。惠能進曰：「不是風動，不是幡動，仁者心動。」
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, chan, l0]
 language: zh
+epistemic: fact (глава прочитана целиком 2026-09-04)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: глава прочитана целиком; переводы мои; история про ветер и флаг — в этой главе, при приходе Хуйнэна в 法性寺
 
 ## Metadata
-- card_id: kb-huineng-platform-sutra-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#chan #l0 #evidence #huineng]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (глава прочитана целиком 2026-09-04)
 - evidence_type: book
 - confidence: high
 - uncertainty: редакции сутры (Дуньхуан vs Синсюн) различаются; здесь викисорсовый текст

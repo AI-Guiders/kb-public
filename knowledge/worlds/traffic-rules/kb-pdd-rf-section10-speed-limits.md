@@ -4,19 +4,20 @@ title: ПДД РФ — Раздел 10 «Скорость движения» (ve
 description: Вести ТС со скоростью не выше установленного ограничения, учитывая интенсивность
 tags: [traffic-rules, pdd-rf, kb, worlds, verified]
 language: ru
+verified:
+  - by: human:operator
+    at: '2026-10-13 (требование оператора: только факты)'
+epistemic: '`fact`'
 world: traffic
 subworld: rules
 ---
 # ПДД РФ — Раздел 10 «Скорость движения» (verified)
 
 
-- card_id: KC-2026-10-13-100
 - world: traffic-rules.pdd-rf.speed
-- epistemic_basis: `fact`
 - confidence: `high`
 - source: Постановление Правительства РФ от 23.10.1993 N 1090 (ред. от 28.08.2026), раздел 10
 - verified_url: https://www.consultant.ru/document/cons_doc_LAW_2709/803907f6876a655f77995888208488d4bfccf247/
-- verified_utc: 2026-10-13 (Света требование: только факты)
 - note: сверено ДОСЛОВНО по официальному тексту; действует ограничение срока документа (до 01.03.2029)
 
 ## 10.1 (общий долг)

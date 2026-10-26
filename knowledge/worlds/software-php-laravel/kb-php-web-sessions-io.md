@@ -4,6 +4,7 @@ title: PHP — веб-вход, сессии, cookies, потоки (натив�
 description: '**Назначение:** фундамент **веб-части без фреймворка**: суперглобалы, сессии, заголовки, загрузка файлов, потоки. Мир **`software.php`**. Фреймворки (Laravel Request/Response) — поверх этих механизмов.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -92,14 +93,12 @@ subworld: php-laravel
 - updated_at: 2026-03-01
 
 ### Metadata
-- card_id: KC-2026-03-01-PHP-WEB-L1
 - world: software.php
 - layer: world
 - tags: php; http; session; cookies; upload; streams
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - confidence: high
 - transfer_boundary: конкретные лимиты nginx/apache — вне этого файла
 

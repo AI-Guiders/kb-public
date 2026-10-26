@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Филогенетика и геномы видов (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, genomes, simulans-complex, rearrangements, phylogenetics]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: перестройки/tRNA/Y); филогенетическое дерево видов — частично (общеизвестно: melanogaster group, 3-6 млн лет).
 
 ## Metadata
-- card_id: kb-drosophila-species-genomes-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [genomes, simulans-complex, inversions, rearrangement, evolution]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (перестройки/структура — Genome Res 2021)
 - uncertainty:

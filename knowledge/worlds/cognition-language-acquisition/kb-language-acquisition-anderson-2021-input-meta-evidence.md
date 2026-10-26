@@ -21,7 +21,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-anderson-2021-input-meta-evidence-v1
 - world: cognition.language-acquisition
 - status: active
 - era: **2020–2026 current**

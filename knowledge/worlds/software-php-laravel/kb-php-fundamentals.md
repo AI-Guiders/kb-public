@@ -4,6 +4,7 @@ title: PHP 8.4+ — фундаментальный слой (рантайм и �
 description: '**Назначение:** опорная карта PHP как **рантайма** для ветки **8.4+** (и соседних 8.x): версии, SAPI, OPcache, типизация, релиз 8.4, Composer, безопасность, JIT/GC/preload, FPM, расширения. Слой **L1 world** (миру `software.php`).'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -152,14 +153,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-02-28-PHP-84-L1
 - world: software.php
 - layer: world
 - tags: php; php-8.4; runtime; composer; opcache; fpm; jit
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official release notes + manual
 - confidence: high
 - uncertainty: JIT/preload выигрыш — только измерениями на своём коде

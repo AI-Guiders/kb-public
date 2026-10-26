@@ -26,7 +26,6 @@ subworld: neurolinguistics
 
 ## Metadata
 
-- card_id: kb-neurolinguistics-hartshorne-2018-sensitive-period-boundary-v1
 - world: cognition.neurolinguistics
 - status: active
 

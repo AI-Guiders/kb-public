@@ -69,7 +69,7 @@ fetch origin → conflict-gate (origin впереди? → alert, stop) → secr
 | Владелец процесса CdpService | `LONELYSOULNB\LonelySoul` — **тот же пользователь**, что у ключей и gitconfig; задачи `CDP Tower Warden [Logon]`, logon=Interactive, Highest |
 | Парольная фраза на ключе | **нет** (`ssh-keygen -y -P "" -f ~/.ssh/id_ed25519` → pubkey, комментарий `gitlab-wissance`) |
 | `known_hosts` | `github.com` **есть**, `gitlab.wissance.com` **есть** (проверено `ssh-keygen -F`, с учётом хешей) → host-key промпта нет |
-| ssh к github напрямую | 1,7 c, `Hi KarataevDmitry! You've successfully authenticated` |
+| ssh к github напрямую | 1,7 c, `Hi …! You've successfully authenticated` |
 | LFS / хуки / fsmonitor | в репозитории не используются (`.gitattributes` без lfs, активных hooks нет, local config чист) |
 | Второй контур | `D:\cdp-mcp-debug\cdp-mcp.toml` секции `[kb.autoship]` **не содержит** → двойного владельца нет |
 | Размеры | `.git` 31,7 МБ, дерево 130 МБ, в коммите 4 файла — нагрузки нет |

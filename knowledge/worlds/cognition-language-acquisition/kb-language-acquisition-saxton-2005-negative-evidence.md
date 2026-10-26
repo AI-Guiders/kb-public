@@ -4,6 +4,7 @@ title: 'Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 
 description: '*Версия: v1.0 · 2026-05-31 — full text (50 pp. OCR, UCL Negative643 PDF)*'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article (full text)
 world: cognition
 subworld: language-acquisition
 ---
@@ -23,7 +24,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-saxton-2005-negative-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [paper-evidence, saxton-2005, negative-evidence, contrast-theory, naturalistic, longitudinal, 12-week-lag]
@@ -31,7 +31,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: primary_peer_reviewed_article (full text)
 - evidence_type: correlational longitudinal naturalistic study
 - confidence: **medium-high** for three structure-specific associations (small N=10); **medium** for generalization beyond possessive / 3PS / copula at MLU ~2–3
 - read_depth: **full**

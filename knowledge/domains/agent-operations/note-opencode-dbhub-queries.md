@@ -8,7 +8,7 @@ language: ru
 # OpenCode session store × DBHub
 
 **Config:** `C:/CursorDBHubConfig/config.toml` → source `opencodedb`  
-**DB path:** `C:/Users/dkara/.local/share/opencode/opencode.db`
+**DB path:** `~/.local/share/opencode/opencode.db`
 
 ---
 

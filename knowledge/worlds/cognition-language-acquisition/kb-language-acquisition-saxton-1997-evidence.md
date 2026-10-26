@@ -4,6 +4,7 @@ title: 'Evidence: Saxton (1997) — The contrast theory of negative input'
 description: '**Практика без 1997 PDF:** для contrast theory + long-term naturalistic evidence достаточно уже **full** [`kb-language-acquisition-saxton-2005-negative-evidence.md`](kb-language-acquisition-saxton-2005-negative-evidence.md). Карта 1997 нужна для **novel-verb lab @ 5;0** (immediate E→C), если понадобится точная методика/статистика — тогда PDF или thesis.'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: synthesis_from_partial_primary_and_secondary + compound full-text (2005 re-statement of same theory)
 world: cognition
 subworld: language-acquisition
 ---
@@ -25,7 +26,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-saxton-1997-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [paper-evidence, saxton-1997, contrast-theory, negative-evidence, irregular-past, paywall]
@@ -33,7 +33,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_partial_primary_and_secondary + compound full-text (2005 re-statement of same theory)
 - evidence_type: peer-reviewed article + experimental study
 - confidence: **medium-high** for immediate effect direction; **medium** for generalization beyond trained novel verbs / age 5;0; **low** for exact 1997 statistics until PDF
 - read_depth: **partial** (compound: theory covered in 2005 Negative643 full; 1997 experiment details still incomplete)

@@ -4,6 +4,7 @@ title: 'Evidence: Snow (1977) — The development of conversation between mother
 description: '*Версия: v2.0 · 2026-05-31 — partial primary (paywall); figure-caption pass*'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: synthesis_from_partial_primary_and_secondary
 world: cognition
 subworld: language-acquisition
 ---
@@ -24,7 +25,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-snow-1977-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [paper-evidence, snow-1977, longitudinal, maternal-speech, infancy, CDS]
@@ -32,7 +32,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_partial_primary_and_secondary
 - evidence_type: peer-reviewed article
 - confidence: **medium-high** для MLU stability + ~7 mo onset (abstract); **medium** для interrogative trajectory (figure captions)
 - read_depth: **partial** (not abstract-only — figure/table body recovered; METHOD/DISCUSSION incomplete)

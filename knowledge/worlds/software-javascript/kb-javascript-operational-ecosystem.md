@@ -4,6 +4,7 @@ title: 'JavaScript — operational: экосистема, сборка, тест
 description: '**Назначение:** **операционный слой** мира **`software.javascript`** после fundamentals: npm/lockfile, semver, статический анализ, бандлеры, тест‑раннеры, базовая модель угроз (XSS, CSP, динамический код). Не заменяет спецификацию языка — см. карточки `kb-javascript-*` в фазе fundamentals в `index-knowledge-javascript-cluster.md`.'
 tags: [kb, software-javascript, worlds]
 language: ru
+epistemic: inference + fact
 world: software
 subworld: javascript
 supersedes: [kb-javascript-runtime-tooling-and-security-baseline-v1 (содержимое tooling/security перенесено сюда; движки — в `kb-javascript-ecmascript-and-modules.md` § реализации)]
@@ -25,7 +26,6 @@ supersedes: [kb-javascript-runtime-tooling-and-security-baseline-v1 (содер�
 
 ## Metadata
 
-- card_id: kb-javascript-operational-ecosystem-v1
 - world: software.javascript
 - layer: operational (kb)
 - tags: node, npm, tooling, security, csp, ci
@@ -33,7 +33,6 @@ supersedes: [kb-javascript-runtime-tooling-and-security-baseline-v1 (содер�
 
 ## Epistemic Linkage
 
-- epistemic_basis: inference + fact
 - confidence: high для lockfile+semver; medium для матрицы конкретного бандлера
 
 ## Core Unit

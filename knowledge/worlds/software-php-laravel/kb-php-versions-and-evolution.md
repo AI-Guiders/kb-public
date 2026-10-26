@@ -4,6 +4,7 @@ title: PHP — эволюция языка с ветки 5.x по 8.x (верс�
 description: '**Назначение:** **хронология и миграционные опоры**: что появилось в каком мажоре/миноре, типовые ломания при апгрейде, что считать легаси. Дополняет `kb-php-fundamentals.md` (рантайм 8.4+) и `kb-php-language-semantics.md` (семантика 8.x). Мир `software.php`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -186,14 +187,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-PHP-EVOLUTION
 - world: software.php
 - layer: world
 - tags: php; php5; php7; php8; migration; changelog
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official php.net releases + migration pages
 - confidence: medium
 - uncertainty: полный список изменений каждого патча; поведение edge cases

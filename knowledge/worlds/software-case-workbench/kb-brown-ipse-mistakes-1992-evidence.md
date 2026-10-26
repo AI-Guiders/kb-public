@@ -4,6 +4,7 @@ title: 'Evidence: Brown & McDermid (1992) — Learning From IPSE''s Mistakes'
 description: 'Единая среда: общий object management (OMS), tool bus, process support — **все инструменты** через одну интегрированную платформу.'
 tags: [software-case-workbench, paper-evidence, ipse, case, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: software
 subworld: case-workbench
 ---
@@ -20,7 +21,6 @@ subworld: case-workbench
 
 ## Metadata
 
-- card_id: kb-brown-ipse-mistakes-1992-evidence-v1
 - world: software.case-workbench
 - layer: knowledge
 - tags: [paper-evidence, ipse, integration, case-failure]
@@ -28,7 +28,6 @@ subworld: case-workbench
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed retrospective / lessons learned
 - confidence: **high** для диагноза «framework без семантики»; **medium** для обобщения на все integrated environments
 - transfer_boundary: статья про **1980s IPSE**, не про git-native monorepo 2026 — перенос принципов, не буквальная архитектура

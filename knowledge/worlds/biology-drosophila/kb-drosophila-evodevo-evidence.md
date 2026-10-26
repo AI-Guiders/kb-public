@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Эво-дево: консервативные каскады, гены поведения (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, evo-devo, hox, conservation, developmental-cascades]
 language: ru
+epistemic: synthesis (из полных текстов)
 world: biology
 subworld: drosophila
 ---
@@ -22,14 +23,12 @@ subworld: drosophila
 - extraction_note: карточка — синтез фактов из уже прочитанных полных текстов (без новых скачиваний); все утверждения атрибутированы исходным статьям.
 
 ## Metadata
-- card_id: kb-drosophila-evodevo-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [evo-devo, hox, conservation, developmental-cascade, evolution]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: synthesis (из полных текстов)
 - evidence_type: synthesis
 - confidence: high (каждый факт — из полного текста указанной статьи)
 - uncertainty:

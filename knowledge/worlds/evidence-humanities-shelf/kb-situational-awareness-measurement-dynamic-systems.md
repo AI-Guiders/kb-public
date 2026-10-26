@@ -4,6 +4,7 @@ title: 'KB: Situation Awareness Measurement in Dynamic Systems v1'
 description: 1) probes align with task-relevant SA requirements,
 tags: [evidence-humanities-shelf, kb, worlds]
 language: en
+epistemic: fact + inference
 world: evidence
 subworld: humanities-shelf
 supersedes: [none]
@@ -23,14 +24,12 @@ superseded_by: [none]
 - author: codex
 
 ## Metadata
-- card_id: KB-SA-DYNAMIC-MEASUREMENT-2026-04-15
 - world: hci.situational-awareness.measurement
 - layer: world
 - tags: situation-awareness, endsley, sagat, sart, workload, human-factors, dynamic-systems, aviation
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: book metadata + chapter text + conference paper + journal record
 - confidence: high (for method taxonomy and core claims), medium (for chapter-level details not independently verified against publisher PDF in this pass)
 - uncertainty:

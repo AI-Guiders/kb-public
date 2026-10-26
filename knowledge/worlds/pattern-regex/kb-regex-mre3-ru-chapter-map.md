@@ -4,6 +4,7 @@ title: 'Карта глав: Jeffrey Friedl — «Регулярные выра�
 description: Оглавление в PDF содержит **294** закладки верхнего уровня (плоский список в экспорте); для навигации по подпунктам удобнее сам ридер PDF.
 tags: [kb, pattern-regex, worlds]
 language: ru
+epistemic: fact (структура оглавления PDF) + inference (сопоставление с карточками KB)
 world: pattern
 subworld: regex
 sections: [bookmarks-note]
@@ -13,14 +14,13 @@ sections: [bookmarks-note]
 
 ## Provenance (происхождение)
 
-- source_refs: локальный PDF `c:\Users\dkara\Downloads\OReilly-Регулярные-выражения-3-е-изд.-Дж.Фридл.pdf` (закладки/оглавление извлечены программно, 598 стр.); оригинал: *Mastering Regular Expressions*, 3rd ed.
+- source_refs: локальный PDF `локальная копия` (закладки/оглавление извлечены программно, 598 стр.); оригинал: *Mastering Regular Expressions*, 3rd ed.
 - created_at: 2026-03-21
 - updated_at: 2026-03-21
 - author: (агент; сверка структуры по PDF)
 
 ## Metadata
 
-- card_id: kb-regex-mre3-ru-chapter-map-v1
 - world: programming / regex
 - layer: router
 - tags: regex, friedl, mre3, ru-translation, chapter-index
@@ -28,7 +28,6 @@ sections: [bookmarks-note]
 
 ## Epistemic Linkage
 
-- epistemic_basis: fact (структура оглавления PDF) + inference (сопоставление с карточками KB)
 - evidence_type: machine-extracted bookmarks
 - confidence: high (оглавление), medium (сопоставление с KB)
 - uncertainty: названия подпунктов в закладках иногда обрезаны; нумерация страниц в PDF может отличаться от бумажного издания

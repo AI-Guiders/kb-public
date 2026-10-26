@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Принятие решений: рабочая память, интеграция свидетельств (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, decision, working-memory, evidence-integration, goal, fb, cx]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: цель-репрезентация, интеграция, причинность, оптимальность); модели — частично.
 
 ## Metadata
-- card_id: kb-drosophila-decision-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [decision-making, working-memory, evidence-integration, goal-direction, fan-shaped-body, navigation]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (Nat Commun 2026 — физиология+причинность+модель)
 - uncertainty:

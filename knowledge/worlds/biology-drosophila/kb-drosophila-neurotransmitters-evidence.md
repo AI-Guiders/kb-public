@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Нейромедиаторы и модуляция (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, neurotransmitter, octopamine, modulation, cotransmission]
 language: ru
+epistemic: fact (из полных текстов)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст Sci Adv 2026 прочитан (ядро); Bates NT-предсказание — из полного текста (карточка 3.1); общий обзор модуляции (DA/OA/5HT) — частично (отдельные работы).
 
 ## Metadata
-- card_id: kb-drosophila-neurotransmitters-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [neurotransmitter, modulation, octopamine, glutamate, cotransmission, autoreceptor, aggression]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полных текстов)
 - evidence_type: paper (ориг./review, полные тексты)
 - confidence: high (NT-классы Bates; VPM4-цепь Sci Adv)
 - uncertainty:

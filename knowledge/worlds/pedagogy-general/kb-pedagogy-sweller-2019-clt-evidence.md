@@ -22,7 +22,6 @@ subworld: general
 
 ## Metadata
 
-- card_id: kb-pedagogy-sweller-2019-clt-evidence-v1
 - world: pedagogy.general
 - status: active
 

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Геном: структура, размер, гены, транспозоны, сборки (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, genome]
 language: ru
+epistemic: fact (для проверенных чисел), inference (для обобщений организации)
 world: biology
 subworld: drosophila
 supersedes: [нет (первая карточка темы 1.1; предыдущий черновик evidence-1-1-genome.md — заменён этим каноном)]
@@ -26,14 +27,12 @@ supersedes: [нет (первая карточка темы 1.1; предыду�
 - extraction_note: карточка собрана в первичном проходе: скрининг PubMed (esearch→esummary) + ранее проверенные источники (UniProt/FlyBase/Adams); ПОЛНЫЕ ТЕКСТЫ OA-статей (Genes 2021, Mobile DNA 2020, Nat Commun 2025, NAR 2020) — прочитать при углублении темы (в этом проходе — аннотации+заголовки, честно отмечено в confidence).
 
 ## Metadata
-- card_id: kb-drosophila-genome-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [genome, drosophila, dm6, transposable-elements, assembly, heterochromatin]
 - status: draft (первичный проход)
 
 ## Epistemic Linkage
-- epistemic_basis: fact (для проверенных чисел), inference (для обобщений организации)
 - evidence_type: paper + database
 - confidence: high (ядро: 180 Mb/14k генов/dm6/4 хромосомы); medium (детали организации 3D/TAD — по обзорам, без полного текста в этом проходе)
 - uncertainty:

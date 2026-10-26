@@ -22,7 +22,6 @@ subworld: mathematics
 
 ## Metadata
 
-- card_id: kb-pedagogy-math-ebner-2025-cra-evidence-v1
 - world: pedagogy.mathematics
 - status: active
 

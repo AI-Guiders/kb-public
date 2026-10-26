@@ -4,6 +4,7 @@ title: 'Evidence: Vatz (1973) — The Myth of the Rhetorical Situation'
 description: '«Опасная ситуация» / «embarrassing situation» в речи говорящего **не описывают** объективные свойства сцены — они выражают **phenomenological perspective** говорящего (Burke: fitting scene into categories in the observer''s head).'
 tags: [rhetoric-pragmatics, paper-evidence, vatz, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: rhetoric
 subworld: pragmatics
 ---
@@ -22,7 +23,6 @@ subworld: pragmatics
 
 ## Metadata
 
-- card_id: kb-vatz-rhetorical-situation-1973-evidence-v1
 - world: rhetoric.pragmatics
 - layer: knowledge
 - tags: [paper-evidence, rhetorical-situation, salience, agency]
@@ -30,7 +30,6 @@ subworld: pragmatics
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article
 - confidence: **high** для тезиса «meaning/salience created by rhetor»; **medium** на полную поляризацию с Bitzer (много работ читают их как концы одного спектра)
 - transfer_boundary: не «всё риторика = пропаганда»; ответственность ритора за **выбор** salience, не отмена фактов.

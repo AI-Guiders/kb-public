@@ -4,6 +4,7 @@ title: 'Evidence: CDC Learn the Signs. Act Early — language milestones'
 description: '**Thesis:** Milestones = skills **≥75%** children reach by age — **monitoring tool**, not daily test. Parent tip on 15m page: early words are **approximations**; adult **repeats and expands** («ba» → «Ball, yes, that''s a ball»).'
 tags: [cognition-early-caregiving, kb, worlds]
 language: en
+epistemic: fact (institutional guidance)
 world: cognition
 subworld: early-caregiving
 ---
@@ -22,10 +23,8 @@ subworld: early-caregiving
 
 ## Metadata
 
-- card_id: kb-early-caregiving-cdc-act-early-milestones-evidence-v1
 - world: cognition.early-caregiving
 - status: active
-- epistemic_basis: fact (institutional guidance)
 - evidence_type: public_health_guide
 - transfer_boundary: deny → compose oracle; allow-with-check → developmental staging metaphor
 

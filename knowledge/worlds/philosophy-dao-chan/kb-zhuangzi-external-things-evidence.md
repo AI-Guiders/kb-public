@@ -4,6 +4,7 @@ title: Чжуан-цзы, гл. 26 外物 — evidence
 description: 荃者所以在魚，得魚而忘荃；蹄者所以在兔，得兔而忘蹄；言者所以在意，得意而忘言。吾安得夫忘言之人而與之言哉！
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
 language: zh
+epistemic: fact (глава прочитана целиком 2026-09-04)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: глава прочитана целиком; переводы мои; 荃 в этом издании (не 筌)
 
 ## Metadata
-- card_id: kb-zhuangzi-external-things-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#dao #l0 #evidence #zhuangzi]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (глава прочитана целиком 2026-09-04)
 - evidence_type: book
 - confidence: high
 - uncertainty: варианты знаков (荃/筌) между изданиями

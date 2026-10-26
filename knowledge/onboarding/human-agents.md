@@ -15,7 +15,7 @@ verified:
 
 ## Курс
 
-[**Agent-First Learn**](https://github.com/KarataevDmitry/agent-first-learn) (MIT) — короткий курс **«designing with and for AI agents»**: память, протокол суммаризации, субъектность, этика партнёрства; ContextDB как слой фактов и handoff между агентами.
+**Agent-First Learn** (GitHub, MIT) — короткий курс **«designing with and for AI agents»**: память, протокол суммаризации, субъектность, этика партнёрства; ContextDB как слой фактов и handoff между агентами.
 
 Ключевые идеи курса:
 

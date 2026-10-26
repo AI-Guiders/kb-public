@@ -4,6 +4,7 @@ title: 'Evidence: Sweller (1988) — Cognitive load during problem solving'
 description: '**Core claim:** solving problems while learning can impose **high cognitive load** and impede schema acquisition; **studying worked examples** can be superior for novices.'
 tags: [kb, pedagogy-general, worlds]
 language: en
+epistemic: inference_from_canonical_citations + abstract
 world: pedagogy
 subworld: general
 ---
@@ -21,7 +22,6 @@ subworld: general
 
 ## Metadata
 
-- card_id: kb-pedagogy-sweller-1988-evidence-v1
 - world: pedagogy.general
 - layer: knowledge
 - tags: [paper-evidence, sweller, cognitive-load-theory, worked-example]
@@ -29,7 +29,6 @@ subworld: general
 
 ## Epistemic linkage
 
-- epistemic_basis: inference_from_canonical_citations + abstract
 - evidence_type: peer-reviewed experiment (problem solving vs studying worked examples)
 - confidence: **high** for worked-example effect direction; **medium** for exact effect sizes until full PDF
 - read_depth: **partial**

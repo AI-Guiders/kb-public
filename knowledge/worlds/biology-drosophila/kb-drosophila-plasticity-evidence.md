@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Пластичность памяти: LTD-механизм, компартменты, консолидация (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, plasticity, ltm, memory-trace, compartment, consolidation, mb]
 language: ru
+epistemic: fact (из полных текстов)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полные тексты прочитаны (пластичность: ассоциативная локализована в g1; консолидация: cLTM — без белкового синтеза).
 
 ## Metadata
-- card_id: kb-drosophila-plasticity-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [plasticity, memory-trace, mbon, g1, ltd, consolidation, cLTM]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полных текстов)
 - evidence_type: paper (ориг., полные тексты)
 - confidence: high (Sci Rep 2022 — функц. визуализация постсинапса+поведение; Nat Commun 2019 — фармако-генетика)
 - uncertainty:

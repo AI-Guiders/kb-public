@@ -4,6 +4,7 @@ title: Composer, Packagist и сторонняя экосистема PHP
 description: '**Назначение:** контракты **управления зависимостями** и навигация по **популярным семействам** пакетов (в т.ч. Spatie для Laravel), без фиксации версий в KB. Мир `software.php` (tooling). Сочетается с `playbook-php.md`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -82,14 +83,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-COMPOSER-ECO
 - world: software.php
 - layer: world
 - tags: composer; packagist; semver; spatie; security-audit
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: Composer official docs + industry practice
 - confidence: high
 - uncertainty: конкретные CVE и версии — только из audit/lock

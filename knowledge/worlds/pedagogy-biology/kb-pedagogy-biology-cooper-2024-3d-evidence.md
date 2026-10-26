@@ -22,7 +22,6 @@ subworld: biology
 
 ## Metadata
 
-- card_id: kb-pedagogy-biology-cooper-2024-3d-evidence-v1
 - world: pedagogy.biology
 - status: active
 

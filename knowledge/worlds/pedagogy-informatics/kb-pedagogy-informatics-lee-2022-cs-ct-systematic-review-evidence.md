@@ -21,7 +21,6 @@ subworld: informatics
 
 ## Metadata
 
-- card_id: kb-pedagogy-informatics-lee-2022-cs-ct-systematic-review-evidence-v1
 - world: pedagogy.informatics
 - status: active
 - era: **2020–2026 current**

@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Агрессия и социальное поведение (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, aggression, social, courtship, escape]
 language: ru
+epistemic: fact (из полного текста Sci Adv 2026) + annotations
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: агрессия — полный текст Sci Adv 2026 (в карточке 4.2); социальное — аннотации (систематический обзор социального поведения — TODO).
 
 ## Metadata
-- card_id: kb-drosophila-aggression-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [aggression, social, escalation, vpm4, mbon-11, layered-inhibition]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста Sci Adv 2026) + annotations
 - evidence_type: paper (ориг., полный текст) + annotation
 - confidence: high (агрессия — полный текст); medium (социальное — аннотации)
 - uncertainty:

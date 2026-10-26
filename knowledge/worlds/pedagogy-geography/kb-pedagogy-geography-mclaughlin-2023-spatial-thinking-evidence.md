@@ -21,7 +21,6 @@ subworld: geography
 
 ## Metadata
 
-- card_id: kb-pedagogy-geography-mclaughlin-2023-spatial-thinking-evidence-v1
 - world: pedagogy.geography
 - status: active
 - era: **2020–2026 current**

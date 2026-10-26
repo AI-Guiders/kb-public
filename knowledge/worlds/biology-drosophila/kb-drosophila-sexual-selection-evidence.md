@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Половой отбор: эволюция и механизмы (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, sexual-selection, polyandry, fitness, dsx-fru]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: Fst/π/DFE); поведенческие механизмы (полиандрия vs моногамия — дизайн) — частично.
 
 ## Metadata
-- card_id: kb-drosophila-sexual-selection-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [sexual-selection, polyandry, monogamy, fst, dfe, pseudoobscura]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (Fst/π/DFE — Proc R Soc B 2025)
 - uncertainty:

@@ -4,6 +4,7 @@ title: Drupal — архитектура и операции (ядро, моду
 description: '**Назначение:** опорная карта **Drupal 8+** (современное ядро на Symfony-компонентах): структура, модули, сущности, конфигурация, деплой. Мир `software.drupal`. Drupal 7 и ниже — legacy; упоминать только как «наследие».'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -84,14 +85,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-DRUPAL-OPS
 - world: software.drupal
 - layer: world
 - tags: drupal; entities; config-sync; drush; symfony
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official Drupal docs
 - confidence: medium
 - uncertainty: версия core и снятие deprecated API

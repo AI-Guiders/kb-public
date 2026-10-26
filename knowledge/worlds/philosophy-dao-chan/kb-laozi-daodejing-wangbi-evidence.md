@@ -4,6 +4,7 @@ title: Дао дэ цзин — evidence (Ван Би, 81 глава)
 description: 道常無為 / 而無不為。侯王若能守之，萬物將自化。
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
 language: zh
+epistemic: fact (первоисточник прочитан целиком 2026-09-04)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: китайский оригинал (традиционные иероглифы), редакция Ван Би с его комментарием; переводы здесь — мои
 
 ## Metadata
-- card_id: kb-laozi-daodejing-wangbi-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#dao #l0 #evidence]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (первоисточник прочитан целиком 2026-09-04)
 - evidence_type: book
 - confidence: high
 - uncertainty: редакция Ван Би — одна из; Мавандуй (帛書) и Гоудянь (楚簡) отличаются

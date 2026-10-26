@@ -4,6 +4,7 @@ title: 'Evidence: Bitzer (1968) — The Rhetorical Situation'
 description: Комбинация persons, events, objects, relations, которая **требует** риторического ответа. Риторическое произведение **функционирует** для действия в мире и **контролируется** ситуацией, которая его порождает.
 tags: [rhetoric-pragmatics, paper-evidence, bitzer, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: rhetoric
 subworld: pragmatics
 ---
@@ -22,7 +23,6 @@ subworld: pragmatics
 
 ## Metadata
 
-- card_id: kb-bitzer-rhetorical-situation-1968-evidence-v1
 - world: rhetoric.pragmatics
 - layer: knowledge
 - tags: [paper-evidence, rhetorical-situation, exigence, audience, constraints]
@@ -30,7 +30,6 @@ subworld: pragmatics
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article (abstract + partial text)
 - confidence: **high** для трёх составляющих ситуации; **medium** для сильных modal claims о «предписании» ответа
 - transfer_boundary: модель ситуации как **данной** — спорна (см. Vatz Tier 1); не юридическая «ситуация».

@@ -4,6 +4,7 @@ title: 'Laravel — связь с Symfony: компоненты и границ�
 description: '**Назначение:** объяснить, **почему** в Laravel встречаются классы и концепции Symfony (HttpFoundation, Console, Process, …) и **когда** идти в документацию symfony.com. Мир `software.laravel` + пересечение с `software.php`.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -64,14 +65,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-LARAVEL-SYMFONY
 - world: software.laravel
 - layer: world
 - tags: laravel; symfony; http-foundation; console
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: dependency graph + official Symfony/Laravel docs
 - confidence: medium
 - uncertainty: точный список компонентов на каждом миноре Laravel

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Визуальные пути: топографический vs нетопографический (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, visual-pathways, aotu, metu, topographic, navigation]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: параллельные пути, R7→MeTu, домены, TuBu→R); Cell 2026 — аннотация (полный текст недоступен).
 
 ## Metadata
-- card_id: kb-drosophila-visual-pathways-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [visual-pathways, metu, aotu, tubu, eb, topographic, navigation]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (ориг., полный текст)
 - confidence: high (iScience 2020 — транс-синаптические/GRASP/клоновый анализ)
 - uncertainty:

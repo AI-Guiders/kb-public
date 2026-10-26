@@ -4,6 +4,7 @@ title: WordPress — архитектура и операции (ядро, те�
 description: '**Назначение:** опорная карта **WordPress как CMS/платформы** для агентов и разработчиков: жизненный цикл запроса, расширяемость, данные, обновления и базовая безопасность. Мир `software.wordpress`. Не руководство по дизайну тем.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -85,14 +86,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-WP-OPS
 - world: software.wordpress
 - layer: world
 - tags: wordpress; hooks; plugins; themes; security
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official developer docs
 - confidence: medium
 - uncertainty: версия ядра и контриб-модуля

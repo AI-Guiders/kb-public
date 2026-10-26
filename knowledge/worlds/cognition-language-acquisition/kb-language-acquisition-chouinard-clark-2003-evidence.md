@@ -4,6 +4,7 @@ title: 'Evidence: Chouinard & Clark (2003) — Adult reformulations as negative 
 description: '*Версия: v1.0 · 2026-05-31 — full (56 pp. OCR, user clark-all.pdf)*'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: primary_peer_reviewed_article (full preprint ≈ published)
 world: cognition
 subworld: language-acquisition
 ---
@@ -23,7 +24,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-chouinard-clark-2003-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [paper-evidence, chouinard-clark-2003, negative-evidence, reformulation, side-sequence, embedded-correction, principle-of-contrast, CHILDES]
@@ -31,7 +31,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: primary_peer_reviewed_article (full preprint ≈ published)
 - evidence_type: longitudinal naturalistic corpus (CHILDES)
 - confidence: **high** for availability/frequency of reformulations; **medium-high** for child attention measures; **medium** for acquisition causality (correlational)
 - read_depth: **full**

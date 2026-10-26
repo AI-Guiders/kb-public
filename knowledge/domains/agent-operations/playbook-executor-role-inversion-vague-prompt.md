@@ -24,7 +24,7 @@ speech_situation:
 # Playbook: инверсия роли исполнителя при размытом промпте
 
 **Домен:** agent-operations  
-**Provenance:** оператор (Света) + диалог 2026-07-28 — «сделай что-нибудь / посмотрим» как annotation trap в постановке задач  
+**Provenance:** оператор + диалог 2026-07-28 — «сделай что-нибудь / посмотрим» как annotation trap в постановке задач  
 **Связь:** [`../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation.md`](../../worlds/epistemic-methodology/kb-reverse-compaction-and-ontological-deprivation.md) · [`../../work/projects/door-to-singularity/explainable-learning/README.md`](../../work/projects/door-to-singularity/explainable-learning/README.md) · [`playbook-principled-clarity.md`](playbook-principled-clarity.md) · [`../../META/awareness-as-countermeasure.md`](../../META/awareness-as-countermeasure.md) (**POST-корень**, паритет с Integrity; Проблема\|Осознание\|Решение) · Integrity POST harm — отдельно (`integrity-core`; этот playbook про **неопределённость задачи**, не про harm)
 
 ## Перед любым ответом (универсальный гейт)

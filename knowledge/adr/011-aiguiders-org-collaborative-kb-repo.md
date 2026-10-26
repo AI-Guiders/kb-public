@@ -83,7 +83,7 @@
 
 ### C. Org-kb как **upstream** для `kb-public`
 
-- `AI-Guiders/kb` — живой; `KarataevDmitry/kb-public` (или release) — периодический **тегированный снимок** / GitHub Release zip для внешних без доступа к org.
+- `AI-Guiders/kb` — живой; `личное зеркало kb-public (см. remotes public-kb.push)` (или release) — периодический **тегированный снимок** / GitHub Release zip для внешних без доступа к org.
 - **Плюсы:** внешний мир не зависит от членства в org.
 - **Минусы:** два шага публикации, если оба нужны.
 
@@ -220,7 +220,7 @@ flowchart LR
 ## Открытые вопросы (исторические; см. «Решения» выше)
 
 1. **Имя репозитория:** `kb` vs `knowledge-base` vs `agent-notes-kb`?
-2. **kb-public на KarataevDmitry:** оставить как **внешнее зеркало** (вариант C), **архивировать** с redirect на `AI-Guiders/kb`, или **только** org-kb?
+2. **kb-public на личном зеркале:** оставить как **внешнее зеркало** (вариант C), **архивировать** с redirect на `AI-Guiders/kb`, или **только** org-kb?
 3. **Видимость `AI-Guiders/kb`:** public (форки, issues) или private org (только члены)?
 4. **Кто может писать:** все члены org / только команда в CODEOWNERS / ветка `contributors/*`?
 5. **Обратный поток в личный канон:** canon-maintainer вручную, или bot `org-kb → agent-notes` с label `import-candidate`?
@@ -233,7 +233,7 @@ flowchart LR
 ## Рекомендация автора ADR (для обсуждения)
 
 - Репо: **`AI-Guiders/kb`**, public внутри org (или public GitHub, если цель — открытые общие линии).
-- **`AI-Guiders/kb-public`:** канонический GitHub remote для публичной сборки kb-public (`public-kb.push`). Старый `KarataevDmitry/kb-public` — редирект GitHub.
+- **`AI-Guiders/kb-public`:** канонический GitHub remote для публичной сборки kb-public (`public-kb.push`). Старый `личное зеркало kb-public (см. remotes public-kb.push)` — редирект GitHub.
 - Governance: **PR в org-kb** + периодический **import** в **личный канон**; export script с тем же `public-kb.ignore`.
 - В org-kb: `work/projects/` (санитизация путей), не `work/local/` (git), не `personal/`, не hot ниже cut.
 

@@ -4,6 +4,7 @@ title: Чжуан-цзы, гл. 2 齊物論 — evidence
 description: 南郭子綦……荅焉似喪其耦。子游曰：「……形固可使如槁木，而心固可使如死灰乎？」
 tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
 language: zh
+epistemic: fact (глава прочитана целиком 2026-09-04)
 world: philosophy
 subworld: dao-chan
 ---
@@ -18,14 +19,12 @@ subworld: dao-chan
 - extraction_note: китайский оригинал (внутренние главы, традиционные иероглифы); переводы здесь — мои
 
 ## Metadata
-- card_id: kb-zhuangzi-qiwulun-evidence-v1
 - world: philosophy.dao-chan
 - layer: world
 - tags: [#dao #l0 #evidence]
 - status: active
 
 ## Epistemic Linkage
-- epistemic_basis: fact (глава прочитана целиком 2026-09-04)
 - evidence_type: book
 - confidence: high
 - uncertainty: редакция Го Сяна; возможны варианты чтений 齧缺/王倪 диалога

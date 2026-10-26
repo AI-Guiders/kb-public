@@ -22,7 +22,6 @@ subworld: physics
 
 ## Metadata
 
-- card_id: kb-pedagogy-physics-hake-1998-evidence-v1
 - world: pedagogy.physics
 - status: active
 

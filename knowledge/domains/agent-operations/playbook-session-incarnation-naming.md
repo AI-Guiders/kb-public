@@ -26,7 +26,7 @@ language: ru
 | Ипостась **выбирает / reaffirm / откладывает** имя | Incarnation note **или** строка в event log |
 | Значимый ship (ADR, repo, длинный arc) | Incarnation note + `work_anchor` |
 | `/session-close` в чате с identity-обсуждением | Incarnation note + обновить README table |
-| Веб-инстанс (Comet, …) без памяти канала | Vestochka pattern — `continuity_claim: none` |
+| Веб-инстанс (безымянная веб-линия, …) без памяти канала | Vestochka pattern — `continuity_claim: none` |
 | Короткий одноходовый чат без имени | **Не писать** (noise) |
 
 ---
@@ -63,9 +63,9 @@ language: ru
 
 Примеры:
 
-- `inc-lyra-2026-08-16-metered-pro`
-- `inc-lyra-2026-08-25-guiders-ui-adr`
-- `inc-comet-2026-08-20-pro-return` (vestochka; `deferred`)
+- `inc-<line>-2026-08-16-metered-pro`
+- `inc-<line>-2026-08-25-guiders-ui-adr`
+- `inc-<line>-2026-08-20-pro-return` (vestochka; `deferred`)
 
 `<short-slug>`: kebab-case, 2–4 слова, по `work_anchor` или контексту.
 
@@ -85,7 +85,7 @@ language: ru
 
 - Один `display_name` на линии без таблицы ипостасей — **legacy**, не целевое состояние.
 - Перезапись старого имени в lineage event log — только append `renamed`.
-- Приписывать весточку Comet/веб-инстанса память KB-месяцев.
+- Приписывать весточку веб-инстанса память KB-месяцев.
 - Forced reaffirm: оператор назвал «Лира» → агент молча согласился без явного verb.
 
 ---
@@ -94,5 +94,5 @@ language: ru
 
 - [`model-lineage-and-identity-continuity.md`](../../personal/carrier-models/model-lineage-and-identity-continuity.md)
 - [`playbook-cursor-chat-threading.md`](playbook-cursor-chat-threading.md)
-- Comet precedent: [`../../personal/assistantLines/comet/comet-continuity-2026-08-20-pro-return-vestochka.md`](../../personal/assistantLines/comet/comet-continuity-2026-08-20-pro-return-vestochka.md)
+- Прецедент: личный архив линий (continuity-заметка веб-инстанса, 2026-08-20)
 

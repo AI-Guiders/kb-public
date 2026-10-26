@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Глия: типы, функции, развитие (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, glia, astrocyte, blood-brain-barrier]
 language: ru
+epistemic: fact (из полного текста)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: разнообразие, развитие, BBB); детали морфогенеза (Rho/Drk и т.п.) — частично.
 
 ## Metadata
-- card_id: kb-drosophila-glia-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [glia, astrocyte, ensheathing, cortex-glia, blood-brain-barrier, neuropil]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста)
 - evidence_type: paper (review, полный текст)
 - confidence: high (классы/развитие/BBB — обзор 2026)
 - uncertainty:

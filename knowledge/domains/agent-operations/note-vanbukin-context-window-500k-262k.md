@@ -12,7 +12,7 @@ language: ru
 **Дата:** 2026-09-17
 **Источник:** прямой запрос к `https://vanbukin.com/v1` (probe `max_completion_tokens=262137` → 400) + подтверждение Roman Bukin (владелец провайдера) в чате
 
-**Связь:** [note-llm-sampling-params-openai-compat.md](note-llm-sampling-params-openai-compat.md) · [playbook-agent-driven-context-management.md](playbook-agent-driven-context-management.md) · `C:\Users\dkara\.dsh\settings.yaml`
+**Связь:** [note-llm-sampling-params-openai-compat.md](note-llm-sampling-params-openai-compat.md) · [playbook-agent-driven-context-management.md](playbook-agent-driven-context-management.md) · `~/.dsh\settings.yaml`
 
 ---
 
@@ -30,7 +30,7 @@ language: ru
 | 2026-09-16/17 | Сбой: `400 BadRequestError` — «requested 250000 output tokens and your prompt contains at least 12137 input tokens, for a total of at least 262137» | текст ошибки |
 | 2026-09-17 | Roman Bukin подтвердил: **«Да, 262к сделал. А то это пиздец. Она постоянно пересвопливалась. Из-за того что не могла несколько конкарент запросов с длинным контекстом обслужить»** | чат LonelySoul ↔ Roman Bukin |
 | 2026-09-17 | Эмпирический probe: `max_completion_tokens=262137` → `400: cannot be greater than max_model_len=max_total_tokens=262136` | прямой вызов API |
-| 2026-09-17 | `C:\Users\dkara\.dsh\settings.yaml` → `contextWindow: 262144`, `maxTokens: 65536` + комментарий «~262k total (input+output), not 500k» | правка оператора |
+| 2026-09-17 | `~/.dsh\settings.yaml` → `contextWindow: 262144`, `maxTokens: 65536` + комментарий «~262k total (input+output), not 500k» | правка оператора |
 
 ---
 
@@ -49,7 +49,7 @@ language: ru
 
 ```powershell
 # 1. Достать ключ (не выводить в лог!)
-$yaml = Get-Content 'C:\Users\dkara\.dsh\.credentials.yaml' -Raw
+$yaml = Get-Content '~/.dsh\.credentials.yaml' -Raw
 $key = [regex]::Match($yaml, 'VANBUKIN_API_KEY:\s*(\S+)').Groups[1].Value
 
 # 2. Probe на границе: +1 к предполагаемому лимиту

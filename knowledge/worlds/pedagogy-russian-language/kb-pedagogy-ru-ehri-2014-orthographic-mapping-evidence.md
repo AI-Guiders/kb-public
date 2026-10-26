@@ -4,6 +4,7 @@ title: 'Evidence: Ehri (2014) — Orthographic mapping'
 description: '**Orthographic mapping (OM):** formation of letter-sound connections bonding **spelling ↔ pronunciation ↔ meaning** in memory → **sight word reading**, spelling memory, vocabulary from print.'
 tags: [kb, pedagogy-russian-language, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature + reported experiments
 world: pedagogy
 subworld: russian-language
 ---
@@ -22,7 +23,6 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-ehri-2014-orthographic-mapping-evidence-v1
 - world: pedagogy.russian-language
 - layer: knowledge
 - tags: [paper-evidence, ehri, orthographic-mapping, sight-words, phases, vocabulary]
@@ -30,7 +30,6 @@ subworld: russian-language
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature + reported experiments
 - confidence: **high** for OM mechanism and phase model; **high** for articulation/mnemonic/vocab experimental directions cited
 - read_depth: **full**
 - transfer_boundary: alphabetic literacy; RU grapheme policy separate; Hebrew/English experiments — verify RU mnemonic set in authoring

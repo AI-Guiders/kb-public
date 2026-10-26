@@ -4,6 +4,7 @@ title: 'Laravel — фронтенд-стеки: Blade, Livewire, Filament, Iner
 description: '**Назначение:** выбор и границы **UI-слоёв** вокруг Laravel без привязки к одной версии пакета (версии — из `composer.lock` / `package.json`). Мир `software.laravel` + `software.web-frontend` (частично).'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: inference + fact
 world: software
 subworld: php-laravel
 ---
@@ -79,14 +80,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-LARAVEL-FRONTEND
 - world: software.laravel
 - layer: world
 - tags: laravel; blade; livewire; filament; inertia; vite
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: inference + fact
 - evidence_type: official docs + экосистемные сайты
 - confidence: medium
 - uncertainty: версии Livewire/Filament и breaking changes

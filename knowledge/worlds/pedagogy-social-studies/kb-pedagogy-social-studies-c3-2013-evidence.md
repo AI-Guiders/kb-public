@@ -22,7 +22,6 @@ subworld: social-studies
 
 ## Metadata
 
-- card_id: kb-pedagogy-social-studies-c3-2013-evidence-v1
 - world: pedagogy.social-studies
 - status: active
 

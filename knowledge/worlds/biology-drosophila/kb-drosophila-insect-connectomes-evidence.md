@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Коннектомы других насекомых (evidence card v1, annotations)
 tags: [biology-drosophila, worlds, kb, evidence, insect-connectomes, comparative, annotation]
 language: ru
+epistemic: annotation (отсутствие полных коннектомов)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: ЧЕСТНАЯ граница: в этом проходе полные тексты коннектомов других насекомых не читались (их нет как полных EM-коннектомов); карточка — аннотационная.
 
 ## Metadata
-- card_id: kb-drosophila-insect-connectomes-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [insect-connectomes, comparative, annotation, cx-conservation]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: annotation (отсутствие полных коннектомов)
 - evidence_type: annotation
 - confidence: medium (отсутствие — известно, но «нет» сложно доказать; регулярно появляются частичные)
 - uncertainty:

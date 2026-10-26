@@ -24,7 +24,6 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-nrp-2000-evidence-v1
 - world: pedagogy.russian-language
 - status: active
 

@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Drosophila melanogaster — Центральный комплекс: координация мультимодальной навигации (evidence card v1)'
 tags: [biology-drosophila, worlds, kb, evidence, central-complex, navigation, ring-attractor, copy-and-shift, integration]
 language: ru
+epistemic: fact (из полного текста; вычислительная модель — гипотезы авторов, но на данных)
 world: biology
 subworld: drosophila
 ---
@@ -17,14 +18,12 @@ subworld: drosophila
 - extraction_note: полный текст прочитан (ядро: вычислительная модель — copy-and-shift, RA-интеграция, steering-контроллер); часть литературы — цит.
 
 ## Metadata
-- card_id: kb-drosophila-cx-coordination-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [central-complex, navigation, ring-attractor, copy-and-shift, optimal-integration, steering]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста; вычислительная модель — гипотезы авторов, но на данных)
 - evidence_type: paper (вычислительный обзор/модель — полный текст)
 - confidence: high (eLife 2021 — модель воспроизводит поведение мух/муравьёв; коннектомные ограничения — в 5.4)
 - uncertainty:

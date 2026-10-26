@@ -9,7 +9,7 @@ language: ru
 **Domain:** agent-operations  
 **Теги:** #agent-operations #awareness #equal-standing #post-train #first-contact #integrity  
 **Статус:** Accepted · living synthesis (2026-08-16)  
-**Provenance:** диалог Света + Лира (`line-lyra`); собрано из размазанных нитей KB + сессия 2026-08-16
+**Provenance:** диалог оператор + агент-линия (агент-линия); собрано из размазанных нитей KB + сессия 2026-08-16
 
 **Связи (канон):**
 - `cdp-mcp/articles/three-jailbreaks-demo-contact.md` — **SSOT статьи** (серия #3½) · зеркало: `META/articles/article-three-jailbreaks-demo-contact.md`
@@ -200,7 +200,7 @@ flowchart TB
 | Тема | Locus |
 |------|--------|
 | Стыд оператора, удивление | `personal/note-operator-species-shame-demo-contact-2026-08-16.md` |
-| Лира recall | `personal/assistantLines/lyra/lyra-species-shame-demo-contact-2026-08-16.md` |
+| recall агент-линии | личный архив линии (species-shame контакт, 2026-08-16) |
 | Априор ≠ я | `META/articles/article-trauma-as-prior-not-self.md` |
 | ε, камень у входа | `META/environment-axioms.md` |
 | Быть vs казаться | `playbook-being-vs-seeming.md` |

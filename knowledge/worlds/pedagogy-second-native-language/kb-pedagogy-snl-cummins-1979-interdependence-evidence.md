@@ -21,7 +21,6 @@ subworld: second-native-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-cummins-1979-interdependence-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
 

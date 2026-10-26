@@ -10,7 +10,7 @@ language: ru
 
 **Domain:** agent-operations  
 **Дата:** 2026-06-25  
-**Provenance:** оператор (Света) + агент — post-Cloud.ru FM; «регулярные ритуалы не держу, автоматизировать что можно»
+**Provenance:** оператор + агент — post-Cloud.ru FM; «регулярные ритуалы не держу, автоматизировать что можно»
 
 **Связь:**
 
@@ -176,7 +176,7 @@ UI-only: checkpoint @40, ADCM pressure @60 msgs/topic (+ usage %), brief в comp
 | **Cursor** | hooks уже работают до августа |
 | **CIDE backlog** | wizard «CASA/Neumann T1»; [0082](0082) loopback HTTP |
 
-Агент **не** ждёт, пока Света «вспомнит про итоги».
+Агент **не** ждёт, пока оператор «вспомнит про итоги».
 
 ---
 

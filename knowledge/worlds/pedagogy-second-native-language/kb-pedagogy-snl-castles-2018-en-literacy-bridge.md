@@ -22,7 +22,6 @@ subworld: second-native-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-castles-2018-en-literacy-bridge-v1
 - world: pedagogy.second-native-language
 - status: active
 

@@ -22,7 +22,6 @@ subworld: chemistry
 
 ## Metadata
 
-- card_id: kb-pedagogy-chemistry-pogil-2023-review-evidence-v1
 - world: pedagogy.chemistry
 - status: active
 

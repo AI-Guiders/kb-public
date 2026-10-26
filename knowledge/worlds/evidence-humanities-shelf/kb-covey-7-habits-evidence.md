@@ -4,6 +4,7 @@ title: 'Covey — 7 Habits: ethics of character, win‑win, synergy (evidence ca
 description: Содержит определения, систему навыков, матрицу, ЭБС и P/PC — достаточно для рассуждения и маршрутизации без обращения к книге. Подзаголовки **«Где в книге»** — опциональные якоря для проверки в конкретном издании.
 tags: [evidence-humanities-shelf, kb, worlds]
 language: ru
+epistemic: fact
 world: evidence
 subworld: humanities-shelf
 ---
@@ -19,14 +20,12 @@ subworld: humanities-shelf
 - extraction_note: формулировки частей/навыков и номера страниц в Fundamentals — по **встроенному тексту** PDF-копии (240 стр., маркер `-- N of 240 --`); в других тиражах страницы могут не совпасть.
 
 ## Metadata
-- card_id: kb-covey-7-habits-evidence-v1
 - world: culture.global
 - layer: world
 - tags: [covey, 7-habits, character-ethic, personality-ethic, win-win, synergy, sharpen-the-saw, cooperation, trust]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact
 - evidence_type: book (secondary source; translation)
 - confidence: medium
 - uncertainty:

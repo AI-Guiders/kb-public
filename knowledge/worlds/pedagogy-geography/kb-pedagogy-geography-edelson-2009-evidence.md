@@ -21,7 +21,6 @@ subworld: geography
 
 ## Metadata
 
-- card_id: kb-pedagogy-geography-edelson-2009-evidence-v1
 - world: pedagogy.geography
 - status: active
 

@@ -4,6 +4,7 @@ title: 'Evidence: HealthyChildren.org — early literacy milestones'
 description: '**Thesis:** Early literacy is **staged interaction with books and sound**, not early formal reading. Prenatal reading = bonding optional; real joint engagement ramps with motor control.'
 tags: [cognition-early-caregiving, kb, worlds]
 language: en
+epistemic: fact (parent guidance)
 world: cognition
 subworld: early-caregiving
 ---
@@ -20,10 +21,8 @@ subworld: early-caregiving
 
 ## Metadata
 
-- card_id: kb-early-caregiving-healthychildren-literacy-milestones-evidence-v1
 - world: cognition.early-caregiving
 - status: active
-- epistemic_basis: fact (parent guidance)
 - evidence_type: pediatric_parent_site
 - transfer_boundary: deny → literacy probe oracle
 

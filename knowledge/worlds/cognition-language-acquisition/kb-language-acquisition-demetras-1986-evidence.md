@@ -4,6 +4,7 @@ title: 'Evidence: Demetras, Post & Snow (1986) — Feedback to first language le
 description: '**Discussion (authors):** implicit negative/positive feedback **exists** and is produced differentially; learnability axiom «no negative feedback» **ill founded** for these dyads — но utility **suboptimal** (proportional, not categorical; negative feedback to WF utterances occurs). **Не** causal claims.'
 tags: [cognition-language-acquisition, kb, worlds]
 language: ru
+epistemic: synthesis_from_primary_literature
 world: cognition
 subworld: language-acquisition
 ---
@@ -21,7 +22,6 @@ subworld: language-acquisition
 
 ## Metadata
 
-- card_id: kb-language-acquisition-demetras-1986-evidence-v1
 - world: cognition.language-acquisition
 - layer: knowledge
 - tags: [paper-evidence, demetras-1986, feedback, clarification-questions, repetitions, negative-feedback]
@@ -29,7 +29,6 @@ subworld: language-acquisition
 
 ## Epistemic linkage
 
-- epistemic_basis: synthesis_from_primary_literature
 - evidence_type: peer-reviewed article (naturalistic corpus)
 - confidence: **high** для differential implicit feedback; **medium** для causal role in acquisition (authors explicitly avoid causality)
 - read_depth: **full**

@@ -3,6 +3,7 @@ type: Evidence Card
 title: Drosophila melanogaster — Электрические синапсы (gap junctions), GF-система (evidence card v1)
 tags: [biology-drosophila, worlds, kb, evidence, gap-junction, innexin, electrical-synapse, giant-fiber]
 language: ru
+epistemic: fact (из полного текста eNeuro 2025)
 world: biology
 subworld: drosophila
 ---
@@ -18,14 +19,12 @@ subworld: drosophila
 - extraction_note: полный текст eNeuro 2025 прочитан; innexin7/antenna — по аннотациям (TODO полные тексты при необходимости); систематический обзор электрических синапсов дрозофилы — не найден (отмечено).
 
 ## Metadata
-- card_id: kb-drosophila-electrical-synapses-evidence-v1
 - world: biology.drosophila
 - layer: world
 - tags: [electrical-synapse, gap-junction, innexin, giant-fiber, frazzled, shaking-b]
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (из полного текста eNeuro 2025)
 - evidence_type: paper (ориг., полный текст) + annotations
 - confidence: high (GF-система из eNeuro 2025); medium (общая картина — нет систематического обзора)
 - uncertainty:

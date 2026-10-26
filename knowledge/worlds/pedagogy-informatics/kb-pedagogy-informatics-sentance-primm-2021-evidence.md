@@ -22,7 +22,6 @@ subworld: informatics
 
 ## Metadata
 
-- card_id: kb-pedagogy-informatics-sentance-primm-2021-evidence-v1
 - world: pedagogy.informatics
 - status: active
 

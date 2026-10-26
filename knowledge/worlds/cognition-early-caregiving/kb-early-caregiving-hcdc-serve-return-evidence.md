@@ -4,6 +4,7 @@ title: 'Evidence: Harvard HCDC — Serve and Return (5 steps)'
 description: '**Thesis:** Responsive **back-and-forth** between adult and young child builds neural architecture for learning. Language acquisition **requires social interaction** to instigate learning (HCDC cites Kuhl 2007; contingent response to babbling — Goldstein et al.).'
 tags: [cognition-early-caregiving, kb, worlds]
 language: en
+epistemic: inference (mechanism) + fact (published steps)
 world: cognition
 subworld: early-caregiving
 ---
@@ -22,10 +23,8 @@ subworld: early-caregiving
 
 ## Metadata
 
-- card_id: kb-early-caregiving-hcdc-serve-return-evidence-v1
 - world: cognition.early-caregiving
 - status: active
-- epistemic_basis: inference (mechanism) + fact (published steps)
 - evidence_type: science_translation
 - transfer_boundary: allow-with-check → partner turn-taking design; deny → speech-act label tables
 

@@ -12,5 +12,5 @@
 
 ## Инструмент
 
-Чтение/запись полного канона из другого workspace: **[agent-notes-mcp](https://github.com/KarataevDmitry/agent-notes-mcp)** (код под **MIT**; тексты KB в каноне — по правилам канона, не MIT).
+Чтение/запись полного канона из другого workspace: **agent-notes-mcp (GitHub, MIT)** (код под **MIT**; тексты KB в каноне — по правилам канона, не MIT).
 

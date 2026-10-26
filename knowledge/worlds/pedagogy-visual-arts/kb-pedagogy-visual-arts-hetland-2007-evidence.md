@@ -22,7 +22,6 @@ subworld: visual-arts
 
 ## Metadata
 
-- card_id: kb-pedagogy-visual-arts-hetland-2007-evidence-v1
 - world: pedagogy.visual-arts
 - status: active
 

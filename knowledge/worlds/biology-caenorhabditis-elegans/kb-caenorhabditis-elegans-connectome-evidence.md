@@ -3,6 +3,7 @@ type: Evidence Card
 title: 'Caenorhabditis elegans — коннектом: стереотипность, асимметрия, симметрии (evidence card v1)'
 tags: [biology-caenorhabditis-elegans, worlds, kb, evidence, connectome, asymmetry, fibration, redundancy]
 language: ru
+epistemic: fact (2 OA-анализа полных текстов; классика — вторично)
 world: biology
 subworld: caenorhabditis-elegans
 ---
@@ -16,13 +17,11 @@ subworld: caenorhabditis-elegans
 - created_at: 2026-09-19; updated_at: 2026-09-19.
 
 ## Metadata
-- card_id: kb-caenorhabditis-elegans-connectome-evidence-v1
 - world: biology.caenorhabditis.elegans
 - layer: world
 - status: draft
 
 ## Epistemic Linkage
-- epistemic_basis: fact (2 OA-анализа полных текстов; классика — вторично)
 - confidence: high (степень-инвариантность, парные vs непарные синапсы, фибрации); medium (Redundancy/Reachability — метрики авторов)
 - transfer_boundary: C. elegans — минимальный полный референс (проверка инвариантов), НЕ функционально богатый (нет MB/CX-аналогов в полном смысле; обучение — поведенческое).
 

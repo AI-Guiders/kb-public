@@ -4,6 +4,7 @@ title: 'Evidence: Ehri et al. (2001) — Systematic phonics (NRP meta-analysis)'
 description: 'Meta-analysis of **systematic phonics** vs unsystematic/no phonics (38 studies, 66 treatment–control comparisons, peer-reviewed, post-1970). Primary outcome: pooled reading at end of training or end of Year 1.'
 tags: [kb, pedagogy-russian-language, worlds]
 language: ru
+epistemic: quantitative_meta_analysis (38 experiments, 66 comparisons)
 world: pedagogy
 subworld: russian-language
 ---
@@ -24,7 +25,6 @@ subworld: russian-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-ru-ehri-2001-phonics-meta-evidence-v1
 - world: pedagogy.russian-language
 - layer: knowledge
 - tags: [meta-analysis, ehri-2001, nrp, systematic-phonics, effect-size]
@@ -32,7 +32,6 @@ subworld: russian-language
 
 ## Epistemic linkage
 
-- epistemic_basis: quantitative_meta_analysis (38 experiments, 66 comparisons)
 - evidence_type: peer-reviewed meta-analysis (NRP phonics subgroup)
 - confidence: **high** for direction and key moderators; **medium** for specific program rankings (low N per program)
 - read_depth: **full**

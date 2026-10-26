@@ -22,7 +22,6 @@ subworld: second-native-language
 
 ## Metadata
 
-- card_id: kb-pedagogy-snl-wwc-2022-dual-language-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
 - era: **2020–2026 current** (policy/evidence tier layer)

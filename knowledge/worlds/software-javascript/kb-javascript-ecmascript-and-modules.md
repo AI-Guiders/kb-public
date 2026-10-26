@@ -4,6 +4,7 @@ title: 'ECMAScript: редакции, модули и граница совме�
 description: '**Назначение:** опорный слой **спецификации ECMA-262** и **системы модулей** в реальных проектах: годовые редакции, политика «что допустимо в исходниках без транспиляции», ESM vs CommonJS. Мир **`software.javascript`**.'
 tags: [kb, software-javascript, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: javascript
 ---
@@ -25,7 +26,6 @@ subworld: javascript
 
 ## Metadata
 
-- card_id: kb-javascript-ecmascript-and-modules-v1
 - world: software.javascript
 - layer: world (L1 kb)
 - tags: ecmascript, modules, esm, cjs, interop, engines (fundamentals)
@@ -33,7 +33,6 @@ subworld: javascript
 
 ## Epistemic Linkage
 
-- epistemic_basis: fact + inference
 - evidence_type: normative specification + de-facto platform behavior
 - confidence: high для разделения ESM/CJS; medium для конкретных краёв interop между рантаймами
 - transfer_boundary: не подменяет официальный **Import Maps** или bundler‑специфичные расширения — только языковой минимум и типовые ловушки

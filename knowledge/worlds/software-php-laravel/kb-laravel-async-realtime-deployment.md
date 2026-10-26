@@ -4,6 +4,7 @@ title: Laravel — асинхронность, долгоживущие ворк
 description: '**Назначение:** контур **очередей**, **Octane/FrankenPHP/RoadRunner**, **broadcasting/Reverb**, типичные **подводные камни состояния** и связь с деплоем. Мир `software.laravel`. База очередей — `kb-laravel-fundamentals.md` §5.'
 tags: [kb, software-php-laravel, worlds]
 language: ru
+epistemic: fact + inference
 world: software
 subworld: php-laravel
 ---
@@ -72,14 +73,12 @@ subworld: php-laravel
 - author: agent-notes KB maintainer
 
 ### Metadata
-- card_id: KC-2026-03-01-LARAVEL-ASYNC-RT
 - world: software.laravel
 - layer: world
 - tags: laravel; octane; horizon; reverb; roadrunner; frankenphp
 - status: active
 
 ### Epistemic Linkage
-- epistemic_basis: fact + inference
 - evidence_type: official Laravel docs + практики SRE
 - confidence: medium
 - uncertainty: конкретные цифры памяти и драйверы по версиям
