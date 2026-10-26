@@ -11,7 +11,7 @@ subworld: case-workbench
 
 **Назначение:** что такое CASE как класс продуктов и идей, что дошли до рынка, почему волна спала, что осталось жить — без ностальгии по UML-диаграммам ради диаграмм.
 
-**Статус:** v1, справочно. **epistemic_basis:** synthesis + industry consensus; детали вендоров — `inference` где не цитирован первоисточник.
+**Статус:** v1, справочно. (эпистемическая основа: synthesis + industry consensus; детали вендоров — `inference` где не цитирован первоисточник.
 
 **Связь:** [`map-case-reading.md`](map-case-reading.md) · [`matrix-case-to-guiders-transfer.md`](matrix-case-to-guiders-transfer.md)
 
