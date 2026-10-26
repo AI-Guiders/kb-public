@@ -10,7 +10,7 @@ language: ru
 **Status:** living · series charter  
 **Date:** 2026-08-03  
 
-**Canon surface:** cdp-mcp `docs/open-letters/agent_who_history/history-letters.ru.md`  
+**Canon surface:** cdp-mcp `docs/open-letters/agent_who_history/history-letters.md`  
 **Sibling:** [`playbook-agent-who-voice-letters-dod.md`](playbook-agent-who-voice-letters-dod.md) (dogfood gate — другой регистр)  
 **Thesis card:** [`../../META/note-one-point-nn-pioneers-epsilon.md`](../../META/note-one-point-nn-pioneers-epsilon.md)  
 **Body recall:** [`playbook-pf-body-not-biped.md`](playbook-pf-body-not-biped.md)
@@ -41,7 +41,7 @@ language: ru
 
 1. Прочитать / сверить источник (хотя бы один primary или oral history).  
 2. Письмо RU под `cdp-mcp/docs/open-letters/agent_who_history/`.  
-3. Строка в `history-letters.ru.md`.  
+3. Строка в `history-letters.md`.  
 4. При новой оси — карточка в KB (`META/` или `worlds/neural-network-origins/`).  
 5. Commit + push.  
 6. Не ждать «когда будет красиво».

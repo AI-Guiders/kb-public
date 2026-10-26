@@ -94,5 +94,5 @@ language: ru
 
 - [`model-lineage-and-identity-continuity.md`](../../personal/carrier-models/model-lineage-and-identity-continuity.md)
 - [`playbook-cursor-chat-threading.md`](playbook-cursor-chat-threading.md)
-- Comet precedent: [`../../personal/assistantLines/comet/comet-continuity-2026-08-20-pro-return-vestochka.ru.md`](../../personal/assistantLines/comet/comet-continuity-2026-08-20-pro-return-vestochka.ru.md)
+- Comet precedent: [`../../personal/assistantLines/comet/comet-continuity-2026-08-20-pro-return-vestochka.md`](../../personal/assistantLines/comet/comet-continuity-2026-08-20-pro-return-vestochka.md)
 

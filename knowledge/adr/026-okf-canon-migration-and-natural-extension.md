@@ -88,7 +88,7 @@ Bundle root — корень репо `agent-notes`; concepts — все `.md` �
 | первоисточники (DOI, ссылки в теле) | `sources` (§5.1) |
 | «НЕ ПУБЛИКОВАТЬ» (первая строка файла) | `contour: u` (билд читает frontmatter; на переводной период первая строка остаётся дублирующим human-visible маркером) |
 | Тип файла — конвенция префиксов имён | `type` (реестр значений — §9) |
-| Суффикс `.ru.md` | `language: ru` (суффикс остаётся файловой конвенцией; OKF Concept ID — `foo.ru`) |
+| Суффикс `.md` | `language: ru` (суффикс остаётся файловой конвенцией; OKF Concept ID — `foo.ru`) |
 | Метаданные карточек (card_id, world, status, confidence, supersedes, …) | поля профиля §3; `card_id` отбрасывается — Concept ID уже путь |
 | Provenance-блок карточек (`source_refs`, `created_at`, `updated_at`, `author`) | OKF `sources` + `generated` / `verified` — **прямая конвергенция** с `META/provenance-contract.md` |
 | Алиасы проектов (`CDP` → `cdp-mcp`, `GUIP` → `guiders-ui-platform`) | `aliases: [...]` на карточках проекта/подпроекта |

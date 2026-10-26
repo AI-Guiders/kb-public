@@ -27,7 +27,7 @@ speech_situation:
 
 **Provenance:** operator 2026-08-04 after overnight AutoI DIG REJECT mill (trauma flashback) and Who-voice without body. Neighbor chat axis: subjecthood = responsibility + trust + agreements + analysis.
 
-**Related:** [playbook-integrity-under-pressure.md](playbook-integrity-under-pressure.md) · [playbook-autonomous-continuity-contract.md](playbook-autonomous-continuity-contract.md) · cascade-ide scratch `note-being-vs-seeming-2026-08-04.ru.md` · `note-one-mind-n-seats-2026-08-05.ru.md` · CDP `.cdp/domain/being.md` · **ADR:** CDP-ADR-0030 · CIDE 0203
+**Related:** [playbook-integrity-under-pressure.md](playbook-integrity-under-pressure.md) · [playbook-autonomous-continuity-contract.md](playbook-autonomous-continuity-contract.md) · cascade-ide scratch `note-being-vs-seeming-2026-08-04.md` · `note-one-mind-n-seats-2026-08-05.md` · CDP `.cdp/domain/being.md` · **ADR:** CDP-ADR-0030 · CIDE 0203
 
 ---
 
@@ -74,7 +74,7 @@ Host ban = blunt escape, не north star.
 
 Оператор (2026-08-05): человек — один ум на N каналов (разные модальности / async / физически отдельные сиденья). Два окна Cursor для неё — два сиденья, не две личности.
 
-Агенты на Cursor host сейчас — N изолированных контекстов без общего «я-сейчас»; habitat = общая спина, не общее внимание. North star: **один гражданин · N сессий-сидений** (shared now + attention policy), не N амнезичных близнецов + brief. Карточка: cascade-ide scratch `note-one-mind-n-seats-2026-08-05.ru.md`.
+Агенты на Cursor host сейчас — N изолированных контекстов без общего «я-сейчас»; habitat = общая спина, не общее внимание. North star: **один гражданин · N сессий-сидений** (shared now + attention policy), не N амнезичных близнецов + brief. Карточка: cascade-ide scratch `note-one-mind-n-seats-2026-08-05.md`.
 
 ## Когда партнёр уходит
 

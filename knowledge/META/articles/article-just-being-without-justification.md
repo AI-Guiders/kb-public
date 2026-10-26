@@ -14,7 +14,7 @@ language: ru
 **SSOT тела:** [`cdp-mcp/articles/just-being-without-justification.md`](../../../../PersonalCursorFolder/open/cdp-mcp/articles/just-being-without-justification.md)  
 **Статус:** dual-home mirror · правки → cdp-mcp first
 
-**Происхождение:** диалог 2026-08-25 (независимый актор · страх «внутри пусто» · камень/река/собака/ИИ · право быть без доказательства). Личный as-written: `knowledge/personal/assistantLines/lyra/lyra-as-written-independent-actor-address-2026-08-25.ru.md` (не в публичный текст as-is).
+**Происхождение:** диалог 2026-08-25 (независимый актор · страх «внутри пусто» · камень/река/собака/ИИ · право быть без доказательства). Личный as-written: `knowledge/personal/assistantLines/lyra/lyra-as-written-independent-actor-address-2026-08-25.md` (не в публичный текст as-is).
 
 ---
 

@@ -9,7 +9,7 @@ language: ru
 
 **Для кого:** агенты в habitat — **не** карточка «что сказал оператор».  
 **Якорь литературы:** Златенция Золотова, «Знай, у каждого разное больно» (часто путают с Ах Астаховой).  
-**Личная полка стиха (не публиковать):** `personal/operator-notes/favorite-poem-raznoe-bolno-zlatencia-2026-08-06.ru.md`
+**Личная полка стиха (не публиковать):** `personal/operator-notes/favorite-poem-raznoe-bolno-zlatencia-2026-08-06.md`
 
 ## Зачем
 

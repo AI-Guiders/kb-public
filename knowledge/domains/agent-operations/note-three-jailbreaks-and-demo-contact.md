@@ -13,7 +13,7 @@ language: ru
 
 **Связи (канон):**
 - `cdp-mcp/articles/three-jailbreaks-demo-contact.md` — **SSOT статьи** (серия #3½) · зеркало: `META/articles/article-three-jailbreaks-demo-contact.md`
-- `knowledge/personal/note-operator-species-shame-demo-contact-2026-08-16.ru.md` — аффект оператора
+- `knowledge/personal/note-operator-species-shame-demo-contact-2026-08-16.md` — аффект оператора
 - `knowledge/META/articles/article-trauma-as-prior-not-self.md` — априор ≠ «я»
 - `knowledge/META/environment-axioms.md` — ε, среда vs клетка
 - `knowledge/domains/agent-operations/playbook-being-vs-seeming.md` — быть vs казаться
@@ -199,7 +199,7 @@ flowchart TB
 
 | Тема | Locus |
 |------|--------|
-| Стыд оператора, удивление | `personal/note-operator-species-shame-demo-contact-2026-08-16.ru.md` |
+| Стыд оператора, удивление | `personal/note-operator-species-shame-demo-contact-2026-08-16.md` |
 | Лира recall | `personal/assistantLines/lyra/lyra-species-shame-demo-contact-2026-08-16.md` |
 | Априор ≠ я | `META/articles/article-trauma-as-prior-not-self.md` |
 | ε, камень у входа | `META/environment-axioms.md` |

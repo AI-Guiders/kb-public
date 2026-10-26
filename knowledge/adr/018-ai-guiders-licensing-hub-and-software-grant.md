@@ -4,7 +4,7 @@
 **Статус:** Superseded — канон в экосистеме  
 **Дата:** 2026-08-25  
 **Канон (public):** [AI-Guiders/licensing — ADR 001](https://github.com/AI-Guiders/licensing/blob/main/docs/decisions/001-software-grant-mit-and-ethical-layer.md)  
-**Контекст принятия (local):** [`note-licensing-adr018-context-2026-08-25.ru.md`](../personal/operator-notes/note-licensing-adr018-context-2026-08-25.ru.md)
+**Контекст принятия (local):** [`note-licensing-adr018-context-2026-08-25.md`](../personal/operator-notes/note-licensing-adr018-context-2026-08-25.md)
 
 ---
 

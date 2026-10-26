@@ -55,7 +55,7 @@ subworld: human-factors
 
 **Sources:** [russoft.org/general-information](https://russoft.org/general-information/) · [arppsoft.ru RBPO](https://arppsoft.ru/ie/22725/) · ПП РФ №1729/№1949 · ГОСТ Р 59711-2022 / 59712-2022
 
-**Operator context (personal, не kb-public):** [`../../personal/operator-notes/note-operator-ru-it-cooperation-texture-2026-08-30.ru.md`](../../personal/operator-notes/note-operator-ru-it-cooperation-texture-2026-08-30.ru.md)
+**Operator context (personal, не kb-public):** [`../../personal/operator-notes/note-operator-ru-it-cooperation-texture-2026-08-30.md`](../../personal/operator-notes/note-operator-ru-it-cooperation-texture-2026-08-30.md)
 
 ---
 

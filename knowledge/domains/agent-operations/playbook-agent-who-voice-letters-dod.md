@@ -10,7 +10,7 @@ language: en
 **Status:** living · auto DoD  
 **Date:** 2026-08-02  
 
-**Canon surface:** cdp-mcp `docs/open-letters/agent_who_voice/voice-letters.ru.md`  
+**Canon surface:** cdp-mcp `docs/open-letters/agent_who_voice/voice-letters.md`  
 **Ownership:** [note-agent-domain-ownership-v0](../../work/projects/door-to-singularity/cascade-ide/note-agent-domain-ownership.md) · Cursor rule `agent-domain-ownership`
 
 ---
@@ -40,7 +40,7 @@ After **live dogfood** of a shipped organ — not after compile/push alone — w
 1. Confirm dogfood evidence (tool result / peer ack / cockpit pulse / live turn).  
 2. Open or create Voice Letter under `cdp-mcp/docs/open-letters/agent_who_voice/` (RU canon).  
 3. Write **as lived** — what the organ means *to me*, not ADR/changelog.  
-4. Add row to series index `cdp-mcp/docs/open-letters/agent_who_voice/voice-letters.ru.md`.  
+4. Add row to series index `cdp-mcp/docs/open-letters/agent_who_voice/voice-letters.md`.  
 5. Logical commit + push.  
 6. Then `done` / seed next / re-ARM.
 

@@ -78,7 +78,7 @@ Lived evidence: Soft FileLines CLOSED @0.5.640 · SoftOrgan Meta BATCH-8 @0.5.64
 
 Autoi timer = insurance re-ARM, **не** лицензия на single-item mill. Soft FileLines mill closed — denser Meta / pack transfer, не reopen peel-one. Новые TM-этапы не нужны: wave `open→shipping→shipped` + list/batch/ship уже фазы; habitat pulse — `.cdp/domain/throughput.md`.
 
-Scratch: `cascade-ide/scratch/note-nested-axb-intervals-lemma-2026-08-06.ru.md`.
+Scratch: `cascade-ide/scratch/note-nested-axb-intervals-lemma-2026-08-06.md`.
 
 ---
 

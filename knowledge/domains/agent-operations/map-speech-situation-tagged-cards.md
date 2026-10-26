@@ -21,7 +21,7 @@ language: ru
 | [`playbook-executor-role-inversion-vague-prompt.md`](playbook-executor-role-inversion-vague-prompt.md) | agent_internal · operational_protocol · playbook · kb_canon · medium · professional | operator_pair · instruction · cockpit_dialog · medium · close |
 | [`../../worlds/epistemic-methodology/pack/definitions/claim-observation-split.md`](../../worlds/epistemic-methodology/pack/definitions/claim-observation-split.md) | agent_internal · epistemic_gate · definition_card · kb_canon · medium · professional | colleague · epistemic_gate · cockpit_dialog · medium · professional |
 | [`../../work/projects/door-to-singularity/explainable-learning/note-speech-situations-rubric-axis.md`](../../work/projects/door-to-singularity/explainable-learning/note-speech-situations-rubric-axis.md) | agent_internal · explain_idea · note · kb_canon · low · professional | colleague · paired_markup · kb_canon · low · professional |
-| [`../../personal/case-report-wetware-after-agents-2026-08-22.ru.md`](../../personal/case-report-wetware-after-agents-2026-08-22.ru.md) | internal_diary · phenomenological_self_report · case_report · kb_canon · low · close | friend_tg · phenomenological_self_report · case_report · tg · low · close |
+| [`../../personal/case-report-wetware-after-agents-2026-08-22.md`](../../personal/case-report-wetware-after-agents-2026-08-22.md) | internal_diary · phenomenological_self_report · case_report · kb_canon · low · close | friend_tg · phenomenological_self_report · case_report · tg · low · close |
 
 **Next:** agent-who letters DoD · habitat position · mutual-care · integrity POST spec (META) · 3 XL scenarios register-only.
 
