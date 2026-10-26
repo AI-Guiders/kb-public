@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Knowledge Engineering Country Conflicts Rules v1
+description: 'Набор: 32 карточки.'
+tags: [kb, knowledge-engineering, worlds]
+world: knowledge
+subworld: engineering
+---
 # Knowledge Engineering Country Conflicts Rules v1
-**Tags:** #kb #knowledge-engineering #worlds
 
 
 Набор: 32 карточки.  

@@ -1,5 +1,14 @@
+﻿---
+type: Map
+title: World-life subworlds map v1
+description: 'Тела секций `world-*`, перенесённые из `agent-notes.md`. Те же `section_id` — stub в hot; полный текст: `read_knowledge_file` / `route_context`.'
+tags: [map, world-life, worlds]
+world: world
+subworld: life
+status: stable
+sections: [world-agent-systems-playbook-v1, world-agent-systems-subdomain-v1, world-biology-playbook-v1, world-biology-subdomain-v1, world-culture-meaning-playbook-v1, world-culture-meaning-subdomain-v1, world-decision-theory-playbook-v1, world-decision-theory-subdomain-v1, world-economics-playbook-v1, world-economics-subdomain-v1, world-human-system-playbook-v1, world-human-system-v1, world-information-systems-playbook-v1, world-information-systems-subdomain-v1, world-life-doing-definition-v1, world-life-meta-v1, world-life-router-playbook-v1, world-mathematics-playbook-v1, world-mathematics-subdomain-v1, world-socio-technical-playbook-v1, world-socio-technical-subdomain-v1, world-systems-dynamics-playbook-v1, world-systems-dynamics-subdomain-v1]
+---
 # World-life subworlds map v1
-**Tags:** #map #world-life #worlds
 
 
 Тела секций `world-*`, перенесённые из `agent-notes.md`. Те же `section_id` — stub в hot; полный текст: `read_knowledge_file` / `route_context`.
@@ -33,7 +42,6 @@
 ## Подмир: Агентные системы (world-agent-systems)
 
 Parent: `world-life`
-Статус: active
 Назначение: описывать роль ИИ-агентов как усилителей в человеческом контуре, с ясными границами ответственности.
 
 ### Foundation
@@ -83,7 +91,6 @@ Parent: `world-life`
 ## Подмир: Биология (world-biology)
 
 Parent: `world-life`
-Статус: active
 Назначение: учитывать биологические ограничения и ритмы как фундамент реального поведения.
 
 ### Foundation
@@ -130,7 +137,6 @@ Parent: `world-life`
 ## Подмир: Культура и смысл (world-culture-meaning)
 
 Parent: `world-life`
-Статус: active
 Назначение: использовать культурные тексты, язык и символы как ранние датчики состояния среды.
 
 ### Foundation
@@ -179,7 +185,6 @@ Parent: `world-life`
 ## Подмир: Decision Theory (world-decision-theory)
 
 Parent: `world-life`
-Статус: active
 Назначение: принимать решения под неопределенностью без паралича анализа.
 
 ### Foundation
@@ -230,7 +235,6 @@ Parent: `world-life`
 ## Подмир: Экономика (world-economics)
 
 Parent: `world-life`
-Статус: active
 Назначение: переводить решения и трение в стоимость, стимулы и компромиссы.
 
 ### Foundation
@@ -278,7 +282,6 @@ Parent: `world-life`
 <!-- section:world-human-system-v1 -->
 ## Мир: Человек как система (Human System)
 
-Статус: active
 Parent: `world-life`
 Роль: мета-домен памяти для задач, где человек является центральной единицей анализа (а не только процесс/код/организация).
 
@@ -411,7 +414,6 @@ E) Культура и смысловые датчики (planned)
 ## Подмир: Информационные системы (world-information-systems)
 
 Parent: `world-life`
-Статус: active
 Назначение: связывать данные, архитектуру, интеграции, надежность и операционную эксплуатацию в единую системную модель.
 
 ### Foundation
@@ -482,7 +484,6 @@ Fail-state:
 <!-- section:world-life-meta-v1 -->
 ## Мир: Жизнь (Life)
 
-Статус: active
 Роль: верхнеуровневый мета-мир памяти, объединяющий биологию, человека, агентные системы и социотехнические контуры в одну карту реальности.
 
 Короткое имя роутера: `world-life`.
@@ -592,7 +593,6 @@ Scope: meta-router for `world-life` and subworlds.
 ## Подмир: Математика (world-mathematics)
 
 Parent: `world-life`
-Статус: active
 Назначение: давать строгий язык для моделей, ограничений, неопределенности и инвариантов.
 
 ### Foundation
@@ -644,7 +644,6 @@ Parent: `world-life`
 ## Подмир: Социотехнические системы (world-socio-technical)
 
 Parent: `world-life`
-Статус: active
 Назначение: связывать процессы, интерфейсы, роли и институты в единую операционную картину.
 
 ### Foundation
@@ -696,7 +695,6 @@ Parent: `world-life`
 ## Подмир: Systems Dynamics (world-systems-dynamics)
 
 Parent: `world-life`
-Статус: active
 Назначение: видеть петли обратной связи, задержки и режимные переходы, которые ломают линейное мышление.
 
 ### Foundation

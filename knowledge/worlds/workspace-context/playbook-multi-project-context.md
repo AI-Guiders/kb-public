@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: мультипроектный workspace и рациональный контекст'
+description: '**Назначение:** чтобы агент не смешивал репозитории и не расходовал контекст на лишнее при работе в домашнем workspace с множеством `.sln`, MCP-серверов и карточек в каноне.'
+tags: [living, playbook, workspace-context, worlds]
+world: workspace
+subworld: context
+---
 # Playbook: мультипроектный workspace и рациональный контекст
-**Tags:** #living #playbook #workspace-context #worlds
 
 
 **Назначение:** чтобы агент не смешивал репозитории и не расходовал контекст на лишнее при работе в домашнем workspace с множеством `.sln`, MCP-серверов и карточек в каноне.
@@ -80,7 +87,7 @@
 
 **Выбор карточки / `project-id`:**
 1. Маркеры в сообщении: `[PRIMARY:…]`, `[SCOPE:…]` (важнее дефолта из `workspace-scope-map-v1`).
-2. Иначе `route_context` / `read_hot_context` и блок `active-scope` в заметках.
+2. Иначе `route_context` / `read_hot_context` и указатель `knowledge/work/local/active-scope.md` (машинный слой; в hot секции нет с 2026-10-17).
 3. Иначе хаб `door-to-singularity/door-to-singularity/README.md` — таблица карточек и строка primary.
 4. Если всё ещё неясно — **одна** короткая пометка в начале блока («предполагаю primary: …») **или** один уточняющий вопрос; не молча класть долгоживущие факты в чужую карточку.
 

@@ -1,7 +1,13 @@
+﻿---
+type: Transfer Matrix
+description: Transfer useful safety and coordination patterns from aviation to everyday human interaction without importing aviation-only assumptions.
+tags: [aviation-human-factors, worlds]
+world: aviation
+subworld: human-factors
+---
 <!-- markdownlint-disable MD060 -->
 
 # Aviation -> Human Interaction Transfer Matrix v1
-**Tags:** #aviation-human-factors #worlds
 
 
 ## Purpose

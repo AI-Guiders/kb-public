@@ -1,4 +1,4 @@
-id = "software-authoring"
+﻿id = "software-authoring"
 version = "0.5.1"
 layer = "craft"
 title = "Software authoring — OOA&D, SOLID, GoF licenses, C# traps, mutation craft"

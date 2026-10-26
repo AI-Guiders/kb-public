@@ -1,4 +1,11 @@
-**Tags:** #cognition-math-development #kb #worlds
+﻿---
+type: Evidence Card
+title: Scientific evidence — math development (elementary) v1
+description: '**Мир:** `cognition.math-development`'
+tags: [cognition-math-development, kb, worlds]
+world: cognition
+subworld: math-development
+---
 
 ﻿# Scientific evidence — math development (elementary) v1
 

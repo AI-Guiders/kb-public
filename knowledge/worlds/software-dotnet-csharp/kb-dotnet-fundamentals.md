@@ -1,4 +1,10 @@
-**Tags:** #kb #software-dotnet-csharp #worlds
+﻿---
+type: KB
+description: '**Назначение:** дать опорную картину того, что такое .NET Framework vs .NET (Core), какие есть рантаймы, TFMs и базовые модели приложений, чтобы дальше обсуждать практики и playbook’и на общей базе.'
+tags: [kb, software-dotnet-csharp, worlds]
+world: software
+subworld: dotnet-csharp
+---
 
 ## .NET runtimes and targets — fundamentals
 

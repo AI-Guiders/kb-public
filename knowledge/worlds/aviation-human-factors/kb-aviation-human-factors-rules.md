@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Aviation Human Factors Knowledge Set v1
+description: 'Set: 18 rules.'
+tags: [aviation-human-factors, kb, worlds]
+world: aviation
+subworld: human-factors
+---
 # Aviation Human Factors Knowledge Set v1
-**Tags:** #aviation-human-factors #kb #worlds
 
 
 Set: 18 rules.  

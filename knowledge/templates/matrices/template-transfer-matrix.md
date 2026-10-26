@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: Transfer matrix template (matrix-`<slug>`-v1)
+description: '**Имя файла:** `matrix-<domain-or-topic>-<purpose>.md` (обычно в `worlds/<world>/`).'
+tags: [template, templates]
+---
 
 ﻿# Transfer matrix template (matrix-`<slug>`-v1)
 

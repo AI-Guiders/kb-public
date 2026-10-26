@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Reason (1990) — Swiss Cheese / layered defenses'
+description: Defenses are layers with **holes** (weaknesses). Accident when holes **align** transiently — not because one layer «failed alone».
+tags: [aviation-human-factors, paper-evidence, reason, investigation, worlds]
+world: aviation
+subworld: human-factors
+---
 # Evidence: Reason (1990) — Swiss Cheese / layered defenses
 
-**Tags:** #aviation-human-factors #paper-evidence #reason #investigation #worlds
 
 ## Provenance
 

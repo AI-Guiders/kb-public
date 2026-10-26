@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Bash Playbook v1
+description: Dedicated playbook for Unix shell scripting with predictable behavior and portability discipline.
+tags: [software-automation-scripting, worlds]
+world: software
+subworld: automation-scripting
+---
 # Bash Playbook v1
-**Tags:** #software-automation-scripting #worlds
 
 
 ## Purpose

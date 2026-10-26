@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Chemistry pedagogy — fundamentals v1
+description: '**Мир:** `pedagogy.chemistry`'
+tags: [kb, pedagogy-chemistry, worlds]
+world: pedagogy
+subworld: chemistry
+---
 # Chemistry pedagogy — fundamentals v1
-**Tags:** #kb #pedagogy-chemistry #worlds
 
 
 **Мир:** `pedagogy.chemistry`  

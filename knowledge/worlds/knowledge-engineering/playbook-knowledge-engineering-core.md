@@ -1,7 +1,13 @@
+﻿---
+type: Playbook
+description: Meta-domain for transforming raw experience into reliable, reusable knowledge across all worlds.
+tags: [knowledge-engineering, living, playbook, worlds]
+world: knowledge
+subworld: engineering
+---
 <!-- markdownlint-disable MD022 MD032 -->
 
 # Knowledge Engineering Playbook v1
-**Tags:** #knowledge-engineering #living #playbook #worlds
 
 
 ## Purpose

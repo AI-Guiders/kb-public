@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: Wireshark — диагностика сети'
+description: '> **Scope:** общие приёмы захвата и анализа трафика. Без привязки к конкретным сетям и хостам.'
+tags: [living, ops-network-admin, playbook, worlds]
+world: ops
+subworld: network-admin
+---
 # Playbook: Wireshark — диагностика сети
-**Tags:** #living #ops-network-admin #playbook #worlds
 
 
 > **Scope:** общие приёмы захвата и анализа трафика. Без привязки к конкретным сетям и хостам.

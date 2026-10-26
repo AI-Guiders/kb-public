@@ -1,6 +1,13 @@
+﻿---
+type: Index
+title: LLM-native packs — hub
+description: Рабочий store для **domain packs** продукта `note-llm-native-world-product.md`.
+tags: [worlds, llm-ready, map, kb]
+world: _llm
+subworld: native-packs
+---
 # LLM-native packs — hub
 
-**Tags:** #worlds #llm-ready #map #kb
 
 Рабочий store для **domain packs** продукта `note-llm-native-world-product.md`.  
 Исходные prose/KB **не удаляются** — остаются R0/R1 источниками; pack = LLM-native проекция.

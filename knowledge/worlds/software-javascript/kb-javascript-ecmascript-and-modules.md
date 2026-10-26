@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'ECMAScript: редакции, модули и граница совместимости'
+description: '**Назначение:** опорный слой **спецификации ECMA-262** и **системы модулей** в реальных проектах: годовые редакции, политика «что допустимо в исходниках без транспиляции», ESM vs CommonJS. Мир **`software.javascript`**.'
+tags: [kb, software-javascript, worlds]
+world: software
+subworld: javascript
+---
 # ECMAScript: редакции, модули и граница совместимости
-**Tags:** #kb #software-javascript #worlds
 
 
 **Назначение:** опорный слой **спецификации ECMA-262** и **системы модулей** в реальных проектах: годовые редакции, политика «что допустимо в исходниках без транспиляции», ESM vs CommonJS. Мир **`software.javascript`**.
@@ -87,7 +94,5 @@
 
 ## Lifecycle
 
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

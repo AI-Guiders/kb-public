@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **software.ml-applied**
+description: '**Идентификатор мира:** `software.ml-applied`'
+tags: [readme, software-ml-applied, worlds]
+world: software
+subworld: ml-applied
+---
 # Мир **software.ml-applied**
-**Tags:** #readme #software-ml-applied #worlds
 
 
 **Идентификатор мира:** `software.ml-applied`  

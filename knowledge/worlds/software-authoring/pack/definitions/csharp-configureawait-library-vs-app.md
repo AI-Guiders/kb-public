@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring #csharp #trap
+﻿---
+type: Definition Card
+title: ConfigureAwait — library vs app
+description: В обобщённом библиотечном коде — `ConfigureAwait(false)` на релевантных await. В приложении (UI после await, типичный ASP.NET Core) — не навязывать `false` без нужды.
+tags: [llm-native-card, definition, software-authoring, csharp, trap]
+world: software
+subworld: authoring
+---
 
 # ConfigureAwait — library vs app
 

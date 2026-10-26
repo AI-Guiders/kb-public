@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: 'Project card: `<project-id>` (template)'
+description: '**Путь экземпляра:** `knowledge/work/projects/<scope>/<project-id>/README.md`'
+tags: [template, templates]
+---
 
 ﻿# Project card: `<project-id>` (template)
 

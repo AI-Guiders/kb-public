@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: Hot section (template)
+description: Вставка в **`agent-notes.md`** (personal primary) между маркерами:
+tags: [template, templates]
+---
 
 ﻿# Hot section (template)
 
@@ -10,7 +15,7 @@
 <!-- /section:<section_id> -->
 ```
 
-**section_id:** `A-Za-z0-9._-` (напр. `active-scope`, `knowledge-roots-routing-v1`, `door-to-singularity`).
+**section_id:** `A-Za-z0-9._-` (напр. `agent-equal-standing-v1`, `knowledge-roots-routing-v1`, `door-to-singularity`).
 
 ## Правила
 

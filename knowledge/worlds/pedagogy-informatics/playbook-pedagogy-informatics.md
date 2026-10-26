@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Informatics pedagogy — router v1
+description: '**world:** `pedagogy.informatics`'
+tags: [living, pedagogy-informatics, playbook, worlds]
+world: pedagogy
+subworld: informatics
+---
 # Informatics pedagogy — router v1
-**Tags:** #living #pedagogy-informatics #playbook #worlds
 
 
 **world:** `pedagogy.informatics`

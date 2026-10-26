@@ -1,7 +1,13 @@
+﻿---
+type: KB
+description: 'Set: 16 rules.'
+tags: [hci-ux-dx, kb, worlds]
+world: hci
+subworld: ux-dx
+---
 <!-- markdownlint-disable MD022 MD032 -->
 
 # HCI Usability and Dialog Rules v1
-**Tags:** #hci-ux-dx #kb #worlds
 
 
 Set: 16 rules.  

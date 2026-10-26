@@ -1,4 +1,10 @@
-**Tags:** #llm-native-card #misconception #epistemic-scene #harness #cdp #pair
+﻿---
+type: Misconception Card
+title: 'Misconception: mc-pm-realtime-accept'
+tags: [llm-native-card, misconception, epistemic-scene, harness, cdp, pair]
+world: epistemic
+subworld: scene
+---
 
 # Misconception: mc-pm-realtime-accept
 

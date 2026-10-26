@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Theobald et al. (2020) — active learning in STEM (equity + intensity)'
+description: '**Thesis:** **High-intensity** active learning (≥⅔ class time) improves outcomes for all and **narrows URM achievement gaps** vs traditional lecture — low-intensity active ≈ lecture.'
+tags: [kb, pedagogy-physics, worlds]
+world: pedagogy
+subworld: physics
+---
 # Evidence: Theobald et al. (2020) — active learning in STEM (equity + intensity)
-**Tags:** #kb #pedagogy-physics #worlds
 
 
 ## Provenance

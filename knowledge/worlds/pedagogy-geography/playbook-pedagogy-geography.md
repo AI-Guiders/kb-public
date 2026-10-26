@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Geography pedagogy — router v1
+description: '**world:** `pedagogy.geography`'
+tags: [living, pedagogy-geography, playbook, worlds]
+world: pedagogy
+subworld: geography
+---
 # Geography pedagogy — router v1
-**Tags:** #living #pedagogy-geography #playbook #worlds
 
 
 **world:** `pedagogy.geography`

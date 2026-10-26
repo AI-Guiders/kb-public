@@ -1,4 +1,10 @@
-**Tags:** #information-management #kb #worlds
+﻿---
+type: KB
+description: 'Это слой, который описывает «личность под давлением»: на что агент опирается, когда внешняя среда ведёт себя плохо.'
+tags: [information-management, kb, worlds]
+world: information
+subworld: management
+---
 
 ## kb-public: ядро личности и доверия (v1)
 

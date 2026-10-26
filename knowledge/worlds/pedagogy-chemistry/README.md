@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.chemistry**
+description: '**Идентификатор:** `pedagogy.chemistry`'
+tags: [pedagogy-chemistry, readme, worlds]
+world: pedagogy
+subworld: chemistry
+---
 # Мир **pedagogy.chemistry**
-**Tags:** #pedagogy-chemistry #readme #worlds
 
 
 **Идентификатор:** `pedagogy.chemistry`  

@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring
+﻿---
+type: Definition Card
+title: SOLID — Liskov Substitution
+description: Подтип можно подставить без нарушения контракта базы.
+tags: [llm-native-card, definition, software-authoring]
+world: software
+subworld: authoring
+---
 
 # SOLID — Liskov Substitution
 

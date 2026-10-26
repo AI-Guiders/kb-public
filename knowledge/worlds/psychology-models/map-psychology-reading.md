@@ -1,7 +1,13 @@
+﻿---
+type: Map
+description: Build a layered, evidence-aware psychology base from classical schools to modern validation.
+tags: [map, psychology-models, worlds]
+world: psychology
+subworld: models
+---
 <!-- markdownlint-disable MD032 -->
 
 # Psychology Reading Map v1
-**Tags:** #map #psychology-models #worlds
 
 
 ## Objective

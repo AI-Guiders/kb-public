@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: '`software.authoring.dotnet.csharp.desktop-ui.avalonia`'
+description: '**World tag:** `software.authoring.dotnet.csharp.desktop-ui.avalonia`'
+tags: [readme, software-dotnet-avalonia, worlds]
+world: software
+subworld: dotnet-avalonia
+---
 # `software.authoring.dotnet.csharp.desktop-ui.avalonia`
-**Tags:** #readme #software-dotnet-avalonia #worlds
 
 
 **World tag:** `software.authoring.dotnet.csharp.desktop-ui.avalonia`  

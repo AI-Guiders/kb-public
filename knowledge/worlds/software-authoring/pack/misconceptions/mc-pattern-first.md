@@ -1,4 +1,10 @@
-**Tags:** #llm-native-card #misconception #software-authoring #gof
+﻿---
+type: Misconception Card
+title: 'Misconception: mc-pattern-first'
+tags: [llm-native-card, misconception, software-authoring, gof]
+world: software
+subworld: authoring
+---
 
 # Misconception: mc-pattern-first
 

@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Avalonia + Dock UI — operational playbook v1
+description: 'Операционный контракт для агента и разработчика: от **дизайн-задачи** до **проверенной** правки в Avalonia/Dock (как в CascadeIDE). Фундаментальные понятия — `kb-avalonia-ui-dock-fundamentals.md`. Версии и статус домена — `status-avalonia-cascade-ide-ui.md`.'
+tags: [living, playbook, software-dotnet-avalonia, worlds]
+world: software
+subworld: dotnet-avalonia
+---
 # Avalonia + Dock UI — operational playbook v1
-**Tags:** #living #playbook #software-dotnet-avalonia #worlds
 
 
 ## Purpose

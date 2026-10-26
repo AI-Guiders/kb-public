@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'KB evidence: AVEVA PML v1'
+description: '**Назначение:** первоисточники и учебные материалы для `kb-pml-fundamentals.md`.'
+tags: [engineering-pml, kb, worlds]
+world: engineering
+subworld: pml
+---
 # KB evidence: AVEVA PML v1
-**Tags:** #engineering-pml #kb #worlds
 
 
 **Назначение:** первоисточники и учебные материалы для `kb-pml-fundamentals.md`.

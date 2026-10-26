@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Biology pedagogy — router v1
+description: '**world:** `pedagogy.biology`'
+tags: [living, pedagogy-biology, playbook, worlds]
+world: pedagogy
+subworld: biology
+---
 # Biology pedagogy — router v1
-**Tags:** #living #pedagogy-biology #playbook #worlds
 
 
 **world:** `pedagogy.biology`

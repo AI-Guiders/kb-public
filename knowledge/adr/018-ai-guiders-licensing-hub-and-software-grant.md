@@ -1,4 +1,4 @@
-# ADR 018: AI-Guiders licensing hub — MIT для software, ethical layer отдельно
+﻿# ADR 018: AI-Guiders licensing hub — MIT для software, ethical layer отдельно
 **Tags:** #adr #ai-guiders #licensing
 
 **Статус:** Superseded — канон в экосистеме  

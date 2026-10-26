@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Early caregiving — fundamentals v1
+description: '**Статус:** справочник для родительской/педиатрической практики; **не** CASA spec.'
+tags: [cognition-early-caregiving, kb, worlds]
+world: cognition
+subworld: early-caregiving
+---
 # Early caregiving — fundamentals v1
-**Tags:** #cognition-early-caregiving #kb #worlds
 
 
 **Статус:** справочник для родительской/педиатрической практики; **не** CASA spec.  

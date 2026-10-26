@@ -1,5 +1,13 @@
+﻿---
+type: KB
+title: 'JavaScript — operational: экосистема, сборка, тесты, угрозы'
+description: '**Назначение:** **операционный слой** мира **`software.javascript`** после fundamentals: npm/lockfile, semver, статический анализ, бандлеры, тест‑раннеры, базовая модель угроз (XSS, CSP, динамический код). Не заменяет спецификацию языка — см. карточки `kb-javascript-*` в фазе fundamentals в `index-knowledge-javascript-cluster.md`.'
+tags: [kb, software-javascript, worlds]
+world: software
+subworld: javascript
+supersedes: [kb-javascript-runtime-tooling-and-security-baseline-v1 (содержимое tooling/security перенесено сюда; движки — в `kb-javascript-ecmascript-and-modules.md` § реализации)]
+---
 # JavaScript — operational: экосистема, сборка, тесты, угрозы
-**Tags:** #kb #software-javascript #worlds
 
 
 **Назначение:** **операционный слой** мира **`software.javascript`** после fundamentals: npm/lockfile, semver, статический анализ, бандлеры, тест‑раннеры, базовая модель угроз (XSS, CSP, динамический код). Не заменяет спецификацию языка — см. карточки `kb-javascript-*` в фазе fundamentals в `index-knowledge-javascript-cluster.md`.
@@ -79,7 +87,5 @@
 
 ## Lifecycle
 
-- supersedes: kb-javascript-runtime-tooling-and-security-baseline-v1 (содержимое tooling/security перенесено сюда; движки — в `kb-javascript-ecmascript-and-modules.md` § реализации)
-- superseded_by: —
 - deprecation_reason: —
 

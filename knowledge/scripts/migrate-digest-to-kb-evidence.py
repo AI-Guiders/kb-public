@@ -1,4 +1,4 @@
-# One-off: migrate digest-engineering-reading-v1.md to kb-engineering-evidence-v1.md by knowledge theme.
+﻿# One-off: migrate digest-engineering-reading-v1.md to kb-engineering-evidence-v1.md by knowledge theme.
 # Run from knowledge/ folder. Reads digest, writes kb with entries grouped by theme (not batch).
 # Batch -> theme mapping (by batch title and entry content):
 BATCH_TO_THEME = {

@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Automation Scripting Playbook v1
+description: Router playbook for project-aware automation decisions across scripting and container tools.
+tags: [software-automation-scripting, worlds]
+world: software
+subworld: automation-scripting
+---
 # Automation Scripting Playbook v1
-**Tags:** #software-automation-scripting #worlds
 
 
 ## Purpose

@@ -1,4 +1,4 @@
-# ADR 011: GitHub-организация AI-Guiders и репозиторий совместной KB (`AI-Guiders/kb`)
+﻿# ADR 011: GitHub-организация AI-Guiders и репозиторий совместной KB (`AI-Guiders/kb`)
 **Tags:** #adr
 
 

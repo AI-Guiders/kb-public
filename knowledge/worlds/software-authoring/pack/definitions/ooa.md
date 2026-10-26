@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring
+﻿---
+type: Definition Card
+title: OOA — Object-Oriented Analysis
+description: 'Понять предметную область: понятия, правила, сценарии — ещё без привязки к файлам/C#.'
+tags: [llm-native-card, definition, software-authoring]
+world: software
+subworld: authoring
+---
 
 # OOA — Object-Oriented Analysis
 

@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Laravel — фронтенд-стеки: Blade, Livewire, Filament, Inertia'
+description: '**Назначение:** выбор и границы **UI-слоёв** вокруг Laravel без привязки к одной версии пакета (версии — из `composer.lock` / `package.json`). Мир `software.laravel` + `software.web-frontend` (частично).'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Laravel — фронтенд-стеки: Blade, Livewire, Filament, Inertia
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** выбор и границы **UI-слоёв** вокруг Laravel без привязки к одной версии пакета (версии — из `composer.lock` / `package.json`). Мир `software.laravel` + `software.web-frontend` (частично).
@@ -99,7 +106,5 @@
 - rollback_or_mitigation: feature flags для новых UI-модулей
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

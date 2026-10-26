@@ -1,3 +1,8 @@
+﻿---
+type: Note
+title: 'WORK: CDP-ADR-0218 — unified recall facade (`recall_knowledge`) + G1 UX'
+description: '**Status:** done · shipped 2026-09-12 (`4740608` guiders-core, `85ee3dd` cdp-mcp, `587193c` agent-notes; habitat `0.5.764+85ee3dd`)'
+---
 # WORK: CDP-ADR-0218 — unified recall facade (`recall_knowledge`) + G1 UX
 
 **Status:** done · shipped 2026-09-12 (`4740608` guiders-core, `85ee3dd` cdp-mcp, `587193c` agent-notes; habitat `0.5.764+85ee3dd`)  
@@ -12,7 +17,7 @@ CDP-ADR-0210 v0+v1 **shipped** (federated `knowledge_tags mode=search`, optional
 
 Проблема осталась **G1 cognitive**: агенты вызывают `memory_session_search_agent_notes` для corpus-тем → 0 hits выглядит как «нет данных», не «wrong layer».
 
-**Цель leaf:** один фасад «найди в KB» + мелкие UX-фиксы affordance/empty.
+**Цель UoW:** один фасад «найди в KB» + мелкие UX-фиксы affordance/empty.
 
 **Не цель:** v2 pre-write gate, F# `Recall` contract, rename breaking MCP tools, external HCI FTS.
 
@@ -92,7 +97,7 @@ layer=hot    → step 4 only
 - Если corpus дал результат — **hot всё равно не вызывать** в `auto` (экономия; hot только когда corpus пуст).
 - Поле `hot` — только если hot layer выполнялся или `layer=hot`.
 
-### G1 UX без facade (в том же leaf, малый diff)
+### G1 UX без facade (в том же UoW, малый diff)
 
 1. **`NotesStorage.Search`**: при `total_matches=0` добавить:
    - `layer: "hot"`, `searched: "agent-notes.md"`
@@ -198,5 +203,5 @@ cdp_citizen @intent kb q=HF Swarm                      # → recall_knowledge
 
 ## Seed для implement-чата
 
-Implement WORK CDP-ADR-0218 recall_knowledge facade per this leaf. Min diff, reuse KnowledgeTagIndex + KnowledgeCorpusRecall + NotesStorage.Search. Ship tests + deploy smoke.
+Implement WORK CDP-ADR-0218 recall_knowledge facade per this UoW. Min diff, reuse KnowledgeTagIndex + KnowledgeCorpusRecall + NotesStorage.Search. Ship tests + deploy smoke.
 

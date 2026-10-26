@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: CASE (Computer-Aided Software Engineering) — fundamentals v1
+description: '**Назначение:** что такое CASE как класс продуктов и идей, что дошли до рынка, почему волна спала, что осталось жить — без ностальгии по UML-диаграммам ради диаграмм.'
+tags: [software-case-workbench, kb, worlds, case, uml, mda, rose]
+world: software
+subworld: case-workbench
+---
 # CASE (Computer-Aided Software Engineering) — fundamentals v1
-**Tags:** #software-case-workbench #kb #worlds #case #uml #mda #rose
 
 **Назначение:** что такое CASE как класс продуктов и идей, что дошли до рынка, почему волна спала, что осталось жить — без ностальгии по UML-диаграммам ради диаграмм.
 

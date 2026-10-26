@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Ehri (2014) — Orthographic mapping'
+description: '**Orthographic mapping (OM):** formation of letter-sound connections bonding **spelling ↔ pronunciation ↔ meaning** in memory → **sight word reading**, spelling memory, vocabulary from print.'
+tags: [kb, pedagogy-russian-language, worlds]
+world: pedagogy
+subworld: russian-language
+---
 # Evidence: Ehri (2014) — Orthographic mapping
-**Tags:** #kb #pedagogy-russian-language #worlds
 
 
 ## Provenance

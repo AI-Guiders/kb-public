@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Fundamentals → Operational playbook v1
+description: '**world:** `pedagogy.general`'
+tags: [living, pedagogy-general, playbook, worlds]
+world: pedagogy
+subworld: general
+---
 # Fundamentals → Operational playbook v1
-**Tags:** #living #pedagogy-general #playbook #worlds
 
 
 **world:** `pedagogy.general`  

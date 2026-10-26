@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.informatics**
+description: '**Идентификатор:** `pedagogy.informatics`'
+tags: [pedagogy-informatics, readme, worlds]
+world: pedagogy
+subworld: informatics
+---
 # Мир **pedagogy.informatics**
-**Tags:** #pedagogy-informatics #readme #worlds
 
 
 **Идентификатор:** `pedagogy.informatics`  

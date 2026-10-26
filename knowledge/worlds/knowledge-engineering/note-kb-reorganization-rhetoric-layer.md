@@ -1,6 +1,13 @@
+﻿---
+type: Note
+title: 'Note: KB reorganization — rhetoric layer & agent operations v1'
+description: '**Status:** proposal + first slice shipped 2026-08-22'
+tags: [knowledge-engineering, kb-taxonomy, rhetoric-pragmatics, living]
+world: knowledge
+subworld: engineering
+---
 # Note: KB reorganization — rhetoric layer & agent operations v1
 
-**Tags:** #knowledge-engineering #kb-taxonomy #rhetoric-pragmatics #living  
 **Status:** proposal + first slice shipped 2026-08-22  
 **ADR context:** [009-kb-entry-structure-and-pre-open-onboarding.md](../../adr/009-kb-entry-structure-and-pre-open-onboarding.md) — **инкремент**, не big bang.
 

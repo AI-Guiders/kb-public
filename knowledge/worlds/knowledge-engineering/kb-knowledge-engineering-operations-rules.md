@@ -1,5 +1,16 @@
+﻿---
+type: KB
+title: Knowledge Engineering Knowledge Set v1 (Operations Rules)
+description: 'Set: 20 cards.'
+tags: [kb, knowledge-engineering, worlds]
+verified:
+  - by: human:operator
+    at: 2026-10-17
+world: knowledge
+subworld: engineering
+sections: [ke-archive-order-and-doc-versioning-v1]
+---
 # Knowledge Engineering Knowledge Set v1 (Operations Rules)
-**Tags:** #kb #knowledge-engineering #worlds
 
 
 Set: 20 cards.  
@@ -194,4 +205,17 @@ Focus: knowledge-engineering operational reliability (retention, section updates
 - Archive revision extracts (retention, revision hygiene, layered loading).
 - Tool-trace patterns from long operational transcript (append/upsert/restore behavior).
 - Operational incidents around context compression and recovery workflow.
+
+<!-- section:ke-archive-order-and-doc-versioning-v1 -->
+## Порядок ревизий, версионирование текста и BOM (v1)
+
+- **Порядок ревизий в `knowledge/.revisions/` читается по префиксу имени** (`YYYYMMDD-HHMMSS`), **не по `LastWriteTime`**: время записи у ревизий трогается копированием/бэкапом. Проверено 2026-10-17: старейшая по имени — `20260308-…-upsert-index-knowledge-router.md`, старейшая по mtime — файл от `2026-04-11`.
+- **Документ не версионируется сам.** «v0.2» в заголовке и раздел «что изменилось» — это работа git; в тексте допустимо только «создан/обновлён», и то по нужде.
+- **Код-идентификатор в прозе не живёт** («см. S4», «§ 3.2»): ссылаемся **именем раздела**.
+- **Ссылка на канон — только после чтения канона.** Правило, приписанное файлу, проверяется по этому файлу; иначе это ложный провенанс.
+- **BOM в начале файла делает первую строку невидимой для анкорных правил** (шаблон `^`): тот же механизм, которым молча «уводило» маркер публикации. Проверено: в файле с BOM анкорный поиск заголовка на первой строке даёт 0 совпадений.
+- **BOM пишет инструмент, и это баг с известной причиной.** `AIGuiders.AgentNotes.Core` → `NotesStorage.cs`: запись идёт через `File.WriteAllText(path, content, Encoding.UTF8)`, а `Encoding.UTF8` — кодировщик **с** BOM (его `GetPreamble()` = `EF BB BF`); парный «без BOM» — `new UTF8Encoding(false)`. Незаметно потому, что чтение там же идёт через `Encoding.UTF8`, а `ReadAllText` BOM **срезает**: изнутри цикл «прочитал без BOM → записал с BOM» выглядит одинаково. Механизм подтверждён и зондами живого MCP, и исходником **той сборки, что запущена** (`AgentNotes.Core 2.2.5+50f2d620`; `NotesStorage.cs` в ней не менялся). Мера: писать без BOM + тест «после записи BOM нет»; до этого — снимать побайтово (`EF BB BF`) после записи.
+- **Утверждение о работающем коде — по коммиту из бинаря, не по соседнему чекауту.** Номер версии линию не доказывает: `ProductVersion`/`FileVersion` из dll даёт коммит (`2.2.5+50f2d620`), и уже по нему строка проверяется в исходниках. Соседний чекаут может быть на день новее сборки и с тем же номером версии (оплачено 2026-10-17).
+- **Замер BOM ловит сам себя, если мерить культурой.** `StartsWith` со строкой из символа U+FEFF в .NET culture-sensitive: U+FEFF считается игнорируемым, и на чистом файле получаешь «BOM есть». Мерить побайтово или через `StringComparison::Ordinal`.
+<!-- /section:ke-archive-order-and-doc-versioning-v1 -->
 

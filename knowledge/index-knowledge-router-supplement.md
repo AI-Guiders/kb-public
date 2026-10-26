@@ -1,4 +1,10 @@
-**Tags:** #kb-root
+﻿---
+type: Router
+title: Knowledge Router — Supplement (detailed domain routes) v1
+description: '**Роль:** триггеры «когда грузить какой playbook/kb» по темам — все секции `<!-- section:router-* -->` и `learn-basics-when-stuck-router`. Раньше жили в `index-knowledge-router.md` сразу после Context Budget.'
+tags: [kb-root]
+sections: [router-kb-structure-adr009, router-logic, router-value-utility, router-agent-memory-hub, router-proactive-micro-improvements, router-fuzzy-search-implicit-language, router-principled-clarity, router-strict-execution-analogy, router-reconnaissance-before-action, router-agent-kb-responsibility, router-bci-medicine, router-consciousness-autonomy, router-secret-mode, router-rhetoric-pragmatics, router-clarification, router-polyamory, router-therapy, router-uncanny-valley, router-human-perception, router-language-acquisition, router-early-caregiving, router-troubleshooting-index, router-videography, router-ml, router-dotnet, router-php-laravel, router-javascript, router-pml, router-avalonia-ui, router-equation-ca-cuda-validation, router-mt-lattice-fluid, router-voyager-science-reference, router-warehouse, router-music, router-regex, router-sysadmin-ops, learn-basics-when-stuck-router, router-agent-autonomy, router-multi-project-context, router-session-summary, router-kb-world-public-authoring, router-kb-mcp-access, router-cursor-mcp-remount, router-captain-parallel-agents, router-clean-setup, router-org-kb-white-label, router-pedagogy-school-subjects]
+---
 
 ﻿# Knowledge Router — Supplement (detailed domain routes) v1
 
@@ -304,6 +310,28 @@
   - `knowledge/worlds/math-numerics-pde/playbook-equation-ca-cuda-validation.md` — пошаговый контракт базовой валидации (референс, нормы, сходимость, метаданные, критерии прохождения).
 - Дополнительно при необходимости: `knowledge/worlds/math-numerics-pde/kb-math-numerical-schemes-fundamentals.md` (см. router-math-numerics). Слой валидации для проекта equation-to-ca-cuda; решения о корректности — по критериям из KB, не по одному числу на выходе.
 <!-- /section:router-equation-ca-cuda-validation -->
+
+<!-- section:router-mt-lattice-fluid -->
+
+
+## mt-lattice-fluid (Planck lattice · cosmology · mt_ca)
+
+- **При запросах о зародыше пузыря, фазах льда/boil, локальной vs глобальной тепловой смерти (D2/D3), CMB↔`N_tick`, gate `b`, IV→I dogfood, скриптах `run_*` в `open/mt-lattice-fluid`:** загружать:
+  - `knowledge/work/projects/door-to-singularity/mt-lattice-fluid/README.md` — project card;
+  - `knowledge/work/projects/door-to-singularity/mt-lattice-fluid/kb-mt-lattice-fluid-cosmology-genesis-v1.md` — космология, лёд, частичные домены, CMB envelope;
+  - `knowledge/work/projects/door-to-singularity/mt-lattice-fluid/kb-mt-lattice-fluid-agent-routing-v1.md` — маршрутизация агента, скрипты.
+- **При запросах о cuboctahedron §8.2·geo, наблюдателе на сфере, силуэте vs дуге (a/R, θ_res):** `knowledge/work/projects/door-to-singularity/mt-lattice-fluid/kb-mt-lattice-fluid-cuboctahedron-observer-geometry-v1.md`.
+- SSOT физики остаётся в репо (`MODEL.md`, `META.md`); KB — operational synthesis, не подмена канона.
+- **Не путать** с `equation-to-ca-cuda` (PDE heat validation) и `ca-substrate-agent` (ML CA agent).
+<!-- /section:router-mt-lattice-fluid -->
+
+<!-- section:router-voyager-science-reference -->
+
+
+## Voyager / science-reference (NASA interstellar probes)
+
+- **При запросах о Voyager 1/2, heliopause, VLISM, RTG/power-off, дистанции au/light-day, MAG/PWS/CRS:** `knowledge/domains/science-reference/kb-voyager-interstellar-mission-status-v1.md` (снимок + ссылки NASA/Horizons). Не путать с CDP GraphQL `voyager`.
+<!-- /section:router-voyager-science-reference -->
 
 <!-- section:router-warehouse -->
 

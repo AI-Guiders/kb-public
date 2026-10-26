@@ -1,6 +1,13 @@
+﻿---
+type: Index
+title: Мир **rhetoric.pragmatics** (риторика, прагматика, речевые ситуации)
+description: '**World id:** `rhetoric.pragmatics`'
+tags: [rhetoric-pragmatics, readme, worlds]
+world: rhetoric
+subworld: pragmatics
+---
 # Мир **rhetoric.pragmatics** (риторика, прагматика, речевые ситуации)
 
-**Tags:** #rhetoric-pragmatics #readme #worlds  
 **World id:** `rhetoric.pragmatics`  
 **Статус:** v0 · fundamental pass started 2026-08-22
 

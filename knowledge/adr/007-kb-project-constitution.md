@@ -1,4 +1,4 @@
-# ADR 007: KB Project Constitution
+﻿# ADR 007: KB Project Constitution
 **Tags:** #adr
 
 

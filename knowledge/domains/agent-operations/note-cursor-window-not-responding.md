@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'Cursor: The window is not responding (Reopen / Close / Keep Waiting)'
+description: '**Status:** Identified · 2026-07-31'
+tags: [agent-operations, cursor, harness, epsilon, continuity]
+---
 # Cursor: The window is not responding (Reopen / Close / Keep Waiting)
-**Tags:** #agent-operations #cursor #harness #epsilon #continuity
 **Status:** Identified · 2026-07-31
 **Links:** `note-cursor-planning-connection-flake.md` · VS Code `windowImpl.ts` stall path
 

@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Mathematics pedagogy — router v1
+description: '**world:** `pedagogy.mathematics`'
+tags: [living, pedagogy-mathematics, playbook, worlds]
+world: pedagogy
+subworld: mathematics
+---
 # Mathematics pedagogy — router v1
-**Tags:** #living #pedagogy-mathematics #playbook #worlds
 
 
 **world:** `pedagogy.mathematics`

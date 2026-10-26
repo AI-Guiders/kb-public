@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Troubleshooting — knowledge.engineering
+description: 'Runbook (операции): [`../runbook-kb-mcp-access.md`](../runbook-kb-mcp-access.md).'
+tags: [knowledge-engineering, readme, worlds]
+world: knowledge
+subworld: engineering
+---
 # Troubleshooting — knowledge.engineering
-**Tags:** #knowledge-engineering #readme #worlds
 
 
 | Файл | Роль |

@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Drupal — архитектура и операции (ядро, модули, конфигурация)
+description: '**Назначение:** опорная карта **Drupal 8+** (современное ядро на Symfony-компонентах): структура, модули, сущности, конфигурация, деплой. Мир `software.drupal`. Drupal 7 и ниже — legacy; упоминать только как «наследие».'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Drupal — архитектура и операции (ядро, модули, конфигурация)
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** опорная карта **Drupal 8+** (современное ядро на Symfony-компонентах): структура, модули, сущности, конфигурация, деплой. Мир `software.drupal`. Drupal 7 и ниже — legacy; упоминать только как «наследие».
@@ -104,7 +111,5 @@
 - rollback_or_mitigation: откат релиза + импорт предыдущего config snapshot
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

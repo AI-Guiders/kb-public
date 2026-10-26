@@ -1,6 +1,13 @@
+﻿---
+type: Note
+title: Inventory — L0 / extended → pack definition ids
+description: '**Date:** 2026-07-20'
+tags: [worlds, llm-ready, map, epistemic]
+world: _llm
+subworld: native-packs
+---
 # Inventory — L0 / extended → pack definition ids
 
-**Tags:** #worlds #llm-ready #map #epistemic  
 **Date:** 2026-07-20  
 **Layers:** [`note-pack-layers.md`](note-pack-layers.md)
 

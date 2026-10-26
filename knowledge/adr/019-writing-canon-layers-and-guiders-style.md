@@ -1,4 +1,4 @@
-# ADR 019: Writing canon layers — mirror (normative: CDP-ADR-0207)
+﻿# ADR 019: Writing canon layers — mirror (normative: CDP-ADR-0207)
 **Tags:** #adr #cdp #mirror
 
 
@@ -17,7 +17,7 @@
 
 | Plane | Layers |
 |-------|--------|
-| **code** | L0 KB style → L1 guiders-style/{lang} → L2 project `.cdp/canon.md` → L3 scope leaf (opt) |
+| **code** | L0 KB style → L1 guiders-style/{lang} → L2 project `.cdp/canon.md` → L3 scope UoW (opt) |
 | **operator** | personal `operator-writing-prefs` (primary canon) |
 
 Product ADR = decision log only.

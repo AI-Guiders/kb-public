@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Thomas & Collier (2017) — dual-language schooling longitudinal outcomes'
+description: '**Thesis:** **long-term dual-language** schooling (both L1 and L2 as media of instruction) closes achievement gaps; **short English-only or short transitional** programs close ~**half** the gap at best.'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Evidence: Thomas & Collier (2017) — dual-language schooling longitudinal outcomes
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Provenance

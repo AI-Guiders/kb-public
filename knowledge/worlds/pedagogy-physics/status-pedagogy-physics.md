@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.physics v1'
+description: '**Домен:** физика — school conceptual instruction v1'
+tags: [pedagogy-physics, status, worlds]
+world: pedagogy
+subworld: physics
+---
 # Status: pedagogy.physics v1
-**Tags:** #pedagogy-physics #status #worlds
 
 
 **Домен:** физика — school conceptual instruction v1  

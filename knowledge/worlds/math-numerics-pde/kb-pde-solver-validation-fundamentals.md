@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: PDE solver validation — fundamentals v1
+description: '**Назначение:** дать опорное понимание, что такое «валидация» численного решения PDE и почему одного скаляра (например, значение в одной точке без NaN) недостаточно для утверждения о корректности.'
+tags: [kb, math-numerics-pde, worlds]
+world: math
+subworld: numerics-pde
+---
 # PDE solver validation — fundamentals v1
-**Tags:** #kb #math-numerics-pde #worlds
 
 
 **Назначение:** дать опорное понимание, что такое «валидация» численного решения PDE и почему одного скаляра (например, значение в одной точке без NaN) недостаточно для утверждения о корректности.

@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Cursor: coordinator + local Task workers'
+description: '**Domain:** `agent-operations`'
+tags: [agent-operations, cursor, cdp, orchestration, subagent, living, playbook]
+---
 # Cursor: coordinator + local Task workers
-**Tags:** #agent-operations #cursor #cdp #orchestration #subagent #living #playbook
 
 **Domain:** `agent-operations`  
 **Status:** living · 2026-09-12  
@@ -17,7 +22,7 @@
 
 ## Одна строка
 
-**Один coordinator-чат (Legacy Pro feel) + локальные Task sub-agents с CDP MCP на implement; leaf-md = контракт; ship/push = ритуал coordinator после verify, не worker по умолчанию.**
+**Один coordinator-чат (Legacy Pro feel) + локальные Task sub-agents с CDP MCP на implement; WORK-md = контракт; ship/push = ритуал coordinator после verify, не worker по умолчанию.**
 
 ---
 
@@ -26,7 +31,7 @@
 | Модель | Плюс | Минус |
 |--------|------|-------|
 | Один длинный чат | arc, steer, «как раньше» | Conversation >70K, recall деградирует |
-| Leaf-чат на каждый эпик | чистый контекст | оператор прыгает между тредами; arc теряется |
+| UoW-чат на каждый эпик | чистый контекст | оператор прыгает между тредами; arc теряется |
 | Inbox + work | дисциплина capture | work-чат всё ещё отдельный тред |
 
 **2026-09:** локальные `Task` sub-agents снова получают **полный CDP MCP** (`GetDynamicTools` / `CallDynamicTool`, `user-cdp/*`). Cloud workers не используем.
@@ -47,22 +52,22 @@ Operator ↔ Coordinator (этот чат)
 | Роль | Делает | Не делает |
 |------|--------|-----------|
 | **Coordinator** | intent, WORK slices, dispatch, review, merge conflicts, deploy gate, logical commits | Не обязан сам писать весь код, если worker справился |
-| **Worker** | implement по WORK md, unit tests, локальный smoke | push без явного leaf; архитектурный pivot; второй эпик «заодно» |
+| **Worker** | implement по WORK md, unit tests, локальный smoke | push без явного UoW; архитектурный pivot; второй эпик «заодно» |
 | **Operator** | steer, approve risky push, session-close | — |
 
 ---
 
-## Когда coordinator+workers vs leaf-чат
+## Когда coordinator+workers vs UoW-чат
 
 | Ситуация | Выбор |
 |----------|--------|
 | Закрытый vertical slice, touch list известен | **Worker** |
 | Архитектура / «а если иначе» | **Coordinator** (Plan) |
-| Operator хочет править каждый diff inline | **Leaf-чат** или coordinator без worker |
+| Operator хочет править каждый diff inline | **UoW-чат** или coordinator без worker |
 | 2–3 независимых эпика (0218 + LUS + docs) | **Workers параллельно** |
 | Dig-only / research | `explore` worker или coordinator |
 
-Leaf-чат **не мёртв** — fallback когда нужен плотный human-in-loop на каждом шаге.
+UoW-чат **не мёртв** — fallback когда нужен плотный human-in-loop на каждом шаге.
 
 ---
 

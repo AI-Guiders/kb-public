@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring #csharp #trap
+﻿---
+type: Definition Card
+title: IEnumerable — materialize when multipass
+description: Повторный enumerate может быть дорогим или с побочными эффектами. Несколько проходов — осознанно материализовать (`ToList` и т.п.).
+tags: [llm-native-card, definition, software-authoring, csharp, trap]
+world: software
+subworld: authoring
+---
 
 # IEnumerable — materialize when multipass
 

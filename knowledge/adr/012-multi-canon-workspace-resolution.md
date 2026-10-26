@@ -1,4 +1,4 @@
-# ADR 012: Multi-canon resolution (личный + org) и workspace-конфиг MCP
+﻿# ADR 012: Multi-canon resolution (личный + org) и workspace-конфиг MCP
 **Tags:** #adr
 
 

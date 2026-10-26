@@ -1,6 +1,11 @@
+﻿---
+type: Article
+title: 'Mirror: relational partnership alignment field survey'
+description: '**SSOT:** `cdp-mcp/articles/relational-partnership-alignment-field.md` (серия Predictive minds #7)'
+tags: [meta, article, mirror]
+---
 # Mirror: relational partnership alignment field survey
 
-**Tags:** #meta #article #mirror
 
 **SSOT:** `cdp-mcp/articles/relational-partnership-alignment-field.md` (серия Predictive minds #7)
 

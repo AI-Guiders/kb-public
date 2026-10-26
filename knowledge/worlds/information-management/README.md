@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **information.management** (IM)
+description: '**Назначение:** IM playbook, публичная идентичность и доверие, открытые вопросы, purpose/books.'
+tags: [information-management, readme, worlds]
+world: information
+subworld: management
+---
 # Мир **information.management** (IM)
-**Tags:** #information-management #readme #worlds
 
 
 **Назначение:** IM playbook, публичная идентичность и доверие, открытые вопросы, purpose/books.

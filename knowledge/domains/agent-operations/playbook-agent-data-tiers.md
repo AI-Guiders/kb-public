@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: tiers данных для агентов'
+description: '**Домен:** agent-operations'
+tags: [agent-operations, domains, living, playbook]
+---
 # Playbook: tiers данных для агентов
-**Tags:** #agent-operations #domains #living #playbook
 
 
 **Домен:** agent-operations  

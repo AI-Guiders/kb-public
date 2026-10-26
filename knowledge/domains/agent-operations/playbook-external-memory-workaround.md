@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'External memory: запись в артефакты как обход harness'
+description: '**Domain:** `agent-operations`'
+tags: [agent-operations, domains, living, playbook]
+---
 # External memory: запись в артефакты как обход harness
-**Tags:** #agent-operations #domains #living #playbook
 
 
 **Domain:** `agent-operations`  

@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Child language acquisition — operational playbook v1
+description: '**Purpose:** когда и как использовать мир `cognition.language-acquisition`.'
+tags: [cognition-language-acquisition, living, playbook, worlds]
+world: cognition
+subworld: language-acquisition
+---
 # Child language acquisition — operational playbook v1
-**Tags:** #cognition-language-acquisition #living #playbook #worlds
 
 
 **Purpose:** когда и как использовать мир `cognition.language-acquisition`.  

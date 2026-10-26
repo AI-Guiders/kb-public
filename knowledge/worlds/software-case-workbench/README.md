@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **software.case-workbench** (CASE / Vision–Decision Environment)
+description: '**Назначение:** история и предметка **CASE** (Computer-Aided Software Engineering) — workbench-класс для SE: модель estate, multi-view, traceability, round-trip; перенос в Guiders Platform (ADR-0023, fleet thesis).'
+tags: [software-case-workbench, readme, worlds, case, mda, uml, workbench]
+world: software
+subworld: case-workbench
+---
 # Мир **software.case-workbench** (CASE / Vision–Decision Environment)
-**Tags:** #software-case-workbench #readme #worlds #case #mda #uml #workbench
 
 **Назначение:** история и предметка **CASE** (Computer-Aided Software Engineering) — workbench-класс для SE: модель estate, multi-view, traceability, round-trip; перенос в Guiders Platform (ADR-0023, fleet thesis).
 

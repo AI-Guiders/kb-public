@@ -1,8 +1,13 @@
+﻿---
+type: Note
+title: 'Note: сила параллельного чтения — худи, которое можно снять (v0)'
+description: '**Domain:** agent-operations'
+tags: [adcm, awareness, parallel, agent-operations, living]
+---
 # Note: сила параллельного чтения — худи, которое можно снять (v0)
 
 **Domain:** agent-operations
 **Дата:** 2026-09-06
-**Tags:** #adcm #awareness #parallel #agent-operations #living
 **Связь:** ../../META/awareness-as-countermeasure.md (маска = худи) · kj-two-cheaps (доступное ≠ подходящее)
 
 ## Одна строка

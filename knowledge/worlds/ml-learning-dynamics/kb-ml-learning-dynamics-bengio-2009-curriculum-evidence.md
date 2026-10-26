@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning'
+description: '*Версия: v1.0 · 2026-05-31 — full text (ICML 2009, pp. 41–48)*'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# Evidence: Bengio, Louradour, Collobert & Weston (2009) — Curriculum Learning
 
@@ -57,8 +64,6 @@
 - rollback_or_mitigation: авто-темп по «границе знаний» (K7) вместо фиксированного расписания.
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 *Версия: v1.0 · 2026-05-31 — full text (ICML 2009, pp. 41–48)*
 

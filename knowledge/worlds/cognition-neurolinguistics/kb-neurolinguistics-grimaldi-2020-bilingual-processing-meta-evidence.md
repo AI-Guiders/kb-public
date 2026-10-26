@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Grimaldi et al. (2020) — bilingual language processing ALE meta-analysis'
+description: '**Thesis:** L1 and L2 largely share a **common neural network**; L2 processing **additionally recruits executive control** beyond L1, especially when L2 acquired later.'
+tags: [cognition-neurolinguistics, kb, worlds]
+world: cognition
+subworld: neurolinguistics
+---
 # Evidence: Grimaldi et al. (2020) — bilingual language processing ALE meta-analysis
-**Tags:** #cognition-neurolinguistics #kb #worlds
 
 
 ## Provenance

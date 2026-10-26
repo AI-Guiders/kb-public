@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: Tooling and Debug Playbook v1 (редирект)
+description: '**Канон перенесён** в мир hci.ux-dx:'
+tags: [kb-root]
+---
 # Tooling and Debug Playbook v1 (редирект)
-**Tags:** #kb-root
 
 
 **Канон перенесён** в мир hci.ux-dx:

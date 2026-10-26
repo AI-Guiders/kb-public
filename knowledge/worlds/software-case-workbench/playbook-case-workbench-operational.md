@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: CASE workbench world — operational playbook v1
+description: '**Триггеры (запрос / задача):**'
+tags: [software-case-workbench, playbook, worlds]
+world: software
+subworld: case-workbench
+---
 # CASE workbench world — operational playbook v1
-**Tags:** #software-case-workbench #playbook #worlds
 
 ## Когда грузить этот мир
 

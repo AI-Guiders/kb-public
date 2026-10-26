@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring #csharp #trap
+﻿---
+type: Definition Card
+title: ValueTask semantics
+description: '`ValueTask` — только понимая семантику (в т.ч. повторный await одного экземпляра). Сомнение → `Task`.'
+tags: [llm-native-card, definition, software-authoring, csharp, trap]
+world: software
+subworld: authoring
+---
 
 # ValueTask semantics
 

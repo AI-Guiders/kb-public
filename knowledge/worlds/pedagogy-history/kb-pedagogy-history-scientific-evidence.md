@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: History pedagogy — scientific evidence index v1
+description: '**Wilson 2023** systematic review + **Breakstone 2021** (COR, social-studies card) for digital/historical literacy; Wineburg 2001 foundational.'
+tags: [kb, pedagogy-history, worlds]
+world: pedagogy
+subworld: history
+---
 # History pedagogy — scientific evidence index v1
-**Tags:** #kb #pedagogy-history #worlds
 
 
 ## Metadata

@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Troubleshooting — software.authoring
+description: 'Матрица (канон таблицы): [`../matrix-software-cross-domain-transfer.md`](../matrix-software-cross-domain-transfer.md).'
+tags: [readme, software-authoring, worlds]
+world: software
+subworld: authoring
+---
 # Troubleshooting — software.authoring
-**Tags:** #readme #software-authoring #worlds
 
 
 | Файл | Роль |

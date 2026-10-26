@@ -1,6 +1,13 @@
+﻿---
+type: KB
+title: Rhetoric & pragmatics — fundamentals v1
+description: Синтез spine (не замена evidence-карт). При споре — первоисточник в `kb-*-evidence-v1`.
+tags: [rhetoric-pragmatics, kb, worlds, fundamentals]
+world: rhetoric
+subworld: pragmatics
+---
 # Rhetoric & pragmatics — fundamentals v1
 
-**Tags:** #rhetoric-pragmatics #kb #worlds #fundamentals
 
 Синтез spine (не замена evidence-карт). При споре — первоисточник в `kb-*-evidence-v1`.
 

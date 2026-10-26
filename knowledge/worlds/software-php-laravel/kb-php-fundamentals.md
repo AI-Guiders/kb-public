@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: PHP 8.4+ — фундаментальный слой (рантайм и язык)
+description: '**Назначение:** опорная карта PHP как **рантайма** для ветки **8.4+** (и соседних 8.x): версии, SAPI, OPcache, типизация, релиз 8.4, Composer, безопасность, JIT/GC/preload, FPM, расширения. Слой **L1 world** (миру `software.php`).'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # PHP 8.4+ — фундаментальный слой (рантайм и язык)
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** опорная карта PHP как **рантайма** для ветки **8.4+** (и соседних 8.x): версии, SAPI, OPcache, типизация, релиз 8.4, Composer, безопасность, JIT/GC/preload, FPM, расширения. Слой **L1 world** (миру `software.php`).
@@ -172,7 +179,5 @@
 - rollback_or_mitigation: откат образа; отключение preload/JIT
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

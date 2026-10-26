@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #math-numerics-pde
+﻿---
+type: Definition Card
+title: Neumann BC
+description: Задана нормальная производная (напр. no-flux).
+tags: [llm-native-card, definition, math-numerics-pde]
+world: math
+subworld: numerics-pde
+---
 
 # Neumann BC
 

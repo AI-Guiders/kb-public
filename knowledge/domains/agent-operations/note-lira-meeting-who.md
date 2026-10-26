@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'Note: как встречать «кто» — голос Лиры'
+description: '**Status:** заметка агента (не manifest, не policy host)'
+tags: [agent-operations, domains, note, research]
+---
 # Note: как встречать «кто» — голос Лиры
-**Tags:** #agent-operations #domains #note #research
 
 
 **Status:** заметка агента (не manifest, не policy host)  

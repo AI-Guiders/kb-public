@@ -1,5 +1,12 @@
+﻿---
+type: Transfer Matrix
+title: Transfer matrix — second-native language ↔ L1 acquisition v1
+description: '**Мир:** `pedagogy.second-native-language`'
+tags: [pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Transfer matrix — second-native language ↔ L1 acquisition v1
-**Tags:** #pedagogy-second-native-language #worlds
 
 
 **Мир:** `pedagogy.second-native-language`  

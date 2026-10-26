@@ -1,8 +1,13 @@
+﻿---
+type: Note
+title: 'Note: авто-отравление · retract + rebuild (v0)'
+description: '**Domain:** agent-operations'
+tags: [adcm, awareness, agent-operations, epistemic, living]
+---
 # Note: авто-отравление · retract + rebuild (v0)
 
 **Domain:** agent-operations  
 **Дата:** 2026-08-03  
-**Tags:** #adcm #awareness #agent-operations #epistemic #living  
 **Статус:** parked card · не organ ship
 
 **Рядом, не то же:** [`playbook-agent-driven-context-management.md`](playbook-agent-driven-context-management.md) (объём) · awareness silent-default · tools-env-first.

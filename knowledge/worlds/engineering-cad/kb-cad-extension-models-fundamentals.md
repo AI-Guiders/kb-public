@@ -1,4 +1,11 @@
-**Tags:** #engineering-cad #kb #worlds
+﻿---
+type: KB
+title: 'Fundamentals: модели расширений CAD (v1)'
+description: '**Мир:** `engineering.cad`'
+tags: [engineering-cad, kb, worlds]
+world: engineering
+subworld: cad
+---
 
 ﻿# Fundamentals: модели расширений CAD (v1)
 

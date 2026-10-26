@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: OpenCode session store × DBHub
+description: '**Config:** `C:/CursorDBHubConfig/config.toml` → source `opencodedb`'
+tags: [agent-operations, opencode, dbhub, sqlite, living]
+---
 # OpenCode session store × DBHub
-**Tags:** #agent-operations #opencode #dbhub #sqlite #living
 
 **Config:** `C:/CursorDBHubConfig/config.toml` → source `opencodedb`  
 **DB path:** `C:/Users/dkara/.local/share/opencode/opencode.db`

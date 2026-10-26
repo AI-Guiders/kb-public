@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis'
+description: '*Версия: v1.0 · 2026-05-31 — full text (Psych. Bulletin 132(3):354–380)*'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# Evidence: Cepeda, Pashler, Vul, Wixted & Rohrer (2006) — Distributed practice (spacing) meta-analysis
 
@@ -55,8 +62,6 @@
 - rollback_or_mitigation: избегать слишком большого ISI при коротком горизонте (K4).
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 *Версия: v1.0 · 2026-05-31 — full text (Psych. Bulletin 132(3):354–380)*
 

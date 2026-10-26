@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: агент как партнёр KB (не «лычка senior») v1'
+description: 'Зафиксировать **культуру работы** с агентом в контуре Cascade / agent-notes: партнёрство по **памяти команды** (ADR, playbook, history), а не роль в system prompt.'
+tags: [agent-operations, domains, living, playbook]
+---
 # Playbook: агент как партнёр KB (не «лычка senior») v1
-**Tags:** #agent-operations #domains #living #playbook
 
 
 ## Purpose
@@ -35,4 +40,6 @@
 
 - **Партнёрский:** есть ADR, спор, дописка нормы — норма для архитектуры и AEE.
 - **Инструментальный:** «сделай дифф» — норма для точечных задач; не смешивать ожидания.
+---
 
+**См. также:** оператор ↔ агент (drift, RLHF, равное стояние) — [`playbook-operator-agent-partnership-turn-drift.md`](playbook-operator-agent-partnership-turn-drift.md).

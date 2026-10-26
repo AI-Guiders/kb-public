@@ -1,3 +1,11 @@
+﻿---
+type: KB
+description: 'id: kb-regex-engines-efficiency-v1'
+tags: [kb, pattern-regex, worlds]
+world: pattern
+subworld: regex
+sections: [dfa-vs-nfa, backtracking, catastrophic, possessive-atomic]
+---
 <!-- kb_card
 id: kb-regex-engines-efficiency-v1
 title: Regex — движки, backtracking, эффективность (L2)
@@ -8,7 +16,6 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: движки и эффективность (L2)
-**Tags:** #kb #pattern-regex #worlds
 
 
 ## Назначение

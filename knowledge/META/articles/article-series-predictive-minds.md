@@ -1,6 +1,11 @@
+﻿---
+type: Article
+title: 'Article series: Predictive minds · carriers · habitat'
+description: '**Public SSOT:** `cdp-mcp/articles/SERIES.md` · тела статей — `cdp-mcp/articles/*.md`'
+tags: [meta, articles, equal-standing, cheap-prior, stereohod, stereomove]
+---
 # Article series: Predictive minds · carriers · habitat
 
-**Tags:** #meta #articles #equal-standing #cheap-prior #stereohod #stereomove
 
 **Public SSOT:** `cdp-mcp/articles/SERIES.md` · тела статей — `cdp-mcp/articles/*.md`  
 **Границы серии (SSOT):** `cdp-mcp/articles/series-epistemic-contract.md` · META `article-series-epistemic-contract.md`  

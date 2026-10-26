@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Edelson (2009) — geo-literacy'
+description: '**Thesis:** **Geo-literacy** = capacity to make **far-reaching decisions** using geographic knowledge — three components (**three I''s**):'
+tags: [kb, pedagogy-geography, worlds]
+world: pedagogy
+subworld: geography
+---
 # Evidence: Edelson (2009) — geo-literacy
-**Tags:** #kb #pedagogy-geography #worlds
 
 
 ## Provenance

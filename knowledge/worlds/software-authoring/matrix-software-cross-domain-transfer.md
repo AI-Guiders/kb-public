@@ -1,7 +1,14 @@
+﻿---
+type: Transfer Matrix
+description: 'Маршрутизация **неявных** и смешанных software-задач: когда симптом в одном слое (Skia, ViewModel, «сделай красиво», биндинг Avalonia) требует **другого** playbook/kb — прежде всего **структуры (OOA&D)** vs **оформления (HCI)** vs **стека (.NET/Avalonia)** vs **процесса (Git/Roslyn)**.'
+tags: [software-authoring, worlds]
+world: software
+subworld: authoring
+sections: [language-world-resolution-v1]
+---
 <!-- markdownlint-disable MD060 -->
 
 # Software Cross-Domain Transfer Matrix v1
-**Tags:** #software-authoring #worlds
 
 
 ## Purpose

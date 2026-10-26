@@ -1,4 +1,4 @@
-# ADR 003: Multi-Project Scope Model and Project Cards
+﻿# ADR 003: Multi-Project Scope Model and Project Cards
 **Tags:** #adr
 
 

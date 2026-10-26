@@ -1,7 +1,13 @@
+﻿---
+type: Map
+description: '**Каноническая база знаний:** `kb-engineering-evidence.md` — факты, эвристики и задачи внедрения по темам. Этот файл — справочник источников и опциональное углублённое чтение по трекам.'
+tags: [map, software-engineering-evidence, worlds]
+world: software
+subworld: engineering-evidence
+---
 <!-- markdownlint-disable MD022 MD032 -->
 
 # Engineering Reading Map v1 (.NET / C#)
-**Tags:** #map #software-engineering-evidence #worlds
 
 
 **Каноническая база знаний:** `kb-engineering-evidence.md` — факты, эвристики и задачи внедрения по темам. Этот файл — справочник источников и опциональное углублённое чтение по трекам.

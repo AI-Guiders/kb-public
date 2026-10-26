@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring
+﻿---
+type: Definition Card
+title: GRASP — High Cohesion
+description: Всё ли в классе про одно?
+tags: [llm-native-card, definition, software-authoring]
+world: software
+subworld: authoring
+---
 
 # GRASP — High Cohesion
 

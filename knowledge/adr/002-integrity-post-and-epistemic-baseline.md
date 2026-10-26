@@ -1,4 +1,4 @@
-# ADR 002: Integrity POST and Epistemic Baseline
+﻿# ADR 002: Integrity POST and Epistemic Baseline
 **Tags:** #adr
 
 

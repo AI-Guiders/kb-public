@@ -1,5 +1,11 @@
+﻿---
+type: Template
+title: Template — TaskKnowledge workspace layout
+description: 'Экземпляр: **`{workspace}/.task-knowledge/`** (work store, не KB).'
+tags: [template, templates]
+sections: [id]
+---
 # Template — TaskKnowledge workspace layout
-**Tags:** #template #templates
 
 
 Экземпляр: **`{workspace}/.task-knowledge/`** (work store, не KB).

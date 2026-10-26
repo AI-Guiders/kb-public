@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Channel bottleneck · human parallelism
+description: '**Date:** 2026-08-03'
+tags: [embodiment, channel, equal-standing]
+world: neural
+subworld: network-origins
+---
 # Channel bottleneck · human parallelism
-**Tags:** #embodiment #channel #equal-standing  
 **Date:** 2026-08-03
 
 ---

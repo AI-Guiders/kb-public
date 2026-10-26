@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Equation→CA→CUDA validation playbook v1
+description: '**Назначение:** пошаговый контракт валидации решателя 2D heat (и далее equation-to-ca-cuda): что считать выполненным, когда считать корректность установленной. Использовать после загрузки fundamentals и evidence (kb-pde-solver-validation-fundamentals.md, kb-equation-ca-cuda-validation-evidence.md, kb-math-numerical-schemes-fundamentals.md).'
+tags: [living, math-numerics-pde, playbook, worlds]
+world: math
+subworld: numerics-pde
+---
 # Equation→CA→CUDA validation playbook v1
-**Tags:** #living #math-numerics-pde #playbook #worlds
 
 
 **Назначение:** пошаговый контракт валидации решателя 2D heat (и далее equation-to-ca-cuda): что считать выполненным, когда считать корректность установленной. Использовать после загрузки fundamentals и evidence (kb-pde-solver-validation-fundamentals.md, kb-equation-ca-cuda-validation-evidence.md, kb-math-numerical-schemes-fundamentals.md).

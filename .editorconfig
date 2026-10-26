@@ -1,4 +1,4 @@
-# EditorConfig for kb-public. Align with .gitattributes (eol=lf).
+﻿# EditorConfig for kb-public. Align with .gitattributes (eol=lf).
 root = true
 
 [*]
@@ -9,5 +9,4 @@ trim_trailing_whitespace = true
 
 [*.md]
 max_line_length = off
-
 

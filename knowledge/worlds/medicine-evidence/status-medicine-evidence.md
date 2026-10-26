@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: Medicine (Evidence-Based) Domain Status v1
+description: 'Evidence-based навигация по BCI (интерфейсы мозг–компьютер) и смежным нейрореабилитационным направлениям: инсульт, травма спинного мозга, locked-in/БАС, восстановление речи при параличе, ДЦП/дети, нейрофидбек. Не заменяет клинические руководства и протоколы; даёт уровни доказательности и ссылки на обзоры/RCT.'
+tags: [medicine-evidence, status, worlds]
+world: medicine
+subworld: evidence
+---
 # Medicine (Evidence-Based) Domain Status v1
-**Tags:** #medicine-evidence #status #worlds
 
 
 ## Scope

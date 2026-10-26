@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: IT Knowledge Set v1 (Cloud, Platform, Economics, Diagnostics Rules)
+description: 'Set: 24 cards.'
+tags: [kb, systems-it, worlds]
+world: systems
+subworld: it
+---
 # IT Knowledge Set v1 (Cloud, Platform, Economics, Diagnostics Rules)
-**Tags:** #kb #systems-it #worlds
 
 
 Set: 24 cards.  

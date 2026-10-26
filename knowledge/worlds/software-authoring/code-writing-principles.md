@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Принципы написания кода (C# / .NET) v1
+description: 'Публичный канон для **kb-public** и роутера: нормы стиля, асинхронности и работы в репозитории. **Расширенная версия, датированные постмортемы и черновые заметки** — в `knowledge/work/coding/code-writing.md` (в выгрузке без `work/` недоступен).'
+tags: [software-authoring, worlds]
+world: software
+subworld: authoring
+---
 # Принципы написания кода (C# / .NET) v1
-**Tags:** #software-authoring #worlds
 
 
 Публичный канон для **kb-public** и роутера: нормы стиля, асинхронности и работы в репозитории. **Расширенная версия, датированные постмортемы и черновые заметки** — в `knowledge/work/coding/code-writing.md` (в выгрузке без `work/` недоступен).

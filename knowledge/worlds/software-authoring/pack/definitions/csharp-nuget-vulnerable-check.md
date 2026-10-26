@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring #csharp #trap
+﻿---
+type: Definition Card
+title: Check vulnerable NuGet packages
+description: Периодически `dotnet list package --vulnerable` и обновления с учётом breaking changes.
+tags: [llm-native-card, definition, software-authoring, csharp, trap]
+world: software
+subworld: authoring
+---
 
 # Check vulnerable NuGet packages
 

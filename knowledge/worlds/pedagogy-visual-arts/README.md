@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.visual-arts**
+description: '**Идентификатор:** `pedagogy.visual-arts`'
+tags: [pedagogy-visual-arts, readme, worlds]
+world: pedagogy
+subworld: visual-arts
+---
 # Мир **pedagogy.visual-arts**
-**Tags:** #pedagogy-visual-arts #readme #worlds
 
 
 **Идентификатор:** `pedagogy.visual-arts`  

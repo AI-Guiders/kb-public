@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.chemistry v1'
+description: '**Домен:** химия — school inquiry instruction v1'
+tags: [pedagogy-chemistry, status, worlds]
+world: pedagogy
+subworld: chemistry
+---
 # Status: pedagogy.chemistry v1
-**Tags:** #pedagogy-chemistry #status #worlds
 
 
 **Домен:** химия — school inquiry instruction v1  

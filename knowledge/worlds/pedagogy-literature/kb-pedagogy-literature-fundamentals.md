@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Literature pedagogy — fundamentals v1
+description: '**Мир:** `pedagogy.literature`'
+tags: [kb, pedagogy-literature, worlds]
+world: pedagogy
+subworld: literature
+---
 # Literature pedagogy — fundamentals v1
-**Tags:** #kb #pedagogy-literature #worlds
 
 
 **Мир:** `pedagogy.literature`  

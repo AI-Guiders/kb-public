@@ -1,4 +1,4 @@
-{
+﻿{
   "schema": "kb-topic-tag-aliases-v1",
   "description": "Phrase → topic tag for knowledge_tags resolve/explain. Merged over Core built-ins.",
   "aliases": {

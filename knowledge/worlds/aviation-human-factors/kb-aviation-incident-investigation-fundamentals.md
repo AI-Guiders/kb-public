@@ -1,6 +1,13 @@
+﻿---
+type: KB
+title: Aviation incident & accident investigation — fundamentals v1
+description: '**Назначение:** почему авиационная культура расследования **сильнее типичного SE postmortem**; что переносить в platform/fleet ops и human+agent pair — без копирования регуляторики.'
+tags: [aviation-human-factors, kb, worlds, investigation, annex-13, just-culture]
+world: aviation
+subworld: human-factors
+---
 # Aviation incident & accident investigation — fundamentals v1
 
-**Tags:** #aviation-human-factors #kb #worlds #investigation #annex-13 #just-culture
 
 **Назначение:** почему авиационная культура расследования **сильнее типичного SE postmortem**; что переносить в platform/fleet ops и human+agent pair — без копирования регуляторики.
 

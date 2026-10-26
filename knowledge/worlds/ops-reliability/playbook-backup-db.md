@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: Бекапы и восстановление'
+description: '> **Scope:** общие практики резервного копирования и восстановления. Без привязки к конкретным системам.'
+tags: [living, ops-reliability, playbook, worlds]
+world: ops
+subworld: reliability
+---
 # Playbook: Бекапы и восстановление
-**Tags:** #living #ops-reliability #playbook #worlds
 
 
 > **Scope:** общие практики резервного копирования и восстановления. Без привязки к конкретным системам.

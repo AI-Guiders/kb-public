@@ -1,4 +1,4 @@
-[[process]]
+﻿[[process]]
 id = "bug-radius-shrink"
 name = "Bug mode — shrink debug radius"
 apply_when = "investigating defect / exception / wrong behavior"

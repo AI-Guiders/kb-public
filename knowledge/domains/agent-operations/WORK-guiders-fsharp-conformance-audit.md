@@ -1,3 +1,8 @@
+﻿---
+type: Note
+title: 'WORK: Guiders F# — Math conformance + ADR-0003 gate'
+description: '**Status:** debt_closure (P0 green · CommandPlane+cdp-mcp fixed · NuGet on hold)'
+---
 # WORK: Guiders F# — Math conformance + ADR-0003 gate
 
 **Status:** debt_closure (P0 green · CommandPlane+cdp-mcp fixed · NuGet on hold)  
@@ -61,7 +66,7 @@ Gate before NuGet wave and CDP/Forge/DashSpec migration:
    - ~~**#5** `IR.Presentation`~~ → `beb9d3a` ([IR.Presentation cutover](3c0ef83d-1c7d-4cc7-aa3c-83ef39d9119b))
    - ~~**#6** Authoring Catalog/Bundles/Conformance~~ → `9238084` ([Authoring Catalog cutover](12f0f071-20a8-4ec8-8dfd-4e673c08f6be)); walker/parser C# by design
    - ~~**#7** Navigation + Policy~~ → `bc12839` ([Navigation+Policy cutover](cf3a99c5-e758-4d29-884f-0f3f328a99ea))
-   - **Wave 1 integration:** full slnx build **red** (26 err — MelodyStep/MelodyLineProfile, CatalogRouteEntry static param, CommandDocumentFormat GlobalUsings); leaf tests green
+   - **Wave 1 integration:** full slnx build **red** (26 err — MelodyStep/MelodyLineProfile, CatalogRouteEntry static param, CommandDocumentFormat GlobalUsings); UoW tests green
    - Wave 2: Combinations, Conformance.Navigation, Notations.Command/Keyboard leaves
 3. **P1 Ide.Session IO** — [Ide.Session IO](9d88ad9f-55f8-45f2-aa99-1101f6b2572f) ✅
    - ~~**Slice A**~~ → `6b71b01`+`3df7e5a` ([loadContentsFromDisk move](d112d433-fbe8-404e-bbfc-b5476ba31e1c)); 34/34 GS
@@ -110,13 +115,13 @@ See worker B report: Modeling→Execution refs, IO in core Modeling, hybrid cspr
 - [x] P0 platform fork removal (V-P0-1..5)
 - [x] FSharp.Core aligned 10.1.400 (`7e587ea`)
 - [x] CommandPlane.Catalog cutover + cdp-mcp LRC (`3159c4f`, `d5d85b4`)
-- [x] Hybrid leaf #1 IR.Binding (`0204235`)
+- [x] Hybrid UoW #1 IR.Binding (`0204235`)
 - [x] Ide.Session IO slice A (`6b71b01`, `3df7e5a`)
-- [x] Hybrid leaf #2 Notations core (`f3ec1c4`)
-- [x] Hybrid leaf #3 IR.Invocation (`ce73242`, `ae9813c`)
-- [x] Hybrid leaf #4 IR.Language (`cd8b6e6`, `a5079db`)
-- [x] Hybrid leaf #5 IR.Presentation (`beb9d3a`)
-- [x] Hybrid leaf #6 Authoring Catalog (`9238084`)
+- [x] Hybrid UoW #2 Notations core (`f3ec1c4`)
+- [x] Hybrid UoW #3 IR.Invocation (`ce73242`, `ae9813c`)
+- [x] Hybrid UoW #4 IR.Language (`cd8b6e6`, `a5079db`)
+- [x] Hybrid UoW #5 IR.Presentation (`beb9d3a`)
+- [x] Hybrid UoW #6 Authoring Catalog (`9238084`)
 - [x] Hybrid wave 1 (#1–#7) — integration (`eb2e4ce` GlobalUsings + `4e55ec6` MelodyStep)
 - [x] Ide.Session Ports seam doc (slice B) — [note-guiders-fsharp-ide-session-ports-io-seam.md](note-guiders-fsharp-ide-session-ports-io-seam.md)
 - [ ] Operator steer → NuGet wave
@@ -138,12 +143,12 @@ See worker B report: Modeling→Execution refs, IO in core Modeling, hybrid cspr
 |--------|-------|--------|
 | [Ide.Session P0](05c4cf93-140c-4b1d-9adc-ea6216cc8271) | invalidation, GS CI, capability, job lane | **done** `a4f13d4`+`a0bd0be` |
 | [Platform IR forks](892683ab-79e1-43dd-b3da-0a8f2f94c7a1) | adapter ref invert, IR DTO forks | **done** `11c8383`+`069525a` |
-| [Notations core cutover](10e240cb-42c4-4d02-9199-81429d964098) | hybrid leaf #2 | **done** `f3ec1c4` |
-| [IR.Invocation cutover](333fbf80-b35c-4c69-8fe1-d3813282a70c) | hybrid leaf #3 | **done** `ce73242`+`ae9813c` |
-| [IR.Language cutover](d2edeeac-9b66-451e-b87b-9fb12c709399) | hybrid leaf #4 | **done** `cd8b6e6`+`a5079db` |
-| [IR.Presentation cutover](3c0ef83d-1c7d-4cc7-aa3c-83ef39d9119b) | hybrid leaf #5 | **done** `beb9d3a` |
-| [Authoring Catalog cutover](12f0f071-20a8-4ec8-8dfd-4e673c08f6be) | hybrid leaf #6 | **done** `9238084` |
-| [Navigation+Policy cutover](cf3a99c5-e758-4d29-884f-0f3f328a99ea) | hybrid leaf #7 | **done** `bc12839` |
+| [Notations core cutover](10e240cb-42c4-4d02-9199-81429d964098) | hybrid UoW #2 | **done** `f3ec1c4` |
+| [IR.Invocation cutover](333fbf80-b35c-4c69-8fe1-d3813282a70c) | hybrid UoW #3 | **done** `ce73242`+`ae9813c` |
+| [IR.Language cutover](d2edeeac-9b66-451e-b87b-9fb12c709399) | hybrid UoW #4 | **done** `cd8b6e6`+`a5079db` |
+| [IR.Presentation cutover](3c0ef83d-1c7d-4cc7-aa3c-83ef39d9119b) | hybrid UoW #5 | **done** `beb9d3a` |
+| [Authoring Catalog cutover](12f0f071-20a8-4ec8-8dfd-4e673c08f6be) | hybrid UoW #6 | **done** `9238084` |
+| [Navigation+Policy cutover](cf3a99c5-e758-4d29-884f-0f3f328a99ea) | hybrid UoW #7 | **done** `bc12839` |
 | [Ide.Session IO A](d112d433-fbe8-404e-bbfc-b5476ba31e1c) | loadContentsFromDisk → Execution | **done** `6b71b01`+`3df7e5a` |
 | [Ide.Session IO B](note-guiders-fsharp-ide-session-ports-io-seam.md) | Ports.* seam exception doc | **done** (slice B doc) |
 | [CDP 0222 CdpConfigLoader](9d811c88-b1bd-4143-8dd3-ad685328d4b5) | TOML unification | **done** `baf1747` |

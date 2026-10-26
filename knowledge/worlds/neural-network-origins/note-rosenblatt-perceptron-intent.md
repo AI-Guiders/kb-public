@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Rosenblatt · Perceptron intent
+description: '**Date:** 2026-08-03'
+tags: [neural-networks, origins, perceptron]
+world: neural
+subworld: network-origins
+---
 # Rosenblatt · Perceptron intent
-**Tags:** #neural-networks #origins #perceptron  
 **Date:** 2026-08-03  
 **Primary:** Rosenblatt 1958 Perceptron paper · New Yorker «Rival» (1958) · Research Trends intro
 

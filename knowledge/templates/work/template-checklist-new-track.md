@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: 'Checklist: новый устойчивый трек (template)'
+description: Использовать, когда появляется **долгоживущее** направление (месяцы+, отдельные артефакты или репо).
+tags: [template, templates]
+---
 
 ﻿# Checklist: новый устойчивый трек (template)
 

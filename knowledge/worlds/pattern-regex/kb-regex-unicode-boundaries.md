@@ -1,3 +1,11 @@
+﻿---
+type: KB
+description: 'id: kb-regex-unicode-boundaries-v1'
+tags: [kb, pattern-regex, worlds]
+world: pattern
+subworld: regex
+sections: [dotnet-unicode-hint]
+---
 <!-- kb_card
 id: kb-regex-unicode-boundaries-v1
 title: Regex — Unicode-свойства и границы (L1)
@@ -8,7 +16,6 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: Unicode и границы (L1)
-**Tags:** #kb #pattern-regex #worlds
 
 
 ## Назначение

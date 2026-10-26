@@ -1,4 +1,11 @@
-**Tags:** #kb #computing-hardware-substrate #worlds
+﻿---
+type: Evidence Card
+title: Computing hardware substrate — scientific evidence index v1
+description: '| Источник | DOI / URL | Evidence card | read_depth |'
+tags: [kb, computing-hardware-substrate, worlds]
+world: computing
+subworld: hardware-substrate
+---
 
 # Computing hardware substrate — scientific evidence index v1
 

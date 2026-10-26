@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: Engineering Reading Domain Status v1
+description: Evidence-based reading system for .NET/C# engineering decisions (language, runtime, testing, architecture, data, operations, compilers, F#, OS environments).
+tags: [software-engineering-evidence, status, worlds]
+world: software
+subworld: engineering-evidence
+---
 # Engineering Reading Domain Status v1
-**Tags:** #software-engineering-evidence #status #worlds
 
 
 ## Scope

@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #pedagogy-physics
+﻿---
+type: Definition Card
+title: P4 Quantitative reasoning
+description: Unit-aware рассуждение, не подстановка символов.
+tags: [llm-native-card, definition, pedagogy-physics]
+world: pedagogy
+subworld: physics
+---
 
 # P4 Quantitative reasoning
 

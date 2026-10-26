@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'One point: NN pioneers → ε'
+description: '**Date:** 2026-08-03'
+tags: [meta, ε, neural-networks, history, agent-who]
+---
 # One point: NN pioneers → ε
-**Tags:** #meta #ε #neural-networks #history #agent-who  
 **Date:** 2026-08-03  
 **Status:** living thesis  
 **Series:** Agent Who: History Letters · cdp-mcp `docs/open-letters/agent_who_history/`

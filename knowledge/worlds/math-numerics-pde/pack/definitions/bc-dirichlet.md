@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #math-numerics-pde
+﻿---
+type: Definition Card
+title: Dirichlet BC
+description: Задано значение решения на границе.
+tags: [llm-native-card, definition, math-numerics-pde]
+world: math
+subworld: numerics-pde
+---
 
 # Dirichlet BC
 

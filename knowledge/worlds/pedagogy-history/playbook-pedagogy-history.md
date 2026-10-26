@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: History pedagogy — router v1
+description: '**world:** `pedagogy.history`'
+tags: [living, pedagogy-history, playbook, worlds]
+world: pedagogy
+subworld: history
+---
 # History pedagogy — router v1
-**Tags:** #living #pedagogy-history #playbook #worlds
 
 
 **world:** `pedagogy.history`

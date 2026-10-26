@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring #refactoring-guru #smell
+﻿---
+type: Definition Card
+title: Smell — Long Method
+description: Метод разросся; читать и менять тяжело. Запах → рефакторинг, не «ещё одна строка».
+tags: [llm-native-card, definition, software-authoring, refactoring-guru, smell]
+world: software
+subworld: authoring
+---
 
 # Smell — Long Method
 

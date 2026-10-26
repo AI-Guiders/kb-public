@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #blast-radius
+﻿---
+type: Definition Card
+title: Blast Radius
+description: Насколько широко уйдёт мутация (файлы/символы/проекты) и что ещё неизвестно по краю.
+tags: [llm-native-card, definition, epistemic-scene, blast-radius]
+world: epistemic
+subworld: scene
+---
 
 # Blast Radius
 

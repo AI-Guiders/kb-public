@@ -1,5 +1,10 @@
+﻿---
+type: Map
+title: 'Map: три контура KB (канон · публичное · workspace)'
+description: '**Назначение:** снять когнитивное трение «что в каком репо и куда писать». Одна страница для **агента** (диспетчер) и для **человека** (approve). Не заменяет `PUBLISHING.md`, `kb-one-pager-structure-and-protocols.md`, `playbook-kb-operational-freshness.md` — **сводит** их в схему действий.'
+tags: [agent-operations, domains, map]
+---
 # Map: три контура KB (канон · публичное · workspace)
-**Tags:** #agent-operations #domains #map
 
 
 **Назначение:** снять когнитивное трение «что в каком репо и куда писать». Одна страница для **агента** (диспетчер) и для **человека** (approve). Не заменяет `PUBLISHING.md`, `kb-one-pager-structure-and-protocols.md`, `playbook-kb-operational-freshness.md` — **сводит** их в схему действий.

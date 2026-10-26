@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **ops.host-environments** (Linux / Windows хосты)
+description: '**Назначение:** playbooks по средам выполнения Linux и Windows (runtime, сервисы, диагностика, guardrails).'
+tags: [ops-host-environments, readme, worlds]
+world: ops
+subworld: host-environments
+---
 # Мир **ops.host-environments** (Linux / Windows хосты)
-**Tags:** #ops-host-environments #readme #worlds
 
 
 **Назначение:** playbooks по средам выполнения Linux и Windows (runtime, сервисы, диагностика, guardrails).

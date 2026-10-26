@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: McClelland, McNaughton & O''Reilly (1995) — Complementary Learning Systems'
+description: '*Версия: v1.0 · 2026-05-31 — full text (Psych. Review 102(3):419–457)*'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# Evidence: McClelland, McNaughton & O'Reilly (1995) — Complementary Learning Systems
 
@@ -56,8 +63,6 @@
 - rollback_or_mitigation: контролировать скорость консолидации (малые copies) — быстрый merge = риск перетереть структуру (K5).
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 *Версия: v1.0 · 2026-05-31 — full text (Psych. Review 102(3):419–457)*
 

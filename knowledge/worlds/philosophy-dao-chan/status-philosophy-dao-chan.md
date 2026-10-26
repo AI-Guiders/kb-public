@@ -1,4 +1,11 @@
-**Tags:** #status #philosophy-dao-chan #l0
+﻿---
+type: Status
+title: Status — philosophy.dao-chan
+description: 'Мир — результат фундаментального прохода по первоисточникам китайской созерцательной философии. Цель: доказательная (evidence-based) база принципов для агентной работы — спокойствие как дефолт, позиция наблюдателя, поле вместо принуждения, непривязанность к опоре.'
+tags: [status, philosophy-dao-chan, l0]
+world: philosophy
+subworld: dao-chan
+---
 
 # Status — philosophy.dao-chan
 ## Что это

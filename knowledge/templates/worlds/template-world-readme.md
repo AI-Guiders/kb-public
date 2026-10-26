@@ -1,4 +1,11 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: Мир **`<world.id>`** (template)
+description: '**Идентификатор мира:** `<world.id>` (напр. `arts.music`, `software.authoring`)'
+tags: [template, templates]
+world: template
+subworld: world-readme.md
+---
 
 ﻿# Мир **`<world.id>`** (template)
 

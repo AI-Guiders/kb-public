@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring #gof
+﻿---
+type: Definition Card
+title: GoF — Factory Method
+description: Суперкласс задаёт интерфейс создания; подклассы решают, какой продукт вернуть. Замена размазанных `new Concrete`.
+tags: [llm-native-card, definition, software-authoring, gof]
+world: software
+subworld: authoring
+---
 
 # GoF — Factory Method
 

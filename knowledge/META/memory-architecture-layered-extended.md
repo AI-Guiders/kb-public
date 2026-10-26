@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: Memory Architecture v1 (Layered) — extended
+description: Перенесено из `agent-notes.md` (приборка hot). В hot остаётся stub `memory-architecture-v1` с `l0_manifest` (выше `public-cut` для kb-public).
+tags: [meta]
+---
 # Memory Architecture v1 (Layered) — extended
-**Tags:** #meta
 
 
 Перенесено из `agent-notes.md` (приборка hot). В hot остаётся stub `memory-architecture-v1` с `l0_manifest` (выше `public-cut` для kb-public).
@@ -20,7 +25,7 @@ l0_manifest: knowledge/META/memory-architecture.json
   - epistemic-default-distrust-v1
   - core-when-barriers-fail-v1
   - principled-clarity-v1
-  - active-scope
+  - ~~active-scope~~ → состояние «что в фокусе» перенесено в `work/local/active-scope.md` (машинная привязка, не L0)
   - response-finalizer-v1
   - response-one-step-before-finish-v1
   - scope-disambiguation-all-everywhere-v1

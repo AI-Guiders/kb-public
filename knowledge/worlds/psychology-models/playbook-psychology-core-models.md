@@ -1,7 +1,13 @@
+﻿---
+type: Playbook
+description: Base layer for psychological models that frequently appear in human decision loops, communication failures, and deep-pattern behavior.
+tags: [living, playbook, psychology-models, worlds]
+world: psychology
+subworld: models
+---
 <!-- markdownlint-disable MD032 -->
 
 # Psychology Foundations Playbook v1
-**Tags:** #living #playbook #psychology-models #worlds
 
 
 ## Purpose

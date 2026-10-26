@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Chemistry pedagogy — router v1
+description: '**world:** `pedagogy.chemistry`'
+tags: [living, pedagogy-chemistry, playbook, worlds]
+world: pedagogy
+subworld: chemistry
+---
 # Chemistry pedagogy — router v1
-**Tags:** #living #pedagogy-chemistry #playbook #worlds
 
 
 **world:** `pedagogy.chemistry`

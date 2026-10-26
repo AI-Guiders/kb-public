@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Biology pedagogy — scientific evidence index v1
+description: Cooper 2024 + Jegstad 2023 already current; NRC 2012 = foundational framework (pair, don't cite alone for 2026 efficacy).
+tags: [kb, pedagogy-biology, worlds]
+world: pedagogy
+subworld: biology
+---
 # Biology pedagogy — scientific evidence index v1
-**Tags:** #kb #pedagogy-biology #worlds
 
 
 ## Metadata

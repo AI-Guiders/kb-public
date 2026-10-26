@@ -1,6 +1,13 @@
+﻿---
+type: Note
+title: Card schema — applicability + inference fields
+description: '**Status:** live · [CDP-ADR-0001](../../work/projects/door-to-singularity/cascade-ide/CDP-ADR-0001-llm-native-applicability-inference.md)'
+tags: [llm-ready, packs, cdp, schema]
+world: _llm
+subworld: native-packs
+---
 # Card schema — applicability + inference fields
 
-**Tags:** #llm-ready #packs #cdp #schema  
 **Status:** live · [CDP-ADR-0001](../../work/projects/door-to-singularity/cascade-ide/CDP-ADR-0001-llm-native-applicability-inference.md)  
 **Date:** 2026-07-21
 

@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Hwang et al. (2021) — integrated literacy + content meta (elementary)'
+description: '**Thesis:** **Integrating literacy instruction with content areas** (not isolated reading block only) improves **vocabulary and reading comprehension** in elementary — supports disciplinary literacy arc into secondary.'
+tags: [kb, pedagogy-literature, worlds]
+world: pedagogy
+subworld: literature
+---
 # Evidence: Hwang et al. (2021) — integrated literacy + content meta (elementary)
-**Tags:** #kb #pedagogy-literature #worlds
 
 
 ## Provenance

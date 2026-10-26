@@ -1,5 +1,12 @@
+﻿---
+type: Runbook
+title: Context Rehydrate Runbook v1
+description: Use this runbook when context is compressed, reset, or uncertain.
+tags: [runbook, workspace-context, worlds]
+world: workspace
+subworld: context
+---
 # Context Rehydrate Runbook v1
-**Tags:** #runbook #workspace-context #worlds
 
 
 ## Trigger

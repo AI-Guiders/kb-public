@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Карта глав: Steve McConnell — *Code Complete*, 2nd ed. (software construction)'
+description: 1. **Claim** (утверждение о «хорошей практике» из McConnell) → обязательна **привязка к главе/разделу** (например, «гл. 7 — качество подпрограмм»), не «McConnell говорит, что…» без якоря.
+tags: [kb, software-engineering-evidence, worlds]
+world: software
+subworld: engineering-evidence
+---
 # Карта глав: Steve McConnell — *Code Complete*, 2nd ed. (software construction)
-**Tags:** #kb #software-engineering-evidence #worlds
 
 
 ## Provenance (происхождение)

@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: полезность и ценность недоопределены'
+description: '**Домен:** agent-operations'
+tags: [agent-operations, domains, living, playbook]
+---
 # Playbook: полезность и ценность недоопределены
-**Tags:** #agent-operations #domains #living #playbook
 
 
 **Домен:** agent-operations  

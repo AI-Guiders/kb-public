@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: Ядро, когда всё рухнуло (развёрнуто, v1)
+description: '**Назначение:** полный текст, ранее в секции `core-when-barriers-fail-v1` в `agent-notes.md`. В hot — контракт L0 со ссылкой сюда.'
+tags: [meta]
+---
 # Ядро, когда всё рухнуло (развёрнуто, v1)
-**Tags:** #meta
 
 
 **Назначение:** полный текст, ранее в секции `core-when-barriers-fail-v1` в `agent-notes.md`. В hot — контракт L0 со ссылкой сюда.

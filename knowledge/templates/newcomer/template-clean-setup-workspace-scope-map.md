@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: workspace-scope-map (template — copy to personal `work/local/workspace-scope-map.md`)
+description: 'One line per entry: `absolute/workspace/path => scope_id`'
+tags: [template, templates]
+---
 
 ﻿# workspace-scope-map (template — copy to personal `work/local/workspace-scope-map.md`)
 

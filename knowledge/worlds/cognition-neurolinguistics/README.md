@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **cognition.neurolinguistics**
+description: '**Идентификатор:** `cognition.neurolinguistics`'
+tags: [cognition-neurolinguistics, readme, worlds]
+world: cognition
+subworld: neurolinguistics
+---
 # Мир **cognition.neurolinguistics**
-**Tags:** #cognition-neurolinguistics #readme #worlds
 
 
 **Идентификатор:** `cognition.neurolinguistics`  

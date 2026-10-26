@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'Note: LLM sampling params (OpenAI-compat) — temperature, top_p, …'
+description: '**Домен:** agent-operations / foundation-models'
+tags: [agent-operations, domains, note, llm, sampling, citizen]
+---
 # Note: LLM sampling params (OpenAI-compat) — temperature, top_p, …
-**Tags:** #agent-operations #domains #note #llm #sampling #citizen
 
 **Домен:** agent-operations / foundation-models  
 **Статус:** living reference — не ADR  

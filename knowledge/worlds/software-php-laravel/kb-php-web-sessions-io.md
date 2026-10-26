@@ -1,4 +1,11 @@
-**Tags:** #kb #software-php-laravel #worlds
+﻿---
+type: KB
+title: PHP — веб-вход, сессии, cookies, потоки (нативный слой)
+description: '**Назначение:** фундамент **веб-части без фреймворка**: суперглобалы, сессии, заголовки, загрузка файлов, потоки. Мир **`software.php`**. Фреймворки (Laravel Request/Response) — поверх этих механизмов.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 
 ﻿# PHP — веб-вход, сессии, cookies, потоки (нативный слой)
 
@@ -107,7 +114,5 @@
 - success_criterion: нет утечек пути и сырого MIME в решениях
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

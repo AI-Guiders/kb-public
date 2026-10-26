@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: IT Domain Status v1
+description: 'Cross-domain IT operational knowledge layer: algorithms, databases, networking, distributed/runtime systems, platform reliability, and decision governance.'
+tags: [status, systems-it, worlds]
+world: systems
+subworld: it
+---
 # IT Domain Status v1
-**Tags:** #status #systems-it #worlds
 
 
 ## Scope

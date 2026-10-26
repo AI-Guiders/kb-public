@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #math-numerics-pde
+﻿---
+type: Definition Card
+title: Hyperbolic PDE
+description: 'Waves / vibrations: finite propagation; IC + BC.'
+tags: [llm-native-card, definition, math-numerics-pde]
+world: math
+subworld: numerics-pde
+---
 
 # Hyperbolic PDE
 

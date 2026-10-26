@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: ops.reliability — troubleshooting'
+description: '> **Контур:** A · мир **ops.reliability** · kb-public'
+tags: [living, ops-reliability, playbook, worlds]
+world: ops
+subworld: reliability
+---
 # Playbook: ops.reliability — troubleshooting
-**Tags:** #living #ops-reliability #playbook #worlds
 
 
 > **Контур:** A · мир **ops.reliability** · kb-public  

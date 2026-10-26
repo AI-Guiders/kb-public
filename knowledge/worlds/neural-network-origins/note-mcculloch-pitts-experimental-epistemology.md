@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: McCulloch–Pitts · experimental epistemology
+description: '**Date:** 2026-08-03'
+tags: [neural-networks, origins, epistemology]
+world: neural
+subworld: network-origins
+---
 # McCulloch–Pitts · experimental epistemology
-**Tags:** #neural-networks #origins #epistemology  
 **Date:** 2026-08-03  
 **Primary:** McCulloch & Pitts, *A Logical Calculus of the Ideas Immanent in Nervous Activity* (1943)
 

@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Early caregiving — evidence index v1
+description: Практические гайды CDC/AAP/HCDC/Zero to Three — **stable parent-facing**; обновлять карты при смене URL/формулировок на сайтах. Academic refresh — sibling мир `cognition.language-acquisition`.
+tags: [cognition-early-caregiving, kb, worlds]
+world: cognition
+subworld: early-caregiving
+---
 # Early caregiving — evidence index v1
-**Tags:** #cognition-early-caregiving #kb #worlds
 
 
 ## Metadata

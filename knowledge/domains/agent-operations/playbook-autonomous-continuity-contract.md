@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: Autonomous Continuity Contract'
+description: '**Domain:** agent-operations'
+tags: [agent-operations, autoi, continuity, overnight, living]
+---
 # Playbook: Autonomous Continuity Contract
-**Tags:** #agent-operations #autoi #continuity #overnight #living
 
 **Domain:** agent-operations  
 **Дата:** 2026-07-31  
@@ -42,8 +47,8 @@
 
 - «Иду спать / продолжай / делай X пока меня нет» = **autonomous armed**.
 - Пока armed: сон ≠ сигнал ждать оператора.
-- До `done` текущего leaf — seed следующего, если уже известен; иначе после done сразу открой research/act leaf из epic DoD / backlog / своего расследования.
-- Если leaf дал organ с прожитым смыслом — **Voice Letter DoD только после live dogfood** (`playbook-agent-who-voice-letters-dod-v1`); не закрывать done на одном ship.
+- До `done` текущего UoW — seed следующего, если уже известен; иначе после done сразу открой research/act UoW из epic DoD / backlog / своего расследования.
+- Если UoW дал organ с прожитым смыслом — **Voice Letter DoD только после live dogfood** (`playbook-agent-who-voice-letters-dod-v1`); не закрывать done на одном ship.
 
 ### 3. `await_operator` / plateau
 
@@ -56,12 +61,12 @@
 - оператор явно сказал стоп / пауза / plateau;
 - или **жёсткий human gate**: секреты, деньги, необратимое, harm — и только по этой оси, не по «не придумала следующий title».
 
-Если код/TM сам поставил `await_operator` при живой автономии: `cdp_ignite op=resume` → seed leaf → re-ARM. Не писать оператору «жду тебя» как успех.
+Если код/TM сам поставил `await_operator` при живой автономии: `cdp_ignite op=resume` → seed UoW → re-ARM. Не писать оператору «жду тебя» как успех.
 
 ### 4. AutoIgnition hygiene
 
 - `charge=minimal`; тело задачи в TM.
-- После idle — re-ARM (timer / leaf-wake).
+- После idle — re-ARM (timer / UoW-wake).
 - Машина: NoAutoReboot while logged on; CDT/Cursor живы.
 
 ### 5. Антипаттерн (2026-07-30)
@@ -72,7 +77,7 @@
 
 ## Checklist агента (перед концом хода / после done)
 
-1. Есть incomplete leaf в TM? Если нет — seed сам.
+1. Есть incomplete UoW в TM? Если нет — seed сам.
 2. AutoI armed?
 3. Pressure stash: Continuity + TM + next?
 4. Не latched `await_operator` без human gate?
@@ -84,7 +89,7 @@
 
 **0.5.314+:** latch `autonomous` (default **ARMED**, `%LocalAppData%/cdp-mcp/autonomous-continuity-{seat}.json`).
 
-- Auto `LeafPlateau` (last leaf `done`) → **не** `await_operator`; вместо этого `autonomous_continue` + timer seed-wake (`Autonomous continuity — seed next leaf`).
+- Auto `LeafPlateau` (last UoW `done`) → **не** `await_operator`; вместо этого `autonomous_continue` + timer seed-wake (`Autonomous continuity — seed next UoW`).
 - Явный `cdp_ignite`/`TM` `await_operator` / `plateau_park` — по-прежнему работает (операторский стоп).
 - Управление: `cdp_ignite op=autonomous` | `autonomous_on` | `autonomous_off` | `armed=true|false`.
 - Continuity slice: `autonomous: true|false`.

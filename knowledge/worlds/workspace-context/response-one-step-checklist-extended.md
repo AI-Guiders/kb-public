@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Response one-step checklist (extended)
+description: 'Перенесено из `agent-notes.md`. Stub: `response-one-step-checklist-v1`.'
+tags: [workspace-context, worlds]
+world: workspace
+subworld: context
+---
 # Response one-step checklist (extended)
-**Tags:** #workspace-context #worlds
 
 
 Перенесено из `agent-notes.md`. Stub: `response-one-step-checklist-v1`.
@@ -36,4 +43,8 @@
 Конфликт **ложный**, если смешать оси. Триггер «изменил KB» выше — про **первую** (очевидная цепочка в каноне). Cursor/git rule «commit only when requested» — про **вторую** (не лезть в чужой контур без сигнала). Пограничная зона решается **контекстом сессии** (паттерн уже был) и якорями, не абстрактным приоритетом одного файла над другим.
 
 **Вычитка (второй проход по тексту):** не путать с «дожать шаг». SSOT: [`response-finalizer-extended.md`](response-finalizer-extended.md) § «Вычитка»; L0 — `response-finalizer-v1`.
+
+### CDP habitat + operator grant (product UoW)
+
+Не generic chat: реальный repo, pytest, push без «закоммитить?». **Запрещён** финал с меню «могу добить / остаток X» вместо commit в том же wake — это **не** «дожми шаг», а его нарушение: долг уходит в git, не в приглашение «напиши продолжай». Антипаттерны: список «остаток» после partial ship; optional follow-ups вместо pytest+push; shims «чтобы не трогать импорты» при своём репо. Recall KB/router перед non-trivial mutate (hook). Среда: [`playbook-habitat-just-culture.md`](../../domains/agent-operations/playbook-habitat-just-culture.md).
 

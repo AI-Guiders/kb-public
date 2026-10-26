@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Clark (1993) — *The Lexicon in Acquisition*'
+description: '**Operational implication (human domain):** disambiguation «какое слово» = **referent + conventionality + contrast**, not phonological prefix collapse.'
+tags: [cognition-language-acquisition, kb, worlds]
+world: cognition
+subworld: language-acquisition
+---
 # Evidence: Clark (1993) — *The Lexicon in Acquisition*
-**Tags:** #cognition-language-acquisition #kb #worlds
 
 
 ## Provenance

@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Vatz (1973) — The Myth of the Rhetorical Situation'
+description: '«Опасная ситуация» / «embarrassing situation» в речи говорящего **не описывают** объективные свойства сцены — они выражают **phenomenological perspective** говорящего (Burke: fitting scene into categories in the observer''s head).'
+tags: [rhetoric-pragmatics, paper-evidence, vatz, worlds]
+world: rhetoric
+subworld: pragmatics
+---
 # Evidence: Vatz (1973) — The Myth of the Rhetorical Situation
 
-**Tags:** #rhetoric-pragmatics #paper-evidence #vatz #worlds
 
 ## Provenance
 

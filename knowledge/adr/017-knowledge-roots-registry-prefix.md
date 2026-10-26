@@ -1,4 +1,4 @@
-# ADR 017: Knowledge-roots registry — префиксы (не каталог всех файлов group)
+﻿# ADR 017: Knowledge-roots registry — префиксы (не каталог всех файлов group)
 **Tags:** #adr
 
 

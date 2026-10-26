@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Equation→CA→CUDA validation — evidence v1
+description: '**Назначение:** факты и эвристики по валидации решателей в контексте equation-to-ca-cuda (2D heat, нормы, референсные задачи, порядок сходимости). Использовать вместе с fundamentals и playbook.'
+tags: [kb, math-numerics-pde, worlds]
+world: math
+subworld: numerics-pde
+---
 # Equation→CA→CUDA validation — evidence v1
-**Tags:** #kb #math-numerics-pde #worlds
 
 
 **Назначение:** факты и эвристики по валидации решателей в контексте equation-to-ca-cuda (2D heat, нормы, референсные задачи, порядок сходимости). Использовать вместе с fundamentals и playbook.

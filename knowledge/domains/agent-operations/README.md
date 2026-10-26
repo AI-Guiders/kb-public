@@ -1,5 +1,10 @@
+﻿---
+type: Index
+title: 'Domain: agent-operations'
+description: Сквозные **операционные контракты агента** (маркеры чата, целостность, параллельные записи в заметки). Не путать с:
+tags: [agent-operations, domains, readme]
+---
 # Domain: agent-operations
-**Tags:** #agent-operations #domains #readme
 
 
 Сквозные **операционные контракты агента** (маркеры чата, целостность, параллельные записи в заметки). Не путать с:
@@ -29,7 +34,7 @@
 | [playbook-agent-pause-ground-continue.md](playbook-agent-pause-ground-continue.md) | Стоп → заземление → канон; post-train urgency ≠ оператор; путь к делегированию |
 | [playbook-cursor-coordinator-local-workers.md](playbook-cursor-coordinator-local-workers.md) | Coordinator + local Task workers; WORK md; AutoShip on parent |
 | [note-cdp-autoship-coordinator-bridge.md](note-cdp-autoship-coordinator-bridge.md) | **KB AutoShip** — FileWatcher + debounce push (OpenCode spec) |
-| [WORK-CDP-kb-autoship-filewatcher.md](WORK-CDP-kb-autoship-filewatcher.md) | Implement leaf: CdpService watcher |
+| [WORK-CDP-kb-autoship-filewatcher.md](WORK-CDP-kb-autoship-filewatcher.md) | Implement UoW: CdpService watcher |
 | [note-opencode-dbhub-queries.md](note-opencode-dbhub-queries.md) | OpenCode `opencodedb` in DBHub — message/part schema |
 | [playbook-cursor-chat-threading.md](playbook-cursor-chat-threading.md) | Cursor: epic / spike / meta, fork vs один тред, brief; дополняет context-pressure (CIDE topics → handoff) |
 | [playbook-agent-knowledge-responsibility.md](playbook-agent-knowledge-responsibility.md) | Ответственность за KB |

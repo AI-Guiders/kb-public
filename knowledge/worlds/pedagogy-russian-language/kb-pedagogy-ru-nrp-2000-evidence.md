@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: National Reading Panel (2000) — findings summary'
+description: NRP (14-member panel, 2000) synthesized experimental literature into **five instructional components** for integrated reading programs:
+tags: [kb, pedagogy-russian-language, worlds]
+world: pedagogy
+subworld: russian-language
+---
 # Evidence: National Reading Panel (2000) — findings summary
-**Tags:** #kb #pedagogy-russian-language #worlds
 
 
 ## Provenance

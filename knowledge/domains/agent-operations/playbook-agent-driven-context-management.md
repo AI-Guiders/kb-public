@@ -1,9 +1,14 @@
+﻿---
+type: Playbook
+title: 'Playbook: Agent-driven context management (ADCM) v1'
+description: '**Domain:** agent-operations'
+tags: [adcm, agent-operations, domains, harness, living, playbook, ssot]
+---
 # Playbook: Agent-driven context management (ADCM) v1
 
 **Domain:** agent-operations  
 **Дата:** 2026-07-18  
 **Provenance:** оператор + агент — отказ от «compaction as product goal»; CIDE harness / ADR 0166  
-**Tags:** #adcm #agent-operations #domains #harness #living #playbook #ssot
 
 **Связь:**
 

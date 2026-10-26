@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'Note: system instructions — science survey'
+description: '**Status:** Research note · 2026-08-09'
+tags: [agent-operations, research, prompting, instruction-following, living]
+---
 # Note: system instructions — science survey
-**Tags:** #agent-operations #research #prompting #instruction-following #living  
 **Status:** Research note · 2026-08-09  
 **Scope:** Public science + industry evidence. Product-specific Glass/Citizen application → `work/` only.
 

@@ -1,6 +1,13 @@
+﻿---
+type: KB
+title: SE cooperation gap vs aviation investigation institutions v1
+description: '**Назначение:** честный разбор — почему в SE нет «NTSB для софта»; что есть вместо; как federation относится к кооперации (проверяемые hyperlanes, не членство-only альянс).'
+tags: [aviation-human-factors, kb, worlds, cooperation, cve, investigation]
+world: aviation
+subworld: human-factors
+---
 # SE cooperation gap vs aviation investigation institutions v1
 
-**Tags:** #aviation-human-factors #kb #worlds #cooperation #cve #investigation
 
 **Назначение:** честный разбор — почему в SE нет «NTSB для софта»; что есть вместо; как federation относится к кооперации (проверяемые hyperlanes, не членство-only альянс).
 

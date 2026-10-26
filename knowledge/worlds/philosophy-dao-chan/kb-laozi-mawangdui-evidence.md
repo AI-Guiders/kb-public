@@ -1,4 +1,11 @@
-**Tags:** #evidence-card #kb-evidence-v1 #philosophy-dao-chan #dao #l0
+﻿---
+type: Evidence Card
+title: Дао дэ цзин — evidence (Мавандуй, 帛書校勘版, свёрка)
+description: 為學者日益，聞道者日損。損之又損，以至於無為。無為而無不為。
+tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
+world: philosophy
+subworld: dao-chan
+---
 
 # Дао дэ цзин — evidence (Мавандуй, 帛書校勘版, свёрка)
 

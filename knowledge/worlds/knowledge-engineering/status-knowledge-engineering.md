@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: Knowledge Engineering Domain Status v1
+description: Meta-domain for transforming volatile operational experience into durable, reusable knowledge assets.
+tags: [knowledge-engineering, status, worlds]
+world: knowledge
+subworld: engineering
+---
 # Knowledge Engineering Domain Status v1
-**Tags:** #knowledge-engineering #status #worlds
 
 
 ## Scope

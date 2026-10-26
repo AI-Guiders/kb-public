@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: PHP / Laravel v1'
+description: '**Канон перечня артефактов домена:** § Closure snapshot ниже; полный инвентарь имён файлов для людей и сборок — ещё `knowledge/README.md` (список Files). В `index-knowledge-router.md` в таблице доменов — короткий указатель, без дублирования всего списка kb.'
+tags: [software-php-laravel, status, worlds]
+world: software
+subworld: php-laravel
+---
 # Status: PHP / Laravel v1
-**Tags:** #software-php-laravel #status #worlds
 
 
 **Канон перечня артефактов домена:** § Closure snapshot ниже; полный инвентарь имён файлов для людей и сборок — ещё `knowledge/README.md` (список Files). В `index-knowledge-router.md` в таблице доменов — короткий указатель, без дублирования всего списка kb.

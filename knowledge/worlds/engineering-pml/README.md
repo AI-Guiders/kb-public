@@ -1,4 +1,11 @@
-**Tags:** #engineering-pml #readme #worlds
+﻿---
+type: Index
+title: Мир **engineering.pml** (AVEVA PML)
+description: '**Идентификатор мира:** `engineering.pml`'
+tags: [engineering-pml, readme, worlds]
+world: engineering
+subworld: pml
+---
 
 ﻿# Мир **engineering.pml** (AVEVA PML)
 

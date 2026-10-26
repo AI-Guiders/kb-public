@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: Psychology Domain Status v1
+description: Foundational psychology layer for human-facing interpretation, communication routing, and safety-aware model use.
+tags: [psychology-models, status, worlds]
+world: psychology
+subworld: models
+---
 # Psychology Domain Status v1
-**Tags:** #psychology-models #status #worlds
 
 
 ## Scope

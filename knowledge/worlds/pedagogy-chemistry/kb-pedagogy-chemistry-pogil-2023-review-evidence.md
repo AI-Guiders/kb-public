@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Jegstad (2023) — inquiry-based chemistry education systematic review'
+description: '**Thesis:** **Inquiry-based chemistry** in reviewed literature clusters around **POGIL** (Process Oriented Guided Inquiry Learning) and related guided-inquiry cycles — not unstructured discovery.'
+tags: [kb, pedagogy-chemistry, worlds]
+world: pedagogy
+subworld: chemistry
+---
 # Evidence: Jegstad (2023) — inquiry-based chemistry education systematic review
-**Tags:** #kb #pedagogy-chemistry #worlds
 
 
 ## Provenance

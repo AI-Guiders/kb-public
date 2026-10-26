@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: PHP Playbook v1
+description: '**Проверено:** 2026-08-15 — dig `php.net/releases/` via `cdp_freshness` (0.5.717); NRT still open on **PHP 8.5** stable / support policy. Orient **8.4+** unchanged until 8.5 ships.'
+tags: [living, playbook, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # PHP Playbook v1
-**Tags:** #living #playbook #software-php-laravel #worlds
 
 **Проверено:** 2026-08-15 — dig `php.net/releases/` via `cdp_freshness` (0.5.717); NRT still open on **PHP 8.5** stable / support policy. Orient **8.4+** unchanged until 8.5 ships.
 

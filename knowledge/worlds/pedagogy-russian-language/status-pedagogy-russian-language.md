@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.russian-language v1'
+description: '**Домен:** русский язык — written mastery v1'
+tags: [pedagogy-russian-language, status, worlds]
+world: pedagogy
+subworld: russian-language
+---
 # Status: pedagogy.russian-language v1
-**Tags:** #pedagogy-russian-language #status #worlds
 
 
 **Домен:** русский язык — written mastery v1  

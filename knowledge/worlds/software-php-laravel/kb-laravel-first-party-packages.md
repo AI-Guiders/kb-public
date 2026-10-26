@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Laravel — first-party пакеты и инструменты экосистемы
+description: '**Назначение:** карта **официальных** пакетов вокруг `laravel/framework`: зачем каждый, типичные контракты деплоя. Не заменяет docs конкретного пакета. Мир `software.laravel`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Laravel — first-party пакеты и инструменты экосистемы
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** карта **официальных** пакетов вокруг `laravel/framework`: зачем каждый, типичные контракты деплоя. Не заменяет docs конкретного пакета. Мир `software.laravel`.
@@ -101,7 +108,5 @@
 - rollback_or_mitigation: отключение service provider / удаление пакета по плану
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

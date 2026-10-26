@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Evidence bridge: Castles et al. (2018) — EN alphabetic written literacy (second-native track)'
+description: '**Thesis:** for **English as second-native written language**, use the **same program arc** as RU native literacy, with EN grapheme-phoneme inventory:'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Evidence bridge: Castles et al. (2018) — EN alphabetic written literacy (second-native track)
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Provenance

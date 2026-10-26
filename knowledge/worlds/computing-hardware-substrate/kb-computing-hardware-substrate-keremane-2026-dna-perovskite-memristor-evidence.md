@@ -1,4 +1,11 @@
-**Tags:** #kb #computing-hardware-substrate #worlds #paper-evidence #memristor #dna #perovskite #nvm
+﻿---
+type: Evidence Card
+title: 'Evidence: Keremane et al. (2026) — synthetic DNA + quasi-2D perovskite memristors'
+description: '*Версия: v1.0 · 2026-08-25 — abstract+secondary*'
+tags: [kb, computing-hardware-substrate, worlds, paper-evidence, memristor, dna, perovskite, nvm]
+world: computing
+subworld: hardware-substrate
+---
 
 # Evidence: Keremane et al. (2026) — synthetic DNA + quasi-2D perovskite memristors
 
@@ -69,8 +76,6 @@
 - rollback_or_mitigation: до коммерции — остаёмся на git + disk + seat registry (HIS); DNA-NVM = optional future leg.
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 ## Связанные материалы
 - Index: [`kb-computing-hardware-substrate-scientific-evidence.md`](kb-computing-hardware-substrate-scientific-evidence.md)

@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Second-native language pedagogy — scientific evidence index v1
+description: '**WWC 2022** policy audit + **Genesee 2012** school oracle + **Yeh 2026** (neurolinguistics); Cummins/Thomas & Collier foundational.'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Second-native language pedagogy — scientific evidence index v1
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Metadata

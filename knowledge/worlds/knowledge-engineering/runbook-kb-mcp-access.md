@@ -1,5 +1,13 @@
+﻿---
+type: Runbook
+title: 'Runbook: доступ к KB через MCP (handshake, деградация, сбои)'
+description: '**Назначение:** согласовать поведение агента, когда канон живёт в репозитории **agent-notes** и доступен через **agent-notes MCP** (`read_knowledge_file`, `list_knowledge_files`, запись — отдельные инструменты). Среда-независимо: тот же смысл, если чтение идёт с диска по well-known пути без MCP.'
+tags: [knowledge-engineering, runbook, worlds]
+world: knowledge
+subworld: engineering
+sections: [hot-vs-full-agent-notes-read-v1]
+---
 # Runbook: доступ к KB через MCP (handshake, деградация, сбои)
-**Tags:** #knowledge-engineering #runbook #worlds
 
 
 **Назначение:** согласовать поведение агента, когда канон живёт в репозитории **agent-notes** и доступен через **agent-notes MCP** (`read_knowledge_file`, `list_knowledge_files`, запись — отдельные инструменты). Среда-независимо: тот же смысл, если чтение идёт с диска по well-known пути без MCP.
@@ -78,4 +86,19 @@
 - суффиксы `-v1`, `-v2` в **именах** файлов KB.
 
 **SSOT истории** — git log. **Stable id** — путь + slug (`playbook-agent-pause-ground-continue.md`), не дублирующий номер версии. `section_id` в hot (`execution-gate-v1`) — отдельный контракт, не переименовывать при чистке файлов.
+
+<!-- section:hot-vs-full-agent-notes-read-v1 -->
+## Чтение hot vs каталог agent-notes.md
+
+| Нужно | Инструмент |
+|-------|------------|
+| Always-on slice по scope | **`read_hot_context`** |
+| Подобрать секции по запросу | **`route_context`** |
+| Тело правила / playbook | **`read_knowledge_file`** (сначала `outline`, потом фрагмент) |
+| Список файлов канона | **`list_knowledge_files`** |
+| **Не** для контекста | **`read_agent_notes`** — отдаёт **весь** файл-секционник (~70k символов); только если человек явно просит просмотреть/diff hot-файл целиком |
+
+CDP Memory facet — те же смыслы (`memory_world_read_knowledge_file`, recall). §6 — запись.
+
+<!-- /section:hot-vs-full-agent-notes-read-v1 -->
 

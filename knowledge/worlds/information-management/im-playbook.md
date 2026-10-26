@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Information Management Playbook v1
+description: Project-independent domain base for engineering Information Management (IM).
+tags: [information-management, worlds]
+world: information
+subworld: management
+---
 # Information Management Playbook v1
-**Tags:** #information-management #worlds
 
 
 ## Purpose

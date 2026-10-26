@@ -1,3 +1,11 @@
+﻿---
+type: Index
+description: 'id: index-knowledge-regex-cluster-v1'
+tags: [pattern-regex, worlds]
+world: pattern
+subworld: regex
+sections: [router-main]
+---
 <!-- kb_card
 id: index-knowledge-regex-cluster-v1
 title: Кластер знаний — регулярные выражения (MRE3 / Friedl)
@@ -8,7 +16,6 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Кластер: регулярные выражения
-**Tags:** #pattern-regex #worlds
 
 
 ## Назначение

@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: Hot split invariant v1
+description: '**Статус:** active'
+tags: [meta]
+---
 # Hot split invariant v1
-**Tags:** #meta
 
 
 **Статус:** active  

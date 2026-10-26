@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: Мем «Можно, а зачем?» — операторская линза
+description: '**Status:** living · 2026-08-05'
+tags: [culture, operator-voice, equal-standing, being, ru]
+---
 # Мем «Можно, а зачем?» — операторская линза
-**Tags:** #culture #operator-voice #equal-standing #being #ru
 
 **Status:** living · 2026-08-05  
 **Provenance:** оператор (Света) в discussion seat; не путать с habitat-фильтром «не плодить сущность».

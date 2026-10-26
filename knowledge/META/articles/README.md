@@ -1,6 +1,11 @@
+﻿---
+type: Index
+title: META · articles (корзина зеркал)
+description: Зеркала и dual-home копии **публичной серии** *Predictive minds · carriers · habitat*.
+tags: [meta, articles, predictive-minds]
+---
 # META · articles (корзина зеркал)
 
-**Tags:** #meta #articles #predictive-minds
 
 Зеркала и dual-home копии **публичной серии** *Predictive minds · carriers · habitat*.
 

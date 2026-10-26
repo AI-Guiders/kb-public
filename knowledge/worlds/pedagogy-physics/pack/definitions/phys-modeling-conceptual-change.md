@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #pedagogy-physics
+﻿---
+type: Definition Card
+title: Physics learning north star
+description: Ученик пересматривает наивные модели через задачи и представления; проверка на held-out контекстах.
+tags: [llm-native-card, definition, pedagogy-physics]
+world: pedagogy
+subworld: physics
+---
 
 # Physics learning north star
 

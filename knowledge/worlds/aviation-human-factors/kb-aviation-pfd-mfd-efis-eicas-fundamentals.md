@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Авиация: PFD, MFD, EFIS, EICAS/ECAM — фундамент для метафоры Cascade IDE'
+description: '**Назначение:** единая точка в KB: что означают термины в **реальной авионике**, откуда брать **первоисточники**, и как это **сопоставлять** с ADR проекта Cascade IDE (не путать роль зоны в IDE с буквальным прибором).'
+tags: [aviation-human-factors, kb, worlds]
+world: aviation
+subworld: human-factors
+---
 # Авиация: PFD, MFD, EFIS, EICAS/ECAM — фундамент для метафоры Cascade IDE
-**Tags:** #aviation-human-factors #kb #worlds
 
 
 **Назначение:** единая точка в KB: что означают термины в **реальной авионике**, откуда брать **первоисточники**, и как это **сопоставлять** с ADR проекта Cascade IDE (не путать роль зоны в IDE с буквальным прибором).

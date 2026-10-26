@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: World-life
+description: Метамир **world-life** и подмиры (`world-*-subdomain`, `world-*-playbook`) вынесены из корневого `agent-notes.md`.
+tags: [readme, world-life, worlds]
+world: world
+subworld: life
+---
 # World-life
-**Tags:** #readme #world-life #worlds
 
 
 Метамир **world-life** и подмиры (`world-*-subdomain`, `world-*-playbook`) вынесены из корневого `agent-notes.md`.

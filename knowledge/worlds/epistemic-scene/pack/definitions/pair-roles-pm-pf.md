@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #harness #cdp #pair
+﻿---
+type: Definition Card
+title: 'Pair roles: PM / PF'
+description: В паре человек↔модель два рабочих роли. PM — рулит (цель, scope, accept/reject, непрерывность намерения) и может жёстко прервать ход, если видит цикл/не туда. PF — делает и наблюдает процесс на рабочей скорости пары. Сегодня PF ≈ модель (темп анализа/мутаций + радиус >> человеческих). Interrupt ценен, но в темпе PF всё равно труден — отсюда playground до мутаций.
+tags: [llm-native-card, definition, epistemic-scene, harness, cdp, pair]
+world: epistemic
+subworld: scene
+---
 
 # Pair roles: PM / PF
 

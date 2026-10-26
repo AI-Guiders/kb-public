@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Medicine (Evidence-Based) Playbook v1
+description: 'Операционный контракт для запросов о BCI и смежных нейрореабилитационных направлениях: когда загружать evidence-документ, как не переходить границу «совет/назначение».'
+tags: [living, medicine-evidence, playbook, worlds]
+world: medicine
+subworld: evidence
+---
 # Medicine (Evidence-Based) Playbook v1
-**Tags:** #living #medicine-evidence #playbook #worlds
 
 
 ## Purpose

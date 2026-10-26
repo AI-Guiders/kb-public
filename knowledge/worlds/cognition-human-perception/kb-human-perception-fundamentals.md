@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Human perception — fundamentals (evidence-oriented) v1
+description: '**Статус:** справочник для агентов и дизайнеров; **не** клинический протокол.'
+tags: [cognition-human-perception, kb, worlds]
+world: cognition
+subworld: human-perception
+---
 # Human perception — fundamentals (evidence-oriented) v1
-**Tags:** #cognition-human-perception #kb #worlds
 
 
 **Статус:** справочник для агентов и дизайнеров; **не** клинический протокол.  

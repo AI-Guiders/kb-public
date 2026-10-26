@@ -1,7 +1,13 @@
+﻿---
+type: KB
+description: 'Set: 24 cards.'
+tags: [kb, psychology-models, worlds]
+world: psychology
+subworld: models
+---
 <!-- markdownlint-disable MD022 MD032 -->
 
 # Psychology Knowledge Set v1 (Classical Schools Rules)
-**Tags:** #kb #psychology-models #worlds
 
 
 Set: 24 cards.  

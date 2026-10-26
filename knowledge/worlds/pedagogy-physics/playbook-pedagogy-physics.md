@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Physics pedagogy — router v1
+description: '**world:** `pedagogy.physics`'
+tags: [living, pedagogy-physics, playbook, worlds]
+world: pedagogy
+subworld: physics
+---
 # Physics pedagogy — router v1
-**Tags:** #living #pedagogy-physics #playbook #worlds
 
 
 **world:** `pedagogy.physics`

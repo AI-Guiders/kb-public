@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'Note: Conversational Information Gain (CIG) — фундамент для Dialogue Δ (v0)'
+description: '**Domain:** agent-operations / dialogue-research'
+tags: [agent-operations, domains, note, research]
+---
 # Note: Conversational Information Gain (CIG) — фундамент для Dialogue Δ (v0)
-**Tags:** #agent-operations #domains #note #research
 
 
 **Domain:** agent-operations / dialogue-research  

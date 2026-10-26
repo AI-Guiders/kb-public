@@ -1,4 +1,11 @@
-**Tags:** #engineering-cad #kb #worlds
+﻿---
+type: KB
+title: 'Fundamentals: сборка, References и vendor API (v1)'
+description: '**Мир:** `engineering.cad`'
+tags: [engineering-cad, kb, worlds]
+world: engineering
+subworld: cad
+---
 
 ﻿# Fundamentals: сборка, References и vendor API (v1)
 

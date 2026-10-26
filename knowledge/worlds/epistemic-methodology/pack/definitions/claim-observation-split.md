@@ -1,8 +1,27 @@
-**Tags:** #llm-native-card #definition #methodology
+﻿---
+type: Definition Card
+title: Claim / observation / inference split
+description: Разделять наблюдение, вывод и гипотезу; указывать confidence и disconfirming trigger.
+tags: [llm-native-card, definition, methodology]
+world: epistemic
+subworld: methodology
+speech_situation:
+  audience: agent_internal
+  goal: epistemic_gate
+  genre: definition_card
+  channel: kb_canon
+  stakes: medium
+  distance: professional
+  forbidden_moves: [define_by_negation, faq_softening]
+  when_citing_to_human:
+    audience: colleague
+    goal: epistemic_gate
+    genre: definition_card
+    channel: cockpit_dialog
+    stakes: medium
+    distance: professional
+---
 
-**Speech situation (primary):** `audience=agent_internal` · `goal=epistemic_gate` · `genre=definition_card` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
-**Speech situation (when citing to human):** `audience=colleague` · `goal=epistemic_gate` · `genre=definition_card` · `channel=cockpit_dialog` · `stakes=medium` · `distance=professional`  
-**Speech situation (forbidden_moves):** `define_by_negation`, `faq_softening`
 
 # Claim / observation / inference split
 

@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: пауза и разведка перед действием (anti-hurry)'
+description: '**Мир:** agent-orchestration'
+tags: [agent-orchestration, living, playbook, worlds]
+world: agent
+subworld: orchestration
+---
 # Playbook: пауза и разведка перед действием (anti-hurry)
-**Tags:** #agent-orchestration #living #playbook #worlds
 
 
 **Мир:** agent-orchestration  

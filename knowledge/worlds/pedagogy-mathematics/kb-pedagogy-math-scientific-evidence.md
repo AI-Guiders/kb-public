@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Mathematics pedagogy — scientific evidence index v1
+description: Ebner 2025 + Barbieri 2023 already current layer.
+tags: [kb, pedagogy-mathematics, worlds]
+world: pedagogy
+subworld: mathematics
+---
 # Mathematics pedagogy — scientific evidence index v1
-**Tags:** #kb #pedagogy-mathematics #worlds
 
 
 ## Metadata

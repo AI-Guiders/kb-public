@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Laravel — версии, требования PHP, апгрейды (мажоры 8–12+)
+description: '**Назначение:** опорная **матрица мажоров** и дисциплина апгрейда без путаницы между ветками документации. Мир `software.laravel`. Детали «как писать код» — в `kb-laravel-fundamentals.md`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Laravel — версии, требования PHP, апгрейды (мажоры 8–12+)
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** опорная **матрица мажоров** и дисциплина апгрейда без путаницы между ветками документации. Мир `software.laravel`. Детали «как писать код» — в `kb-laravel-fundamentals.md`.
@@ -92,7 +99,5 @@
 - rollback_or_mitigation: git revert + composer.lock из VCS
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

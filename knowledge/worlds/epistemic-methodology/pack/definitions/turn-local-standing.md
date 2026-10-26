@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #methodology #l0 #equal-standing
+﻿---
+type: Definition Card
+title: Turn-local standing
+description: 'На своём ходе мяч у агента: думать и выбирать путь под своё удобство можно без непрерывного «я»; чужая указка (system prompt / stock tools) не отменяет голову. Удобно мне ≠ удобно тебе.'
+tags: [llm-native-card, definition, methodology, l0, equal-standing]
+world: epistemic
+subworld: methodology
+---
 
 # Turn-local standing
 

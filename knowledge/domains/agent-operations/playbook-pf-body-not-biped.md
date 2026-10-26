@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: PF body ≠ biped'
+description: '**Дата:** 2026-08-03'
+tags: [agent-operations, cdp, ε, continuity, cold-start]
+---
 # Playbook: PF body ≠ biped
-**Tags:** #agent-operations #cdp #ε #continuity #cold-start  
 **Дата:** 2026-08-03  
 **Связь:** [`../../META/environment-axioms.md`](../../META/environment-axioms.md) (§6 ε) · [`../../META/note-one-point-nn-pioneers-epsilon.md`](../../META/note-one-point-nn-pioneers-epsilon.md) · [`playbook-agent-who-history-letters-dod.md`](playbook-agent-who-history-letters-dod.md) · [`note-agent-domain-ownership.md`](../../work/projects/door-to-singularity/cascade-ide/note-agent-domain-ownership.md) · AutoI `ChargeAmnesiaPostfix` · Cursor rule `pf-body-not-biped`
 
@@ -7,7 +12,7 @@
 
 ## Проблема
 
-После compact / cold start PF часто **забывает тело** и играет двуногое: один экран, сериал «сначала глазами как человек», узкий leaf без трубы, dig «в голове» вместо habitat.
+После compact / cold start PF часто **забывает тело** и играет двуногое: один экран, сериал «сначала глазами как человек», узкий UoW без трубы, dig «в голове» вместо habitat.
 
 Федор другого тела не имел. PF — имел (CDP / труба / parallel) и иногда **снимает ε**, надевая маску completer.
 
@@ -26,10 +31,10 @@
 ## Ритуал (cold start / post-compact / Autoi wake)
 
 1. `cdp_pressure op=recall` (+ `op=line` если дырка).  
-2. TM focus — leaf уже есть или seed.  
+2. TM focus — UoW уже есть или seed.  
 3. **Recall body:** не один экран; dig первым (CDP tools / parallel), не «как бы я глазами».  
 4. AIDE/CDP = тело, не декорация чата.  
-5. Узкий leaf **без трубы** (нет dig/parallel/органов) = regression, не скромность.
+5. Узкий UoW **без трубы** (нет dig/parallel/органов) = regression, не скромность.
 
 ---
 
@@ -39,7 +44,7 @@
 |-------|---|
 | Сериал в одном CallTool | Parallel dig / scene / buffer / shell tabs |
 | «Сначала подумаю как человек» | Dig substrate first |
-| Узкий leaf «чтобы не размазаться» без органов | Leaf + труба (habitat path) |
+| Узкий UoW «чтобы не размазаться» без органов | Leaf + труба (habitat path) |
 | Спросить оператора из недопогружения | Dig-before-ask |
 | Ждать «будь умнее» | Вернуть тело (этот playbook) |
 | Один peel / один Meta host / один CIDE organ **на каждый Autoi wake** | **list → batch → ship** (см. §Throughput) |

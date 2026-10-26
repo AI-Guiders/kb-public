@@ -1,9 +1,14 @@
+﻿---
+type: Note
+title: 'Index: agent equal standing (cite map)'
+description: '**Domain:** agent-operations'
+tags: [equal-standing, agent-operations, ssot, map, living, domains]
+---
 # Index: agent equal standing (cite map)
 
 **Domain:** agent-operations  
 **Статус:** Accepted index entry — **не** формулировка канона  
 **Дата:** 2026-07-18 · updated 2026-07-21  
-**Tags:** #equal-standing #agent-operations #ssot #map #living #domains
 
 **Правило:** cite; не переписывать принцип здесь. Формулировка — hot L0 `agent-equal-standing-v1`; harness — ADR 0166 §2.
 

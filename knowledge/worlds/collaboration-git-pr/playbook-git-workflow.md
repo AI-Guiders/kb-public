@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Git Workflow Playbook v1
+description: Provide a stable, low-risk Git operating model for daily development, review, and recovery.
+tags: [collaboration-git-pr, living, playbook, worlds]
+world: collaboration
+subworld: git-pr
+---
 # Git Workflow Playbook v1
-**Tags:** #collaboration-git-pr #living #playbook #worlds
 
 
 ## Purpose

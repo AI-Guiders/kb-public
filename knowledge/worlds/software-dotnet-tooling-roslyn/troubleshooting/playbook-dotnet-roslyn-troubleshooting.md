@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: .NET Roslyn / MCP — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, software-dotnet-tooling-roslyn, worlds]
+world: software
+subworld: dotnet-tooling-roslyn
+---
 # Playbook: .NET Roslyn / MCP — troubleshooting
-**Tags:** #living #playbook #software-dotnet-tooling-roslyn #worlds
 
 
 > **Контур:** A · kb-public  

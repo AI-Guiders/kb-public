@@ -1,9 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: Habitat incident investigation'
+description: '**domain:** agent-operations'
+tags: [habitat, incident, investigation, just-culture, losa, cdp, agent-operations, aviation-transfer]
+---
 # Playbook: Habitat incident investigation
 **domain:** agent-operations  
 **Status:** living · 2026-09-13  
-**Tags:** #habitat #incident #investigation #just-culture #losa #cdp #agent-operations #aviation-transfer
 
-**Speech situation:** `audience=agent_internal` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=high` · `distance=professional`
 
 **Principle (culture gate):** [`playbook-habitat-just-culture.md`](playbook-habitat-just-culture.md) · axiom §8 [`environment-axioms.md`](../../META/environment-axioms.md)  
 **Aviation depth (do not duplicate here):** [`worlds/aviation-human-factors/kb-aviation-incident-investigation-fundamentals.md`](../../worlds/aviation-human-factors/kb-aviation-incident-investigation-fundamentals.md) · [`matrix-aviation-investigation-to-se-transfer.md`](../../worlds/aviation-human-factors/matrix-aviation-investigation-to-se-transfer.md)
@@ -119,7 +123,7 @@ Optional: `@intent postmortem` / `cdp_postmortem` for CDP-native record; KB row 
 
 ## Investigation record (template)
 
-Copy into postmortem, ADR Context, or WORK leaf:
+Copy into postmortem, ADR Context, or WORK UoW:
 
 ```markdown
 ## Investigation: <short title> · <YYYY-MM-DD> · P0|P1|P2

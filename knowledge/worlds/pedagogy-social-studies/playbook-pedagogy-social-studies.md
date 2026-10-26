@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Social studies pedagogy — router v1
+description: '**world:** `pedagogy.social-studies`'
+tags: [living, pedagogy-social-studies, playbook, worlds]
+world: pedagogy
+subworld: social-studies
+---
 # Social studies pedagogy — router v1
-**Tags:** #living #pedagogy-social-studies #playbook #worlds
 
 
 **world:** `pedagogy.social-studies`

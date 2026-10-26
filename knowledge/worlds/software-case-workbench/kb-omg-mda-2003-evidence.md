@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: OMG MDA Guide (2003) — Model-Driven Architecture'
+description: '**PIM** (Platform-Independent Model) → transforms → **PSM** (Platform-Specific Model) → code/artifacts.'
+tags: [software-case-workbench, paper-evidence, mda, omg, worlds]
+world: software
+subworld: case-workbench
+---
 # Evidence: OMG MDA Guide (2003) — Model-Driven Architecture
 
-**Tags:** #software-case-workbench #paper-evidence #mda #omg #worlds
 
 ## Provenance
 

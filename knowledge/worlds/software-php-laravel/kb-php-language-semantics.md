@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: PHP 8.x — язык и семантика (фундаментальный проход)
+description: '**Назначение:** целостная карта **семантики PHP 8.x** (ориентир **8.4+**): типы, объекты, ошибки, пространства имён, граничные случаи. Мир **`software.php`**. Хронология фич по мажорам с **5.x** — `kb-php-versions-and-evolution.md`. Рантайм/SAPI/Composer — в `kb-php-fundamentals.md`; веб-слой — в `kb-php-web-sessions-io.md`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # PHP 8.x — язык и семантика (фундаментальный проход)
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** целостная карта **семантики PHP 8.x** (ориентир **8.4+**): типы, объекты, ошибки, пространства имён, граничные случаи. Мир **`software.php`**. Хронология фич по мажорам с **5.x** — `kb-php-versions-and-evolution.md`. Рантайм/SAPI/Composer — в `kb-php-fundamentals.md`; веб-слой — в `kb-php-web-sessions-io.md`.
@@ -191,7 +198,5 @@
 - success_criterion: предсказуемое поведение на границах
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

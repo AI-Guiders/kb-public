@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Genesee & Lyster (2012) — immersion education (second-native model)'
+description: '**Thesis:** **Immersion** = bilingual education where **≥50%** of subject-matter instruction is through the L2 in a **sheltered classroom** with continued L1 support — the canonical **second-native** school model (not classroom FL, not submersion).'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Evidence: Genesee & Lyster (2012) — immersion education (second-native model)
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Provenance

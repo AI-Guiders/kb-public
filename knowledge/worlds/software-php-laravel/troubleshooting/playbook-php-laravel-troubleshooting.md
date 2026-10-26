@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: PHP / Laravel — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Playbook: PHP / Laravel — troubleshooting
-**Tags:** #living #playbook #software-php-laravel #worlds
 
 
 > **Контур:** A · kb-public  

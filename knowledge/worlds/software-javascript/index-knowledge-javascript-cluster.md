@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Кластер JavaScript (**world (KE):** `software.javascript`) — навигация v1
+description: '**Назначение:** точка входа с явным разложением **fundamentals → operational**. Контракт memory-architecture: **status → playbook → kb**; playbook — [`playbook-javascript-operational.md`](playbook-javascript-operational.md) (операционный слой и мост от теории к действиям).'
+tags: [software-javascript, worlds]
+world: software
+subworld: javascript
+---
 # Кластер JavaScript (**world (KE):** `software.javascript`) — навигация v1
-**Tags:** #software-javascript #worlds
 
 
 **Назначение:** точка входа с явным разложением **fundamentals → operational**. Контракт memory-architecture: **status → playbook → kb**; playbook — [`playbook-javascript-operational.md`](playbook-javascript-operational.md) (операционный слой и мост от теории к действиям).

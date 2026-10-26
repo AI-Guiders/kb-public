@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Объекты, прототипы и классы в JavaScript
+description: '**Назначение:** связать **семантику объектов** со спецификацией: литералы, доступ к свойствам, цепочка прототипов, синтаксис `class`, приватные поля, итерируемость. Мир **`software.javascript`**.'
+tags: [kb, software-javascript, worlds]
+world: software
+subworld: javascript
+---
 # Объекты, прототипы и классы в JavaScript
-**Tags:** #kb #software-javascript #worlds
 
 
 **Назначение:** связать **семантику объектов** со спецификацией: литералы, доступ к свойствам, цепочка прототипов, синтаксис `class`, приватные поля, итерируемость. Мир **`software.javascript`**.
@@ -80,7 +87,5 @@
 
 ## Lifecycle
 
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

@@ -1,4 +1,11 @@
-**Tags:** #cognition-math-development #readme #worlds
+﻿---
+type: Index
+title: 'World: cognition.math-development'
+description: '**KE id:** `cognition.math-development`'
+tags: [cognition-math-development, readme, worlds]
+world: cognition
+subworld: math-development
+---
 
 ﻿# World: cognition.math-development
 

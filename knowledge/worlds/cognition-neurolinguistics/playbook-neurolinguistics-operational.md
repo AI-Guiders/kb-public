@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Neurolinguistics — router v1
+description: '**world:** `cognition.neurolinguistics`'
+tags: [cognition-neurolinguistics, living, playbook, worlds]
+world: cognition
+subworld: neurolinguistics
+---
 # Neurolinguistics — router v1
-**Tags:** #cognition-neurolinguistics #living #playbook #worlds
 
 
 **world:** `cognition.neurolinguistics`

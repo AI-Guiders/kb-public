@@ -1,9 +1,14 @@
+﻿---
+type: Playbook
+title: 'Playbook: KB / ADR topic hashtags v1'
+description: '**Domain:** agent-operations'
+tags: [kb-tags, agent-operations, ssot, playbook, domains, living]
+---
 # Playbook: KB / ADR topic hashtags v1
 
 **Domain:** agent-operations  
 **Дата:** 2026-07-18  
 **Статус:** Accepted (MLP: `knowledge_tags` modes + cache + aliases; Core ≥ 2.1.8)  
-**Tags:** #kb-tags #agent-operations #ssot #playbook #domains #living
 
 **Связь:** [`note-canon-map-dynamic-inventory.md`](../../work/projects/door-to-singularity/cascade-ide/note-canon-map-dynamic-inventory.md) · ADR 0176 · L0 `agent-equal-standing-v1` · `META/kb-topic-tag-aliases.json` · скрипт `knowledge/scripts/tag-knowledge-canon.py`
 

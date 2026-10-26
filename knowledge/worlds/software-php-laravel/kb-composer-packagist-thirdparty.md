@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Composer, Packagist и сторонняя экосистема PHP
+description: '**Назначение:** контракты **управления зависимостями** и навигация по **популярным семействам** пакетов (в т.ч. Spatie для Laravel), без фиксации версий в KB. Мир `software.php` (tooling). Сочетается с `playbook-php.md`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Composer, Packagist и сторонняя экосистема PHP
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** контракты **управления зависимостями** и навигация по **популярным семействам** пакетов (в т.ч. Spatie для Laravel), без фиксации версий в KB. Мир `software.php` (tooling). Сочетается с `playbook-php.md`.
@@ -102,7 +109,5 @@
 - rollback_or_mitigation: revert lock + composer install
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

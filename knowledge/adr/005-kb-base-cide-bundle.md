@@ -1,4 +1,4 @@
-# ADR 005: KB-Base Bundle for CIDE
+﻿# ADR 005: KB-Base Bundle for CIDE
 **Tags:** #adr
 
 

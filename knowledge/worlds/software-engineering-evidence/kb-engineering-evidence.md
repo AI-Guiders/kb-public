@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Engineering knowledge base (evidence) v1
+description: '**Назначение:** база хранит знания, а не книги. Факты, эвристики и задачи внедрения с атрибуцией источника; источники — для цитирования и опционального углублённого чтения.'
+tags: [kb, software-engineering-evidence, worlds]
+world: software
+subworld: engineering-evidence
+---
 # Engineering knowledge base (evidence) v1
-**Tags:** #kb #software-engineering-evidence #worlds
 
 
 **Назначение:** база хранит знания, а не книги. Факты, эвристики и задачи внедрения с атрибуцией источника; источники — для цитирования и опционального углублённого чтения.

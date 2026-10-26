@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #cdp-adr-0002 #harness
+﻿---
+type: Definition Card
+title: Kolb journal (LLM-native)
+description: 'Не жизнь между инференсами. Не monolith DRAFT. Паттерн как A&H — INDEX + drafts/*.md; JSONL только для pin/итога. Instance park = f(gesture): project → work/projects/…/kolb-journal; free-theme → personal/kolb. До layout — scout reuse.'
+tags: [llm-native-card, definition, epistemic-scene, cdp-adr-0002, harness]
+world: epistemic
+subworld: scene
+---
 
 # Kolb journal (LLM-native)
 

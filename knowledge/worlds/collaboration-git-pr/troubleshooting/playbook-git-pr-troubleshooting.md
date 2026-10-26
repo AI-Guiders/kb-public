@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: Git / PR — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [collaboration-git-pr, living, playbook, worlds]
+world: collaboration
+subworld: git-pr
+---
 # Playbook: Git / PR — troubleshooting
-**Tags:** #collaboration-git-pr #living #playbook #worlds
 
 
 > **Контур:** A · kb-public  

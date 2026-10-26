@@ -1,4 +1,4 @@
-# ADR 013: Локальные настройки agent-notes-mcp (TOML)
+﻿# ADR 013: Локальные настройки agent-notes-mcp (TOML)
 **Tags:** #adr
 
 

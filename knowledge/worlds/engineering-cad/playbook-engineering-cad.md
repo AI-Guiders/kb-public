@@ -1,4 +1,11 @@
-**Tags:** #engineering-cad #living #playbook #worlds
+﻿---
+type: Playbook
+title: 'Playbook: engineering.cad (корень мира) v1'
+description: 'Карта мира CAD/BIM-плагинов: маршрутизация по САПР и слоям KB.'
+tags: [engineering-cad, living, playbook, worlds]
+world: engineering
+subworld: cad
+---
 
 ﻿# Playbook: engineering.cad (корень мира) v1
 

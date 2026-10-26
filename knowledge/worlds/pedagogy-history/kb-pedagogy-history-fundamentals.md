@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: History pedagogy — fundamentals v1
+description: '**Мир:** `pedagogy.history`'
+tags: [kb, pedagogy-history, worlds]
+world: pedagogy
+subworld: history
+---
 # History pedagogy — fundamentals v1
-**Tags:** #kb #pedagogy-history #worlds
 
 
 **Мир:** `pedagogy.history`  

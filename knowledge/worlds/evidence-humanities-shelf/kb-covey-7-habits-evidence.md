@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Covey — 7 Habits: ethics of character, win‑win, synergy (evidence card v1)'
+description: Содержит определения, систему навыков, матрицу, ЭБС и P/PC — достаточно для рассуждения и маршрутизации без обращения к книге. Подзаголовки **«Где в книге»** — опциональные якоря для проверки в конкретном издании.
+tags: [evidence-humanities-shelf, kb, worlds]
+world: evidence
+subworld: humanities-shelf
+---
 # Covey — 7 Habits: ethics of character, win‑win, synergy (evidence card v1)
-**Tags:** #evidence-humanities-shelf #kb #worlds
 
 
 ## Provenance (происхождение)

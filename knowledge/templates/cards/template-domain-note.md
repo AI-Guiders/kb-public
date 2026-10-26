@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: <Title> — domain note (шаблон)
+description: '**domain-id:** `<slug>`'
+tags: [template, templates]
+---
 
 ﻿# <Title> — domain note (шаблон)
 

@@ -1,4 +1,4 @@
-id = "software-dotnet-csharp"
+﻿id = "software-dotnet-csharp"
 version = "0.4.0"
 layer = "stack"
 title = ".NET / C# fundamentals pack"

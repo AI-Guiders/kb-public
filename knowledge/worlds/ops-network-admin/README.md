@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **ops.network-admin** (сеть и админ-инструменты)
+description: '**Назначение:** SSH, Nginx, Wireshark, админка 1С — операционные playbooks без замены vendor-доков.'
+tags: [ops-network-admin, readme, worlds]
+world: ops
+subworld: network-admin
+---
 # Мир **ops.network-admin** (сеть и админ-инструменты)
-**Tags:** #ops-network-admin #readme #worlds
 
 
 **Назначение:** SSH, Nginx, Wireshark, админка 1С — операционные playbooks без замены vendor-доков.

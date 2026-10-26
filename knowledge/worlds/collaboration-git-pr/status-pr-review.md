@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: PR Review Domain Status v1
+description: 'Operational pull request review quality: risk-first reading, verification sufficiency, and merge safety.'
+tags: [collaboration-git-pr, status, worlds]
+world: collaboration
+subworld: git-pr
+---
 # PR Review Domain Status v1
-**Tags:** #collaboration-git-pr #status #worlds
 
 
 ## Scope

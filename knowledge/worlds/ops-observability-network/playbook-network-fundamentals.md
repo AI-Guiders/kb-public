@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: основы сетей'
+description: '> **Scope:** операционная навигация по сетевым темам — где что искать, типовые шаги диагностики. Без привязки к конкретной инфраструктуре. Глубокий справочник: `kb-network-reference.md`.'
+tags: [living, ops-observability-network, playbook, worlds]
+world: ops
+subworld: observability-network
+---
 # Playbook: основы сетей
-**Tags:** #living #ops-observability-network #playbook #worlds
 
 
 > **Scope:** операционная навигация по сетевым темам — где что искать, типовые шаги диагностики. Без привязки к конкретной инфраструктуре. Глубокий справочник: `kb-network-reference.md`.

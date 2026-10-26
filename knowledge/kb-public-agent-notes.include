@@ -1,0 +1,28 @@
+﻿# Секции agent-notes.md, попадающие в ПУБЛИЧНУЮ сборку (build-public-kb.ps1) и в base-cide.
+#
+# Почему списком, а не «до маркера public-cut»: маркер — позиционный контракт, и 2026-09-26 он
+# уехал на первую строку, из-за чего сборка стала пустой МОЛЧА (разбор:
+# knowledge/work/projects/door-to-singularity/agent-notes-kb/note-public-cut-drift-2026-09-26.md,
+# ADR-008 §28). Теперь набор объявлен данными; порядок берётся из документа (порядок чтения),
+# состав — отсюда.
+#
+# Инвариант (проверяется build-хелпером): каждая секция манифеста L0
+# (knowledge/META/memory-architecture.json → l0) ОБЯЗАНА быть объявлена здесь. Если кто-то
+# добавит секцию в L0 и забудет про этот список — сборка упадёт громко, а не потеряет секцию тихо.
+#
+# Добавляя секцию сюда — проверь, что в ней нет машинных путей, учётных данных и личных деталей.
+# 2026-10-17: `active-scope` из набора убран — состояние «что в фокусе» переехало в `work/local/active-scope.md`
+# (машинные пути в публикуемом L0 недопустимы). Путь к TOML в `knowledge-roots-routing-v1` заменён на указатель.
+
+baseline-integrity-epistemic-v1
+epistemic-default-distrust-v1
+core-when-barriers-fail-v1
+principled-clarity-v1
+knowledge-roots-routing-v1
+agent-equal-standing-v1
+response-finalizer-v1
+response-one-step-before-finish-v1
+scope-disambiguation-all-everywhere-v1
+memory-architecture-v1
+kb-operational-freshness-v1
+

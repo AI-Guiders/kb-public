@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #software-authoring
+﻿---
+type: Definition Card
+title: GRASP — Information Expert
+description: Ответственность тому, кто владеет данными для задачи.
+tags: [llm-native-card, definition, software-authoring]
+world: software
+subworld: authoring
+---
 
 # GRASP — Information Expert
 

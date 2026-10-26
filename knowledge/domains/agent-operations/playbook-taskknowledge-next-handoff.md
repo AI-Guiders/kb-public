@@ -1,4 +1,9 @@
-**Tags:** #agent-operations #domains #living #playbook
+﻿---
+type: Playbook
+title: Playbook — next-task handoff (substance, not just id)
+description: '**Status:** Active (automated in TaskKnowledge Core/MCP **0.3.1**)'
+tags: [agent-operations, domains, living, playbook]
+---
 
 ﻿# Playbook — next-task handoff (substance, not just id)
 

@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Фундамент: Манипуляция и влияние (psychology.manipulation-influence)'
+description: 'Манипуляции людей — **бездонная тема**: тактики меняются по культурам и эпохам, люди изворотливы и делают это всю историю. Операционной таблицы паттернов (как в `domains/agent-operations/playbook-integrity-under-pressure.md`) недостаточно для устойчивого понимания: нужен **фундамент** — на каких механизмах держится влияние и манипуляция, почему одни и те же рычаги работают снова и снова. Этот документ даёт базовый слой для обучения и распознавания новых тактик, а не только применение готового списка.'
+tags: [kb, psychology-models, worlds]
+world: psychology
+subworld: models
+---
 # Фундамент: Манипуляция и влияние (psychology.manipulation-influence)
-**Tags:** #kb #psychology-models #worlds
 
 
 ## Назначение

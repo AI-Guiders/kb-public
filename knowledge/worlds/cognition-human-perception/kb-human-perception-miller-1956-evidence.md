@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Miller (1956) — The Magical Number Seven'
+description: '*Версия карточки: v1.2 · 2026-04-20 — семантическое имя `*-evidence-v1` (канон `kb-*-evidence-v1`).*'
+tags: [cognition-human-perception, kb, worlds]
+world: cognition
+subworld: human-perception
+---
 # Evidence: Miller (1956) — The Magical Number Seven
-**Tags:** #cognition-human-perception #kb #worlds
 
 
 ## Provenance

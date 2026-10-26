@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Geography pedagogy — fundamentals v1
+description: '**Мир:** `pedagogy.geography`'
+tags: [kb, pedagogy-geography, worlds]
+world: pedagogy
+subworld: geography
+---
 # Geography pedagogy — fundamentals v1
-**Tags:** #kb #pedagogy-geography #worlds
 
 
 **Мир:** `pedagogy.geography`  

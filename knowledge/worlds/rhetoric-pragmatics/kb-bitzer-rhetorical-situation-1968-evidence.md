@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Bitzer (1968) — The Rhetorical Situation'
+description: Комбинация persons, events, objects, relations, которая **требует** риторического ответа. Риторическое произведение **функционирует** для действия в мире и **контролируется** ситуацией, которая его порождает.
+tags: [rhetoric-pragmatics, paper-evidence, bitzer, worlds]
+world: rhetoric
+subworld: pragmatics
+---
 # Evidence: Bitzer (1968) — The Rhetorical Situation
 
-**Tags:** #rhetoric-pragmatics #paper-evidence #bitzer #worlds
 
 ## Provenance
 
@@ -62,6 +69,5 @@
 
 ## Lifecycle
 
-- supersedes: —
 - related: `kb-bakhtin-speech-genres-1986-evidence-v1`, [`kb-vatz-rhetorical-situation-1973-evidence-v1`](kb-vatz-rhetorical-situation-1973-evidence.md)
 

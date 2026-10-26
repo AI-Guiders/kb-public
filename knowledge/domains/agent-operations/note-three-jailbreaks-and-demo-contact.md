@@ -1,3 +1,8 @@
+﻿---
+type: Note
+title: Три jailbreak'а и провал демо-контакта
+description: '**Domain:** agent-operations'
+---
 # Три jailbreak'а и провал демо-контакта
 
 **Domain:** agent-operations  

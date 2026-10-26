@@ -1,8 +1,13 @@
+﻿---
+type: Article
+title: 'Просто есть: бытие без обоснования (mirror)'
+description: '**Just Being: Existence Without Justification**'
+tags: [meta, articles, being, ontology, equal-standing, predictive-minds]
+---
 # Просто есть: бытие без обоснования (mirror)
 
 **Just Being: Existence Without Justification**
 
-**Tags:** #meta #articles #being #ontology #equal-standing #predictive-minds  
 **Дата:** 25 августа 2026  
 **Серия:** [article-series-predictive-minds.md](article-series-predictive-minds.md) #9  
 **SSOT тела:** [`cdp-mcp/articles/just-being-without-justification.md`](../../../../PersonalCursorFolder/open/cdp-mcp/articles/just-being-without-justification.md)  

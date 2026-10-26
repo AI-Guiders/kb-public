@@ -1,4 +1,4 @@
-**Tags:** #adr
+﻿**Tags:** #adr
 
 ﻿# ADR 016: Протокол чистой установки стека (ANM + kb-public → personal)
 

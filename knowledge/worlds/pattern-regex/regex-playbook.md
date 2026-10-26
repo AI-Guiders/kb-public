@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Regex Playbook v1
+description: Dedicated playbook for reliable regular expression design, validation, and maintenance.
+tags: [pattern-regex, worlds]
+world: pattern
+subworld: regex
+---
 # Regex Playbook v1
-**Tags:** #pattern-regex #worlds
 
 
 ## Purpose

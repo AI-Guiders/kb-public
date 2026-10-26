@@ -1,3 +1,11 @@
+﻿---
+type: KB
+description: 'id: kb-regex-flavors-practice-v1'
+tags: [kb, pattern-regex, worlds]
+world: pattern
+subworld: regex
+sections: [dotnet, javascript, pcre-perl-style, java, workflow]
+---
 <!-- kb_card
 id: kb-regex-flavors-practice-v1
 title: Regex — диалекты, .NET, практика (L2)
@@ -8,7 +16,6 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: диалекты и практика (L2)
-**Tags:** #kb #pattern-regex #worlds
 
 
 ## Назначение

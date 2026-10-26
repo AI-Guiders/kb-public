@@ -1,8 +1,25 @@
+﻿---
+type: Playbook
+title: 'Playbook: compressed speech → decompress'
+description: '**Домен:** agent-operations'
+tags: [agent-operations, domains, living, playbook]
+speech_situation:
+  audience: agent_internal
+  goal: operational_protocol
+  genre: playbook
+  channel: kb_canon
+  stakes: medium
+  distance: professional
+  when_citing_to_human:
+    audience: operator_pair
+    goal: instruction
+    genre: playbook
+    channel: cockpit_dialog
+    stakes: medium
+    distance: close
+---
 # Playbook: compressed speech → decompress
-**Tags:** #agent-operations #domains #living #playbook
 
-**Speech situation (primary):** `audience=agent_internal` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
-**Speech situation (when citing to human):** `audience=operator_pair` · `goal=instruction` · `genre=playbook` · `channel=cockpit_dialog` · `stakes=medium` · `distance=close`
 
 **Домен:** agent-operations  
 **Kin:** [`playbook-fuzzy-search-implicit-language.md`](playbook-fuzzy-search-implicit-language.md) · Awareness (`META/awareness-as-countermeasure.md`) · `before-answer-pcs` (criteria before act)
@@ -36,7 +53,7 @@ Operator example (Earth History, 2026-08-15): `Impact on A…Z` = сжатое �
 - Fill A–Z / Alice–Bob as if the labels were the DoD.  
 - Blame «probability only» and skip the thinking brake you already have.
 
-## DoD for this leaf
+## DoD for this UoW
 
 - [x] Named failure (Earth History A…Z).  
 - [x] Ritual + kin links.  

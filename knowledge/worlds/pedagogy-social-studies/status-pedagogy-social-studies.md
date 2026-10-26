@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.social-studies v1'
+description: '**Домен:** обществознание — C3 inquiry v1'
+tags: [pedagogy-social-studies, status, worlds]
+world: pedagogy
+subworld: social-studies
+---
 # Status: pedagogy.social-studies v1
-**Tags:** #pedagogy-social-studies #status #worlds
 
 
 **Домен:** обществознание — C3 inquiry v1  

@@ -1,4 +1,11 @@
-**Tags:** #cognition-language-acquisition #kb #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 weeks'
+description: '*Версия: v1.0 · 2026-05-31 — full text (50 pp. OCR, UCL Negative643 PDF)*'
+tags: [cognition-language-acquisition, kb, worlds]
+world: cognition
+subworld: language-acquisition
+---
 
 ﻿# Evidence: Saxton, Backley & Gallaway (2005) — Negative input after 12 weeks
 

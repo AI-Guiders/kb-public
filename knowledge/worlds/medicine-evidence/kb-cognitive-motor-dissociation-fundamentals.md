@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Cognitive motor dissociation (CMD) — фундамент v1
+description: '**Status:** Accepted · 2026-09-14'
+tags: [kb, medicine-evidence, consciousness, disorders-of-consciousness, cmd, bci]
+world: medicine
+subworld: evidence
+---
 # Cognitive motor dissociation (CMD) — фундамент v1
-**Tags:** #kb #medicine-evidence #consciousness #disorders-of-consciousness #cmd #bci
 
 **Status:** Accepted · 2026-09-14  
 **Provenance:** диалог оператор + агент (2026-09); первичные источники ниже.  

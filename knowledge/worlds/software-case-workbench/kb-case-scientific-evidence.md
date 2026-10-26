@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: CASE workbench — scientific evidence index v1
+description: '**Назначение:** индекс evidence-карточек мира `software.case-workbench`. Читать после `status-*` и `playbook-*`.'
+tags: [software-case-workbench, kb, evidence-index, worlds]
+world: software
+subworld: case-workbench
+---
 # CASE workbench — scientific evidence index v1
 
-**Tags:** #software-case-workbench #kb #evidence-index #worlds
 
 **Назначение:** индекс evidence-карточек мира `software.case-workbench`. Читать после `status-*` и `playbook-*`.
 

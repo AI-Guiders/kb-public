@@ -1,4 +1,11 @@
-**Tags:** #cognition-language-acquisition #kb #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Clarke, Soto & Nelson — Recasts and AAC interaction (review)'
+description: '*Версия: v1.0 · 2026-05-31 — full text (36 pp. OCR)*'
+tags: [cognition-language-acquisition, kb, worlds]
+world: cognition
+subworld: language-acquisition
+---
 
 ﻿# Evidence: Clarke, Soto & Nelson — Recasts and AAC interaction (review)
 

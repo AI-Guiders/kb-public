@@ -1,4 +1,11 @@
-**Tags:** #engineering-pml #status #worlds
+﻿---
+type: Status
+title: 'Status: engineering.pml v1'
+description: '**Домен:** AVEVA Programmable Macro Language (PML1, PML2), `pmllib`, кастомизация E3D/PDMS.'
+tags: [engineering-pml, status, worlds]
+world: engineering
+subworld: pml
+---
 
 ﻿# Status: engineering.pml v1
 

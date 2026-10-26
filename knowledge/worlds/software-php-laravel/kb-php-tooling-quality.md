@@ -1,4 +1,11 @@
-**Tags:** #kb #software-php-laravel #worlds
+﻿---
+type: KB
+title: PHP — инструменты, качество, CI (фундаментальный проход)
+description: '**Назначение:** слой **PHPUnit/Pest, статанализ, форматирование, Rector, Xdebug, CI-матрица**. Мир **`software.php`**.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 
 ﻿# PHP — инструменты, качество, CI (фундаментальный проход)
 
@@ -107,7 +114,5 @@
 - success_criterion: новый код не понижает уровень строгости без ADR
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

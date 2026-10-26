@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **hci.ux-dx** (HCI, продуктовый UI/UX, developer experience)
+description: '**Назначение:** операционный HCI (usable/recoverable interactions, диалог агента), карта чтения HCI, правила usability; продуктовый **ui-ux-playbook**; литературные слои Norman/Nielsen/Shneiderman/Krug и Osmani/Smalltalk/Boxer; **DE/DX** — процесс поставки и метрики потока (`de-dx-playbook`) плюс статусы closure. **Troubleshooting (build/test/debug):** [`troubleshooting/`](troubleshooting/README.md). Легаси: [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md). **Git/PR** — [`../collaboration-git-pr/troubleshooting/`](../collaboration-git-pr/troubleshooting/).'
+tags: [hci-ux-dx, readme, worlds]
+world: hci
+subworld: ux-dx
+---
 # Мир **hci.ux-dx** (HCI, продуктовый UI/UX, developer experience)
-**Tags:** #hci-ux-dx #readme #worlds
 
 
 **Назначение:** операционный HCI (usable/recoverable interactions, диалог агента), карта чтения HCI, правила usability; продуктовый **ui-ux-playbook**; литературные слои Norman/Nielsen/Shneiderman/Krug и Osmani/Smalltalk/Boxer; **DE/DX** — процесс поставки и метрики потока (`de-dx-playbook`) плюс статусы closure. **Troubleshooting (build/test/debug):** [`troubleshooting/`](troubleshooting/README.md). Легаси: [`../../tooling-debug-playbook.md`](../../tooling-debug-playbook.md). **Git/PR** — [`../collaboration-git-pr/troubleshooting/`](../collaboration-git-pr/troubleshooting/).

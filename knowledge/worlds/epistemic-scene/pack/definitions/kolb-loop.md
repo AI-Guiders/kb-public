@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #cdp-adr-0002 #methodology
+﻿---
+type: Definition Card
+title: Kolb loop (LLM-native)
+description: 'Опыт → рефлексия → абстракция → эксперимент. В CDP не только шаги, а два пространства: experiment-space (можно пробовать) и inference-space (можно выводить). Между ними — handoff; promote только через (A)→(I).'
+tags: [llm-native-card, definition, epistemic-scene, cdp-adr-0002, methodology]
+world: epistemic
+subworld: scene
+---
 
 # Kolb loop (LLM-native)
 

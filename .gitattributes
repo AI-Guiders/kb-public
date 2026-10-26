@@ -1,4 +1,4 @@
-# Text EOL policy (kb-public): LF in Git index and working tree.
+﻿# Text EOL policy (kb-public): LF in Git index and working tree.
 # SSOT: agent-notes canon .gitattributes. core.autocrlf=false. After rule changes: git add --renormalize .
 * text=auto eol=lf
 
@@ -24,5 +24,4 @@ agent-notes.md text eol=lf
 *.dll binary
 *.exe binary
 *.pdb binary
-
 

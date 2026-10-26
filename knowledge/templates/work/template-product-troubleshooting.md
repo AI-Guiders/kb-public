@@ -1,5 +1,10 @@
+﻿---
+type: Template
+title: 'Playbook: <ProductName> — <topic> (troubleshooting v1)'
+description: '> **Контур:** B — product · `work/projects/<scope>/<project-id>/` · **не kb-public**'
+tags: [template, templates]
+---
 # Playbook: <ProductName> — <topic> (troubleshooting v1)
-**Tags:** #template #templates
 
 
 > **Контур:** B — product · `work/projects/<scope>/<project-id>/` · **не kb-public**  

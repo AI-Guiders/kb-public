@@ -1,5 +1,12 @@
+﻿---
+type: Map
+title: HCI Reading Map v1
+description: Keep HCI decisions evidence-backed while staying operational for daily product work.
+tags: [hci-ux-dx, map, worlds]
+world: hci
+subworld: ux-dx
+---
 # HCI Reading Map v1
-**Tags:** #hci-ux-dx #map #worlds
 
 
 ## Purpose

@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy school subjects v1'
+description: '**Домен:** школьная предметная педагогика (`pedagogy.general` + subject worlds)'
+tags: [pedagogy-general, status, worlds]
+world: pedagogy
+subworld: general
+---
 # Status: pedagogy school subjects v1
-**Tags:** #pedagogy-general #status #worlds
 
 
 **Домен:** школьная предметная педагогика (`pedagogy.general` + subject worlds)  

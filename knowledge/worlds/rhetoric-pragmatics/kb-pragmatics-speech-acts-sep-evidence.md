@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Speech acts — Austin & Searle (SEP synthesis)'
+description: Одна locution может нести разную **illocutionary force** в разных контекстах.
+tags: [rhetoric-pragmatics, sep-evidence, speech-acts, worlds]
+world: rhetoric
+subworld: pragmatics
+---
 # Evidence: Speech acts — Austin & Searle (SEP synthesis)
 
-**Tags:** #rhetoric-pragmatics #sep-evidence #speech-acts #worlds
 
 ## Provenance
 

@@ -1,6 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Bakhtin (1986) — The Problem of Speech Genres'
+description: '**Речевой жанр** — каждый относительно стабильный тип **высказывания** (utterance): от однословной реплики до многотомного романа. Общая **вербальная (языковая) природа** — не только «литература».'
+tags: [rhetoric-pragmatics, paper-evidence, bakhtin, speech-genres, worlds]
+world: rhetoric
+subworld: pragmatics
+---
 # Evidence: Bakhtin (1986) — The Problem of Speech Genres
 
-**Tags:** #rhetoric-pragmatics #paper-evidence #bakhtin #speech-genres #worlds
 
 ## Provenance
 

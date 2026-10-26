@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Barbieri et al. (2023) — Worked examples meta-analysis (mathematics)'
+description: '> **Filename note:** card id retains `chen-2023` for link stability; **primary authors are Barbieri, Miller-Cotto, Clerjuste & Chawla (2023)**. Chen/Kalyuga/Sweller appear as prior worked-example / element-interactivity strand, not as this meta-analysis authors.'
+tags: [kb, pedagogy-general, worlds]
+world: pedagogy
+subworld: general
+---
 # Evidence: Barbieri et al. (2023) — Worked examples meta-analysis (mathematics)
-**Tags:** #kb #pedagogy-general #worlds
 
 
 > **Filename note:** card id retains `chen-2023` for link stability; **primary authors are Barbieri, Miller-Cotto, Clerjuste & Chawla (2023)**. Chen/Kalyuga/Sweller appear as prior worked-example / element-interactivity strand, not as this meta-analysis authors.

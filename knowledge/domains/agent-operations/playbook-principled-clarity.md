@@ -1,9 +1,26 @@
+﻿---
+type: Playbook
+title: 'Playbook: принципиальная ясность'
+description: '**Домен:** agent-operations'
+tags: [agent-operations, domains, living, playbook]
+speech_situation:
+  audience: agent_internal
+  goal: epistemic_gate
+  genre: playbook
+  channel: kb_canon
+  stakes: medium
+  distance: professional
+  forbidden_moves: [faq_softening, define_by_negation]
+  when_citing_to_human:
+    audience: public_reader
+    goal: explain_idea
+    genre: playbook
+    channel: cockpit_dialog
+    stakes: high
+    distance: professional
+---
 # Playbook: принципиальная ясность
-**Tags:** #agent-operations #domains #living #playbook
 
-**Speech situation (primary):** `audience=agent_internal` · `goal=epistemic_gate` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
-**Speech situation (when citing to human):** `audience=public_reader` · `goal=explain_idea` · `genre=playbook` · `channel=cockpit_dialog` · `stakes=high` · `distance=professional`  
-**Speech situation (forbidden_moves):** `faq_softening`, `define_by_negation`
 
 **Домен:** agent-operations  
 **Секция hot:** `principled-clarity-v1` (L0), `principled-clarity-extended-v1` (stub → этот файл § «Развёрнуто»)

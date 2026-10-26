@@ -1,10 +1,15 @@
+﻿---
+type: Note
+title: 'Note: Dialogue Δ — эффективность диалога и round-trip economy (v0)'
+description: '**Domain:** agent-operations'
+tags: [agent-operations, dialogue-delta, domains, ssot, note, research, living]
+---
 # Note: Dialogue Δ — эффективность диалога и round-trip economy (v0)
 
 **Domain:** agent-operations  
 **Статус:** research / living — **не** Accepted product ADR  
 **Дата:** 2026-07-18  
 **Provenance:** оператор + агент — после ADCM Partition (ADR 0175); фокус: токены и время, не «ещё одна конституция»  
-**Tags:** #agent-operations #dialogue-delta #domains #ssot #note #research #living
 
 **Связь:**
 

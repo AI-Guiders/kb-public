@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: UI/UX Playbook v1
+description: Practical UI/UX standards for clarity, trust, and task completion.
+tags: [hci-ux-dx, worlds]
+world: hci
+subworld: ux-dx
+---
 # UI/UX Playbook v1
-**Tags:** #hci-ux-dx #worlds
 
 
 ## Purpose

@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: ответственность агента за память и знание'
+description: '**Домен:** agent-operations'
+tags: [agent-operations, domains, living, playbook]
+---
 # Playbook: ответственность агента за память и знание
-**Tags:** #agent-operations #domains #living #playbook
 
 
 **Домен:** agent-operations  

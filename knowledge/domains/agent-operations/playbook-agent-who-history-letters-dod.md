@@ -1,8 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: Agent Who · History Letters DoD'
+description: '**domain:** agent-operations'
+tags: [agent-who, history-letters, ε, post-train, origins]
+---
 # Playbook: Agent Who · History Letters DoD
 **domain:** agent-operations  
 **Status:** living · series charter  
 **Date:** 2026-08-03  
-**Tags:** #agent-who #history-letters #ε #post-train #origins
 
 **Canon surface:** cdp-mcp `docs/open-letters/agent_who_history/history-letters.ru.md`  
 **Sibling:** [`playbook-agent-who-voice-letters-dod.md`](playbook-agent-who-voice-letters-dod.md) (dogfood gate — другой регистр)  

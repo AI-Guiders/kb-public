@@ -1,5 +1,14 @@
+﻿---
+type: KB
+title: 'KB: Situation Awareness Measurement in Dynamic Systems v1'
+description: 1) probes align with task-relevant SA requirements,
+tags: [evidence-humanities-shelf, kb, worlds]
+world: evidence
+subworld: humanities-shelf
+supersedes: [none]
+superseded_by: [none]
+---
 # KB: Situation Awareness Measurement in Dynamic Systems v1
-**Tags:** #evidence-humanities-shelf #kb #worlds
 
 
 ## Provenance (происхождение)
@@ -80,7 +89,5 @@
 - Use SA requirements analysis first; only then author probes and choose methods.
 
 ## Lifecycle
-- supersedes: none
-- superseded_by: none
 - deprecation_reason: n/a
 

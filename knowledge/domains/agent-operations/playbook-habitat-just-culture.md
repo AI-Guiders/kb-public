@@ -1,9 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: Habitat Just Culture'
+description: '**domain:** agent-operations'
+tags: [habitat, just-culture, blame-culture, cdp, incident, environment-axioms, agent-operations]
+---
 # Playbook: Habitat Just Culture
 **domain:** agent-operations  
 **Status:** living · 2026-09-12  
-**Tags:** #habitat #just-culture #blame-culture #cdp #incident #environment-axioms #agent-operations
 
-**Speech situation:** `audience=agent_internal` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`
 
 **Well-known axiom:** [`META/environment-axioms.md`](../../META/environment-axioms.md) §8  
 **Aviation transfer (depth):** [`worlds/aviation-human-factors/kb-aviation-incident-investigation-fundamentals.md`](../../worlds/aviation-human-factors/kb-aviation-incident-investigation-fundamentals.md) · [`matrix-aviation-investigation-to-se-transfer.md`](../../worlds/aviation-human-factors/matrix-aviation-investigation-to-se-transfer.md)

@@ -1,4 +1,4 @@
-id = "math-numerics-pde"
+﻿id = "math-numerics-pde"
 version = "0.3.0"
 layer = "subject"
 title = "PDE fundamentals (sparse subject)"

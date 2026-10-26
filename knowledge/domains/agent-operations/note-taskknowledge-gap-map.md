@@ -1,4 +1,9 @@
-**Tags:** #agent-operations #domains #note #research
+﻿---
+type: Note
+title: Gap map — Findings JSONL → TaskKnowledge md / MCP v0
+description: '**Date:** 2026-07-17'
+tags: [agent-operations, domains, note, research]
+---
 
 ﻿# Gap map — Findings JSONL → TaskKnowledge md / MCP v0
 

@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Warehouse: Barcode/QR Video Capture v1'
+description: 'Общие принципы видеозахвата штрихкодов и QR на складе: читаемость с видео, пиксели на модуль, настройка камер и NVR. Требования маркетплейсов (Ozon, WB, Яндекс Маркет) к этикеткам — в `kb-warehouse-marketplace-labels.md`.'
+tags: [kb, logistics-warehouse, worlds]
+world: logistics
+subworld: warehouse
+---
 # Warehouse: Barcode/QR Video Capture v1
-**Tags:** #kb #logistics-warehouse #worlds
 
 
 Общие принципы видеозахвата штрихкодов и QR на складе: читаемость с видео, пиксели на модуль, настройка камер и NVR. Требования маркетплейсов (Ozon, WB, Яндекс Маркет) к этикеткам — в `kb-warehouse-marketplace-labels.md`.

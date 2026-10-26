@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: DEPRECATED — superseded
+description: '**superseded_by:** [`../cognition-language-acquisition/kb-language-acquisition-scientific-evidence.md`](../cognition-language-acquisition/kb-language-acquisition-scientific-evidence.md)'
+tags: [cognition-language-development, kb, worlds]
+world: cognition
+subworld: language-development
+---
 # DEPRECATED — superseded
-**Tags:** #cognition-language-development #kb #worlds
 
 
 **superseded_by:** [`../cognition-language-acquisition/kb-language-acquisition-scientific-evidence.md`](../cognition-language-acquisition/kb-language-acquisition-scientific-evidence.md)

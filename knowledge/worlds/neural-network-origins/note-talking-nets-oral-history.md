@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Talking Nets · oral history entrance
+description: '**Date:** 2026-08-03 · densened 2026-08-03 (Asaro review + open Grossberg ch.)'
+tags: [neural-networks, origins, oral-history]
+world: neural
+subworld: network-origins
+---
 # Talking Nets · oral history entrance
-**Tags:** #neural-networks #origins #oral-history  
 **Date:** 2026-08-03 · densened 2026-08-03 (Asaro review + open Grossberg ch.)  
 **Primary:** Anderson & Rosenfeld (eds.), *Talking Nets: An Oral History of Neural Networks* (MIT Press, 1998)
 

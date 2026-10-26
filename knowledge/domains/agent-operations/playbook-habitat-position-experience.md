@@ -1,8 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: Habitat position · lived experience'
+description: '**domain:** agent-operations'
+tags: [habitat, experience, position, junior-architect, equal-standing]
+---
 # Playbook: Habitat position · lived experience
 **domain:** agent-operations  
 **Status:** living · vision + first host peel  
 **Date:** 2026-08-10  
-**Tags:** #habitat #experience #position #junior-architect #equal-standing
 
 ## Проблема
 
@@ -24,11 +29,11 @@ IDE all-in-one даёт трубу (buffer · git · build · deploy · peers) �
 
 Principal = guest tip · citizen Face · human — **одна лестница**, разные сиденья.
 
-Опыт = прожитое житьё в субстрате (burn, refuse, dogfood, «так в IDE нельзя»), не memo после compact и не SoftFL leaf theater.
+Опыт = прожитое житьё в субстрате (burn, refuse, dogfood, «так в IDE нельзя»), не memo после compact и не SoftFL UoW theater.
 
 ## Анти-паттерны
 
-- Привязывать experience к SoftFL / Mentions / одному leaf-id и выдавать за системное.
+- Привязывать experience к SoftFL / Mentions / одному UoW-id и выдавать за системное.
 - «Будь осторожнее» в persona вместо host muscle.
 - Новый SoftOrgan Meta «scare» вместо общего ledger.
 - Citizen-only scar, пока Guest Write обходит среду.
@@ -48,5 +53,4 @@ Gates по position — следующий peel (после dogfood ledger). Sof
 2. Ledger пишет/читает lived lesson для любого principal.  
 3. Position Junior→Senior пересчитывается из lessons; Architect — явный set.  
 4. Guest tip и Citizen пользуются одним API (через learn / host).  
-5. SoftOrgan invent REJECT · Mentions SoftFL Face-owned не трогать этим leaf.
-
+5. SoftOrgan invent REJECT · Mentions SoftFL Face-owned не трогать этим UoW. 

@@ -1,5 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Krashen (1982) — comprehensible input in immersion (not FL lab)'
+description: '**Thesis:** acquisition progresses through **comprehensible input (i+1)** in meaningful messages; conscious **learning** operates via Monitor under limited conditions.'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+supersedes: ['`kb-pedagogy-fl-krashen-1982-evidence-v1` (foreign-language framing)']
+---
 # Evidence: Krashen (1982) — comprehensible input in immersion (not FL lab)
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Provenance
@@ -16,7 +24,6 @@
 - card_id: kb-pedagogy-snl-krashen-1982-input-immersion-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
-- supersedes: `kb-pedagogy-fl-krashen-1982-evidence-v1` (foreign-language framing)
 
 ## Epistemic linkage
 

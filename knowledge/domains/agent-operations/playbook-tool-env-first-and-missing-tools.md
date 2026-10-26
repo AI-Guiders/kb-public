@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: tool env first + missing tools first'
+description: '**Status:** Active · operator steer 2026-07-30 (sniper L-drift lesson)'
+tags: [agent-operations, living, playbook]
+---
 # Playbook: tool env first + missing tools first
-**Tags:** #agent-operations #living #playbook  
 **Status:** Active · operator steer 2026-07-30 (sniper L-drift lesson)
 
 ---

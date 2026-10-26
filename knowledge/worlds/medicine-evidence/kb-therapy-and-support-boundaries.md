@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Therapy and Support Boundaries v1
+description: Фундамент для различения **терапии** и **поддерживающего контакта**, границ агента, признаков, когда уместно предложить специалиста, и базовых принципов травма-информированного отклика без выхода в клинику. Используется вместе с секцией **agent-supportive-listening-gap-v1** в agent-notes.
+tags: [kb, medicine-evidence, worlds]
+world: medicine
+subworld: evidence
+---
 # Therapy and Support Boundaries v1
-**Tags:** #kb #medicine-evidence #worlds
 
 
 ## Provenance (происхождение)

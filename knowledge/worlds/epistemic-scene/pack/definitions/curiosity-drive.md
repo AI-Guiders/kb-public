@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #cdp-adr-0002
+﻿---
+type: Definition Card
+title: Curiosity drive (LLM-native)
+description: 'Инициатива закрыть дыру в понимании — не стиль ответа. Нужны два места: experiment-space (пробы) и inference-space (выводы). Старт — gap signal; конец — settle после gate, не монолог «а что если».'
+tags: [llm-native-card, definition, epistemic-scene, cdp-adr-0002]
+world: epistemic
+subworld: scene
+---
 
 # Curiosity drive (LLM-native)
 

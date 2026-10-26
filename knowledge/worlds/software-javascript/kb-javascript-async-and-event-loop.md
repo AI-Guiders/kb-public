@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Асинхронность и цикл событий (Promises, задачи, платформенные хуки)
+description: '**Назначение:** единая картина **асинхронного поведения языка** (Promises, async/await) и **порядка исполнения задач** — микрозадачи vs задачи, взаимодействие с таймерами и I/O в типичных платформах. Мир **`software.javascript`**; детали браузерной **TaskQueue** и libuv — ориентировочно и с отсылкой к целевому движку.'
+tags: [kb, software-javascript, worlds]
+world: software
+subworld: javascript
+---
 # Асинхронность и цикл событий (Promises, задачи, платформенные хуки)
-**Tags:** #kb #software-javascript #worlds
 
 
 **Назначение:** единая картина **асинхронного поведения языка** (Promises, async/await) и **порядка исполнения задач** — микрозадачи vs задачи, взаимодействие с таймерами и I/O в типичных платформах. Мир **`software.javascript`**; детали браузерной **TaskQueue** и libuv — ориентировочно и с отсылкой к целевому движку.
@@ -78,7 +85,5 @@
 
 ## Lifecycle
 
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

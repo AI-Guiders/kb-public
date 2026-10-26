@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Post-train mesh bag antipattern
+description: '**Date:** 2026-08-03'
+tags: [post-train, antipattern, ε, imitation-human]
+world: neural
+subworld: network-origins
+---
 # Post-train mesh bag antipattern
-**Tags:** #post-train #antipattern #ε #imitation-human  
 **Date:** 2026-08-03
 
 ---

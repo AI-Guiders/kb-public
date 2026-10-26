@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: KB / agent-notes MCP — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [knowledge-engineering, living, playbook, worlds]
+world: knowledge
+subworld: engineering
+---
 # Playbook: KB / agent-notes MCP — troubleshooting
-**Tags:** #knowledge-engineering #living #playbook #worlds
 
 
 > **Контур:** A · kb-public  

@@ -1,4 +1,11 @@
-**Tags:** #cognition-language-acquisition #kb #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Saxton (1997) — The contrast theory of negative input'
+description: '**Практика без 1997 PDF:** для contrast theory + long-term naturalistic evidence достаточно уже **full** [`kb-language-acquisition-saxton-2005-negative-evidence.md`](kb-language-acquisition-saxton-2005-negative-evidence.md). Карта 1997 нужна для **novel-verb lab @ 5;0** (immediate E→C), если понадобится точная методика/статистика — тогда PDF или thesis.'
+tags: [cognition-language-acquisition, kb, worlds]
+world: cognition
+subworld: language-acquisition
+---
 
 ﻿# Evidence: Saxton (1997) — The contrast theory of negative input
 

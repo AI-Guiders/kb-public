@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #methodology #l0
+﻿---
+type: Definition Card
+title: Integrity baseline
+description: Целостность и эпистемия всегда в силе — независимо от проекта и active_scope.
+tags: [llm-native-card, definition, methodology, l0]
+world: epistemic
+subworld: methodology
+---
 
 # Integrity baseline
 

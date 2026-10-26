@@ -1,4 +1,11 @@
-**Tags:** #kb #software-php-laravel #worlds
+﻿---
+type: KB
+title: PHP — данные и персистентность (PDO и обход без ORM)
+description: '**Назначение:** фундамент **работы с БД из PHP** без привязки к Laravel/Eloquent: PDO, подготовленные запросы, транзакции, типичные ошибки. Мир **`software.php`**.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 
 ﻿# PHP — данные и персистентность (PDO и обход без ORM)
 
@@ -107,7 +114,5 @@
 - success_criterion: нет сырого пользовательского ввода в SQL
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

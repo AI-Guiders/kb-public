@@ -1,6 +1,11 @@
+﻿---
+type: Note
+title: 'CDP-ADR-0210: Federated knowledge corpus recall (pointer)'
+description: '**Status:** accepted (direction)'
+tags: [agent-operations, cdp, adr, kb-tags, recall, hci, mlp, canon-map]
+---
 # CDP-ADR-0210: Federated knowledge corpus recall (pointer)
 
-**Tags:** #agent-operations #cdp #adr #kb-tags #recall #hci #mlp #canon-map  
 **Status:** accepted (direction)  
 **SSOT:** [`cdp-mcp/docs/adr/CDP-ADR-0210-knowledge-corpus-recall-federated.md`](../../../../PersonalCursorFolder/open/cdp-mcp/docs/adr/CDP-ADR-0210-knowledge-corpus-recall-federated.md)
 

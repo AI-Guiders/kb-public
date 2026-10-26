@@ -1,4 +1,9 @@
-**Tags:** #template #templates #sub-project
+﻿---
+type: Template
+title: 'Sub-project card: `<sub-project-id>` (template)'
+description: '**Путь экземпляра:** `knowledge/work/projects/<scope>/<parent-project-id>/subprojects/<sub-project-id>.md`'
+tags: [template, templates, sub-project]
+---
 
 # Sub-project card: `<sub-project-id>` (template)
 

@@ -1,4 +1,9 @@
-**Tags:** #readme #templates
+﻿---
+type: Index
+title: '`templates/matrices/` — шаблоны transfer / routing матриц'
+description: Каркасы для **`matrix-*.md`** в `worlds/<world>/` (или редко в `domains/`).
+tags: [readme, templates]
+---
 
 ﻿# `templates/matrices/` — шаблоны transfer / routing матриц
 

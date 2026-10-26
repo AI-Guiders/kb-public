@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.geography v1'
+description: '**Домен:** география — geo-literacy v1'
+tags: [pedagogy-geography, status, worlds]
+world: pedagogy
+subworld: geography
+---
 # Status: pedagogy.geography v1
-**Tags:** #pedagogy-geography #status #worlds
 
 
 **Домен:** география — geo-literacy v1  

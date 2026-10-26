@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **software.authoring** (OOA&D, кросс-доменный перенос)
+description: '**Назначение:** языконезависимая структура ПО (nouns/verbs, слои), матрица переноса симптом→playbook, стиль C# (общий для .NET).'
+tags: [readme, software-authoring, worlds]
+world: software
+subworld: authoring
+---
 # Мир **software.authoring** (OOA&D, кросс-доменный перенос)
-**Tags:** #readme #software-authoring #worlds
 
 
 **Назначение:** языконезависимая структура ПО (nouns/verbs, слои), матрица переноса симптом→playbook, стиль C# (общий для .NET).

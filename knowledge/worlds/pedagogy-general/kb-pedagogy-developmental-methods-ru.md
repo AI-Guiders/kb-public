@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: RU developmental methods — authoring hints v1
+description: '**world:** `pedagogy.general`'
+tags: [kb, pedagogy-general, worlds]
+world: pedagogy
+subworld: general
+---
 # RU developmental methods — authoring hints v1
-**Tags:** #kb #pedagogy-general #worlds
 
 
 **world:** `pedagogy.general`  

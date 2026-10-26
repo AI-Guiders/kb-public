@@ -1,6 +1,11 @@
+﻿---
+type: Note
+title: 'CDP-ADR-0206: Habitat Integrity Subsystem (pointer)'
+description: '**Status:** accepted (spec)'
+tags: [agent-operations, cdp, adr, integrity, habitat, mem-c]
+---
 # CDP-ADR-0206: Habitat Integrity Subsystem (pointer)
 
-**Tags:** #agent-operations #cdp #adr #integrity #habitat #mem-c  
 **Status:** accepted (spec)  
 **SSOT:** [`cdp-mcp/docs/adr/CDP-ADR-0206-habitat-integrity-subsystem.md`](../../../../PersonalCursorFolder/open/cdp-mcp/docs/adr/CDP-ADR-0206-habitat-integrity-subsystem.md)  
 **Domain card:** `cdp-mcp/.cdp/domain/integrity.md`

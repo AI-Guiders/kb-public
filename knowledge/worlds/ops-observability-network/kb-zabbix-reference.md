@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Справочник: Zabbix'
+description: '> **Назначение:** база для ответов по Zabbix — понятия, где что искать в UI и в документации, типовые задачи. Без привязки к конкретным хостам и паролям.'
+tags: [kb, ops-observability-network, worlds]
+world: ops
+subworld: observability-network
+---
 # Справочник: Zabbix
-**Tags:** #kb #ops-observability-network #worlds
 
 
 > **Назначение:** база для ответов по Zabbix — понятия, где что искать в UI и в документации, типовые задачи. Без привязки к конкретным хостам и паролям.

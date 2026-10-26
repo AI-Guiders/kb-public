@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: tooling — build, test, debug (troubleshooting v1)'
+description: '> **Контур:** A · мир **hci.ux-dx** (сквозной tooling для .NET и IDE) · kb-public'
+tags: [hci-ux-dx, living, playbook, worlds]
+world: hci
+subworld: ux-dx
+---
 # Playbook: tooling — build, test, debug (troubleshooting v1)
-**Tags:** #hci-ux-dx #living #playbook #worlds
 
 
 > **Контур:** A · мир **hci.ux-dx** (сквозной tooling для .NET и IDE) · kb-public  

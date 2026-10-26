@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Second-native language pedagogy — router v1
+description: '**world:** `pedagogy.second-native-language`'
+tags: [living, pedagogy-second-native-language, playbook, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Second-native language pedagogy — router v1
-**Tags:** #living #pedagogy-second-native-language #playbook #worlds
 
 
 **world:** `pedagogy.second-native-language`

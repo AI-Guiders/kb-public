@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Literature pedagogy — router v1
+description: '**world:** `pedagogy.literature`'
+tags: [living, pedagogy-literature, playbook, worlds]
+world: pedagogy
+subworld: literature
+---
 # Literature pedagogy — router v1
-**Tags:** #living #pedagogy-literature #playbook #worlds
 
 
 **world:** `pedagogy.literature`

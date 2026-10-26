@@ -1,4 +1,10 @@
-**Tags:** #llm-native-card #misconception #software-authoring
+﻿---
+type: Misconception Card
+title: 'Misconception: mc-anemic-domain'
+tags: [llm-native-card, misconception, software-authoring]
+world: software
+subworld: authoring
+---
 
 # Misconception: mc-anemic-domain
 

@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Laravel — связь с Symfony: компоненты и границы ответственности'
+description: '**Назначение:** объяснить, **почему** в Laravel встречаются классы и концепции Symfony (HttpFoundation, Console, Process, …) и **когда** идти в документацию symfony.com. Мир `software.laravel` + пересечение с `software.php`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Laravel — связь с Symfony: компоненты и границы ответственности
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** объяснить, **почему** в Laravel встречаются классы и концепции Symfony (HttpFoundation, Console, Process, …) и **когда** идти в документацию symfony.com. Мир `software.laravel` + пересечение с `software.php`.
@@ -84,7 +91,5 @@
 - rollback_or_mitigation: pin зависимости только как временная мера + тикет
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

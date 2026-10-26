@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #agent-operations
+﻿---
+type: Definition Card
+title: Δradius effectiveness gate
+description: Шаг полезен только если радиус уменьшился.
+tags: [llm-native-card, definition, epistemic-scene, agent-operations]
+world: epistemic
+subworld: scene
+---
 
 # Δradius effectiveness gate
 

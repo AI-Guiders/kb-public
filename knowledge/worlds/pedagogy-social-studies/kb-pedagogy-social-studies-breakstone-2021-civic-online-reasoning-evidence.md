@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Breakstone et al. (2021) — Civic Online Reasoning national portrait + curriculum line'
+description: '**Thesis:** Students overwhelmingly **fail** basic online evaluation (who''s behind info, evidence, other sources) — **Civic Online Reasoning** teaches fact-checker heuristics (lateral reading, click restraint).'
+tags: [kb, pedagogy-social-studies, worlds]
+world: pedagogy
+subworld: social-studies
+---
 # Evidence: Breakstone et al. (2021) — Civic Online Reasoning national portrait + curriculum line
-**Tags:** #kb #pedagogy-social-studies #worlds
 
 
 ## Provenance

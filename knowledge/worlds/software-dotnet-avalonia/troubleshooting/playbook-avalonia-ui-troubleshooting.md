@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: Avalonia UI — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, software-dotnet-avalonia, worlds]
+world: software
+subworld: dotnet-avalonia
+---
 # Playbook: Avalonia UI — troubleshooting
-**Tags:** #living #playbook #software-dotnet-avalonia #worlds
 
 
 > **Контур:** A · kb-public  

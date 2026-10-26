@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal'
+description: '*Версия: v1.0 · 2026-05-31 — abstract+secondary (Connection Science 7(2):123–146)*'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# Evidence: Robins (1995) — Catastrophic forgetting, rehearsal and pseudorehearsal
 
@@ -55,8 +62,6 @@
 - rollback_or_mitigation: контролировать распределение pseudo-inputs (K-огр.).
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 *Версия: v1.0 · 2026-05-31 — abstract+secondary (Connection Science 7(2):123–146)*
 

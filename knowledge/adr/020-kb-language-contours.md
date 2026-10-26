@@ -1,4 +1,4 @@
-# ADR 020: KB language contours — English open perimeter, Russian operator interior
+﻿# ADR 020: KB language contours — English open perimeter, Russian operator interior
 
 **Status:** Accepted (2026-08-28)  
 **Tags:** #adr #kb #i18n #language #kb-public #federation  

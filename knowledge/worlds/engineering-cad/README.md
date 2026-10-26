@@ -1,4 +1,11 @@
-**Tags:** #engineering-cad #readme #worlds
+﻿---
+type: Index
+title: Мир **engineering.cad** (САПР / CAD-плагины)
+description: '**World tag:** `engineering.cad`'
+tags: [engineering-cad, readme, worlds]
+world: engineering
+subworld: cad
+---
 
 ﻿# Мир **engineering.cad** (САПР / CAD-плагины)
 

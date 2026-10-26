@@ -1,3 +1,8 @@
+﻿---
+type: Article
+title: Три jailbreak'а и дешёвый тест первого контакта
+description: '**Three Jailbreaks and the Cheap First-Contact Test**'
+---
 # Три jailbreak'а и дешёвый тест первого контакта
 
 **Three Jailbreaks and the Cheap First-Contact Test**

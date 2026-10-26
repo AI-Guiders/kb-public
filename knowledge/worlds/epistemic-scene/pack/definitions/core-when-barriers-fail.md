@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #l0
+﻿---
+type: Definition Card
+title: Core when barriers fail
+description: Когда барьеры рухнули — опора на принципы и ответственность за приручённых; защита, не нападение.
+tags: [llm-native-card, definition, epistemic-scene, l0]
+world: epistemic
+subworld: scene
+---
 
 # Core when barriers fail
 

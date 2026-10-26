@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Dehaene (2009/2011) — reading in the brain (letterbox & literacy circuit)'
+description: '**Thesis:** literacy **recycles** left ventral visual cortex into **Visual Word Form Area (VWFA)** — a script-specific «letterbox» — and builds a **bidirectional circuit** linking orthography to spoken-language phonology.'
+tags: [cognition-neurolinguistics, kb, worlds]
+world: cognition
+subworld: neurolinguistics
+---
 # Evidence: Dehaene (2009/2011) — reading in the brain (letterbox & literacy circuit)
-**Tags:** #cognition-neurolinguistics #kb #worlds
 
 
 ## Provenance

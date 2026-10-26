@@ -1,6 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: rhetoric & pragmatics v1'
+description: '**Домен:** rhetoric.pragmatics'
+tags: [rhetoric-pragmatics, playbook, worlds, living]
+world: rhetoric
+subworld: pragmatics
+---
 # Playbook: rhetoric & pragmatics v1
 
-**Tags:** #rhetoric-pragmatics #playbook #worlds #living
 
 **Домен:** rhetoric.pragmatics  
 **Fundamentals:** [`kb-rhetoric-pragmatics-fundamentals.md`](kb-rhetoric-pragmatics-fundamentals.md)  

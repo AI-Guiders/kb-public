@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: Elman (1993) — Learning and development in NN: the importance of starting small'
+description: '*Версия: v1.0 · 2026-05-31 — full text (Cognition 48:71–99)*'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# Evidence: Elman (1993) — Learning and development in NN: the importance of starting small
 
@@ -56,8 +63,6 @@
 - rollback_or_mitigation: учесть «start big» класс задач (K5) — не делать staged догмой; мерить, а не предполагать.
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 *Версия: v1.0 · 2026-05-31 — full text (Cognition 48:71–99)*
 

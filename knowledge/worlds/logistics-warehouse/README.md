@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **logistics.warehouse**
+description: '**Идентификатор мира:** `logistics.warehouse`'
+tags: [logistics-warehouse, readme, worlds]
+world: logistics
+subworld: warehouse
+---
 # Мир **logistics.warehouse**
-**Tags:** #logistics-warehouse #readme #worlds
 
 
 **Идентификатор мира:** `logistics.warehouse`  

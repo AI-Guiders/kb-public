@@ -1,4 +1,11 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: 'Playbook: `<topic>` — operational v1 (template)'
+description: '**Назначение:** короткий **пошаговый** проход для агента. Фундамент — в `kb-<topic>-fundamentals.md`.'
+tags: [template, templates]
+world: template
+subworld: playbook-operational.md
+---
 
 ﻿# Playbook: `<topic>` — operational v1 (template)
 

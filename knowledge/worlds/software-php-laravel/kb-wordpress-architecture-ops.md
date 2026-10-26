@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: WordPress — архитектура и операции (ядро, темы, плагины)
+description: '**Назначение:** опорная карта **WordPress как CMS/платформы** для агентов и разработчиков: жизненный цикл запроса, расширяемость, данные, обновления и базовая безопасность. Мир `software.wordpress`. Не руководство по дизайну тем.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # WordPress — архитектура и операции (ядро, темы, плагины)
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** опорная карта **WordPress как CMS/платформы** для агентов и разработчиков: жизненный цикл запроса, расширяемость, данные, обновления и базовая безопасность. Мир `software.wordpress`. Не руководство по дизайну тем.
@@ -105,7 +112,5 @@
 - rollback_or_mitigation: бэкап + откат плагина
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

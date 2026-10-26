@@ -1,4 +1,8 @@
-**Tags:** #llm-native-card #misconception #agent-operations
+﻿---
+type: Misconception Card
+title: 'Misconception: mc-mass-migrate-script-first'
+tags: [llm-native-card, misconception, agent-operations]
+---
 
 # Misconception: mc-mass-migrate-script-first
 

@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Pedagogy fundamentals v1
+description: '**Мир:** `pedagogy.general`'
+tags: [kb, pedagogy-general, worlds]
+world: pedagogy
+subworld: general
+---
 # Pedagogy fundamentals v1
-**Tags:** #kb #pedagogy-general #worlds
 
 
 **Мир:** `pedagogy.general`  

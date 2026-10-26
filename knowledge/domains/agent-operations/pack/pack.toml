@@ -1,4 +1,4 @@
-id = "agent-operations-cdp"
+﻿id = "agent-operations-cdp"
 version = "0.4.0"
 layer = "consumer"
 title = "CDP consumer — onboarding + migrate anti-patterns"

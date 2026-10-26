@@ -1,4 +1,11 @@
-**Tags:** #kb #software-integration-kb #worlds
+﻿---
+type: KB
+title: Wissance WebApiToolkit — полный стек слоёв (fundamental → operational)
+description: 'Источник: [Wissance/WebApiToolkit](https://github.com/Wissance/WebApiToolkit), README и Wiki.'
+tags: [kb, software-integration-kb, worlds]
+world: software
+subworld: integration-kb
+---
 
 ﻿# Wissance WebApiToolkit — полный стек слоёв (fundamental → operational)
 

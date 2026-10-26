@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #pedagogy-physics
+﻿---
+type: Definition Card
+title: P3 Model refinement
+description: Прицельная работа с misconception.
+tags: [llm-native-card, definition, pedagogy-physics]
+world: pedagogy
+subworld: physics
+---
 
 # P3 Model refinement
 

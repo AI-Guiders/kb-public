@@ -1,7 +1,12 @@
+﻿---
+type: Note
+title: 'Note: Ide.Session Ports.* — documented disk-IO seam exception'
+description: '**Status:** Accepted (slice B, 2026-09-13)'
+tags: [guiders, fsharp, ide-session, ports, nuget, conformance]
+---
 # Note: Ide.Session Ports.* — documented disk-IO seam exception
 
 **Status:** Accepted (slice B, 2026-09-13)  
-**Tags:** #guiders #fsharp #ide-session #ports #nuget #conformance  
 **Parent:** [WORK: Guiders F# conformance audit](WORK-guiders-fsharp-conformance-audit.md) · P1 Ide.Session IO slice B  
 **Related:** [GUIDERS-FSHARP-ADR-0003](https://github.com/AI-Guiders/guiders-fsharp/blob/main/docs/adr/GUIDERS-FSHARP-ADR-0003-model-extraction-matrix.md) · [GUIDERS-FSHARP-ADR-0004](https://github.com/AI-Guiders/guiders-fsharp/blob/main/docs/adr/GUIDERS-FSHARP-ADR-0004-ide-session-modeling-ownership.md) · [GUIDERS-ADR-0062 §6](https://github.com/AI-Guiders/guiders-dotnet-platform/blob/main/docs/adr/GUIDERS-ADR-0062-ide-solution-session-orchestrator.md) · [CDP-ADR-0210](https://github.com/AI-Guiders/cdp-mcp/blob/main/docs/adr/CDP-ADR-0210-plugin-architecture.md) · [Ide.Session IO audit](9d88ad9f-55f8-45f2-aa99-1101f6b2572f)
 

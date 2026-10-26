@@ -1,5 +1,12 @@
+﻿---
+type: Transfer Matrix
+title: Transfer matrix — language acquisition (L1) v1
+description: '**Мир:** `cognition.language-acquisition`'
+tags: [cognition-language-acquisition, worlds]
+world: cognition
+subworld: language-acquisition
+---
 # Transfer matrix — language acquisition (L1) v1
-**Tags:** #cognition-language-acquisition #worlds
 
 
 **Мир:** `cognition.language-acquisition`  

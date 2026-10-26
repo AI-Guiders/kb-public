@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: HCI Domain Status v1
+description: Human-computer interaction baseline for interface usability, accessibility, cognitive load, and conversational interaction quality.
+tags: [hci-ux-dx, status, worlds]
+world: hci
+subworld: ux-dx
+---
 # HCI Domain Status v1
-**Tags:** #hci-ux-dx #status #worlds
 
 
 ## Scope

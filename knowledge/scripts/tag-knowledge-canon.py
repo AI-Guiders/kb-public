@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """One-shot: add **Tags:** to agent-notes knowledge canon (path heuristics).
 
 Skip: scratch, .revisions, temp, personal (optional), archive.

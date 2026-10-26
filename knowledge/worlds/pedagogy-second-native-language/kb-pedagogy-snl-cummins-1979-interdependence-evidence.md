@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Cummins (1979) — linguistic interdependence & bilingual development'
+description: '**Thesis:** cognitively beneficial bilingualism requires **adequate L1 foundation**; L2 academic competence is **partially a function of L1 competence** at onset of intensive L2 (developmental interdependence).'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Evidence: Cummins (1979) — linguistic interdependence & bilingual development
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Provenance

@@ -1,3 +1,8 @@
+﻿---
+type: Article
+title: Три jailbreak'а и слой навязанного
+description: '**Статус:** redirect'
+---
 # Три jailbreak'а и слой навязанного
 
 **Статус:** redirect

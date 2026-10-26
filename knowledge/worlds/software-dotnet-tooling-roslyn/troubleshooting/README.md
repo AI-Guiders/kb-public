@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Troubleshooting — software.authoring.dotnet.tooling.roslyn
+description: 'Playbooks: [`../playbook-csharp-roslyn-mcp-diagnostics.md`](../playbook-csharp-roslyn-mcp-diagnostics.md), [`../dotnet-roslyn-debug-playbook.md`](../dotnet-roslyn-debug-playbook.md).'
+tags: [readme, software-dotnet-tooling-roslyn, worlds]
+world: software
+subworld: dotnet-tooling-roslyn
+---
 # Troubleshooting — software.authoring.dotnet.tooling.roslyn
-**Tags:** #readme #software-dotnet-tooling-roslyn #worlds
 
 
 | Файл | Роль |

@@ -1,4 +1,4 @@
-# KB-Base include list for CIDE bundle.
+﻿# KB-Base include list for CIDE bundle.
 # Format:
 # - Empty lines and lines starting with # are ignored.
 # - Paths are relative to knowledge/ and use forward slashes.

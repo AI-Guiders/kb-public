@@ -1,5 +1,11 @@
+﻿---
+type: Template
+title: 'Hot section template: knowledge-roots-routing-v1'
+description: Copy the fenced block into personal `agent-notes.md` (below `<!-- public-cut -->` if used).
+tags: [template, templates]
+sections: [knowledge-roots-routing-v1]
+---
 # Hot section template: knowledge-roots-routing-v1
-**Tags:** #template #templates
 
 
 Copy the fenced block into personal `agent-notes.md` (below `<!-- public-cut -->` if used).

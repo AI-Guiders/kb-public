@@ -1,3 +1,8 @@
+﻿---
+type: Note
+title: DashSpec editor plugins (handoff)
+description: TextDocumentSyncKind → OmniSharp.Extensions.LanguageServer.Protocol.Server.Capabilities (NOT Protocol.Models, NOT Microsoft.VisualStudio.*).
+---
 # DashSpec editor plugins (handoff)
 
 ## Status: LSP v0.2.3 (2026-07-10)

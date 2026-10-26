@@ -1,5 +1,13 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: Long (1991) — focus on form in naturalistic L2 (L1-like episodes)'
+description: '**Thesis:** **Focus on Form (FoF)** — brief attention to linguistic form **during** meaningful communication — mirrors how caregivers redirect child speech in L1.'
+tags: [kb, pedagogy-second-native-language, worlds]
+world: pedagogy
+subworld: second-native-language
+supersedes: ['`kb-pedagogy-fl-long-1991-focus-on-form-evidence-v1`']
+---
 # Evidence: Long (1991) — focus on form in naturalistic L2 (L1-like episodes)
-**Tags:** #kb #pedagogy-second-native-language #worlds
 
 
 ## Provenance
@@ -16,7 +24,6 @@
 - card_id: kb-pedagogy-snl-long-1991-form-in-input-evidence-v1
 - world: pedagogy.second-native-language
 - status: active
-- supersedes: `kb-pedagogy-fl-long-1991-focus-on-form-evidence-v1`
 
 ## Epistemic linkage
 

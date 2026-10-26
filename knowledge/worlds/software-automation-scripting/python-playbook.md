@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Python Playbook v1
+description: Dedicated playbook for robust Python usage in automation, data processing, and tooling tasks.
+tags: [software-automation-scripting, worlds]
+world: software
+subworld: automation-scripting
+---
 # Python Playbook v1
-**Tags:** #software-automation-scripting #worlds
 
 
 ## Purpose

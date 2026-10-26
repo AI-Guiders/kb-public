@@ -1,5 +1,10 @@
+﻿---
+type: Template
+title: '{ORG_DISPLAY} — group KB (`{REPO_GROUP}`)'
+description: Приватный **командный** контур знаний (chmod **g**, MCP `knowledge_root_id=group`).
+tags: [template, templates]
+---
 # {ORG_DISPLAY} — group KB (`{REPO_GROUP}`)
-**Tags:** #template #templates
 
 
 Приватный **командный** контур знаний (chmod **g**, MCP `knowledge_root_id=group`).

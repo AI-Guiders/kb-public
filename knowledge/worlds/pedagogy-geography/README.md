@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.geography**
+description: '**Идентификатор:** `pedagogy.geography`'
+tags: [pedagogy-geography, readme, worlds]
+world: pedagogy
+subworld: geography
+---
 # Мир **pedagogy.geography**
-**Tags:** #pedagogy-geography #readme #worlds
 
 
 **Идентификатор:** `pedagogy.geography`  

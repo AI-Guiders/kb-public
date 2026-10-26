@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Docker Playbook v1
+description: Dedicated playbook for containerized development, testing, and operational reproducibility.
+tags: [software-automation-scripting, worlds]
+world: software
+subworld: automation-scripting
+---
 # Docker Playbook v1
-**Tags:** #software-automation-scripting #worlds
 
 
 ## Purpose

@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.mathematics**
+description: '**Идентификатор:** `pedagogy.mathematics`'
+tags: [pedagogy-mathematics, readme, worlds]
+world: pedagogy
+subworld: mathematics
+---
 # Мир **pedagogy.mathematics**
-**Tags:** #pedagogy-mathematics #readme #worlds
 
 
 **Идентификатор:** `pedagogy.mathematics`  

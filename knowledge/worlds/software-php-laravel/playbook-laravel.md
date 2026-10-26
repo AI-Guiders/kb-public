@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Laravel Playbook v1
+description: Операционный контракт для приложений на **Laravel** (ориентир **10.x / 11.x / 12.x**; точная версия — из `composer.lock`). Сочетать с `playbook-php.md` для вопросов чистого PHP/Composer. **Полный контур по версиям и смежным темам:** `index-knowledge-laravel-cluster.md` → целевые `kb-laravel-*` (не грузить все сразу).
+tags: [living, playbook, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Laravel Playbook v1
-**Tags:** #living #playbook #software-php-laravel #worlds
 
 
 ## Purpose

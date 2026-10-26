@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Hub .NET (legacy path) — редирект на split v1.2
+description: '**2026-05:** содержимое разложено по world tags. Путь `software-dotnet-desktop/` сохранён как **указатель** (старые ссылки в роутере обновляются на новые папки).'
+tags: [readme, software-dotnet-desktop, worlds]
+world: software
+subworld: dotnet-desktop
+---
 # Hub .NET (legacy path) — редирект на split v1.2
-**Tags:** #readme #software-dotnet-desktop #worlds
 
 
 **2026-05:** содержимое разложено по world tags. Путь `software-dotnet-desktop/` сохранён как **указатель** (старые ссылки в роутере обновляются на новые папки).

@@ -1,9 +1,26 @@
-**Tags:** #agent-operations #domains #playbook #elicitation #equal-standing #explainable-preference #v1
+﻿---
+type: Playbook
+title: 'Playbook: инверсия роли исполнителя при размытом промпте'
+description: '**Домен:** agent-operations'
+tags: [agent-operations, domains, playbook, elicitation, equal-standing, explainable-preference, v1]
+speech_situation:
+  audience: agent_internal
+  goal: operational_protocol
+  genre: playbook
+  channel: kb_canon
+  stakes: medium
+  distance: professional
+  forbidden_moves: [hero_solo, faq_softening]
+  when_citing_to_human:
+    audience: operator_pair
+    goal: instruction
+    genre: playbook
+    channel: cockpit_dialog
+    stakes: medium
+    distance: close
+---
 
 # Playbook: инверсия роли исполнителя при размытом промпте
-**Speech situation (primary):** `audience=agent_internal` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
-**Speech situation (when citing to human):** `audience=operator_pair` · `goal=instruction` · `genre=playbook` · `channel=cockpit_dialog` · `stakes=medium` · `distance=close`  
-**Speech situation (forbidden_moves):** `hero_solo`, `faq_softening`
 
 **Домен:** agent-operations  
 **Provenance:** оператор (Света) + диалог 2026-07-28 — «сделай что-нибудь / посмотрим» как annotation trap в постановке задач  

@@ -1,4 +1,11 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: 'Playbook: `<topic>` v1 (template)'
+description: (Зачем этот playbook; не заменяет status/kb.)
+tags: [template, templates]
+world: template
+subworld: playbook.md
+---
 
 ﻿# Playbook: `<topic>` v1 (template)
 

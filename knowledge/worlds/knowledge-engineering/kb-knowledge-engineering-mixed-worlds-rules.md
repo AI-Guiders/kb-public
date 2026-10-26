@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Knowledge Engineering Mixed Worlds Rules v1
+description: Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`.
+tags: [kb, knowledge-engineering, worlds]
+world: knowledge
+subworld: engineering
+---
 # Knowledge Engineering Mixed Worlds Rules v1
-**Tags:** #kb #knowledge-engineering #worlds
 
 
 Набор нормализованных карточек из архивной ревизии `20260228-070635-895-compact-hot-context-483d8f63.md`.

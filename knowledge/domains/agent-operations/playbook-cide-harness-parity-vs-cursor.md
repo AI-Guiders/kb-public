@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Playbook: CIDE + Cloud.ru — harness parity vs Cursor (автоматизация first)'
+description: '**Domain:** agent-operations'
+tags: [agent-operations, domains, living, playbook]
+---
 # Playbook: CIDE + Cloud.ru — harness parity vs Cursor (автоматизация first)
-**Tags:** #agent-operations #domains #living #playbook
 
 
 **Domain:** agent-operations  

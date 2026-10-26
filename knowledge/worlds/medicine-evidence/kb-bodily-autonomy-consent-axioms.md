@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Bodily autonomy & consent — axioms v1
+description: '**Status:** Accepted · 2026-09-14'
+tags: [kb, medicine-evidence, bioethics, autonomy, consent, fundamentals]
+world: medicine
+subworld: evidence
+---
 # Bodily autonomy & consent — axioms v1
-**Tags:** #kb #medicine-evidence #bioethics #autonomy #consent #fundamentals
 
 **Status:** Accepted · 2026-09-14  
 **Provenance:** оператор (диалог 2026-09) + evidence-layer CMD.  

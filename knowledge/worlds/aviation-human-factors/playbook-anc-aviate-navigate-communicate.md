@@ -1,4 +1,11 @@
-**Tags:** #aviation-human-factors #living #playbook #worlds
+﻿---
+type: Playbook
+title: 'Playbook: ANC (Aviate, Navigate, Communicate)'
+description: 'Назначение: приоритеты действий агента в сложных или неполных условиях; дополняет human–agent parity (инструменты как у разработчика в IDE) и явную коммуникацию пробелов.'
+tags: [aviation-human-factors, living, playbook, worlds]
+world: aviation
+subworld: human-factors
+---
 
 ﻿# Playbook: ANC (Aviate, Navigate, Communicate)
 

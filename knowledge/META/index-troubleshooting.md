@@ -1,5 +1,10 @@
+﻿---
+type: Index
+title: Индекс troubleshooting в KB
+description: '**Статус:** living index · 2026-05-20 (консолидация по мирам)'
+tags: [meta]
+---
 # Индекс troubleshooting в KB
-**Tags:** #meta
 
 
 **Статус:** living index · 2026-05-20 (консолидация по мирам)  

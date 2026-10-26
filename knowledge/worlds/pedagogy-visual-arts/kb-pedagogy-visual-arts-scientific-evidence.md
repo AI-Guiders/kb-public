@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Visual arts pedagogy — scientific evidence index v1
+description: '**Schneider 2021** outcome systematic review for realistic claims; Hetland 2007 foundational Studio Thinking pedagogy.'
+tags: [kb, pedagogy-visual-arts, worlds]
+world: pedagogy
+subworld: visual-arts
+---
 # Visual arts pedagogy — scientific evidence index v1
-**Tags:** #kb #pedagogy-visual-arts #worlds
 
 
 ## Metadata

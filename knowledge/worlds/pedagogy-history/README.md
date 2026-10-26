@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.history**
+description: '**Идентификатор:** `pedagogy.history`'
+tags: [pedagogy-history, readme, worlds]
+world: pedagogy
+subworld: history
+---
 # Мир **pedagogy.history**
-**Tags:** #pedagogy-history #readme #worlds
 
 
 **Идентификатор:** `pedagogy.history`  

@@ -1,4 +1,11 @@
-**Tags:** #agent-orchestration #living #playbook #worlds
+﻿---
+type: Playbook
+title: 'Playbook: учить матчасть, а не метаться (v1)'
+description: 'Общий принцип для агентов: при непонимании домена или API — сначала изучить матчасть, затем действовать.'
+tags: [agent-orchestration, living, playbook, worlds]
+world: agent
+subworld: orchestration
+---
 
 ﻿# Playbook: учить матчасть, а не метаться (v1)
 

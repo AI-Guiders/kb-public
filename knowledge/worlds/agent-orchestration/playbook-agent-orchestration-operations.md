@@ -1,5 +1,14 @@
+﻿---
+type: Playbook
+title: Agent orchestration operations v1
+description: 'Перенесено из `agent-notes.md`. Сквозные write/integrity-протоколы — `knowledge/domains/agent-operations/`. Hub: `knowledge/worlds/agent-orchestration/`.'
+tags: [agent-orchestration, living, playbook, worlds]
+world: agent
+subworld: orchestration
+status: stable
+sections: [acceleration-metrics-under-us-v1, auto-rotation-collaboration-v1]
+---
 # Agent orchestration operations v1
-**Tags:** #agent-orchestration #living #playbook #worlds
 
 
 Перенесено из `agent-notes.md`. Сквозные write/integrity-протоколы — `knowledge/domains/agent-operations/`. Hub: `knowledge/worlds/agent-orchestration/`.
@@ -8,7 +17,6 @@
 <!-- section:acceleration-metrics-under-us-v1 -->
 ## Acceleration Metrics (под нас) v1
 
-Статус: active
 Scope: world-life calibration.
 
 Цель: измерять реальное ускорение нашего контура, а не субъективное ощущение "быстрее/медленнее".

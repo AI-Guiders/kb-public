@@ -1,4 +1,4 @@
-# ADR 006: Zettelkasten Overlay for KB
+﻿# ADR 006: Zettelkasten Overlay for KB
 **Tags:** #adr
 
 

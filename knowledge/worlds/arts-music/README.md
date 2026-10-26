@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **arts.music**
+description: '**Идентификатор мира:** `arts.music`'
+tags: [arts-music, readme, worlds]
+world: arts
+subworld: music
+---
 # Мир **arts.music**
-**Tags:** #arts-music #readme #worlds
 
 
 **Идентификатор мира:** `arts.music`  

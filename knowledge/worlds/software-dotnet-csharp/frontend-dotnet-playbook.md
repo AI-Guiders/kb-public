@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: Frontend .NET Playbook v1
+description: Unified frontend engineering playbook for .NET UI stacks:
+tags: [software-dotnet-csharp, worlds]
+world: software
+subworld: dotnet-csharp
+---
 # Frontend .NET Playbook v1
-**Tags:** #software-dotnet-csharp #worlds
 
 
 ## Purpose

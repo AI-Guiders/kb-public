@@ -1,3 +1,11 @@
+﻿---
+type: KB
+description: 'id: kb-regex-syntax-features-v1'
+tags: [kb, pattern-regex, worlds]
+world: pattern
+subworld: regex
+sections: [literals-escaping, character-classes, dot-and-modes, quantifiers, grouping, anchors-assertions, alternation]
+---
 <!-- kb_card
 id: kb-regex-syntax-features-v1
 title: Regex — синтаксис и возможности (L1)
@@ -8,7 +16,6 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: синтаксис и возможности (L1)
-**Tags:** #kb #pattern-regex #worlds
 
 
 ## Назначение

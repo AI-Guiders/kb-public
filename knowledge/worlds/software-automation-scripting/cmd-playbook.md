@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: CMD Playbook v1
+description: Dedicated playbook for Windows CMD/batch automation in legacy and compatibility scenarios.
+tags: [software-automation-scripting, worlds]
+world: software
+subworld: automation-scripting
+---
 # CMD Playbook v1
-**Tags:** #software-automation-scripting #worlds
 
 
 ## Purpose

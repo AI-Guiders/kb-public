@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: 'Evidence: CDC Learn the Signs. Act Early — language milestones'
+description: '**Thesis:** Milestones = skills **≥75%** children reach by age — **monitoring tool**, not daily test. Parent tip on 15m page: early words are **approximations**; adult **repeats and expands** («ba» → «Ball, yes, that''s a ball»).'
+tags: [cognition-early-caregiving, kb, worlds]
+world: cognition
+subworld: early-caregiving
+---
 # Evidence: CDC Learn the Signs. Act Early — language milestones
-**Tags:** #cognition-early-caregiving #kb #worlds
 
 
 ## Provenance

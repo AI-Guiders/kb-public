@@ -1,3 +1,8 @@
+﻿---
+type: Note
+title: LUS prod — обновление Ingest API (2026-07-09)
+description: '**Статус:** publish готов · **отдельного «Upgrade-пакета» в репо нет**'
+---
 # LUS prod — обновление Ingest API (2026-07-09)
 
 **Статус:** publish готов · **отдельного «Upgrade-пакета» в репо нет**

@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Troubleshooting — software.authoring.dotnet.csharp
+description: 'Kb: [`../kb-dotnet-playbooks.md`](../kb-dotnet-playbooks.md) (DOTNET-01..03).'
+tags: [readme, software-dotnet-csharp, worlds]
+world: software
+subworld: dotnet-csharp
+---
 # Troubleshooting — software.authoring.dotnet.csharp
-**Tags:** #readme #software-dotnet-csharp #worlds
 
 
 | Файл | Роль |

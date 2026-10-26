@@ -1,4 +1,4 @@
-# Template agent-notes-mcp TOML — edit paths; save outside git (e.g. D:/agent-notes-mcp/)
+﻿# Template agent-notes-mcp TOML — edit paths; save outside git (e.g. D:/agent-notes-mcp/)
 # Cursor mcp.json: "args": ["--config", "D:/agent-notes-mcp/agent-notes-mcp.toml"]
 # Replace {ORG_SLUG} with your GitHub org (e.g. acme-corp). Repos: {ORG_SLUG}/kb-public, optional {ORG_SLUG}/kb
 

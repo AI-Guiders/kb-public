@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: Knowledge Naming Cleanup Plan v4 (Compact)
+description: Keep KB naming ontology-first and stable for low-friction routing.
+tags: [kb-root]
+---
 # Knowledge Naming Cleanup Plan v4 (Compact)
-**Tags:** #kb-root
 
 
 ## Goal

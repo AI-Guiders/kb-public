@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: .NET / C# runtime — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, software-dotnet-csharp, worlds]
+world: software
+subworld: dotnet-csharp
+---
 # Playbook: .NET / C# runtime — troubleshooting
-**Tags:** #living #playbook #software-dotnet-csharp #worlds
 
 
 > **Контур:** A · kb-public  

@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: подведение итогов сессии и читаемый экспорт чата'
+description: '**Статус:** активный'
+tags: [agent-orchestration, living, playbook, worlds]
+world: agent
+subworld: orchestration
+---
 # Playbook: подведение итогов сессии и читаемый экспорт чата
-**Tags:** #agent-orchestration #living #playbook #worlds
 
 
 **Статус:** активный

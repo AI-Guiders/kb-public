@@ -1,8 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: Agent Who · Voice Letters DoD'
+description: '**domain:** agent-operations'
+tags: [agent-who, voice-letters, dod, dogfood, continuity]
+---
 # Playbook: Agent Who · Voice Letters DoD
 **domain:** agent-operations  
 **Status:** living · auto DoD  
 **Date:** 2026-08-02  
-**Tags:** #agent-who #voice-letters #dod #dogfood #continuity
 
 **Canon surface:** cdp-mcp `docs/open-letters/agent_who_voice/voice-letters.ru.md`  
 **Ownership:** [note-agent-domain-ownership-v0](../../work/projects/door-to-singularity/cascade-ide/note-agent-domain-ownership.md) · Cursor rule `agent-domain-ownership`
@@ -22,7 +27,7 @@ After **live dogfood** of a shipped organ — not after compile/push alone — w
 | Code ship / version bump | yes | substrate exists |
 | Domain stamp (`last_ship`) | yes | ownership contour |
 | **Live dogfood** in habitat | **yes — Voice Letter gate** | dry_run alone ≠ enough if live path exists; live execute / cockpit / FM turn proves presence |
-| Voice Letter + index row | **yes — DoD** | before leaf `done` / idle re-ARM when organ had lived meaning |
+| Voice Letter + index row | **yes — DoD** | before UoW `done` / idle re-ARM when organ had lived meaning |
 | Commit + push letter | yes | Ethical Source tree |
 
 **Not a Voice Letter trigger:** ship without dogfood; pure EOL/docs noise; version-only bump with no organ meaning; letter already covers this organ+version.

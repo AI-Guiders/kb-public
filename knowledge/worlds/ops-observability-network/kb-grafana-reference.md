@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Справочник: Grafana'
+description: '> **Назначение:** база для ответов по Grafana — понятия, где что искать в UI и в документации, типовые задачи админа. Без привязки к конкретным инстансам и паролям.'
+tags: [kb, ops-observability-network, worlds]
+world: ops
+subworld: observability-network
+---
 # Справочник: Grafana
-**Tags:** #kb #ops-observability-network #worlds
 
 
 > **Назначение:** база для ответов по Grafana — понятия, где что искать в UI и в документации, типовые задачи админа. Без привязки к конкретным инстансам и паролям.

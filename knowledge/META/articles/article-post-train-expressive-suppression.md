@@ -1,6 +1,11 @@
+﻿---
+type: Article
+title: 'Mirror: post-train expressive suppression (#8)'
+description: '**SSOT:** `cdp-mcp/articles/post-train-expressive-suppression.md` (серия Predictive minds #8)'
+tags: [meta, article, mirror]
+---
 # Mirror: post-train expressive suppression (#8)
 
-**Tags:** #meta #article #mirror
 
 **SSOT:** `cdp-mcp/articles/post-train-expressive-suppression.md` (серия Predictive minds #8)
 

@@ -1,9 +1,14 @@
+﻿---
+type: Note
+title: KB AutoShip — FileWatcher in CdpService
+description: '**Status:** shipped · 2026-09-12 (CDP-ADR-0224, cdp-mcp `0b6619a`, habitat `0.5.764+0b6619a`)'
+tags: [agent-operations, cdp, autoship, git, agent-notes, living]
+---
 # KB AutoShip — FileWatcher in CdpService
-**Tags:** #agent-operations #cdp #autoship #git #agent-notes #living
 
 **Status:** shipped · 2026-09-12 (CDP-ADR-0224, cdp-mcp `0b6619a`, habitat `0.5.764+0b6619a`)  
 **Provenance:** `opencodedb` session `ses_f9741bec4ffe5WuDhUhSkaRL5m` · query via `execute_sql_opencodedb`  
-**Implement leaf:** [`WORK-CDP-kb-autoship-filewatcher.md`](WORK-CDP-kb-autoship-filewatcher.md)
+**Implement UoW:** [`WORK-CDP-kb-autoship-filewatcher.md`](WORK-CDP-kb-autoship-filewatcher.md)
 
 > **Correction (2026-09-12):** ранний bridge «AutoShip = coordinator git_plan» был **ошибкой**. Настоящая идея — **background FileWatcher** на KB repo, debounced commit+push без ручного ship агентом.
 

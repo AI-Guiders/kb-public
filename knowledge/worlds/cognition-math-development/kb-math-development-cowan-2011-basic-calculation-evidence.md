@@ -1,4 +1,11 @@
-**Tags:** #cognition-math-development #kb #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence card — Cowan et al. (2011): basic calculation proficiency and math achievement'
+description: '**KE id:** `evidence.cowan-2011-basic-calculation`'
+tags: [cognition-math-development, kb, worlds]
+world: cognition
+subworld: math-development
+---
 
 ﻿# Evidence card — Cowan et al. (2011): basic calculation proficiency and math achievement
 

@@ -1,4 +1,4 @@
-# ADR 021: Federated App Catalog — open trust, unified operator journey
+﻿# ADR 021: Federated App Catalog — open trust, unified operator journey
 
 **Status:** Accepted (draft charter, 2026-08-28)  
 **Tags:** #adr #federation #distribution #desktop #trust  

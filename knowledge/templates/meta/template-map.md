@@ -1,4 +1,9 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: 'Map: <title> (template)'
+description: '**Назначение:** одна страница — **схема**, маршрутизация, «куда что класть». Не дублировать длинные playbook.'
+tags: [template, templates]
+---
 
 ﻿# Map: <title> (template)
 

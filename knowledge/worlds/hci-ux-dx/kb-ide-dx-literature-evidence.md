@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: IDE / DX — литературный evidence (Osmani, Smalltalk-80, Boxer) v1
+description: Цель — собрать принципы и наблюдения для проектирования IDE и инструментов разработчика (в т.ч. Cascade IDE). Источники перечислены в Provenance.
+tags: [hci-ux-dx, kb, worlds]
+world: hci
+subworld: ux-dx
+---
 # IDE / DX — литературный evidence (Osmani, Smalltalk-80, Boxer) v1
-**Tags:** #hci-ux-dx #kb #worlds
 
 
 ## Provenance

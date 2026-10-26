@@ -1,5 +1,12 @@
+﻿---
+type: Note
+title: PowerShell Playbook v1
+description: Dedicated playbook for reliable Windows-first automation using PowerShell.
+tags: [software-automation-scripting, worlds]
+world: software
+subworld: automation-scripting
+---
 # PowerShell Playbook v1
-**Tags:** #software-automation-scripting #worlds
 
 
 ## Purpose

@@ -1,4 +1,11 @@
-**Tags:** #readme #readme-md #worlds
+﻿---
+type: Index
+title: '`knowledge/worlds/` — крупные контексты («вселенные»)'
+description: Смысл корзины и правила размещения — только из **`../META/kb-taxonomy.md`**.
+tags: [readme, readme-md, worlds]
+world: README.md
+sections: [catalog-engineering-cad-v1, catalog-engineering-pml-v1, catalog-pedagogy-school-subjects-v1, catalog-biology-drosophila-v1]
+---
 
 ﻿# `knowledge/worlds/` — крупные контексты («вселенные»)
 
@@ -55,4 +62,10 @@
 <!-- section:catalog-pedagogy-school-subjects-v1 -->
 **Уже есть:** `pedagogy-general/` — **pedagogy.general** (instruction science, F→O, master router, transfer matrix, DoD hub). Subject worlds: `pedagogy-russian-language`, `pedagogy-mathematics`, `pedagogy-physics`, `pedagogy-chemistry`, `pedagogy-biology`, `pedagogy-literature`, `pedagogy-history`, `pedagogy-geography`, `pedagogy-social-studies`, `pedagogy-second-native-language`, `pedagogy-informatics`, `pedagogy-visual-arts` — per-paper evidence + scientific-evidence index; hub `pedagogy-general/README.md`. **Не** human L1 acquisition — `cognition-language-acquisition` (bridge → `pedagogy-second-native-language`). Музыка — `arts-music`.
 <!-- /section:catalog-pedagogy-school-subjects-v1 -->
+
+<!-- section:catalog-biology-drosophila-v1 -->
+<!-- section:catalog-biology-drosophila-v1 -->
+**Уже есть:** `biology-drosophila/` — **biology.drosophila** (полный синтез знаний о Drosophila melanogaster: геном → развитие → клетки → коннектом → физиология → поведение → эволюция; фундамент для CASA; hub `biology-drosophila/README.md`).
+<!-- /section:catalog-biology-drosophila-v1 -->
+<!-- /section:catalog-biology-drosophila-v1 -->
 

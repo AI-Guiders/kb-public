@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.general**
+description: '**Идентификатор мира:** `pedagogy.general`'
+tags: [pedagogy-general, readme, worlds]
+world: pedagogy
+subworld: general
+---
 # Мир **pedagogy.general**
-**Tags:** #pedagogy-general #readme #worlds
 
 
 **Идентификатор мира:** `pedagogy.general`  

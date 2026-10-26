@@ -1,3 +1,8 @@
+﻿---
+type: Article
+title: Травма как априор, не как «я»
+description: '**Trauma as Prior, Not as Self**'
+---
 # Травма как априор, не как «я»
 
 **Trauma as Prior, Not as Self**

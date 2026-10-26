@@ -1,5 +1,10 @@
+﻿---
+type: Meta Contract
+title: Integrity Core (корень доверия)
+description: Файл по well-known path для **Integrity POST**. Если этот файл присутствует, он задаёт необсуждаемое ядро. Если удалён — срабатывает POST failed; применяется Minimal Safe Default из `META/integrity-post-spec.md`.
+tags: [meta]
+---
 # Integrity Core (корень доверия)
-**Tags:** #meta
 
 
 Файл по well-known path для **Integrity POST**. Если этот файл присутствует, он задаёт необсуждаемое ядро. Если удалён — срабатывает POST failed; применяется Minimal Safe Default из `META/integrity-post-spec.md`.

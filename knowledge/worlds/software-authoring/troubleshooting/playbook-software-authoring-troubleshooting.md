@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: software.authoring — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, software-authoring, worlds]
+world: software
+subworld: authoring
+---
 # Playbook: software.authoring — troubleshooting
-**Tags:** #living #playbook #software-authoring #worlds
 
 
 > **Контур:** A · kb-public  

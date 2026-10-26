@@ -1,4 +1,11 @@
-**Tags:** #evidence-card #kb-evidence-v1 #philosophy-dao-chan #dao #l0
+﻿---
+type: Evidence Card
+title: Чжуан-цзы, гл. 3 養生主 — evidence
+description: 吾生也有涯，而知也無涯。以有涯隨無涯，殆已；已而為知者，殆而已矣。
+tags: [evidence-card, kb-evidence-v1, philosophy-dao-chan, dao, l0]
+world: philosophy
+subworld: dao-chan
+---
 
 # Чжуан-цзы, гл. 3 養生主 — evidence
 

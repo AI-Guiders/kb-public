@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.social-studies**
+description: '**Идентификатор:** `pedagogy.social-studies`'
+tags: [pedagogy-social-studies, readme, worlds]
+world: pedagogy
+subworld: social-studies
+---
 # Мир **pedagogy.social-studies**
-**Tags:** #pedagogy-social-studies #readme #worlds
 
 
 **Идентификатор:** `pedagogy.social-studies`  

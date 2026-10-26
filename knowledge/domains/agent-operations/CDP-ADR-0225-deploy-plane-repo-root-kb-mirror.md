@@ -1,3 +1,8 @@
+﻿---
+type: Note
+title: CDP-ADR-0225 — Deploy plane repo_root (KB mirror)
+description: '**SSOT:** `cdp-mcp/docs/adr/CDP-ADR-0225-deploy-plane-repo-root.md`'
+---
 # CDP-ADR-0225 — Deploy plane repo_root (KB mirror)
 
 **SSOT:** `cdp-mcp/docs/adr/CDP-ADR-0225-deploy-plane-repo-root.md`

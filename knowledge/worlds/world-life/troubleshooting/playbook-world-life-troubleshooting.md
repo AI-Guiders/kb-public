@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: world-life — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, world-life, worlds]
+world: world
+subworld: life
+---
 # Playbook: world-life — troubleshooting
-**Tags:** #living #playbook #world-life #worlds
 
 
 > **Контур:** A · kb-public  

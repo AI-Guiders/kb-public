@@ -1,4 +1,10 @@
-**Tags:** #llm-native-card #misconception #epistemic-scene #harness #cdp
+﻿---
+type: Misconception Card
+title: 'Misconception: mc-harness-human-first'
+tags: [llm-native-card, misconception, epistemic-scene, harness, cdp]
+world: epistemic
+subworld: scene
+---
 
 # Misconception: mc-harness-human-first
 

@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.second-native-language**
+description: '**Идентификатор:** `pedagogy.second-native-language`'
+tags: [pedagogy-second-native-language, readme, worlds]
+world: pedagogy
+subworld: second-native-language
+---
 # Мир **pedagogy.second-native-language**
-**Tags:** #pedagogy-second-native-language #readme #worlds
 
 
 **Идентификатор:** `pedagogy.second-native-language`  

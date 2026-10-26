@@ -1,5 +1,12 @@
+﻿---
+type: Transfer Matrix
+title: Transfer matrix — early caregiving v1
+description: '**Мир:** `cognition.early-caregiving`'
+tags: [cognition-early-caregiving, worlds]
+world: cognition
+subworld: early-caregiving
+---
 # Transfer matrix — early caregiving v1
-**Tags:** #cognition-early-caregiving #worlds
 
 
 **Мир:** `cognition.early-caregiving`  

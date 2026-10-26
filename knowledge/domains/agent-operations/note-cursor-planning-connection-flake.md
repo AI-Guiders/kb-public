@@ -1,5 +1,10 @@
+﻿---
+type: Note
+title: 'Cursor: Planning next moves → Connection Problems (flake)'
+description: '**Status:** Observed · 2026-07-31 (оператор, этот тред) + earlier transcripts 2026-07'
+tags: [agent-operations, cursor, harness, epsilon, continuity]
+---
 # Cursor: Planning next moves → Connection Problems (flake)
-**Tags:** #agent-operations #cursor #harness #epsilon #continuity
 **Status:** Observed · 2026-07-31 (оператор, этот тред) + earlier transcripts 2026-07
 **Links:** `META/environment-axioms.md` §6 residual · §7 cooperation
 

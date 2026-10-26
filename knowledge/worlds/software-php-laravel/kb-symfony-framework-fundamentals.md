@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Symfony Framework — фундамент (full stack, не только «под Laravel»)
+description: '**Назначение:** карта **Symfony как приложения**: Kernel, bundles, DI-контейнер, конфигурация, HTTP, консоль, типичные компоненты. Отличается от `kb-laravel-symfony-underpinnings.md` (там — роль Symfony **внутри** Laravel; читать его, если проект на Laravel). Мир `software.symfony`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Symfony Framework — фундамент (full stack, не только «под Laravel»)
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** карта **Symfony как приложения**: Kernel, bundles, DI-контейнер, конфигурация, HTTP, консоль, типичные компоненты. Отличается от `kb-laravel-symfony-underpinnings.md` (там — роль Symfony **внутри** Laravel; читать его, если проект на Laravel). Мир `software.symfony`.
@@ -109,7 +116,5 @@
 - rollback_or_mitigation: откат lockfile
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

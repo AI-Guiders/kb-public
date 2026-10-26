@@ -1,4 +1,11 @@
-**Tags:** #template #templates
+﻿---
+type: Template
+title: 'Chapter map: `<source title>` (template)'
+description: '**Имя файла:** `kb-<source-slug>-chapter-map.md`'
+tags: [template, templates]
+world: template
+subworld: kb-chapter-map.md
+---
 
 ﻿# Chapter map: `<source title>` (template)
 

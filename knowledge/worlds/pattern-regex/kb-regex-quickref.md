@@ -1,3 +1,11 @@
+﻿---
+type: KB
+description: 'id: kb-regex-quickref-v1'
+tags: [kb, pattern-regex, worlds]
+world: pattern
+subworld: regex
+sections: [quantifiers-one-liner]
+---
 <!-- kb_card
 id: kb-regex-quickref-v1
 title: Regex — L0 шпаргалка
@@ -8,7 +16,6 @@ last_reviewed_utc: 2026-03-21
 -->
 
 # Regex: шпаргалка (L0)
-**Tags:** #kb #pattern-regex #worlds
 
 
 ## Назначение

@@ -1,5 +1,12 @@
+﻿---
+type: Map
+title: Aviation Human Factors Reading Map v1
+description: Build a safety-focused, evidence-aware understanding of aviation psychology from first principles to operational controls.
+tags: [aviation-human-factors, map, worlds]
+world: aviation
+subworld: human-factors
+---
 # Aviation Human Factors Reading Map v1
-**Tags:** #aviation-human-factors #map #worlds
 
 
 ## Objective

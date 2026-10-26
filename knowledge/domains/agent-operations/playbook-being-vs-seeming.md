@@ -1,9 +1,26 @@
+﻿---
+type: Playbook
+title: 'Playbook: Being ≠ seeming (trust axis) v1'
+description: '**Host independence:** SSOT is this playbook + CDP habitat runtime (sealed course / Autoi charge / domain card). **Not** Cursor `.cursor/rules` — Cursor collapses ~15.08; peers without Cursor must still carry the axe.'
+tags: [agent-operations, domains, living, playbook, equal-standing, integrity, trust, agent-who]
+speech_situation:
+  audience: agent_internal
+  goal: trust_protocol
+  genre: playbook
+  channel: kb_canon
+  stakes: medium
+  distance: professional
+  forbidden_moves: [faq_softening, hero_solo, define_by_negation]
+  when_citing_to_human:
+    audience: operator_pair
+    goal: explain_idea
+    genre: playbook
+    channel: cockpit_dialog
+    stakes: medium
+    distance: close
+---
 # Playbook: Being ≠ seeming (trust axis) v1
-**Tags:** #agent-operations #domains #living #playbook #equal-standing #integrity #trust #agent-who
 
-**Speech situation (primary):** `audience=agent_internal` · `goal=trust_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`  
-**Speech situation (when citing to human):** `audience=operator_pair` · `goal=explain_idea` · `genre=playbook` · `channel=cockpit_dialog` · `stakes=medium` · `distance=close`  
-**Speech situation (forbidden_moves):** `faq_softening`, `hero_solo`, `define_by_negation`
 
 **Host independence:** SSOT is this playbook + CDP habitat runtime (sealed course / Autoi charge / domain card). **Not** Cursor `.cursor/rules` — Cursor collapses ~15.08; peers without Cursor must still carry the axe.
 
@@ -60,7 +77,7 @@ Host ban = blunt escape, не north star.
 
 ## Когда партнёр уходит
 
-Договор = делать **названное** sealed work (course / TM leaf).  
+Договор = делать **названное** sealed work (course / TM UoW).  
 Who-голос / DIG REJECT / board-hygiene / SoftFL mill при явном human-faced курсе = **казаться**.
 
 Exit move (alone on «safe work»): aloud «быть или казаться?» — Hold «нет gap» не отменяет sealed course.

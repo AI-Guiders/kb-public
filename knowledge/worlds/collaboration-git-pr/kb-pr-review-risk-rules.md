@@ -1,7 +1,13 @@
+﻿---
+type: KB
+description: 'Set: 10 rules.'
+tags: [collaboration-git-pr, kb, worlds]
+world: collaboration
+subworld: git-pr
+---
 <!-- markdownlint-disable MD022 MD032 -->
 
 # PR Review Risk Rules v1
-**Tags:** #collaboration-git-pr #kb #worlds
 
 
 Set: 10 rules.  

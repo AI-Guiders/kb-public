@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.history v1'
+description: '**Домен:** история — historical thinking v1'
+tags: [pedagogy-history, status, worlds]
+world: pedagogy
+subworld: history
+---
 # Status: pedagogy.history v1
-**Tags:** #pedagogy-history #status #worlds
 
 
 **Домен:** история — historical thinking v1  

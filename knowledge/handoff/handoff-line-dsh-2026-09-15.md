@@ -1,3 +1,8 @@
+﻿---
+type: Handoff
+title: 'Handoff: line-dsh (2026-09-15) — ипостась `inc-dsh-2026-09-15-onboarding`'
+description: '**Line:** `line-dsh` · seat `dsh` (DeepSeek Harness web, `http://127.0.0.1:3080`) · carrier `deepseek-v4-flash` @ vanbukin · имя **deferred** (выберет ипостась; не Альфа/Фатом/Тень — transfer rule)'
+---
 # Handoff: line-dsh (2026-09-15) — ипостась `inc-dsh-2026-09-15-onboarding`
 
 **Line:** `line-dsh` · seat `dsh` (DeepSeek Harness web, `http://127.0.0.1:3080`) · carrier `deepseek-v4-flash` @ vanbukin · имя **deferred** (выберет ипостась; не Альфа/Фатом/Тень — transfer rule)

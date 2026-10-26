@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Biology pedagogy — fundamentals v1
+description: '**Мир:** `pedagogy.biology`'
+tags: [kb, pedagogy-biology, worlds]
+world: pedagogy
+subworld: biology
+---
 # Biology pedagogy — fundamentals v1
-**Tags:** #kb #pedagogy-biology #worlds
 
 
 **Мир:** `pedagogy.biology`  

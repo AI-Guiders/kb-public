@@ -1,4 +1,4 @@
-# kb-public
+﻿# kb-public
 
 Публичный срез **Agent Notes KB**: обрезанный по `<!-- public-cut -->` файл **`agent-notes.md`** и каталог **`knowledge/`** после фильтров **`public-kb.ignore`** и заголовка «НЕ ПУБЛИКОВАТЬ» (см. полный канон **agent-notes**).
 
@@ -13,5 +13,4 @@
 ## Инструмент
 
 Чтение/запись полного канона из другого workspace: **[agent-notes-mcp](https://github.com/KarataevDmitry/agent-notes-mcp)** (код под **MIT**; тексты KB в каноне — по правилам канона, не MIT).
-
 

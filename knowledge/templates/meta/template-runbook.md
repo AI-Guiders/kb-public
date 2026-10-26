@@ -1,3 +1,9 @@
+﻿---
+type: Template
+title: 'Runbook: <title> (template)'
+description: '**Назначение:** воспроизводимая процедура (скрипт, деплой, инцидент). Отличие от playbook: **конкретные команды и проверки**.'
+tags: [template, templates]
+---
 # Runbook: <title> (template)
 
 **Назначение:** воспроизводимая процедура (скрипт, деплой, инцидент). Отличие от playbook: **конкретные команды и проверки**.
@@ -17,7 +23,6 @@
 
 ```powershell
 # пример
-**Tags:** #template #templates
 
 ```
 

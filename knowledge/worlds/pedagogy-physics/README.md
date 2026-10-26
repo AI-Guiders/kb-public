@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.physics**
+description: '**Идентификатор:** `pedagogy.physics`'
+tags: [pedagogy-physics, readme, worlds]
+world: pedagogy
+subworld: physics
+---
 # Мир **pedagogy.physics**
-**Tags:** #pedagogy-physics #readme #worlds
 
 
 **Идентификатор:** `pedagogy.physics`  

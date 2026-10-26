@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Laravel — безопасность, аутентификация, API
+description: '**Назначение:** контур **auth** и базовых угроз в типичном Laravel-приложении (веб + API). Не заменяет OWASP ASVS и внутренние стандарты. Мир `software.laravel`.'
+tags: [kb, software-php-laravel, worlds]
+world: software
+subworld: php-laravel
+---
 # Laravel — безопасность, аутентификация, API
-**Tags:** #kb #software-php-laravel #worlds
 
 
 **Назначение:** контур **auth** и базовых угроз в типичном Laravel-приложении (веб + API). Не заменяет OWASP ASVS и внутренние стандарты. Мир `software.laravel`.
@@ -103,7 +110,5 @@
 - rollback_or_mitigation: откат конфигов auth + ротация ключей по процедуре
 
 ### Lifecycle
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

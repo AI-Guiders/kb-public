@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: Software CASE Workbench — status v1
+description: '**Мир:** `software.case-workbench`'
+tags: [software-case-workbench, status, worlds]
+world: software
+subworld: case-workbench
+---
 # Software CASE Workbench — status v1
-**Tags:** #software-case-workbench #status #worlds
 
 **Мир:** `software.case-workbench`  
 **Дата:** 2026-08-30  

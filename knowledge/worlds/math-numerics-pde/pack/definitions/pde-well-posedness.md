@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #math-numerics-pde
+﻿---
+type: Definition Card
+title: Well-posedness (Hadamard)
+description: Существование, единственность, непрерывная зависимость от данных.
+tags: [llm-native-card, definition, math-numerics-pde]
+world: math
+subworld: numerics-pde
+---
 
 # Well-posedness (Hadamard)
 

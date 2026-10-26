@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.biology**
+description: '**Идентификатор:** `pedagogy.biology`'
+tags: [pedagogy-biology, readme, worlds]
+world: pedagogy
+subworld: biology
+---
 # Мир **pedagogy.biology**
-**Tags:** #pedagogy-biology #readme #worlds
 
 
 **Идентификатор:** `pedagogy.biology`  

@@ -1,4 +1,11 @@
-**Tags:** #engineering-pml #map #worlds
+﻿---
+type: Map
+title: 'Карта чтения: engineering.pml (v1)'
+description: '**Цель:** Fundamentals → Playbook (домен PML; без путей репозитория и CI).'
+tags: [engineering-pml, map, worlds]
+world: engineering
+subworld: pml
+---
 
 ﻿# Карта чтения: engineering.pml (v1)
 

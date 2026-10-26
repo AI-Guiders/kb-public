@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: '`software.authoring.dotnet.tooling.roslyn` — компиляторная платформа'
+description: '**World tag:** `software.authoring.dotnet.tooling.roslyn` (**не** язык C#).'
+tags: [readme, software-dotnet-tooling-roslyn, worlds]
+world: software
+subworld: dotnet-tooling-roslyn
+---
 # `software.authoring.dotnet.tooling.roslyn` — компиляторная платформа
-**Tags:** #readme #software-dotnet-tooling-roslyn #worlds
 
 
 **World tag:** `software.authoring.dotnet.tooling.roslyn` (**не** язык C#).

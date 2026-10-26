@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Informatics pedagogy — fundamentals v1
+description: '**Мир:** `pedagogy.informatics`'
+tags: [kb, pedagogy-informatics, worlds]
+world: pedagogy
+subworld: informatics
+---
 # Informatics pedagogy — fundamentals v1
-**Tags:** #kb #pedagogy-informatics #worlds
 
 
 **Мир:** `pedagogy.informatics`  

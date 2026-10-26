@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'Agent foundation: physical layer vs semantic layer (orientation)'
+description: '**world:** `agent.orchestration`'
+tags: [agent-orchestration, kb, worlds]
+world: agent
+subworld: orchestration
+---
 # Agent foundation: physical layer vs semantic layer (orientation)
-**Tags:** #agent-orchestration #kb #worlds
 
 
 **world:** `agent.orchestration`  

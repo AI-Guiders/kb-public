@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: human perception — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [cognition-human-perception, living, playbook, worlds]
+world: cognition
+subworld: human-perception
+---
 # Playbook: human perception — troubleshooting
-**Tags:** #cognition-human-perception #living #playbook #worlds
 
 
 > **Контур:** A · kb-public  

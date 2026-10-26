@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: 'Evidence: McCloskey & Cohen (1989) — Catastrophic interference in connectionist networks'
+description: '*Версия: v1.0 · 2026-05-31 — full text (PLM 24:109–165)*'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# Evidence: McCloskey & Cohen (1989) — Catastrophic interference in connectionist networks
 
@@ -54,8 +61,6 @@
 - rollback_or_mitigation: не предполагать ту же степень для NCA — измерять (K5).
 
 ## Lifecycle
-- supersedes: —
-- superseded_by: —
 
 *Версия: v1.0 · 2026-05-31 — full text (PLM 24:109–165)*
 

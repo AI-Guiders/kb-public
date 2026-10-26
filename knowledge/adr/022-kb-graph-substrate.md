@@ -1,4 +1,4 @@
-# ADR 022: KB Graph Substrate v2 — structure IR, slices, SAT
+﻿# ADR 022: KB Graph Substrate v2 — structure IR, slices, SAT
 
 **Tags:** #adr #kb #graph #fsharp #agentnotes #sat #just-culture
 
@@ -209,7 +209,7 @@ AgentNotes.Modeling.Sat        — kb-sat observers
 - `work/projects/door-to-singularity/**` + flagged cross-links
 - public contour closure (contour o)
 - open blockers + inbound `Blocks` edges
-- epic E2 nodes без `leaf.done`
+- epic E2 nodes без `uow.done`
 
 ### 4. Structural SAT (kb-sat)
 

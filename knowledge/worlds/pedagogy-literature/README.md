@@ -1,5 +1,12 @@
+﻿---
+type: Index
+title: Мир **pedagogy.literature**
+description: '**Идентификатор:** `pedagogy.literature`'
+tags: [pedagogy-literature, readme, worlds]
+world: pedagogy
+subworld: literature
+---
 # Мир **pedagogy.literature**
-**Tags:** #pedagogy-literature #readme #worlds
 
 
 **Идентификатор:** `pedagogy.literature`  

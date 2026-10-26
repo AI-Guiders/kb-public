@@ -1,5 +1,14 @@
+﻿---
+type: Playbook
+title: Epistemic methods and calibration v1
+description: 'Тела секций epistemic/calibration/hpmor из `agent-notes.md`. L0 `epistemic-default-distrust-v1` — выше `public-cut`. Extended: `knowledge/epistemic-default-distrust-extended.md`.'
+tags: [knowledge-engineering, living, playbook, worlds]
+world: knowledge
+subworld: engineering
+status: stable
+sections: [calibration-playbook-14d-v1, epistemic-cognitive-failure-modes-v1, epistemic-daily-checklist-v1, epistemic-hpmor-heuristics-v1, epistemic-methodology-v1, epistemic-to-domain-bridge-v1, epistemic-to-it-bridge-v1, hpmor-l1-pool-v1]
+---
 # Epistemic methods and calibration v1
-**Tags:** #knowledge-engineering #living #playbook #worlds
 
 
 Тела секций epistemic/calibration/hpmor из `agent-notes.md`. L0 `epistemic-default-distrust-v1` — выше `public-cut`. Extended: `knowledge/epistemic-default-distrust-extended.md`.
@@ -8,7 +17,6 @@
 <!-- section:calibration-playbook-14d-v1 -->
 ## Calibration Playbook 14D (под нас) v1
 
-Статус: active
 Период: 14 дней
 Режим: lightweight, без бюрократии.
 

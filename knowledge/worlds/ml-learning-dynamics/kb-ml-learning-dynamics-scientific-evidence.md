@@ -1,4 +1,11 @@
-**Tags:** #kb #ml-learning-dynamics #worlds
+﻿---
+type: Evidence Card
+title: ML learning dynamics — scientific evidence index v1
+description: '**Roadmap (третья волна, ещё не извлечено):** French (1999) обзор catastrophic forgetting; Ratcliff (1990); Rohde & Plaut (1999) критика starting-small; Kumaran, Hassabis & McClelland (2016) CLS-update; Ebbinghaus (1885) первоисточник spacing.'
+tags: [kb, ml-learning-dynamics, worlds]
+world: ml
+subworld: learning-dynamics
+---
 
 ﻿# ML learning dynamics — scientific evidence index v1
 

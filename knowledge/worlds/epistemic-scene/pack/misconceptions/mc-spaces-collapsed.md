@@ -1,4 +1,10 @@
-**Tags:** #llm-native-card #misconception #epistemic-scene #cdp-adr-0002
+﻿---
+type: Misconception Card
+title: 'Misconception: mc-spaces-collapsed'
+tags: [llm-native-card, misconception, epistemic-scene, cdp-adr-0002]
+world: epistemic
+subworld: scene
+---
 
 # Misconception: mc-spaces-collapsed
 

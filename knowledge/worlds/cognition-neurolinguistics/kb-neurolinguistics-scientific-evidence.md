@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Neurolinguistics — scientific evidence index v1
+description: '*Версия: v1.1 · 2026-06-06 · post-2011 refresh layer added*'
+tags: [cognition-neurolinguistics, kb, worlds]
+world: cognition
+subworld: neurolinguistics
+---
 # Neurolinguistics — scientific evidence index v1
-**Tags:** #cognition-neurolinguistics #kb #worlds
 
 
 ## Metadata

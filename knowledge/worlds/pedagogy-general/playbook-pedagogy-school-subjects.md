@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Pedagogy school subjects — master router v1
+description: '**world:** `pedagogy.general`'
+tags: [living, pedagogy-general, playbook, worlds]
+world: pedagogy
+subworld: general
+---
 # Pedagogy school subjects — master router v1
-**Tags:** #living #pedagogy-general #playbook #worlds
 
 
 **world:** `pedagogy.general`

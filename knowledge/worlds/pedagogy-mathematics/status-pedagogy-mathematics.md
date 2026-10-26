@@ -1,5 +1,12 @@
+﻿---
+type: Status
+title: 'Status: pedagogy.mathematics v1'
+description: '**Домен:** математика — school instruction v1'
+tags: [pedagogy-mathematics, status, worlds]
+world: pedagogy
+subworld: mathematics
+---
 # Status: pedagogy.mathematics v1
-**Tags:** #pedagogy-mathematics #status #worlds
 
 
 **Домен:** математика — school instruction v1  

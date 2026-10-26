@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: ops.observability-network — troubleshooting'
+description: '> **Контур:** A · мир **ops.observability-network** · kb-public'
+tags: [living, ops-observability-network, playbook, worlds]
+world: ops
+subworld: observability-network
+---
 # Playbook: ops.observability-network — troubleshooting
-**Tags:** #living #ops-observability-network #playbook #worlds
 
 
 > **Контур:** A · мир **ops.observability-network** · kb-public  

@@ -1,5 +1,12 @@
+﻿---
+type: Evidence Card
+title: Global pedagogy — evidence synthesis v1
+description: '**world:** `pedagogy.general`'
+tags: [kb, pedagogy-general, worlds]
+world: pedagogy
+subworld: general
+---
 # Global pedagogy — evidence synthesis v1
-**Tags:** #kb #pedagogy-general #worlds
 
 
 **world:** `pedagogy.general`  

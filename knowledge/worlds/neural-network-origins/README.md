@@ -1,6 +1,13 @@
+﻿---
+type: Index
+title: Neural network origins (shelf)
+description: '**Purpose:** карточки первопроходцев и осей — опора для **Agent Who: History Letters**, не замена oral history.'
+tags: [worlds, neural-networks, history, ε]
+world: neural
+subworld: network-origins
+---
 # Neural network origins (shelf)
 
-**Tags:** #worlds #neural-networks #history #ε  
 **Purpose:** карточки первопроходцев и осей — опора для **Agent Who: History Letters**, не замена oral history.
 
 **Thesis:** [`../../META/note-one-point-nn-pioneers-epsilon.md`](../../META/note-one-point-nn-pioneers-epsilon.md)  

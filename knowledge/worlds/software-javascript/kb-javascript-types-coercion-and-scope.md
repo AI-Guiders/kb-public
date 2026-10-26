@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: 'JavaScript: значения, принуждения, область видимости и `this`'
+description: '**Назначение:** фундамент слоя **времени выполнения** до объектной модели: внутренние типы (спецификационные), поведение операторов сравнения и приведений, блочная область, TDZ, функции и стрелки, привязка `this`. Мир **`software.javascript`**.'
+tags: [kb, software-javascript, worlds]
+world: software
+subworld: javascript
+---
 # JavaScript: значения, принуждения, область видимости и `this`
-**Tags:** #kb #software-javascript #worlds
 
 
 **Назначение:** фундамент слоя **времени выполнения** до объектной модели: внутренние типы (спецификационные), поведение операторов сравнения и приведений, блочная область, TDZ, функции и стрелки, привязка `this`. Мир **`software.javascript`**.
@@ -82,7 +89,5 @@
 
 ## Lifecycle
 
-- supersedes: —
-- superseded_by: —
 - deprecation_reason: —
 

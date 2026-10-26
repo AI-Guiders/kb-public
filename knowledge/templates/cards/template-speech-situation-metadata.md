@@ -1,4 +1,19 @@
-**Tags:** #template #templates #speech-situation #pragmatics
+﻿---
+type: Template
+title: Speech situation metadata (карточки KB) v1
+description: Опциональный блок для **operational** карточек (playbook, note, personal self-report). Не заменяет fundamentals/evidence; не путать с **фундаментальным проходом** по риторике (первоисточники → evidence).
+tags: [template, templates, speech-situation, pragmatics]
+speech_situation:
+  audience: colleague
+  goal: operational_protocol
+  genre: playbook
+  channel: kb_canon
+  stakes: medium
+  distance: professional
+  when_citing_to_human:
+    audience: friend_tg
+    channel: tg
+---
 
 # Speech situation metadata (карточки KB) v1
 
@@ -17,9 +32,6 @@
 **Канон переноса контуров:** две строки (как в playbooks) — не одна «смешанная» ситуация:
 
 ```markdown
-**Speech situation (primary):** `audience=agent_internal` · … · `channel=kb_canon` · …
-**Speech situation (when citing to human):** `audience=friend_tg` · … · `channel=tg` · …
-**Speech situation (forbidden_moves):** …
 ```
 
 - **primary** — артефакт в KB (`kb_canon`, `internal_diary`, `agent_internal`).
@@ -41,7 +53,6 @@
 **Краткая форма (legacy, одна ситуация без переноса):**
 
 ```markdown
-**Speech situation (primary):** `audience=colleague` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=medium` · `distance=professional`
 ```
 
 **Не для KB-карточек:** YAML frontmatter в начале файла — удобно для экспорта JSONL, но ломает «скопировать с §1» и дублирует markdown; держать yaml в `scenarios/*.md` и dataset export, не в personal copypaste.

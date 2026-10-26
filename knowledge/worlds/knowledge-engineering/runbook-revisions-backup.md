@@ -1,5 +1,12 @@
+﻿---
+type: Runbook
+title: Revisions Backup Runbook v1
+description: Keep `.revisions/` out of canonical Git history while preserving recoverability.
+tags: [knowledge-engineering, runbook, worlds]
+world: knowledge
+subworld: engineering
+---
 # Revisions Backup Runbook v1
-**Tags:** #knowledge-engineering #runbook #worlds
 
 
 ## Goal

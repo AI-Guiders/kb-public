@@ -1,5 +1,12 @@
+﻿---
+type: KB
+title: Psychology Knowledge Set v1 (Cultural Adaptation Rules)
+description: 'Set: 18 cards.'
+tags: [kb, psychology-models, worlds]
+world: psychology
+subworld: models
+---
 # Psychology Knowledge Set v1 (Cultural Adaptation Rules)
-**Tags:** #kb #psychology-models #worlds
 
 
 Set: 18 cards.  

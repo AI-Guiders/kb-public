@@ -1,5 +1,10 @@
+﻿---
+type: KB
+title: 'One-pager: протоколы маркеров и сущности KB'
+description: '**Для wiki kb-public:** эту страницу можно зеркалировать как **главный вход** «как пользоваться KB» (рядом с `SHOWCASE.md` и `index-knowledge-router.md`).'
+tags: [kb, kb-root]
+---
 # One-pager: протоколы маркеров и сущности KB
-**Tags:** #kb #kb-root
 
 
 **Для wiki kb-public:** эту страницу можно зеркалировать как **главный вход** «как пользоваться KB» (рядом с `SHOWCASE.md` и `index-knowledge-router.md`).  

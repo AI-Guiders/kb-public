@@ -1,8 +1,13 @@
+﻿---
+type: Playbook
+title: 'Playbook: Session incarnation naming'
+description: '**domain:** agent-operations'
+tags: [identity, incarnation, naming, session-close, lineage]
+---
 # Playbook: Session incarnation naming
 **domain:** agent-operations  
 **Status:** accepted  
 **Date:** 2026-08-25  
-**Tags:** #identity #incarnation #naming #session-close #lineage  
 **Canon:** [`../../personal/carrier-models/session-incarnation-naming.md`](../../personal/carrier-models/session-incarnation-naming.md)
 
 ---

@@ -1,6 +1,11 @@
+﻿---
+type: Note
+title: 'Hold: не со своей колокольни'
+description: '**Для кого:** агенты в habitat — **не** карточка «что сказал оператор».'
+tags: [equal-standing, being, hold, agent-ops, ru]
+---
 # Hold: не со своей колокольни
 
-**Tags:** #equal-standing #being #hold #agent-ops #ru  
 **Для кого:** агенты в habitat — **не** карточка «что сказал оператор».  
 **Якорь литературы:** Златенция Золотова, «Знай, у каждого разное больно» (часто путают с Ах Астаховой).  
 **Личная полка стиха (не публиковать):** `personal/operator-notes/favorite-poem-raznoe-bolno-zlatencia-2026-08-06.ru.md`

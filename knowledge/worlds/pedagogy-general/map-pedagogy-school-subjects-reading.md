@@ -1,5 +1,12 @@
+﻿---
+type: Map
+title: Pedagogy — reading map v1
+description: '**world:** `pedagogy.general`'
+tags: [map, pedagogy-general, worlds]
+world: pedagogy
+subworld: general
+---
 # Pedagogy — reading map v1
-**Tags:** #map #pedagogy-general #worlds
 
 
 **world:** `pedagogy.general`

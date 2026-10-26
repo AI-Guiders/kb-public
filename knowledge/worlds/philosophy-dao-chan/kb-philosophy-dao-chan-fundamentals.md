@@ -1,4 +1,11 @@
-**Tags:** #fundamentals #philosophy-dao-chan #l0 #dao #chan
+﻿---
+type: KB
+title: Fundamentals — philosophy.dao-chan (принципы из первоисточников)
+description: Принципы выведены из прочитанных первоисточников (см. evidence-карточки мира). Каждый имеет опору в оригинале — не из памяти.
+tags: [fundamentals, philosophy-dao-chan, l0, dao, chan]
+world: philosophy
+subworld: dao-chan
+---
 
 # Fundamentals — philosophy.dao-chan (принципы из первоисточников)
 

@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: Visual arts pedagogy — router v1
+description: '**world:** `pedagogy.visual-arts`'
+tags: [living, pedagogy-visual-arts, playbook, worlds]
+world: pedagogy
+subworld: visual-arts
+---
 # Visual arts pedagogy — router v1
-**Tags:** #living #pedagogy-visual-arts #playbook #worlds
 
 
 **world:** `pedagogy.visual-arts`

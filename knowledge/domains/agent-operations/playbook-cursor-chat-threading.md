@@ -1,5 +1,10 @@
+﻿---
+type: Playbook
+title: 'Cursor: ветвление тредов и топики без CIDE'
+description: '**Domain:** `agent-operations`'
+tags: [agent-operations, domains, living, playbook]
+---
 # Cursor: ветвление тредов и топики без CIDE
-**Tags:** #agent-operations #domains #living #playbook
 
 
 **Domain:** `agent-operations`  

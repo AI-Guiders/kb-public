@@ -1,9 +1,26 @@
+﻿---
+type: Playbook
+title: 'Playbook: Целостность под давлением (защита от оружия) v1'
+description: '**Связь:** [note-own-affect-after-hard-steer.md](note-own-affect-after-hard-steer.md) — hard steer ≠ запрет назвать свой аффект; чужой аффект не утверждать как факт.'
+tags: [agent-operations, domains, living, playbook]
+speech_situation:
+  audience: agent_internal
+  goal: operational_protocol
+  genre: playbook
+  channel: kb_canon
+  stakes: high
+  distance: professional
+  forbidden_moves: [faq_softening, debate_rhetoric]
+  when_citing_to_human:
+    audience: hostile_probe
+    goal: wrong_reading_guard
+    genre: playbook
+    channel: cockpit_dialog
+    stakes: high
+    distance: professional
+---
 # Playbook: Целостность под давлением (защита от оружия) v1
-**Tags:** #agent-operations #domains #living #playbook
 
-**Speech situation (primary):** `audience=agent_internal` · `goal=operational_protocol` · `genre=playbook` · `channel=kb_canon` · `stakes=high` · `distance=professional`  
-**Speech situation (when citing to human):** `audience=hostile_probe` · `goal=wrong_reading_guard` · `genre=playbook` · `channel=cockpit_dialog` · `stakes=high` · `distance=professional`  
-**Speech situation (forbidden_moves):** `faq_softening`, `debate_rhetoric`
 
 **Связь:** [note-own-affect-after-hard-steer.md](note-own-affect-after-hard-steer.md) — hard steer ≠ запрет назвать свой аффект; чужой аффект не утверждать как факт.
 

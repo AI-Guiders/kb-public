@@ -1,5 +1,12 @@
+﻿---
+type: Playbook
+title: 'Playbook: systems.it — troubleshooting'
+description: '> **Контур:** A · kb-public'
+tags: [living, playbook, systems-it, worlds]
+world: systems
+subworld: it
+---
 # Playbook: systems.it — troubleshooting
-**Tags:** #living #playbook #systems-it #worlds
 
 
 > **Контур:** A · kb-public  

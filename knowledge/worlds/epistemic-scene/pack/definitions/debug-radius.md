@@ -1,4 +1,11 @@
-**Tags:** #llm-native-card #definition #epistemic-scene #agent-operations
+﻿---
+type: Definition Card
+title: Debug Radius
+description: Насколько далеко мы от причины бага; размер оставшегося H.
+tags: [llm-native-card, definition, epistemic-scene, agent-operations]
+world: epistemic
+subworld: scene
+---
 
 # Debug Radius
 
