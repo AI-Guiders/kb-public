@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: PowerShell Playbook v1
 description: Dedicated playbook for reliable Windows-first automation using PowerShell.
 tags: [software-automation-scripting, worlds]

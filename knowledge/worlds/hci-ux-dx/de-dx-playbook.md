@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: DE/DX Playbook v1
 description: Practical standards for developer effectiveness and sustainable delivery speed.
 tags: [hci-ux-dx, worlds]

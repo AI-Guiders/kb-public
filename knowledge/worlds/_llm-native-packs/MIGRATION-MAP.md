@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Map
 title: Migration map — KB prose → LLM-native definitions
 description: Не полный каталог 442 файлов. Priority seeds (2026-07-20).
 tags: [worlds, llm-ready, map]

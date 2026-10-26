@@ -3,6 +3,7 @@ type: Template
 title: CODEOWNERS — {REPO_GROUP}
 description: '* @{ORG_SLUG}/kb-maintainers'
 tags: [template, templates]
+subtype: org-kb-bootstrap-codeowners
 ---
 # CODEOWNERS — {REPO_GROUP}
 

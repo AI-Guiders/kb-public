@@ -5,6 +5,7 @@ description: '**Назначение:** короткий **пошаговый** 
 tags: [template, templates]
 world: template
 subworld: playbook-operational.md
+subtype: playbook-operational
 ---
 
 ﻿# Playbook: `<topic>` — operational v1 (template)

@@ -5,6 +5,7 @@ description: '**Имя файла:** `kb-<source-slug>-chapter-map.md`'
 tags: [template, templates]
 world: template
 subworld: kb-chapter-map.md
+subtype: kb-chapter-map
 ---
 
 ﻿# Chapter map: `<source title>` (template)

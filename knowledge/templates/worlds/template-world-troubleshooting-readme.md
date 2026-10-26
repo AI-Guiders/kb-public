@@ -5,6 +5,7 @@ description: '> **Контур:** A (world / kb-public). Операционны�
 tags: [template, templates]
 world: template
 subworld: world-troubleshooting-readme.md
+subtype: world-troubleshooting-readme
 ---
 # Troubleshooting — `<world-slug>` (шаблон README)
 

@@ -5,6 +5,7 @@ description: '**Идентификатор мира:** `<world.id>` (напр. `
 tags: [template, templates]
 world: template
 subworld: world-readme.md
+subtype: World README
 ---
 
 ﻿# Мир **`<world.id>`** (template)

@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: Linux Environments Playbook v1
 description: Project-independent playbook for reliable engineering and troubleshooting on Linux hosts.
 tags: [ops-host-environments, worlds]

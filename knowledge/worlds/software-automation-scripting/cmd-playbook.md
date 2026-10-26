@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: CMD Playbook v1
 description: Dedicated playbook for Windows CMD/batch automation in legacy and compatibility scenarios.
 tags: [software-automation-scripting, worlds]

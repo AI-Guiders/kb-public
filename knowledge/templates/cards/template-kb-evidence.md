@@ -3,6 +3,7 @@ type: Template
 title: KB evidence card template (kb-`<slug>`-evidence-v1)
 description: '**Имя файла:** `kb-<topic>-evidence.md` (в `knowledge/` или `worlds/<world>/`).'
 tags: [template, templates]
+subtype: Evidence Card
 ---
 
 ﻿# KB evidence card template (kb-`<slug>`-evidence-v1)

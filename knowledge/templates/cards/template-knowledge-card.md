@@ -3,6 +3,7 @@ type: Template
 title: Knowledge Card Template v1
 description: Универсальный каркас KB-единицы. Для evidence-карт (`kb-*-evidence-v1`) предпочтительнее [`template-kb-evidence.md`](template-kb-evidence.md) (Layer contract + Fundamentals).
 tags: [template, templates]
+subtype: Knowledge Card
 ---
 
 ﻿# Knowledge Card Template v1

@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: Information Management Playbook v1
 description: Project-independent domain base for engineering Information Management (IM).
 tags: [information-management, worlds]

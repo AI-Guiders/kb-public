@@ -3,6 +3,7 @@ type: Template
 title: Template — TaskKnowledge Analytics Card
 description: '**Контур:** TaskKnowledge (не KB-карточка).'
 tags: [template, templates]
+subtype: TaskKnowledge Analytics
 ---
 # Template — TaskKnowledge Analytics Card
 

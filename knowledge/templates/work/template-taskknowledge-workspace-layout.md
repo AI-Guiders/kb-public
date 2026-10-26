@@ -4,6 +4,7 @@ title: Template — TaskKnowledge workspace layout
 description: 'Экземпляр: **`{workspace}/.task-knowledge/`** (work store, не KB).'
 tags: [template, templates]
 sections: [id]
+subtype: TaskKnowledge Workspace Layout
 ---
 # Template — TaskKnowledge workspace layout
 

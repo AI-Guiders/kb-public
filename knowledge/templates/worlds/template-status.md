@@ -6,6 +6,7 @@ tags: [template, templates]
 world: template
 subworld: status.md
 sections: [optional-transfer-matrix]
+subtype: Status
 ---
 
 ﻿# Status: `<domain>` v1 (template)

@@ -5,6 +5,7 @@ description: '**Назначение:** самодостаточный опор�
 tags: [template, templates]
 world: template
 subworld: kb-fundamentals.md
+subtype: kb-fundamentals
 ---
 
 ﻿# KB fundamentals: `<topic>` v1 (template)

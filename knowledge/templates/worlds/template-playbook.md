@@ -5,6 +5,7 @@ description: (Зачем этот playbook; не заменяет status/kb.)
 tags: [template, templates]
 world: template
 subworld: playbook.md
+subtype: playbook
 ---
 
 ﻿# Playbook: `<topic>` v1 (template)

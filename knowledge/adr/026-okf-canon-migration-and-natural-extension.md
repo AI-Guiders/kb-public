@@ -202,6 +202,7 @@ As-built (проверено по `build-public-kb.ps1` / `KbAgentNotesPublished
 | `template-*` | Template |
 | карточки: knowledge / evidence / definition / misconception / project / sub-project / domain-note | Knowledge Card / Evidence Card / Definition Card / Misconception Card / Project Card / Sub-Project Card / Domain Note |
 | `agent-notes.md` | Hot Notes (§4) |
+| `onboarding-*` | Onboarding (вход агента в среду; оператор 2026-10-26: «не Course — онбординг по сути»; прецедент: `onboarding/` (корзина), симметрия agent-first-learn ↔ newcomer ↔ agent-onboarding) |
 | `META/environment-axioms`, `integrity-core`, `integrity-post-spec`, `awareness-*`, `provenance-contract` | **Meta Contract** (well-known paths; права и рамка агентов в среде; контур A — публичны) |
 | Контракты обслуживания: бюджеты L0+L1, retrieval-порядок, триггеры, freshness | **Maintenance Contract** (перенос из `KB-V2-CONTRACT.md` репо MCP — в бандл) |
 | Глоссарий операторских команд и терминов среды | **Glossary** (новый артефакт; seed — M2) |

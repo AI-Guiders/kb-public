@@ -3,6 +3,7 @@ type: Template
 title: Transfer matrix template (matrix-`<slug>`-v1)
 description: '**Имя файла:** `matrix-<domain-or-topic>-<purpose>.md` (обычно в `worlds/<world>/`).'
 tags: [template, templates]
+subtype: Transfer Matrix
 ---
 
 ﻿# Transfer matrix template (matrix-`<slug>`-v1)

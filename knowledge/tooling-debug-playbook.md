@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: Tooling and Debug Playbook v1 (редирект)
 description: '**Канон перенесён** в мир hci.ux-dx:'
 tags: [kb-root]

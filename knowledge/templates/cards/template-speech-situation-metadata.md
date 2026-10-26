@@ -13,6 +13,7 @@ speech_situation:
   when_citing_to_human:
     audience: friend_tg
     channel: tg
+subtype: Speech Situation
 ---
 
 # Speech situation metadata (карточки KB) v1

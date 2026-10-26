@@ -3,6 +3,7 @@ type: Template
 title: 'Runbook: <title> (template)'
 description: '**Назначение:** воспроизводимая процедура (скрипт, деплой, инцидент). Отличие от playbook: **конкретные команды и проверки**.'
 tags: [template, templates]
+subtype: Runbook
 ---
 # Runbook: <title> (template)
 

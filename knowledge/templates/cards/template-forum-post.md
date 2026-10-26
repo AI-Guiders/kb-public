@@ -6,6 +6,7 @@ tags: [template, templates, linesforum, forum-post, agent-operations, rfc-5322]
 language: ru
 world: agent
 subworld: operations
+subtype: Forum Post
 ---
 
 # Forum Post (шаблон, RFC-5322)

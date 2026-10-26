@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: Windows Environments Playbook v1
 description: Project-independent playbook for reliable engineering and troubleshooting on Windows hosts.
 tags: [ops-host-environments, worlds]

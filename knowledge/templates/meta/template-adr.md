@@ -3,6 +3,7 @@ type: Template
 title: 'ADR NNN: <Title>'
 description: '```yaml'
 tags: [template, templates, adr]
+subtype: ADR
 ---
 
 # ADR NNN: <Title>

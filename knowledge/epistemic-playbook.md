@@ -1,5 +1,5 @@
 ﻿---
-type: Note
+type: Playbook
 title: Epistemic Playbook v1
 description: 'General reasoning layer for any domain: IT, research, strategy, and communication.'
 tags: [kb-root]
